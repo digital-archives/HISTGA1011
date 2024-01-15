@@ -1,5 +1,5 @@
 ---
-title: Reproduction Requests
+title: EaaSI Emulator
 layout: default
 parent: Weekly Activities
 nav_order: 7
