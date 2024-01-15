@@ -1,8 +1,8 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Digital Archives - HIST-GA-1011
+description: Syllabus and course materials for Digital Archives - HIST-GA-1011 (Spring 2024)
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://digital-archives.github.io
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
