@@ -6,10 +6,26 @@ nav_order: 1
 has_children: true
 ---
 
-<a name="schedule"></a>
 ## Course Schedule
 
-### Week 1: January 24, 2024 - Course Introduction<br>
+### Table of Contents
+- [Week 1: Course Introduction](#week1)
+- [Week 2: Open Archival Information System (OAIS) Conceptual Model](#week2)
+- [Week 3: Digital Preservation Systems](#week3)
+- [Week 4: Digital Preservation Planning and Sustainability](#week4)
+- [Week 5: Preservation Metadata](#week5)
+- [Week 6: Digital collections and preservation labor](#week6)
+- [Week 7: Collection Development, Acquisition and Appraisal](#week7)
+- [Week 8: Digital Preservation Technical Skills](#week8)
+- [Week 9: NO CLASS - SPRING BREAK](#week9)
+- [Week 10: Born-digital archiving](#week10)
+- [Week 11: Software Preservation](#week11)
+- [Week 12: Web Archiving](#week12)
+- [Week 13: Moving Image and Audio Preservation](#week13)
+- [Week 14: Outreach and Access](#week14)
+- [Week 15: Final presentations](#week15)
+
+### Week 1: January 24, 2024 - Course Introduction<br> <a name="week1"></a>
 Link to slide deck [Update me]
 
 Due/asynchronous work:<br>
