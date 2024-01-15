@@ -1,3 +1,11 @@
+---
+title: Archivematica Sandbox
+layout: default
+parent: Weekly Activities
+nav_order: 1
+has_children: true
+---
+
 # Weekly Activity: Archivematica Sandbox
 
 ## Introduction
