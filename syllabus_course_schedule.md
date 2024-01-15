@@ -31,7 +31,7 @@ Link to slide deck [Update me]
 Due/asynchronous work:<br>
 * Sign up using this <a href="https://forms.gle/UDw6TjZdvrxQpkxq7" target="_blank">Google Form</a> for a file format for the <a href="/Assignments/file_format_report.md">File Format Report Assignment</a> by next week’s class (January 31, 2024).
 
-### Week 2: January 31, 2024 - Open Archival Information System (OAIS) Conceptual Model
+### Week 2: January 31, 2024 - Open Archival Information System (OAIS) Conceptual Model <a name="week2"></a>
 Link to slide deck [Update me]
 
 Due/asynchronous work:
@@ -47,7 +47,7 @@ Read:
 Skim:
 * CCSDS 650.0-M-2: Reference Model for an Open Archival Information System (OAIS). Magenta Book. June 2012. https://public.ccsds.org/publications/archive/650x0m2.pdf
 
-### Week 3: February 7, 2024 - Digital Preservation Systems
+### Week 3: February 7, 2024 - Digital Preservation Systems <a name="week3"></a>
 Link to slide deck [Update me]
 
 Due/asynchronous work:
@@ -66,6 +66,7 @@ Skim:
 * Trusted Digital Repository Document Checklist (2012) https://spotdocs.scholarsportal.info/display/OAIS/Document+Checklist
 * ISO16363 Audit Criteria (2012) https://spotdocs.scholarsportal.info/display/OAIS/ISO16363+Audit+Criteria
 
+<a name="week4"></a>
 ### Week 4: February 14, 2024 - Digital Preservation Planning and Sustainability
 
 Link to slide deck [Update me]
@@ -77,6 +78,7 @@ Due/asynchronous work:
 Read:
 * Keith Pendergrass, Walker Sampson, Tim Walsh, and Laura Alagna. "Toward environmentally sustainable digital preservation." The American Archivist 82, no. 1 (2019): 165-206. https://doi.org/10.17723/0360-9081-82.1.165
 
+<a name="week5"></a>
 ### Week 5: February 21, 2024 - Preservation Metadata
 Link to slide deck [Update me]
 
@@ -105,6 +107,7 @@ Skim these sites:
 * VRA Core: https://www.loc.gov/standards/vracore/
 * PB Core: https://pbcore.org/
 
+<a name="week6"></a>
 ### Week 6: February 28, 2024 - Digital collections and preservation labor
 Link to slide deck [update me]
 
@@ -122,6 +125,7 @@ Read:
 * United States. National Commission on Libraries Information Science. Mass Digitization : Implications for Information Policy. U.S. National Commission on Libraries and Information Sciences, 2006. https://www.govinfo.gov/content/pkg/GOVPUB-Y3_L61-907cd9e9ac40e9655537342513dab56c/pdf/GOVPUB-Y3_L61-907cd9e9ac40e9655537342513dab56c.pdf“
 * “Digitizing Entire Collections.” Archives of American Art. https://www.aaa.si.edu/documentation/digitizing-entire-collections (These are internal procedures for AAA, scan the documentation to get a sense of workflows and policies.)
 
+<a name="week7"></a>
 ### Week 7: March 6, 2024 - Collection Development, Acquisition and Appraisal
 Link to slide deck [update me]
 
@@ -143,6 +147,7 @@ Read:
 * Watch: Total Cost of Stewardship: Operational Impacts Estimator Tutorial https://www.youtube.com/watch?v=LBJ_kul9PN8
 Glance at: Total Cost of Stewardship: Responsible Collection Building in Archives and Special Collections https://www.oclc.org/content/dam/research/publications/2021/oclcresearch-total-cost-of-stewardship-a4.pdf
 
+<a name="week8"></a>
 ### Week 8: March 13 - Digital Preservation Technical Skills
 Link to slide deck [update me]
 
@@ -157,8 +162,10 @@ Read:
 * Colloton, Eddy. “THAT DAM PROJECT”. June 14, 2019. http://eddycolloton.com/blog/2019/1/10/that-dam-project
 * Potter, Abbey. “Automating Digital Archival Processing at Johns Hopkins University” May 9, 2017. https://blogs.loc.gov/thesignal/2017/05/automating-digital-archival-processing-at-johns-hopkins-university/
 
+<a name="week9"></a>
 ### Week 9: March 20, 2024 - NO CLASS - SPRING BREAK
 
+<a name="week10"></a>
 ### Week 10: March 27, 2024 - Born-digital archiving
 Link to slide deck [update me]
 
@@ -184,6 +191,7 @@ Digital Forensics/BitCurator:
 * Arroyo, Elvia. “Invisible Defaults and Perceived Limitations: Processing the Juan Gelman Files.” On Archivy,  Oct 30 2016, https://medium.com/on-archivy/invisible-defaults-and-perceived-limitations-processing-the-juan-gelman-files-4187fdd36759
 * Lee, C.A., Kirschenbaum, M., Chassanoff, A., Olsen, P., & Woods, K. (2012). “BitCurator: Tools and techniques for digital forensics in collecting institutions.” D-Lib Magazine (18: 5/6) https://dlib.org/dlib/may12/lee/05lee.html
 
+<a name="week11"></a>
 ### Week 11: April 3, 2024 - Software Preservation
 
 Link to slide deck [update me]
@@ -204,6 +212,7 @@ Read:
 * Katherine Fisher (2020) “Copyright and Preservation of Born-digital Materials: Persistent Challenges and Selected Strategies.”  The American Archivist (2020) 83 (2): 238–267. https://doi.org/10.17723/0360-9081-83.2.238
 * Noah Smith. 1AD. “Industry Resists Libraries’ Attempts to Hit ‘Save.’” Washington Post, The, Spring 2022. https://search-ebscohost-com.proxy.library.nyu.edu/login.aspx?direct=true&db=n5h&AN=wapo.17c507ce-73fa-11ec-8b0a-bcfab800c430&site=ehost-live. 
 
+<a name="week12"></a>
 ### Week 12: April 10, 2024 - Web Archiving
 Link to slide deck [update me]
 
@@ -225,6 +234,7 @@ Look through websites for:
 * Webrecorder: https://webrecorder.io/
 * Archive-It: https://archive-it.org/ and Wayback Machine: https://archive.org/web/
 
+<a name="week13"></a>
 ### Week 13: April 17, 2024 - Moving Image and Audio Preservation
 Link to slide deck [update me]
 
@@ -244,6 +254,7 @@ Read:
 * AVPreserve Guide to Codec: https://www.weareavp.com/wp-content/uploads/2017/07/AVPS_Codec_Primer.pdf
 * XFR Collective Dr. Tape-Love: https://xfrcollective.files.wordpress.com/2020/06/xfr-dr-tape-love_zine-2019.pdf
 
+<a name="week14"></a>
 ### Week 14: April 24, 2024 - Outreach and Access
 
 Due/asynchronous work:
@@ -261,6 +272,7 @@ Watch/review:
 * Linked Jazz. "About Linked Jazz: Exploring Archives Through Linked Open Data." Vimeo video, ca. 2013. Accessed July 2, 2023. https://vimeo.com/68308675.
 *  Play around with the Linked Jazz Network Visualization Tool: https://linkedjazz.org/network/
 
+<a name="week15"></a>
 ### Week 15: May 3 - Final presentations
 Due/asynchronous work:
 * Final presentation and project paper
