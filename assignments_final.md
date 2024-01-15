@@ -1,12 +1,12 @@
 ---
-title: File Format Report
+title: Final Project
 layout: default
 parent: Course Assignments
 nav_order: 2
 has_children: true
 ---
 
-# Final project - Digitization Project Abstract, Plan and Presentation: 30 points
+# Final Project - Digitization Project Abstract, Plan and Presentation: 30 points
 Abstract due (5 points): March [update me], 2024 (Week 6)<br>
 Project paper (20 points) and presentations (5 points) due: May 3, 2024 (Week 15)<br>
 Length for project paper: 10-12 pages of text plus visual mock-up, and additional appendices as needed.
