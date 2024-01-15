@@ -6,7 +6,7 @@ nav_order: 5
 has_children: true
 ---
 
-# QCTools Preservation Activity
+# QCTools Audio/Visual Preservation Weekly Activity
 
 ## Introduction
 
@@ -66,6 +66,6 @@ _Review the file’s metadata_
 
 Create a text document and share it with me in Brightspace. In it, include this information:
 
-- Aside from tracking, describe one other a/v “artifact” or issues you noticed with the picture or sound, noticed either by watching the video, and/or applying filters and/or looking over the metadata results alongside the QCTools Cheat Sheet.
+- Aside from tracking, describe one other a/v “artifact” or any other issues you noticed with the picture or sound, noticed either by watching the video, and/or applying filters and/or looking over the metadata results alongside the QCTools Cheat Sheet.
 
-- Answer: If you were performing this transfer yourself, how would you go about correcting or adjusting the video signal, and/or correcting the video post-transfer?
+- If you were performing this transfer yourself, how would you go about correcting or adjusting the video signal, and/or correcting the video post-transfer?
