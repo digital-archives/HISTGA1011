@@ -18,7 +18,7 @@ __Table of Contents__
 - [Guidelines and Expectations](#guidelines)
 - [Additional Assistance](#assistance)
 - [Textbook](#textbook)
-- [Course Schedule](#schedule)
+- [Course Schedule](https://digital-archives.github.io/HISTGA1011/syllabus_course_schedule.html)
 
 <a name="class-details"></a>
 ## Class details

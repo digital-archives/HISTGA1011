@@ -25,13 +25,15 @@ has_children: true
 - [Week 14: Outreach and Access](#week14)
 - [Week 15: Final presentations](#week15)
 
-### Week 1: January 24, 2024 - Course Introduction<br> <a name="week1"></a>
+<a name="week1"></a>
+### Week 1: January 24, 2024 - Course Introduction<br>
 Link to slide deck [Update me]
 
 Due/asynchronous work:<br>
 * Sign up using this <a href="https://forms.gle/UDw6TjZdvrxQpkxq7" target="_blank">Google Form</a> for a file format for the <a href="/Assignments/file_format_report.md">File Format Report Assignment</a> by next week’s class (January 31, 2024).
 
-### Week 2: January 31, 2024 - Open Archival Information System (OAIS) Conceptual Model <a name="week2"></a>
+<a name="week2"></a>
+### Week 2: January 31, 2024 - Open Archival Information System (OAIS) Conceptual Model
 Link to slide deck [Update me]
 
 Due/asynchronous work:
@@ -47,7 +49,8 @@ Read:
 Skim:
 * CCSDS 650.0-M-2: Reference Model for an Open Archival Information System (OAIS). Magenta Book. June 2012. https://public.ccsds.org/publications/archive/650x0m2.pdf
 
-### Week 3: February 7, 2024 - Digital Preservation Systems <a name="week3"></a>
+<a name="week3"></a>
+### Week 3: February 7, 2024 - Digital Preservation Systems
 Link to slide deck [Update me]
 
 Due/asynchronous work:
