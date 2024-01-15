@@ -3,7 +3,7 @@ title: METS and PREMIS Metadata
 layout: default
 parent: Weekly Activities
 nav_order: 2
-has_children: true
+has_children: false
 ---
 
 # Weekly Activity: METS and PREMIS Metadata Exercise

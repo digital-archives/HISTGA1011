@@ -3,7 +3,7 @@ title: Course Schedule
 layout: default
 parent: Syllabus
 nav_order: 1
-has_children: true
+has_children: false
 ---
 
 ## Course Schedule

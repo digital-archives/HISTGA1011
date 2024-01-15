@@ -3,7 +3,7 @@ title: Corrupting a Bitstream
 layout: default
 parent: Weekly Activities
 nav_order: 3
-has_children: true
+has_children: false
 ---
 
 # Weekly Activity: Corrupting a Bitstream
