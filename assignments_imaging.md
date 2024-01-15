@@ -1,3 +1,11 @@
+---
+title: Imaging and Conservation Review
+layout: default
+parent: Course Assignments
+nav_order: 3
+has_children: true
+---
+
 # Imaging and Conservation Review 
 
 Group Report and Individual Reflection
