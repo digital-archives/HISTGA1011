@@ -3,7 +3,7 @@ title: Fixity and Digital Packages
 layout: default
 parent: Weekly Activities
 nav_order: 9
-has_children: true
+has_children: false
 ---
 
 # Classroom Activity: Exploring Fixity and Digital Packages
