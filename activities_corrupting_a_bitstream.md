@@ -1,5 +1,5 @@
 ---
-title: METS and PREMIS Metadata
+title: Corrupting a Bitstream
 layout: default
 parent: Weekly Activities
 nav_order: 3
