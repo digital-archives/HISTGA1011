@@ -1,7 +1,7 @@
 ---
 title: Course Assignment Details
 layout: default
-parent: Syllabus
+parent: Grading
 nav_order: 3
 has_children: false
 ---
