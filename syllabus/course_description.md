@@ -1,5 +1,5 @@
 ---
-title: Course Details
+title: Course Description
 layout: default
 parent: Syllabus
 nav_order: 1
