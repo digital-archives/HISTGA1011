@@ -6,9 +6,9 @@ nav_order: 2
 has_children: false
 ---
 
-## Course Schedule
+# Course Schedule
 
-### Table of Contents
+## Table of Contents
 - [Week 1: Course Introduction](#week1)
 - [Week 2: Open Archival Information System (OAIS) Conceptual Model](#week2)
 - [Week 3: Digital Preservation Systems](#week3)
