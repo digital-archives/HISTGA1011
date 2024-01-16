@@ -43,8 +43,6 @@ Due/asynchronous work:
 
 Read:
 * Owens, Trevor. The Theory and Craft of Digital Preservation. 2018.
-* McDonough, Jerome P. “‘Knee-Deep in the Data’: Practical Problems in Applying the OAIS Reference Model to the Preservation of Computer Games.” Proceedings of the 45th Hawaii International Conference on System Sciences (2012). <a href="https://www.computer.org/csdl/proceedings/hicss/2012/4525/00/4525b625.pdf" target="blank">https://www.computer.org/csdl/proceedings/hicss/2012/4525/00/4525b625.pdf</a>
-* Lorraine L. Richards (2016) Teaching Data Creators How to Develop an OAIS-Compliant Digital Curation System: Colearning and Breakdowns in Support of Requirements Analysis. The American Archivist: Fall/Winter 2016, Vol. 79, No. 2, pp. 371-391. https://doi.org/10.17723/0360-9081-79.2.371
 
 Skim:
 * CCSDS 650.0-M-2: Reference Model for an Open Archival Information System (OAIS). Magenta Book. June 2012. https://public.ccsds.org/publications/archive/650x0m2.pdf
@@ -59,6 +57,8 @@ Due/asynchronous work:
 * During/Post-class activity: Archivematica Sandbox. Submit activity summary to Brightspace by Sunday, February 11, 2024.
 
 Read:
+* McDonough, Jerome P. “‘Knee-Deep in the Data’: Practical Problems in Applying the OAIS Reference Model to the Preservation of Computer Games.” Proceedings of the 45th Hawaii International Conference on System Sciences (2012). <a href="https://www.computer.org/csdl/proceedings/hicss/2012/4525/00/4525b625.pdf" target="blank">https://www.computer.org/csdl/proceedings/hicss/2012/4525/00/4525b625.pdf</a>
+* Lorraine L. Richards (2016) Teaching Data Creators How to Develop an OAIS-Compliant Digital Curation System: Colearning and Breakdowns in Support of Requirements Analysis. The American Archivist: Fall/Winter 2016, Vol. 79, No. 2, pp. 371-391. https://doi.org/10.17723/0360-9081-79.2.371
 * Wu, Annie, Santi Thompson, Rachel Vacek, Sean Watkins, and Andrew Weidner. "Hitting the Road towards a Greater Digital Destination: Evaluating and Testing DAMS at University of Houston Libraries." Information Technology and Libraries 35.2 (2016): 5-18. https://www.researchgate.net/publication/304713695_Hitting_the_Road_towards_a_Greater_Digital_Destination_Evaluating_and_Testing_DAMS_at_the_University_of_Houston_Libraries
 * O’Meara, Erin, and Meg Tuomala. 2012. “Finding Balance Between Archival Principles and Real-Life Practices in an Institutional Repository”. Archivaria 73 (April), 81-103. https://archivaria-ca.proxy.library.nyu.edu/index.php/archivaria/article/view/13385.
 * O’Meara, Erin and Stratton, Kate. “Module 13: Digital Preservation Storage.” Digital Preservation Essentials. (2016). https://www2.archivists.org/sites/all/files/Module_13_CaseStudies_OMeara-Stratton.pdf
