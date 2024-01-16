@@ -30,7 +30,7 @@ has_children: false
 Link to slide deck [Update me]
 
 Due/asynchronous work:<br>
-* Sign up using this <a href="https://forms.gle/UDw6TjZdvrxQpkxq7" target="_blank">Google Form</a> for a file format for the <a href="/Assignments/file_format_report.md">File Format Report Assignment</a> by next week’s class (January 31, 2024).
+* Sign up using this <a href="https://forms.gle/UDw6TjZdvrxQpkxq7" target="_blank">Google Form</a> for a file format for the <a href="https://digital-archives.github.io/HISTGA1011/assignments/file_format.html">File Format Report Assignment</a> by next week’s class.
 
 <a name="week2"></a>
 ### Week 2: January 31, 2024 - Open Archival Information System (OAIS) Conceptual Model
