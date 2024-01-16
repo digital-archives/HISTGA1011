@@ -2,7 +2,7 @@
 title: Course Assignment Details
 layout: default
 parent: Grading
-nav_order: 3
+nav_order: 1
 has_children: false
 ---
 ## Assignment Details
