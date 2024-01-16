@@ -45,7 +45,7 @@ Read:
 * Owens, Trevor. The Theory and Craft of Digital Preservation. 2018.
 
 Skim:
-* CCSDS 650.0-M-2: Reference Model for an Open Archival Information System (OAIS). Magenta Book. June 2012. https://public.ccsds.org/publications/archive/650x0m2.pdf
+* CCSDS 650.0-M-2: Reference Model for an Open Archival Information System (OAIS). Magenta Book. June 2012. <a href="https://public.ccsds.org/publications/archive/650x0m2.pdf" target="_blank">https://public.ccsds.org/publications/archive/650x0m2.pdf</a>
 
 <a name="week3"></a>
 ### Week 3: February 7, 2024 - Digital Preservation Systems
