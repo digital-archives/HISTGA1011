@@ -2,9 +2,10 @@
 title: Course Assignment Details
 layout: default
 parent: Grading
+grand_parent: Syllabus
 nav_order: 1
-has_children: false
 ---
+
 ## Assignment Details
 
 ### Participation: 30 points
