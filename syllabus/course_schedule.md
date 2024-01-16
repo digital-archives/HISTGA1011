@@ -37,7 +37,7 @@ Due/asynchronous work:<br>
 Link to slide deck [Update me]
 
 Due/asynchronous work:
-* Sign up using this <a href="https://forms.gle/UDw6TjZdvrxQpkxq7" target="_blank">Google Form</a> for a file format for the <a href="/Assignments/file_format_report.md">File Format Report Assignment</a>
+* Sign up using this <a href="https://forms.gle/UDw6TjZdvrxQpkxq7" target="_blank">Google Form</a> for a file format for the <a href="https://digital-archives.github.io/HISTGA1011/assignments/file_format.html">File Format Report Assignment</a>
 * Post your pre-class reading reactions to Brightspace.
 * During/post-class activity: BagIt Tutorial and Exercise. Submit your completed exercise through Brightspace by Sunday, February 4, 2024.
 
