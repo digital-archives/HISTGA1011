@@ -13,7 +13,6 @@ __Table of Contents__
 - [Class Details](#class-details)
 - [Course Description](#course-description)
 - [Learning Objectives](#learning-objectives)
-- [Grading - Points Breakdown](#breakdown)
 - [Assignment Details](#details)
 - [Guidelines and Expectations](#guidelines)
 - [Additional Assistance](#assistance)
