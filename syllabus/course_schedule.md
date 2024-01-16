@@ -52,15 +52,13 @@ Skim:
 Link to slide deck [Update me]
 
 Due/asynchronous work:
-* Assignment due: [File Format Report](/Assignments/file_format_report.md)
+* Assignment due: <a href="https://digital-archives.github.io/HISTGA1011/assignments/file_format.html">File Format Report Assignment</a>
 * Post your pre-class reading reactions to Brightspace.
-* During/Post-class activity: Archivematica Sandbox. Submit activity summary to Brightspace by Sunday, February 11, 2024.
+* Weekly activity: Archivematica Sandbox. Submit activity summary to Brightspace by Sunday, February 11, 2024.
 
 Read:
 * McDonough, Jerome P. “‘Knee-Deep in the Data’: Practical Problems in Applying the OAIS Reference Model to the Preservation of Computer Games.” Proceedings of the 45th Hawaii International Conference on System Sciences (2012). <a href="https://www.computer.org/csdl/proceedings/hicss/2012/4525/00/4525b625.pdf" target="blank">https://www.computer.org/csdl/proceedings/hicss/2012/4525/00/4525b625.pdf</a>
-* Lorraine L. Richards (2016) Teaching Data Creators How to Develop an OAIS-Compliant Digital Curation System: Colearning and Breakdowns in Support of Requirements Analysis. The American Archivist: Fall/Winter 2016, Vol. 79, No. 2, pp. 371-391. https://doi.org/10.17723/0360-9081-79.2.371
 * Wu, Annie, Santi Thompson, Rachel Vacek, Sean Watkins, and Andrew Weidner. "Hitting the Road towards a Greater Digital Destination: Evaluating and Testing DAMS at University of Houston Libraries." Information Technology and Libraries 35.2 (2016): 5-18. https://www.researchgate.net/publication/304713695_Hitting_the_Road_towards_a_Greater_Digital_Destination_Evaluating_and_Testing_DAMS_at_the_University_of_Houston_Libraries
-* O’Meara, Erin, and Meg Tuomala. 2012. “Finding Balance Between Archival Principles and Real-Life Practices in an Institutional Repository”. Archivaria 73 (April), 81-103. https://archivaria-ca.proxy.library.nyu.edu/index.php/archivaria/article/view/13385.
 * O’Meara, Erin and Stratton, Kate. “Module 13: Digital Preservation Storage.” Digital Preservation Essentials. (2016). https://www2.archivists.org/sites/all/files/Module_13_CaseStudies_OMeara-Stratton.pdf
 * Eckard, Max, Pillen, Dallas, Shallcross, Mike. “Bridging Technologies to Efficiently Arrange and Describe Digital Archives: the Bentley Historical Library’s ArchivesSpace-Archivematica-DSpace Workflow Integration Project.” Code4lib Journal: Issue 35, 2017-01-30. https://journal.code4lib.org/articles/12105
 * Research Libraries Group. Trusted Digital Repositories: Attributes and Responsibilities (2002) https://www.oclc.org/content/dam/research/activities/trustedrep/repositories.pdf
