@@ -3,7 +3,7 @@ title: Grading
 layout: default
 parent: Syllabus
 nav_order: 1
-has_children: false
+has_children: true
 ---
 
 # Grading - Points Breakdown
