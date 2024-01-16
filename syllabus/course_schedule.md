@@ -37,13 +37,13 @@ Due/asynchronous work:<br>
 Link to slide deck [Update me]
 
 Due/asynchronous work:
-* Sign up using this [Google Form](https://forms.gle/UDw6TjZdvrxQpkxq7) for a file format for the [File Format Report Assignment](/Assignments/file_format_report.md)
+* Sign up using this <a href="https://forms.gle/UDw6TjZdvrxQpkxq7" target="_blank">Google Form</a> for a file format for the <a href="/Assignments/file_format_report.md">File Format Report Assignment</a>
 * Post your pre-class reading reactions to Brightspace.
 * During/post-class activity: BagIt Tutorial and Exercise. Submit your completed exercise through Brightspace by Sunday, February 4, 2024.
 
 Read:
 * Owens, Trevor. The Theory and Craft of Digital Preservation. 2018.
-* McDonough, Jerome P. “‘Knee-Deep in the Data’: Practical Problems in Applying the OAIS Reference Model to the Preservation of Computer Games.” Proceedings of the 45th Hawaii International Conference on System Sciences (2012). https://www.computer.org/csdl/proceedings/hicss/2012/4525/00/4525b625.pdf
+* McDonough, Jerome P. “‘Knee-Deep in the Data’: Practical Problems in Applying the OAIS Reference Model to the Preservation of Computer Games.” Proceedings of the 45th Hawaii International Conference on System Sciences (2012). <a href="https://www.computer.org/csdl/proceedings/hicss/2012/4525/00/4525b625.pdf" target="blank">https://www.computer.org/csdl/proceedings/hicss/2012/4525/00/4525b625.pdf</a>
 * Lorraine L. Richards (2016) Teaching Data Creators How to Develop an OAIS-Compliant Digital Curation System: Colearning and Breakdowns in Support of Requirements Analysis. The American Archivist: Fall/Winter 2016, Vol. 79, No. 2, pp. 371-391. https://doi.org/10.17723/0360-9081-79.2.371
 
 Skim:
