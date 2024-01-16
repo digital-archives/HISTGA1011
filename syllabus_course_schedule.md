@@ -1,5 +1,5 @@
 ---
-title: Course Schedule
+title: Course Schedule & Readings
 layout: default
 parent: Syllabus
 nav_order: 1
