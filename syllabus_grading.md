@@ -1,3 +1,11 @@
+---
+title: Grading
+layout: default
+parent: Syllabus
+nav_order: 1
+has_children: false
+---
+
 # Grading - Points Breakdown
 
 Participation (30 points):
