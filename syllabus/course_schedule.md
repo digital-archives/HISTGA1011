@@ -46,6 +46,8 @@ Read:
 
 Skim:
 * CCSDS 650.0-M-2: Reference Model for an Open Archival Information System (OAIS). Magenta Book. June 2012. <a href="https://public.ccsds.org/publications/archive/650x0m2.pdf" target="_blank">https://public.ccsds.org/publications/archive/650x0m2.pdf</a>
+* Trusted Digital Repository Document Checklist (2012) <a href="https://spotdocs.scholarsportal.info/display/OAIS/Document+Checklist" target="_blank">https://spotdocs.scholarsportal.info/display/OAIS/Document+Checklist</a>
+* ISO16363 Audit Criteria (2012) <a href="https://spotdocs.scholarsportal.info/display/OAIS/ISO16363+Audit+Criteria" target="_blank">https://spotdocs.scholarsportal.info/display/OAIS/ISO16363+Audit+Criteria</a>
 
 <a name="week3"></a>
 ### Week 3: February 7, 2024 - Digital Preservation Systems
@@ -58,14 +60,9 @@ Due/asynchronous work:
 
 Read:
 * McDonough, Jerome P. “‘Knee-Deep in the Data’: Practical Problems in Applying the OAIS Reference Model to the Preservation of Computer Games.” Proceedings of the 45th Hawaii International Conference on System Sciences (2012). <a href="https://www.computer.org/csdl/proceedings/hicss/2012/4525/00/4525b625.pdf" target="blank">https://www.computer.org/csdl/proceedings/hicss/2012/4525/00/4525b625.pdf</a>
-* Wu, Annie, Santi Thompson, Rachel Vacek, Sean Watkins, and Andrew Weidner. "Hitting the Road towards a Greater Digital Destination: Evaluating and Testing DAMS at University of Houston Libraries." Information Technology and Libraries 35.2 (2016): 5-18. https://www.researchgate.net/publication/304713695_Hitting_the_Road_towards_a_Greater_Digital_Destination_Evaluating_and_Testing_DAMS_at_the_University_of_Houston_Libraries
-* O’Meara, Erin and Stratton, Kate. “Module 13: Digital Preservation Storage.” Digital Preservation Essentials. (2016). https://www2.archivists.org/sites/all/files/Module_13_CaseStudies_OMeara-Stratton.pdf
-* Eckard, Max, Pillen, Dallas, Shallcross, Mike. “Bridging Technologies to Efficiently Arrange and Describe Digital Archives: the Bentley Historical Library’s ArchivesSpace-Archivematica-DSpace Workflow Integration Project.” Code4lib Journal: Issue 35, 2017-01-30. https://journal.code4lib.org/articles/12105
-* Research Libraries Group. Trusted Digital Repositories: Attributes and Responsibilities (2002) https://www.oclc.org/content/dam/research/activities/trustedrep/repositories.pdf
-
-Skim:
-* Trusted Digital Repository Document Checklist (2012) https://spotdocs.scholarsportal.info/display/OAIS/Document+Checklist
-* ISO16363 Audit Criteria (2012) https://spotdocs.scholarsportal.info/display/OAIS/ISO16363+Audit+Criteria
+* Wu, Annie, Santi Thompson, Rachel Vacek, Sean Watkins, and Andrew Weidner. "Hitting the Road towards a Greater Digital Destination: Evaluating and Testing DAMS at University of Houston Libraries." Information Technology and Libraries 35.2 (2016): 5-18. <a href="https://www.researchgate.net/publication/304713695_Hitting_the_Road_towards_a_Greater_Digital_Destination_Evaluating_and_Testing_DAMS_at_the_University_of_Houston_Libraries" target="_blank">https://www.researchgate.net/publication/304713695_Hitting_the_Road_towards_a_Greater_Digital_Destination_Evaluating_and_Testing_DAMS_at_the_University_of_Houston_Libraries</a>
+* O’Meara, Erin and Stratton, Kate. “Module 13: Digital Preservation Storage.” Digital Preservation Essentials. (2016). <a href="https://www2.archivists.org/sites/all/files/Module_13_CaseStudies_OMeara-Stratton.pdf" target="_blank">https://www2.archivists.org/sites/all/files/Module_13_CaseStudies_OMeara-Stratton.pdf</a>
+* Eckard, Max, Pillen, Dallas, Shallcross, Mike. “Bridging Technologies to Efficiently Arrange and Describe Digital Archives: the Bentley Historical Library’s ArchivesSpace-Archivematica-DSpace Workflow Integration Project.” Code4lib Journal: Issue 35, 2017-01-30. <a href="https://journal.code4lib.org/articles/12105" target="_blank">https://journal.code4lib.org/articles/12105</a>
 
 <a name="week4"></a>
 ### Week 4: February 14, 2024 - Digital Preservation Planning and Sustainability
