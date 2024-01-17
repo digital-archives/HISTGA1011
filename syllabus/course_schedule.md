@@ -164,25 +164,17 @@ Link to slide deck [update me]
 
 Due/asynchronous work:
 * Post your pre-class reading reactions to Brightspace.
-* During/Post Class Activity: Corrupting a Bitstream Exercise. Submit your findings to Brightspace by Sunday, March 26.
+* During/Post Class Activity: Corrupting a Bitstream Exercise. Submit your activity summary to Brightspace.
 
 Read:
-* Wilsey, Laura, et al. “Capturing and Processing Born-Digital Files in the STOP AIDS Project Records: A Case Study.” Journal of Western Archives, vol. 4, no. 1, Apr. 2013, https://digitalcommons.usu.edu/westernarchives/vol4/iss1/1/.
-* Libraries, University of California Systemwide. UC Guidelines for Born-Digital Archival Description. Oct. 2017. escholarship.org, https://escholarship.org/uc/item/9cg222jc.
-* Tammi Kim; Karla Irwin. “Learning from Las Vegas: Adapting Workflows for Managing Born-Digital Design Records.”  The American Archivist (2021) 84 (2): 355–373. https://doi.org/10.17723/0360-9081-84.2.355
-* J. Schneider, C. Adams, S. DeBauche, R. Echols, C. McKean, J. Moran & D. Waugh (2019) Appraising, processing, and providing access to email in contemporary literary archives, Archives and Manuscripts, 47:3, 305-326, https://publications.archivists.org.au/index.php/asa/article/view/10297/10329
-* Jacquarie, C., Berdini, A., Peltzman, S., & Tasker, K. (2018). Describing Digital: The Design and Creation of a Born-Digital Archival Description Standard at the University of California Libraries. Journal of Western Archives, 9(1), 1-24. Retrieved from https://digitalcommons.usu.edu/westernarchives/vol9/iss1/10/
-* Durno, John, Trofimchuk, Jerry. “Digital forensics on a shoestring: a case study from the University of Victoria.” Code4lib Journal: Issue 27, 2015-01-21. https://journal.code4lib.org/articles/10279
-* Erway, Ricky. 2012. You’ve Got to Walk Before You Can Run: First Steps for Managing BornDigital Content Received on Physical Media. Dublin, Ohio: OCLC Research. https://www.oclc.z s org/research/publications/library/2012/2012-06.pdf. 
-* Gentry, Steven. “SAA 2019 recap | Session 204: Demystifying the Digital: Providing User Access to Born-Digital Records in Varying Contexts”. bloggERS! https://saaers.wordpress.com/2019/10/08/saa-2019-recap-session-204-demystifying-the-digital-providing-user-access-to-born-digital-records-in-varying-contexts/
-
-Open-Source Software Evaluation:
-* Wheeler, David. “How to Evaluate Open Source Software / Free Software (OSS/FS) Programs” (2011) https://www.dwheeler.com/oss_fs_eval.html
-
-Digital Forensics/BitCurator:
-* Knight, Gareth. (2012) “The Forensic Curator: Digital Forensics as a Solution to Addressing the Curatorial Challenges Posed by Personal Digital Archives.” The International Journal of Digital Curation (7:2) http://www.ijdc.net/article/view/218/287 
-* Arroyo, Elvia. “Invisible Defaults and Perceived Limitations: Processing the Juan Gelman Files.” On Archivy,  Oct 30 2016, https://medium.com/on-archivy/invisible-defaults-and-perceived-limitations-processing-the-juan-gelman-files-4187fdd36759
-* Lee, C.A., Kirschenbaum, M., Chassanoff, A., Olsen, P., & Woods, K. (2012). “BitCurator: Tools and techniques for digital forensics in collecting institutions.” D-Lib Magazine (18: 5/6) https://dlib.org/dlib/may12/lee/05lee.html
+* Wilsey, Laura, et al. “Capturing and Processing Born-Digital Files in the STOP AIDS Project Records: A Case Study.” Journal of Western Archives, vol. 4, no. 1, Apr. 2013, <a href="https://digitalcommons.usu.edu/westernarchives/vol4/iss1/1/" target="_blank">https://digitalcommons.usu.edu/westernarchives/vol4/iss1/1/</a>
+* Libraries, University of California Systemwide. UC Guidelines for Born-Digital Archival Description. Oct. 2017. <a href="https://escholarship.org/uc/item/9cg222jc" target="_blank">https://escholarship.org/uc/item/9cg222jc</a>
+* Tammi Kim; Karla Irwin. “Learning from Las Vegas: Adapting Workflows for Managing Born-Digital Design Records." The American Archivist (2021) 84 (2): 355–373. <a href="https://doi.org/10.17723/0360-9081-84.2.355" target="_blank">https://doi.org/10.17723/0360-9081-84.2.355</a>
+* J. Schneider, C. Adams, S. DeBauche, R. Echols, C. McKean, J. Moran & D. Waugh (2019) Appraising, processing, and providing access to email in contemporary literary archives, Archives and Manuscripts, 47:3, 305-326, <a href="https://publications.archivists.org.au/index.php/asa/article/view/10297/10329" target="_blank">https://publications.archivists.org.au/index.php/asa/article/view/10297/10329</a>
+* Jacquarie, C., Berdini, A., Peltzman, S., & Tasker, K. (2018). Describing Digital: The Design and Creation of a Born-Digital Archival Description Standard at the University of California Libraries. Journal of Western Archives, 9(1), 1-24. Retrieved from <a href="https://digitalcommons.usu.edu/westernarchives/vol9/iss1/10/" target="_blank">https://digitalcommons.usu.edu/westernarchives/vol9/iss1/10/</a>
+* Durno, John, Trofimchuk, Jerry. “Digital forensics on a shoestring: a case study from the University of Victoria.” Code4lib Journal: Issue 27, 2015-01-21. <a href="https://journal.code4lib.org/articles/10279" target="_blank">https://journal.code4lib.org/articles/10279</a>
+* Gentry, Steven. “SAA 2019 recap | Session 204: Demystifying the Digital: Providing User Access to Born-Digital Records in Varying Contexts”. bloggERS! <a href="https://saaers.wordpress.com/2019/10/08/saa-2019-recap-session-204-demystifying-the-digital-providing-user-access-to-born-digital-records-in-varying-contexts/" target="_blank">https://saaers.wordpress.com/2019/10/08/saa-2019-recap-session-204-demystifying-the-digital-providing-user-access-to-born-digital-records-in-varying-contexts/</a>
+* Arroyo, Elvia. “Invisible Defaults and Perceived Limitations: Processing the Juan Gelman Files.” On Archivy,  Oct 30 2016, <a href="https://medium.com/on-archivy/invisible-defaults-and-perceived-limitations-processing-the-juan-gelman-files-4187fdd36759" target="_blank">https://medium.com/on-archivy/invisible-defaults-and-perceived-limitations-processing-the-juan-gelman-files-4187fdd36759</a>
 
 <a name="week11"></a>
 ### Week 11: April 3, 2024 - Software Preservation
