@@ -71,10 +71,10 @@ Link to slide deck [Update me]
 
 Due/asynchronous work:
 * Post your pre-class reading reactions to Brightspace.
-* During/post-class activity: POWRR 3-3-3 Action Plan. Submit your plan to Brightspace by February 12.
+* During/post-class activity: Bagger: Fixity and Digital Packages. Submit your activity results to Brightspace.
 
 Read:
-* Keith Pendergrass, Walker Sampson, Tim Walsh, and Laura Alagna. "Toward environmentally sustainable digital preservation." The American Archivist 82, no. 1 (2019): 165-206. https://doi.org/10.17723/0360-9081-82.1.165
+* Keith Pendergrass, Walker Sampson, Tim Walsh, and Laura Alagna. "Toward environmentally sustainable digital preservation." The American Archivist 82, no. 1 (2019): 165-206. <a href="https://doi.org/10.17723/0360-9081-82.1.165" target="_blank">https://doi.org/10.17723/0360-9081-82.1.165</a>
 
 <a name="week5"></a>
 ### Week 5: February 21, 2024 - Preservation Metadata
@@ -82,21 +82,18 @@ Link to slide deck [Update me]
 
 Due dates/asynchronous work:
 * Post your pre-class reading reactions to Brightspace.
-* During/post-class activity: PREMIS in METS Metadata Exercise. Submit your annotated XML file in Brightspace by Sunday, February 26.
+* During/post-class activity: METS and PREMIS Metadata. Submit your annotated XML file in Brightspace.
 
 Read:
-* Force, Donald C., and Randy Smith. "Context Lost: Digital Surrogates, Their Physical Counterparts, and the Metadata that Is Keeping Them Apart." _The American Archivist_ 84, no. 1 (2021): 91–118. https://drive.google.com/drive/folders/1fOKFI3HpMALQARiz0R9ip-4uPP95LRb2
-* Zhang, Jane, and Dayne Mauney. “When Archival Description Meets Digital Object Metadata: A Typological Study of Digital Archival Representation.” The American Archivist, vol. 76, no. 1, 2013, pp. 174–195. https://americanarchivist.org/doi/pdf/10.17723/aarc.76.1.121u85342062w155 
-* Guenther, Rebecca S. (2008) “Battle of the Buzzwords Flexibility vs. Interoperability When Implementing PREMIS in METS,” D‐Lib Magazine 14 (7/8). https://www.dlib.org/dlib/july08/guenther/07guenther.html
-* Elings, Mary, and Gunter Waibel. "Metadata for All: Descriptive Standards and Metadata Sharing across Libraries, Archives and Museums." First Monday 12.3 (2007): N. https://journals.uic.edu/ojs/index.php/fm/article/view/1628/1543
-* Dappert, Angela and Markus Enders. (2010) “Digital Preservation Metadata Standards.” Information Standards Quarterly (22:2) https://www.loc.gov/standards/premis/FE_Dappert_Enders_MetadataStds_isqv22no2.pdf
-* Priscilla Caplan, Understanding PREMIS, Library of Congress, 2009. https://www.loc.gov/standards/premis/understanding-premis.pdf
-* Brian Lavoie and Richard Garnter, Preservation Metadata, Digital Preservation Coalition Technology Watch Report 13-03. Digital Preservation Coalition (UK): May 2013 https://dx.doi.org/10.7207/twr13-03
-* Digital POWRR Tools (1.0 and 2.0)
-    * 1.0: https://digitalpowrr.niu.edu/digital-preservation-101/tool-grid/
-    * 2.0: use the Tools tab in nav bar to take a more granular look): https://www.digipres.org/tools/
+* Force, Donald C., and Randy Smith. "Context Lost: Digital Surrogates, Their Physical Counterparts, and the Metadata that Is Keeping Them Apart." _The American Archivist_ 84, no. 1 (2021): 91–118. <a href="https://drive.google.com/drive/folders/1fOKFI3HpMALQARiz0R9ip-4uPP95LRb2" target="_blank">
+* Zhang, Jane, and Dayne Mauney. “When Archival Description Meets Digital Object Metadata: A Typological Study of Digital Archival Representation.” The American Archivist, vol. 76, no. 1, 2013, pp. 174–195. <a href="https://americanarchivist.org/doi/pdf/10.17723/aarc.76.1.121u85342062w155" target="_blank">https://americanarchivist.org/doi/pdf/10.17723/aarc.76.1.121u85342062w155</a>
+* Guenther, Rebecca S. (2008) “Battle of the Buzzwords Flexibility vs. Interoperability When Implementing PREMIS in METS,” D‐Lib Magazine 14 (7/8). <a href="https://www.dlib.org/dlib/july08/guenther/07guenther.html" target="_blank">https://www.dlib.org/dlib/july08/guenther/07guenther.html</a>
+* Elings, Mary, and Gunter Waibel. "Metadata for All: Descriptive Standards and Metadata Sharing across Libraries, Archives and Museums." First Monday 12.3 (2007): N. <a href="https://journals.uic.edu/ojs/index.php/fm/article/view/1628/1543" target="_blank">https://journals.uic.edu/ojs/index.php/fm/article/view/1628/1543</a>
+* Dappert, Angela and Markus Enders. (2010) “Digital Preservation Metadata Standards.” Information Standards Quarterly (22:2) <a href="https://www.loc.gov/standards/premis/FE_Dappert_Enders_MetadataStds_isqv22no2.pdf" target="_blank">https://www.loc.gov/standards/premis/FE_Dappert_Enders_MetadataStds_isqv22no2.pdf</a>
+* Priscilla Caplan, Understanding PREMIS, Library of Congress, 2009. <a href="https://www.loc.gov/standards/premis/understanding-premis.pdf" target="_blank">https://www.loc.gov/standards/premis/understanding-premis.pdf</a>
+* Brian Lavoie and Richard Garnter, Preservation Metadata, Digital Preservation Coalition Technology Watch Report 13-03. Digital Preservation Coalition (UK): May 2013 <a href="https://dx.doi.org/10.7207/twr13-03" target="_blank">https://dx.doi.org/10.7207/twr13-03</a>
 
-Skim these sites:
+You do not need to read through these documents, but they may be useful for the weekly activity or for your own reference:
 * METS: https://www.loc.gov/standards/mets/
 * PREMIS: https://www.loc.gov/standards/premis/
 * MODS: https://www.loc.gov/standards/mods/
