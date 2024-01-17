@@ -14,7 +14,7 @@ has_children: false
 - [Week 3: Digital Preservation Systems](#week3)
 - [Week 4: ](#week4)
 - [Week 5: Preservation Metadata](#week5)
-- [Week 6: Digital collections and preservation labor](#week6)
+- [Week 6: The Cost of Digital Preservation](#week6)
 - [Week 7: Collection Development, Acquisition and Appraisal](#week7)
 - [Week 8: Digital Preservation Technical Skills](#week8)
 - [Week 9: NO CLASS - SPRING BREAK](#week9)
@@ -93,7 +93,7 @@ You do not need to read through these documents, but they may be useful for the 
 * PB Core: <a href="https://pbcore.org/" target="_blank">https://pbcore.org/</a>
 
 <a name="week6"></a>
-### Week 6: February 28, 2024 - Digital collections and preservation labor
+### Week 6: February 28, 2024 - The Cost of Digital Preservation
 Link to slide deck [update me]
 
 Due/asynchronous work:
