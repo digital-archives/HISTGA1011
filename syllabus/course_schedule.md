@@ -107,6 +107,10 @@ Read:
 * Thompson, Samantha, “Why don’t archivists digitize everything?” Archives @ PAMA blog: May 31, 2017. <a href="https://peelarchivesblog.com/2017/05/31/why-dont-archivists-digitize-everything/" target="_blank">https://peelarchivesblog.com/2017/05/31/why-dont-archivists-digitize-everything/</a>
 * Yolkowski, John and Jamieson, Krista. “Access and Preservation in Archival Mass Digitization Projects.” Practical Technology for Archives: 2017, Vol. 1, No. 7. <a href="https://ecommons.cornell.edu/bitstream/handle/1813/76865/Access_and_Preservation_in_Archival_Mass_Digitization_Projects.pdf?sequence=1&isAllowed=y" target="_blank">https://ecommons.cornell.edu/bitstream/handle/1813/76865/Access_and_Preservation_in_Archival_Mass_Digitization_Projects.pdf?sequence=1&isAllowed=y</a>
 * “Digitizing Entire Collections.” Archives of American Art. <a href="https://www.aaa.si.edu/documentation/digitizing-entire-collections" target="_blank">https://www.aaa.si.edu/documentation/digitizing-entire-collections</a>
+* Total Cost of Stewardship: Responsible Collection Building in Archives and Special Collections <a href="https://www.oclc.org/content/dam/research/publications/2021/oclcresearch-total-cost-of-stewardship-a4.pdf" target="_blank">https://www.oclc.org/content/dam/research/publications/2021/oclcresearch-total-cost-of-stewardship-a4.pdf</a>
+
+Watch:
+* Total Cost of Stewardship: Operational Impacts Estimator Tutorial <a href="https://www.youtube.com/watch?v=LBJ_kul9PN8" target="_blank">https://www.youtube.com/watch?v=LBJ_kul9PN8</a>
 
 <a name="week7"></a>
 ### Week 7: March 6, 2024 - Collection Development, Acquisition and Appraisal
@@ -126,10 +130,6 @@ Read:
 * Berry, Dorothy. “Take Me into The Library and Show Me Myself: Towards Authentic Accessibility in Digital Libraries.” Proceedings of the American Philosophical Society (2022), pp. 111-126. <a href="https://www.jstor.org/stable/45420503" target="_blank">https://www.jstor.org/stable/45420503</a>
 * Alison Anderson; Kristin Bjork; Kyle DeCicco-Carey; Sylvia Welsh (2021). “Laying a Foundation for Digital Collections at the Property Information Resource Center,”  The American Archivist (2021) 84 (2): 256–280. <a href="https://drive.google.com/file/d/1e6pwdBBlqX8W2b00EviDxvEY819JSIU5/view?usp=drivesdk" target="_blank">https://drive.google.com/file/d/1e6pwdBBlqX8W2b00EviDxvEY819JSIU5/view?usp=drivesdk</a>
 * Zhang, Jane. 2012. “Original Order in Digital Archives”. Archivaria 74 (November), 167-93. <a href="https://archivaria-ca.proxy.library.nyu.edu/index.php/archivaria/article/view/13410" target="_blank">https://archivaria-ca.proxy.library.nyu.edu/index.php/archivaria/article/view/13410</a>
-* Total Cost of Stewardship: Responsible Collection Building in Archives and Special Collections <a href="https://www.oclc.org/content/dam/research/publications/2021/oclcresearch-total-cost-of-stewardship-a4.pdf" target="_blank">https://www.oclc.org/content/dam/research/publications/2021/oclcresearch-total-cost-of-stewardship-a4.pdf</a>
-
-Watch:
-* Total Cost of Stewardship: Operational Impacts Estimator Tutorial <a href="https://www.youtube.com/watch?v=LBJ_kul9PN8" target="_blank">https://www.youtube.com/watch?v=LBJ_kul9PN8</a>
 
 <a name="week8"></a>
 ### Week 8: March 13 - Digital Preservation Technical Skills
