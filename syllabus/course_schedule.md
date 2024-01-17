@@ -223,15 +223,14 @@ Due/asynchronous work:
 * During/post-class activity: QCTools Activity
 
 Read: 
-* Kim, Julia, Fraimow, Rebecca, Titkemeyer, Erika. “Never Best Practices: Born-Digital Audiovisual Preservation.” Code4lib Journal: Issue 43, 2019-02-14, https://journal.code4lib.org/articles/14244.
-* Smith-Cruz, Shawn. Tape-by-Tape: Digital Practices and Cataloging Rituals at the Lesbian Herstory Archives. CUNY Academic Works, 2015. The Graduate Center, Publications and Research. https://academicworks.cuny.edu/cgi/viewcontent.cgi?referer=&httpsredir=1&article=1268&context=gc_pubs
-* Gracy, Karen. “Ambition and Ambivalence: A Study of Professional Attitudes toward Digital Distribution of Archival Moving Images.”  The American Archivist: Sep 2013, Vol. 76, No. 2 (Fall/Winter) pp. 346-373 https://americanarchivist.org/doi/pdf/10.17723/aarc.76.2.t401kx8j64682224
-* Pearman, Alice. “Teachers' Tales Go Online: Digitizing Oral Histories on Cassettes.” The American Archivist: Spring/Summer 2019, Vol. 82, No. 1, pp. 124-136. https://doi.org/10.17723/0360-9081-82.1.124 [see classes site for pdf.]
-* Galey, Alan. 2018. “Looking for a Place to Happen: Collective Memory, Digital Music Archiving, and the Tragically Hip”. Archivaria 86 (November), 6-43. https://archivaria-ca.proxy.library.nyu.edu/index.php/archivaria/article/view/13642.
-* Cook, Sarah. 2017. “Shrouded History: The Canadian Film and Photo Unit, Records Creation, Reuse, and the Recontextualizing of "Lost&quot; Audiovisual Heritage”. Archivaria 83 (June), 125-48. https://archivaria-ca.proxy.library.nyu.edu/index.php/archivaria/article/view/13603.
-* Collection ID Guide: https://psap.library.illinois.edu/collection-id-guide
-* AVPreserve Guide to Codec: https://www.weareavp.com/wp-content/uploads/2017/07/AVPS_Codec_Primer.pdf
-* XFR Collective Dr. Tape-Love: https://xfrcollective.files.wordpress.com/2020/06/xfr-dr-tape-love_zine-2019.pdf
+* Kim, Julia, Fraimow, Rebecca, Titkemeyer, Erika. “Never Best Practices: Born-Digital Audiovisual Preservation.” Code4lib Journal: Issue 43, 2019-02-14, <a href="https://journal.code4lib.org/articles/14244" target="_blank">https://journal.code4lib.org/articles/14244</a>
+* Smith-Cruz, Shawn. Tape-by-Tape: Digital Practices and Cataloging Rituals at the Lesbian Herstory Archives. CUNY Academic Works, 2015. The Graduate Center, Publications and Research. <a href="https://academicworks.cuny.edu/cgi/viewcontent.cgi?referer=&httpsredir=1&article=1268&context=gc_pubs" target="_blank">https://academicworks.cuny.edu/cgi/viewcontent.cgi?referer=&httpsredir=1&article=1268&context=gc_pubs</a>
+* Pearman, Alice. “Teachers' Tales Go Online: Digitizing Oral Histories on Cassettes.” The American Archivist: Spring/Summer 2019, Vol. 82, No. 1, pp. 124-136. <a href="https://doi.org/10.17723/0360-9081-82.1.124" target="_blank">https://doi.org/10.17723/0360-9081-82.1.124</a>
+* Galey, Alan. 2018. “Looking for a Place to Happen: Collective Memory, Digital Music Archiving, and the Tragically Hip”. Archivaria 86 (November), 6-43. <a href="https://archivaria-ca.proxy.library.nyu.edu/index.php/archivaria/article/view/13642" target="_blank">https://archivaria-ca.proxy.library.nyu.edu/index.php/archivaria/article/view/13642</a>
+* Cook, Sarah. 2017. “Shrouded History: The Canadian Film and Photo Unit, Records Creation, Reuse, and the Recontextualizing of "Lost Audiovisual Heritage”. Archivaria 83 (June), 125-48. <a href="https://archivaria-ca.proxy.library.nyu.edu/index.php/archivaria/article/view/13603" target="_blank">https://archivaria-ca.proxy.library.nyu.edu/index.php/archivaria/article/view/13603</a>
+* Collection ID Guide: <a href="https://psap.library.illinois.edu/collection-id-guide" target="_blank">https://psap.library.illinois.edu/collection-id-guide</a>
+* AVPreserve Guide to Codec: <a href="https://www.weareavp.com/wp-content/uploads/2017/07/AVPS_Codec_Primer.pdf" target="_blank">https://www.weareavp.com/wp-content/uploads/2017/07/AVPS_Codec_Primer.pdf</a>
+* XFR Collective Dr. Tape-Love: <a href="https://xfrcollective.files.wordpress.com/2020/06/xfr-dr-tape-love_zine-2019.pdf" target="_blank">https://xfrcollective.files.wordpress.com/2020/06/xfr-dr-tape-love_zine-2019.pdf</a>
 
 <a name="week14"></a>
 ### Week 14: April 24, 2024 - Outreach and Access
