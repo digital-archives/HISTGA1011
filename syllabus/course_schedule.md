@@ -22,7 +22,7 @@ has_children: false
 - [Week 11: Software Preservation](#week11)
 - [Week 12: Web Archiving](#week12)
 - [Week 13: Moving Image and Audio Preservation](#week13)
-- [Week 14: Digital Preservation Planning and Sustainability](#week14)
+- [Week 14: Digital Preservation Planning, Sustainability and Climate Impact](#week14)
 - [Week 15: Final presentations](#week15)
 
 <a name="week1"></a>
@@ -237,7 +237,7 @@ Read:
 * Martin, Katie, Hannah Sistrunk, and Darren Young. "Using Wikidata Identifiers to Enhance Agent Discovery." Bits & Bytes - The Rockefeller Archive Center Blog. June 15, 2022. Accessed July 2, 2023. <a href="https://blog.rockarch.org/dimes-agent-pages-enhanced" target="_blank">https://blog.rockarch.org/dimes-agent-pages-enhanced</a>
 
 <a name="week14"></a>
-### Week 14: April 24, 2024 - Digital Preservation Planning and Sustainability
+### Week 14: April 24, 2024 - Digital Preservation Planning, Sustainability and Climate Impact
 
 Link to slide deck [Update me]
 
