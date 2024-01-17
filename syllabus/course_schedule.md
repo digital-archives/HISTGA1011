@@ -94,7 +94,7 @@ Read:
 
 You do not need to read through these documents, but they may be useful for the weekly activity or for your own reference:
 * METS: <a href="https://www.loc.gov/standards/mets/" target="_blank">https://www.loc.gov/standards/mets/</a>
-* PREMIS: <a href="https://www.loc.gov/standards/premis/" taraget="_blank">https://www.loc.gov/standards/premis/</a>
+* PREMIS: <a href="https://www.loc.gov/standards/premis/" target="_blank">https://www.loc.gov/standards/premis/</a>
 * MODS: <a href="https://www.loc.gov/standards/mods/" target="_blank">https://www.loc.gov/standards/mods/</a>
 * ALTO: <a href="https://www.loc.gov/standards/alto/" target="_blank">https://www.loc.gov/standards/alto/</a>
 * Dublin Core: <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/" target="_blank">https://www.dublincore.org/specifications/dublin-core/dcmi-terms/</a>
@@ -146,14 +146,14 @@ Link to slide deck [update me]
 
 Due/asynchronous work:
 * Post your pre-class reading reactions to Brightspace.
-* During/Post-class Activity: Emulation Activity. Submit your activity report in Brightspace by Sunday, April 2.
+* During/Post-class Activity: Emulation Activity. Submit your activity summary in Brightspace.
 
 Read:
-* Cocciolo, Anthony. “Unix Commands and Batch Processing for the Reluctant Librarian or Archivist.” Code4Lib Journal: Issue 23, 2014-01-17. https://journal.code4lib.org/articles/9158
-* Martin, Nicole. “Why Use The Command Line For Digital Archiving And Preservation?” twobit Digital Preservation. June 21, 2020. https://twobitpreservation.com/blog/2020/6/11/why-use-the-command-line-for-digital-archiving-and-preservation
-* Berish, Amy. “Learning Python as a Processing Archivist: A Reflection” Bits & Bytes: The Rockefeller Archive Center Blog. April 6, 2016. https://blog.rockarch.org/learning-python-as-a-processing-archivist-a-reflection
-* Colloton, Eddy. “THAT DAM PROJECT”. June 14, 2019. http://eddycolloton.com/blog/2019/1/10/that-dam-project
-* Potter, Abbey. “Automating Digital Archival Processing at Johns Hopkins University” May 9, 2017. https://blogs.loc.gov/thesignal/2017/05/automating-digital-archival-processing-at-johns-hopkins-university/
+* Cocciolo, Anthony. “Unix Commands and Batch Processing for the Reluctant Librarian or Archivist.” Code4Lib Journal: Issue 23, 2014-01-17. <a href="https://journal.code4lib.org/articles/9158" target="_blank">https://journal.code4lib.org/articles/9158</a>
+* Martin, Nicole. “Why Use The Command Line For Digital Archiving And Preservation?” twobit Digital Preservation. June 21, 2020. <a href="https://twobitpreservation.com/blog/2020/6/11/why-use-the-command-line-for-digital-archiving-and-preservation" target="_blank">https://twobitpreservation.com/blog/2020/6/11/why-use-the-command-line-for-digital-archiving-and-preservation</a>
+* Berish, Amy. “Learning Python as a Processing Archivist: A Reflection” Bits & Bytes: The Rockefeller Archive Center Blog. April 6, 2016. <a href="https://blog.rockarch.org/learning-python-as-a-processing-archivist-a-reflection" target="_blank">https://blog.rockarch.org/learning-python-as-a-processing-archivist-a-reflection</a>
+* Colloton, Eddy. “THAT DAM PROJECT”. June 14, 2019. <a href="http://eddycolloton.com/blog/2019/1/10/that-dam-project">http://eddycolloton.com/blog/2019/1/10/that-dam-project</a>
+* Potter, Abbey. “Automating Digital Archival Processing at Johns Hopkins University” May 9, 2017. <a href="https://blogs.loc.gov/thesignal/2017/05/automating-digital-archival-processing-at-johns-hopkins-university/" target="_blank">https://blogs.loc.gov/thesignal/2017/05/automating-digital-archival-processing-at-johns-hopkins-university/</a>
 
 <a name="week9"></a>
 ### Week 9: March 20, 2024 - NO CLASS - SPRING BREAK
