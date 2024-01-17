@@ -8,48 +8,35 @@ has_children: false
 
 # Scripting Reflection Paper
 
-As the volume of digital materials that collecting institutions acquire grows, it is essential that archivists familiarize themselves with common scripting languages to automate processes that would otherwise be painstaking to do “by hand”. For this assignment, you will spend 3-4 hours learning a programming or scripting language, document your learning process and reflect on the experience. The goal here is not to become an expert developer, but to become comfortable with how archivists employ scripting through their day-to-day work.
+As the volume of digital materials that collecting institutions acquire grows, it is essential that archivists familiarize themselves with common scripting languages to automate processes that would otherwise be painstaking to do manually. Although it is not essentially for archivists to be programmers, it is important to at least know why scripting is used throughout the field.
 
-Commit to focusing on one programming language. For beginners, select a tutorial for a language you are interested in learning to go through. For those with moderate or advanced experience with scripting, select either a new language to learn or increase your knowledge in a specific area of a language you already know. **Note: Use only free/no-cost tutorials for this assignment (of which there are many). You are not required to spend money on any tutorial(s). If you hit a paywall, simply stop the lesson. Free resources are listed below.**
-
-Free/no-cost programming/scripting languages and resources:
+For this assignment, I would first like you to choose one of the listed programming languages that are commonly used in digital repositories (this is not an exhaustive list: if there is something not listed here that you would like to use instead, please feel free to choose that).
 
 - Python: <https://automatetheboringstuff.com/>
-
 - The Programming Historian: <https://programminghistorian.org/en/lessons/>
-
 - ffmprovisr (ffmpeg): <https://amiaopensource.github.io/ffmprovisr/>
-
 - Bash Scripting: <https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html>
-
 - Practical Technology for Archivists: <https://practicaltechnologyforarchives.org/issue1/>
-
 - OpenRefine + Regular Expression (Regex): [https://openrefine.org/](http://openrefine.org/) 
-
 - Command line: <https://learnpythonthehardway.org/book/appendixa.html>
 
-Note: These are not the only tutorials/resources out there, but a place to start. Feel free to use whatever you wish in whatever learning medium you feel most comfortable using such as YouTube, or the non-paywall parts of Coursera, The Odin Project, and others.
+Once you have chosen a programming language, I would like you to spend 3-4 hours learning how to use it (using the resources provided above). The goal here is not to become an expert developer, but to get a sense for how it works and basic syntax. For beginners, select a tutorial for a language you are interested in learning to go through. For those with moderate or advanced experience with scripting, select either a new language to learn or increase your knowledge in a specific area of a language you already know. **Note: Use only free/no-cost tutorials for this assignment (of which there are many). You are not required to spend money on any tutorial(s). If you hit a paywall, simply stop the lesson. Free resources are listed below.**
 
-Your report should address the following questions:
+Next, I would like you to identify one example of how a digital repository automates some aspect of their operation using the programming language you just learned about. Thankfully, many digital repositories readily share their institutional process and policy documentation online, usually through a repository website such as Github. Here are some examples:
+* The New York Public Library's Digital Archives Department uses a Python script called [report_ftk_extents.py](https://github.com/NYPL/digarch_scripts/blob/main/src/digarch_scripts/report/report_ftk_extents.py) which is accompanied by a [README document](https://github.com/NYPL/digarch_scripts/tree/main/extents) explaining how to install and use it, and what it is used for in the Preservation and Collections Processing Department.
+* The Rockefeller Archives (RAC) also has extensive documentation on their Github repository. For example, here is information about their [Aurora web application](https://github.com/RockefellerArchiveCenter/aurora) "that can receive, virus check and validate transfers of digital archival records, and allows archivists to appraise and accession those records".
 
-- What is your background or experience in programming or scripting (if any)?
-
-- Why did you select the language and how did you go about learning it?
-
-- Did you have to install new software or applications to work with it? If so, what?
-
-- What did you learn? 
-
-- What were the challenges or difficulties you faced? How did you try to overcome them?
-
-- What resources did you use to learn the language?
-
-- Why would this language be useful for archives? How would you use it in an archival setting?
-
-- Can you find any examples of an archive or special collections operation using this language? If so, how have they used it for digital archives and what (if any) systems are implicated? Do they document their use of this language? How?
-
-- Will you pursue learning this language further? Another language?
-
-- How was your experience?
-
-- What advice do you have for other archivists?
+I would like you to write a 3-5 page reflection paper discussing:
+* What is your background or experience in programming or scripting (if any)?
+* Why did you select this particular language?
+* How did you go about learning it?
+* Did you have to install new software or applications to work with it? If so, what?
+* What did you learn? 
+* What were the challenges or difficulties you faced? How did you try to overcome them?
+* Turning to your "real life" example:
+  - What example did you find? What is it called?
+  - Does this script work as a standalone script, or does it work in concert with other scripts/commands?
+  - What libraries or other dependencies are required to use this script?
+  - What part of the repository's operation does this automate?
+  - Based on what you learned throughout your programming tutorial, are there elements of this script that are recognizable or look similar to what you learned?
+  - What part or parts of this script are confusing to you? Describe what makes it confusing, and then step me through what you think it might be doing, and what you are able to glean from doing a web search for the confusing element. What resources came up? Were you able to figure out the issue?
