@@ -9,7 +9,7 @@ has_children: false
 # Course Schedule
 
 ## Table of Contents
-- [Week 1: Course Introduction](#week1)
+- [Week 1: History of Digital Preservation and Digital Computing](#week1)
 - [Week 2: Open Archival Information System (OAIS) Conceptual Model](#week2)
 - [Week 3: Digital Preservation Systems](#week3)
 - [Week 4: ](#week4)
@@ -26,7 +26,7 @@ has_children: false
 - [Week 15: Final presentations](#week15)
 
 <a name="week1"></a>
-### Week 1: January 24, 2024 - Course Introduction<br>
+### Week 1: January 24, 2024 - History of Digital Preservation and Digital Computing<br>
 Link to slide deck [Update me]
 
 Due/asynchronous work:<br>
