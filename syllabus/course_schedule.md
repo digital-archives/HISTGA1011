@@ -12,7 +12,7 @@ has_children: false
 - [Week 1: History of Digital Preservation and Digital Computing](#week1)
 - [Week 2: Open Archival Information System (OAIS) Conceptual Model](#week2)
 - [Week 3: Digital Preservation Systems](#week3)
-- [Week 4: ](#week4)
+- [Week 4: Digital Preservation Systems - Part 2 - Repository, Descriptive and Asset Management Systems](#week4)
 - [Week 5: Preservation Metadata](#week5)
 - [Week 6: The Cost of Digital Preservation](#week6)
 - [Week 7: Collection Development, Acquisition and Appraisal](#week7)
