@@ -85,22 +85,21 @@ Due dates/asynchronous work:
 * During/post-class activity: METS and PREMIS Metadata. Submit your annotated XML file in Brightspace.
 
 Read:
-* Force, Donald C., and Randy Smith. "Context Lost: Digital Surrogates, Their Physical Counterparts, and the Metadata that Is Keeping Them Apart." _The American Archivist_ 84, no. 1 (2021): 91–118. <a href="https://drive.google.com/drive/folders/1fOKFI3HpMALQARiz0R9ip-4uPP95LRb2" target="_blank">
+* Force, Donald C., and Randy Smith. "Context Lost: Digital Surrogates, Their Physical Counterparts, and the Metadata that Is Keeping Them Apart." _The American Archivist_ 84, no. 1 (2021): 91–118. <a href="https://drive.google.com/drive/folders/1fOKFI3HpMALQARiz0R9ip-4uPP95LRb2" target="_blank">https://drive.google.com/drive/folders/1fOKFI3HpMALQARiz0R9ip-4uPP95LRb2</a>
 * Zhang, Jane, and Dayne Mauney. “When Archival Description Meets Digital Object Metadata: A Typological Study of Digital Archival Representation.” The American Archivist, vol. 76, no. 1, 2013, pp. 174–195. <a href="https://americanarchivist.org/doi/pdf/10.17723/aarc.76.1.121u85342062w155" target="_blank">https://americanarchivist.org/doi/pdf/10.17723/aarc.76.1.121u85342062w155</a>
 * Guenther, Rebecca S. (2008) “Battle of the Buzzwords Flexibility vs. Interoperability When Implementing PREMIS in METS,” D‐Lib Magazine 14 (7/8). <a href="https://www.dlib.org/dlib/july08/guenther/07guenther.html" target="_blank">https://www.dlib.org/dlib/july08/guenther/07guenther.html</a>
-* Elings, Mary, and Gunter Waibel. "Metadata for All: Descriptive Standards and Metadata Sharing across Libraries, Archives and Museums." First Monday 12.3 (2007): N. <a href="https://journals.uic.edu/ojs/index.php/fm/article/view/1628/1543" target="_blank">https://journals.uic.edu/ojs/index.php/fm/article/view/1628/1543</a>
 * Dappert, Angela and Markus Enders. (2010) “Digital Preservation Metadata Standards.” Information Standards Quarterly (22:2) <a href="https://www.loc.gov/standards/premis/FE_Dappert_Enders_MetadataStds_isqv22no2.pdf" target="_blank">https://www.loc.gov/standards/premis/FE_Dappert_Enders_MetadataStds_isqv22no2.pdf</a>
 * Priscilla Caplan, Understanding PREMIS, Library of Congress, 2009. <a href="https://www.loc.gov/standards/premis/understanding-premis.pdf" target="_blank">https://www.loc.gov/standards/premis/understanding-premis.pdf</a>
 * Brian Lavoie and Richard Garnter, Preservation Metadata, Digital Preservation Coalition Technology Watch Report 13-03. Digital Preservation Coalition (UK): May 2013 <a href="https://dx.doi.org/10.7207/twr13-03" target="_blank">https://dx.doi.org/10.7207/twr13-03</a>
 
 You do not need to read through these documents, but they may be useful for the weekly activity or for your own reference:
-* METS: https://www.loc.gov/standards/mets/
-* PREMIS: https://www.loc.gov/standards/premis/
-* MODS: https://www.loc.gov/standards/mods/
-* ALTO: https://www.loc.gov/standards/alto/
-* Dublin Core: https://www.dublincore.org/specifications/dublin-core/dcmi-terms/
-* VRA Core: https://www.loc.gov/standards/vracore/
-* PB Core: https://pbcore.org/
+* METS: <a href="https://www.loc.gov/standards/mets/" target="_blank">https://www.loc.gov/standards/mets/</a>
+* PREMIS: <a href="https://www.loc.gov/standards/premis/" taraget="_blank">https://www.loc.gov/standards/premis/</a>
+* MODS: <a href="https://www.loc.gov/standards/mods/" target="_blank">https://www.loc.gov/standards/mods/</a>
+* ALTO: <a href="https://www.loc.gov/standards/alto/" target="_blank">https://www.loc.gov/standards/alto/</a>
+* Dublin Core: <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/" target="_blank">https://www.dublincore.org/specifications/dublin-core/dcmi-terms/</a>
+* VRA Core: <a href="https://www.loc.gov/standards/vracore/" target="_blank">https://www.loc.gov/standards/vracore/</a>
+* PB Core: <a href="https://pbcore.org/" target="_blank">https://pbcore.org/</a>
 
 <a name="week6"></a>
 ### Week 6: February 28, 2024 - Digital collections and preservation labor
@@ -112,13 +111,11 @@ Due/asynchronous work:
 * During/post-class activity: Imaging and Conservation Review
 
 Read:
-* Stephanie Becker, Anne Kumer, and Naomi Langer, “Access is People: How Investing in Digital Collections Labor Improves Archival Discovery & Delivery,” in The Lighting the Way Handbook: Case Studies, Guidelines, and Emergent Futures for Archival Discovery and Delivery, edited by Maria Matienzo and Dinah Handel, 29-38. Stanford, CA: Stanford University Libraries, October 2021. https://doi.org/10.25740/gg453cv6438. 
-* Prescott, Andrew and Hughs, Lorna. “Why Do We Digitize? The Case for Slow Digitization.” Archive Journal: September 2018. https://www.archivejournal.net/essays/why-do-we-digitize-the-case-for-slow-digitization/ 
-* Thompson, Samantha, “Why don’t archivists digitize everything?” Archives @ PAMA blog: May 31, 2017. https://peelarchivesblog.com/2017/05/31/why-dont-archivists-digitize-everything/
-* Yolkowski, John and Jamieson, Krista. “Access and Preservation in Archival Mass Digitization Projects.” Practical Technology for Archives: 2017, Vol. 1, No. 7. https://ecommons.cornell.edu/bitstream/handle/1813/76865/Access_and_Preservation_in_Archival_Mass_Digitization_Projects.pdf?sequence=1&isAllowed=y
-* “Strategy for Digitizing Material” NARA, 2014. https://www.archives.gov/digitization/strategy.html 
-* United States. National Commission on Libraries Information Science. Mass Digitization : Implications for Information Policy. U.S. National Commission on Libraries and Information Sciences, 2006. https://www.govinfo.gov/content/pkg/GOVPUB-Y3_L61-907cd9e9ac40e9655537342513dab56c/pdf/GOVPUB-Y3_L61-907cd9e9ac40e9655537342513dab56c.pdf“
-* “Digitizing Entire Collections.” Archives of American Art. https://www.aaa.si.edu/documentation/digitizing-entire-collections (These are internal procedures for AAA, scan the documentation to get a sense of workflows and policies.)
+* Stephanie Becker, Anne Kumer, and Naomi Langer, “Access is People: How Investing in Digital Collections Labor Improves Archival Discovery & Delivery,” in The Lighting the Way Handbook: Case Studies, Guidelines, and Emergent Futures for Archival Discovery and Delivery, edited by Maria Matienzo and Dinah Handel, 29-38. Stanford, CA: Stanford University Libraries, October 2021. <a href="https://doi.org/10.25740/gg453cv6438" target="_blank">https://doi.org/10.25740/gg453cv6438</a>
+* Prescott, Andrew and Hughs, Lorna. “Why Do We Digitize? The Case for Slow Digitization.” Archive Journal: September 2018. <a href="https://www.archivejournal.net/essays/why-do-we-digitize-the-case-for-slow-digitization/" target="_blank">https://www.archivejournal.net/essays/why-do-we-digitize-the-case-for-slow-digitization/</a>
+* Thompson, Samantha, “Why don’t archivists digitize everything?” Archives @ PAMA blog: May 31, 2017. <a href="https://peelarchivesblog.com/2017/05/31/why-dont-archivists-digitize-everything/" target="_blank">https://peelarchivesblog.com/2017/05/31/why-dont-archivists-digitize-everything/</a>
+* Yolkowski, John and Jamieson, Krista. “Access and Preservation in Archival Mass Digitization Projects.” Practical Technology for Archives: 2017, Vol. 1, No. 7. <a href="https://ecommons.cornell.edu/bitstream/handle/1813/76865/Access_and_Preservation_in_Archival_Mass_Digitization_Projects.pdf?sequence=1&isAllowed=y" target="_blank">https://ecommons.cornell.edu/bitstream/handle/1813/76865/Access_and_Preservation_in_Archival_Mass_Digitization_Projects.pdf?sequence=1&isAllowed=y</a>
+* “Digitizing Entire Collections.” Archives of American Art. <a href="https://www.aaa.si.edu/documentation/digitizing-entire-collections" target="_blank">https://www.aaa.si.edu/documentation/digitizing-entire-collections</a>
 
 <a name="week7"></a>
 ### Week 7: March 6, 2024 - Collection Development, Acquisition and Appraisal
