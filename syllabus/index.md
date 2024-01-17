@@ -9,16 +9,6 @@ has_children: true
 ## Spring 2024
 ### New York University, Department of History
 
-__Table of Contents__
-- [Class Details](#class-details)
-- [Course Description](#course-description)
-- [Learning Objectives](#learning-objectives)
-- [Assignment Details](#details)
-- [Guidelines and Expectations](#guidelines)
-- [Additional Assistance](#assistance)
-- [Textbook](#textbook)
-- [Course Schedule](https://digital-archives.github.io/HISTGA1011/syllabus_course_schedule.html)
-
 <a name="learning-objectives"></a>
 ## Learning Objectives
 * Describe the role of archivists across the life cycle of digital archives.
