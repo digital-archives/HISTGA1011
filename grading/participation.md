@@ -1,3 +1,11 @@
+---
+title: Participation
+parent: Grading
+layout: default
+nav_order: 2
+has_children: true
+---
+
 # Participation: 30 points
 
 Participation is graded across three areas: 1.) pre-class reading reactions, 2.) in-class participation and discussion, and 3.) in-class/asynchronous activities.
