@@ -237,21 +237,18 @@ Read:
 
 Due/asynchronous work:
 * Post your pre-class reading reactions to Brightspace.
-* During/Post Class Activity: Test web accessibility on digital collections platforms
+* During/Post Class Activity: None. Please use this week to work on your final project!
 
 Read:
-* Maria Matienzo and Dinah Handel, eds. 2021. The Lighting the Way Handbook: Case Studies, Guidelines, and Emergent Futures for Archival Discovery and Delivery. Stanford, CA: Stanford University Libraries. https://doi.org/10.25740/gg453cv6438.
-* Rimkus, Kyle R., Bethany Anderson, Karl E. Germeck, Cameron C. Nielsen, Christopher J. Prom, and Tracy Popp. "Preservation and Access for Born-digital Electronic Records: The Case for an Institutional Digital Content Format Registry." The American Archivist 83, no. 2 (2020): 397–428. https://doi.org/10.17723/0360-9081-83.2.397.
-* Wiedeman, Gregory. “Designing Digital Discovery and Access Systems for Archival Description.” code{4}lib Journal: 55 (2023). https://journal.code4lib.org/articles/16963
-* Society of American Archivists - Technical Subcommittee on Descriptive Standards. "Statement of Principles." Accessed July 2, 2023. https://saa-ts-dacs.github.io/dacs/04_statement_of_principles.html.
-* Martin, Katie, Hannah Sistrunk, and Darren Young. "Using Wikidata Identifiers to Enhance Agent Discovery." Bits & Bytes - The Rockefeller Archive Center Blog. June 15, 2022. Accessed July 2, 2023. https://blog.rockarch.org/dimes-agent-pages-enhanced.
-
-Watch/review:
-* Linked Jazz. "About Linked Jazz: Exploring Archives Through Linked Open Data." Vimeo video, ca. 2013. Accessed July 2, 2023. https://vimeo.com/68308675.
-*  Play around with the Linked Jazz Network Visualization Tool: https://linkedjazz.org/network/
+* Maria Matienzo and Dinah Handel, eds. 2021. The Lighting the Way Handbook: Case Studies, Guidelines, and Emergent Futures for Archival Discovery and Delivery. Stanford, CA: Stanford University Libraries. <a href="https://doi.org/10.25740/gg453cv6438" target="_blank">https://doi.org/10.25740/gg453cv6438</a>
+* Rimkus, Kyle R., Bethany Anderson, Karl E. Germeck, Cameron C. Nielsen, Christopher J. Prom, and Tracy Popp. "Preservation and Access for Born-digital Electronic Records: The Case for an Institutional Digital Content Format Registry." The American Archivist 83, no. 2 (2020): 397–428. <a href="https://doi.org/10.17723/0360-9081-83.2.397" target="_blank">https://doi.org/10.17723/0360-9081-83.2.397</a>
+* Wiedeman, Gregory. “Designing Digital Discovery and Access Systems for Archival Description.” code{4}lib Journal: 55 (2023). <a href="https://journal.code4lib.org/articles/16963" target="_blank">https://journal.code4lib.org/articles/16963</a>
+* Society of American Archivists - Technical Subcommittee on Descriptive Standards. "Statement of Principles." Accessed July 2, 2023. <a href="https://saa-ts-dacs.github.io/dacs/04_statement_of_principles.html" target="_blank">https://saa-ts-dacs.github.io/dacs/04_statement_of_principles.html</a>
+* Martin, Katie, Hannah Sistrunk, and Darren Young. "Using Wikidata Identifiers to Enhance Agent Discovery." Bits & Bytes - The Rockefeller Archive Center Blog. June 15, 2022. Accessed July 2, 2023. <a href="https://blog.rockarch.org/dimes-agent-pages-enhanced" target="_blank">https://blog.rockarch.org/dimes-agent-pages-enhanced</a>
 
 <a name="week15"></a>
 ### Week 15: May 3 - Final presentations
+
 Due/asynchronous work:
 * Final presentation and project paper
 
