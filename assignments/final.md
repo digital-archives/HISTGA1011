@@ -1,7 +1,7 @@
 ---
 title: Final Project
 layout: default
-parent: Course Assignments
+parent: Assignments
 nav_order: 2
 has_children: true
 ---
