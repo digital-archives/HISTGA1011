@@ -1,3 +1,11 @@
+---
+title: Week 1
+layout: default
+parent: Course Schedule & Readings
+grand_parent: Syllabus
+nav_order: 1
+has_children: false
+---
 <a name="week1"></a>
 ### Week 1: January 24, 2024 - History of Digital Preservation and Digital Computing<br>
 Link to slide deck [Update me]
