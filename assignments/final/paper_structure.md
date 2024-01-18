@@ -1,18 +1,27 @@
-**Paper structure and requirements (Due [Update me])**
+---
+title: Paper Structure & Requirements
+layout: default
+parent: Final
+grand_parent: Assignments
+nav_order: 3
+has_children: false
+---
 
-### General requirements
+# Paper structure and requirements
+
+## General requirements
 
 **Length:** 10-12 pages (not including required appendices and bibliography)
 
 The paper should reference relevant readings and resources we have discussed over the course of the semester. Make sure to use appropriate in-text citations and include a bibliography. Visuals are welcome and often necessary: include them in your appendices or within the text of the paper (graphics do not count toward your paper length).
 
-The collection you choose should be, at minimum, 5 linear feet and include at minimum three of the format types we have discussed over the semester.
+If it is physical, the collection you choose should be, at minimum, 5 linear feet. This requirement is obviously a bit fuzzier when it comes to other collection types such as email or web archives; I will review these when you submit your project abstracts to me, and provide you feedback as needed.
 
 ### Structure
 
 #### Introduction
 
-This can also be thought of as your “elevator pitch”. Incorporate a brief, high-level overview of the problem you are trying to solve, what qualifies your department to address the problem, how you will go about solving the problem, and the resulting outcomes.
+This can also be thought of as your “elevator pitch”. Incorporate a brief, high-level overview of the problem you are trying to solve or the goal or effort you are trying to accomplish, what qualifies your department to address the problem, how you will go about solving the problem, and the resulting outcomes.
 
 #### Rationale
 
@@ -68,21 +77,20 @@ Your workflow narrative will be supported by the Workflow diagram included in yo
 #### Technical specifications and standards
 
 - Software/hardware: Name any software applications or other tools/systems used throughout your workflow, as well as related hardware that will be used to automate or facilitate certain processes.
-- File naming schema: how files/folders be named
 - File formats: Determine the submission, preservation, and distribution formats your digital repository will accept or produce for each material type identified in your inventory.
 - File resolution: Describe minimum file resolutions/sample rates for each of your file formats
 - Quality control (QC): Determine how resulting digitized files are checked for quality
 - Metadata: Identify which schemas you will use for descriptive, administrative, preservation, technical metadata, and access/catalog metadata
-- Access
-- Rights
-
-Identify any potential intellectual property or privacy issues that might affect access to this material. If the material you have selected includes rights issues that could preclude access, this is okay and normal, and a good opportunity for you to discuss why this is and how this may affect certain aspects of your workflow.
+- Access: Name any access platforms that you will use to enable end-user discovery of material
+- Rights: Identify any potential intellectual property or privacy issues that might affect access to this material. If the material you have selected includes rights issues that could preclude access, this is okay and normal, and a good opportunity for you to discuss why this is and how this may affect certain aspects of your workflow.
 
 #### Front-end experience/user personas
 
 Describe who your end users are, and what they might require to both discover and access your digitized collection. What are their characteristics? What are their needs, and what features can support how they might best discover and experience these materials?
 
-Keep in mind that some of these proposed features may be format-specific: digitized audio will require a different end-user interface and features that are vastly different than digitized photographs, for example. Use your scope/inventory to inform how you describe various end-user experiences.
+Keep in mind that some of these proposed features may be format-specific: digitized audio will require a different end-user interface and features that are vastly different than browsing a creator's email archives.
+
+Please also consider researcher needs. How will these materials be presented on-screen, in a way that promotes the same level of serendipitous research that would otherwise happen if the researcher were encountering physical materials? What sort of context be provided to connect digitized materials to their physical counterparts, if at all? If materials are presented in some sort of sequence or order, how will the end-user understand and make sense of this virtual environment?
 
 You will support your end-user narrative by creating a End-user experience mockup in your Appendix.
 
@@ -96,6 +104,7 @@ Describe anticipated challenges or obstacles that may hinder your Plan’s succe
 - Available budget or resources for both short- and long-term digital preservation efforts
 - Technical shortcomings
 - Sustainability
+- Risk that may arise due to rights clearance
 
 Describe the plan for the long-term preservation of your project. This may include identifying:
 
@@ -105,6 +114,6 @@ Describe the plan for the long-term preservation of your project. This may inclu
 
 **Appendices**
 
-- End-user experience mockup: To support your Front-end experience/user personas narrative, create a mockup that describes how a user will search, browse, and eventually come to a single record in your digitized collection. Use this mockup to point out key features and functionality provided by your access portal. You should also think critically about how users might drill down into various representation hierarchies. For example, a digitized book may contain multiple scanned pages. How will the user understand each pages’ relation to one another? What about digitized audio, where sometimes content is contained on a Side A vs a Side B: how will the user understand each track’s relationship to one another?
+- **End-user experience mockup:** To support your Front-end experience/user personas narrative, create a mockup that describes how a user will search, browse, and eventually come to a single record in your digitized collection. Use this mockup to point out key features and functionality provided by your access portal. You should also think critically about how users might drill down into various representation hierarchies. For example, a digitized audio cassette tape may be associated with one or multiple digital files (one file for Side A, another for Side B, or representing different tracks on multi-track tapes, etc). How will the user understand each pages’ relation to one another?
 
-- Workflow diagram To support your End-to-end workflow narrative, create/devise a workflow diagram that identifies various stages, individual processes, stakeholders, hard/software, decision points, and termination/loop points. We will discuss in class available tools and review examples that will be helpful for you when creating your own diagram, but note that if you wish, you can draw/sketch this out by hand or use a program like Google Slides or Draw.
+- **Workflow diagram:** To support your End-to-end workflow narrative, create/devise a workflow diagram that identifies various stages, individual processes, stakeholders, hard/software, decision points, and termination/loop points. We will discuss in class available tools and review examples that will be helpful for you when creating your own diagram, but note that if you wish, you can draw/sketch this out by hand or use a program like Google Slides or Draw.
