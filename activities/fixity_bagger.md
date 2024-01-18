@@ -6,7 +6,7 @@ nav_order: 9
 has_children: false
 ---
 
-# Classroom Activity: Exploring Fixity and Digital Packages
+# Weekly Activity: Fixity and Digital Packages
 
 This activity introduces students to essential concepts in digital preservation: fixity and digital packages.
 
