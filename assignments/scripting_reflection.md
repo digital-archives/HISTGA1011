@@ -1,6 +1,6 @@
 ---
 title: Scripting Reflection Paper
-parent: A
+parent: Assignments
 layout: default
 nav_order: 4
 has_children: false
