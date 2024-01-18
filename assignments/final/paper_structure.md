@@ -1,7 +1,7 @@
 ---
 title: Paper Structure & Requirements
 layout: default
-parent: Final
+parent: Final Project
 grand_parent: Assignments
 nav_order: 3
 has_children: false
