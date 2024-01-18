@@ -1,7 +1,7 @@
 ---
 title: File Format Report
 layout: default
-parent: Course Assignments
+parent: Assignments
 nav_order: 1
 has_children: true
 ---
