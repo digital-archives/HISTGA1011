@@ -1,5 +1,5 @@
 ---
-title: Week 5 - February 7
+title: Week 5 - February 21
 layout: default
 parent: Course Schedule & Readings
 grand_parent: Syllabus
