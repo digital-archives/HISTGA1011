@@ -27,7 +27,7 @@ To fully engage in the course, it is expected that you come to class having comp
 If you are unable to attend class or need to participate remotely, please send an email to me by Wednesday 3:30 PM. You do not need to provide a detailed explanation or excuse, a simple "I cannot make class" will suffice. Although a Zoom link will be available on Brightspace for each class as an option, please note that class sessions are primarily conducted in-person by default.
 
 ## In-class activities: 10 points
-Most weeks we will work on an in-class activity together as a group. The objective of these activities is to provide you with practical experience using the tools and processes employed in digital archiving and preservation. Activity instructions and supplementary files are kept in the [Activities folder](https://github.com/kiddmary/HIST-GA-1011/tree/main/Activities).
+Most weeks we will work on an in-class activity together as a group. The objective of these activities is to provide you with practical experience using the tools and processes employed in digital archiving and preservation. Activity instructions and supplementary files are kept in the [Weekly Activities folder](https://digital-archives.github.io/HISTGA1011/activities/).
 
 <p>If you are unable to complete the activity during class time, you will be responsible for completing it outside of class hours and submitting your results in Brightspace by the following Sunday. The format for submitting your results may vary each week, ranging from written documents, worksheets, spreadsheets, or something else.</p>
 
