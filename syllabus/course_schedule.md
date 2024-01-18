@@ -12,7 +12,7 @@ has_children: false
 - [Week 1: History of Digital Preservation and Digital Computing](#week1)
 - [Week 2: Open Archival Information System (OAIS) Conceptual Model](#week2)
 - [Week 3: Digital Preservation Systems - Part 1 - Storage](#week3)
-- [Week 4: Digital Preservation Systems - Part 2 - Repository, Descriptive and Asset Management Systems](#week4)
+- [Week 4: Digital Preservation Systems - Part 2 - Integrations](#week4)
 - [Week 5: Preservation Metadata](#week5)
 - [Week 6: The Cost of Digital Preservation](#week6)
 - [Week 7: Collection Development, Acquisition and Appraisal](#week7)
@@ -63,7 +63,7 @@ Read:
 * O’Meara, Erin and Stratton, Kate. “Module 13: Digital Preservation Storage.” Digital Preservation Essentials. (2016). <a href="https://www2.archivists.org/sites/all/files/Module_13_CaseStudies_OMeara-Stratton.pdf" target="_blank">https://www2.archivists.org/sites/all/files/Module_13_CaseStudies_OMeara-Stratton.pdf</a>
 
 <a name="week4"></a>
-### Week 4: February 14, 2024 - Digital Preservation Systems - Part 2 - Repository, Descriptive and Asset Management Systems
+### Week 4: February 14, 2024 - Digital Preservation Systems - Part 2 - Integrations
 
 Link to slide deck [Update me]
 
