@@ -25,13 +25,6 @@ has_children: false
 - [Week 14: Digital Preservation Planning, Sustainability and Climate Impact](#week14)
 - [Week 15: Final presentations](#week15)
 
-<a name="week1"></a>
-### Week 1: January 24, 2024 - History of Digital Preservation and Digital Computing<br>
-Link to slide deck [Update me]
-
-Due/asynchronous work:<br>
-* Sign up using this <a href="https://forms.gle/UDw6TjZdvrxQpkxq7" target="_blank">Google Form</a> for a file format for the <a href="https://digital-archives.github.io/HISTGA1011/assignments/file_format.html">File Format Report Assignment</a> by next week’s class.
-
 <a name="week2"></a>
 ### Week 2: January 31, 2024 - Open Archival Information System (OAIS) Conceptual Model
 Link to slide deck [Update me]
