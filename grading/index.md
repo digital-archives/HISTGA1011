@@ -9,28 +9,32 @@ has_children: true
 
 Students are evaluated using a points-based system across three main areas: Participation, Assignments, and the Final Project. These areas are further broken down into subgrade areas.
 
-## Participation (30 points):
+## Participation:
 
 | Item                              | Points |
 |-----------------------------------|-------|
 | Pre-class reading reactions        | 10    |
 | Class participation and discussions | 10    |
 | Activities                         | 10    |
+| **Total**                         | **30** |
 
-## Assignments (40 points):
+## Assignments:
 
 | Assignment                                   | Points |
 |---------------------------------------------|-------|
 | File Format Report                           | 10    |
 | Imaging Group Report and Individual Reflection Paper | 10    |
 | Repository Comparison                        | 10    |
-| Scripting Reflection Paper   | 10    |
+| Scripting Reflection Paper                   | 10    |
+| **Total**                                    | **40** |
 
-## Final Project (30 points):
+## Final Project:
 
 | Item                              | Points |
 |-----------------------------------|-------|
 | Project Proposal Abstract          | 10    |
 | Digitization Project Proposal Paper | 10    |
 | Project Presentation               | 10    |
+| **Total**                         | **30** |
+
 
