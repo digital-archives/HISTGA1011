@@ -24,9 +24,9 @@ Students are evaluated using a points-based system across three main areas: Part
 | File Format Report                           | 10    |
 | Imaging Group Report and Individual Reflection Paper | 10    |
 | Repository Comparison                        | 10    |
-| Programming/Scripting Language Reflection Paper   | 10    |
+| Scripting Reflection Paper   | 10    |
 
-## [Final Project](/Assignments/final_project.md) (30 points):
+## Final Project (30 points):
 
 | Item                              | Points |
 |-----------------------------------|-------|
