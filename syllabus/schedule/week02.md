@@ -13,7 +13,7 @@ Link to slide deck [Update me]
 Due/asynchronous work:
 * Sign up using this <a href="https://forms.gle/UDw6TjZdvrxQpkxq7" target="_blank">Google Form</a> for a file format for the <a href="https://digital-archives.github.io/HISTGA1011/assignments/file_format.html">File Format Report Assignment</a>
 * Post your pre-class reading reactions to Brightspace.
-* During/post-class activity: BagIt Tutorial and Exercise. Submit your completed exercise through Brightspace by Sunday, February 4, 2024.
+* During/post-class activity: Fixity and Digital Packages. Submit your completed exercise through Brightspace by Sunday, February 4, 2024.
 
 Read:
 * Owens, Trevor. The Theory and Craft of Digital Preservation. 2018.
