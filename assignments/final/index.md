@@ -17,8 +17,8 @@ Length for project paper: 10-12 pages of text plus visual mock-up, and additiona
 
 <p>An abstract scoping of your project will be due mid-way through the semester. More information on the project and presentation will be shared in class.</p>
 
-> **_SCENARIO:_** You are an archivist working in the special collections department of [organization/institution of your choice] who has decided that one or more collections should be digitized and made accessible to researchers/users in some way.
-Recognizing your expertise and knowledge in digital preservation workflow management, the Director of Special Collections has appointed you Project Lead. This new role entails driving the development of a comprehensive Digitization Project Plan report, and presenting your findings to your colleagues. The end goal of the report and preservation is to not only convince senior leaders to fund this project, but also advocate for the work your department does, and garner support for a more robust overall digital preservation program at your institution.
+{: .highlight }
+> **_SCENARIO:_** You are an archivist working in the special collections department of [organization/institution of your choice] who has decided that one or more collections should be digitized and made accessible to researchers/users in some way. Recognizing your expertise and knowledge in digital preservation workflow management, the Director of Special Collections has appointed you Project Lead. This new role entails driving the development of a comprehensive Digitization Project Plan report, and presenting your findings to your colleagues. The end goal of the report and preservation is to not only convince senior leaders to fund this project, but also advocate for the work your department does, and garner support for a more robust overall digital preservation program at your institution.
 
 ## Goals of the paper and presentation
 Writing this report is an opportunity for you to think through a complete digital preservation project, and identify and articulate what people, tools, policies or other resources are needed to put a digital preservation plan into action.
