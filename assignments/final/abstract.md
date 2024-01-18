@@ -9,7 +9,10 @@ has_children: false
 
 # Abstract Checklist
 
-Abstract due: February 28, 2024 (Week 6)
+**Abstract due:** February 28, 2024 (Week 6)
+**Suggested Length:** 2-3 pages
+
+Before writing your abstract, choose a collection from an existing institution that will serve as the basis for your Digitization Project Plan. I strongly suggest that you choose a collection whose scope, contents, arrangement and other details are made available through a finding aid. Although not required, you are encouraged to schedule an on-site or virtual visit to your chosen repository, yours and the archivist’s time and capacity permitting, either to help inform your abstract, final project approach, or both. Ideally, the candidate collection would not yet be digitized or otherwise made available through an online digital library, collection or portal.
 
 Submit an abstract for your final project that includes these details (1-2 sentences per checklist item is enough):
 
