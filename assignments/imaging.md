@@ -1,7 +1,7 @@
 ---
 title: Imaging and Conservation Review
 layout: default
-parent: Course Assignments
+parent: Assignments
 nav_order: 3
 has_children: true
 ---
