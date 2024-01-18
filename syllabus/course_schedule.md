@@ -9,7 +9,6 @@ has_children: true
 # Course Schedule
 
 ## Table of Contents
-- [Week 1: History of Digital Preservation and Digital Computing](#week1)
 - [Week 2: Open Archival Information System (OAIS) Conceptual Model](#week2)
 - [Week 3: Digital Preservation Systems - Part 1 - Storage](#week3)
 - [Week 4: Digital Preservation Systems - Part 2 - Integrations](#week4)
