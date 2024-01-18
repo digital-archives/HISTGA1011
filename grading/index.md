@@ -14,11 +14,11 @@ Participation (30 points):
 * Class participation and discussions (10 points)
 * Activities (10 points)
 
-Assignments (40 points):
-* [File Format Report](/Assignments/file_format_report.md) (10 points)
-* [Imaging Group Report and Individual Reflection Paper](/Assignments/imaging_conservation_review.md) (10 points)
-* [Repository Comparison](/Assignments/repository_comparison.md) (10 points)
-* [Programming/Scripting Language Reflection Paper](/Assignments/repository_comparison.md) (10 points)
+Assignments (40 points)
+File Format Report | 10 points
+Imaging Group Report and Individual Reflection Paper | 10 points
+Repository Comparison | 10 points
+Programming/Scripting Language Reflection Paper | 10 points
 
 [Final Project](/Assignments/final_project.md) (30 points):
 * Project Proposal Abstract (10 points)
