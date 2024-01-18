@@ -9,7 +9,6 @@ has_children: true
 # Course Schedule
 
 ## Table of Contents
-- [Week 3: Digital Preservation Systems - Part 1 - Storage](#week3)
 - [Week 4: Digital Preservation Systems - Part 2 - Integrations](#week4)
 - [Week 5: Preservation Metadata](#week5)
 - [Week 6: The Cost of Digital Preservation](#week6)
@@ -23,19 +22,6 @@ has_children: true
 - [Week 14: Digital Preservation Planning, Sustainability and Climate Impact](#week14)
 - [Week 15: Final presentations](#week15)
 
-<a name="week3"></a>
-### Week 3: February 7, 2024 - Digital Preservation Systems - Part 1 - Storage
-Link to slide deck [Update me]
-
-Due/asynchronous work:
-* Assignment due: <a href="https://digital-archives.github.io/HISTGA1011/assignments/file_format.html">File Format Report Assignment</a>
-* Post your pre-class reading reactions to Brightspace.
-* Weekly activity: Archivematica Sandbox. Submit activity summary to Brightspace by Sunday, February 11, 2024.
-
-Read:
-* O’Meara, Erin and Stratton, Kate. “Module 13: Digital Preservation Storage.” Digital Preservation Essentials. (2016). <a href="https://www2.archivists.org/sites/all/files/Module_13_CaseStudies_OMeara-Stratton.pdf" target="_blank">https://www2.archivists.org/sites/all/files/Module_13_CaseStudies_OMeara-Stratton.pdf</a>
-
-<a name="week4"></a>
 ### Week 4: February 14, 2024 - Digital Preservation Systems - Part 2 - Integrations
 
 Link to slide deck [Update me]
