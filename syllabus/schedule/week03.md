@@ -20,4 +20,4 @@ Due date
 {: .label .label-green }
 Read
 
-* O’Meara, Erin and Stratton, Kate. “Module 13: Digital Preservation Storage.” Digital Preservation Essentials. (2016). <a href="https://www2.archivists.org/sites/all/files/Module_13_CaseStudies_OMeara-Stratton.pdf" target="_blank">https://www2.archivists.org/sites/all/files/Module_13_CaseStudies_OMeara-Stratton.pdf</a>
+* Schaefer, S. K., McGovern, N. Y., Zierau, E. M. O., Goethals, A. L., & Wu, C. C. M. (2022). Deciding how to decide: Using the Digital Preservation Storage Criteria. IFLA Journal, 48(2), 318-331. https://doi.org/10.1177/03400352211011490
