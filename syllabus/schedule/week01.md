@@ -13,4 +13,4 @@ Link to slide deck [Update me]
 {: .label .label-yellow }
 Due date
 
-* Sign up using this <a href="https://forms.gle/UDw6TjZdvrxQpkxq7" target="_blank">Google Form</a> for a file format for the <a href="https://digital-archives.github.io/HISTGA1011/assignments/file_format.html">File Format Report Assignment</a> by next week’s class.
+Sign up for a file format using this <a href="https://forms.gle/UDw6TjZdvrxQpkxq7" target="_blank">Google Form</a> for the <a href="https://digital-archives.github.io/HISTGA1011/assignments/file_format.html">File Format Report Assignment</a> by next week’s class.
