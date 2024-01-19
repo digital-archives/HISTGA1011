@@ -17,7 +17,9 @@ Due date
 * Post your pre-class reading reactions to Brightspace.
 * During/post-class activity: Fixity and Digital Packages. Submit your completed exercise through Brightspace by the end of the week.
 
-Read:
+{: .label .label-green }
+Read
+
 * Owens, Trevor. The Theory and Craft of Digital Preservation. 2018.
 * Gates, Ethan. "Using BagIt." _The Patch Bay: Connecting Preservation and Technology). September 20, 2016. <a href="https://patchbay.tech/blog/2016/09/20/using-bagit/" target="_blank">https://patchbay.tech/blog/2016/09/20/using-bagit/</a>.
 * Gates, Ethan. "Using BagIt in 2018." _The Patch Bay: Connecting Preservation and Technology_. December 15, 2017. <a href="https://patchbay.tech/blog/2017/12/15/using-bagit-in-2018/" target="_blank">https://patchbay.tech/blog/2017/12/15/using-bagit-in-2018/</a>.
