@@ -15,7 +15,7 @@ Due date
 
 * Assignment due: <a href="https://digital-archives.github.io/HISTGA1011/assignments/file_format.html">File Format Report Assignment</a>
 * Post your pre-class reading reactions to Brightspace.
-* Weekly activity: Archivematica Sandbox. Submit activity summary to Brightspace by Sunday, February 11, 2024.
+* Weekly activity: <a href="https://digital-archives.github.io/HISTGA1011/activities/archivematica.html" target="_blank">Archivematica Sandbox</a>. Submit activity summary to Brightspace by the end of the week Sunday.
 
 {: .label .label-green }
 Read
