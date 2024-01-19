@@ -10,12 +10,14 @@ has_children: false
 # Week 13: April 17, 2024 - Moving Image and Audio Preservation
 Link to slide deck [update me]
 
-Due/asynchronous work:
+{: .label .label-yellow }
+Due
 * Assignment due: Repository Comparison Report
 * Post your pre-class reading reactions to Brightspace.
 * During/post-class activity: QCTools Activity
 
-Read: 
+{: .label .label-green }
+Due
 * Kim, Julia, Fraimow, Rebecca, Titkemeyer, Erika. “Never Best Practices: Born-Digital Audiovisual Preservation.” Code4lib Journal: Issue 43, 2019-02-14, <a href="https://journal.code4lib.org/articles/14244" target="_blank">https://journal.code4lib.org/articles/14244</a>
 * Smith-Cruz, Shawn. Tape-by-Tape: Digital Practices and Cataloging Rituals at the Lesbian Herstory Archives. CUNY Academic Works, 2015. The Graduate Center, Publications and Research. <a href="https://academicworks.cuny.edu/cgi/viewcontent.cgi?referer=&httpsredir=1&article=1268&context=gc_pubs" target="_blank">https://academicworks.cuny.edu/cgi/viewcontent.cgi?referer=&httpsredir=1&article=1268&context=gc_pubs</a>
 * Pearman, Alice. “Teachers' Tales Go Online: Digitizing Oral Histories on Cassettes.” The American Archivist: Spring/Summer 2019, Vol. 82, No. 1, pp. 124-136. <a href="https://doi.org/10.17723/0360-9081-82.1.124" target="_blank">https://doi.org/10.17723/0360-9081-82.1.124</a>
