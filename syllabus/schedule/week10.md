@@ -3,18 +3,20 @@ title: Week 10 - March 27
 layout: default
 parent: Course Schedule & Readings
 grand_parent: Syllabus
-nav_order: 1
+nav_order: 10
 has_children: false
 ---
 
 # Week 10: March 27, 2024 - Born-digital archiving
 Link to slide deck [update me]
 
-Due/asynchronous work:
+{: .label .label-yellow }
+Due
 * Post your pre-class reading reactions to Brightspace.
 * During/Post Class Activity: Corrupting a Bitstream Exercise. Submit your activity summary to Brightspace.
 
-Read:
+{: .label .label-green }
+Read
 * Wilsey, Laura, et al. “Capturing and Processing Born-Digital Files in the STOP AIDS Project Records: A Case Study.” Journal of Western Archives, vol. 4, no. 1, Apr. 2013, <a href="https://digitalcommons.usu.edu/westernarchives/vol4/iss1/1/" target="_blank">https://digitalcommons.usu.edu/westernarchives/vol4/iss1/1/</a>
 * Libraries, University of California Systemwide. UC Guidelines for Born-Digital Archival Description. Oct. 2017. <a href="https://escholarship.org/uc/item/9cg222jc" target="_blank">https://escholarship.org/uc/item/9cg222jc</a>
 * Tammi Kim; Karla Irwin. “Learning from Las Vegas: Adapting Workflows for Managing Born-Digital Design Records." The American Archivist (2021) 84 (2): 355–373. <a href="https://doi.org/10.17723/0360-9081-84.2.355" target="_blank">https://doi.org/10.17723/0360-9081-84.2.355</a>
