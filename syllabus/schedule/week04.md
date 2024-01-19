@@ -1,13 +1,13 @@
 ---
-title: Week 3 - February 14
+title: Week 4 - February 14
 layout: default
 parent: Course Schedule & Readings
 grand_parent: Syllabus
-nav_order: 3
+nav_order: 4
 has_children: false
 ---
 
-# Week 3: February 14, 2024 - Digital Preservation Systems - Part 1
+# Week 4: February 14, 2024 - Digital Preservation Systems - Part 1
 
 Link to slide deck [Update me]
 
