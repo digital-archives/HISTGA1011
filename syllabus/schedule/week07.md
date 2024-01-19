@@ -3,19 +3,21 @@ title: Week 7 - March 6
 layout: default
 parent: Course Schedule & Readings
 grand_parent: Syllabus
-nav_order: 1
+nav_order: 7
 has_children: false
 ---
 
 # Week 7: March 6, 2024 - Collection Development, Acquisition and Appraisal
 Link to slide deck [update me]
 
-Due/asynchronous work:
+{: .label .label-yellow }
+Due
 * Assignment due: Imaging and Conservation Review - Group Report and Individual Reflection
 * Post your pre-class reading reactions to Brightspace.
 * During/post-class activity: File conversion and renaming exercise. Submit link to finalized folder to Brightspace by Sunday, March 10, 2024.
 
-Watch:
+{: .label .label-green }
+Due
 * Abumeeiz, Salma. "Collections over People: Critiquing Notions of Institutional Inclusion within Library Heritage Materials." Presentation at the Item Not Found conference, moderated by Nina Schneider, University of California, Los Angeles, April 4, 2023. YouTube video, 38:07-59:14. Accessed July 2, 2023. <a href="https://www.youtube.com/watch?v=53M1UwyYPug" target="_blank">https://www.youtube.com/watch?v=53M1UwyYPug</a>
 
 Read:
