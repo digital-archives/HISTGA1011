@@ -3,7 +3,7 @@ title: Week 11 - April 3
 layout: default
 parent: Course Schedule & Readings
 grand_parent: Syllabus
-nav_order: 1
+nav_order: 11
 has_children: false
 ---
 
@@ -11,11 +11,13 @@ has_children: false
 
 Link to slide deck [update me]
 
-Due/asynchronous work:
+{: .label .label-yellow }
+Due
 * Assignment due: Programming/Scripting Language Reflection paper
 * Post your pre-class reading reactions to Brightspace.
 
-Read:
+{: .label .label-green }
+Due
 * Wilkinson, Elizabeth, and Jeremy Bartczak. "Metadata and Description for Software." Presented at the workshop "Emulation in the Archives," University of Virginia, July 18, 2019. Accessed from OSF (Open Science Framework) at <a href="https://osf.io/49823" target="_blank">https://osf.io/49823</a>
 * Donaldson, Devan Ray. 2019. “Trust in Archives– Trust in Digital Archival Content Framework”. Archivaria 88 (November), 50-83. <a href="https://archivaria-ca.proxy.library.nyu.edu/index.php/archivaria/article/view/13697" target="_blank">https://archivaria-ca.proxy.library.nyu.edu/index.php/archivaria/article/view/13697</a>
 * Manžuch, Zinaida (2017) "Ethical Issues In Digitization Of Cultural Heritage," Journal of Contemporary Archival Studies: Vol. 4 , Article 4. <a href="https://elischolar.library.yale.edu/jcas/vol4/iss2/4" target="_blank">https://elischolar.library.yale.edu/jcas/vol4/iss2/4</a>
