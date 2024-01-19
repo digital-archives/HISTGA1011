@@ -3,19 +3,21 @@ title: Week 6 - February 28
 layout: default
 parent: Course Schedule & Readings
 grand_parent: Syllabus
-nav_order: 1
+nav_order: 6
 has_children: false
 ---
 
 # Week 6: February 28, 2024 - The Cost of Digital Preservation
 Link to slide deck [update me]
 
-Due/asynchronous work:
-* Assignment due: Submit final project abstract by Friday, March 3rd.
+{: .label .label-yellow }
+Due
+* Submit final project abstract by Friday, March 3rd.
 * Post your pre-class reading reactions to Brightspace.
 * During/post-class activity: Imaging and Conservation Review
 
-Read:
+{: .label .label-green }
+Due
 * Stephanie Becker, Anne Kumer, and Naomi Langer, “Access is People: How Investing in Digital Collections Labor Improves Archival Discovery & Delivery,” in The Lighting the Way Handbook: Case Studies, Guidelines, and Emergent Futures for Archival Discovery and Delivery, edited by Maria Matienzo and Dinah Handel, 29-38. Stanford, CA: Stanford University Libraries, October 2021. <a href="https://doi.org/10.25740/gg453cv6438" target="_blank">https://doi.org/10.25740/gg453cv6438</a>
 * Prescott, Andrew and Hughs, Lorna. “Why Do We Digitize? The Case for Slow Digitization.” Archive Journal: September 2018. <a href="https://www.archivejournal.net/essays/why-do-we-digitize-the-case-for-slow-digitization/" target="_blank">https://www.archivejournal.net/essays/why-do-we-digitize-the-case-for-slow-digitization/</a>
 * Thompson, Samantha, “Why don’t archivists digitize everything?” Archives @ PAMA blog: May 31, 2017. <a href="https://peelarchivesblog.com/2017/05/31/why-dont-archivists-digitize-everything/" target="_blank">https://peelarchivesblog.com/2017/05/31/why-dont-archivists-digitize-everything/</a>
