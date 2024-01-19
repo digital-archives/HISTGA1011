@@ -11,7 +11,7 @@ has_children: false
 Link to slide deck [Update me]
 
 {: .label .label-yellow }
-Due date
+Due
 
 * Assignment due: <a href="https://digital-archives.github.io/HISTGA1011/assignments/file_format.html">File Format Report Assignment</a>
 * Post your pre-class reading reactions to Brightspace.
