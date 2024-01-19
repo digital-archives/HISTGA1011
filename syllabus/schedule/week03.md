@@ -20,4 +20,4 @@ Due date
 {: .label .label-green }
 Read
 
-* Schaefer, S. K., McGovern, N. Y., Zierau, E. M. O., Goethals, A. L., & Wu, C. C. M. (2022). Deciding how to decide: Using the Digital Preservation Storage Criteria. IFLA Journal, 48(2), 318-331. https://doi.org/10.1177/03400352211011490
+* Schaefer, S. K., McGovern, N. Y., Zierau, E. M. O., Goethals, A. L., & Wu, C. C. M. (2022). Deciding how to decide: Using the Digital Preservation Storage Criteria. IFLA Journal, 48(2), 318-331. <a href="https://doi.org/10.1177/03400352211011490" target="_blank">https://doi.org/10.1177/03400352211011490</a>
