@@ -1,5 +1,5 @@
 ---
-title: Week 4 - February 14
+title: Week 3 - February 14
 layout: default
 parent: Course Schedule & Readings
 grand_parent: Syllabus
@@ -7,16 +7,16 @@ nav_order: 3
 has_children: false
 ---
 
-# Week 4: February 14, 2024 - Digital Preservation Systems - Part 1
+# Week 3: February 14, 2024 - Digital Preservation Systems - Part 1
 
 Link to slide deck [Update me]
 
 {: .label .label-yellow }
 Due
-
 * Post your pre-class reading reactions to Brightspace.
 * Weekly activity: 
 
+{: .label .label-green }
 Read
 * Eckard, Max, Pillen, Dallas, Shallcross, Mike. “Bridging Technologies to Efficiently Arrange and Describe Digital Archives: the Bentley Historical Library’s ArchivesSpace-Archivematica-DSpace Workflow Integration Project.” Code4lib Journal: Issue 35, 2017-01-30. <a href="https://journal.code4lib.org/articles/12105" target="_blank">https://journal.code4lib.org/articles/12105</a>
 * Fritz, Angela. "So Many Options, So Little Time": How to Evaluate a Digital Preservation System That Is Right for Your Institution. In Digital Preservation in Libraries: Preparing for a Sustainable Future, edited by Jeremy Myntti and Jessalyn Zoom, 77-92. 2019. <a href="https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/reader.action?docID=5732733&ppg=5" target="_blank">https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/reader.action?docID=5732733&ppg=5</a>
