@@ -3,7 +3,7 @@ title: Week 13 - April 17
 layout: default
 parent: Course Schedule & Readings
 grand_parent: Syllabus
-nav_order: 1
+nav_order: 13
 has_children: false
 ---
 
