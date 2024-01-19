@@ -3,17 +3,19 @@ title: Week 5 - February 21
 layout: default
 parent: Course Schedule & Readings
 grand_parent: Syllabus
-nav_order: 1
+nav_order: 5
 has_children: false
 ---
 # Week 5: February 21, 2024 - Preservation Metadata
 Link to slide deck [Update me]
 
-Due dates/asynchronous work:
+{: .label .label-yellow }
+Due
 * Post your pre-class reading reactions to Brightspace.
 * During/post-class activity: METS and PREMIS Metadata. Submit your annotated XML file in Brightspace.
 
-Read:
+{: .label .label-green }
+Read
 * Force, Donald C., and Randy Smith. "Context Lost: Digital Surrogates, Their Physical Counterparts, and the Metadata that Is Keeping Them Apart." _The American Archivist_ 84, no. 1 (2021): 91–118. <a href="https://drive.google.com/drive/folders/1fOKFI3HpMALQARiz0R9ip-4uPP95LRb2" target="_blank">https://drive.google.com/drive/folders/1fOKFI3HpMALQARiz0R9ip-4uPP95LRb2</a>
 * Zhang, Jane, and Dayne Mauney. “When Archival Description Meets Digital Object Metadata: A Typological Study of Digital Archival Representation.” The American Archivist, vol. 76, no. 1, 2013, pp. 174–195. <a href="https://americanarchivist.org/doi/pdf/10.17723/aarc.76.1.121u85342062w155" target="_blank">https://americanarchivist.org/doi/pdf/10.17723/aarc.76.1.121u85342062w155</a>
 * Guenther, Rebecca S. (2008) “Battle of the Buzzwords Flexibility vs. Interoperability When Implementing PREMIS in METS,” D‐Lib Magazine 14 (7/8). <a href="https://www.dlib.org/dlib/july08/guenther/07guenther.html" target="_blank">https://www.dlib.org/dlib/july08/guenther/07guenther.html</a>
