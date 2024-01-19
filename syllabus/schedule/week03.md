@@ -7,7 +7,7 @@ nav_order: 1
 has_children: false
 ---
 
-# Week 3: February 7, 2024 - Digital Preservation Systems - Part 1 - Storage
+# Week 3: February 7, 2024 - Digital Preservation Systems - Part 2 - Storage
 Link to slide deck [Update me]
 
 {: .label .label-yellow }
