@@ -2,7 +2,6 @@
 title: Week 11 - April 3
 layout: default
 parent: Course Schedule & Readings
-grand_parent: Syllabus
 nav_order: 11
 has_children: false
 ---
