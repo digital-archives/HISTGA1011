@@ -9,32 +9,30 @@ has_children: true
 
 Students are evaluated using a points-based system across three main areas: Participation, Assignments, and the Final Project. These areas are further broken down into subgrade areas.
 
-Certainly! Here are the tables with an additional column for due dates in markdown:
+## Participation:
 
-**Participation:**
+| Item                              | Points |
+|-----------------------------------|-------|
+| Pre-class reading reactions        | 5    |
+| Class participation and discussions | 5    |
+| Activities                         | 20    |
+| **Total**                         | **30** |
 
-| Item                              | Points | Due Date      |
-|-----------------------------------|-------|---------------|
-| Pre-class reading reactions        | 10    | By classtime |
-| Class participation and discussions | 10    | [Insert Date] |
-| Weekly Activities                         | 10    | By end of week |
-| **Total**                         | **30** |               |
+## Assignments:
 
-**Assignments:**
+| Assignment                                   | Points |
+|---------------------------------------------|-------|
+| File Format Report                           | 10    |
+| Imaging Group Report and Individual Reflection Paper | 10    |
+| Repository Comparison                        | 10    |
+| Scripting Reflection Paper                   | 10    |
+| **Total**                                    | **40** |
 
-| Assignment                                   | Points | Due Date      |
-|---------------------------------------------|-------|---------------|
-| File Format Report                           | 10    | February 14 |
-| Imaging Group Report and Individual Reflection Paper | 10    | [Insert Date] |
-| Repository Comparison                        | 10    | [Insert Date] |
-| Scripting Reflection Paper                   | 10    | [Insert Date] |
-| **Total**                                    | **40** |               |
+## Final Project:
 
-**Final Project:**
-
-| Item                              | Points | Due Date      |
-|-----------------------------------|-------|---------------|
-| Project Proposal Abstract          | 10    | March 1 |
-| Digitization Project Proposal Paper | 10    | [Insert Date] |
-| Project Presentation               | 10    | [Insert Date] |
-| **Total**                         | **30** |               |
+| Item                              | Points |
+|-----------------------------------|-------|
+| Project Proposal Abstract          | 10    |
+| Digitization Project Proposal Paper | 10    |
+| Project Presentation               | 10    |
+| **Total**                         | **30** |
