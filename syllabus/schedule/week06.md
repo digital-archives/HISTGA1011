@@ -11,7 +11,7 @@ Link to slide deck [update me]
 
 {: .label .label-yellow }
 Due
-* Assignment due: Submit your Final Project Abstract in Brightspace by this Friday.
+* Assignment due: Submit your <a href="https://digital-archives.github.io/HISTGA1011/assignments/final/abstract.html" target="_blank">Final Project Abstract</a> in Brightspace by this Friday.
 * Post your pre-class reading reactions to Brightspace by 3:30pm today.
 * Weekly activity: We will start <a href="https://digital-archives.github.io/HISTGA1011/assignments/imaging.html" target="_blank">Imaging and Conservation Review</a> in class. Submit your Group Report and Individual Reflection in Brightspace by the end of the week Sunday.
 
