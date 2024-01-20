@@ -2,7 +2,6 @@
 title: Week 4 - February 14
 layout: default
 parent: Course Schedule & Readings
-grand_parent: Syllabus
 nav_order: 4
 has_children: false
 ---
