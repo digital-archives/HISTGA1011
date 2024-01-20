@@ -6,14 +6,14 @@ nav_order: 14
 has_children: false
 ---
 
-# Week 14: April 24, 2024 - Digital Preservation Planning, Sustainability and Climate Impact
+# Week 14: Digital Preservation Planning, Sustainability and Climate Impact
 
 Link to slide deck [Update me]
 
 {: .label .label-yellow }
 Due
 * Post your pre-class reading reactions to Brightspace.
-* During/post-class activity: Bagger: Fixity and Digital Packages. Submit your activity results to Brightspace.
+* During/post-class activity:
 
 {: .label .label-green }
 Read
