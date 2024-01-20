@@ -6,7 +6,7 @@ grand_parent: Syllabus
 nav_order: 5
 has_children: false
 ---
-# Week 5: February 21, 2024 - Preservation Metadata
+# Week 5: Digital Preservation Metadata
 Link to slide deck [Update me]
 
 {: .label .label-yellow }
