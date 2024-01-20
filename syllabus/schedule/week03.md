@@ -1,5 +1,5 @@
 ---
-title: Week 3 - February 7
+title: Week 4 - February 14
 layout: default
 parent: Course Schedule & Readings
 grand_parent: Syllabus
