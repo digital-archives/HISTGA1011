@@ -13,7 +13,7 @@ Link to slide deck [Update me]
 {: .label .label-yellow }
 Due
 * Post your pre-class reading reactions to Brightspace.
-* Weekly activity: 
+* Weekly activity: <a href="https://digital-archives.github.io/HISTGA1011/activities/fixity_bagger.html" target="_blank">Fixity and Digital Packages</a>. Submit your completed activity in Brightspace by the end of the week Sunday.
 
 {: .label .label-green }
 Read
