@@ -34,7 +34,7 @@ Certainly! Here are the tables with an additional column for due dates in markdo
 
 | Item                              | Points | Due Date      |
 |-----------------------------------|-------|---------------|
-| Project Proposal Abstract          | 10    | [Insert Date] |
+| Project Proposal Abstract          | 10    | March 1 |
 | Digitization Project Proposal Paper | 10    | [Insert Date] |
 | Project Presentation               | 10    | [Insert Date] |
 | **Total**                         | **30** |               |
