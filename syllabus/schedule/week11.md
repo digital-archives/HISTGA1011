@@ -7,13 +7,13 @@ nav_order: 11
 has_children: false
 ---
 
-# Week 11: April 3, 2024 - Software Preservation
+# Week 11: Software Preservation
 
 Link to slide deck [update me]
 
 {: .label .label-yellow }
 Due
-* Assignment due: Programming/Scripting Language Reflection paper
+* Assignment due: Scripting Reflection Paper
 * Post your pre-class reading reactions to Brightspace.
 
 {: .label .label-green }
