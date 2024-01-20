@@ -7,7 +7,7 @@ nav_order: 4
 has_children: false
 ---
 
-# Week 4: Digital Preservation Systems - Part 2 - Storage
+# Week 4: Storage Systems
 Link to slide deck [Update me]
 
 {: .label .label-yellow }
