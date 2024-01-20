@@ -11,8 +11,8 @@ Link to slide deck [update me]
 
 {: .label .label-yellow }
 Due
-* Submit your Final Project Abstract by this Friday, March 1.
-* Post your pre-class reading reactions to Brightspace.
+* Submit your Final Project Abstract in Brightspace by this Friday.
+* Post your pre-class reading reactions to Brightspace by 3:30pm today.
 * During/post-class activity: Imaging and Conservation Review. Submit your Group Report and Individual Reflection by the end of the week (Sunday).
 
 {: .label .label-green }
