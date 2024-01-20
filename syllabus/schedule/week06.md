@@ -11,12 +11,12 @@ Link to slide deck [update me]
 
 {: .label .label-yellow }
 Due
-* Submit your Final Project Abstract in Brightspace by this Friday.
+* Assignment due: Submit your Final Project Abstract in Brightspace by this Friday.
 * Post your pre-class reading reactions to Brightspace by 3:30pm today.
-* During/post-class activity: Imaging and Conservation Review. Submit your Group Report and Individual Reflection by the end of the week (Sunday).
+* * Weekly activity: We will start <a href="https://digital-archives.github.io/HISTGA1011/assignments/imaging.html" target="_blank">Imaging and Conservation Review</a> in class. Submit your Group Report and Individual Reflection in Brightspace by the end of the week Sunday.
 
 {: .label .label-green }
-Due
+Read
 * Stephanie Becker, Anne Kumer, and Naomi Langer, “Access is People: How Investing in Digital Collections Labor Improves Archival Discovery & Delivery,” in The Lighting the Way Handbook: Case Studies, Guidelines, and Emergent Futures for Archival Discovery and Delivery, edited by Maria Matienzo and Dinah Handel, 29-38. Stanford, CA: Stanford University Libraries, October 2021. <a href="https://doi.org/10.25740/gg453cv6438" target="_blank">https://doi.org/10.25740/gg453cv6438</a>
 * Prescott, Andrew and Hughs, Lorna. “Why Do We Digitize? The Case for Slow Digitization.” Archive Journal: September 2018. <a href="https://www.archivejournal.net/essays/why-do-we-digitize-the-case-for-slow-digitization/" target="_blank">https://www.archivejournal.net/essays/why-do-we-digitize-the-case-for-slow-digitization/</a>
 * Thompson, Samantha, “Why don’t archivists digitize everything?” Archives @ PAMA blog: May 31, 2017. <a href="https://peelarchivesblog.com/2017/05/31/why-dont-archivists-digitize-everything/" target="_blank">https://peelarchivesblog.com/2017/05/31/why-dont-archivists-digitize-everything/</a>
