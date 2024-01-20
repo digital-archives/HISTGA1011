@@ -2,7 +2,6 @@
 title: Week 10 - March 27
 layout: default
 parent: Course Schedule & Readings
-grand_parent: Syllabus
 nav_order: 10
 has_children: false
 ---
