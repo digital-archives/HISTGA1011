@@ -6,6 +6,8 @@ nav_order: 4
 has_children: false
 ---
 
+Due date: April 3
+
 # Scripting Reflection Paper
 
 In an era of growing digital collections in collecting institutions, archivists must acquaint themselves with common scripting languages to automate tasks that would otherwise be laborious to perform manually. While it is not essential for archivists to become full-fledged programmers, it is crucial for them to understand the significance of scripting in their field.
