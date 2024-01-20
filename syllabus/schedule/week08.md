@@ -2,7 +2,6 @@
 title: Week 8 - March 13
 layout: default
 parent: Course Schedule & Readings
-grand_parent: Syllabus
 nav_order: 8
 has_children: false
 ---
