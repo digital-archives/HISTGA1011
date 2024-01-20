@@ -7,12 +7,12 @@ nav_order: 6
 has_children: false
 ---
 
-# Week 6: February 28, 2024 - The Cost of Digital Preservation
+# Week 6: The Cost of Digital Preservation
 Link to slide deck [update me]
 
 {: .label .label-yellow }
 Due
-* Submit final project abstract by Friday, March 3rd.
+* Submit your Final Project Abstract by this Friday, March 1.
 * Post your pre-class reading reactions to Brightspace.
 * During/post-class activity: Imaging and Conservation Review. Submit your Group Report and Individual Reflection by the end of the week (Sunday).
 
