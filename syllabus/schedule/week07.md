@@ -2,7 +2,6 @@
 title: Week 7 - March 6
 layout: default
 parent: Course Schedule & Readings
-grand_parent: Syllabus
 nav_order: 7
 has_children: false
 ---
