@@ -6,7 +6,7 @@ grand_parent: Syllabus
 nav_order: 2
 has_children: false
 ---
-# Week 2: January 31, 2024 - Open Archival Information System (OAIS) Conceptual Model
+# Week 2: Open Archival Information System (OAIS) Conceptual Model
 Link to slide deck [Update me]
 
 {: .label .label-yellow }
