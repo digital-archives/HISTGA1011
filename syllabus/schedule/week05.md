@@ -2,7 +2,6 @@
 title: Week 5 - February 21
 layout: default
 parent: Course Schedule & Readings
-grand_parent: Syllabus
 nav_order: 5
 has_children: false
 ---
