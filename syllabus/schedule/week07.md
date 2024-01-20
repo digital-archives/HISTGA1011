@@ -6,7 +6,7 @@ nav_order: 7
 has_children: false
 ---
 
-# Week 7: March 6, 2024 - Collection Development, Acquisition and Appraisal
+# Week 7: Collection Development, Acquisition and Appraisal
 Link to slide deck [update me]
 
 {: .label .label-yellow }
