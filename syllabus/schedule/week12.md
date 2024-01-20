@@ -2,7 +2,6 @@
 title: Week 12 - April 10
 layout: default
 parent: Course Schedule & Readings
-grand_parent: Syllabus
 nav_order: 12
 has_children: false
 ---
