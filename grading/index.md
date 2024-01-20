@@ -38,7 +38,3 @@ Certainly! Here are the tables with an additional column for due dates in markdo
 | Digitization Project Proposal Paper | 10    | [Insert Date] |
 | Project Presentation               | 10    | [Insert Date] |
 | **Total**                         | **30** |               |
-
-You can replace "[Insert Date]" with the actual due dates for each item.
-
-
