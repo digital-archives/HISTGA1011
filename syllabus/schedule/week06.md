@@ -2,7 +2,6 @@
 title: Week 6 - February 28
 layout: default
 parent: Course Schedule & Readings
-grand_parent: Syllabus
 nav_order: 6
 has_children: false
 ---
