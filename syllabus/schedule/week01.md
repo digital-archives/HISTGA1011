@@ -6,7 +6,7 @@ grand_parent: Syllabus
 nav_order: 1
 has_children: false
 ---
-# Week 1: January 24, 2024 - History of Digital Preservation and Digital Computing<br>
+# Week 1: Introduction to Digital Preservation<br>
 Link to slide deck [Update me]
 
 {: .label .label-yellow }
