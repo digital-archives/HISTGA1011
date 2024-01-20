@@ -16,7 +16,7 @@ Due
 * During/Post-class Activity: Emulation Activity. Submit your activity summary in Brightspace.
 
 {: .label .label-green }
-Due
+Read
 * Cocciolo, Anthony. “Unix Commands and Batch Processing for the Reluctant Librarian or Archivist.” Code4Lib Journal: Issue 23, 2014-01-17. <a href="https://journal.code4lib.org/articles/9158" target="_blank">https://journal.code4lib.org/articles/9158</a>
 * Martin, Nicole. “Why Use The Command Line For Digital Archiving And Preservation?” twobit Digital Preservation. June 21, 2020. <a href="https://twobitpreservation.com/blog/2020/6/11/why-use-the-command-line-for-digital-archiving-and-preservation" target="_blank">https://twobitpreservation.com/blog/2020/6/11/why-use-the-command-line-for-digital-archiving-and-preservation</a>
 * Berish, Amy. “Learning Python as a Processing Archivist: A Reflection” Bits & Bytes: The Rockefeller Archive Center Blog. April 6, 2016. <a href="https://blog.rockarch.org/learning-python-as-a-processing-archivist-a-reflection" target="_blank">https://blog.rockarch.org/learning-python-as-a-processing-archivist-a-reflection</a>
