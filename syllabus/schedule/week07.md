@@ -11,9 +11,8 @@ Link to slide deck [update me]
 
 {: .label .label-yellow }
 Due
-* Assignment due: Imaging and Conservation Review - Group Report and Individual Reflection
-* Post your pre-class reading reactions to Brightspace.
-* During/post-class activity: File conversion and renaming exercise. Submit link to finalized folder to Brightspace by Sunday, March 10, 2024.
+* Post your pre-class reading reactions to Brightspace by 3:30pm today.
+* Weekly activity: We will start <a href="https://digital-archives.github.io/HISTGA1011/activities/filenaming.html" target="_blank">File Conversion and Renaming</a> in class. Submit your completed activity summary in Brightspace by the end of the week Sunday.
 
 {: .label .label-green }
 Due
