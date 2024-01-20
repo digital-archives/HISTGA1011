@@ -6,11 +6,9 @@ grand_parent: Syllabus
 nav_order: 1
 has_children: false
 ---
-<a name="week1"></a>
-### Week 1: January 24, 2024 - History of Digital Preservation and Digital Computing<br>
+# Week 1: January 24, 2024 - History of Digital Preservation and Digital Computing<br>
 Link to slide deck [Update me]
 
 {: .label .label-yellow }
-Due date
-
-Sign up for a file format using this <a href="https://forms.gle/UDw6TjZdvrxQpkxq7" target="_blank">Google Form</a> for the <a href="https://digital-archives.github.io/HISTGA1011/assignments/file_format.html">File Format Report Assignment</a> by next week’s class.
+Due
+* Sign up for a file format using this <a href="https://forms.gle/UDw6TjZdvrxQpkxq7" target="_blank">Google Form</a> for the <a href="https://digital-archives.github.io/HISTGA1011/assignments/file_format.html">File Format Report Assignment</a> by next week’s class.
