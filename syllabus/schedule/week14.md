@@ -2,7 +2,6 @@
 title: Week 14 - April 24
 layout: default
 parent: Course Schedule & Readings
-grand_parent: Syllabus
 nav_order: 14
 has_children: false
 ---
