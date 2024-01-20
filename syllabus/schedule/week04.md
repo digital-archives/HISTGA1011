@@ -7,7 +7,9 @@ nav_order: 3
 has_children: false
 ---
 
-# Week 4: February 14, 2024 - Digital Preservation Systems - Part 1
+# Week 3: Digital Preservation Systems - Part 1 - Repository and Descriptive Systems
+
+## February 14, 2024
 
 Link to slide deck [Update me]
 
