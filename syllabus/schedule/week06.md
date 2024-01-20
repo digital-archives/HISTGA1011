@@ -14,7 +14,7 @@ Link to slide deck [update me]
 Due
 * Submit final project abstract by Friday, March 3rd.
 * Post your pre-class reading reactions to Brightspace.
-* During/post-class activity: Imaging and Conservation Review
+* During/post-class activity: Imaging and Conservation Review. Submit your Group Report and Individual Reflection by the end of the week (Sunday).
 
 {: .label .label-green }
 Due
