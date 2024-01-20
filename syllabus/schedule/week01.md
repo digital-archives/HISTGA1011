@@ -2,7 +2,6 @@
 title: Week 1 - January 24
 layout: default
 parent: Course Schedule & Readings
-grand_parent: Syllabus
 nav_order: 1
 has_children: false
 ---
