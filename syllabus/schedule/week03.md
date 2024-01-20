@@ -13,7 +13,7 @@ Link to slide deck [Update me]
 {: .label .label-yellow }
 Due
 
-* Assignment due: <a href="https://digital-archives.github.io/HISTGA1011/assignments/file_format.html">File Format Report Assignment</a>
+* Assignment due: <a href="https://digital-archives.github.io/HISTGA1011/assignments/file_format.html">File Format Report</a>
 * Post your pre-class reading reactions to Brightspace.
 * Weekly activity: <a href="https://digital-archives.github.io/HISTGA1011/activities/archivematica.html" target="_blank">Archivematica Sandbox</a>. Submit activity summary to Brightspace by the end of the week Sunday.
 
