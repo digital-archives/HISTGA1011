@@ -10,4 +10,5 @@ has_children: false
 
 {: .label .label-yellow }
 Due
+
 Final presentation and project paper
