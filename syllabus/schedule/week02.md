@@ -2,7 +2,6 @@
 title: Week 2 - January 31
 layout: default
 parent: Course Schedule & Readings
-grand_parent: Syllabus
 nav_order: 2
 has_children: false
 ---
