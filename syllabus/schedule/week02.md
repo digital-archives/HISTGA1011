@@ -12,7 +12,7 @@ Link to slide deck [Update me]
 Due
 * Sign up using this <a href="https://forms.gle/UDw6TjZdvrxQpkxq7" target="_blank">Google Form</a> for a file format for the <a href="https://digital-archives.github.io/HISTGA1011/assignments/file_format.html">File Format Report Assignment</a>
 * Post your pre-class reading reactions to Brightspace.
-* During/post-class activity: <a href="https://digital-archives.github.io/HISTGA1011/activities/fixity_bagger.html" target="_blank">Fixity and Digital Packages</a>. Submit your completed exercise through Brightspace by the end of the week.
+* Class activity: None this week!
 
 {: .label .label-green }
 Read
