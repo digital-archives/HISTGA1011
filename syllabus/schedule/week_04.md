@@ -2,11 +2,11 @@
 title: Week  - February 7
 layout: default
 parent: Course Schedule & Readings
-nav_order: 3
+nav_order: 4
 has_children: false
 ---
 
-# Week 3: Preservation Systems
+# Week 4: Preservation Systems
 
 Link to slide deck [Update me]
 
