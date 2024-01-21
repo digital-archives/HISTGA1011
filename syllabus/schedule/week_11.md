@@ -13,7 +13,7 @@ Link to slide deck [update me]
 Due
 * Assignment due: Submit your <a href="https://digital-archives.github.io/HISTGA1011/assignments/scripting_reflection.html" target="_blank">Scripting Reflection Paper</a> to Brightspace today.
 * Post your pre-class reading reactions to Brightspace.
-* During/Post Class Activity: This week, we will forgo the Weekly Activity. Instead, I would like to open up time after today's lecture to discuss the scripting language you chose, and any questions in general you might have about finding examples of this language being used in a real repository.
+* During/Post Class Activity: 
 
 {: .label .label-green }
 Read
