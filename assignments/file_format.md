@@ -3,7 +3,7 @@ title: File Format Report
 layout: default
 parent: Assignments
 nav_order: 1
-has_children: true
+has_children: false
 ---
 
 # File Format Report: 10 points
