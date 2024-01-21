@@ -22,5 +22,3 @@ Read
 
 Skim:
 * CCSDS 650.0-M-2: Reference Model for an Open Archival Information System (OAIS). Magenta Book. June 2012. <a href="https://public.ccsds.org/publications/archive/650x0m2.pdf" target="_blank">https://public.ccsds.org/publications/archive/650x0m2.pdf</a>
-* Trusted Digital Repository Document Checklist (2012) <a href="https://spotdocs.scholarsportal.info/display/OAIS/Document+Checklist" target="_blank">https://spotdocs.scholarsportal.info/display/OAIS/Document+Checklist</a>
-* ISO16363 Audit Criteria (2012) <a href="https://spotdocs.scholarsportal.info/display/OAIS/ISO16363+Audit+Criteria" target="_blank">https://spotdocs.scholarsportal.info/display/OAIS/ISO16363+Audit+Criteria</a>
