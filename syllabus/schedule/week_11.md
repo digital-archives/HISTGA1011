@@ -12,7 +12,7 @@ Link to slide deck [update me]
 {: .label .label-yellow }
 Due
 * Post your pre-class reading reactions to Brightspace.
-* During/Post Class Activity: Corrupting a Bitstream Exercise. Submit your activity summary to Brightspace.
+* During/Post Class Activity: This week, we will forgo the Weekly Activity. Instead, I would like to open up time after today's lecture to discuss the scripting language you chose, and any questions in general you might have about finding examples of this language being used in a real repository.
 
 {: .label .label-green }
 Read
