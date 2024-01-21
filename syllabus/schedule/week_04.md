@@ -1,12 +1,12 @@
 ---
-title: Week 3 - February 7
+title: Week  - February 7
 layout: default
 parent: Course Schedule & Readings
 nav_order: 3
 has_children: false
 ---
 
-# Week 3: Digital Repository Systems
+# Week 3: Preservation Systems
 
 Link to slide deck [Update me]
 
