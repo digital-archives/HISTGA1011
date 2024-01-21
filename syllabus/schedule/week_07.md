@@ -1,12 +1,12 @@
 ---
-title: Week 6 - February 28
+title: Week 7 - March 6
 layout: default
 parent: Course Schedule & Readings
-nav_order: 6
+nav_order: 7
 has_children: false
 ---
 
-# Week 6: The Cost of Digital Preservation
+# Week 7: Digital Preservation Workflows - Part 1
 Link to slide deck [update me]
 
 {: .label .label-yellow }
