@@ -1,12 +1,12 @@
 ---
-title: Week 4 - February 14
+title: Week 5 - February 21
 layout: default
 parent: Course Schedule & Readings
-nav_order: 4
+nav_order: 5
 has_children: false
 ---
 
-# Week 4: Storage Systems
+# Week 4: Preservation Systems - Storage
 Link to slide deck [Update me]
 
 {: .label .label-yellow }
