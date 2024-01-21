@@ -1,15 +1,16 @@
 ---
-title: Week 12 - April 10
+title: Week 13 - April 10
 layout: default
 parent: Course Schedule & Readings
-nav_order: 12
+nav_order: 13
 has_children: false
 ---
-# Week 12: April 10, 2024 - Web Archiving
+# Week 13: April 17, 2024 - Web Archiving
 Link to slide deck [update me]
 
 {: .label .label-yellow }
 Due
+* Assignment due: Submit your Digital Repository System Comparison Report to Brightspace today.
 * Post your pre-class reading reactions to Brightspace.
 * During/post-class activity: Podcast Archaeology Activity
 
