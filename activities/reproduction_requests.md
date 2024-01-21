@@ -21,17 +21,17 @@ The requests are located in the shared google drive folder labeled [Reproduction
 
 ****
 
-1. Belpre - Lizzy
+1. Belpre
 
-2. Cadava - Olivija
+2. Cadava
 
-3. New York Department of Education (NYCDOE) - Harris
+3. New York Department of Education (NYCDOE)
 
-4. Offices of the Government of Puerto Rico in the United States (OGPRUS) - Lia
+4. Offices of the Government of Puerto Rico in the United States (OGPRUS)
 
-5. Pietri - Lyric
+5. Pietri
 
-6. RZ Rivera - Alyssa
+6. RZ Rivera
 
 ****
 
