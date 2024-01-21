@@ -12,10 +12,16 @@ This activity introduces students to essential concepts in digital preservation:
 * Gates, Ethan. "Using BagIt." _The Patch Bay: Connecting Preservation and Technology). September 20, 2016. <a href="https://patchbay.tech/blog/2016/09/20/using-bagit/" target="_blank">https://patchbay.tech/blog/2016/09/20/using-bagit/</a>.
 * Gates, Ethan. "Using BagIt in 2018." _The Patch Bay: Connecting Preservation and Technology_. December 15, 2017. <a href="https://patchbay.tech/blog/2017/12/15/using-bagit-in-2018/" target="_blank">https://patchbay.tech/blog/2017/12/15/using-bagit-in-2018/</a>.
 
-## Objective
+## Things to know before starting
 __Fixity__ involves verifying a file's integrity over time. Regular fixity checks are crucial to ensure the files remain unaltered and uncorrupted during their lifecycle in a digital preservation repository.
 
 __Digital Packages__ refer to the practice of grouping interrelated files into folders for preservation. The importance of this concept led to the creation of the BagIt Specification by the Library of Congress. This specification provides guidelines for organizing digital preservation packages, referred to as "bags."
+
+Ethan Gates, author of The Patch Bay, wrote two blog posts that provide a nice introduction to the concept of digital packages, and what Bagger (the program you will be installing and using for this activity) is, and what it does. I've also included an additional blog post, written by Meghan Ferriter, written about the development of the BagIt specification by the Library of Congress. Please give them a read before you start on this activity:
+
+* Gates, Ethan. "Using BagIt." _The Patch Bay: Connecting Preservation and Technology. September 20, 2016. <a href="https://patchbay.tech/blog/2016/09/20/using-bagit/" target="_blank">https://patchbay.tech/blog/2016/09/20/using-bagit/</a>.
+* Gates, Ethan. "Using BagIt in 2018." The Patch Bay: Connecting Preservation and Technology. December 15, 2017. <a href="https://patchbay.tech/blog/2017/12/15/using-bagit-in-2018/" target="_blank">https://patchbay.tech/blog/2017/12/15/using-bagit-in-2018/</a>.
+* Ferriter, Meghan. "BagIt at the Library of Congress." The Signal. April 4, 2019. <a href="https://blogs.loc.gov/thesignal/2019/04/bagit-at-the-library-of-congress/" target="_blank">https://blogs.loc.gov/thesignal/2019/04/bagit-at-the-library-of-congress/</a>
 
 ## Steps
 
