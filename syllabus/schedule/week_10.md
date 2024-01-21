@@ -1,18 +1,18 @@
 ---
-title: Week 8 - March 13
+title: Week 10 - March 27
 layout: default
 parent: Course Schedule & Readings
-nav_order: 8
+nav_order: 10
 has_children: false
 ---
 
-# Week 8: March 13 - Digital Preservation Technical Skills
+# Week 10: March 27 - Digital Preservation Technical Skills
 Link to slide deck [update me]
 
 {: .label .label-yellow }
 Due
 * Post your pre-class reading reactions to Brightspace.
-* During/Post-class Activity: Emulation Activity. Submit your activity summary in Brightspace.
+* During/Post-class Activity: 
 
 {: .label .label-green }
 Read
