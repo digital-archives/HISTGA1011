@@ -1,12 +1,13 @@
 ---
-title: Week 7 - March 6
+title: Week 8 - March 13
 layout: default
 parent: Course Schedule & Readings
-nav_order: 7
+nav_order: 8
 has_children: false
 ---
 
-# Week 7: Collection Development, Acquisition and Appraisal
+# Week 8: Digital Preservation Workflows - Part 2
+
 Link to slide deck [update me]
 
 {: .label .label-yellow }
@@ -15,7 +16,7 @@ Due
 * Weekly activity: We will start <a href="https://digital-archives.github.io/HISTGA1011/activities/filenaming.html" target="_blank">File Conversion and Renaming</a> in class. Submit your completed activity summary in Brightspace by the end of the week Sunday.
 
 {: .label .label-green }
-Due
+Read
 * Abumeeiz, Salma. "Collections over People: Critiquing Notions of Institutional Inclusion within Library Heritage Materials." Presentation at the Item Not Found conference, moderated by Nina Schneider, University of California, Los Angeles, April 4, 2023. YouTube video, 38:07-59:14. Accessed July 2, 2023. <a href="https://www.youtube.com/watch?v=53M1UwyYPug" target="_blank">https://www.youtube.com/watch?v=53M1UwyYPug</a>
 
 Read:
