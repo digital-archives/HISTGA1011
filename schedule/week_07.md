@@ -6,7 +6,7 @@ nav_order: 7
 has_children: false
 ---
 
-# Week 7: Digital Preservation Workflows - Part 1
+# Week 7: Digitization Workflows - Part 1
 Link to slide deck [update me]
 
 {: .label .label-yellow }
