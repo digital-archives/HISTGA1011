@@ -1,12 +1,12 @@
 ---
-title: METS and PREMIS Metadata
+title: Digital Preservation Metadata
 layout: default
 parent: Weekly Activities
 nav_order: 2
 has_children: false
 ---
 
-# Weekly Activity: METS and PREMIS Metadata Exercise
+# Digital Preservation Metadata
 
 ## Introduction
 This activity entails annotating a Metadata Encoding and Transmission Standard (METS) record for one item. The purpose of the assignment is to learn how the elements of a simple METS record work together and how preservation metadata derived from the PREservation Metadata Implementation Strategies (PREMIS) can be used to document preservation activities and changes to the item over time. The activity involves saving a record containing rich METS records locally and annotating that METS record to describe the major components of the METS record, including PREMIS components. The net result of the activity is a demonstration of the capability to “read” METS and PREMIS records and explain what happened to the item.
