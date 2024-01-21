@@ -8,7 +8,9 @@ has_children: false
 
 # Fixity and Digital Packages
 
-This activity introduces students to essential concepts in digital preservation: fixity and digital packages.
+This activity introduces students to essential concepts in digital preservation: fixity and digital packages. Ethan Gates, author of The Patch Bay, wrote two blog posts that provide a nice introduction to the concept of digital packages, and what Bagger (the program you will be installing and using for this activity) is, and what it does. Please give them a read before you start on this activity:
+* Gates, Ethan. "Using BagIt." _The Patch Bay: Connecting Preservation and Technology). September 20, 2016. <a href="https://patchbay.tech/blog/2016/09/20/using-bagit/" target="_blank">https://patchbay.tech/blog/2016/09/20/using-bagit/</a>.
+* Gates, Ethan. "Using BagIt in 2018." _The Patch Bay: Connecting Preservation and Technology_. December 15, 2017. <a href="https://patchbay.tech/blog/2017/12/15/using-bagit-in-2018/" target="_blank">https://patchbay.tech/blog/2017/12/15/using-bagit-in-2018/</a>.
 
 ## Objective
 __Fixity__ involves verifying a file's integrity over time. Regular fixity checks are crucial to ensure the files remain unaltered and uncorrupted during their lifecycle in a digital preservation repository.
