@@ -19,3 +19,4 @@ Due
 Read
 * Trusted Digital Repository Document Checklist (2012) <a href="https://spotdocs.scholarsportal.info/display/OAIS/Document+Checklist" target="_blank">https://spotdocs.scholarsportal.info/display/OAIS/Document+Checklist</a>
 * ISO16363 Audit Criteria (2012) <a href="https://spotdocs.scholarsportal.info/display/OAIS/ISO16363+Audit+Criteria" target="_blank">https://spotdocs.scholarsportal.info/display/OAIS/ISO16363+Audit+Criteria</a>
+* Click through the resources provided on NDSA's <a href="https://ndsa.org/publications/levels-of-digital-preservation/" target="_blank">Levels of Digital Preservation</a> website (especially the <a href="https://osf.io/36xfy" target="_blank">Levels of Digital Preservation Matrix</a> chart
