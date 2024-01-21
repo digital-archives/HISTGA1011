@@ -1,12 +1,12 @@
 ---
-title: Week 10 - March 27
+title: Week 11 - April 3
 layout: default
 parent: Course Schedule & Readings
 nav_order: 10
 has_children: false
 ---
 
-# Week 10: March 27, 2024 - Born-digital archiving
+# Week 11: April 3, 2024 - Born-digital archiving
 Link to slide deck [update me]
 
 {: .label .label-yellow }
