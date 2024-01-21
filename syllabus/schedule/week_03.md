@@ -17,4 +17,5 @@ Due
 
 {: .label .label-green }
 Read
-* 
+* Trusted Digital Repository Document Checklist (2012) <a href="https://spotdocs.scholarsportal.info/display/OAIS/Document+Checklist" target="_blank">https://spotdocs.scholarsportal.info/display/OAIS/Document+Checklist</a>
+* ISO16363 Audit Criteria (2012) <a href="https://spotdocs.scholarsportal.info/display/OAIS/ISO16363+Audit+Criteria" target="_blank">https://spotdocs.scholarsportal.info/display/OAIS/ISO16363+Audit+Criteria</a>
