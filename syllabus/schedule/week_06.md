@@ -1,11 +1,11 @@
 ---
-title: Week 5 - February 21
+title: Week 6 - February 28
 layout: default
 parent: Course Schedule & Readings
-nav_order: 5
+nav_order: 6
 has_children: false
 ---
-# Week 5: Digital Preservation Metadata
+# Week 6: Digital Preservation Metadata
 Link to slide deck [Update me]
 
 {: .label .label-yellow }
@@ -22,7 +22,7 @@ Read
 * Priscilla Caplan, Understanding PREMIS, Library of Congress, 2009. <a href="https://www.loc.gov/standards/premis/understanding-premis.pdf" target="_blank">https://www.loc.gov/standards/premis/understanding-premis.pdf</a>
 * Brian Lavoie and Richard Garnter, Preservation Metadata, Digital Preservation Coalition Technology Watch Report 13-03. Digital Preservation Coalition (UK): May 2013 <a href="https://dx.doi.org/10.7207/twr13-03" target="_blank">https://dx.doi.org/10.7207/twr13-03</a>
 
-You do not need to read through these documents, but they may be useful for the weekly activity or for your own reference:
+You do not need to read through these documents, but they will be useful for the weekly activity:
 * METS: <a href="https://www.loc.gov/standards/mets/" target="_blank">https://www.loc.gov/standards/mets/</a>
 * PREMIS: <a href="https://www.loc.gov/standards/premis/" target="_blank">https://www.loc.gov/standards/premis/</a>
 * MODS: <a href="https://www.loc.gov/standards/mods/" target="_blank">https://www.loc.gov/standards/mods/</a>
