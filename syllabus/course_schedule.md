@@ -9,7 +9,7 @@ has_children: false
 
 | Week Number | Date of Class  | Topic / Assignment Due                                  | Weekly Activity        |
 |-------------|----------------|-------------------------------------------|------------------------|
-| [Week 1](https://digital-archives.github.io/HISTGA1011/syllabus/schedule/week_01.html)  | January 24 | Introduction to Digital Preservation         |
+| [Week 1](week_01.html) | January 24 | Introduction to Digital Preservation         |
 | [Week 2](https://digital-archives.github.io/HISTGA1011/syllabus/schedule/week_02.html)  | January 31 | Open Archival Information System (OAIS) Conceptual Model<br>**_Sign up for a file format_**       |
 | [Week 3](https://digital-archives.github.io/HISTGA1011/syllabus/schedule/week_03.html)  | February 7 | Digital Preservation Planning & Policies                |
 | [Week 4](https://digital-archives.github.io/HISTGA1011/syllabus/schedule/week_04.html)  | February 14 | Preservation Systems - Repository Systems and Integrations<br>**_File Format Report due_**                 |
