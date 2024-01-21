@@ -13,7 +13,7 @@ Link to slide deck [Update me]
 {: .label .label-yellow }
 Due
 * Post your pre-class reading reactions to Brightspace by 3:30pm today.
-* Weekly activity: We will start <a href="https://digital-archives.github.io/HISTGA1011/activities/fixity_bagger.html" target="_blank">Preservation Policy Comparison</a> in class. Submit your completed activity summary in Brightspace by the end of the week Sunday.
+* Weekly activity: We will start <a href="https://github.com/digital-archives/HISTGA1011/blob/main/activities/policy_comparison.md" target="_blank">Preservation Policy Comparison</a> in class. Submit your completed activity summary in Brightspace by the end of the week Sunday.
 
 {: .label .label-green }
 Read
