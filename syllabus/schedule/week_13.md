@@ -1,11 +1,11 @@
 ---
-title: Week 13 - April 10
+title: Week 13 - April 17
 layout: default
 parent: Course Schedule & Readings
 nav_order: 13
 has_children: false
 ---
-# Week 13: April 17, 2024 - Web Archiving
+# Week 13: Web Archiving
 Link to slide deck [update me]
 
 {: .label .label-yellow }
@@ -15,7 +15,7 @@ Due
 * During/post-class activity: Podcast Archaeology Activity
 
 {: .label .label-green }
-Due
+Read
 * Drake, Tracy S., Aisha Conner-Gaten, and Steven D. Booth. “Archiving Black Movements: Shifting Power and Exploring a Community-Centered Approach,” in “Library and Information Studies and the Mattering of Black Lives,” eds. Safiya Umoja Noble, Michelle Caswell, Tonia Sutherland, and Sarah Roberts. Special issue, Journal of Critical Library and Information Studies 4. <a href="https://journals.litwinbooks.com/index.php/jclis/article/view/170" target="_blank">https://journals.litwinbooks.com/index.php/jclis/article/view/170</a>
 * Summers, Ed. 2020. “Appraisal Talk in Web Archives”. Archivaria 89 (May), 70-103. <a href="https://archivaria-ca.proxy.library.nyu.edu/index.php/archivaria/article/view/13733" target="_blank">https://archivaria-ca.proxy.library.nyu.edu/index.php/archivaria/article/view/13733</a>
 * Lynch, Clifford. “Stewardship in the ‘Age of Algorithms.’” first monday: 2017-12-04, Volume 22, Number 12. <a href="https://firstmonday.org/ojs/index.php/fm/article/view/8097/6583" target="_blank">https://firstmonday.org/ojs/index.php/fm/article/view/8097/6583</a>
