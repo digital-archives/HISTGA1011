@@ -1,5 +1,5 @@
 ---
-title: Week 4 - February 7
+title: Week 4 - February 14
 layout: default
 parent: Course Schedule & Readings
 nav_order: 4
