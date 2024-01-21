@@ -15,7 +15,7 @@ Students are evaluated using a points-based system across three main areas: Part
 |-----------------------------------|-------|
 | Pre-class reading reactions        | 5    |
 | Class participation and discussions | 5    |
-| Activities                         | 20    |
+| Weekly activities                         | 20    |
 | **Total**                         | **30** |
 
 ## Assignments:
