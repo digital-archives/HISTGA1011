@@ -12,7 +12,7 @@ Link to slide deck [update me]
 {: .label .label-yellow }
 Due
 * Post your pre-class reading reactions to Brightspace.
-* During/Post-class Activity: 
+* Weekly activity: We will start <a href="https://digital-archives.github.io/HISTGA1011/activities/corrupting_a_bitstream.html" target="_blank">Corrupting a Bitstream</a> in class. Submit your completed activity summary in Brightspace by the end of the week Sunday.
 
 {: .label .label-green }
 Read
