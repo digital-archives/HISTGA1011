@@ -7,7 +7,7 @@ has_children: true
 
 # Course Schedule
 
-| Week Number | Date of Class  | Topic                                     |
+| Week Number | Date of Class  | Topic / Assignment due                                    |
 |-------------|----------------|-------------------------------------------|
 | [Week 1](https://digital-archives.github.io/HISTGA1011/syllabus/schedule/week_01.html)  | January 24, 2024 | Introduction to Digital Preservation         |
 | [Week 2](https://digital-archives.github.io/HISTGA1011/syllabus/schedule/week_02.html)  | January 31, 2024 | Open Archival Information System (OAIS) Conceptual Model<br>**_Sign up for a file format_**       |
