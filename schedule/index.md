@@ -15,7 +15,7 @@ has_children: true
 | [Week 4](week_04.html)  | February 14 | Repository Systems<br>**_File Format Report due_** | Fixity and Digital Packages |
 | [Week 5](week_05.html)  | February 21 | Storage Systems | Archivematica Sandbox |
 | [Week 6](week_06.html)  | February 28 | Digital Preservation Metadata<br>**_Final Project Abstract due_** | Digital Preservation Metadata |
-| [Week 7](week_07.html)  | March 6 | Digital Preservation Workflows - Part 1       |
+| [Week 7](week_07.html)  | March 6 | Digital Preservation Workflows - Part 1 | Imaging and Conservation Review |
 | [Week 8](week_08.html)  | March 13 | Digital Preservation Workflows - Part 2          |
 | [Week 9](week_09.html)  | March 20 | NO CLASS - Spring Break              |
 | [Week 10](week_10.html) | March 27 | Digital Preservation Technical Skills |
