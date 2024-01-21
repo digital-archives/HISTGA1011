@@ -1,5 +1,5 @@
 ---
-title: Week 14 - April 24
+title: Week 14 - April 24 - NO CLASS
 layout: default
 parent: Course Schedule & Readings
 nav_order: 14
