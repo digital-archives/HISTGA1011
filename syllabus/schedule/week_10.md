@@ -12,7 +12,7 @@ Link to slide deck [update me]
 {: .label .label-yellow }
 Due
 * Post your pre-class reading reactions to Brightspace.
-* Weekly activity: We will start <a href="https://digital-archives.github.io/HISTGA1011/activities/corrupting_a_bitstream.html" target="_blank">Corrupting a Bitstream</a> in class. Submit your completed activity summary in Brightspace by the end of the week Sunday.
+* Weekly activity: This week, we will forgo the Weekly Activity. Instead, I would like to open up time after today's lecture to discuss the scripting language you chose for the Scripting Reflection Assignment due next week, and address any questions you might have about learning the language, the language itself, and finding relevant examples of it being used online.
 
 {: .label .label-green }
 Read
