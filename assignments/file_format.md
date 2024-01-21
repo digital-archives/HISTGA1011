@@ -6,7 +6,7 @@ nav_order: 1
 has_children: false
 ---
 
-# File Format Report: 10 points
+# File Format Report
 
 ## Assignment Overview
 
