@@ -25,7 +25,7 @@ In this assignment, you will select a file format and conduct an in-depth invest
 ### Instructions
 
 1. **Select a File Format**
-   - Before Week 2, visit the <a href="https://docs.google.com/forms/d/e/1FAIpQLScwKdSzB8FUcoP-tl2OQ6xo_6qyzXRBGerYk0DnQ8BQzyQKhA/viewform" target="_blank">sign-up form</a> and submit your choice of 1 file format that you will investigate for this assignment. Use the <a href="https://www.loc.gov/preservation/resources/rfs/RFS%202023-2024.pdf" target="_blank">Library of Congress Recommended Formats Statement document</a> as a starting point.
+   - Before Week 2, visit the <a href="https://docs.google.com/forms/d/e/1FAIpQLScwKdSzB8FUcoP-tl2OQ6xo_6qyzXRBGerYk0DnQ8BQzyQKhA/viewform" target="_blank">sign-up form</a> and submit your choice of 1 file format that you will investigate for this assignment. Use the <a href="https://www.loc.gov/preservation/resources/rfs/TOC.html" target="_blank">Library of Congress Recommended Formats Statement document</a> as a starting point.
 
 2. **Research and Report**
    - Write a 5-7 page research paper exploring your chosen file format.
