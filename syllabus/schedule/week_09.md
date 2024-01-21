@@ -1,9 +1,9 @@
 ---
-title: Week 9 - No Class
+title: Week 9 - March 20 - NO CLASS
 layout: default
 parent: Course Schedule & Readings
 nav_order: 9
 has_children: false
 ---
 
-# Week 9: March 20, 2024 - NO CLASS - SPRING BREAK
+This week is Spring Break!
