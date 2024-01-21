@@ -9,10 +9,10 @@ has_children: true
 
 | Week Number | Date of Class  | Topic                                     |
 |-------------|----------------|-------------------------------------------|
-| [Week 1](https://digital-archives.github.io/HISTGA1011/syllabus/schedule/week_01.html)  | January 24, 2024 | Introduction to Digital Preservation<br>**_Sign up for a file format_**         |
-| [Week 2](https://digital-archives.github.io/HISTGA1011/syllabus/schedule/week_02.html)  | January 31, 2024 | Open Archival Information System (OAIS) Conceptual Model       |
+| [Week 1](https://digital-archives.github.io/HISTGA1011/syllabus/schedule/week_01.html)  | January 24, 2024 | Introduction to Digital Preservation         |
+| [Week 2](https://digital-archives.github.io/HISTGA1011/syllabus/schedule/week_02.html)  | January 31, 2024 | Open Archival Information System (OAIS) Conceptual Model<br>**_Sign up for a file format_**       |
 | [Week 3](https://digital-archives.github.io/HISTGA1011/syllabus/schedule/week_03.html)  | February 7, 2024  | Digital Preservation Planning & Policies                |
-| [Week 4](https://digital-archives.github.io/HISTGA1011/syllabus/schedule/week_04.html)  | February 14, 2024 | Preservation Systems - Repository Systems and Integrations                 |
+| [Week 4](https://digital-archives.github.io/HISTGA1011/syllabus/schedule/week_04.html)  | February 14, 2024 | Preservation Systems - Repository Systems and Integrations<br>**_File Format Report due_**                 |
 | [Week 5](https://digital-archives.github.io/HISTGA1011/syllabus/schedule/week_05.html)  | February 21, 2024 | Preservation Systems - Storage        |
 | [Week 6](https://digital-archives.github.io/HISTGA1011/syllabus/schedule/week_06.html)  | February 28, 2024 | Digital Preservation Metadata           |
 | [Week 7](https://digital-archives.github.io/HISTGA1011/syllabus/schedule/week_07.html)  | March 6, 2024     | Digital Preservation Workflows - Part 1       |
