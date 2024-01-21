@@ -1,10 +1,12 @@
 ---
-title: Digital Repository System Comparison Report
+title: Repository System Comparison
 parent: Assignments
 layout: default
 nav_order: 5
 has_children: false
 ---
+
+# Repository System Comparison
 
 Due: April 17, 2024 (Week 13)
 Length: 4-6 pages
