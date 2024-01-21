@@ -10,7 +10,7 @@ Link to slide deck [update me]
 
 {: .label .label-yellow }
 Due
-* Assignment due: Submit your Digital Repository System Comparison Report to Brightspace today.
+* Assignment due: Submit your <a href="https://digital-archives.github.io/HISTGA1011/assignments/repository_comparison.html" target="_blank">Repository System Comparison</a> to Brightspace today.
 * Post your pre-class reading reactions to Brightspace.
 * During/post-class activity: Podcast Archaeology Activity
 
