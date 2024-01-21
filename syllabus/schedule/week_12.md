@@ -1,19 +1,18 @@
 ---
-title: Week 13 - April 17
+title: Week 12 - April 10
 layout: default
 parent: Course Schedule & Readings
-nav_order: 13
+nav_order: 12
 has_children: false
 ---
 
-# Week 13: April 17, 2024 - Moving Image and Audio Preservation
+# Week 12: April 10, 2024 - Moving Image and Audio Preservation
 Link to slide deck [update me]
 
 {: .label .label-yellow }
 Due
-* Assignment due: Repository Comparison Report
 * Post your pre-class reading reactions to Brightspace.
-* During/post-class activity: QCTools Activity
+* Weekly activity: We will start <a href="QCTools Audio/Visual Preservation" target="_blank">QC Tools - Audio/Visual Preservation</a> in class. Submit your completed activity summary in Brightspace by the end of the week Sunday.
 
 {: .label .label-green }
 Due
@@ -24,14 +23,3 @@ Due
 * Collection ID Guide: <a href="https://psap.library.illinois.edu/collection-id-guide" target="_blank">https://psap.library.illinois.edu/collection-id-guide</a>
 * AVPreserve Guide to Codec: <a href="https://www.weareavp.com/wp-content/uploads/2017/07/AVPS_Codec_Primer.pdf" target="_blank">https://www.weareavp.com/wp-content/uploads/2017/07/AVPS_Codec_Primer.pdf</a>
 * XFR Collective Dr. Tape-Love: <a href="https://xfrcollective.files.wordpress.com/2020/06/xfr-dr-tape-love_zine-2019.pdf" target="_blank">https://xfrcollective.files.wordpress.com/2020/06/xfr-dr-tape-love_zine-2019.pdf</a>
-
-Outreach and Access
-
-Due/asynchronous work:
-* Post your pre-class reading reactions to Brightspace.
-* During/Post Class Activity: None. Please use this week to work on your final project!
-
-Read:
-* Maria Matienzo and Dinah Handel, eds. 2021. The Lighting the Way Handbook: Case Studies, Guidelines, and Emergent Futures for Archival Discovery and Delivery. Stanford, CA: Stanford University Libraries. <a href="https://doi.org/10.25740/gg453cv6438" target="_blank">https://doi.org/10.25740/gg453cv6438</a>
-* Rimkus, Kyle R., Bethany Anderson, Karl E. Germeck, Cameron C. Nielsen, Christopher J. Prom, and Tracy Popp. "Preservation and Access for Born-digital Electronic Records: The Case for an Institutional Digital Content Format Registry." The American Archivist 83, no. 2 (2020): 397–428. <a href="https://doi.org/10.17723/0360-9081-83.2.397" target="_blank">https://doi.org/10.17723/0360-9081-83.2.397</a>
-* Wiedeman, Gregory. “Designing Digital Discovery and Access Systems for Archival Description.” code{4}lib Journal: 55 (2023). <a href="https://journal.code4lib.org/articles/16963" target="_blank">https://journal.code4lib.org/articles/16963</a>
