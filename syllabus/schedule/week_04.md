@@ -12,6 +12,7 @@ Link to slide deck [Update me]
 
 {: .label .label-yellow }
 Due
+* Assignment due: Submit your completed <a href="https://digital-archives.github.io/HISTGA1011/assignments/file_format.html">File Format Report</a> to Brightspace.
 * Post your pre-class reading reactions to Brightspace by 3:30pm today.
 * Weekly activity: We will start <a href="https://digital-archives.github.io/HISTGA1011/activities/fixity_bagger.html" target="_blank">Fixity and Digital Packages</a> in class. Submit your completed activity summary in Brightspace by the end of the week Sunday.
 
