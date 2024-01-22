@@ -25,6 +25,3 @@ Read
 * Zhang, Jane. 2012. “Original Order in Digital Archives”. Archivaria 74 (November), 167-93. <a href="https://archivaria-ca.proxy.library.nyu.edu/index.php/archivaria/article/view/13410" target="_blank">https://archivaria-ca.proxy.library.nyu.edu/index.php/archivaria/article/view/13410</a>
 * Alison Anderson; Kristin Bjork; Kyle DeCicco-Carey; Sylvia Welsh (2021). “Laying a Foundation for Digital Collections at the Property Information Resource Center,”  The American Archivist (2021) 84 (2): 256–280. <a href="https://drive.google.com/file/d/1e6pwdBBlqX8W2b00EviDxvEY819JSIU5/view?usp=drivesdk" target="_blank">https://drive.google.com/file/d/1e6pwdBBlqX8W2b00EviDxvEY819JSIU5/view?usp=drivesdk</a>
 * Koster, Lucas. “Persistent identifiers for heritage objects.” Code4lib Journal: Issue 47, 2020-02-17. <a href="https://journal.code4lib.org/articles/14978" target="_blank">https://journal.code4lib.org/articles/14978</a>
-
-Read:
-* Krewer, Drew and Wahl Mary. “What’s in a Name? On ‘Meaningfulness’ and Best Practices in Filenaming within the LAM Community.” Code4lib Journal: Issue 40, 2018-05-04. <a href="https://journal.code4lib.org/articles/13438" target="_blank">https://journal.code4lib.org/articles/13438</a>
