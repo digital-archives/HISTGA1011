@@ -14,8 +14,8 @@ This activity entails annotating a Metadata Encoding and Transmission Standard (
 ## Preparation
 
 - To do this activity, you will need to use a text editing program or application to annotate the data. Suggested text editors that you may download are Notepad++ (Windows) or Sublime (Mac or Windows).
-
 - If you do not have a text editor, you can save the METS as an XML file to your computer, upload it to your Google Drive, and use Drive’s text editor to annotate.
+- Additionally, it will be good to have the <a href="https://www.loc.gov/standards/mets/" target="_blank">METS</a> and <a href="https://www.loc.gov/standards/premis/" target="_blank">PREMIS</a> standards documents up in a separate tab for reference during this activity.
 
 ## Steps to Take
 
