@@ -24,7 +24,7 @@ Students are evaluated using a points-based system across three main areas: Part
 |---------------------------------------------|-------|
 | File Format Report                           | 10    |
 | Imaging Group Report and Individual Reflection Paper | 10    |
-| Repository Comparison                        | 10    |
+| Repository System Comparison                        | 10    |
 | Scripting Reflection Paper                   | 10    |
 | **Total**                                    | **40** |
 
