@@ -22,12 +22,3 @@ Read
 * Dappert, Angela and Markus Enders. (2010) “Digital Preservation Metadata Standards.” Information Standards Quarterly (22:2) <a href="https://www.loc.gov/standards/premis/FE_Dappert_Enders_MetadataStds_isqv22no2.pdf" target="_blank">https://www.loc.gov/standards/premis/FE_Dappert_Enders_MetadataStds_isqv22no2.pdf</a>
 * Priscilla Caplan, Understanding PREMIS, Library of Congress, 2009. <a href="https://www.loc.gov/standards/premis/understanding-premis.pdf" target="_blank">https://www.loc.gov/standards/premis/understanding-premis.pdf</a>
 * Brian Lavoie and Richard Garnter, Preservation Metadata, Digital Preservation Coalition Technology Watch Report 13-03. Digital Preservation Coalition (UK): May 2013 <a href="https://dx.doi.org/10.7207/twr13-03" target="_blank">https://dx.doi.org/10.7207/twr13-03</a>
-
-You do not need to read through these documents, but they will be useful for the weekly activity:
-* METS: <a href="https://www.loc.gov/standards/mets/" target="_blank">https://www.loc.gov/standards/mets/</a>
-* PREMIS: <a href="https://www.loc.gov/standards/premis/" target="_blank">https://www.loc.gov/standards/premis/</a>
-* MODS: <a href="https://www.loc.gov/standards/mods/" target="_blank">https://www.loc.gov/standards/mods/</a>
-* ALTO: <a href="https://www.loc.gov/standards/alto/" target="_blank">https://www.loc.gov/standards/alto/</a>
-* Dublin Core: <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/" target="_blank">https://www.dublincore.org/specifications/dublin-core/dcmi-terms/</a>
-* VRA Core: <a href="https://www.loc.gov/standards/vracore/" target="_blank">https://www.loc.gov/standards/vracore/</a>
-* PB Core: <a href="https://pbcore.org/" target="_blank">https://pbcore.org/</a>
