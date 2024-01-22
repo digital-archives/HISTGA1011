@@ -6,7 +6,7 @@ nav_order: 8
 has_children: false
 ---
 
-# Week 8: Digital Preservation Workflows - Part 2
+# Week 8: Digitization Workflows - Part 2
 
 Link to slide deck [update me]
 
@@ -18,6 +18,7 @@ Due
 
 {: .label .label-green }
 Read
+* Stephanie Becker, Anne Kumer, and Naomi Langer, “Access is People: How Investing in Digital Collections Labor Improves Archival Discovery & Delivery,” in The Lighting the Way Handbook: Case Studies, Guidelines, and Emergent Futures for Archival Discovery and Delivery, edited by Maria Matienzo and Dinah Handel, 29-38. Stanford, CA: Stanford University Libraries, October 2021. <a href="https://doi.org/10.25740/gg453cv6438" target="_blank">https://doi.org/10.25740/gg453cv6438</a>
 * Abumeeiz, Salma. "Collections over People: Critiquing Notions of Institutional Inclusion within Library Heritage Materials." Presentation at the Item Not Found conference, moderated by Nina Schneider, University of California, Los Angeles, April 4, 2023. YouTube video, 38:07-59:14. Accessed July 2, 2023. <a href="https://www.youtube.com/watch?v=53M1UwyYPug" target="_blank">https://www.youtube.com/watch?v=53M1UwyYPug</a>
 
 Read:
