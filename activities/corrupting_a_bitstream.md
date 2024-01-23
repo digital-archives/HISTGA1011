@@ -6,7 +6,7 @@ nav_order: 3
 has_children: false
 ---
 
-# Weekly Activity: Corrupting a Bitstream
+# Corrupting a Bitstream
 
 ## Introduction
 The goal of the "Corrupting a Bitstream" exercise is to introduce students to using a hex editor to analyze file signatures, perform checksums, and make controlled modifications to files. By exploring the impact of altering data at the byte level, participants can observe changes in checksums and file behavior. They are also encouraged to extract useful information from the ASCII text and summarize their findings from the exercise.
