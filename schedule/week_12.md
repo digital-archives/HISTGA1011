@@ -15,7 +15,7 @@ Due
 * Weekly activity: We will start <a href="QCTools Audio/Visual Preservation" target="_blank">QC Tools - Audio/Visual Preservation</a> in class. Submit your completed activity summary in Brightspace by the end of the week Sunday.
 
 {: .label .label-green }
-Due
+Read
 * Kim, Julia, Fraimow, Rebecca, Titkemeyer, Erika. “Never Best Practices: Born-Digital Audiovisual Preservation.” Code4lib Journal: Issue 43, 2019-02-14, <a href="https://journal.code4lib.org/articles/14244" target="_blank">https://journal.code4lib.org/articles/14244</a>
 * Pearman, Alice. “Teachers' Tales Go Online: Digitizing Oral Histories on Cassettes.” The American Archivist: Spring/Summer 2019, Vol. 82, No. 1, pp. 124-136. <a href="https://doi.org/10.17723/0360-9081-82.1.124" target="_blank">https://doi.org/10.17723/0360-9081-82.1.124</a>
 * Galey, Alan. 2018. “Looking for a Place to Happen: Collective Memory, Digital Music Archiving, and the Tragically Hip”. Archivaria 86 (November), 6-43. <a href="https://archivaria-ca.proxy.library.nyu.edu/index.php/archivaria/article/view/13642" target="_blank">https://archivaria-ca.proxy.library.nyu.edu/index.php/archivaria/article/view/13642</a>
