@@ -6,7 +6,7 @@ nav_order: 1
 has_children: false
 ---
 
-# Weekly Activity: Archivematica Sandbox
+# Archivematica Sandbox
 
 ## Introduction
 
