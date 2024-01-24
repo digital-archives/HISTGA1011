@@ -20,3 +20,7 @@ Read
 
 Skim:
 * CCSDS 650.0-M-2: Reference Model for an Open Archival Information System (OAIS). Magenta Book. June 2012. <a href="https://public.ccsds.org/publications/archive/650x0m2.pdf" target="_blank">https://public.ccsds.org/publications/archive/650x0m2.pdf</a>
+Pay special attention to these sections/sub-sections:
+ 1. Introduction
+ 2. OAIS Concepts
+ 3. OAIS Responsibilities
