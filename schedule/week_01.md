@@ -5,7 +5,7 @@ parent: Course Schedule & Readings
 nav_order: 1
 has_children: false
 ---
-# Week 1: Introduction to Digital Preservation<br>
+# Week 1: Introduction to Digital Archives<br>
 Link to slide deck [Update me]
 
 {: .label .label-yellow }
