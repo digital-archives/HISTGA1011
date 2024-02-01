@@ -6,7 +6,7 @@ nav_order: 2
 has_children: false
 ---
 # Week 2: Open Archival Information System (OAIS) Conceptual Model
-Link to slide deck [Update me]
+<a href="https://drive.google.com/file/d/1xF2cCI--MDj5wXoMk-UslvGF2CEADutH/view?usp=sharing" target="_blank">Link to slide deck</a>
 
 {: .label .label-yellow }
 Due
