@@ -8,7 +8,7 @@ has_children: false
 
 # Week 3: Digital Preservation Planning & Policies
 
-Link to slide deck [Update me]
+<a href="https://drive.google.com/file/d/1mYldAzDa1E1P-DbY0T2icm7g_ixSpdKq/view?usp=drive_link" target="_blank">Link to slide deck</a>
 
 {: .label .label-yellow }
 Due
