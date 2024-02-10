@@ -24,7 +24,7 @@ Archivematica is an open-source digital preservation system designed to process 
 2. Click “DEMO” and then click “Launch”.
 3. Login using these credentials: Username: demo@example.com, Password: demodemo. If a data breach warning appears, click OK; it's expected.
 4. Click DOCUMENTATION and select Version 1.13.2 (stable-current).
-5. In a separate browser tab, open the [Archivematica Quick-Start Guide](#).
+5. In a separate browser tab, open the <a href="https://www.archivematica.org/en/docs/archivematica-1.15/getting-started/quick-start/quick-start/#quick-start" target="_blank">[Archivematica Quick-Start Guide]</a>.
 6. Perform all tasks listed (#1-#5).
 7. Once tasks are completed, write a 1-paragraph summary of your experience:
    - Were any Archivematica steps confusing? If so, specify and explain.
