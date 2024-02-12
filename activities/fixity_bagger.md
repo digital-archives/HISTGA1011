@@ -30,7 +30,7 @@ Ethan Gates, author of The Patch Bay, wrote two blog posts that provide a nice i
 Bagger is an open-source software application developed by the Library of Congress. It provides a graphical user interface (GUI) that can be used to create and manage bags.
 
 1. Follow the steps listed in the <a href="https://archives.ncdcr.gov/bagger-gui-user-guide/open" target="_blank">North Carolina Department of Natural and Cultural Resources Bagger GUI User
-Guide</a>. Installation instructions can be found on pages 3-7. Please note, please follow the instructions specific to your Windows or Mac operating system.
+Guide</a>. Installation instructions can be found on pages 4-7. Please follow the instructions specific to your Windows or Mac operating system.
 2. Once installed, open the Bagger application. You may see it generate a separate command line window: this is to be expected. Please keep this window open in the background while using Bagger.
 
 ### Create a bag
