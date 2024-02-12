@@ -45,3 +45,9 @@ Guide</a>. Installation instructions can be found on pages 3-7. Please note, ple
 10. Click the "Open Existing Bag" button at the top of the Bagger screen. Select the bag folder you just created.
 11. Notice that in the Tag Files section, there are a few additional files listed that weren't there when you first created the bag: i.e. manifest-sha256.txt.
 12. Click the "Validate Bag" button. This will validate your bag against the bag profile you select (SANC-state). If you forgot to fill out a required field, at this point, Bagger would tell you. If your bag validates, you will get a message that it validated successfully.
+
+## Submit your result
+After completing the comparison, submit your activity report in Brightspace. In it, please answer the following questions:
+1. How does Bagger facilitate the creation and management of digital bags?
+2. Explain the significance of the SANC-state profile in creating digital bags. How does it compare to other profiles listed?
+3. What are some potential challenges or limitations encountered while using Bagger for bag creation? (refer to Ethan's blog posts, mentioned at the beginning of this activity document)
