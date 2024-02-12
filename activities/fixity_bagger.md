@@ -33,7 +33,7 @@ Bagger is an open-source software application developed by the Library of Congre
 Guide</a>. Installation instructions can be found on pages 3-7. Please note, please follow the instructions specific to your Windows or Mac operating system.
 2. Once installed, open the Bagger application. You may see it generate a separate command line window: this is to be expected. Please keep this window open in the background while using Bagger.
 
-## Create a bag
+### Create a bag
 4. Click the +Create New Bag button in the upper left-hand corner of the screen. In the "Select Profile:" drop-down, choose the SANC-state profile (this stands for "State Agency North Carolina") Click OK.
 5. Notice how in the Bag Info section are now a list of fields; some are marked "R" (for required). In the <a href="https://archives.ncdcr.gov/bagger-gui-user-guide/open" target="_blank">NC User Guide</a> scan through the list of field names and descriptions. Try at least to fill out the required fields using made-up information.
 6. In the "Payload" section of the application, click on the little green plus sign to navigate to, select and choose some files to add to your bag. Choose any files you have on hand of any format, keeping in mind that larger files will result in longer bag creation time (note: the file navigator is a little wonky. To get to your home folder, click on the house-shaped icon; it will automatically navigate you to your home folder). As you add files, they will appear listed in the Payload section. 
@@ -46,7 +46,7 @@ Guide</a>. Installation instructions can be found on pages 3-7. Please note, ple
 11. Notice that in the Tag Files section, there are a few additional files listed that weren't there when you first created the bag: i.e. manifest-sha256.txt.
 12. Click the "Validate Bag" button. This will validate your bag against the bag profile you select (SANC-state). If you forgot to fill out a required field, at this point, Bagger would tell you. If your bag validates, you will get a message that it validated successfully.
 
-## Submit your result
+### Submit your result
 After completing the comparison, submit your activity report in Brightspace. In it, please answer the following questions:
 1. How does Bagger facilitate the creation and management of digital bags?
 2. Explain the significance of the SANC-state profile in creating digital bags. How does it compare to other profiles listed?
