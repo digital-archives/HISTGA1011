@@ -43,9 +43,11 @@ Guide</a>. Installation instructions can be found on pages 4-9. Please follow th
 10. Type in bag into the File Name: field. Then click Save.
 11. Make sure "Generate Tag Manifest?" and "Generate Payload Manifest?" are both checked, and beneath each select "sha256" for the Tag Manifest and Payload Manifest algorithms.
 9. Click OK to finalize creating and saving your bag (note: Bagger was made for Windows operating systems. Unfortunately, this means that Mac users may encounter some weird errors when saving bags, including a message that implies your bag couldn't be saved. However, this is a false error message: If you look on your desktop, your bag should be there)
-10. Click the "Open Existing Bag" button at the top of the Bagger screen. Select the bag folder you just created.
-11. Notice that in the Tag Files section, there are a few additional files listed that weren't there when you first created the bag: i.e. manifest-sha256.txt.
-12. Click the "Validate Bag" button. This will validate your bag against the bag profile you select (SANC-state). If you forgot to fill out a required field, at this point, Bagger would tell you. If your bag validates, you will get a message that it validated successfully.
+
+### Open a bag
+11. Click the "Open Existing Bag" button at the top of the Bagger screen. Select the bag folder you just created.
+12. Notice that in the Tag Files section, there are a few additional files listed that weren't there when you first created the bag: i.e. manifest-sha256.txt.
+13. Click the "Validate Bag" button. This will validate your bag against the bag profile you select (SANC-state). If you forgot to fill out a required field, at this point, Bagger would tell you. If your bag validates, you will get a message that it validated successfully.
 
 ### Submit your result
 After completing the comparison, submit your activity report in Brightspace. In it, please answer the following questions:
