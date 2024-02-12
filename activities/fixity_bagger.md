@@ -36,7 +36,7 @@ Guide</a>. Installation instructions can be found on pages 4-9. Please follow th
 ### Create a bag
 4. With Bagger open click the "+Create New Bag" button in the upper left-hand corner of the screen. This will generate the "New Bag Dialog" window. In the "Select Profile:" drop-down, choose the "SANC-state" profile (this stands for "State Agency North Carolina - State"). Click OK.
 5. Notice how in the Bag Info section are now a list of fields; some are marked "R" (for required). Review  the list of field names and descriptions on pages 12-15 of the <a href="https://archives.ncdcr.gov/bagger-gui-user-guide/open" target="_blank">NC User Guide</a>.
-6. In the "Bag Info" section, fill out the required fields using made-up information.
+6. In the "Bag Info" section, fill out the required fields using made-up information. You may also fill out non-required fields, too, if you wish.
 7. In the "Payload" section of the application, click on the little green plus sign to navigate to, select and choose some files to add to your bag. Choose any files you have on hand of any format, keeping in mind that larger files will result in longer bag creation time (note: the file navigator is a little wonky. To get to your home folder, click on the house-shaped icon; it will automatically navigate you to your home folder). As you add files, they will appear listed in the Payload section. 
 8. Save the bag by clicking "Save Bag as..." in the upper right-hand part of the application. This will generate the Save Bag Dialog window. Give the bag a name like my_first_bag or whatever you wish. 
 9. Click the Browse button and navigate to your desktop (an easy way to get there is to click on the little house-shaped icon, then double-clicking into your "Desktop" folder).
