@@ -15,7 +15,7 @@ This activity introduces students to essential concepts in digital preservation:
 ## Things to know before starting
 __Fixity__ involves verifying a file's integrity over time. Regular fixity checks are crucial to ensure the files remain unaltered and uncorrupted during their lifecycle in a digital preservation repository.
 
-__Digital Packages__ refer to the practice of grouping interrelated files into folders for preservation. The importance of this concept led to the creation of the BagIt Specification by the Library of Congress. This specification provides guidelines for organizing digital preservation packages, referred to as "bags."
+__Digital Packages__ refer to the practice of grouping interrelated files into folders for preservation. The importance of this concept led to the creation of the BagIt Specification by the Library of Congress. This specification provides guidelines for organizing digital preservation packages, referred to as "bags." Bags may be used to form digital packages that we learned about, such as SIPs, AIPs and DIPs.
 
 Ethan Gates, author of The Patch Bay, wrote two blog posts that provide a nice introduction to the concept of digital packages, and what Bagger (the program you will be installing and using for this activity) is, and what it does. I've also included an additional blog post, written by Meghan Ferriter, written about the development of the BagIt specification by the Library of Congress. Please give them a read before you start on this activity:
 
