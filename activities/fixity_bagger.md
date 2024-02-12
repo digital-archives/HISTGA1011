@@ -34,7 +34,7 @@ Guide</a>. Installation instructions can be found on pages 4-9. Please follow th
 2. Once installed, open the Bagger application (instructions for what file to open, and what to expect when opening, are on Page 6).
 
 ### Create a bag
-4. Click the +Create New Bag button in the upper left-hand corner of the screen. In the "Select Profile:" drop-down, choose the SANC-state profile (this stands for "State Agency North Carolina") Click OK.
+4. With Bagger open click the "+Create New Bag" button in the upper left-hand corner of the screen. This will generate the "New Bag Dialog" window. In the "Select Profile:" drop-down, choose the "SANC-state" profile (this stands for "State Agency North Carolina - State"). Click OK.
 5. Notice how in the Bag Info section are now a list of fields; some are marked "R" (for required). In the <a href="https://archives.ncdcr.gov/bagger-gui-user-guide/open" target="_blank">NC User Guide</a> scan through the list of field names and descriptions. Try at least to fill out the required fields using made-up information.
 6. In the "Payload" section of the application, click on the little green plus sign to navigate to, select and choose some files to add to your bag. Choose any files you have on hand of any format, keeping in mind that larger files will result in longer bag creation time (note: the file navigator is a little wonky. To get to your home folder, click on the house-shaped icon; it will automatically navigate you to your home folder). As you add files, they will appear listed in the Payload section. 
 7. Save the bag by clicking "Save Bag as..." in the upper right-hand part of the application. This will generate the Save Bag Dialog window. Give the bag a name like my_first_bag or whatever you wish. 
@@ -48,6 +48,6 @@ Guide</a>. Installation instructions can be found on pages 4-9. Please follow th
 
 ### Submit your result
 After completing the comparison, submit your activity report in Brightspace. In it, please answer the following questions:
-1. How does Bagger facilitate the creation and management of digital bags?
-2. Explain the significance of the SANC-state profile in creating digital bags. How does it compare to other profiles listed?
-3. What are some potential challenges or limitations encountered while using Bagger for bag creation? (refer to Ethan's blog posts, mentioned at the beginning of this activity document)
+13. How does Bagger facilitate the creation and management of digital bags?
+14. Explain the significance of the SANC-state profile in creating digital bags. How does it compare to other profiles listed?
+15. What are some potential challenges or limitations encountered while using Bagger for bag creation? (refer to Ethan's blog posts, mentioned at the beginning of this activity document)
