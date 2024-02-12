@@ -31,11 +31,11 @@ Bagger is an open-source software application developed by the Library of Congre
 
 1. Follow the steps listed in the <a href="https://archives.ncdcr.gov/bagger-gui-user-guide/open" target="_blank">North Carolina Department of Natural and Cultural Resources Bagger GUI User
 Guide</a>. Installation instructions can be found on pages 4-9. Please follow the instructions specific to your Windows or Mac operating system.
-2. Once installed, open the Bagger application (instructions for what file to open, and what to expect when opening, are on Page 6).
+2. Once installed, open the Bagger application (instructions for what file to open, and what to expect when opening, are on Page 6 of the <a href="https://archives.ncdcr.gov/bagger-gui-user-guide/open" target="_blank">NC User Guide</a>).
 
 ### Create a bag
 4. With Bagger open click the "+Create New Bag" button in the upper left-hand corner of the screen. This will generate the "New Bag Dialog" window. In the "Select Profile:" drop-down, choose the "SANC-state" profile (this stands for "State Agency North Carolina - State"). Click OK.
-5. Notice how in the Bag Info section are now a list of fields; some are marked "R" (for required). Open the <a href="https://archives.ncdcr.gov/bagger-gui-user-guide/open" target="_blank">NC User Guide</a> and scan through the list of field names and descriptions.
+5. Notice how in the Bag Info section are now a list of fields; some are marked "R" (for required). Review  the list of field names and descriptions on pages 12-15 of the <a href="https://archives.ncdcr.gov/bagger-gui-user-guide/open" target="_blank">NC User Guide</a>.
 6. In the "Bag Info" section, fill out the required fields using made-up information.
 7. In the "Payload" section of the application, click on the little green plus sign to navigate to, select and choose some files to add to your bag. Choose any files you have on hand of any format, keeping in mind that larger files will result in longer bag creation time (note: the file navigator is a little wonky. To get to your home folder, click on the house-shaped icon; it will automatically navigate you to your home folder). As you add files, they will appear listed in the Payload section. 
 8. Save the bag by clicking "Save Bag as..." in the upper right-hand part of the application. This will generate the Save Bag Dialog window. Give the bag a name like my_first_bag or whatever you wish. 
