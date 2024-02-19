@@ -12,7 +12,7 @@ has_children: true
 **Project paper (20 points) and presentations (5 points) due:** May 3, 2024 (Week 15)  
 **Length for project paper:** 10-12 pages of text plus visual mock-up, and additional appendices as needed.
 
-Utilizing the tools and information we have discussed over the semester, you will propose a digitization project and produce a digitization and access plan. A comprehensive document outlining the requirements of your abstract and final paper/presentation is [here](#requirements).
+Utilizing the tools and information we have discussed over the semester, you will propose a digitization project and produce a digitization and access plan.
 
 During the final class, each student will spend approximately 10 minutes presenting their digitization project to the class. Presentations are expected to be accompanied by visuals (such as a slide deck) followed by a brief Q&A afterward. Part of the presentation grade will include asking questions and/or providing feedback during the Q&As for the other students.
 
@@ -29,14 +29,10 @@ Presenting your findings provides an opportunity for you to practice discussing 
 
 Overall, I want to see that you can take the concepts and information we have discussed over the semester and apply them to your own vision for digital preservation program success.
 
-## Requirements
+## Presentation
 
-
-
-## Presentation (Due [Update me])
-
-**Length:** 20 minutes (10-minute presentation followed by a 10-minute Q&A)
+**Length:** 20 minutes (15 minute presentation followed by a 5 minute Q&A)
 
 Presentations should be an overview of your proposed project, highlighting key information, features, and challenges of your project.
 
-You are proposing this project for consideration to the class and professor who will serve as a digital proposal panel. Following the presentation, the panel will ask follow-up questions to learn more about your project and decisions. This is an opportunity to practice discussing your rationale and decisions based on the project you put together. When serving as a panel member, ask questions to learn more about the project being presented and how the presenter will handle aspects of the project that you may not have come up during the presentation.
+You are proposing this project for consideration to the class and professor who will serve as a digital preservation project proposal panel. Following the presentation, the panel will ask follow-up questions to learn more about your project and decisions. This is an opportunity to practice discussing your rationale and decisions based on the project you put together. When serving as a panel member, ask questions to learn more about the project being presented and how the presenter will handle aspects of the project that you may not have come up during the presentation.
