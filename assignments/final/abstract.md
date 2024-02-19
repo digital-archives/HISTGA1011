@@ -12,7 +12,12 @@ has_children: false
 **Abstract due:** February 28, 2024 (Week 6)
 **Suggested Length:** 2-3 pages
 
-Before writing your abstract, choose a collection from an existing institution that will serve as the basis for your Digitization Project Plan. I strongly suggest that you choose a collection whose scope, contents, arrangement and other details are made available through a finding aid. Although not required, you are encouraged to schedule an on-site or virtual visit to your chosen repository, yours and the archivist’s time and capacity permitting, either to help inform your abstract, final project approach, or both. Ideally, the candidate collection would not yet be digitized or otherwise made available through an online digital library, collection or portal.
+Before writing your abstract, choose a collection from an existing institution that will serve as the basis for your Digitization Project Plan. The collection you choose to work with should have these characteristics:
+- Is described online by an archival finding aid
+- Is not yet digitized (i.e. does not yet have digital surrogates made available online)
+- Contains formats other than paper; i.e. email, moving image materials, born-digital materials, datasets, websites or social media archives
+
+Although not required, you are encouraged to schedule an on-site or virtual visit to your chosen repository, yours and the archivist’s time and capacity permitting, either to help inform your abstract, final project approach, or both.
 
 Submit an abstract for your final project that includes these details (1-2 sentences per checklist item is enough):
 
@@ -23,12 +28,12 @@ Submit an abstract for your final project that includes these details (1-2 sente
 - [ ] **How will you go about gathering details about your chosen institution/collections?** [Briefly describe your research approach]
 
 ### Digitization
-- [ ] **Collection(s) selected for digitization (include links to finding aids or catalog records):** [List collection(s) and provide links]
+- [ ] **Collection(s) selected for digitization (include URL(s) to finding aids and/or catalog records):** [List collection(s) and provide links]
 - [ ] **Content:** [Describe the intellectual content contained within your collection]
-- [ ] **Rationale:** [Explain why your department selected this particular collection for digitization]
-- [ ] **Inventory:** [Provide a physical inventory of what you plan on digitizing]
+- [ ] **Rationale:** [Explain why your department selected this particular collection for digitization over other collections]
+- [ ] **Inventory:** [Provide a physical inventory of what will be digitized (feel free to copy and paste the form and extent)]
 - [ ] **Types of digitization required:** [Specify digitization types based on physical formats]
-- [ ] **Estimated duration of the digitization work:** [Provide an estimate]
+- [ ] **Estimated duration of the digitization work:** [Provide an estimate in terms of days, weeks, or months. Don't worry about accuracy here, for now!]
 
 ### Constraints
 - [ ] **What particular challenges or obstacles can you imagine your institution facing related to available resources, budget, technology, physical condition of the materials, or other constraints/issues?** [Describe potential challenges]
