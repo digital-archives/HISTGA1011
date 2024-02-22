@@ -9,6 +9,8 @@ has_children: false
 # Week 10: March 27 - Digital Preservation Technical Skills
 Link to slide deck [update me]
 
+Guest speaker: <a href="https://library.nyu.edu/people/nicole-greenhouse/" target="_blank">Nicole Greenhouse</a>, Web Archivist, NYU Libraries
+
 {: .label .label-yellow }
 Due
 * Post your pre-class reading reactions to Brightspace.
