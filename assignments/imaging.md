@@ -22,7 +22,7 @@ Due: March 9th, 2024
 {: .highlight }
 **SCENARIO:** You are an archivist who works in the archival department of a medium-sized university archive. Your department is planning on writing a grant to garner funds for a digitization project. Your team has been tasked with devising a digitization plan, in the form of a report and inventory. Both documents will provide high-level details, cost and production time estimates, and document proposed schemas/standards. You will base your report on a collection from your institutional repository, containing mostly paper, photographic and other 2D materials (with some exceptions).
 
-**Step 1:** Perform in-class pre-imaging and conservation review {#step-1}
+## Step 1: Perform in-class pre-imaging and conservation review {#step-1}
 
 **Convene with your assigned group (A or B) and prep documents:** 
 - Have one group member open the shared [Assignments folder](https://drive.google.com/drive/folders/1m_74KkdORh17jdqxcDw7HrbuRk0QV58e) and within it, make copies of the [Template - Imaging Review - Report](https://docs.google.com/document/d/1iUBCTJHYKZWQrrBCZicBLftlPb9zH4SX88R12pCW2AQ/edit) and [Template - Imaging Review - Inventory](https://docs.google.com/spreadsheets/d/1ErWhb_SbsyWPzQ6CupKEnRq8GTA8Wc1oTRlrUhFLm_g/edit#gid=0).
@@ -45,11 +45,11 @@ Due: March 9th, 2024
     - Is there anything you want to skip?
     - Any questions you have for me.
 
-**Step 2:** Consultation {#step-2}
+## Step 2: Consultation {#step-2}
 
 Once your group has finished the initial review, approach me and let me know your plan. Use this time to ask me if you have any questions about these steps, your assigned collections, or anything else.
 
-**Step 3:** Write your group report {#step-3}
+## Step 3: Write your group report {#step-3}
 
 Once you have consulted with me, I will send you on your way to write your group report.
 - As a group, step through the [Imaging Review - Inventory](https://docs.google.com/document/d/1QRRI_AQQhiBGp40NdR1yKyqASV5SoO48C74QuUedOYk/edit#heading=h.v9rhdwq94sgt) and [Imaging Review - Report](https://docs.google.com/document/d/1QRRI_AQQhiBGp40NdR1yKyqASV5SoO48C74QuUedOYk/edit#heading=h.jit5vbacrcbg) sections, containing instructions and guidance to determine estimates and other details.
