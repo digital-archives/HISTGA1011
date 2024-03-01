@@ -17,6 +17,8 @@ Due: March 9th, 2024
 - [Step 1: Perform in-class pre-imaging and conservation review](#step-1)
 - [Step 2: Consultation](#step-2)
 - [Step 3: Write your group report](#step-3)
+  - [Inventory Guidance](#inventory)
+  - [Group Report Guidance](#report)
 - [Step 4: Write your individual reflection](#step-4)
 - [Step 5: Submit your reports to Brightspace](#step-5)
 
@@ -50,12 +52,9 @@ Once your group has finished the initial review, approach me and let me know you
 
 ## Step 3: Write your group report {#step-3}
 
-Once you have consulted with me, I will send you on your way to write up your group report.
-- As a group, step through the Inventory and Report sections below. Each section contains instructions and guidance to determine cost estimates and other details.
-  - [Inventory Guidance](#inventory)
-  - [Report Guidance](#report)
+Once you have consulted with me, I will send you on your way to write up your group report. Use the Inventory and Report Guidance sections below. Each section contains instructions, steps and to determine cost estimates and other details.
 
-### Inventory
+### Inventory Guidance
 
 _Note: columns in the inventory highlighted in yellow are what you will be filling out._
 
@@ -159,7 +158,7 @@ _\*This equivalency chart is for the purposes of this assignment only. If you ar
 * **Cost:** Based on your selected workflows and shot counts, calculate the cost of digitization per folder using the costs per image listed in the [_Harvard Library Imaging Services Project Services Categories_](https://wiki.harvard.edu/confluence/display/DigitalImaging/Imaging+Services+Project+Services+Categories).
 
 
-### Report
+### Report Guidance
 
 - **Collection Name:** Remove the other group’s collection name.
 
