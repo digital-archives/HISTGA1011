@@ -58,9 +58,7 @@ Once you have consulted with me, I will send you on your way to write up your gr
 
 _Note: Any columns highlighted in yellow within the Inventory spreadsheet are the sections you will be filling out._
 
-****
-
-**Pre-populated fields:**
+**Pre-populated field definitions:**
 
 - **Series:** Name of finding aid series containing the folder.
 - **Box number:** Box label number. Since this is a folder-level list, box numbers may repeat themselves.
@@ -70,11 +68,11 @@ _Note: Any columns highlighted in yellow within the Inventory spreadsheet are th
 - **Restrictions:** Access restriction statement/dates.
 - **Condition:** Noted conservation issues.
 
-**Fields to be filled out by groups for each folder:**
+**Fields to be filled for each folder:**
 
 - **Workflow Type(s)_:_** Use the <a href="https://wiki.harvard.edu/confluence/display/DigitalImaging/Imaging+Services+Project+Services+Categories" target="_blank">Harvard Library Imaging Services Project Services Categories (HLIS)</a> site to categorize workflow type(s) for each folder.
 - **Folder Name:** Enter each folder’s name based on the file-naming schema described in your Report.
-- **Capture Device**: Based on your workflow selections from the HLIS site, identify the capture device you will need to digitize each folder.
+- **Capture Device**: Based on your workflow selections from the HLIS site, identify the capture device you will need to digitize each folder. Use the **Harvard to DLF Capture Device Table** below, which maps HLIS Workflow to DLF Calculator Device.
 - **Shot Count:** For each folder listed, enter in an estimated shot count based on the Content Estimate Count and Format.
 - **Imaging Time:** Using the <a href="https://dashboard.diglib.org/">DLF Digitization Cost Calculator</a>, calculate the time it will take per workflow type in minutes. To determine these estimates, open the Calculator and enter the following details:
   - _Number of scans:_ Enter total number shots in the folder with the same workflow (sort the worksheet by Content Estimate). If you are using multiple workflows for 1 folder, you need to calculate time separately then add together.
@@ -82,18 +80,18 @@ _Note: Any columns highlighted in yellow within the Inventory spreadsheet are th
   - For every item below you enter data for, select your staff member name as the person doing the work, otherwise the task will not be included in the time total.
   - _Capture Device:_ Select the capture device you listed in the Inventory (see the **Harvard to DLF Capture Device Table**).
 
-|                                                                                                                                                    |                                                                              |
-| :------------------------------------------------------------------------------------------------------------------------------------------------: | ---------------------------------------------------------------------------- |
-|                                                     **Harvard to DLF Capture Device Table\***                                                      |                                                                              |
-| [**HL Imaging Services Capture Devices**](https://wiki.harvard.edu/confluence/display/DigitalImaging/Imaging+Services+Project+Services+Categories) | [**Digitization Calculator Capture Devices**](https://dashboard.diglib.org/) |
-|                                                                   Film/negatives                                                                   | Film or transparency scanner                                                 |
-|                                                                   Studio cameras                                                                   | Flatbed scanner                                                              |
-|                                                             Studio single shot cameras                                                             | Manual DSLR camera                                                           |
-|                                                                    Book scanners                                                                   | V-Cradle Scanner                                                             |
-|                                                               Loose document cameras                                                               | Overhead scanner                                                             |
-|                                                             Document sheet-fed scanners                                                            | Sheet feeding scanner                                                        |
-|                                                           Tabletop photography (3D items)                                                          | Manual DSLR camera                                                           |
-|                                                                    Digital files                                                                   | n/a \[Computer] (CDs = 75 min, DVD = 120 min, HD = rate of 100MB/second)     |
+**Harvard to DLF Capture Device Table\***
+
+| [**HL Imaging Services Capture Devices**] | [**Digitization Calculator Capture Devices**] |
+| ------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------- |
+| Film/negatives                                                                                                                            | Film or transparency scanner                                                 |
+| Studio cameras                                                                                                                             | Flatbed scanner                                                              |
+| Studio single shot cameras                                                                                                                 | Manual DSLR camera                                                           |
+| Book scanners                                                                                                                              | V-Cradle Scanner                                                             |
+| Loose document cameras                                                                                                                     | Overhead scanner                                                             |
+| Document sheet-fed scanners                                                                                                                | Sheet feeding scanner                                                        |
+| Tabletop photography (3D items)                                                                                                            | Manual DSLR camera                                                           |
+| Digital files                                                                                                                              | n/a \[Computer] (CDs = 75 min, DVD = 120 min, HD = rate of 100MB/second)     |
 
 _\*This equivalency chart is for the purposes of this assignment only. If you are unsure based on the HLIS info, select “Manual DSLR”._
 
