@@ -83,15 +83,15 @@ _Note: Any columns highlighted in yellow within the Inventory spreadsheet are th
 **Harvard to DLF Capture Device Table\***
 
 | [**HL Imaging Services Capture Devices**] | [**Digitization Calculator Capture Devices**] |
-| ------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------- |
-| Film/negatives                                                                                                                            | Film or transparency scanner                                                 |
-| Studio cameras                                                                                                                             | Flatbed scanner                                                              |
-| Studio single shot cameras                                                                                                                 | Manual DSLR camera                                                           |
-| Book scanners                                                                                                                              | V-Cradle Scanner                                                             |
-| Loose document cameras                                                                                                                     | Overhead scanner                                                             |
-| Document sheet-fed scanners                                                                                                                | Sheet feeding scanner                                                        |
-| Tabletop photography (3D items)                                                                                                            | Manual DSLR camera                                                           |
-| Digital files                                                                                                                              | n/a \[Computer] (CDs = 75 min, DVD = 120 min, HD = rate of 100MB/second)     |
+| ----------------------------------------- | ----------------------------------------------|
+| Film/negatives | Film or transparency scanner |
+| Studio cameras | Flatbed scanner |
+| Studio single shot cameras | Manual DSLR camera |
+| Book scanners | V-Cradle Scanner |
+| Loose document cameras | Overhead scanner |
+| Document sheet-fed scanners | Sheet feeding scanner |
+| Tabletop photography (3D items) | Manual DSLR camera |
+| Digital files | n/a \[Computer] (CDs = 75 min, DVD = 120 min, HD = rate of 100MB/second) |
 
 _\*This equivalency chart is for the purposes of this assignment only. If you are unsure based on the HLIS info, select “Manual DSLR”._
 
