@@ -28,64 +28,40 @@ Due: March 9th
 
 [Step 4: Write your individual reflection](https://docs.google.com/document/d/1QRRI_AQQhiBGp40NdR1yKyqASV5SoO48C74QuUedOYk/edit#heading=h.ukr4dyt2zm1h)
 
+{: .highlight }
+**SCENARIO:** You are an archivist who works in the archival department of a medium-sized university archive. Your department is planning on writing a grant to garner funds for a digitization project. Your team has been tasked with devising a digitization plan, in the form of a report and inventory. Both documents will provide high-level details, cost and production time estimates, and document proposed schemas/standards._ _You will base your report on a collection from your institutional repository, containing mostly paper, photographic and other 2D materials (with some exceptions).
 
-## Scenario
-| _You are an archivist who works in the archival department of a medium-sized university archive. Your department is planning on writing a grant to garner funds for a digitization project. Your team has been tasked with devising a digitization plan, in the form of a report and inventory. Both documents will provide high-level details, cost and production time estimates, and document proposed schemas/standards._ _You will base your report on a collection from your institutional repository, containing mostly paper, photographic and other 2D materials (with some exceptions)._ |
-
-
-## Step 1: Perform in-class pre-imaging and conservation review
+**Step 1: Perform in-class pre-imaging and conservation review**
 
 **Convene with your assigned group (A or B) and prep documents:** 
-
-- [ ] Have one group member open the shared [Assignments folder](https://drive.google.com/drive/folders/1m_74KkdORh17jdqxcDw7HrbuRk0QV58e) and within it, make copies of the [Template - Imaging Review - Report](https://docs.google.com/document/d/1iUBCTJHYKZWQrrBCZicBLftlPb9zH4SX88R12pCW2AQ/edit) and [Template - Imaging Review - Inventory](https://docs.google.com/spreadsheets/d/1ErWhb_SbsyWPzQ6CupKEnRq8GTA8Wc1oTRlrUhFLm_g/edit#gid=0).
-
-* [ ] Within your copy of the inventory report, delete the tab containing the inventory for the other group.
-
-- [ ] Share your Report and Inventory copies with other group members.
-
-****
+- Have one group member open the shared [Assignments folder](https://drive.google.com/drive/folders/1m_74KkdORh17jdqxcDw7HrbuRk0QV58e) and within it, make copies of the [Template - Imaging Review - Report](https://docs.google.com/document/d/1iUBCTJHYKZWQrrBCZicBLftlPb9zH4SX88R12pCW2AQ/edit) and [Template - Imaging Review - Inventory](https://docs.google.com/spreadsheets/d/1ErWhb_SbsyWPzQ6CupKEnRq8GTA8Wc1oTRlrUhFLm_g/edit#gid=0).
+- Within your copy of the inventory report, delete the tab containing the inventory for the other group.
+- Share your Report and Inventory copies with other group members.
 
 **Review these items with your group to come up with a preliminary plan of action:**
 
-- [ ] General materials types in the Inventory
+- General materials types in the Inventory. For each material type group identified, determine:
+  - What digitization equipment/technologies you will need
+  - What staff roles/responsibilities are required to perform digitization tasks
+  - Consider whether all or just some of the items should be digitized, and reasons why
+  - Assess the condition of the material, flagging any materials that you might want assessed by a conservator before digitization
+  - How will digitization/scanning be done? Consider these factors:
+    - Should techs digitize recto and verso of everything
+    - Do you want blank versos digitized?
+    - Do you want double page or single page spreads for multi page documents?
+    - What order do you want the book cover/spine contents digitized?
+    - Do you think material might need conservation/special handling before digitization?
+    - Is there anything you want to skip?
+    - Any questions you have for me.
 
-- [ ] For each material type group identified, determine:
-
-  - [ ] What digitization equipment/technologies you will need
-
-  - [ ] What staff roles/responsibilities are required to perform digitization tasks
-
-- [ ] Consider whether all or just some of the items should be digitized, and reasons why
-
-- [ ] Assess the condition of the material, flagging any materials that you might want assessed by a conservator before digitization
-
-- [ ] How will digitization/scanning be done? Consider these factors:
-
-  - [ ] Should techs digitize recto and verso of everything
-
-  - [ ] Do you want blank versos digitized?
-
-  - [ ] Do you want double page or single page spreads for multi page documents?
-
-  - [ ] What order do you want the book cover/spine contents digitized?
-
-  - [ ] Do you think material might need conservation/special handling before digitization?
-
-  - [ ] Is there anything you want to skip?
-
-- [ ] Any questions you have for Prof. Kidd
-
-
-## Step 2: Consultation
+**Step 2: Consultation**
 
 Once your group has finished the initial review, approach me and let me know your plan. Use this time to ask me if you have any questions about these steps, your assigned collections, or anything else.
 
+**Step 3: Write your group report**
 
-## Step 3: Write your group report
-
-Once you have consulted with me, I will send you on your way to writing up your report.
-
-- [ ] As a group, step through the [Imaging Review - Inventory](https://docs.google.com/document/d/1QRRI_AQQhiBGp40NdR1yKyqASV5SoO48C74QuUedOYk/edit#heading=h.v9rhdwq94sgt) and [Imaging Review - Report](https://docs.google.com/document/d/1QRRI_AQQhiBGp40NdR1yKyqASV5SoO48C74QuUedOYk/edit#heading=h.jit5vbacrcbg) sections, containing instructions and guidance to determine estimates and other details.
+Once you have consulted with me, I will send you on your way to write your group report.
+- As a group, step through the [Imaging Review - Inventory](https://docs.google.com/document/d/1QRRI_AQQhiBGp40NdR1yKyqASV5SoO48C74QuUedOYk/edit#heading=h.v9rhdwq94sgt) and [Imaging Review - Report](https://docs.google.com/document/d/1QRRI_AQQhiBGp40NdR1yKyqASV5SoO48C74QuUedOYk/edit#heading=h.jit5vbacrcbg) sections, containing instructions and guidance to determine estimates and other details.
 
 ****
 
@@ -93,10 +69,8 @@ _Note 2: You may need to flip back and forth between the Inventory and Report do
 
 ****
 
-- [ ] When you are done, assign one group member the responsibility to submit your group report in Brightspace.
-
-- [ ] Each group member will also be responsible for a 1-page [individual reflection](https://docs.google.com/document/d/1QRRI_AQQhiBGp40NdR1yKyqASV5SoO48C74QuUedOYk/edit#heading=h.n3q8xh312ow2).
-
+- When you are done, assign one group member the responsibility to submit your group report in Brightspace.
+- Each group member will also be responsible for a 1-page [individual reflection](https://docs.google.com/document/d/1QRRI_AQQhiBGp40NdR1yKyqASV5SoO48C74QuUedOYk/edit#heading=h.n3q8xh312ow2).
 
 ### Inventory
 
