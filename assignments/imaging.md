@@ -25,7 +25,7 @@ Due: March 9th, 2024
 ## Step 1: Perform in-class pre-imaging and conservation review {#step-1}
 
 **Convene with your assigned group (A or B) and prep documents:** 
-- Have one group member open the shared [Assignments folder](https://drive.google.com/drive/folders/1m_74KkdORh17jdqxcDw7HrbuRk0QV58e) and within it, make copies of the [Template - Imaging Review - Report](https://docs.google.com/document/d/1iUBCTJHYKZWQrrBCZicBLftlPb9zH4SX88R12pCW2AQ/edit) and [Template - Imaging Review - Inventory](https://docs.google.com/spreadsheets/d/1ErWhb_SbsyWPzQ6CupKEnRq8GTA8Wc1oTRlrUhFLm_g/edit#gid=0).
+- Have one group member open the shared <a href="https://drive.google.com/drive/folders/1e2OQoWaPbySWqyH2w8qbA95oBJB4BCKE?usp=drive_link" target="_blank">Imaging and Conservation Activity - Templates</a> folder and have them make copies of the <a href="https://docs.google.com/document/d/1ipJfplMvKjXaupTq8RHEfGvyS1h2pzOlvrU2jtRfZ7w/edit?usp=drive_link" target="_blank">Template - Imaging Review - Report</a> and <a href="https://docs.google.com/spreadsheets/d/1dEc1DEEJxvIa5UAxx6bgXsr3JC02RTxMh8xhcjg-Qes/edit?usp=sharing" target="_blank">Template - Imaging Review - Inventory</a>.
 - Within your copy of the inventory report, delete the tab containing the inventory for the other group.
 - Share your Report and Inventory copies with other group members.
 
