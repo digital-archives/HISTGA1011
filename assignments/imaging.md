@@ -24,7 +24,7 @@ Due: March 9th, 2024
 **SCENARIO:** You are an archivist who works in the archival department of a medium-sized university archive. Your department is planning on writing a grant to garner funds for a digitization project. Your team has been tasked with devising a digitization plan, in the form of a report and inventory. Both documents will provide high-level details, cost and production time estimates, and document proposed schemas/standards. You will base your report on a collection from your institutional repository, containing mostly paper, photographic and other 2D materials (with some exceptions).
 
 ## Step 1: Perform in-class pre-imaging and conservation review {#step-1}
-**Convene with your assigned group (A or B) and prep documents:** 
+**Convene with your assigned group and prepare/share the assignment documents:** 
 - Have one group member open the shared <a href="https://drive.google.com/drive/folders/1e2OQoWaPbySWqyH2w8qbA95oBJB4BCKE?usp=drive_link" target="_blank">Imaging and Conservation Activity - Templates</a> folder and have them make copies of the <a href="https://docs.google.com/document/d/1ipJfplMvKjXaupTq8RHEfGvyS1h2pzOlvrU2jtRfZ7w/edit?usp=drive_link" target="_blank">Template - Imaging Review - Report</a> and <a href="https://docs.google.com/spreadsheets/d/1dEc1DEEJxvIa5UAxx6bgXsr3JC02RTxMh8xhcjg-Qes/edit?usp=sharing" target="_blank">Template - Imaging Review - Inventory</a> into their Google Drive.
 - Share the Google Drive folder with your group with read/edit permissions.
 
@@ -34,7 +34,7 @@ Due: March 9th, 2024
 
 - What are the general material types represented?
 - What digitization equipment/technologies might be needed to digitize each material type group?
-- Which collection should be digitized first?
+- Of the two collections represented, which collection should be digitized first? Why?
 - What is the general condition of the materials? Use the spreadsheet to flag any materials that you think should be assessed by a conservator before digitization.
 - How will digitization/scanning be done? Consider these factors:
   - Should techs digitize recto and verso of every single item (including those that are blank?) Why or why not?
@@ -47,14 +47,13 @@ Due: March 9th, 2024
 Once your group has finished the initial review, approach me and let me know your plan. Use this time to ask me if you have any questions about these steps, digitization approach, or anything else.
 
 ## Step 3: Write your group report {#step-3}
-Once you have consulted with me, I will send you on your way to write up your group report. Use the Inventory and Report Guidance sections below. Each section contains instructions, steps and to determine cost estimates and other details.
+Once you have consulted with me, I will send you on your way to write up your group report. Use the Inventory and Report Guidance sections below which contain instructions and steps on how to fill out your Inventory, determine a cost estimate, and fill out your report.
 
-### Inventory Spreadsheet Guidance
+### Inventory Spreadsheet Guidance {#inventory}
 
 _Note: Any columns highlighted in yellow within the Inventory spreadsheet are the sections you will be filling out._
 
 **Pre-populated field definitions:**
-
 - **Series:** Name of finding aid series containing the folder.
 - **Box number:** Box label number. Since this is a folder-level list, box numbers may repeat themselves.
 - **Folder number:** Folder label number
@@ -63,8 +62,7 @@ _Note: Any columns highlighted in yellow within the Inventory spreadsheet are th
 - **Restrictions:** Access restriction statement/dates.
 - **Condition:** Noted conservation issues.
 
-**Fields to be filled for each folder:**
-
+**Fields (highlighted in yellow) to be filled for each folder:**
 - **Workflow Type(s)_:_** Use the <a href="https://wiki.harvard.edu/confluence/display/DigitalImaging/Imaging+Services+Project+Services+Categories" target="_blank">Harvard Library Imaging Services Project Services Categories (HLIS)</a> site to categorize workflow type(s) for each folder.
 - **Folder Name:** Enter each folder’s name based on the file-naming schema described in your Report.
 - **Capture Device**: Based on your workflow selections from the HLIS site, identify the capture device you will need to digitize each folder. Use the **Harvard to DLF Capture Device Table** below, which maps HLIS Workflow to DLF Calculator Device.
@@ -114,7 +112,7 @@ _\*This equivalency chart is for the purposes of this assignment only. If you ar
 - **OCR (Y/N):** Do you want optical character recognition? Make sure you include this in the cost.
 - **Cost:** Based on your selected workflows and shot counts, calculate the cost of digitization per folder using the costs per image listed in the <a href="https://wiki.harvard.edu/confluence/display/DigitalImaging/Imaging+Services+Project+Services+Categories" target="_blank">Harvard Library Imaging Services Project Services Categories</a> site.
 
-### Report Guidance
+### Report Guidance {#report}
 
 - **Collection Name:**
 - **Group members:**
