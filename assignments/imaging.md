@@ -45,11 +45,11 @@ Due: March 9th, 2024
     - Is there anything you want to skip?
     - Any questions you have for me.
 
-**Step 2: Consultation**
+**Step 2: Consultation** {#step-2}
 
 Once your group has finished the initial review, approach me and let me know your plan. Use this time to ask me if you have any questions about these steps, your assigned collections, or anything else.
 
-**Step 3: Write your group report**
+**Step 3: Write your group report** {#step-3}
 
 Once you have consulted with me, I will send you on your way to write your group report.
 - As a group, step through the [Imaging Review - Inventory](https://docs.google.com/document/d/1QRRI_AQQhiBGp40NdR1yKyqASV5SoO48C74QuUedOYk/edit#heading=h.v9rhdwq94sgt) and [Imaging Review - Report](https://docs.google.com/document/d/1QRRI_AQQhiBGp40NdR1yKyqASV5SoO48C74QuUedOYk/edit#heading=h.jit5vbacrcbg) sections, containing instructions and guidance to determine estimates and other details.
@@ -198,7 +198,7 @@ _\*This equivalency chart is for the purposes of this assignment only. If you ar
 * **Conservation Notes:** Detail what sort of conservation or stabilization treatments may be required for materials with condition issues, and comment on how this might affect production length or any other project details.
 
 
-## Step 4: Write your individual reflection
+## Step 4: Write your individual reflection {#step-4}
 
 Staff involved directly or indirectly on digitization projects all have different roles, responsibilities and perspectives. Write a 1 page reflection from the perspective of one of your staff members (each group member must select a different role). Highlight any decisions made and documented in the Report that implicate you, and how they may effect your day-to-day work: Try and pick one of these topics to reflect on:
 
