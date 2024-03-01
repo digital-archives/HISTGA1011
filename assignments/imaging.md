@@ -8,30 +8,21 @@ has_children: false
 
 # Imaging and Conservation Review 
 
-Group Report and Individual Reflection
+## Group Report and Individual Reflection
 
-Due: March 9th
+Due: March 9th, 2024
 
 ****
 
-[Scenario](https://docs.google.com/document/d/1QRRI_AQQhiBGp40NdR1yKyqASV5SoO48C74QuUedOYk/edit#heading=h.d7tp40heyyf8)
-
-[Step 1: Perform in-class pre-imaging and conservation review](https://docs.google.com/document/d/1QRRI_AQQhiBGp40NdR1yKyqASV5SoO48C74QuUedOYk/edit#heading=h.e16xolmi120x)
-
-[Step 2: Consultation](https://docs.google.com/document/d/1QRRI_AQQhiBGp40NdR1yKyqASV5SoO48C74QuUedOYk/edit#heading=h.6a2w3ddyla50)
-
-[Step 3: Write your group report](https://docs.google.com/document/d/1QRRI_AQQhiBGp40NdR1yKyqASV5SoO48C74QuUedOYk/edit#heading=h.2oweqtoqq1ug)
-
-[Inventory](https://docs.google.com/document/d/1QRRI_AQQhiBGp40NdR1yKyqASV5SoO48C74QuUedOYk/edit#heading=h.v9rhdwq94sgt)
-
-[Report](https://docs.google.com/document/d/1QRRI_AQQhiBGp40NdR1yKyqASV5SoO48C74QuUedOYk/edit#heading=h.n2ok4erxcvgn)
-
-[Step 4: Write your individual reflection](https://docs.google.com/document/d/1QRRI_AQQhiBGp40NdR1yKyqASV5SoO48C74QuUedOYk/edit#heading=h.ukr4dyt2zm1h)
+- [Step 1: Perform in-class pre-imaging and conservation review](#step-1)
+- [Step 2: Consultation](#step-2)
+- [Step 3: Write your group report](#step-3)
+- [Step 4: Write your individual reflection](#step-4)
 
 {: .highlight }
-**SCENARIO:** You are an archivist who works in the archival department of a medium-sized university archive. Your department is planning on writing a grant to garner funds for a digitization project. Your team has been tasked with devising a digitization plan, in the form of a report and inventory. Both documents will provide high-level details, cost and production time estimates, and document proposed schemas/standards._ _You will base your report on a collection from your institutional repository, containing mostly paper, photographic and other 2D materials (with some exceptions).
+**SCENARIO:** You are an archivist who works in the archival department of a medium-sized university archive. Your department is planning on writing a grant to garner funds for a digitization project. Your team has been tasked with devising a digitization plan, in the form of a report and inventory. Both documents will provide high-level details, cost and production time estimates, and document proposed schemas/standards. You will base your report on a collection from your institutional repository, containing mostly paper, photographic and other 2D materials (with some exceptions).
 
-**Step 1: Perform in-class pre-imaging and conservation review**
+**Step 1: Perform in-class pre-imaging and conservation review** {#step-1}
 
 **Convene with your assigned group (A or B) and prep documents:** 
 - Have one group member open the shared [Assignments folder](https://drive.google.com/drive/folders/1m_74KkdORh17jdqxcDw7HrbuRk0QV58e) and within it, make copies of the [Template - Imaging Review - Report](https://docs.google.com/document/d/1iUBCTJHYKZWQrrBCZicBLftlPb9zH4SX88R12pCW2AQ/edit) and [Template - Imaging Review - Inventory](https://docs.google.com/spreadsheets/d/1ErWhb_SbsyWPzQ6CupKEnRq8GTA8Wc1oTRlrUhFLm_g/edit#gid=0).
