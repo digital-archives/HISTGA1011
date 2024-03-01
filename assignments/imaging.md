@@ -17,7 +17,7 @@ Due: March 9th, 2024
 - [Step 1: Perform in-class pre-imaging and conservation review](#step-1)
 - [Step 2: Consultation](#step-2)
 - [Step 3: Write your group report](#step-3)
-  - [Inventory Guidance](#inventory)
+  - [Inventory Spreadsheet Guidance](#inventory)
   - [Group Report Guidance](#report)
 - [Step 4: Write your individual reflection](#step-4)
 - [Step 5: Submit your reports to Brightspace](#step-5)
@@ -54,49 +54,33 @@ Once your group has finished the initial review, approach me and let me know you
 
 Once you have consulted with me, I will send you on your way to write up your group report. Use the Inventory and Report Guidance sections below. Each section contains instructions, steps and to determine cost estimates and other details.
 
-### Inventory Guidance
+### Inventory Spreadsheet Guidance
 
-_Note: columns in the inventory highlighted in yellow are what you will be filling out._
+_Note: Any columns highlighted in yellow within the Inventory spreadsheet are the sections you will be filling out._
 
 ****
 
 **Pre-populated fields:**
 
 - **Series:** Name of finding aid series containing the folder.
-
 - **Box number:** Box label number. Since this is a folder-level list, box numbers may repeat themselves.
-
 - **Folder number:** Folder label number
-
 - **Content Estimate Count:** Estimated total count of Content Estimate Format.
-
 - **Content Estimate Format:** Format of Content Estimate Count
-
 - **Restrictions:** Access restriction statement/dates.
-
 - **Condition:** Noted conservation issues.
-
-****
 
 **Fields to be filled out by groups for each folder:**
 
-- **Workflow Type(s)_:_** Use the [Harvard Library Imaging Services Project Services Categories](https://wiki.harvard.edu/confluence/display/DigitalImaging/Imaging+Services+Project+Services+Categories) to identify workflow type(s) for each folder.
-
+- **Workflow Type(s)_:_** Use the <a href="https://wiki.harvard.edu/confluence/display/DigitalImaging/Imaging+Services+Project+Services+Categories" target="_blank">Harvard Library Imaging Services Project Services Categories (HLIS)</a> site to categorize workflow type(s) for each folder.
 - **Folder Name:** Enter each folder’s name based on the file-naming schema described in your Report.
-
 - **Capture Device**: Based on your workflow selections from the HLIS site, identify the capture device you will need to digitize each folder.
-
 - **Shot Count:** For each folder listed, enter in an estimated shot count based on the Content Estimate Count and Format.
-
-- **Imaging Time:** Using the [DLF Digitization Cost Calculator](https://dashboard.diglib.org/), calculate the time it will take per workflow type in minutes. To determine these estimates, open the Calculator and enter the following details:
-
+- **Imaging Time:** Using the <a href="https://dashboard.diglib.org/">DLF Digitization Cost Calculator</a>, calculate the time it will take per workflow type in minutes. To determine these estimates, open the Calculator and enter the following details:
   - _Number of scans:_ Enter total number shots in the folder with the same workflow (sort the worksheet by Content Estimate). If you are using multiple workflows for 1 folder, you need to calculate time separately then add together.
-
   - _Staffing:_ List each staff name (enter their role here, no need to make up a name), type (hourly or salaried is fine), rate (guess!), and benefits (enter 20%)
-
-_For every item below you enter data for, select your staff member name as the person doing the work, otherwise the task will not be included in the time total._
-
-- _Capture Device:_ Select the capture device you listed in the Inventory (see the **Harvard to DLF Capture Device Table**).
+  - For every item below you enter data for, select your staff member name as the person doing the work, otherwise the task will not be included in the time total.
+  - _Capture Device:_ Select the capture device you listed in the Inventory (see the **Harvard to DLF Capture Device Table**).
 
 |                                                                                                                                                    |                                                                              |
 | :------------------------------------------------------------------------------------------------------------------------------------------------: | ---------------------------------------------------------------------------- |
