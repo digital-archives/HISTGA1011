@@ -21,7 +21,7 @@ Due: March 9th, 2024
 - [Step 5: Submit your reports to Brightspace](#step-5)
 
 {: .highlight }
-**SCENARIO:** You are an archivist who works in the archival department of a medium-sized university archive. Your department is planning on writing a grant to garner funds for a digitization project. Your team has been tasked with devising a digitization plan, in the form of a report and inventory. Both documents will provide high-level details, cost and production time estimates, and document proposed schemas/standards. You will base your report on a collection from your institutional repository, containing mostly paper, photographic and other 2D materials (with some exceptions).
+**SCENARIO:** You are an archivist who works in the special collections department of a medium-sized university. Your department is planning on writing a grant to fund a digitization project. Your team has been tasked with devising a digitization plan, in the form of a report and inventory. Both documents will provide high-level details, cost and production time estimates, and document proposed schemas/standards. You will base your report on a collection from your institutional repository, containing mostly paper, photographic and other 2D materials (with some exceptions).
 
 ## Step 1: Perform in-class pre-imaging and conservation review {#step-1}
 **Convene with your assigned group and prepare/share the assignment documents:** 
