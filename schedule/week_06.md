@@ -6,7 +6,7 @@ nav_order: 6
 has_children: false
 ---
 # Week 6: Digital Preservation Metadata
-Link to slide deck [Update me]
+<a href="https://docs.google.com/presentation/d/1I0PwGut0qQ7LlR2asV3PMQtT9muj_O1HAukkXXeJBvI/edit?usp=sharing" target="_blank">Link to slide deck</a>
 
 {: .label .label-yellow }
 Due
