@@ -40,8 +40,8 @@ In this activity, you will explore the "front end" of a digital repository. You 
 - Write a detailed evaluation report that summarizes your findings. Include the following:
   - An introduction to the chosen access portal.
   - A description of your user experience while navigating the portal.
-  - Analysis of the portal's strengths and weaknesses in terms of contextual metadata, information presentation, and other access considerations.
-  - Recommendations for improvements, if applicable.
+  - Analysis of the portal's strengths and weaknesses in terms of contextual metadata, information presentation, and other considerations discussed both within this week's readings, and during the in-class lecture.
+  - Recommendations for improvements.
   - A conclusion summarizing your overall assessment.
   - Submit your activity summary to Brightspace.
 
