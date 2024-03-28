@@ -8,7 +8,7 @@ has_children: false
 
 # Week 8: Digitization Workflows - Part 2 - Access and Discovery
 
-Link to slide deck [update me]
+<a href="https://https://drive.google.com/file/d/1bMxpG4bolU-JZNV38D2BRBIkC9oZoKXC/view?usp=drive_link" target="_blank">Link to slide deck</a>
 
 {: .label .label-yellow }
 Due
