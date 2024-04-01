@@ -17,7 +17,7 @@ The goal of the "Corrupting a Bitstream" exercise is to introduce students to us
   * Terminal
     * Mac: Open Finder > Applications. Find and double-click on Terminal icon.
     * Windows: Use the keyboard shortcut Windows + R. In the window that appears, type in “cmd” (without quotes) and then Enter.
-  * Download [activity files](./files/) locally: 1.) IMG_3782.jpg and 2.) PRPR19.docx
+  * Download <a href="https://drive.google.com/drive/folders/1UzQbxCrIcE0LhKNi7QImC4YryopubrKB?usp=sharing" target="_blank">Activity Files</a> locally: 1.) IMG_3782.jpg and 2.) PRPR19.docx
 
 ## Task 1:
 * Open IMG_3782.jpg in your hex editor. Using what you know about looking up and identifying file signatures, confirm the filetype of this file.
