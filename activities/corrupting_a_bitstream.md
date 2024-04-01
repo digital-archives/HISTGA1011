@@ -21,35 +21,37 @@ The goal of the "Corrupting a Bitstream" exercise is to introduce students to us
 
 ## Task 1
 #### Identify format types
-* Open IMG_3782.jpg in your hex editor. Using what you know about looking up and identifying file signatures, confirm the file type of this file by locating its file signature.
-* Confirm the file type for PRPR19.docx by locating its file signature. Hint: you may need to read up a bit on what a DOCX is and what it is made of to properly confirm this file's signature.
+* Open IMG_3782.jpg in your hex editor. Using what you know about looking up and identifying file signatures, confirm the file type of this file by locating its file signature, and make a note of it somewhere.
+* Confirm the file type for PRPR19.docx by locating its file signature, and also make note of it somewhere. Hint: you may need to read up a bit on what a DOCX is and what it is made of to properly confirm this file's signature.
 
 ## Task 2
 ### Corrupt some bitstreams!
 
-#### Use command line to navigate to and change the file
-Using the .docx file from Task 1 for the remainder of the activity.
+***Use the .docx file from Task 1 for the remainder of the activity.***
+
+#### Fundmentally change a file's bitstream using hex and text editors
+
 * Open Terminal (Mac) or PowerShell (Windows)
-* Use the cd (“change directory”) command followed by the directory path command to navigate to the location of PRPR19.docx. For example, if I wanted to navigate to my downloads file I would type cd C:\Users\kiddm\Downloads [Enter]
+* Input the cd (“change directory”) command followed by the directory path command to navigate to the location of PRPR19.docx. For example, if I wanted to navigate to my downloads file I would type cd C:\Users\kiddm\Downloads [Enter]
 * Rename PRPR19.docx:
   * Mac: mv oldfilename newfilename 
   * Windows: Rename-Item -Path oldfilename -NewName newfilename
-* Run a checksum of your file, and then output the checksum to a plain text file. Make sure you are in the Desktop directory when you take these steps.
+* Run a checksum of your file, and then output the checksum to a plain text file.
   * Mac: Run command: md5 filename. To save the checksum to a file, run command:  md5 filename > md5.txt
   * Windows: Run command: Get-FileHash filename -Algorithm md5 | Format-List. To save the checksum to a file, replace | Format-List with > md5.txt
 * Open PRPR19.docx in the hex editor
 * Confirm the filetype using magic numbers/file signature as you did in Task 1.
-* Examine the ASCII text. Can you identify any useful information from the available ASCII text to learn more about the file?
-* In the ASCII text on the right side, change one letter. Be sure to write down exactly what you did, as you will be changing it back later. Tip: Note the byte position. I.e. “at byte 15548 I changed the C to X”.
-* Save file.
-* Run and output a new checksum text file. Name it to something distinct like md5-1.txt. Compare your first and second checksums: are they the same? Different?
+* Examine the ASCII text. At first, this may look a bit strange, but look a little closer, as there are some human-readable elements. Can you identify any useful information from the available ASCII text to learn more about this file?
+* Anywhere within the ASCII text on the right side, change one letter. Be sure to note exactly where and what you changed, as you will be changing it back later. Tip: Note the byte position (use the "Current Address" feature of the hex editor).
+* Save the file.
+* Run and output a new checksum text file; name it md5-1.txt.
+* Compare your first and second checksums: are they the same? Different?
 * Go back to hex editor, change the letter back to the original
-* Run checksum on file again. Name it md5-2.txt Compare the checksums: what do you note? Same? Different?
-* Open the file in Word. Make a one letter change.
-* Run checksum on file. Name it md5-3.txt. Compare the checksums again.
-* Open the file in Word again and fix the change you made. Save.
-* Run checksum on the file. Name it md5-4.txt
-* Compare the checksums: what do you note? Same? Different?
+* Run and output another checksum text file; name it md5-2.txt. Compare all checksums generated so far: are they the same? Different?
+* Open the file in Word or Google Docs (if using Google Docs, you will need to import it first). Make a change to the document by deleting or altering a word.
+* Run and output a new checksum text file; name it md5-3.txt. Compare the checksums again.
+* Open the file in Word again and undo the change you made. Save the file (if you used Google Docs, make sure to export it as a DOCX file, and overwrite the original file you imported).
+* Run and output another checksum text file; name it md5-4.txt. Compare the checksums again.
 
 ## Submission instructions
 Submit your findings in Brightspace with the following details:
@@ -59,7 +61,7 @@ Submit your findings in Brightspace with the following details:
  * Original
  * Letter change (hex)
  * Letter fixed (hex)
- * Letter change (word)
- * Letter fixed (word)
-* Brief summary of any relevant information you are able to pull from ASCII text in hex editor.
-* Brief summary of findings from corrupting the bitstream of your file.
+ * Word change (Word or Google Docs)
+ * Word fixed (Word or Google Docs)
+* Provide a brief summary of any relevant information you are able to pull from ASCII text in hex editor.
+* Provide a brief summary of findings from corrupting the bitstream of your file in both the text and hex editors.
