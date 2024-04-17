@@ -12,6 +12,6 @@ Use this period to work on your paper, and I'll be available during virtual offi
 
 {: .label .label-green }
 Watch
-<a href="https://www.youtube.com/watch?v=r5mJU-LlmhQ" target="_blank">COPY BYTES: Digitization And Libraries, Part 1</a>
-<a href="https://www.youtube.com/watch?v=xt6qNPCevD0" target="_blank">COPY BYTES: Digitization And Libraries, Part 2</a>
+- <a href="https://www.youtube.com/watch?v=r5mJU-LlmhQ" target="_blank">COPY BYTES: Digitization And Libraries, Part 1</a>
+- <a href="https://www.youtube.com/watch?v=xt6qNPCevD0" target="_blank">COPY BYTES: Digitization And Libraries, Part 2</a>
 
