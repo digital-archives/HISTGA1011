@@ -13,14 +13,10 @@ has_children: true
 In this activity you will be downloading, installing and using QCTools, a program that provides a way to analyze audio/visual transfer “artifacts”.
 
 **Setup steps**
-
 - Install the QCTools program (GUI): <https://bavc.org/programs/preservation/preservation-tools/>
-
-* Download the video clip in the [A/V Preservation shared folder](https://drive.google.com/drive/folders/1im0K8WUMlUDFHWGxE3jDFQ113O6NOtvt) locally. Note: this video was transcoded from a VHS tape.
-
-* Open the [Moving Image Preservation of Puget Sound (MIPoPS) QCTools Manual](https://sustainableheritagenetwork.org/system/files/atoms/file/QCTools%20Manual%20\(Printable%20Version\).pdf)
-
-* Open the terminal/command line and QCTools in another.
+- Download the video clip in the [A/V Preservation shared folder](https://drive.google.com/drive/folders/1im0K8WUMlUDFHWGxE3jDFQ113O6NOtvt) locally. Note: this video was transcoded from a VHS tape.
+- Open the <a href="https://sustainableheritagenetwork.org/system/files/atoms/file/QCTools%20Manual%20(Printable%20Version).pdf" target="_blank">Moving Image Preservation of Puget Sound (MIPoPS) QCTools Manual</a>.
+- Open the terminal/command line and QCTools in another.
 
 **Activity steps**
 
