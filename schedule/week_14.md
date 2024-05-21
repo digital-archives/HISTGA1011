@@ -1,5 +1,5 @@
 ---
-title: Week 14 - April 24 - Software Preservation
+title: Week 14 - April 24
 layout: default
 parent: Course Schedule & Readings
 nav_order: 14
