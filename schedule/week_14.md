@@ -1,14 +1,17 @@
 ---
-title: Week 14 - April 24 - NO CLASS
+title: Week 14 - April 24 - Software Preservation
 layout: default
 parent: Course Schedule & Readings
 nav_order: 14
 has_children: false
 ---
 
-# Week 14: NO CLASS
+# Week 14
 
-Use this period to work on your paper, and I'll be available during virtual office hours if you need assistance. Feel free to schedule a meeting or reach out via email or chat if you have questions or concerns.
+{: .label .label-green }
+Read
+* Nooney, Laine. The Apple II Age: How the Computer Became Personal. Chapter 5, "Utilities: Locksmith," pp. 145-177. 2023. [available on Ebook Central via NYU Library]
+
 
 {: .label .label-green }
 Watch
