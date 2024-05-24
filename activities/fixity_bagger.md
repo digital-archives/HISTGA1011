@@ -8,11 +8,9 @@ has_children: false
 
 # Fixity and Digital Packages
 
-This activity introduces students to essential concepts in digital preservation: fixity and digital packages. Ethan Gates, author of The Patch Bay, wrote two blog posts that provide a nice introduction to the concept of digital packages, and what Bagger (the program you will be installing and using for this activity) is, and what it does. Please give them a read before you start on this activity:
-* Gates, Ethan. "Using BagIt." _The Patch Bay: Connecting Preservation and Technology). September 20, 2016. <a href="https://patchbay.tech/blog/2016/09/20/using-bagit/" target="_blank">https://patchbay.tech/blog/2016/09/20/using-bagit/</a>.
-* Gates, Ethan. "Using BagIt in 2018." _The Patch Bay: Connecting Preservation and Technology_. December 15, 2017. <a href="https://patchbay.tech/blog/2017/12/15/using-bagit-in-2018/" target="_blank">https://patchbay.tech/blog/2017/12/15/using-bagit-in-2018/</a>.
+This activity introduces students to essential concepts in digital preservation: fixity and digital packages. Ethan Gates, author of The Patch Bay, wrote two blog posts that provide a nice introduction to the concept of digital packages, and what Bagger (the program you will be installing and using for this activity) is, and what it does.
 
-## Things to know before starting
+## Things to know and review before starting this activity
 __Fixity__ involves verifying a file's integrity over time. Regular fixity checks are crucial to ensure the files remain unaltered and uncorrupted during their lifecycle in a digital preservation repository.
 
 __Digital Packages__ refer to the practice of grouping interrelated files into folders for preservation. The importance of this concept led to the creation of the BagIt Specification by the Library of Congress. This specification provides guidelines for organizing digital preservation packages, referred to as "bags." Bags may be used to form digital packages that we learned about, such as SIPs, AIPs and DIPs.
