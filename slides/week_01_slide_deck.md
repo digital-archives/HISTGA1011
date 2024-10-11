@@ -1,18 +1,17 @@
-<span style="color:#6AA84F"> __Week 1__ </span>
-
+<span style="color:#6AA84F">__Week 1__ </span>
 <span style="color:#274E13"> __Introduction to Digital Archives__ </span>
 
-<span style="color:#FE7600">Welcome and introductions \(15\)</span>
+---
 
-<span style="color:#FE7600">Review the syllabus together \(45\)</span>
+<span style="color:#FE7600">
+- **Welcome and introductions**
+- **Review the syllabus**
+- **Break
+- **Lecture: Digital information basics
+- **Discussion
+- **Next week</span>
 
-<span style="color:#FE7600">B</span>  <span style="color:#FE7600">reak \(10\)</span>
-
-<span style="color:#FE7600">Lecture \(45\): </span>  <span style="color:#FE7600">Digital information basics</span>
-
-<span style="color:#FE7600">Discussion \(25\)</span>
-
-<span style="color:#FE7600">Next week \(5\)</span>
+---
 
 * <span style="color:#274E13">Eira Tansey \(Memory Rising\) 2\-part series on climate action plans for libraries and archives</span>
   * _[Part 1 recording](https://youtu.be/OKkki5_WtCg)_
