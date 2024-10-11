@@ -39,6 +39,8 @@ My email: [mary.kidd@nyu.edu](mailto:mary.kidd@nyu.edu)
 * What program are you in and how far along are you?
 * What do you hope to learn in this course?
 
+---
+
 # Syllabus Review
 
 [https://digital-archives.github.io/HISTGA1011/](https://digital-archives.github.io/HISTGA1011/)
@@ -67,8 +69,6 @@ Syllabus link: https://github.com/kiddmary/HIST-GA-1011-->
 
 Bertram Lyons, _The Digital Archives Handbook_ (2019)
 
----
-
 <!-- presenter notes
 
 Lyons, Bertram. "Digital Preservation." In The Digital Archives Handbook: A Guide to Creation, Management, and Preservation, edited by Aaron D. Purcell, 3-18. Rowman & Littlefield Publishers, 2019. Accessed September 11, 2023. http://ebookcentral.proquest.com/lib/nyulibrary-ebook/detail.action?docID=5646172, 3.
@@ -76,9 +76,9 @@ Lyons, Bertram. "Digital Preservation." In The Digital Archives Handbook: A Guid
 
 ---
 
-# Definition: Digital object
+# Definition: Digital Object
 
-A complex entity composed of __bitstreams__, necessitating the use of one or a combination of machines and digital components to access and understand.
+A __digital object__ is a complex entity composed of __bitstreams__, necessitating the use of one or a combination of machines and digital components to access and understand.
 
 <!-- presenter notes
 
@@ -91,12 +91,7 @@ Digital objects encapsulate various forms of digital content, such as documents,
 
 What are some examples of digital objects that you know of, or have worked with, in your job, or life?
 
-I'll start us off:
-Word processing document
-Graphics/images
-Database/dataset
-
-<span style="color:#C27BA0"> __Question__ </span>
+__Question__
 
 <span style="color:#741B47">Can you think of an example from your life or work where meaning is encoded by a sequence of ordered numbers?</span>
 
