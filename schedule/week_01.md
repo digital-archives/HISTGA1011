@@ -6,6 +6,9 @@ nav_order: 1
 has_children: false
 ---
 # Week 1: Introduction to Digital Archives<br>
+
+<a href="{{ site.baseurl }}/slides/week_01_slide_deck.html" target="_blank">Link to slide deck</a>
+
 <a href="https://drive.google.com/file/d/1XI2ZAYqRW6RpG6oauJTsDfcIU2PG4fgX/view?usp=drive_link" target="_blank">Link to slide deck</a>
 
 {: .label .label-yellow }

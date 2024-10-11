@@ -3,6 +3,7 @@ description: Syllabus and course materials for Digital Archives - HIST-GA-1011 (
 theme: just-the-docs
 
 url: https://digital-archives.github.io
+baseurl: "/HISTGA1011"
 
 search_enabled: true
 
