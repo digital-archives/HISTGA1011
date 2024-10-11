@@ -22,6 +22,8 @@ This class is intended to be a welcoming and productive space.
 
 All questions, including repeat questions, or questions with “obvious” answers, are welcome and encouraged. Anti-oppressive or harmful language will not be tolerated.
 
+---
+
 # About Me
 
 My name is Mary Kidd. My pronouns are she/her. You can call me Mary in class, over email, or anywhere else.
@@ -43,7 +45,6 @@ My email: [mary.kidd@nyu.edu](mailto:mary.kidd@nyu.edu)
 
 Please include “HISTGA1011” in the email subject
 
----
 <!-- presenter notes
 This semester’s syllabus is hosted on Github. Has anyone here used or are you familiar with Github in any way?
 
@@ -51,38 +52,49 @@ Briefly: Github is an online platform that is used to store and version document
 
 Syllabus link: https://github.com/kiddmary/HIST-GA-1011-->
 
-<span style="color:#274E13"> __Digital Information Basics__ </span>
+---
+
+# Digital Information Basics
+
+<!-- presenter notes I want to step you through basic concepts to do with what digital information is, and in particular, how it is encoded.
+-->
 
 ---
 
-I want to step you through basic concepts to do with what digital information is, and in particular, how it is encoded.
+# Why Should We Know About Digital Information?
 
-This section will take ~45 minutes
+“As archivists, if we are going to be able to take care of digital collections into the future, we must understand that the basic building blocks of… digital files are… bits and bytes. To know files, we must know how they are constructed… And from this knowledge, we will be better equipped to design preservation strategies for our digital collections.”
 
-<span style="color:#274E13">“As archivists\, if we are going to be able to take care of digital collections into the future\, we must understand \[that\] </span>  <span style="color:#274E13"> __the basic building blocks of… digital files are… bits and bytes__ </span>  <span style="color:#274E13">\[\.\] To know files\, we must know how they are constructed… And from this knowledge\, we will be better equipped to design preservation strategies for our digital collections\.”</span>
-
-<span style="color:#D9EAD3">Bertram Lyons\, from </span>  <span style="color:#D9EAD3"> _The Digital Archives Handbook \(2019\)_ </span>
+Bertram Lyons, _The Digital Archives Handbook_ (2019)
 
 ---
+
+<!-- presenter notes
 
 Lyons, Bertram. "Digital Preservation." In The Digital Archives Handbook: A Guide to Creation, Management, and Preservation, edited by Aaron D. Purcell, 3-18. Rowman & Littlefield Publishers, 2019. Accessed September 11, 2023. http://ebookcentral.proquest.com/lib/nyulibrary-ebook/detail.action?docID=5646172, 3.
+-->
 
-Here, we have another quote from The Digital Archives Handbook, this time from Bertram Lyons. Here, he states: “As archivists, if we are going to be able to take care of digital collections into the future, we must understand [that] the basic building blocks of… digital files are… bits and bytes[.] To know files, we must know how they are constructed. We must be able to dissect them. We must understand how they decompose, how they are kept alive, and how to correct them if they are broken. And from this knowledge, we will be better equipped to design preservation strategies for our digital collections.”
-
-We are going to talk today about those very bits and bytes.
+---
 
 # Definition: Digital object
-—
 
-__A complex entity composed of bitstreams\, necessitating the use of one or a combination of machines and digital components to access and understand\. These digital objects encapsulate various forms of digital content\, such as documents\, multimedia\, or software\, which may require specialized software\, hardware\, or emulation to faithfully render and understand\, ensuring their long\-term accessibility and preservation__
+A complex entity composed of __bitstreams__, necessitating the use of one or a combination of machines and digital components to access and understand.
 
-Examples of digital objects
+<!-- presenter notes
 
-<span style="color:#0C343D">Word processing document</span>
+Digital objects encapsulate various forms of digital content, such as documents, multimedia, or software, which may require specialized software, hardware, emulation, specialized knowledge, or one or all of these things, to faithfully render and understand, ensuring their long-term accessibility and preservation.
 
-<span style="color:#0C343D">Graphics / images</span>
+-->
 
-<span style="color:#0C343D">Database / dataset</span>
+---
+# Question for Class
+
+What are some examples of digital objects that you know of, or have worked with, in your job, or life?
+
+I'll start us off:
+Word processing document
+Graphics/images
+Database/dataset
 
 <span style="color:#C27BA0"> __Question__ </span>
 
