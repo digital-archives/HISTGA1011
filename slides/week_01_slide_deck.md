@@ -1,60 +1,55 @@
-<span style="color:#6AA84F">__Week 1__ </span>
-<span style="color:#274E13"> __Introduction to Digital Archives__ </span>
+# Week 1 
+Introduction to Digital Archives
 
 ---
 
-<span style="color:#FE7600">
+# Today
 - **Welcome and introductions**
 - **Review the syllabus**
-- **Break
-- **Lecture: Digital information basics
-- **Discussion
-- **Next week</span>
+- **Break**
+- **Lecture: Digital information basics**
+- **Discussion**
+- **Next week**
+
+---
+# Announcements
+_Feel free to email me with any announcements you would like me to boost (upcoming conferences, webinars, trainings, or other events/topics of interest)._
 
 ---
 
-* <span style="color:#274E13">Eira Tansey \(Memory Rising\) 2\-part series on climate action plans for libraries and archives</span>
-  * _[Part 1 recording](https://youtu.be/OKkki5_WtCg)_
-  * <span style="color:#274E13">Part 2 was today\! I’ll share link to recording when it becomes available</span>
-* <span style="color:#274E13"> __Feel free to email me with any announcements you might have about upcoming conferences\, webinars\, trainings\, or other events\. I’ll include them here\!__ </span>
+# Ground Rules
+This class is intended to be a welcoming and productive space.
 
-<span style="color:#274E13"> __T__ </span>  <span style="color:#274E13"> __his class is intended to be a welcoming and productive space\.__ </span>
+All questions, including repeat questions, or questions with “obvious” answers, are welcome and encouraged. Anti-oppressive or harmful language will not be tolerated.
 
-<span style="color:#274E13">All questions\, including repeat questions\, or questions with “obvious” answers\, are welcome and encouraged\. Anti\-oppressive or harmful language will not be tolerated\.</span>
+# About Me
 
-My name is Mary Kidd\. My pronouns are she/her\. You can call me Mary in class\, over email\, or anywhere else\.
+My name is Mary Kidd. My pronouns are she/her. You can call me Mary in class, over email, or anywhere else.
 
-I work at the New York Public Library as the Systems and Operations Manager in the Preservation and Collections Processing Department\. I also consult on and have led various digital preservation projects\.
+I work at the New York Public Library as the Systems and Operations Manager in the Preservation and Collections Processing Department. I also consult on and have led various digital preservation projects.
 
-Outside of work and teaching\, I like to spend time looking for edible and medicinal plants\.
-
-__Introduce yourself__
-
-What program are you in and how far along are you?
-
-What do you hope to learn in this course?
-
-What operating system do you use?
-
-Optional: What is a non\-work/school related detail you are open to sharing about yourself?
-
-<span style="color:#274E13"> __Syllabus Review__ </span>
-
-_[https://digital\-archives\.github\.io/HISTGA1011/](https://digital-archives.github.io/HISTGA1011/)_
-
-<span style="color:#274E13">My email: </span>  _[mary\.kidd@nyu\.edu](mailto:mary.kidd@nyu.edu)_
-
-<span style="color:#274E13">Please include “HISTGA1011” in the email subject</span>
+My email: [mary.kidd@nyu.edu](mailto:mary.kidd@nyu.edu)
 
 ---
 
-45 min
+# Introduce yourself
 
+* What program are you in and how far along are you?
+* What do you hope to learn in this course?
+
+# Syllabus Review
+
+[https://digital-archives.github.io/HISTGA1011/](https://digital-archives.github.io/HISTGA1011/)
+
+Please include “HISTGA1011” in the email subject
+
+---
+<!-- presenter notes
 This semester’s syllabus is hosted on Github. Has anyone here used or are you familiar with Github in any way?
 
 Briefly: Github is an online platform that is used to store and version documentation and code. It is also a platform used widely in the digital archives and preservation fields, to keep systems and processing documentation. We will cover what Github is, more, later on in the semester. But for now, you will be using it primarily to access the class syllabus, as well assignments and other documents we will be using for in-class activities.
 
-Syllabus link: https://github.com/kiddmary/HIST-GA-1011
+Syllabus link: https://github.com/kiddmary/HIST-GA-1011-->
 
 <span style="color:#274E13"> __Digital Information Basics__ </span>
 
