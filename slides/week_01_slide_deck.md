@@ -12,12 +12,15 @@ Introduction to Digital Archives
 - **Next week**
 
 ---
+
 # Announcements
+
 _Feel free to email me with any announcements you would like me to boost (upcoming conferences, webinars, trainings, or other events/topics of interest)._
 
 ---
 
 # Ground Rules
+
 This class is intended to be a welcoming and productive space.
 
 All questions, including repeat questions, or questions with “obvious” answers, are welcome and encouraged. Anti-oppressive or harmful language will not be tolerated.
@@ -45,20 +48,25 @@ My email: [mary.kidd@nyu.edu](mailto:mary.kidd@nyu.edu)
 
 [https://digital-archives.github.io/HISTGA1011/](https://digital-archives.github.io/HISTGA1011/)
 
-Please include “HISTGA1011” in the email subject
 
 <!-- presenter notes
-This semester’s syllabus is hosted on Github. Has anyone here used or are you familiar with Github in any way?
 
-Briefly: Github is an online platform that is used to store and version documentation and code. It is also a platform used widely in the digital archives and preservation fields, to keep systems and processing documentation. We will cover what Github is, more, later on in the semester. But for now, you will be using it primarily to access the class syllabus, as well assignments and other documents we will be using for in-class activities.
+This semester’s syllabus is hosted on Github. Has anyone here used or are you familiar with Github?
 
-Syllabus link: https://github.com/kiddmary/HIST-GA-1011-->
+Briefly: Github is an online platform that is used to store and version information. It is also a platform used widely in the digital archives and preservation fields. We will cover what Github is, more, later on in the semester, and see some "real life" examples of digital archiving and preservation repositories. But for now, you will be using it primarily to access the class syllabus, as well assignments and other documents we will be using for in-class activities.
+
+Syllabus link: https://github.com/kiddmary/HIST-GA-1011
+
+-->
 
 ---
 
 # Digital Information Basics
 
-<!-- presenter notes I want to step you through basic concepts to do with what digital information is, and in particular, how it is encoded.
+<!-- presenter notes
+
+I want to step you through basic concepts to do with what digital information is, and in particular, how it is encoded.
+
 -->
 
 ---
@@ -72,6 +80,7 @@ Bertram Lyons, _The Digital Archives Handbook_ (2019)
 <!-- presenter notes
 
 Lyons, Bertram. "Digital Preservation." In The Digital Archives Handbook: A Guide to Creation, Management, and Preservation, edited by Aaron D. Purcell, 3-18. Rowman & Littlefield Publishers, 2019. Accessed September 11, 2023. http://ebookcentral.proquest.com/lib/nyulibrary-ebook/detail.action?docID=5646172, 3.
+
 -->
 
 ---
@@ -82,53 +91,92 @@ A __digital object__ is a complex entity composed of __bitstreams__, necessitati
 
 <!-- presenter notes
 
-Digital objects encapsulate various forms of digital content, such as documents, multimedia, or software, which may require specialized software, hardware, emulation, specialized knowledge, or one or all of these things, to faithfully render and understand, ensuring their long-term accessibility and preservation.
+Let's unpack this definition by thinking a bit about digital objects we encounter through our life and work.
 
 -->
 
 ---
+
 # Question for Class
 
 What are some examples of digital objects that you know of, or have worked with, in your job, or life?
 
-__Question__
-
-<span style="color:#741B47">Can you think of an example from your life or work where meaning is encoded by a sequence of ordered numbers?</span>
+Answer in the [Airtable Form](https://airtable.com/appX8QYrNyTDJDGmg/pag5PKEZC1XAvye3O/form)
 
 ---
+# The Complex Relationship of Digital Objects
+
+**Digital Object**  
+(e.g., document, media, software)  
+↓  
+**Requires**  
+- Software  
+- Hardware  
+- Emulation  
+- Specialized Knowledge  
+↓  
+**Maintains**  
+- Accessibility  
+- Preservation  
+↓  
+**Failure to Maintain**  
+→ Obsolescence, Inaccessibility, Data Loss
+
+<!-- 
+
+Digital objects encapsulate various forms of digital content, such as documents, media, or software.
+
+All digital objects, whether it's a single file, or an entire application, will require specialized software, hardware, emulation, specialized knowledge, or one or all of these things, to faithfully render and understand, ensuring their long-term accessibility and preservation.
+
+-->
+
+---
+
+# Digital Object Encoding
+
+<!-- presenter notes
+
+But what makes this even more complicated is the nature of digital information itself. At its core, all digital objects—whether they’re a document, an image, a video, or a piece of software—are nothing more than binary code. If you looked at their core code, you would see an endless stream of numeric ones and zeros.
+
+To understand or interact with a digital object, we need some kind of intermediary, like software to process it, or hardware to run it. In contrast, think about a physical book or a printed photograph. You can hold them in your hands, see the information, and directly interpret it. The content is immediately accessible without requiring any additional technology.
+
+With digital objects, however, every step—from the file type to the program that opens it—requires something to act as a bridge, translating that binary data into something recognizable, something we can make sense of.
+
+And this dependency on intermediaries presents a risk. What happens when the software that interprets that file becomes obsolete? Or when the hardware is no longer available, because the manufacturing plant that produced it is no longer? Without maintaining these layers, digital objects could easily become lost or unreadable, leaving us with nothing more than a stream of binary code that’s effectively inaccessible.
+
+-->
+
+---
+
+# Question
+
+Can you think of an example from your life or work where you use a sequence of numbers to encode something?
+
+I'll start: A zip code
+
+<!-- presenter notes
 
 Question for the class: Can you think of an example from your life or work where meaning is encoded by numbers in a specific order?
 
-Some examples:
-A United States zip code
-Area code of a telephone number
-DD/MM/YYYY format date
+Other examples:
+- Area code of a telephone number
+- DD/MM/YYYY format date
 
-So, why am I asking you this question? I ask because, in many ways, these sorts of examples – zip codes, telephone numbers, and dates – are akin to how computers encode information into binary. Basically, binary is made up of numbers, in a specific sequence, that represent things in the world.
+These encodings are akin to how computers encode information into binary. Basically, binary is made up of numbers, in a specific sequence, that represent things in the world.
+
+-->
 
 ---
-
-Computers, true to their name, are machines primarily designed to carry out computations. They excel in understanding the language of numbers.
-
-Consider the scenario of text displayed on a screen. Let's take the word "Hi" as an example.
-
-From the user's perspective, what we perceive is a representation of a series of computations executed by our computers, resulting in the presentation of the word "HI" in a format that we can comprehend through our senses. In simple terms, the computer takes numerical data and translates it into arrangements of pixels on the screen, forming the shape of the letters capital H and lowercase i.
-
-Essentially, anything visible on the screen, be it the word "HI," an image, a video, or an MP3 file, is fundamentally encoded using numbers. In computer terminology, we refer to these numerical representations as bits.
-
 
 # Definition: Binary
-—
 
-__Binary__  __ is a base\-2 encoding system that employs:__
+__Binary__ is encodes information using:
+- A "base-2" system and place values
+- The digits 0 and 1, referred to as _bits_
 
-__The digits 0 and 1\, referred to as __  __bits__
+Binary works in a similar way to the familiar __base-10__ decimal system, which also uses digits and place values to represent numbers.
 
-__Place values__
-
-__Binary works in a similar way to the familiar base\-10 decimal system\, which also uses digits and place values to represent numbers\.__
-
----
+<!-- presenter notes
 
 Binary describes an encoding scheme in which there are only two possible values or states for each value, such as 1 or 0. Because there are only two possible values, binary is considered a base-2 system.
 
@@ -136,25 +184,63 @@ Each individual value is referred to as a “bit”. In the case of a binary com
 
 Along with bit values, binary also uses place values to represent real-world values.
 
-Source: https://www.youtube.com/watch?v=N5SU4RW9opc&ab_channel=CodeHS
-https://www.techtarget.com/whatis/definition/binary#:~:text=In%20mathematics%20and%20in%20computing,unit%20(CPU)%20and%20RAM.
+Computers, true to their name, are machines primarily designed to carry out computations. They excel in understanding the language of numbers.
+
+-->
 
 ---
 
-In a base-10 decimal system, we use position to determine a value. So here, we have four individual decimal values, 1, 2, 0 and 0. We know that this represents “1 thousand, two hundred” because the 1 is in the “thousandths” place, which we know to be four positions left from the very right.
+# 0 1 2 3 4 5 6 7 8 9
+
+<!-- presenter notes
+
+If you did not know this already, the numbers that you and I are most familiar with are written in a "base-10" decimal system. The first thing to know about a base-10 system is that it uses 10 digits (0-9) to represent the "base" values.
+
+The second thing to know about a base-10 decimal system is that it uses number placement to represents values that exceed 9.
+
+-->
+
+---
+
+# 10
+
+<!-- presenter notes
+
+Therefore, when we write out a ten, we don't have a "base value" that represents ten. Instead, we move the 1 over left to what is known as the "tenths" place, and combine that with the "0" right next to it, in the "ones" place. Combined, we know these two numbers to represent 10.
+
+-->
+
+---
+
+# 100
+
+<!-- presenter notes
+When we go up one hundred values, we again, bump our 1 over one more place to the left, and so on. Each new "place" represents an increment of 10 "to the power of" the placement designation.
+-->
+
+---
+
+# 1,200
+
+<!-- presenter notes 
+
+In a base-10 decimal system, we use position to determine a value. So here, we have four individual decimal values, 1, 2, 0 and 0. We know that this represents “1 thousand, two hundred” because the 1 is in the “thousandths” place, which we know to be four positions left from the very right. And to sometimes make base-10 numbers more readable, we'll place a convenient comma to group together three places.
 
 Binary works similarly in that we use bits value and their positions to determine their overall value, but it works in a slightly different manner, which we’ll explore in a bit (joke intended!)
 
-# Definition: Byte (1/2)
-—
+-->
 
-__A __  __byte __  __is a discrete\-length grouping of bits\.__
+# Definition: Byte (1/2)
+
+A __byte__ is a discrete-length grouping of bits.
 
 __Example: 00000111__
 
-__This byte represents the decimal number 7\.__
+This byte represents the decimal number 7.
 
----
+A byte's length can determine how many distinct byte values can be represented.
+
+<!-- presenter notes
 
 A byte is a discrete-length grouping of bits. In the slide, we have an example of a byte that consists of 8 bits.
 
@@ -167,21 +253,21 @@ So, how do we get from 00010111 to 7?
 Source: https://www.youtube.com/watch?v=N5SU4RW9opc&ab_channel=CodeHS
 https://www.techtarget.com/whatis/definition/binary#:~:text=In%20mathematics%20and%20in%20computing,unit%20(CPU)%20and%20RAM.
 
-
-__The byte length can determine how many distinct values can be represented\.__
-
-__An 8\-bit system can store up to 256 values\. Why only 256?__
-
-__Each bit represents 1 of 2 values \(1 or 0\)__
-
-__2 raised to the power of 8 possible bit values \(2^8\) =__
-
-__2 \* 2 \* 2 \* 2 \* 2 \* 2 \* 2 \* 2 = 256 possible values__
-
-__A 16\-bit system would be 2^16 = 65\,536\!__
+-->
 
 ---
 
+__00000111__
+
+An 8-bit system can store up to 256 values. Why  256?
+- Each bit represents 1 of 2 values (1 or 0)
+- Since we only have two values, and 8 places to represent values, the total number of values can be determined by "raising" 2 possible bit values to the power of 8 possible bit values (2^8). This looks like:
+
+2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 
+= 
+256 possible values
+
+<!--presenter notes
 I mentioned before than in a base-10 counting system, the length and position encodes value. Binary, similarly, can be interpreted by both length and position.
 
 The position of each digit determines its decimal value. Thus, by understanding the position of each bit, a binary number can be converted into a decimal number.
@@ -191,6 +277,26 @@ An 8-bit byte system means each byte contains 8 bits.
 Each bit represents 1 of 2 values: a 1 or 0.
 
 To calculate how many different combinations of 8 1s and 0s, we raise the number 2 (standing for 2 possible values) to the power of 8 (8 total bits). From this, we get 256 possible values.
+-->
+
+---
+
+# Question: How many possible byte values are there in a __16-bit__ system?
+
+---
+
+# Answer: 65,536
+
+A 16-bit system can be calculated by multiplying the number of possible values (2) by the total number of placements (16), or "two to the power of 16" (2^16). That is:
+
+2 * 2 * 2 * 2 *
+2 * 2 * 2 * 2 *
+2 * 2 * 2 * 2 *
+2 * 2 * 2 * 2
+=
+__65,536__
+
+---
 
 ![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives0.png)
 
@@ -460,6 +566,23 @@ Finally, we add up the weights of all the values. So, 4 + 2 + 1 = decimal 7
 | Number |      72          73 |
 | Binary | 01001000     01001001 |
 | Hardware |  |
+
+---
+
+# HELLO
+
+<!-- presenter notes
+
+Consider the scenario of text displayed on a screen. Let's take the word "Hi" as an example.
+
+From the user's perspective, what we perceive is a representation of a series of computations executed by our computers, resulting in the presentation of the word "HI" in a format that we can comprehend through our senses. In simple terms, the computer takes numerical data and translates it into arrangements of pixels on the screen, forming the shape of the letters capital H and lowercase i.
+
+Essentially, anything visible on the screen, be it the word "HI," an image, a video, or an MP3 file, is fundamentally encoded using numbers. In computer terminology, we refer to these numerical representations as bits.
+
+Source: https://www.youtube.com/watch?v=N5SU4RW9opc&ab_channel=CodeHS
+https://www.techtarget.com/whatis/definition/binary#:~:text=In%20mathematics%20and%20in%20computing,unit%20(CPU)%20and%20RAM.
+
+-->
 
 ---
 
