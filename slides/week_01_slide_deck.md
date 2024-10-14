@@ -259,9 +259,11 @@ Why 256?
 - Each bit represents 1 of 2 values (A base-2 system can only have two possible values: 1 or 0)
 - This byte has a length of 8 values. So, the total number of values can be determined by "raising" 2 possible bit values to the power of 8 possible bit values (2^8). This looks like:
 
+```
 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 
 = 
 256 possible values
+```
 
 <!--presenter notes
 I mentioned before than in a base-10 counting system, the length and position encodes value. Binary, similarly, can be interpreted by both length and position.
@@ -352,7 +354,6 @@ How do we get from 0000 0111 to 7?
 
 | Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
 
 __First question to ask__: How many ones (1) are there?__
 
