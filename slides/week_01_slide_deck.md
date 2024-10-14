@@ -435,22 +435,6 @@ However, the steps we take to interpret a binary number are similar to how we in
 
 For decimals we also read placements from right to left, as we did with the binary example. In this case, the rightmost digit, which is in place 0, represents the “ones” place. It carries a weight of 10^0, which equals 1. So, the digit 7 in the ones place contributes 7 * 1 = 7 to the overall value of the number.
 
--->
-
----
-
-Decimal value: 787
-
-| Digit | 7 | 8 | 7 |
-| :-: | :-: | :-: | :-: |
-| Place | 2 | 1 | 0 |
-| Weight | 10^2 | 10^1 | 10^0 |
-| Value | 100 | 10 | 1 |
-
-7 + 80 + 800 = 787
-
-<!--presenter notes
-
 Moving to the left, the next digit in Place 1 represents the tens place. It carries a weight of 10^1, which equals 10. Therefore, the digit 8 in the tens place contributes 8 * 10 = 80 to the overall value of the number.
 
 Finally, the last digit in place 2 represents the hundreds place. It carries a weight of 10^2, which equals 100. Therefore, the digit 7 in the hundreds place contributes 7 * 100 = 700 to the overall value of the number.
