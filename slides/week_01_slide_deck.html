@@ -124,8 +124,10 @@ Accessibility, Preservation<br />
 <li>Each bit represents 1 of 2 values (A base-2 system can only have two possible values: 1 or 0)</li>
 <li>This byte has a length of 8 values. So, the total number of values can be determined by &quot;raising&quot; 2 possible bit values to the power of 8 possible bit values (2^8). This looks like:</li>
 </ul>
-<h1 id="2--2--2--2--2--2--2--2">2 * 2 * 2 * 2 * 2 * 2 * 2 * 2</h1>
-<p>256 possible values</p>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code>2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 
+= 
+256 possible values
+</code></pre>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="22" data-marpit-fragments="3" lang="en-US">
 <h1 id="question-how-many-possible-byte-values-are-there-in-a-16-bit-system">Question: How many possible byte values are there in a <strong>16-bit</strong> system?</h1>
@@ -155,7 +157,8 @@ Accessibility, Preservation<br />
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="25" lang="en-US">
 <p><img src="img/Week%2001%20-%20Introduction%20to%20Digital%20Archives1.gif" alt="" /></p>
-
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="26" lang="en-US">
 <h1 id="binary---decimal">Binary -&gt; Decimal</h1>
 <table>
 <thead>
@@ -208,10 +211,6 @@ Accessibility, Preservation<br />
 </tbody>
 </table>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="26" lang="en-US">
-<p>Here is a sample list of binary values, corresponding to decimal values, in an 8-bit system. In the right-most column, we have 10 decimals, 0 through 9, and their corresponding binary values. In an 8-bit system, the complete list would show 256 possible values.</p>
-<p>You may have noticed that, there seems to be a pattern in the placement of 1s and 0s for each decimal going up in succession. Bytes are not arbitrarily assigned to decimals: there is a mathematical system behind that make it so, if you take a binary value, you can reverse-engineer it to determine, in a few steps, the decimal value it represents.</p>
-</section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="27" lang="en-US">
 <table>
 <thead>
@@ -246,19 +245,6 @@ How do we get from 0000 0111 to 7?</p>
 <th style="text-align:center">1</th>
 </tr>
 </thead>
-<tbody>
-<tr>
-<td style="text-align:center">Place</td>
-<td style="text-align:center">7</td>
-<td style="text-align:center">6</td>
-<td style="text-align:center">5</td>
-<td style="text-align:center">4</td>
-<td style="text-align:center">3</td>
-<td style="text-align:center">2</td>
-<td style="text-align:center">1</td>
-<td style="text-align:center">0</td>
-</tr>
-</tbody>
 </table>
 <p><strong>First question to ask</strong>: How many ones (1) are there?__</p>
 </section>
@@ -277,19 +263,6 @@ How do we get from 0000 0111 to 7?</p>
 <th style="text-align:center">1</th>
 </tr>
 </thead>
-<tbody>
-<tr>
-<td style="text-align:center">Place</td>
-<td style="text-align:center">7</td>
-<td style="text-align:center">6</td>
-<td style="text-align:center">5</td>
-<td style="text-align:center">4</td>
-<td style="text-align:center">3</td>
-<td style="text-align:center">2</td>
-<td style="text-align:center">1</td>
-<td style="text-align:center">0</td>
-</tr>
-</tbody>
 </table>
 <p><strong>Answer</strong>: 3</p>
 </section>
@@ -353,7 +326,7 @@ How do we get from 0000 0111 to 7?</p>
 </tr>
 </tbody>
 </table>
-<p><strong>Answer:</strong> Positions 0, 1 and 2</p>
+<p><strong>Answer:</strong> 0, 1 and 2</p>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="32" lang="en-US">
 <table>
@@ -395,7 +368,7 @@ How do we get from 0000 0111 to 7?</p>
 </tr>
 </tbody>
 </table>
-<p><strong>Third question to ask</strong>: For each 1 we've found, what is their weight?</p>
+<p><strong>Third question to ask</strong>: For each 1 we've found, what is their <strong>weight</strong>?</p>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="33" lang="en-US">
 <table>
@@ -1049,7 +1022,11 @@ To calculate how many different combinations of 8 1s and 0s, we raise the number
 
 Comparing an 8-bit Nintendo Entertainment System to a 16-bit one side-by-side, you can see some differences. There are more colors, shades, textures, and tones in the right-hand screen. The more information you can encode, the more stuff you can represent on-screen.
 
-it's important to understand that when we are referring to an 8-bit versus a 16-bit system, and how many byte values each can handle, does not mean that an 8-bit system can only handle 256 values max across all aspects of the game, such as sound, colors, etc, or 65,000 max values for a 16-bit system. This actually refers more to how large of a byte the Central Processing Unit, or CPU, can handle. The CPU is considered the “brain” of the computer or gaming console: it executes instructions from the game software, which include operations like processing inputs, updating game logic, rendering graphics, and managing sound. This allows a 16-bit system to handle more complex instructions at any given moment in gameplay.</p></div><div class="bespoke-marp-note" data-index="27" tabindex="0"><p>presenter notes 
+it's important to understand that when we are referring to an 8-bit versus a 16-bit system, and how many byte values each can handle, does not mean that an 8-bit system can only handle 256 values max across all aspects of the game, such as sound, colors, etc, or 65,000 max values for a 16-bit system. This actually refers more to how large of a byte the Central Processing Unit, or CPU, can handle. The CPU is considered the “brain” of the computer or gaming console: it executes instructions from the game software, which include operations like processing inputs, updating game logic, rendering graphics, and managing sound. This allows a 16-bit system to handle more complex instructions at any given moment in gameplay.</p></div><div class="bespoke-marp-note" data-index="25" tabindex="0"><p>presenter notes
+
+Here is a sample list of binary values, corresponding to decimal values, in an 8-bit system. In the right-most column, we have 10 decimals, 0 through 9, and their corresponding binary values. In an 8-bit system, the complete list would show 256 possible values.
+
+You may have noticed that, there seems to be a pattern in the placement of 1s and 0s for each decimal going up in succession. Bytes are not arbitrarily assigned to decimals: there is a mathematical system behind that make it so, if you take a binary value, you can reverse-engineer it to determine, in a few steps, the decimal value it represents.</p></div><div class="bespoke-marp-note" data-index="27" tabindex="0"><p>presenter notes 
 
 Each bit has its own place or position, which is mapped out on the slide. In an 8-bit system, we have 8 possible place values, starting from place 0, up to place 7. Places are read from right to left.</p></div><div class="bespoke-marp-note" data-index="32" tabindex="0"><p>presenter notes
 

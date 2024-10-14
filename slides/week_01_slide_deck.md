@@ -319,6 +319,7 @@ Comparing an 8-bit Nintendo Entertainment System to a 16-bit one side-by-side, y
 it's important to understand that when we are referring to an 8-bit versus a 16-bit system, and how many byte values each can handle, does not mean that an 8-bit system can only handle 256 values max across all aspects of the game, such as sound, colors, etc, or 65,000 max values for a 16-bit system. This actually refers more to how large of a byte the Central Processing Unit, or CPU, can handle. The CPU is considered the “brain” of the computer or gaming console: it executes instructions from the game software, which include operations like processing inputs, updating game logic, rendering graphics, and managing sound. This allows a 16-bit system to handle more complex instructions at any given moment in gameplay.
 
 -->
+---
 
 # Binary -> Decimal
 
@@ -335,11 +336,13 @@ it's important to understand that when we are referring to an 8-bit versus a 16-
 | 0000 1000 | 8 |
 | 0000 1001 | 9 |
 
----
+<!--presenter notes
 
 Here is a sample list of binary values, corresponding to decimal values, in an 8-bit system. In the right-most column, we have 10 decimals, 0 through 9, and their corresponding binary values. In an 8-bit system, the complete list would show 256 possible values.
 
 You may have noticed that, there seems to be a pattern in the placement of 1s and 0s for each decimal going up in succession. Bytes are not arbitrarily assigned to decimals: there is a mathematical system behind that make it so, if you take a binary value, you can reverse-engineer it to determine, in a few steps, the decimal value it represents.
+
+-->
 
 ---
 
@@ -367,7 +370,6 @@ Each bit has its own place or position, which is mapped out on the slide. In an 
 
 | Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
 
 __Answer__: 3
 
@@ -385,7 +387,7 @@ __Second question to ask__: For each 1 we've found, what are their place values?
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
 
-__Answer:__ Positions 0, 1 and 2
+__Answer:__ 0, 1 and 2
 
 ---
 
@@ -394,7 +396,7 @@ __Answer:__ Positions 0, 1 and 2
 | Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
 | Weight | 2^7 | 2^6 | 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0 |
 
-__Third question to ask__: For each 1 we've found, what is their weight?
+__Third question to ask__: For each 1 we've found, what is their __weight__?
 
 ---
 
@@ -445,7 +447,7 @@ Decimal value: 787
 | Weight | 10^2 | 10^1 | 10^0 |
 | Value | 100 | 10 | 1 |
 
-7 \+ 80 \+ 800 = 787
+7 + 80 + 800 = 787
 
 <!--presenter notes
 
