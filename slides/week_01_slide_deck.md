@@ -405,7 +405,7 @@ __Third question to ask__: For each 1 we've found, what is their __weight__?
 | Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
 | Weight | 2^7 | 2^6 | 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0 |
 
-Answer: 4, 2 and 1, which add up to 7
+__Answer__: 4, 2 and 1, which add up to 7
 
 <!-- presenter notes
 
@@ -457,11 +457,10 @@ Decimal value: 7
 | Weight | 2^7 | 2^6 | 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0 |
 | Value | 0 | 0 | 0 | 0 | 0 | 4 | 2 | 1 |
 
-* The bit in position 2 carries a weight of 2^2 or 4. We multiply 4 by 1 to get a total value of 4.
-* The bit in position 1 carries a weight of 2^1 or 2. We multiply by 1 to get a total value of 2.
-* The bit in position 0 carries a weight of 2^0 or 1. We multiply by 1 to get a total value of 1.
-
-Finally, we add up the weights of all the values. So, 4 + 2 + 1 = decimal 7
+- The 1 in Place 2 carries a weight of 2^2 or 4. We multiply 4 by 1 to get a total value of 4.
+- The 1 in Place 1 carries a weight of 2^1 or 2. We multiply by 1 to get a total value of 2.
+- The 1 in position 0 carries a weight of 2^0 or 1. We multiply by 1 to get a total value of 1
+- __Add together all values: 4 + 2 + 1 = 7__
 
 ---
 
