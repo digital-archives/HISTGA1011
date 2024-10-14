@@ -71,20 +71,14 @@
 <p><strong>Digital Object</strong><br />
 (e.g., document, media, software)<br />
 ↓<br />
-<strong>Requires</strong></p>
-<ul>
-<li>Software</li>
-<li>Hardware</li>
-<li>Emulation</li>
-<li>Specialized Knowledge<br />
+<strong>Requires</strong><br />
+Software, Hardware, Emulation, Specialized Knowledge<br />
 ↓<br />
-<strong>Maintains</strong></li>
-<li>Accessibility</li>
-<li>Preservation<br />
+<strong>Maintains</strong><br />
+Accessibility, Preservation<br />
 ↓<br />
 <strong>Failure to Maintain</strong><br />
-→ Obsolescence, Inaccessibility, Data Loss</li>
-</ul>
+→ Obsolescence, Inaccessibility, Data Loss</p>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="13" lang="en-US">
 <h1 id="digital-object-encoding">Digital Object Encoding</h1>
@@ -96,10 +90,10 @@
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="15" lang="en-US">
 <h1 id="definition-binary">Definition: Binary</h1>
-<p><strong>Binary</strong> is encodes information using:</p>
+<p><strong>Binary</strong> encodes information using:</p>
 <ul>
 <li>A &quot;base-2&quot; system and place values</li>
-<li>The digits 0 and 1, referred to as <em>bits</em></li>
+<li>The digits 0 and 1, referred to as <strong>bits</strong></li>
 </ul>
 <p>Binary works in a similar way to the familiar <strong>base-10</strong> decimal system, which also uses digits and place values to represent numbers.</p>
 </section>
@@ -114,46 +108,55 @@
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="19" lang="en-US">
 <h1 id="1200">1,200</h1>
-
-<h1 id="definition-byte-12">Definition: Byte (1/2)</h1>
-<p>A <strong>byte</strong> is a discrete-length grouping of bits.</p>
-<p><strong>Example: 00000111</strong></p>
-<p>This byte represents the decimal number 7.</p>
-<p>A byte's length can determine how many distinct byte values can be represented.</p>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="20" lang="en-US">
+<h1 id="definition-byte">Definition: Byte</h1>
+<p>A <strong>byte</strong> is a discrete-length grouping of bits.</p>
+<p><strong>Example: 00000111</strong></p>
+<p>This byte has a discrete length of 8.</p>
+<p>A byte's length can determine how many distinct byte values can be represented.</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="21" lang="en-US">
 <p><strong>00000111</strong></p>
-<p>An 8-bit system can store up to 256 values. Why  256?</p>
+<p>An 8-bit system can store up to 256 values.</p>
+<p>Why 256?</p>
 <ul>
-<li>Each bit represents 1 of 2 values (1 or 0)</li>
-<li>Since we only have two values, and 8 places to represent values, the total number of values can be determined by &quot;raising&quot; 2 possible bit values to the power of 8 possible bit values (2^8). This looks like:</li>
+<li>Each bit represents 1 of 2 values (A base-2 system can only have two possible values: 1 or 0)</li>
+<li>This byte has a length of 8 values. So, the total number of values can be determined by &quot;raising&quot; 2 possible bit values to the power of 8 possible bit values (2^8). This looks like:</li>
 </ul>
 <h1 id="2--2--2--2--2--2--2--2">2 * 2 * 2 * 2 * 2 * 2 * 2 * 2</h1>
 <p>256 possible values</p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="21" lang="en-US">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="22" data-marpit-fragments="3" lang="en-US">
 <h1 id="question-how-many-possible-byte-values-are-there-in-a-16-bit-system">Question: How many possible byte values are there in a <strong>16-bit</strong> system?</h1>
-</section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="22" lang="en-US">
-<h1 id="answer-65536">Answer: 65,536</h1>
-<p>A 16-bit system can be calculated by multiplying the number of possible values (2) by the total number of placements (16), or &quot;two to the power of 16&quot; (2^16). That is:</p>
-<h1 id="2--2--2--2-2--2--2--2-2--2--2--2-2--2--2--2">2 * 2 * 2 * 2 *<br />
-2 * 2 * 2 * 2 *<br />
-2 * 2 * 2 * 2 *<br />
-2 * 2 * 2 * 2</h1>
-<p><strong>65,536</strong></p>
+<p>Hint:</p>
+<ul>
+<li data-marpit-fragment="1">Number of possible values: 2</li>
+<li data-marpit-fragment="2">Length of byte: 16</li>
+<li data-marpit-fragment="3">Raise 2 to the power of 16 (2^16)</li>
+</ul>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="23" lang="en-US">
-<p><img src="img/Week%2001%20-%20Introduction%20to%20Digital%20Archives0.png" alt="" /></p>
-<p>Example of an 8-bit system: Nintendo Entertainment System (NES) gaming console</p>
+<h1 id="answer-65536">Answer: 65,536</h1>
+<p>A 16-bit system can be calculated by raising the number of possible values (2) to the power of the length of the byte (16), or &quot;two to the power of 16&quot; (2^16). That is:</p>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code>2 * 2 * 2 * 2 *  
+2 * 2 * 2 * 2 *  
+2 * 2 * 2 * 2 *  
+2 * 2 * 2 * 2
+
+=
+
+65,536
+</code></pre>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="24" lang="en-US">
-<p>This is an example of a popular 8-bit system: the Nintendo Entertainment System or NES.</p>
-<p><img src="img/Week%2001%20-%20Introduction%20to%20Digital%20Archives1.gif" alt="" /></p>
+<p><img src="img/Week%2001%20-%20Introduction%20to%20Digital%20Archives0.png" alt="" /></p>
+<p>Example of an 8-bit system: Nintendo Entertainment System (NES) gaming console from the 1980s</p>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="25" lang="en-US">
-<p>Comparing an 8-bit Nintendo Entertainment System to a 16-bit one side-by-side, you can see some differences. There are more colors, shades, textures, and tones in the right-hand screen. The more information you can encode, the more stuff you can represent on-screen.</p>
-<p>it's important to understand that when we are referring to an 8-bit versus a 16-bit system, and how many byte values each can handle, does not mean that an 8-bit system can only handle 256 values max across all aspects of the game, such as sound, colors, etc, or 65,000 max values for a 16-bit system. This actually refers more to how large of a byte the Central Processing Unit, or CPU, can handle. The CPU is considered the “brain” of the computer or gaming console: it executes instructions from the game software, which include operations like processing inputs, updating game logic, rendering graphics, and managing sound. This allows a 16-bit system to handle more complex instructions at any given moment in gameplay.</p>
+<p><img src="img/Week%2001%20-%20Introduction%20to%20Digital%20Archives1.gif" alt="" /></p>
+
+<h1 id="binary---decimal">Binary -&gt; Decimal</h1>
 <table>
 <thead>
 <tr>
@@ -206,28 +209,10 @@
 </table>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="26" lang="en-US">
-<p>Here is a sample list of binary values, corresponding to decimal values, in an 8-bit system. Here, we have 10 decimals, 0 through 9, and their corresponding binary values. In an 8-bit system, the complete list would show 256 possible values.</p>
+<p>Here is a sample list of binary values, corresponding to decimal values, in an 8-bit system. In the right-most column, we have 10 decimals, 0 through 9, and their corresponding binary values. In an 8-bit system, the complete list would show 256 possible values.</p>
 <p>You may have noticed that, there seems to be a pattern in the placement of 1s and 0s for each decimal going up in succession. Bytes are not arbitrarily assigned to decimals: there is a mathematical system behind that make it so, if you take a binary value, you can reverse-engineer it to determine, in a few steps, the decimal value it represents.</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">Bit</th>
-<th style="text-align:center">0</th>
-<th style="text-align:center">0</th>
-<th style="text-align:center">0</th>
-<th style="text-align:center">0</th>
-<th style="text-align:center">0</th>
-<th style="text-align:center">1</th>
-<th style="text-align:center">1</th>
-<th style="text-align:center">1</th>
-</tr>
-</thead>
-</table>
-<p><strong>The bit sequence represents the decimal number 7</strong></p>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="27" lang="en-US">
-<p>To translate bytes into decimals we need to look at two things: the bit values (1s and 0s), and the placement of these values along the byte.</p>
-<p>In the example in the slide, we have decimal number 7, which in an 8-bit system is represented by the byte 0000 0111</p>
 <table>
 <thead>
 <tr>
@@ -242,24 +227,11 @@
 <th style="text-align:center">1</th>
 </tr>
 </thead>
-<tbody>
-<tr>
-<td style="text-align:center">Place</td>
-<td style="text-align:center">7</td>
-<td style="text-align:center">6</td>
-<td style="text-align:center">5</td>
-<td style="text-align:center">4</td>
-<td style="text-align:center">3</td>
-<td style="text-align:center">2</td>
-<td style="text-align:center">1</td>
-<td style="text-align:center">0</td>
-</tr>
-</tbody>
 </table>
-<p><strong>Binary can be interpreted by reading the bit value (1 or 0) and place (0-7).</strong></p>
+<p><strong>This byte represents the decimal number 7</strong><br />
+How do we get from 0000 0111 to 7?</p>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="28" lang="en-US">
-<p>Each bit has its own place or position. In an 8-bit system, we have 8 possible place values, starting from place 0, up to place 7. Places are read from right to left like so (the next 7 slides animate each place value, highlighted in blue, in progression from place 0 to place 7).</p>
 <table>
 <thead>
 <tr>
@@ -288,9 +260,9 @@
 </tr>
 </tbody>
 </table>
+<p><strong>First question to ask</strong>: How many ones (1) are there?__</p>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="29" lang="en-US">
-<p>…and then moving our way left…</p>
 <table>
 <thead>
 <tr>
@@ -319,6 +291,7 @@
 </tr>
 </tbody>
 </table>
+<p><strong>Answer</strong>: 3</p>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="30" lang="en-US">
 <table>
@@ -349,6 +322,7 @@
 </tr>
 </tbody>
 </table>
+<p><strong>Second question to ask</strong>: For each 1 we've found, what are their place values?</p>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="31" lang="en-US">
 <table>
@@ -379,198 +353,9 @@
 </tr>
 </tbody>
 </table>
+<p><strong>Answer:</strong> Positions 0, 1 and 2</p>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="32" lang="en-US">
-<table>
-<thead>
-<tr>
-<th style="text-align:center">Bit</th>
-<th style="text-align:center">0</th>
-<th style="text-align:center">0</th>
-<th style="text-align:center">0</th>
-<th style="text-align:center">0</th>
-<th style="text-align:center">0</th>
-<th style="text-align:center">1</th>
-<th style="text-align:center">1</th>
-<th style="text-align:center">1</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">Place</td>
-<td style="text-align:center">7</td>
-<td style="text-align:center">6</td>
-<td style="text-align:center">5</td>
-<td style="text-align:center">4</td>
-<td style="text-align:center">3</td>
-<td style="text-align:center">2</td>
-<td style="text-align:center">1</td>
-<td style="text-align:center">0</td>
-</tr>
-</tbody>
-</table>
-</section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="33" lang="en-US">
-<table>
-<thead>
-<tr>
-<th style="text-align:center">Bit</th>
-<th style="text-align:center">0</th>
-<th style="text-align:center">0</th>
-<th style="text-align:center">0</th>
-<th style="text-align:center">0</th>
-<th style="text-align:center">0</th>
-<th style="text-align:center">1</th>
-<th style="text-align:center">1</th>
-<th style="text-align:center">1</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">Place</td>
-<td style="text-align:center">7</td>
-<td style="text-align:center">6</td>
-<td style="text-align:center">5</td>
-<td style="text-align:center">4</td>
-<td style="text-align:center">3</td>
-<td style="text-align:center">2</td>
-<td style="text-align:center">1</td>
-<td style="text-align:center">0</td>
-</tr>
-</tbody>
-</table>
-</section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="34" lang="en-US">
-<table>
-<thead>
-<tr>
-<th style="text-align:center">Bit</th>
-<th style="text-align:center">0</th>
-<th style="text-align:center">0</th>
-<th style="text-align:center">0</th>
-<th style="text-align:center">0</th>
-<th style="text-align:center">0</th>
-<th style="text-align:center">1</th>
-<th style="text-align:center">1</th>
-<th style="text-align:center">1</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">Place</td>
-<td style="text-align:center">7</td>
-<td style="text-align:center">6</td>
-<td style="text-align:center">5</td>
-<td style="text-align:center">4</td>
-<td style="text-align:center">3</td>
-<td style="text-align:center">2</td>
-<td style="text-align:center">1</td>
-<td style="text-align:center">0</td>
-</tr>
-</tbody>
-</table>
-</section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="35" lang="en-US">
-<p>…up to place 7.</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">Bit</th>
-<th style="text-align:center">0</th>
-<th style="text-align:center">0</th>
-<th style="text-align:center">0</th>
-<th style="text-align:center">0</th>
-<th style="text-align:center">0</th>
-<th style="text-align:center">1</th>
-<th style="text-align:center">1</th>
-<th style="text-align:center">1</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">Place</td>
-<td style="text-align:center">7</td>
-<td style="text-align:center">6</td>
-<td style="text-align:center">5</td>
-<td style="text-align:center">4</td>
-<td style="text-align:center">3</td>
-<td style="text-align:center">2</td>
-<td style="text-align:center">1</td>
-<td style="text-align:center">0</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Question: How many non-zero bits are there?</strong></p>
-</section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="36" lang="en-US">
-<p>In translating a byte to a decimal value, the first question to ask is “Where are the non-zero bits, i.e., the 1s, and what are their place values?”</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">Bit</th>
-<th style="text-align:center">0</th>
-<th style="text-align:center">0</th>
-<th style="text-align:center">0</th>
-<th style="text-align:center">0</th>
-<th style="text-align:center">0</th>
-<th style="text-align:center">1</th>
-<th style="text-align:center">1</th>
-<th style="text-align:center">1</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">Place</td>
-<td style="text-align:center">7</td>
-<td style="text-align:center">6</td>
-<td style="text-align:center">5</td>
-<td style="text-align:center">4</td>
-<td style="text-align:center">3</td>
-<td style="text-align:center">2</td>
-<td style="text-align:center">1</td>
-<td style="text-align:center">0</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Question: How many non-zero bits are there?</strong></p>
-<p>Answer: 3</p>
-</section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="37" lang="en-US">
-<p>In this case, there are three non-zero bits, highlighted in light pink.</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">Bit</th>
-<th style="text-align:center">0</th>
-<th style="text-align:center">0</th>
-<th style="text-align:center">0</th>
-<th style="text-align:center">0</th>
-<th style="text-align:center">0</th>
-<th style="text-align:center">1</th>
-<th style="text-align:center">1</th>
-<th style="text-align:center">1</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">Place</td>
-<td style="text-align:center">7</td>
-<td style="text-align:center">6</td>
-<td style="text-align:center">5</td>
-<td style="text-align:center">4</td>
-<td style="text-align:center">3</td>
-<td style="text-align:center">2</td>
-<td style="text-align:center">1</td>
-<td style="text-align:center">0</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Question: Of the non-zero bits, what are their place values?</strong></p>
-<p>Answer: 2, 1 and 0</p>
-</section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="38" lang="en-US">
-<p>The next question to ask is: of all the non-zero bits, what are their place values?</p>
-<p>The answer is 2, 1 and 0</p>
 <table>
 <thead>
 <tr>
@@ -610,13 +395,51 @@
 </tr>
 </tbody>
 </table>
-<p>Question: What is the weight of each non-zero value placement?</p>
+<p><strong>Third question to ask</strong>: For each 1 we've found, what is their weight?</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="33" lang="en-US">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Bit</th>
+<th style="text-align:center">0</th>
+<th style="text-align:center">0</th>
+<th style="text-align:center">0</th>
+<th style="text-align:center">0</th>
+<th style="text-align:center">0</th>
+<th style="text-align:center">1</th>
+<th style="text-align:center">1</th>
+<th style="text-align:center">1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Place</td>
+<td style="text-align:center">7</td>
+<td style="text-align:center">6</td>
+<td style="text-align:center">5</td>
+<td style="text-align:center">4</td>
+<td style="text-align:center">3</td>
+<td style="text-align:center">2</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">0</td>
+</tr>
+<tr>
+<td style="text-align:center">Weight</td>
+<td style="text-align:center">2^7</td>
+<td style="text-align:center">2^6</td>
+<td style="text-align:center">2^5</td>
+<td style="text-align:center">2^4</td>
+<td style="text-align:center">2^3</td>
+<td style="text-align:center">2^2</td>
+<td style="text-align:center">2^1</td>
+<td style="text-align:center">2^0</td>
+</tr>
+</tbody>
+</table>
 <p>Answer: 4, 2 and 1, which add up to 7</p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="39" lang="en-US">
-<p>Once we have located our non-zero bits, we must then look to each placement’s “weight”, and multiply the weight by the bit value.</p>
-<p>What do we mean by weight?</p>
-<p>A good example comes from the base-10 decimal system we are most familiar with.</p>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="34" lang="en-US">
 <p>Decimal value: 787</p>
 <table>
 <thead>
@@ -650,10 +473,7 @@
 </table>
 <p>7 + 80 + 800 = 787</p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="40" lang="en-US">
-<p>Translating binary to decimals may seem unfamiliar, which is fine, because we rarely ever have to do this (that’s the job of computers, afterall).</p>
-<p>However, the steps we take to interpret a binary number are similar to how we interpret a decimal number. Let’s take the number 787.</p>
-<p>For decimals we also read placements from right to left, as we did with the binary example. In this case, the rightmost digit, which is in place 0, represents the “ones” place. It carries a weight of 10^0, which equals 1. So, the digit 7 in the ones place contributes 7 * 1 = 7 to the overall value of the number.</p>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="35" data-marpit-fragments="3" lang="en-US">
 <p>Decimal value: 787</p>
 <table>
 <thead>
@@ -686,47 +506,7 @@
 </tbody>
 </table>
 <p>7 + 80 + 800 = 787</p>
-</section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="41" lang="en-US">
-<p>Moving to the left, the next digit in Place 1 represents the tens place. It carries a weight of 10^1, which equals 10. Therefore, the digit 8 in the tens place contributes 8 * 10 = 80 to the overall value of the number.</p>
-<p>Decimal value: 787</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">Digit</th>
-<th style="text-align:center">7</th>
-<th style="text-align:center">8</th>
-<th style="text-align:center">7</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">Place</td>
-<td style="text-align:center">2</td>
-<td style="text-align:center">1</td>
-<td style="text-align:center">0</td>
-</tr>
-<tr>
-<td style="text-align:center">Weight</td>
-<td style="text-align:center">10^2</td>
-<td style="text-align:center">10^1</td>
-<td style="text-align:center">10^0</td>
-</tr>
-<tr>
-<td style="text-align:center">Value</td>
-<td style="text-align:center">700</td>
-<td style="text-align:center">80</td>
-<td style="text-align:center">7</td>
-</tr>
-</tbody>
-</table>
-<p>7 + 80 + 800 = 787</p>
-</section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="42" lang="en-US">
-<p>Finally, the last digit in place 2 represents the hundreds place. It carries a weight of 10^2, which equals 100. Therefore, the digit 7 in the hundreds place contributes 7 * 100 = 700 to the overall value of the number.</p>
-<p>By multiplying each digit by their weight value, we get three numbers: 700, 80 and 7. If we add these three numbers together, we get 787.</p>
-<p>Place value allows us to understand the significance and contribution of each digit within a number based on its position, with each position representing a different power of the base of the number system.</p>
-<p>Let’s return to our binary example.</p>
+
 <p>Decimal value: 7</p>
 <table>
 <thead>
@@ -778,85 +558,196 @@
 </tr>
 </tbody>
 </table>
-</section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="43" lang="en-US">
-<p>Since each placement can only hold up to 2 values, 0 or 1, the weight always starts with base 2, raised to the power of the place number.</p>
-<p>So now we see:<br />
-The bit in position 2 carries a weight of 2^2 or 4. We multiply 4 by 1 to get a total value of 4.<br />
-The bit in position 1 carries a weight of 2^1 or 2. We multiply by 1 to get a total value of 2.<br />
-The bit in position 0 carries a weight of 2^0 or 1. We multiply by 1 to get a total value of 1.</p>
+<ul>
+<li data-marpit-fragment="1">The bit in position 2 carries a weight of 2^2 or 4. We multiply 4 by 1 to get a total value of 4.</li>
+<li data-marpit-fragment="2">The bit in position 1 carries a weight of 2^1 or 2. We multiply by 1 to get a total value of 2.</li>
+<li data-marpit-fragment="3">The bit in position 0 carries a weight of 2^0 or 1. We multiply by 1 to get a total value of 1.</li>
+</ul>
 <p>Finally, we add up the weights of all the values. So, 4 + 2 + 1 = decimal 7</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="36" lang="en-US">
 <table>
 <thead>
 <tr>
-<th style="text-align:center">Sentence</th>
-<th style="text-align:center">HI</th>
+<th style="text-align:center">Word</th>
+<th style="text-align:center">OK</th>
+<th style="text-align:center"></th>
+</tr>
+</thead>
+</table>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="37" lang="en-US">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Word</th>
+<th style="text-align:center">OK</th>
+<th style="text-align:center"></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center">Character</td>
-<td style="text-align:center">H          I</td>
-</tr>
-<tr>
-<td style="text-align:center">Number</td>
-<td style="text-align:center">72          73</td>
-</tr>
-<tr>
-<td style="text-align:center">Binary</td>
-<td style="text-align:center">01001000     01001001</td>
-</tr>
-<tr>
-<td style="text-align:center">Hardware</td>
-<td style="text-align:center"></td>
+<td style="text-align:center">Characters</td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">K</td>
 </tr>
 </tbody>
 </table>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="44" lang="en-US">
-<h1 id="hello">HELLO</h1>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="38" lang="en-US">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Word</th>
+<th style="text-align:center">OK</th>
+<th style="text-align:center"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Characters</td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">K</td>
+</tr>
+<tr>
+<td style="text-align:center">Decimals</td>
+<td style="text-align:center">79</td>
+<td style="text-align:center">75</td>
+</tr>
+</tbody>
+</table>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="45" lang="en-US">
-<p>Let’s go back to our “HI” example, and talk about how we can represent letters using an 8-bit system.</p>
-<p>The word HI, or any word you see on a computer screen, is an abstraction of several layers of interrelated data. In the chart, the left-hand column represents the name of the layer. The right-hand column shows how a computer has encoded the information. This example represents an 8-bit system.<br />
-The first layer is what we see - the word HI, or any sentence, paragraph, or other arrangement of alphanumeric characters presented on the screen.<br />
-HI is composed of two distinct alphanumeric characters H and I.<br />
-Google Slides, the program I used to create the HI slide, has an internal dictionary that assigns human-readable alphanumeric characters a decimal number. This dictionary has assigned the letter H to the decimal number 72, and letter I to the decimal number 73. Note, text is often then turned from a decimal value into what is known as a hexadecimal value. But for now, we’ll keep things simple and just keep it as a decimal value.<br />
-Computers, at their core, understand and speak in bits and bytes. So further, this internal dictionary will have assigned the decimal numbers 72 and 73 to an 8-bit byte, consisting of a specific order of 1s and 0s. So in this case, H equals 72, which is translated to the byte 01001000. I equals 73 which is translated to the byte 01001001.<br />
-These bytes, further, correspond to magnetic encodings made on a storage device somewhere on a physical storage site owned by Google. If I were given a special powers, as well as the address of the exact building with the storage device storing my slide deck down to the sector, I would be able to see that each bit is represented on a physical storage device using electromagnetism. Basically, 1s are written in magnetism in one direction, and 0s are written in magnetism in the opposite direction. I’ve represented that in the slide using dark rectangles to represents 1s, and spaces to represent 0s.</p>
-<p>Know that everything you experience as a user of any sort of digital application, whether a text document, an image, a video, a website, can be broken down to decimal numbers, which correspond to binary, and further, physical impressions made on some sort of storage device.</p>
-<p>Sources:<br />
-<a href="https://www.youtube.com/watch?v=N5SU4RW9opc&amp;ab_channel=CodeHS">https://www.youtube.com/watch?v=N5SU4RW9opc&amp;ab_channel=CodeHS</a><br />
-<a href="https://www.techtarget.com/whatis/definition/binary#:~:text=In%20mathematics%20and%20in%20computing,unit%20(CPU)%20and%20RAM">https://www.techtarget.com/whatis/definition/binary#:~:text=In mathematics and in computing,unit (CPU) and RAM</a>.</p>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="39" lang="en-US">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Word</th>
+<th style="text-align:center">OK</th>
+<th style="text-align:center"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Characters</td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">K</td>
+</tr>
+<tr>
+<td style="text-align:center">Decimals</td>
+<td style="text-align:center">79</td>
+<td style="text-align:center">75</td>
+</tr>
+<tr>
+<td style="text-align:center">Hexadecimals</td>
+<td style="text-align:center">4F</td>
+<td style="text-align:center">4B</td>
+</tr>
+</tbody>
+</table>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="40" lang="en-US">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Word</th>
+<th style="text-align:center">OK</th>
+<th style="text-align:center"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Characters</td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">K</td>
+</tr>
+<tr>
+<td style="text-align:center">Decimals</td>
+<td style="text-align:center">79</td>
+<td style="text-align:center">75</td>
+</tr>
+<tr>
+<td style="text-align:center">Hexadecimals</td>
+<td style="text-align:center">4F</td>
+<td style="text-align:center">4B</td>
+</tr>
+<tr>
+<td style="text-align:center">Byte (Binary)</td>
+<td style="text-align:center">01001111</td>
+<td style="text-align:center">01001011</td>
+</tr>
+</tbody>
+</table>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="41" lang="en-US">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Word</th>
+<th style="text-align:center">OK</th>
+<th style="text-align:center"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Characters</td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">K</td>
+</tr>
+<tr>
+<td style="text-align:center">Decimals</td>
+<td style="text-align:center">79</td>
+<td style="text-align:center">75</td>
+</tr>
+<tr>
+<td style="text-align:center">Hexadecimals</td>
+<td style="text-align:center">4F</td>
+<td style="text-align:center">4B</td>
+</tr>
+<tr>
+<td style="text-align:center">Byte (Binary)</td>
+<td style="text-align:center">01001111</td>
+<td style="text-align:center">01001011</td>
+</tr>
+<tr>
+<td style="text-align:center">Hardware (On/Off Signals)</td>
+<td style="text-align:center">■ □ □ □ ■ ■ ■ ■</td>
+<td style="text-align:center">■ □ □ □ ■ □ ■ ■</td>
+</tr>
+</tbody>
+</table>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="42" lang="en-US">
+<h1 id="break">Break</h1>
 <p><img src="img/Week%2001%20-%20Introduction%20to%20Digital%20Archives2.gif" alt="" /></p>
-<p><span style="color:#274E13"> <strong>A Brief History of Digital Preservation and Archiving</strong> </span></p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="46" lang="en-US">
-<p>Much of this timeline is influenced by Digital Preservation Management’s Timeline of Digital Technology and Preservation (<a href="https://www.dpworkshop.org/dpm-eng/timeline/timeline.html">https://www.dpworkshop.org/dpm-eng/timeline/timeline.html</a>).</p>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="43" lang="en-US">
+<h1 id="a-brief-history-of-digital-preservation-and-archiving">A Brief History of Digital Preservation and Archiving</h1>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="44" lang="en-US">
 <p><img src="img/Week%2001%20-%20Introduction%20to%20Digital%20Archives3.jpg" alt="" /></p>
 <p><span style="color:#FFFFFF">Physical holes punched into a piece of paper told machines what to do.</span></p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="47" lang="en-US">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="45" lang="en-US">
 <p><a href="https://www.dpworkshop.org/dpm-eng/timeline/timeline.html">https://www.dpworkshop.org/dpm-eng/timeline/timeline.html</a></p>
 <p>Here, we are looking at a piece of physical paper containing an array of numbers. The paper is punched through with holes that correspond to what are essentially bits and bytes of information. Punch cards like this were used throughout numerous industries. Some of the earliest examples were punch cards that were used throughout the textile industry. Punch cards were encoded with information that corresponded to various warping and wefting. At its core, each hole in the card corresponds to a number, which the machine interprets into a pattern.</p>
 <p><a href="https://meridian.allenpress.com/american-archivist/article/58/2/182/23633/Punch-Card-Records-Precursors-of-Electronic">https://meridian.allenpress.com/american-archivist/article/58/2/182/23633/Punch-Card-Records-Precursors-of-Electronic</a></p>
 <p><img src="img/Week%2001%20-%20Introduction%20to%20Digital%20Archives4.png" alt="" /></p>
 <p><span style="color:#FFFFFF">US National Archives mentions punch cards as part of the historic record.</span></p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="48" lang="en-US">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="46" lang="en-US">
 <p>Source: <a href="https://meridian.allenpress.com/american-archivist/article/58/2/182/23633/Punch-Card-Records-Precursors-of-Electronic">https://meridian.allenpress.com/american-archivist/article/58/2/182/23633/Punch-Card-Records-Precursors-of-Electronic</a></p>
 <p>Punch cards were used in the late 19th century for census tabulation. Punch cards would, in fact, be used well into the mid-20th century, and incorporated into how some of the earliest computers read and interpreted information.</p>
 <p>Punch cards were recognized as carriers of information, and in the 1939 Records Disposition Act, punch cards were listed as a type of record eligible for preservation. The slide shows an excerpt from this Act, that lists punch cards alongside other record types such as sound recordings, papers, correspondence and others.</p>
 <p><img src="img/Week%2001%20-%20Introduction%20to%20Digital%20Archives5.jpg" alt="" /></p>
 <p><span style="color:#FFFFFF">Construction of the 30-ton ENIAC, one of the first electronic computers. </span></p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="49" lang="en-US">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="47" lang="en-US">
 <p>In 1940, we start to see the development of programmable computers. In the slide above we are looking at the Electronic Numerical Integrator and Computer, aka ENIAC, developed by the United States Army, and housed in Philadelphia, Pennsylvania. In the foreground of the photo is Betty Holberton, an American computer scientist who was one of the six original programmers of the ENIAC. The 1940s heralded the development of computing machines.</p>
 <p>Take note of the plug boards you see in the photo on the left. These plug boards are how computations were programmed into the computer. They work in an essentially similar manner to punch cards; instead of holes in paper, you had cables going into boards that corresponded to numbers that the ENIAC could interpret into computations.</p>
 <p><img src="img/Week%2001%20-%20Introduction%20to%20Digital%20Archives6.jpg" alt="" /></p>
 <p><span style="color:#FFFFFF">Magnetic core memory technology developed to encode binary data using magnetization.</span></p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="50" lang="en-US">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="48" lang="en-US">
 <p>Image source: Konstantin Lanzet - received per EMail Camera: Canon EOS 400D<br />
 Core Memory Module – A 32 x 32 core memory plane storing 1024 bits (or 128 bytes) of data. The small black rings at the intersections of the grid wires, organized in four squares, are the ferrite cores.</p>
 <p>CC BY-SA 3.0<br />
@@ -867,14 +758,14 @@ Created: 14 June 2009</p>
 <p>The image you see in the slide shows a 32 x 32 core memory plane storing 1024 bits (or 128 bytes) of data. The small black rings at the intersections of the grid wires, organised in four squares, are the ferrite cores. This so-called “core memory” is one of the first instances of using magnetism to store data. We will see magnetism crop up again with the advent of hard disk drive and recording media later on.</p>
 <p><span style="color:#FFFFFF">1950 Federal Records Act passed, which includes a definition of the record as including “machine-readable materials.”</span></p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="51" lang="en-US">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="49" lang="en-US">
 <p>Computer technology became more compact and faster over the decades. In 1950, the Federal Records Act was passed, providing a legal framework for federal records management. The Act specifically cites “machine-readable materials” as part of the definition of the record, which is the first time we see machine-stored information cited at this level.</p>
 <p>The act has since been amended to meet modern circumstances. Most notably and recently the Presidential and Federal Records Act Amendments of 2014 was signed into law by President Obama, modernizing the Federal Records Act by expressly expanding the definition of federal records to include electronic records, which was the first change to the definition of &quot;Federal record&quot; since its initial enactment.</p>
 <p>More background on the motivation for this Act being passed can be found in a 1953 American Archivist article: <a href="https://www.jstor.org/stable/40289125">https://www.jstor.org/stable/40289125</a></p>
 <p><img src="img/Week%2001%20-%20Introduction%20to%20Digital%20Archives7.jpg" alt="" /></p>
 <p><span style="color:#FFFFFF">IBM introduces first commercial secondary storage computer, RAMAC, that weighed a ton and required forklifts to move. IBM touted its ability to “store the equivalent of 64,000 </span>  <span style="color:#FFFFFF"><a href="https://en.wikipedia.org/wiki/Punched_card">punched cards”), the modern equivalent of 1 MB.</a></span></p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="52" lang="en-US">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="50" lang="en-US">
 <p>The 1950s saw an explosion of computing and storage device technologies. The RAMAC machine you see pictured above -- RAMAC stands for “Random Access Method of Accounting and Control” -- was used in the accounting industry. The RAMAC was the first commercial computer to store memory using a moving-head hard disk drive, or HDD.</p>
 <p>Source: <a href="https://cs.stanford.edu/people/nick/how-hard-drive-works/">https://cs.stanford.edu/people/nick/how-hard-drive-works/</a><br />
 A hard disk drive works in a similar manner to the magnetic core memory example we just covered. Basically, a spinning plate is coated in a thin magnetic-field sensitive substrate. A magnetized head runs over the plate, magnetizing or “writing” into the substrate one of two directions: Magnetic North or South. Each direction corresponds to (you probably guessed it) a 1 or 0. To access this stored information, the head runs over the spinning plate again and instead or writing, “reads” the pattern of magnetized norths and souths.</p>
@@ -882,13 +773,13 @@ A hard disk drive works in a similar manner to the magnetic core memory example 
 <p><img src="img/Week%2001%20-%20Introduction%20to%20Digital%20Archives8.png" alt="" /></p>
 <p><strong>MARC</strong>  (MAchine Readable Catalog) records  <span style="color:#FFFFFF">become</span>  the US standard for library cataloging.</p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="53" lang="en-US">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="51" lang="en-US">
 <p>The 1960s saw the development of smaller and smaller computers. In the library field, Machine Readable Catalog records, or MARC, becomes the US standard for library cataloging.</p>
 <p><a href="https://www.dlib.org/dlib/may15/papadakis/05papadakis.print.html">https://www.dlib.org/dlib/may15/papadakis/05papadakis.print.html</a></p>
 <p>The first ARPANET node is installed at UCLA Network Measurement Center.</p>
 <p><img src="img/Week%2001%20-%20Introduction%20to%20Digital%20Archives9.png" alt="" /></p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="54" lang="en-US">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="52" lang="en-US">
 <p>1 min</p>
 <p>Image source:<br />
 CC BY-SA 4.0<br />
@@ -901,7 +792,7 @@ Created: 4 January 2022</p>
 <p><span style="color:#FFFFFF">The Kurzweil Reading Machine combines omni-font OCR, flat-bed scanners, and text-to-speech synthesis to create the first print-to-speech reading machine for the blind.</span></p>
 <p><span style="color:#FFFFFF"> __Ohio College Library Center (OCLC) established __ </span>  <span style="color:#FFFFFF">to provide a public cataloging network.</span></p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="55" lang="en-US">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="53" lang="en-US">
 <p>3 minutes</p>
 <p>The 1970s saw an explosion of computing and networking technology, so I’ve cherry-picked some highlights from this decade. The first being in 1971, the establishing of the Ohio College Library Center or OCLC, which was a shared cataloging system for libraries.</p>
 <p>In 1974 we see the development of the Kurzweil Reading Machine, which used scanners to turn text into speech. This is considered the first practical application of optical character recognition or OCR technology. To me, it represents an important shift in how society uses technology. Leading up to this, computers are primarily used to support industries or war efforts. Here, we are seeing assistive technologies break down accessibility barriers to information and knowledge.</p>
@@ -913,7 +804,7 @@ Created: 4 January 2022</p>
 <p><span style="color:#FFFFFF">The National Information Systems Task Force (NISTF) develops the first two formally recognized archival description standards in the US: NISTF Data Elements Dictionary and USMARC AMC.</span></p>
 <p><span style="color:#FFFFFF">Sony introduces the first 3½&quot; floppy drives and diskettes.</span></p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="56" lang="en-US">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="54" lang="en-US">
 <p>3 minutes</p>
 <p>In 1981 Sony introduced the first 3½” floppy drives and diskettes. Although other floppy disks were released earlier than this, the 3½ disk format was used widely and was very popular carrier.</p>
 <p>In 1982 the National Information Systems Task Force (NISTF) developed the first two formally recognized archival description standards in the United States: NISTF Data Elements Dictionary and USMARC AMC. These efforts were used to both standardize the description of archives in order to better exchange or share information across networked catalogs.</p>
@@ -922,7 +813,7 @@ Created: 4 January 2022</p>
 <p>See: <a href="https://www.jstor.org/stable/40293774">https://www.jstor.org/stable/40293774</a> and <a href="https://law.justia.com/cases/federal/district-courts/FSupp/821/761/1510466/">https://law.justia.com/cases/federal/district-courts/FSupp/821/761/1510466/</a></p>
 <p><strong>In December 1994, the Research Libraries Group (RLG) and Commission on Preservation and Access (CPA) formed a Task Force on __  <strong>Archiving of Digital Information</strong>  __ with the main purpose of investigating what needed to be done to ensure long-term preservation and continued access to the digital records.</strong></p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="57" lang="en-US">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="55" lang="en-US">
 <p>1 minute</p>
 <p>In 1994, the Research Libraries Group and Commission on Preservation and Access (CPA) formed a Task Force on Archiving of Digital Information with the main purpose of investigating what needed to be done to ensure long-term preservation and continued access to digital records.</p>
 <p>This report specifically calls out the fact the threat of digital technologies in light of the fact that digital technologies were becoming the standard for recording the cultural memory. In the Task Force report, they call out a specific instance in 1976 where the National Archives realized data from the 1960 Census files resided on tapes that the Bureau could read only with a specific and long-obsolete drive. This required the Census Bureau to migrate this data onto industry-standard tapes.</p>
@@ -936,7 +827,7 @@ Created: 4 January 2022</p>
 <p><span style="color:#5E5E5E">This schema attempts to universalize how electronic resources are described on the web.</span></p>
 <p><span style="color:#5E5E5E">Millions of late 19th-century journals/monographs digitized, resulting in ~15,000 digital objects made available online.</span></p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="58" lang="en-US">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="56" lang="en-US">
 <p>3 minutes</p>
 <p>Several key events occurred in 1995 laying down the foundation for digital preservation efforts going forward.</p>
 <p>Here, we see several digital preservation and archives efforts underway: the National Digital Library Program (NDLP) was established at the Library of Congress with the goal of “assembling a digital library of reproductions of primary source materials to support the study of history and culture in the United States.” Source: <a href="https://memory.loc.gov/ammem/dli2/html/lcndlp.html">https://memory.loc.gov/ammem/dli2/html/lcndlp.html</a></p>
@@ -947,7 +838,7 @@ Created: 4 January 2022</p>
 <p><span style="color:#FFFFFF">The non-profit </span>  <span style="color:#FFFFFF"> <em>Internet Archive</em> </span>  <span style="color:#FFFFFF"> (archive.org) was established “as a response to a rapidly growing problem—the disappearance of content from the World Wide Web.”</span></p>
 <p><a href="https://ia800503.us.archive.org/34/items/internetarchive-encyclis/EncycLisInternetArchive.pdf">Rackley, Marilyn (2010) 'Internet Archive', Encyclopedia of Library and Information Sciences, Third Edition, 1: 1, 2966 — 2976</a></p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="59" lang="en-US">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="57" lang="en-US">
 <p>1 min</p>
 <p>Moving on to 1996, we see the establishment of the non-profit Internet Archive, which was “a response to a rapidly growing problem--the disappearance of content from the World Wide Web.”</p>
 <p>Source: Rackley, Marilyn (2010) 'Internet Archive', Encyclopedia of Library and Information Sciences, Third Edition, 1: 1, 2966 — 2976</p>
@@ -960,27 +851,27 @@ Created: 4 January 2022</p>
 <p><strong>&lt;/pubDate&gt;</strong></p>
 <p><strong>&lt;/item&gt;</strong></p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="60" lang="en-US">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="58" lang="en-US">
 <p>2 min</p>
 <p>In 1998, the first version of EXtensible Markup Language (XML) is released by the World Wide Web Consortium. XML enables internet-networked machines to “talk” to one another. Similar to the development of Dublin Core, XML allows better sharing of archival electronic resources on the web.</p>
 <p>Source: <a href="http://www.dlib.org/dlib/february05/vannispen/02vannispen.html">http://www.dlib.org/dlib/february05/vannispen/02vannispen.html</a></p>
 <p><img src="img/Week%2001%20-%20Introduction%20to%20Digital%20Archives10.jpg" alt="" /></p>
 <h1 id="encoded-archival-description-ead-version-10-is-released-and-is-xml-compliant">Encoded Archival Description (EAD) version 1.0 is released and is XML-compliant.</h1>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="61" lang="en-US">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="59" lang="en-US">
 <p>1 min</p>
 <p>Encoded Archival Description (EAD) originated at the 1993 Society of American Archivists annual meeting in New Orleans and was headed by Daniel Pitti at the University of California, Berkeley. The project's goal was to create a data standard for describing archives, similar to the MARC standards for describing bibliographic materials. The initial EAD Version 1.0 was released in the fall of 1998. Such a standard enables archives, museums, libraries, and manuscript repositories to list and describe their holdings in a manner that would be machine-readable and therefore easy to search, maintain and exchange. EAD was released as XML-compliant, meaning, you could write a machine-readable EAD using XML and express hierarchical relationships between various finding aid components. This is an important digital archives development. Before this, finding aids were generally either made available to patrons as paper or Word documents, and MARC records were too flat to be able to encode these complex hierarchies.</p>
 <p><strong>Making of America II (MOA2) Project</strong></p>
 <p><strong>Developed standards for creating and encoding digital representations of archival objects.</strong></p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="62" lang="en-US">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="60" lang="en-US">
 <p>2 min</p>
 <p>Source: <a href="https://www.clir.org/wp-content/uploads/sites/6/pub87.pdf">https://www.clir.org/wp-content/uploads/sites/6/pub87.pdf</a></p>
 <p>Funded by the DLF, the Making of America II (MOA2) Project served as a testbed for establishing archival standards around digital object description, access, and tools. The project’s final report states that these efforts were important “...to develop standards for creating and encoding digital representations of archival objects (for example, a digitized photograph or a digital representation of a book or diary)”. Further, the report states, that “If tools are to be developed that work with digitized archival objects across distributed repositories, these objects will require some form of standardization”.</p>
 <p>The report put forth a recommendation for what it referred to as Standard Generalized Markup Language (SGML) that served as the basis for the Metadata Encoding and Transmission Standard (METS) standard widely used across digital repositories today. Additionally, the project put forth object modeling frameworks, which result in being able to produce complex digital objects (e.g. a book = one object made up of many image files)</p>
 <p><span style="color:#FFFFFF"> <strong>National Digital Information Infrastructure and Preservation Program (NDIIPP)</strong> </span>  <span style="color:#FFFFFF"> established by the Library of Congress. This leads to the development of programs such as </span>  <span style="color:#FFFFFF"> <strong>Lots of Copies Keep Stuff Safe</strong> </span>  <span style="color:#FFFFFF"> (LOCKSS).</span></p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="63" lang="en-US">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="61" lang="en-US">
 <p>1 min</p>
 <p>We’ve made it to the 2000s!</p>
 <p>In 2000, the National Digital Information Infrastructure and Preservation Program (NDIIPP) was given 100 million dollars by Congress. Led by the Library of Congress, its objective was to archive and provide access to digital resources, convene working groups, administer grant projects, and promote information about digital preservation issues.</p>
@@ -988,47 +879,47 @@ Created: 4 January 2022</p>
 <p><img src="img/Week%2001%20-%20Introduction%20to%20Digital%20Archives11.png" alt="" /></p>
 <p><span style="color:#FFFFFF"> <strong>Northeast</strong> </span>  __ __  <span style="color:#FFFFFF"> __Document Conservation Center (NEDCC) __ </span>  <span style="color:#FFFFFF">publishes its </span>  <span style="color:#FFFFFF"> <strong>Handbook for Digital Projects</strong> </span></p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="64" lang="en-US">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="62" lang="en-US">
 <p>1 min</p>
 <p>The first edition of the Northeast Document Conservation Center (NEDCC)’s Handbook for Digital Projects is published, outlining how to build out digitization projects including prioritization, workflows, tools, planning, rights, preservation and access. Keep this document in mind: it may be useful to you for your final digital preservation plan project. The handbook is specific to flat/2-d scanning to create digital image-based derivatives.</p>
 <p><a href="https://www.erecordsusa.com/book-archival-services.html">https://www.erecordsusa.com/book-archival-services.html</a></p>
 <p><img src="img/Week%2001%20-%20Introduction%20to%20Digital%20Archives12.png" alt="" /></p>
 <p><span style="color:#FFFFFF">Internet Archive’s </span>  <span style="color:#FFFFFF"> <em>Wayback Machine</em> </span>  <span style="color:#FFFFFF"> provides public access to archived versions of the websites it has been crawling since 1996.</span></p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="65" lang="en-US">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="63" lang="en-US">
 <p>1 min</p>
 <p>The Internet Archive releases the The Wayback Machine, which had been “crawling” websites since 1996, releases a portal through which users can search for, view and click through captures of websites over their lifetimes. The screen capture you see above is Lycos, one of the earliest search engines, from December 12, 1998.</p>
 <p><img src="img/Week%2001%20-%20Introduction%20to%20Digital%20Archives13.png" alt="" /></p>
 <p>__International Standards Organization (ISO) formally adopts the __  __Open Archives Information System (OAIS) __  __as the standard model for creating and maintaining a digital repository over time. __</p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="66" lang="en-US">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="64" lang="en-US">
 <p>1 min</p>
 <p>In 2002, the International Standards Organization (ISO) formally adopts the Open Archives Information System (OAIS) as the standard model for creating and maintaining a digital repository over time. We will be reading and discussing the OAIS in next week’s class, so we won’t really say much here about it, other than the OAIS is now seen as the “gold standard” of digital repository frameworks.</p>
 <p>Source: <a href="https://www.researchgate.net/figure/OAIS-Functional-Entities-from-Reference-Model-for-an-Open-Archival-Information-System_fig2_272494377">https://www.researchgate.net/figure/OAIS-Functional-Entities-from-Reference-Model-for-an-Open-Archival-Information-System_fig2_272494377</a></p>
 <p><img src="img/Week%2001%20-%20Introduction%20to%20Digital%20Archives14.png" alt="" /></p>
 <p><span style="color:#FFFFFF"> <strong>PRONOM</strong> </span>  <span style="color:#FFFFFF">, an online registry of file formats and software products, is developed by the Digital Preservation Department of the UK National Archives.</span></p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="67" lang="en-US">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="65" lang="en-US">
 <p>1 min</p>
 <p>In 2002, PRONOM, an online registry of file formats and software products, is developed by the Digital Preservation Department of the UK National Archives. The tool supports both identifying the technical metadata associated with various file formats, and if you happen to come across a new file format that is not in its registry, you can register one yourself. The screen capture you see in the slide was derived from a 2019 blog post (<a href="https://openpreservation.org/blogs/using-siegfried-tooling-for-signature-development-for-pronom2019/">https://openpreservation.org/blogs/using-siegfried-tooling-for-signature-development-for-pronom2019/</a>), whose author gives an example of filling out a fake file format which he has dubbed the “Cafe” file format into the registry by filling out a form.</p>
 <p>Source: <a href="https://www.nationalarchives.gov.uk/PRONOM/Default.aspx">https://www.nationalarchives.gov.uk/PRONOM/Default.aspx</a></p>
 <p><img src="img/Week%2001%20-%20Introduction%20to%20Digital%20Archives15.png" alt="" /></p>
 <p><span style="color:#FFFFFF"> <em>Google Books</em> </span>  <span style="color:#FFFFFF"> project launches to digitize and make available the holdings of large research institutions online. The project is essentially shuttered in 2017 after decades-long legal battles.</span></p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="68" lang="en-US">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="66" lang="en-US">
 <p>1 min</p>
 <p>In 2002, Google Books project launches to digitize and make available the holdings of large research institutions online. A pilot, spearheaded by Google and Harvard was launched in 2004. Starting in 2005 through to 2013, the Authors’ Guild and others sued Google over copyright infringement. By 2013, the service surpassed 25 million books digitized. Then in 2017, the project basically was shut down by Google after fighting decades-long long legal battles. Seemingly well-meaning mass digitization projects will become a theme through the 2000s.</p>
 <p><img src="img/Week%2001%20-%20Introduction%20to%20Digital%20Archives16.png" alt="" /></p>
 <p><span style="color:#FFFFFF">RLG, OCLC and NARA joint task force establishes the </span>  <em>Trustworthy Repositories Audit &amp; Certification</em>  (TRAC) metric.</p>
 <p><span style="color:#FFFFFF">Image credit: Illustration by Jørgen Stamp digitalbevaring.dk CC BY 2.5 Denmark</span></p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="69" lang="en-US">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="67" lang="en-US">
 <p>30 seconds</p>
 <p>In 2003, a RLG, OCLC and NARA joint task force established the Trustworthy Repositories Audit &amp; Certification (TRAC) metric. This metric provides a framework through which an institution may be deemed a so-called “trustworthy” digital repository. You should know that there are only a handful of collecting institutions that can actually say they are TRAC certified. Getting certified is a lengthy and expensive process.</p>
 <p><span style="color:#FFFFFF"> <strong>PREMIS</strong> </span>   <span style="color:#FFFFFF">(PREservation Metadata Implementation Strategies) version 1.0 data dictionary is released as the framework for metadata on preservation activities.</span></p>
 <p><img src="img/Week%2001%20-%20Introduction%20to%20Digital%20Archives17.png" alt="" /></p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="70" lang="en-US">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="68" lang="en-US">
 <p>1 min</p>
 <p>In 2005, the first version of the PREservation Metadata Implementation Strategies (PREMIS) metadata schema is released. This framework is a type of metadata that describes the sorts of preservation activities or actions have occurred through the course of a digital object’s life in a repository. We will discuss PREMIS and also have a hands-on workshop, where we will take a peek into what PREMIS metadata looks like, in a few week’s time. You should know that PREMIS is most usually encoded into XML.</p>
 <p>Source (for information and screen capture): <a href="https://www.loc.gov/standards/premis/understanding-premis.pdf">https://www.loc.gov/standards/premis/understanding-premis.pdf</a></p>
@@ -1040,7 +931,7 @@ Created: 4 January 2022</p>
 <p><span style="color:#00FFFF">Hopkinsville,_Kentucky</span></p>
 <p><span style="color:#00FFFF"><a href="https://schema">https://schema</a>.org/birthPlace</span></p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="71" lang="en-US">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="69" lang="en-US">
 <p>1 min</p>
 <p>In 2006, the term linked data is coined by Tim Berners-Lee, inventor of the World Wide Web.</p>
 <p>Linked data is a way to structure and share information, using links or URLS.</p>
@@ -1049,35 +940,35 @@ Created: 4 January 2022</p>
 <p><img src="img/Week%2001%20-%20Introduction%20to%20Digital%20Archives18.png" alt="" /></p>
 <p><span style="color:#FFFFFF"> <strong>ePADD</strong> </span>   <span style="color:#FFFFFF">begins initial work to establish a software for archiving email.</span></p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="72" lang="en-US">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="70" lang="en-US">
 <p>30 seconds</p>
 <p>In 2010, Stanford University begins work to establish ePADD, a software tool that allows archivists to better automate processing and making accessible email archives.</p>
 <p><a href="https://library.stanford.edu/projects/epadd">https://library.stanford.edu/projects/epadd</a></p>
 <p><img src="img/Week%2001%20-%20Introduction%20to%20Digital%20Archives19.png" alt="" /></p>
 <p><span style="color:#FFFFFF">The joint-led </span>  <span style="color:#FFFFFF"> __BitCurator Project __ </span>  <span style="color:#FFFFFF">begins, to develop a software application that can perform various digital forensics activities.</span></p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="73" lang="en-US">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="71" lang="en-US">
 <p>1 min</p>
 <p>In 2011, the School of Information and Library Science at the University of North Carolina, Chapel Hill (SILS) and the Maryland Institute for Technology in the Humanities (MITH) began joint work developing a software application to support archival digital forensics activities known as Bitcurator.</p>
 <p>Bitcurator it addressed two fundamental needs for collecting institutions absent from software designed for the digital forensics industry: incorporation into the workflow of archives/library ingest and collection management environments, and provision of public access to the data. We will use BitCurator as part of an in-class activity in a few weeks time, so you will get some hands-on experience performing digital forensics.</p>
 <p><img src="img/Week%2001%20-%20Introduction%20to%20Digital%20Archives20.png" alt="" /></p>
 <p><span style="color:#FFFFFF"> <em>The Digital Preservation Network (DPN)</em> </span>  <span style="color:#FFFFFF"> is founded as a collaborative use of technology, expertise, and financial resources to create a robust and enduring digital preservation service. It sunsets in 2018.</span></p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="74" lang="en-US">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="72" lang="en-US">
 <p>1 min</p>
 <p><a href="https://commons.wikimedia.org/wiki/File:What_is_Digital_Preservation.png">https://commons.wikimedia.org/wiki/File:What_is_Digital_Preservation.png</a></p>
 <p>The Digital Preservation Network (DPN) is founded as a collaborative use of technology, expertise, and financial resources to create a robust and enduring digital preservation service. It sunsets in 2018. This is a really interesting case in failing at establishing a networked, national digital preservation network. The way it worked is that institutions would pay a yearly subscription to opt into the DPN technology network and submit their holdings to be stored and shared. There is more written about the ins and outs of why this program failed, but I think even in its failure it has given people in the field a better understanding of institutional limitations in regards to implementing digital preservation in general.</p>
 <p><img src="img/Week%2001%20-%20Introduction%20to%20Digital%20Archives21.png" alt="" /></p>
 <p><span style="color:#FFFFFF"> <em>Digital Public Library of America</em> </span>  <span style="color:#FFFFFF"> (DPLA), the US’s aggregator, is founded as a project aimed at providing public access to digital holdings in order to create a large-scale public digital library</span> .</p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="75" lang="en-US">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="73" lang="en-US">
 <p>1 min</p>
 <p>The Digital Public Library of America, or DPLA, was established in 2012. The DPLA sought to aggregate and curate special collections through a centralized website. Similar to DPN, the DPLA faced its own struggle in terms of strategic direction for the program and funding. It, too, also had a membership pay-to-play model. Again, there’s more to be said here about failures in national-level digital preservation efforts like this. Your takeaway should be that sometimes digital preservation programs fail, but through failure there are lessons to be learned in terms of funding and business models, and working on digital preservation at such a large scale. Digital preservation is complicated and takes incredible amount of time and resources.</p>
 <p><a href="https://www.flickr.com/photos/dpla/6987082108">https://www.flickr.com/photos/dpla/6987082108</a><br />
 <a href="https://dp.la/">https://dp.la/</a></p>
 <p><span style="color:#FFFFFF">Building on nearly three decades of projects, workflows and standards, there is movement to better align standards, an ever increasing need to develop accessible workflows and tools for digital accession, ingest, preservation and access, and nearly 20 years worth of digital projects and collections that require custodianship.</span></p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="76" lang="en-US">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="74" lang="en-US">
 <p>1 min</p>
 <p><strong>Next week:</strong></p>
 <p><em><a href="https://digital-archives.github.io/HISTGA1011/">https://digital-archives.github.io/HISTGA1011/</a></em></p>
@@ -1138,18 +1029,14 @@ When we go up one hundred values, we again, bump our 1 over one more place to th
 
 In a base-10 decimal system, we use position to determine a value. So here, we have four individual decimal values, 1, 2, 0 and 0. We know that this represents “1 thousand, two hundred” because the 1 is in the “thousandths” place, which we know to be four positions left from the very right. And to sometimes make base-10 numbers more readable, we'll place a convenient comma to group together three places.
 
-Binary works similarly in that we use bits value and their positions to determine their overall value, but it works in a slightly different manner, which we’ll explore in a bit (joke intended!)</p><p>presenter notes
+Binary works similarly in that we use bits value and their positions to determine their overall value, but it works in a slightly different manner, which we’ll explore in a bit (joke intended!)</p></div><div class="bespoke-marp-note" data-index="19" tabindex="0"><p>presenter notes
 
 A byte is a discrete-length grouping of bits. In the slide, we have an example of a byte that consists of 8 bits.
 
 There are other systems that have 16-bit or 24-bit length bytes. But for this example, and for the rest of the lesson, let’s work within a system that uses 8-bit bytes, for simplicity’s sake.
 
-This particular byte represents the decimal number 7.
-
-So, how do we get from 00010111 to 7?
-
 Source: https://www.youtube.com/watch?v=N5SU4RW9opc&amp;ab_channel=CodeHS
-https://www.techtarget.com/whatis/definition/binary#:~:text=In%20mathematics%20and%20in%20computing,unit%20(CPU)%20and%20RAM.</p></div><div class="bespoke-marp-note" data-index="19" tabindex="0"><p>presenter notes
+https://www.techtarget.com/whatis/definition/binary#:~:text=In%20mathematics%20and%20in%20computing,unit%20(CPU)%20and%20RAM.</p></div><div class="bespoke-marp-note" data-index="20" tabindex="0"><p>presenter notes
 I mentioned before than in a base-10 counting system, the length and position encodes value. Binary, similarly, can be interpreted by both length and position.
 
 The position of each digit determines its decimal value. Thus, by understanding the position of each bit, a binary number can be converted into a decimal number.
@@ -1158,14 +1045,56 @@ An 8-bit byte system means each byte contains 8 bits.
 
 Each bit represents 1 of 2 values: a 1 or 0.
 
-To calculate how many different combinations of 8 1s and 0s, we raise the number 2 (standing for 2 possible values) to the power of 8 (8 total bits). From this, we get 256 possible values.</p></div><div class="bespoke-marp-note" data-index="43" tabindex="0"><p>presenter notes
+To calculate how many different combinations of 8 1s and 0s, we raise the number 2 (standing for 2 possible values) to the power of 8 (8 total bits). From this, we get 256 possible values.</p></div><div class="bespoke-marp-note" data-index="24" tabindex="0"><p>presenter notes
 
-Consider the scenario of text displayed on a screen. Let's take the word &quot;Hi&quot; as an example.
+Comparing an 8-bit Nintendo Entertainment System to a 16-bit one side-by-side, you can see some differences. There are more colors, shades, textures, and tones in the right-hand screen. The more information you can encode, the more stuff you can represent on-screen.
 
-From the user's perspective, what we perceive is a representation of a series of computations executed by our computers, resulting in the presentation of the word &quot;HI&quot; in a format that we can comprehend through our senses. In simple terms, the computer takes numerical data and translates it into arrangements of pixels on the screen, forming the shape of the letters capital H and lowercase i.
+it's important to understand that when we are referring to an 8-bit versus a 16-bit system, and how many byte values each can handle, does not mean that an 8-bit system can only handle 256 values max across all aspects of the game, such as sound, colors, etc, or 65,000 max values for a 16-bit system. This actually refers more to how large of a byte the Central Processing Unit, or CPU, can handle. The CPU is considered the “brain” of the computer or gaming console: it executes instructions from the game software, which include operations like processing inputs, updating game logic, rendering graphics, and managing sound. This allows a 16-bit system to handle more complex instructions at any given moment in gameplay.</p></div><div class="bespoke-marp-note" data-index="27" tabindex="0"><p>presenter notes 
 
-Essentially, anything visible on the screen, be it the word &quot;HI,&quot; an image, a video, or an MP3 file, is fundamentally encoded using numbers. In computer terminology, we refer to these numerical representations as bits.
+Each bit has its own place or position, which is mapped out on the slide. In an 8-bit system, we have 8 possible place values, starting from place 0, up to place 7. Places are read from right to left.</p></div><div class="bespoke-marp-note" data-index="32" tabindex="0"><p>presenter notes
 
-Source: https://www.youtube.com/watch?v=N5SU4RW9opc&amp;ab_channel=CodeHS
-https://www.techtarget.com/whatis/definition/binary#:~:text=In%20mathematics%20and%20in%20computing,unit%20(CPU)%20and%20RAM.</p></div><script>/*!! License: https://unpkg.com/@marp-team/marp-cli@4.0.0/lib/bespoke.js.LICENSE.txt */
+What do we mean by weight?
+
+A good example comes from the base-10 decimal system we are most familiar with.</p></div><div class="bespoke-marp-note" data-index="33" tabindex="0"><p>presenter notes
+
+Translating binary to decimals may seem unfamiliar, which is fine, because we rarely ever have to do this (that’s the job of computers, afterall).
+
+However, the steps we take to interpret a binary number are similar to how we interpret a decimal number. Let’s take the number 787.
+
+For decimals we also read placements from right to left, as we did with the binary example. In this case, the rightmost digit, which is in place 0, represents the “ones” place. It carries a weight of 10^0, which equals 1. So, the digit 7 in the ones place contributes 7 * 1 = 7 to the overall value of the number.</p></div><div class="bespoke-marp-note" data-index="34" tabindex="0"><p>presenter notes
+
+Moving to the left, the next digit in Place 1 represents the tens place. It carries a weight of 10^1, which equals 10. Therefore, the digit 8 in the tens place contributes 8 * 10 = 80 to the overall value of the number.
+
+Finally, the last digit in place 2 represents the hundreds place. It carries a weight of 10^2, which equals 100. Therefore, the digit 7 in the hundreds place contributes 7 * 100 = 700 to the overall value of the number.
+
+By multiplying each digit by their weight value, we get three numbers: 700, 80 and 7. If we add these three numbers together, we get 787.
+
+Place value allows us to understand the significance and contribution of each digit within a number based on its position, with each position representing a different power of the base of the number system.
+
+Now that we better understand the concept of weight, let's return to our binary example.</p></div><div class="bespoke-marp-note" data-index="35" tabindex="0"><p>presenter notes
+
+Let’s shift from the raw binary representation to something more familiar—an actual word. In this case, let's use the word &quot;OK&quot; as an example.
+
+When you see the word &quot;OK&quot; on a computer screen, you’re looking at an abstraction built on several layers of encoded data. The process that brings that simple word to your screen involves multiple transformations, from human-readable characters to machine-interpretable code.
+
+In the table on the slide, the left-hand column names each of these layers, while the right-hand column shows how the computer encodes and interprets the information. We are going to &quot;drill down&quot; through these layers, one-by-one.</p></div><div class="bespoke-marp-note" data-index="36" tabindex="0"><p>presenter notes
+
+The first layer is what you see—the letters &quot;O&quot; and &quot;K.&quot; We are going to separate these letters into two individual letters, and treat them as such moving forward.</p></div><div class="bespoke-marp-note" data-index="37" tabindex="0"><p>presenter notes
+
+Each letter is assigned a decimal number through a computer’s internal dictionary, also known as the ASCII table.
+
+The letter &quot;O&quot; corresponds to the decimal number 79, and &quot;K&quot; corresponds to 75.</p></div><div class="bespoke-marp-note" data-index="38" tabindex="0"><p>presenter notes
+
+Then, these decimal values are often converted into a hexadecimal system for efficiency, where &quot;O&quot; becomes 4F and &quot;K&quot; becomes 4B. You can think of hexadecimals, referred sometimes in short as &quot;hex&quot;, as a kind of shorthand for bytes.</p></div><div class="bespoke-marp-note" data-index="39" tabindex="0"><p>presenter notes
+
+These values are converted into their binary representations: 01001111 for &quot;O&quot; and 01001011 for &quot;K.&quot;
+
+At its core, computers understand and process everything in bits and bytes. In this case, each character in &quot;OK&quot; is made up of 8 bits, with a specific combination of 1s and 0s. These bits are then stored physically in hardware.</p></div><div class="bespoke-marp-note" data-index="40" tabindex="0"><p>presenter notes
+
+If we could microscopically zoom into the physical storage—like a hard drive or memory chip—we would see that these bits are stored using electrical signals or magnetic charges. Think of each 1 and 0 as a tiny &quot;on&quot; or &quot;off&quot; switch, or a north/south magnetic direction.
+
+For example, a 1 might be represented by a magnetic field pointing in one direction, while a 0 is stored as the magnetic field pointing in the opposite direction. On a hard drive or chip, this encoding process happens for every single bit, ensuring that what you see on the screen is faithfully represented by physical signals underneath.
+
+So, whether you're reading a word, watching a video, or listening to music, it's all fundamentally encoded in binary and stored physically as on/off signals or magnetic impressions. This entire process—from the word &quot;OK&quot; you see on the screen down to the magnetic signals on a storage device—is how modern computing translates information into a format both humans and machines can understand.</p></div><div class="bespoke-marp-note" data-index="42" tabindex="0"><p>presenter notes
+Much of this timeline is influenced by Digital Preservation Management’s Timeline of Digital Technology and Preservation (https://www.dpworkshop.org/dpm-eng/timeline/timeline.html).</p></div><script>/*!! License: https://unpkg.com/@marp-team/marp-cli@4.0.0/lib/bespoke.js.LICENSE.txt */
 !function(){"use strict";function e(e){return e&&e.__esModule&&Object.prototype.hasOwnProperty.call(e,"default")?e.default:e}var t,n,r=(n||(n=1,t={from:function(e,t){var n,r=1===(e.parent||e).nodeType?e.parent||e:document.querySelector(e.parent||e),o=[].filter.call("string"==typeof e.slides?r.querySelectorAll(e.slides):e.slides||r.children,(function(e){return"SCRIPT"!==e.nodeName})),a={},i=function(e,t){return(t=t||{}).index=o.indexOf(e),t.slide=e,t},s=function(e,t){a[e]=(a[e]||[]).filter((function(e){return e!==t}))},c=function(e,t){return(a[e]||[]).reduce((function(e,n){return e&&!1!==n(t)}),!0)},l=function(e,t){o[e]&&(n&&c("deactivate",i(n,t)),n=o[e],c("activate",i(n,t)))},d=function(e,t){var r=o.indexOf(n)+e;c(e>0?"next":"prev",i(n,t))&&l(r,t)},u={off:s,on:function(e,t){return(a[e]||(a[e]=[])).push(t),s.bind(null,e,t)},fire:c,slide:function(e,t){if(!arguments.length)return o.indexOf(n);c("slide",i(o[e],t))&&l(e,t)},next:d.bind(null,1),prev:d.bind(null,-1),parent:r,slides:o,destroy:function(e){c("destroy",i(n,e)),a={}}};return(t||[]).forEach((function(e){e(u)})),n||l(0),u}}),t),o=e(r);const a=document.body,i=(...e)=>history.replaceState(...e),s="",c="presenter",l="next",d=["",c,l],u="bespoke-marp-",f=`data-${u}`,m=(e,{protocol:t,host:n,pathname:r,hash:o}=location)=>{const a=e.toString();return`${t}//${n}${r}${a?"?":""}${a}${o}`},g=()=>a.dataset.bespokeView,p=e=>new URLSearchParams(location.search).get(e),v=(e,t={})=>{const n={location,setter:i,...t},r=new URLSearchParams(n.location.search);for(const t of Object.keys(e)){const n=e[t];"string"==typeof n?r.set(t,n):r.delete(t)}try{n.setter({...window.history.state??{}},"",m(r,n.location))}catch(e){console.error(e)}},h=(()=>{const e="bespoke-marp";try{return localStorage.setItem(e,e),localStorage.removeItem(e),!0}catch{return!1}})(),y=e=>{try{return localStorage.getItem(e)}catch{return null}},b=(e,t)=>{try{return localStorage.setItem(e,t),!0}catch{return!1}},w=e=>{try{return localStorage.removeItem(e),!0}catch{return!1}},x=(e,t)=>{const n="aria-hidden";t?e.setAttribute(n,"true"):e.removeAttribute(n)},k=e=>{e.parent.classList.add(`${u}parent`),e.slides.forEach((e=>e.classList.add(`${u}slide`))),e.on("activate",(t=>{const n=`${u}active`,r=t.slide,o=r.classList,a=!o.contains(n);if(e.slides.forEach((e=>{e.classList.remove(n),x(e,!0)})),o.add(n),x(r,!1),a){const e=`${n}-ready`;o.add(e),document.body.clientHeight,o.remove(e)}}))},$=e=>{let t=0,n=0;Object.defineProperty(e,"fragments",{enumerable:!0,value:e.slides.map((e=>[null,...e.querySelectorAll("[data-marpit-fragment]")]))});const r=r=>void 0!==e.fragments[t][n+r],o=(r,o)=>{t=r,n=o,e.fragments.forEach(((e,t)=>{e.forEach(((e,n)=>{if(null==e)return;const a=t<r||t===r&&n<=o;e.setAttribute(`${f}fragment`,(a?"":"in")+"active");const i=`${f}current-fragment`;t===r&&n===o?e.setAttribute(i,"current"):e.removeAttribute(i)}))})),e.fragmentIndex=o;const a={slide:e.slides[r],index:r,fragments:e.fragments[r],fragmentIndex:o};e.fire("fragment",a)};e.on("next",(({fragment:a=!0})=>{if(a){if(r(1))return o(t,n+1),!1;const a=t+1;e.fragments[a]&&o(a,0)}else{const r=e.fragments[t].length;if(n+1<r)return o(t,r-1),!1;const a=e.fragments[t+1];a&&o(t+1,a.length-1)}})),e.on("prev",(({fragment:a=!0})=>{if(r(-1)&&a)return o(t,n-1),!1;const i=t-1;e.fragments[i]&&o(i,e.fragments[i].length-1)})),e.on("slide",(({index:t,fragment:n})=>{let r=0;if(void 0!==n){const o=e.fragments[t];if(o){const{length:e}=o;r=-1===n?e-1:Math.min(Math.max(n,0),e-1)}}o(t,r)})),o(0,0)},E=document,L=()=>!(!E.fullscreenEnabled&&!E.webkitFullscreenEnabled),S=()=>!(!E.fullscreenElement&&!E.webkitFullscreenElement),P=e=>{e.fullscreen=()=>{L()&&(async()=>{S()?(E.exitFullscreen||E.webkitExitFullscreen)?.call(E):((e=E.body)=>{(e.requestFullscreen||e.webkitRequestFullscreen)?.call(e)})()})()},document.addEventListener("keydown",(t=>{"f"!==t.key&&"F11"!==t.key||t.altKey||t.ctrlKey||t.metaKey||!L()||(e.fullscreen(),t.preventDefault())}))},_=`${u}inactive`,T=(e=2e3)=>({parent:t,fire:n})=>{const r=t.classList,o=e=>n(`marp-${e?"":"in"}active`);let a;const i=()=>{a&&clearTimeout(a),a=setTimeout((()=>{r.add(_),o()}),e),r.contains(_)&&(r.remove(_),o(!0))};for(const e of["mousedown","mousemove","touchend"])document.addEventListener(e,i);setTimeout(i,0)},I=["AUDIO","BUTTON","INPUT","SELECT","TEXTAREA","VIDEO"],M=e=>{e.parent.addEventListener("keydown",(e=>{if(!e.target)return;const t=e.target;(I.includes(t.nodeName)||"true"===t.contentEditable)&&e.stopPropagation()}))},O=e=>{window.addEventListener("load",(()=>{for(const t of e.slides){const e=t.querySelector("marp-auto-scaling, [data-auto-scaling], [data-marp-fitting]");t.setAttribute(`${f}load`,e?"":"hideable")}}))},A=({interval:e=250}={})=>t=>{document.addEventListener("keydown",(e=>{if(" "===e.key&&e.shiftKey)t.prev();else if("ArrowLeft"===e.key||"ArrowUp"===e.key||"PageUp"===e.key)t.prev({fragment:!e.shiftKey});else if(" "!==e.key||e.shiftKey)if("ArrowRight"===e.key||"ArrowDown"===e.key||"PageDown"===e.key)t.next({fragment:!e.shiftKey});else if("End"===e.key)t.slide(t.slides.length-1,{fragment:-1});else{if("Home"!==e.key)return;t.slide(0)}else t.next();e.preventDefault()}));let n,r,o=0;t.parent.addEventListener("wheel",(a=>{let i=!1;const s=(e,t)=>{e&&(i=i||((e,t)=>((e,t)=>{const n="X"===t?"Width":"Height";return e[`client${n}`]<e[`scroll${n}`]})(e,t)&&((e,t)=>{const{overflow:n}=e,r=e[`overflow${t}`];return"auto"===n||"scroll"===n||"auto"===r||"scroll"===r})(getComputedStyle(e),t))(e,t)),e?.parentElement&&s(e.parentElement,t)};if(0!==a.deltaX&&s(a.target,"X"),0!==a.deltaY&&s(a.target,"Y"),i)return;a.preventDefault();const c=Math.sqrt(a.deltaX**2+a.deltaY**2);if(void 0!==a.wheelDelta){if(void 0===a.webkitForce&&Math.abs(a.wheelDelta)<40)return;if(a.deltaMode===a.DOM_DELTA_PIXEL&&c<4)return}else if(a.deltaMode===a.DOM_DELTA_PIXEL&&c<12)return;r&&clearTimeout(r),r=setTimeout((()=>{n=0}),e);const l=Date.now()-o<e,d=c<=n;if(n=c,l||d)return;let u;(a.deltaX>0||a.deltaY>0)&&(u="next"),(a.deltaX<0||a.deltaY<0)&&(u="prev"),u&&(t[u](),o=Date.now())}))},C=(e=`.${u}osc`)=>{const t=document.querySelector(e);if(!t)return()=>{};const n=(e,n)=>{t.querySelectorAll(`[${f}osc=${JSON.stringify(e)}]`).forEach(n)};return L()||n("fullscreen",(e=>e.style.display="none")),h||n("presenter",(e=>{e.disabled=!0,e.title="Presenter view is disabled due to restricted localStorage."})),e=>{t.addEventListener("click",(t=>{if(t.target instanceof HTMLElement){const{bespokeMarpOsc:n}=t.target.dataset;n&&t.target.blur();const r={fragment:!t.shiftKey};"next"===n?e.next(r):"prev"===n?e.prev(r):"fullscreen"===n?e?.fullscreen():"presenter"===n&&e.openPresenterView()}})),e.parent.appendChild(t),e.on("activate",(({index:t})=>{n("page",(n=>n.textContent=`Page ${t+1} of ${e.slides.length}`))})),e.on("fragment",(({index:t,fragments:r,fragmentIndex:o})=>{n("prev",(e=>e.disabled=0===t&&0===o)),n("next",(n=>n.disabled=t===e.slides.length-1&&o===r.length-1))})),e.on("marp-active",(()=>x(t,!1))),e.on("marp-inactive",(()=>x(t,!0))),L()&&(e=>{for(const t of["","webkit"])E.addEventListener(t+"fullscreenchange",e)})((()=>n("fullscreen",(e=>e.classList.toggle("exit",L()&&S())))))}},D=e=>{window.addEventListener("message",(t=>{if(t.origin!==window.origin)return;const[n,r]=t.data.split(":");if("navigate"===n){const[t,n]=r.split(",");let o=Number.parseInt(t,10),a=Number.parseInt(n,10)+1;a>=e.fragments[o].length&&(o+=1,a=0),e.slide(o,{fragment:a})}}))};var N,B,q,K,j,F,V,U={exports:{}},X=(N||(N=1,U.exports=(B=["area","base","br","col","command","embed","hr","img","input","keygen","link","meta","param","source","track","wbr"],q=function(e){return String(e).replace(/[&<>"']/g,(function(e){return"&"+K[e]+";"}))},K={"&":"amp","<":"lt",">":"gt",'"':"quot","'":"apos"},j="dangerouslySetInnerHTML",F={className:"class",htmlFor:"for"},V={},function(e,t){var n=[],r="";t=t||{};for(var o=arguments.length;o-- >2;)n.push(arguments[o]);if("function"==typeof e)return t.children=n.reverse(),e(t);if(e){if(r+="<"+e,t)for(var a in t)!1!==t[a]&&null!=t[a]&&a!==j&&(r+=" "+(F[a]?F[a]:q(a))+'="'+q(t[a])+'"');r+=">"}if(-1===B.indexOf(e)){if(t[j])r+=t[j].__html;else for(;n.length;){var i=n.pop();if(i)if(i.pop)for(var s=i.length;s--;)n.push(i[s]);else r+=!0===V[i]?i:q(i)}r+=e?"</"+e+">":""}return V[r]=!0,r})),U.exports),H=e(X);const R=({children:e})=>H(null,null,...e),W=`${u}presenter-`,J={container:`${W}container`,dragbar:`${W}dragbar-container`,next:`${W}next`,nextContainer:`${W}next-container`,noteContainer:`${W}note-container`,noteWrapper:`${W}note-wrapper`,noteButtons:`${W}note-buttons`,infoContainer:`${W}info-container`,infoPage:`${W}info-page`,infoPageText:`${W}info-page-text`,infoPagePrev:`${W}info-page-prev`,infoPageNext:`${W}info-page-next`,noteButtonsBigger:`${W}note-bigger`,noteButtonsSmaller:`${W}note-smaller`,infoTime:`${W}info-time`,infoTimer:`${W}info-timer`},Y=e=>{const{title:t}=document;document.title="[Presenter view]"+(t?` - ${t}`:"");const n={},r=e=>(n[e]=n[e]||document.querySelector(`.${e}`),n[e]);document.body.appendChild((e=>{const t=document.createElement("div");return t.className=J.container,t.appendChild(e),t.insertAdjacentHTML("beforeend",H(R,null,H("div",{class:J.nextContainer},H("iframe",{class:J.next,src:"?view=next"})),H("div",{class:J.dragbar}),H("div",{class:J.noteContainer},H("div",{class:J.noteWrapper}),H("div",{class:J.noteButtons},H("button",{class:J.noteButtonsSmaller,tabindex:"-1",title:"Smaller notes font size"},"Smaller notes font size"),H("button",{class:J.noteButtonsBigger,tabindex:"-1",title:"Bigger notes font size"},"Bigger notes font size"))),H("div",{class:J.infoContainer},H("div",{class:J.infoPage},H("button",{class:J.infoPagePrev,tabindex:"-1",title:"Previous"},"Previous"),H("span",{class:J.infoPageText}),H("button",{class:J.infoPageNext,tabindex:"-1",title:"Next"},"Next")),H("time",{class:J.infoTime,title:"Current time"}),H("time",{class:J.infoTimer,title:"Timer"})))),t})(e.parent)),(e=>{let t=!1;r(J.dragbar).addEventListener("mousedown",(()=>{t=!0,r(J.dragbar).classList.add("active")})),window.addEventListener("mouseup",(()=>{t=!1,r(J.dragbar).classList.remove("active")})),window.addEventListener("mousemove",(e=>{if(!t)return;const n=e.clientX/document.documentElement.clientWidth*100;r(J.container).style.setProperty("--bespoke-marp-presenter-split-ratio",`${Math.max(0,Math.min(100,n))}%`)})),r(J.nextContainer).addEventListener("click",(()=>e.next()));const n=r(J.next),o=(a=n,(e,t)=>a.contentWindow?.postMessage(`navigate:${e},${t}`,"null"===window.origin?"*":window.origin));var a;n.addEventListener("load",(()=>{r(J.nextContainer).classList.add("active"),o(e.slide(),e.fragmentIndex),e.on("fragment",(({index:e,fragmentIndex:t})=>o(e,t)))}));const i=document.querySelectorAll(".bespoke-marp-note");i.forEach((e=>{e.addEventListener("keydown",(e=>e.stopPropagation())),r(J.noteWrapper).appendChild(e)})),e.on("activate",(()=>i.forEach((t=>t.classList.toggle("active",t.dataset.index==e.slide())))));let s=0;const c=e=>{s=Math.max(-5,s+e),r(J.noteContainer).style.setProperty("--bespoke-marp-note-font-scale",(1.2**s).toFixed(4))},l=()=>c(1),d=()=>c(-1),u=r(J.noteButtonsBigger),f=r(J.noteButtonsSmaller);u.addEventListener("click",(()=>{u.blur(),l()})),f.addEventListener("click",(()=>{f.blur(),d()})),document.addEventListener("keydown",(e=>{"+"===e.key&&l(),"-"===e.key&&d()}),!0),e.on("activate",(({index:t})=>{r(J.infoPageText).textContent=`${t+1} / ${e.slides.length}`}));const m=r(J.infoPagePrev),g=r(J.infoPageNext);m.addEventListener("click",(t=>{m.blur(),e.prev({fragment:!t.shiftKey})})),g.addEventListener("click",(t=>{g.blur(),e.next({fragment:!t.shiftKey})})),e.on("fragment",(({index:t,fragments:n,fragmentIndex:r})=>{m.disabled=0===t&&0===r,g.disabled=t===e.slides.length-1&&r===n.length-1}));let p=new Date;const v=()=>{const e=new Date,t=e=>`${Math.floor(e)}`.padStart(2,"0"),n=e.getTime()-p.getTime(),o=t(n/1e3%60),a=t(n/1e3/60%60),i=t(n/36e5%24);r(J.infoTime).textContent=e.toLocaleTimeString(),r(J.infoTimer).textContent=`${i}:${a}:${o}`};v(),setInterval(v,250),r(J.infoTimer).addEventListener("click",(()=>{p=new Date}))})(e)},z=e=>{if(!(e=>e.syncKey&&"string"==typeof e.syncKey)(e))throw new Error("The current instance of Bespoke.js is invalid for Marp bespoke presenter plugin.");Object.defineProperties(e,{openPresenterView:{enumerable:!0,value:G},presenterUrl:{enumerable:!0,get:Q}}),h&&document.addEventListener("keydown",(t=>{"p"!==t.key||t.altKey||t.ctrlKey||t.metaKey||(t.preventDefault(),e.openPresenterView())}))};function G(){const{max:e,floor:t}=Math,n=e(t(.85*window.innerWidth),640),r=e(t(.85*window.innerHeight),360);return window.open(this.presenterUrl,W+this.syncKey,`width=${n},height=${r},menubar=no,toolbar=no`)}function Q(){const e=new URLSearchParams(location.search);return e.set("view","presenter"),e.set("sync",this.syncKey),m(e)}const Z=e=>{const t=g();return t===l&&e.appendChild(document.createElement("span")),{[s]:z,[c]:Y,[l]:D}[t]},ee=e=>{e.on("activate",(t=>{document.querySelectorAll(".bespoke-progress-parent > .bespoke-progress-bar").forEach((n=>{n.style.flexBasis=100*t.index/(e.slides.length-1)+"%"}))}))},te=e=>{const t=Number.parseInt(e,10);return Number.isNaN(t)?null:t},ne=(e={})=>{const t={history:!0,...e};return e=>{let n=!0;const r=e=>{const t=n;try{return n=!0,e()}finally{n=t}},o=(t={fragment:!0})=>{let n=t.fragment?te(p("f")||""):null;((t,n)=>{const{min:r,max:o}=Math,{fragments:a,slides:i}=e,s=o(0,r(t,i.length-1)),c=o(0,r(n||0,a[s].length-1));s===e.slide()&&c===e.fragmentIndex||e.slide(s,{fragment:c})})((()=>{if(location.hash){const[t]=location.hash.slice(1).split(":~:");if(/^\d+$/.test(t))return(te(t)??1)-1;const r=document.getElementById(t)||document.querySelector(`a[name="${CSS.escape(t)}"]`);if(r){const{length:t}=e.slides;for(let o=0;o<t;o+=1)if(e.slides[o].contains(r)){const t=e.fragments?.[o],a=r.closest("[data-marpit-fragment]");if(t&&a){const e=t.indexOf(a);e>=0&&(n=e)}return o}}}return 0})(),n)};e.on("fragment",(({index:e,fragmentIndex:r})=>{n||v({f:0===r||r.toString()},{location:{...location,hash:`#${e+1}`},setter:(...e)=>t.history?history.pushState(...e):history.replaceState(...e)})})),setTimeout((()=>{o(),window.addEventListener("hashchange",(()=>r((()=>{o({fragment:!1}),v({f:void 0})})))),window.addEventListener("popstate",(()=>{n||r((()=>o()))})),n=!1}),0)}},re=(e={})=>{const t=e.key||window.history.state?.marpBespokeSyncKey||Math.random().toString(36).slice(2),n=`bespoke-marp-sync-${t}`;var r;r={marpBespokeSyncKey:t},v({},{setter:(e,...t)=>i({...e,...r},...t)});const o=()=>{const e=y(n);return e?JSON.parse(e):Object.create(null)},a=e=>{const t=o(),r={...t,...e(t)};return b(n,JSON.stringify(r)),r},s=()=>{window.removeEventListener("pageshow",s),a((e=>({reference:(e.reference||0)+1})))};return e=>{s(),Object.defineProperty(e,"syncKey",{value:t,enumerable:!0});let r=!0;setTimeout((()=>{e.on("fragment",(e=>{r&&a((()=>({index:e.index,fragmentIndex:e.fragmentIndex})))}))}),0),window.addEventListener("storage",(t=>{if(t.key===n&&t.oldValue&&t.newValue){const n=JSON.parse(t.oldValue),o=JSON.parse(t.newValue);if(n.index!==o.index||n.fragmentIndex!==o.fragmentIndex)try{r=!1,e.slide(o.index,{fragment:o.fragmentIndex,forSync:!0})}finally{r=!0}}}));const i=()=>{const{reference:e}=o();void 0===e||e<=1?w(n):a((()=>({reference:e-1})))};window.addEventListener("pagehide",(e=>{e.persisted&&window.addEventListener("pageshow",s),i()})),e.on("destroy",i)}},{PI:oe,abs:ae,sqrt:ie,atan2:se}=Math,ce={passive:!0},le=({slope:e=-.7,swipeThreshold:t=30}={})=>n=>{let r;const o=n.parent,a=e=>{const t=o.getBoundingClientRect();return{x:e.pageX-(t.left+t.right)/2,y:e.pageY-(t.top+t.bottom)/2}};o.addEventListener("touchstart",(({touches:e})=>{r=1===e.length?a(e[0]):void 0}),ce),o.addEventListener("touchmove",(e=>{if(r)if(1===e.touches.length){e.preventDefault();const t=a(e.touches[0]),n=t.x-r.x,o=t.y-r.y;r.delta=ie(ae(n)**2+ae(o)**2),r.radian=se(n,o)}else r=void 0})),o.addEventListener("touchend",(o=>{if(r){if(r.delta&&r.delta>=t&&r.radian){const t=(r.radian-e+oe)%(2*oe)-oe;n[t<0?"next":"prev"](),o.stopPropagation()}r=void 0}}),ce)},de=new Map;de.clear(),de.set("none",{backward:{both:void 0,incoming:void 0,outgoing:void 0},forward:{both:void 0,incoming:void 0,outgoing:void 0}});const ue={both:"",outgoing:"outgoing-",incoming:"incoming-"},fe={forward:"",backward:"-backward"},me=e=>`--marp-bespoke-transition-animation-${e}`,ge=e=>`--marp-transition-${e}`,pe=me("name"),ve=me("duration"),he=e=>new Promise((t=>{const n={},r=document.createElement("div"),o=e=>{r.remove(),t(e)};r.addEventListener("animationstart",(()=>o(n))),Object.assign(r.style,{animationName:e,animationDuration:"1s",animationFillMode:"both",animationPlayState:"paused",position:"absolute",pointerEvents:"none"}),document.body.appendChild(r);const a=getComputedStyle(r).getPropertyValue(ge("duration"));a&&(n.defaultDuration=a),((e,t)=>{requestAnimationFrame((()=>{e.style.animationPlayState="running",requestAnimationFrame((()=>t(void 0)))}))})(r,o)})),ye=async e=>de.has(e)?de.get(e):(e=>{const t={},n=[];for(const[r,o]of Object.entries(ue))for(const[a,i]of Object.entries(fe)){const s=`marp-${o}transition${i}-${e}`;n.push(he(s).then((e=>{t[a]=t[a]||{},t[a][r]=e?{...e,name:s}:void 0})))}return Promise.all(n).then((()=>t))})(e).then((t=>(de.set(e,t),t))),be=e=>Object.values(e).flatMap(Object.values).every((e=>!e)),we=(e,{type:t,backward:n})=>{const r=e[n?"backward":"forward"],o=(()=>{const e=r[t],n=e=>({[pe]:e.name});if(e)return n(e);if(r.both){const e=n(r.both);return"incoming"===t&&(e[me("direction")]="reverse"),e}})();return!o&&n?we(e,{type:t,backward:!1}):o||{[pe]:"__bespoke_marp_transition_no_animation__"}},xe=e=>{if(e)try{const t=JSON.parse(e);if((e=>{if("object"!=typeof e)return!1;const t=e;return"string"==typeof t.name&&(void 0===t.duration||"string"==typeof t.duration)})(t))return t}catch{}},ke="_tSId",$e="_tA",Ee="bespoke-marp-transition-warming-up",Le=window.matchMedia("(prefers-reduced-motion: reduce)"),Se="__bespoke_marp_transition_reduced_outgoing__",Pe="__bespoke_marp_transition_reduced_incoming__",_e={forward:{both:void 0,incoming:{name:Pe},outgoing:{name:Se}},backward:{both:void 0,incoming:{name:Pe},outgoing:{name:Se}}},Te=e=>{if(!document.startViewTransition)return;const t=t=>(void 0!==t&&(e._tD=t),e._tD);let n;t(!1),((...e)=>{const t=[...new Set(e).values()];return Promise.all(t.map((e=>ye(e)))).then()})(...Array.from(document.querySelectorAll("section[data-transition], section[data-transition-back]")).flatMap((e=>[e.dataset.transition,e.dataset.transitionBack].flatMap((e=>{const t=xe(e);return[t?.name,t?.builtinFallback?`__builtin__${t.name}`:void 0]})).filter((e=>!!e))))).then((()=>{document.querySelectorAll("style").forEach((e=>{e.innerHTML=e.innerHTML.replace(/--marp-transition-duration:[^;}]*[;}]/g,(e=>e.slice(0,-1)+"!important"+e.slice(-1)))}))}));const r=(n,{back:r,cond:o})=>a=>{const i=t();if(i)return!!a[$e]||!("object"!=typeof i||(i.skipTransition(),!a.forSync));if(!o(a))return!0;const s=e.slides[e.slide()],c=()=>a.back??r,l="data-transition"+(c()?"-back":""),d=s.querySelector(`section[${l}]`);if(!d)return!0;const u=xe(d.getAttribute(l)??void 0);return!u||((async(e,{builtinFallback:t=!0}={})=>{let n=await ye(e);if(be(n)){if(!t)return;return n=await ye(`__builtin__${e}`),be(n)?void 0:n}return n})(u.name,{builtinFallback:u.builtinFallback}).then((e=>{if(!e){t(!0);try{n(a)}finally{t(!1)}return}let r=e;Le.matches&&(console.warn("Use a constant animation to transition because preferring reduced motion by viewer has detected."),r=_e);const o=document.getElementById(ke);o&&o.remove();const i=document.createElement("style");i.id=ke,document.head.appendChild(i),((e,t)=>{const n=[`:root{${ge("direction")}:${t.backward?-1:1};}`,":root:has(.bespoke-marp-inactive){cursor:none;}"],r=t=>{const n=e[t].both?.defaultDuration||e[t].outgoing?.defaultDuration||e[t].incoming?.defaultDuration;return"forward"===t?n:n||r("forward")},o=t.duration||r(t.backward?"backward":"forward");void 0!==o&&n.push(`::view-transition-group(*){${ve}:${o};}`);const a=e=>Object.entries(e).map((([e,t])=>`${e}:${t};`)).join("");return n.push(`::view-transition-old(root){${a(we(e,{...t,type:"outgoing"}))}}`,`::view-transition-new(root){${a(we(e,{...t,type:"incoming"}))}}`),n})(r,{backward:c(),duration:u.duration}).forEach((e=>i.sheet?.insertRule(e)));const s=document.documentElement.classList;s.add(Ee);let l=!1;const d=()=>{l||(n(a),l=!0,s.remove(Ee))},f=()=>{t(!1),i.remove(),s.remove(Ee)};try{t(!0);const e=document.startViewTransition(d);t(e),e.finished.finally(f)}catch(e){console.error(e),d(),f()}})),!1)};e.on("prev",r((t=>e.prev({...t,[$e]:!0})),{back:!0,cond:e=>e.index>0&&!((e.fragment??1)&&n.fragmentIndex>0)})),e.on("next",r((t=>e.next({...t,[$e]:!0})),{cond:t=>t.index+1<e.slides.length&&!(n.fragmentIndex+1<n.fragments.length)})),setTimeout((()=>{e.on("slide",r((t=>e.slide(t.index,{...t,[$e]:!0})),{cond:t=>{const n=e.slide();return t.index!==n&&(t.back=t.index<n,!0)}}))}),0),e.on("fragment",(e=>{n=e}))};let Ie;const Me=()=>(void 0===Ie&&(Ie="wakeLock"in navigator&&navigator.wakeLock),Ie),Oe=async()=>{const e=Me();if(e)try{return await e.request("screen")}catch(e){console.warn(e)}return null},Ae=async()=>{if(!Me())return;let e;const t=()=>{e&&"visible"===document.visibilityState&&Oe()};for(const e of["visibilitychange","fullscreenchange"])document.addEventListener(e,t);return e=await Oe(),e};((e=document.getElementById(":$p"))=>{(()=>{const e=p("view");a.dataset.bespokeView=e===l||e===c?e:""})();const t=(e=>{const t=p(e);return v({[e]:void 0}),t})("sync")||void 0;o.from(e,((...e)=>{const t=d.findIndex((e=>g()===e));return e.map((([e,n])=>e[t]&&n)).filter((e=>e))})([[1,1,0],re({key:t})],[[1,1,1],Z(e)],[[1,1,0],M],[[1,1,1],k],[[1,0,0],T()],[[1,1,1],O],[[1,1,1],ne({history:!1})],[[1,1,0],A()],[[1,1,0],P],[[1,0,0],ee],[[1,1,0],le()],[[1,0,0],C()],[[1,0,0],Te],[[1,1,1],$],[[1,1,0],Ae]))})()}();</script></body></html>

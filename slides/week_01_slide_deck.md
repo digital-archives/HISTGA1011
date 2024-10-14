@@ -110,14 +110,10 @@ Answer in the [Airtable Form](https://airtable.com/appX8QYrNyTDJDGmg/pag5PKEZC1X
 (e.g., document, media, software)  
 ↓  
 **Requires**  
-- Software  
-- Hardware  
-- Emulation  
-- Specialized Knowledge  
+Software, Hardware, Emulation, Specialized Knowledge  
 ↓  
 **Maintains**  
-- Accessibility  
-- Preservation  
+Accessibility, Preservation  
 ↓  
 **Failure to Maintain**  
 → Obsolescence, Inaccessibility, Data Loss
@@ -170,9 +166,9 @@ These encodings are akin to how computers encode information into binary. Basica
 
 # Definition: Binary
 
-__Binary__ is encodes information using:
+__Binary__ encodes information using:
 - A "base-2" system and place values
-- The digits 0 and 1, referred to as _bits_
+- The digits 0 and 1, referred to as __bits__
 
 Binary works in a similar way to the familiar __base-10__ decimal system, which also uses digits and place values to represent numbers.
 
@@ -230,13 +226,15 @@ Binary works similarly in that we use bits value and their positions to determin
 
 -->
 
-# Definition: Byte (1/2)
+---
+
+# Definition: Byte
 
 A __byte__ is a discrete-length grouping of bits.
 
 __Example: 00000111__
 
-This byte represents the decimal number 7.
+This byte has a discrete length of 8.
 
 A byte's length can determine how many distinct byte values can be represented.
 
@@ -245,10 +243,6 @@ A byte's length can determine how many distinct byte values can be represented.
 A byte is a discrete-length grouping of bits. In the slide, we have an example of a byte that consists of 8 bits.
 
 There are other systems that have 16-bit or 24-bit length bytes. But for this example, and for the rest of the lesson, let’s work within a system that uses 8-bit bytes, for simplicity’s sake.
-
-This particular byte represents the decimal number 7.
-
-So, how do we get from 00010111 to 7?
 
 Source: https://www.youtube.com/watch?v=N5SU4RW9opc&ab_channel=CodeHS
 https://www.techtarget.com/whatis/definition/binary#:~:text=In%20mathematics%20and%20in%20computing,unit%20(CPU)%20and%20RAM.
@@ -259,9 +253,11 @@ https://www.techtarget.com/whatis/definition/binary#:~:text=In%20mathematics%20a
 
 __00000111__
 
-An 8-bit system can store up to 256 values. Why  256?
-- Each bit represents 1 of 2 values (1 or 0)
-- Since we only have two values, and 8 places to represent values, the total number of values can be determined by "raising" 2 possible bit values to the power of 8 possible bit values (2^8). This looks like:
+An 8-bit system can store up to 256 values.
+
+Why 256?
+- Each bit represents 1 of 2 values (A base-2 system can only have two possible values: 1 or 0)
+- This byte has a length of 8 values. So, the total number of values can be determined by "raising" 2 possible bit values to the power of 8 possible bit values (2^8). This looks like:
 
 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 
 = 
@@ -283,36 +279,46 @@ To calculate how many different combinations of 8 1s and 0s, we raise the number
 
 # Question: How many possible byte values are there in a __16-bit__ system?
 
+Hint:
+* Number of possible values: 2
+* Length of byte: 16
+* Raise 2 to the power of 16 (2^16)
+
 ---
 
 # Answer: 65,536
 
-A 16-bit system can be calculated by multiplying the number of possible values (2) by the total number of placements (16), or "two to the power of 16" (2^16). That is:
+A 16-bit system can be calculated by raising the number of possible values (2) to the power of the length of the byte (16), or "two to the power of 16" (2^16). That is:  
 
-2 * 2 * 2 * 2 *
-2 * 2 * 2 * 2 *
-2 * 2 * 2 * 2 *
+```
+2 * 2 * 2 * 2 *  
+2 * 2 * 2 * 2 *  
+2 * 2 * 2 * 2 *  
 2 * 2 * 2 * 2
-=
-__65,536__
 
+=
+
+65,536
+```
 ---
 
 ![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives0.png)
 
-Example of an 8\-bit system: Nintendo Entertainment System \(NES\) gaming console
+Example of an 8-bit system: Nintendo Entertainment System (NES) gaming console from the 1980s
 
 ---
-
-This is an example of a popular 8-bit system: the Nintendo Entertainment System or NES.
 
 ![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives1.gif)
 
----
+<!-- presenter notes
 
 Comparing an 8-bit Nintendo Entertainment System to a 16-bit one side-by-side, you can see some differences. There are more colors, shades, textures, and tones in the right-hand screen. The more information you can encode, the more stuff you can represent on-screen.
 
 it's important to understand that when we are referring to an 8-bit versus a 16-bit system, and how many byte values each can handle, does not mean that an 8-bit system can only handle 256 values max across all aspects of the game, such as sound, colors, etc, or 65,000 max values for a 16-bit system. This actually refers more to how large of a byte the Central Processing Unit, or CPU, can handle. The CPU is considered the “brain” of the computer or gaming console: it executes instructions from the game software, which include operations like processing inputs, updating game logic, rendering graphics, and managing sound. This allows a 16-bit system to handle more complex instructions at any given moment in gameplay.
+
+-->
+
+# Binary -> Decimal
 
 | Binary value | Decimal value |
 | :-: | :-: |
@@ -329,163 +335,84 @@ it's important to understand that when we are referring to an 8-bit versus a 16-
 
 ---
 
-Here is a sample list of binary values, corresponding to decimal values, in an 8-bit system. Here, we have 10 decimals, 0 through 9, and their corresponding binary values. In an 8-bit system, the complete list would show 256 possible values.
+Here is a sample list of binary values, corresponding to decimal values, in an 8-bit system. In the right-most column, we have 10 decimals, 0 through 9, and their corresponding binary values. In an 8-bit system, the complete list would show 256 possible values.
 
 You may have noticed that, there seems to be a pattern in the placement of 1s and 0s for each decimal going up in succession. Bytes are not arbitrarily assigned to decimals: there is a mathematical system behind that make it so, if you take a binary value, you can reverse-engineer it to determine, in a few steps, the decimal value it represents.
 
+---
+
 | Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 
 
-__The bit sequence represents the decimal number 7__
+__This byte represents the decimal number 7__
+How do we get from 0000 0111 to 7?
 
 ---
-
-To translate bytes into decimals we need to look at two things: the bit values (1s and 0s), and the placement of these values along the byte.
-
-In the example in the slide, we have decimal number 7, which in an 8-bit system is represented by the byte 0000 0111
-
-| Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
-
-__Binary can be interpreted by reading the bit value \(1 or 0\) and place \(0\-7\)\.__
-
----
-
-Each bit has its own place or position. In an 8-bit system, we have 8 possible place values, starting from place 0, up to place 7. Places are read from right to left like so (the next 7 slides animate each place value, highlighted in blue, in progression from place 0 to place 7).
-
 
 | Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
 
+__First question to ask__: How many ones (1) are there?__
+
+<!--presenter notes 
+
+Each bit has its own place or position, which is mapped out on the slide. In an 8-bit system, we have 8 possible place values, starting from place 0, up to place 7. Places are read from right to left.
+
+-->
+
 ---
-
-…and then moving our way left…
-
-
 
 | Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
 
+__Answer__: 3
+
 ---
-
-
-
-
-
 
 | Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
 
+__Second question to ask__: For each 1 we've found, what are their place values?
+
 ---
-
-
-
-
-
 
 | Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
 
----
-
-
-
-
-
-
-
-| Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
+__Answer:__ Positions 0, 1 and 2
 
 ---
-
-
-
-
-
-
-| Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
-
----
-
-
-
-
-
-
-| Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
-
----
-
-…up to place 7.
-
-
-
-
-
-| Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
-
-__Question: How many non\-zero bits are there?__
-
----
-
-In translating a byte to a decimal value, the first question to ask is “Where are the non-zero bits, i.e., the 1s, and what are their place values?”
-
-| Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
-
-__Question: How many non\-zero bits are there?__
-
-Answer: 3
-
----
-
-In this case, there are three non-zero bits, highlighted in light pink.
-
-| Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
-
-__Question: Of the non\-zero bits\, what are their place values?__
-
-Answer: 2\, 1 and 0
-
----
-
-The next question to ask is: of all the non-zero bits, what are their place values?
-
-The answer is 2, 1 and 0
 
 | Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
 | Weight | 2^7 | 2^6 | 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0 |
 
-Question: What is the weight of each non\-zero value placement?
-
-Answer: 4\, 2 and 1\, which add up to 7
+__Third question to ask__: For each 1 we've found, what is their weight?
 
 ---
 
-Once we have located our non-zero bits, we must then look to each placement’s “weight”, and multiply the weight by the bit value.
+| Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
+| Weight | 2^7 | 2^6 | 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0 |
+
+Answer: 4, 2 and 1, which add up to 7
+
+<!-- presenter notes
 
 What do we mean by weight?
 
 A good example comes from the base-10 decimal system we are most familiar with.
+
+-->
+
+---
 
 Decimal value: 787
 
@@ -495,9 +422,9 @@ Decimal value: 787
 | Weight | 10^2 | 10^1 | 10^0 |
 | Value | 100 | 10 | 1 |
 
-7 \+ 80 \+ 800 = 787
+7 + 80 + 800 = 787
 
----
+<!-- presenter notes
 
 Translating binary to decimals may seem unfamiliar, which is fine, because we rarely ever have to do this (that’s the job of computers, afterall).
 
@@ -505,6 +432,9 @@ However, the steps we take to interpret a binary number are similar to how we in
 
 For decimals we also read placements from right to left, as we did with the binary example. In this case, the rightmost digit, which is in place 0, represents the “ones” place. It carries a weight of 10^0, which equals 1. So, the digit 7 in the ones place contributes 7 * 1 = 7 to the overall value of the number.
 
+-->
+
+---
 
 Decimal value: 787
 
@@ -516,21 +446,9 @@ Decimal value: 787
 
 7 \+ 80 \+ 800 = 787
 
----
+<!--presenter notes
 
 Moving to the left, the next digit in Place 1 represents the tens place. It carries a weight of 10^1, which equals 10. Therefore, the digit 8 in the tens place contributes 8 * 10 = 80 to the overall value of the number.
-
-Decimal value: 787
-
-| Digit | 7 | 8 | 7 |
-| :-: | :-: | :-: | :-: |
-| Place | 2 | 1 | 0 |
-| Weight | 10^2 | 10^1 | 10^0 |
-| Value | 700 | 80 | 7 |
-
-7 \+ 80 \+ 800 = 787
-
----
 
 Finally, the last digit in place 2 represents the hundreds place. It carries a weight of 10^2, which equals 100. Therefore, the digit 7 in the hundreds place contributes 7 * 100 = 700 to the overall value of the number.
 
@@ -538,8 +456,9 @@ By multiplying each digit by their weight value, we get three numbers: 700, 80 a
 
 Place value allows us to understand the significance and contribution of each digit within a number based on its position, with each position representing a different power of the base of the number system.
 
-Let’s return to our binary example.
+Now that we better understand the concept of weight, let's return to our binary example.
 
+-->
 
 Decimal value: 7
 
@@ -549,66 +468,121 @@ Decimal value: 7
 | Weight | 2^7 | 2^6 | 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0 |
 | Value | 0 | 0 | 0 | 0 | 0 | 4 | 2 | 1 |
 
----
-
-Since each placement can only hold up to 2 values, 0 or 1, the weight always starts with base 2, raised to the power of the place number.
-
-So now we see:
-The bit in position 2 carries a weight of 2^2 or 4. We multiply 4 by 1 to get a total value of 4.
-The bit in position 1 carries a weight of 2^1 or 2. We multiply by 1 to get a total value of 2.
-The bit in position 0 carries a weight of 2^0 or 1. We multiply by 1 to get a total value of 1.
+* The bit in position 2 carries a weight of 2^2 or 4. We multiply 4 by 1 to get a total value of 4.
+* The bit in position 1 carries a weight of 2^1 or 2. We multiply by 1 to get a total value of 2.
+* The bit in position 0 carries a weight of 2^0 or 1. We multiply by 1 to get a total value of 1.
 
 Finally, we add up the weights of all the values. So, 4 + 2 + 1 = decimal 7
 
-| Sentence | HI |
-| :-: | :-: |
-| Character |       H          I |
-| Number |      72          73 |
-| Binary | 01001000     01001001 |
-| Hardware |  |
-
 ---
 
-# HELLO
+| Word | OK | |
+| :-: | :-: | :-: |
 
-<!-- presenter notes
+<!--presenter notes
 
-Consider the scenario of text displayed on a screen. Let's take the word "Hi" as an example.
+Let’s shift from the raw binary representation to something more familiar—an actual word. In this case, let's use the word "OK" as an example.
 
-From the user's perspective, what we perceive is a representation of a series of computations executed by our computers, resulting in the presentation of the word "HI" in a format that we can comprehend through our senses. In simple terms, the computer takes numerical data and translates it into arrangements of pixels on the screen, forming the shape of the letters capital H and lowercase i.
+When you see the word "OK" on a computer screen, you’re looking at an abstraction built on several layers of encoded data. The process that brings that simple word to your screen involves multiple transformations, from human-readable characters to machine-interpretable code.
 
-Essentially, anything visible on the screen, be it the word "HI," an image, a video, or an MP3 file, is fundamentally encoded using numbers. In computer terminology, we refer to these numerical representations as bits.
-
-Source: https://www.youtube.com/watch?v=N5SU4RW9opc&ab_channel=CodeHS
-https://www.techtarget.com/whatis/definition/binary#:~:text=In%20mathematics%20and%20in%20computing,unit%20(CPU)%20and%20RAM.
+In the table on the slide, the left-hand column names each of these layers, while the right-hand column shows how the computer encodes and interprets the information. We are going to "drill down" through these layers, one-by-one.
 
 -->
 
 ---
 
-Let’s go back to our “HI” example, and talk about how we can represent letters using an 8-bit system.
+| Word | OK | |
+| :-: | :-: | :-: |
+| Characters | O | K |
 
-The word HI, or any word you see on a computer screen, is an abstraction of several layers of interrelated data. In the chart, the left-hand column represents the name of the layer. The right-hand column shows how a computer has encoded the information. This example represents an 8-bit system.
-The first layer is what we see - the word HI, or any sentence, paragraph, or other arrangement of alphanumeric characters presented on the screen.
-HI is composed of two distinct alphanumeric characters H and I.
-Google Slides, the program I used to create the HI slide, has an internal dictionary that assigns human-readable alphanumeric characters a decimal number. This dictionary has assigned the letter H to the decimal number 72, and letter I to the decimal number 73. Note, text is often then turned from a decimal value into what is known as a hexadecimal value. But for now, we’ll keep things simple and just keep it as a decimal value.
-Computers, at their core, understand and speak in bits and bytes. So further, this internal dictionary will have assigned the decimal numbers 72 and 73 to an 8-bit byte, consisting of a specific order of 1s and 0s. So in this case, H equals 72, which is translated to the byte 01001000. I equals 73 which is translated to the byte 01001001.
-These bytes, further, correspond to magnetic encodings made on a storage device somewhere on a physical storage site owned by Google. If I were given a special powers, as well as the address of the exact building with the storage device storing my slide deck down to the sector, I would be able to see that each bit is represented on a physical storage device using electromagnetism. Basically, 1s are written in magnetism in one direction, and 0s are written in magnetism in the opposite direction. I’ve represented that in the slide using dark rectangles to represents 1s, and spaces to represent 0s.
+<!--presenter notes
 
-Know that everything you experience as a user of any sort of digital application, whether a text document, an image, a video, a website, can be broken down to decimal numbers, which correspond to binary, and further, physical impressions made on some sort of storage device.
+The first layer is what you see—the letters "O" and "K." We are going to separate these letters into two individual letters, and treat them as such moving forward.
 
-Sources:
-https://www.youtube.com/watch?v=N5SU4RW9opc&ab_channel=CodeHS
-https://www.techtarget.com/whatis/definition/binary#:~:text=In%20mathematics%20and%20in%20computing,unit%20(CPU)%20and%20RAM.
-
-
-![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives2.gif)
-
-<span style="color:#274E13"> __A Brief History of Digital Preservation and Archiving__ </span>
+-->
 
 ---
 
+| Word | OK | |
+| :-: | :-: | :-: |
+| Characters | O | K |
+| Decimals | 79 | 75 |
+
+
+<!--presenter notes
+
+Each letter is assigned a decimal number through a computer’s internal dictionary, also known as the ASCII table.
+
+The letter "O" corresponds to the decimal number 79, and "K" corresponds to 75.
+
+-->
+
+---
+
+| Word | OK | |
+| :-: | :-: | :-: |
+| Characters | O | K |
+| Decimals | 79 | 75 |
+| Hexadecimals | 4F | 4B |
+
+<!--presenter notes
+
+Then, these decimal values are often converted into a hexadecimal system for efficiency, where "O" becomes 4F and "K" becomes 4B. You can think of hexadecimals, referred sometimes in short as "hex", as a kind of shorthand for bytes.
+
+-->
+
+---
+
+| Word | OK | |
+| :-: | :-: | :-: |
+| Characters | O | K |
+| Decimals | 79 | 75 |
+| Hexadecimals | 4F | 4B |
+| Byte (Binary) | 01001111 | 01001011 |
+
+<!--presenter notes
+
+These values are converted into their binary representations: 01001111 for "O" and 01001011 for "K."
+
+At its core, computers understand and process everything in bits and bytes. In this case, each character in "OK" is made up of 8 bits, with a specific combination of 1s and 0s. These bits are then stored physically in hardware.
+
+-->
+
+---
+
+| Word | OK | |
+| :-: | :-: | :-: |
+| Characters | O | K |
+| Decimals | 79 | 75 |
+| Hexadecimals | 4F | 4B |
+| Byte (Binary) | 01001111 | 01001011 |
+| Hardware (On/Off Signals) | ■ □ □ □ ■ ■ ■ ■ | ■ □ □ □ ■ □ ■ ■ |
+
+<!--presenter notes
+
+If we could microscopically zoom into the physical storage—like a hard drive or memory chip—we would see that these bits are stored using electrical signals or magnetic charges. Think of each 1 and 0 as a tiny "on" or "off" switch, or a north/south magnetic direction.
+
+For example, a 1 might be represented by a magnetic field pointing in one direction, while a 0 is stored as the magnetic field pointing in the opposite direction. On a hard drive or chip, this encoding process happens for every single bit, ensuring that what you see on the screen is faithfully represented by physical signals underneath.
+
+So, whether you're reading a word, watching a video, or listening to music, it's all fundamentally encoded in binary and stored physically as on/off signals or magnetic impressions. This entire process—from the word "OK" you see on the screen down to the magnetic signals on a storage device—is how modern computing translates information into a format both humans and machines can understand.
+
+-->
+
+---
+
+# Break
+
+![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives2.gif)
+
+---
+
+# A Brief History of Digital Preservation and Archiving
+
+<!--presenter notes
 Much of this timeline is influenced by Digital Preservation Management’s Timeline of Digital Technology and Preservation (https://www.dpworkshop.org/dpm-eng/timeline/timeline.html).
+-->
+
+---
 
 ![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives3.jpg)
 
