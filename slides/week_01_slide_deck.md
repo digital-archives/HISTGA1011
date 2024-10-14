@@ -463,6 +463,8 @@ Now that we better understand the concept of weight, let's return to our binary 
 
 -->
 
+---
+
 Decimal value: 7
 
 | Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
