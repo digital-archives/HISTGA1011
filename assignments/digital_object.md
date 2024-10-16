@@ -2,7 +2,7 @@
 title: Lightning Talk - Digital Object
 layout: default
 parent: Assignments
-nav_order: 6
+nav_order: 1
 has_children: false
 ---
 
@@ -22,7 +22,7 @@ By "layers of complexity," I am referring to the various components—hardware, 
 
 * __Background__ (1 min): Briefly introduce the digital object. What is its purpose and how is it typically used? Why did you choose to investigate this particular object?
 * __Development__* (1 min): Outline the historical and technical development of the digital object. What key technologies or standards influence how it works today?
-* __Layers of Complexity__: Dive into the details of what is required to access, view, and preserve this object, focusing on:
+* __Layers of Complexity__ (3 min): Dive into the details of what is required to access, view, and preserve this object, focusing on:
   - Hardware: Any physical devices necessary (e.g., specific machines, peripherals, storage media)
   - Software: Programs or applications needed to render the object
   - Specialized Knowledge: Skills or knowledge required to interpret, use, or preserve the object
