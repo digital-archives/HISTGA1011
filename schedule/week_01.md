@@ -9,8 +9,6 @@ has_children: false
 
 <a href="{{ site.baseurl }}/slides/week_01_slide_deck.html" target="_blank">Link to slide deck</a>
 
-<a href="https://drive.google.com/file/d/1XI2ZAYqRW6RpG6oauJTsDfcIU2PG4fgX/view?usp=drive_link" target="_blank">Link to slide deck</a>
-
 {: .label .label-yellow }
 Due
 * Sign up for a file format using this <a href="https://forms.gle/UDw6TjZdvrxQpkxq7" target="_blank">Google Form</a> for the <a href="https://digital-archives.github.io/HISTGA1011/assignments/file_format.html">File Format Report Assignment</a> by next week’s class.
