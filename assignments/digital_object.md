@@ -1,5 +1,5 @@
 ---
-title: Lightning Talk: Digital Object
+title: Lightning Talk - Digital Object
 layout: default
 parent: Assignments
 nav_order: 6
