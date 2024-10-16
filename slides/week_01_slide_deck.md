@@ -1,3 +1,7 @@
+---
+marp: true
+---
+
 # Week 1 
 Introduction to Digital Archives
 
@@ -323,18 +327,15 @@ it's important to understand that when we are referring to an 8-bit versus a 16-
 
 # Binary -> Decimal
 
-| Binary value | Decimal value |
-| :-: | :-: |
-| 0000 0000 | 0 |
-| 0000 0001 | 1 |
-| 0000 0010 | 2 |
-| 0000 0011 | 3 |
-| 0000 0100 | 4 |
-| 0000 0101 | 5 |
-| 0000 0110 | 6 |
-| 0000 0111 | 7 |
-| 0000 1000 | 8 |
-| 0000 1001 | 9 |
+| Binary value | Decimal value |   | Binary value | Decimal value |
+| :-: | :-: | :-: | :-: | :-: |
+| 0000 0000 | 0 |   | 0000 0110 | 6 |
+| 0000 0001 | 1 |   | 0000 0111 | 7 |
+| 0000 0010 | 2 |   | 0000 1000 | 8 |
+| 0000 0011 | 3 |   | 0000 1001 | 9 |
+| 0000 0100 | 4 |   |  |
+| 0000 0101 | 5 |   |  |
+
 
 <!--presenter notes
 
@@ -358,7 +359,7 @@ How do we get from 0000 0111 to 7?
 | Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 
-__First question to ask__: How many ones (1) are there?__
+__First question to ask__: How many ones (1s) are there?
 
 <!--presenter notes 
 
@@ -457,10 +458,14 @@ Decimal value: 7
 | Weight | 2^7 | 2^6 | 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0 |
 | Value | 0 | 0 | 0 | 0 | 0 | 4 | 2 | 1 |
 
-- The 1 in Place 2 carries a weight of 2^2 or 4. We multiply 4 by 1 to get a total value of 4.
-- The 1 in Place 1 carries a weight of 2^1 or 2. We multiply by 1 to get a total value of 2.
-- The 1 in position 0 carries a weight of 2^0 or 1. We multiply by 1 to get a total value of 1
-- __Add together all values: 4 + 2 + 1 = 7__
+<!--presenter notes
+
+- The 1 in Place 0 carries a weight of 2^0 or 1. We multiply by 1 to get a Value of 1
+- The 1 in Place 1 carries a weight of 2^1 or 2. We multiply by 1 to get a Value of 2.
+- The 1 in Place 2 carries a weight of 2^2 or 4. We multiply 4 by 1 to get a Value of 4.
+- Add together all values: 4 + 2 + 1 = 7
+
+-->
 
 ---
 
@@ -569,48 +574,98 @@ So, whether you're reading a word, watching a video, or listening to music, it's
 <!--presenter notes
 Much of this timeline is influenced by Digital Preservation Management’s Timeline of Digital Technology and Preservation (https://www.dpworkshop.org/dpm-eng/timeline/timeline.html).
 -->
+---
+
+The following timeline will attempt to show:
+- Development of early technologies and their influence on the public record
+- How preservation concerns and policies influenced record-keeping
+- The gradual re-integration of digital technologies from government to domestic sphere
 
 ---
 
 ![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives3.jpg)
 
-<span style="color:#FFFFFF">Physical holes punched into a piece of paper told machines what to do\.</span>
+1880s: Physical holes punched into a piece of paper of could tell machines what to do.
 
----
+<!--presenter notes
 
 https://www.dpworkshop.org/dpm-eng/timeline/timeline.html
 
-Here, we are looking at a piece of physical paper containing an array of numbers. The paper is punched through with holes that correspond to what are essentially bits and bytes of information. Punch cards like this were used throughout numerous industries. Some of the earliest examples were punch cards that were used throughout the textile industry. Punch cards were encoded with information that corresponded to various warping and wefting. At its core, each hole in the card corresponds to a number, which the machine interprets into a pattern.
+Here, we are looking at a piece of card stock with an array of decimal numbers printed on it. The paper is punched through with holes that correspond to what are essentially bits and bytes of information. These demarcations were then inserted into and "read" by various machines.
 
-https://meridian.allenpress.com/american-archivist/article/58/2/182/23633/Punch-Card-Records-Precursors-of-Electronic
+Punch cards like this were used throughout numerous industries with the most famous examples being the Jacquard Loom. Looms would be loaded with punch cards, "that determine[d] which cords of the fabric warp should be raised for each pass of the shuttle."
+
+Similar to what we just learned about binary code, we again, have two possible states represented: warp up, or warp down, and further, the placement of the punch on the card which likely corresponded to a specific warp on the loom.
+
+See: https://www.computerhistory.org/storageengine/punched-cards-control-jacquard-loom/#:~:text=The%20Jacquard%20Loom%20is%20controlled,wide%20application%20in%20textile%20manufacturing.
+
+-->
+
+---
+<style scoped>
+img {
+  width: 80%;
+  object-fit: contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+![](img/64-NAD-264.jpg)
+
+<!--presenter notes
+
+
+
+-->
+
+---
 
 ![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives4.png)
 
-<span style="color:#FFFFFF">US National Archives mentions punch cards as part of the historic record\.</span>
+1939: US National Archives mentions punch cards as part of the historic record.
 
----
+<!--presenter notes 
 
 Source: https://meridian.allenpress.com/american-archivist/article/58/2/182/23633/Punch-Card-Records-Precursors-of-Electronic
 
-Punch cards were used in the late 19th century for census tabulation. Punch cards would, in fact, be used well into the mid-20th century, and incorporated into how some of the earliest computers read and interpreted information.
+Along with their usage in industry, punch cards were also used for data tabulation. Punch cards would, in fact, be used well into the mid-20th century, and incorporated into how some of the earliest computers read and interpreted information.
 
 Punch cards were recognized as carriers of information, and in the 1939 Records Disposition Act, punch cards were listed as a type of record eligible for preservation. The slide shows an excerpt from this Act, that lists punch cards alongside other record types such as sound recordings, papers, correspondence and others.
 
-![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives5.jpg)
-
-<span style="color:#FFFFFF">Construction of the 30\-ton ENIAC\, one of the first electronic computers\. </span>
+-->
 
 ---
 
-In 1940, we start to see the development of programmable computers. In the slide above we are looking at the Electronic Numerical Integrator and Computer, aka ENIAC, developed by the United States Army, and housed in Philadelphia, Pennsylvania. In the foreground of the photo is Betty Holberton, an American computer scientist who was one of the six original programmers of the ENIAC. The 1940s heralded the development of computing machines.
+![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives5.jpg)
+
+The 30-ton ENIAC, one of the first programmable computers.
+
+<!--presenter notes 
+
+In 1940, we start to see the development of programmable computers. In the slide above we are looking at the Electronic Numerical Integrator and Computer, aka ENIAC, developed by the United States Army, and housed in Philadelphia, Pennsylvania. In the foreground of the photo is Betty Holberton, an American computer scientist who was one of the six original programmers of the ENIAC.
 
 Take note of the plug boards you see in the photo on the left. These plug boards are how computations were programmed into the computer. They work in an essentially similar manner to punch cards; instead of holes in paper, you had cables going into boards that corresponded to numbers that the ENIAC could interpret into computations.
 
-![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives6.jpg)
-
-<span style="color:#FFFFFF">Magnetic core memory technology developed to encode binary data using magnetization\.</span>
+-->
 
 ---
+
+<style scoped>
+img {
+  width: 60%;
+  object-fit: contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+![Magnetic core memory technology developed to encode binary data using magnetization.](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives6.jpg)
+
+32 x 32 core memory plane
+
+<!--presenter notes
 
 Image source: Konstantin Lanzet - received per EMail Camera: Canon EOS 400D
 Core Memory Module – A 32 x 32 core memory plane storing 1024 bits (or 128 bytes) of data. The small black rings at the intersections of the grid wires, organized in four squares, are the ferrite cores.
@@ -619,30 +674,44 @@ CC BY-SA 3.0
 File: KL CoreMemory.jpg
 Created: 14 June 2009
 
-
 In 1949, Dr. An Wang from the Harvard University Laboratory in the United States invented magnetic core memory.
 
 Magnetic core memory works by subjecting a magnetic field to a magnetic-sensitive “core”. The core, in turn, could be magnetized in a certain direction. One direction would correspond to a 1, and in another direction correspond to a 0. So, instead of holes in paper cards or cables into punch boards, we are seeing magnetic field sensitive cores used to encode bits.
 
-The image you see in the slide shows a 32 x 32 core memory plane storing 1024 bits (or 128 bytes) of data. The small black rings at the intersections of the grid wires, organised in four squares, are the ferrite cores. This so-called “core memory” is one of the first instances of using magnetism to store data. We will see magnetism crop up again with the advent of hard disk drive and recording media later on. 
+The image you see in the slide shows a 32 x 32 core memory plane storing 1024 bits (or 128 bytes) of data. The small black rings at the intersections of the grid wires, organised in four squares, are the ferrite cores. This so-called “core memory” is one of the first instances of using magnetism to store data. We will see magnetism crop up again with the advent of hard disk drive and recording media later on.
 
-<span style="color:#FFFFFF">1950 Federal Records Act passed\, which includes a definition of the record as including “machine\-readable materials\.”</span>
+-->
 
 ---
+
+__1950__: Federal Records Act passed, which includes a definition of the record as including “machine-readable materials.”
+
+<!--presenter notes
 
 Computer technology became more compact and faster over the decades. In 1950, the Federal Records Act was passed, providing a legal framework for federal records management. The Act specifically cites “machine-readable materials” as part of the definition of the record, which is the first time we see machine-stored information cited at this level.
 
 The act has since been amended to meet modern circumstances. Most notably and recently the Presidential and Federal Records Act Amendments of 2014 was signed into law by President Obama, modernizing the Federal Records Act by expressly expanding the definition of federal records to include electronic records, which was the first change to the definition of "Federal record" since its initial enactment.
 
 More background on the motivation for this Act being passed can be found in a 1953 American Archivist article: https://www.jstor.org/stable/40289125
+-->
 
+---
 
+<style scoped>
+img {
+  width: 75%;
+  object-fit: contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
 
 ![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives7.jpg)
 
-<span style="color:#FFFFFF">IBM introduces first commercial secondary storage computer\, RAMAC\, that weighed a ton and required forklifts to move\. IBM touted its ability to “store the equivalent of 64\,000 </span>  <span style="color:#FFFFFF">[punched cards”\)\, the modern equivalent of 1 MB\.](https://en.wikipedia.org/wiki/Punched_card)</span>
+__1956__: IBM introduces first commercial secondary storage computer, RAMAC.
 
----
+<!--presenter notes
 
 The 1950s saw an explosion of computing and storage device technologies. The RAMAC machine you see pictured above -- RAMAC stands for “Random Access Method of Accounting and Control” -- was used in the accounting industry. The RAMAC was the first commercial computer to store memory using a moving-head hard disk drive, or HDD.
 
@@ -651,24 +720,29 @@ A hard disk drive works in a similar manner to the magnetic core memory example 
 
 Magnetic writing and reading of memory was a huge step in revolutionizing computers. Because this information could be written in a near-microscopic manner, computers started to get smaller and more compact.
 
+-->
+
+---
 
 ![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives8.png)
 
-__MARC__  \(MAchine Readable Catalog\) records  <span style="color:#FFFFFF">become</span>  the US standard for library cataloging\.
+__MARC__ (MAchine Readable Catalog) records become the US standard for library cataloging.
 
----
+<!--presenter notes
 
 The 1960s saw the development of smaller and smaller computers. In the library field, Machine Readable Catalog records, or MARC, becomes the US standard for library cataloging.
 
 https://www.dlib.org/dlib/may15/papadakis/05papadakis.print.html
 
-The first ARPANET node is installed at UCLA Network Measurement Center\.
-
-![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives9.png)
+-->
 
 ---
 
-1 min
+![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives9.png)
+
+The first ARPANET node is installed at UCLA Network Measurement Center.
+
+<!--presenter notes
 
 Image source: 
 CC BY-SA 4.0
@@ -679,17 +753,16 @@ The late 1960s heralded the first networked computers. Advanced Research Project
 
 In the chart above, you can see a map of ARPANET node map from the early 1970s.
 
-<span style="color:#5E5E5E"> __USENET emerges as a collection of user\-submitted messages on various subjects posted to servers on a worldwide network\.__ </span>
-
-<span style="color:#5E5E5E"> __Altair 8800\, one of the first personal “microcomputers” are sold through mail order catalogs\.__ </span>
-
-<span style="color:#FFFFFF">The Kurzweil Reading Machine combines omni\-font OCR\, flat\-bed scanners\, and text\-to\-speech synthesis to create the first print\-to\-speech reading machine for the blind\.</span>
-
-<span style="color:#FFFFFF"> __Ohio College Library Center \(OCLC\) established __ </span>  <span style="color:#FFFFFF">to provide a public cataloging network\.</span>
+-->
 
 ---
 
-3 minutes
+- USENET emerges as a collection of user-submitted messages on various subjects posted to servers on a worldwide network.
+- Altair 8800, one of the first personal “microcomputers” are sold through mail order catalogs.
+- The Kurzweil Reading Machine combines omni-font OCR, flat-bed scanners, and text-to-speech synthesis to create the first print-to-speech reading machine for the blind.
+- Ohio College Library Center (OCLC) established to provide a public, networked catalog.
+
+<!--presenter notes
 
 The 1970s saw an explosion of computing and networking technology, so I’ve cherry-picked some highlights from this decade. The first being in 1971, the establishing of the Ohio College Library Center or OCLC, which was a shared cataloging system for libraries.
 
@@ -699,21 +772,19 @@ In 1975, we see the release of what is considered the first commercially success
 
 We end the 1970s with the emergence of USENET in 1979. USENET is a precursor to online discussion forums, a precursor to Reddit and others. The domestication of computer technology, and the introduction of these technologies into libraries, herald the socializing potential of networked computing, for better or for worse.
 
+-->
 
+---
 
+The     National Endowment for the Humanities (NEH) funds the   Brittle Books Program   to microfilm (and eventually digitize) ~3 million of 19th-century books.
 
+Scott Armstrong (Executive Director of the National Security Archive) filed a Freedom of Information Act (FOIA) request to ensure that the contents of the White House electronic mail and records system, contained on magnetic backup tapes, would not be destroyed and subject to archival review before disposition.
 
+Sony and Philips introduce the first CD player.
 
+The National Information Systems Task Force (NISTF) develops the first two formally recognized archival description standards in the US: NISTF Data Elements Dictionary and USMARC AMC.
 
-<span style="color:#5E5E5E">The</span>  <span style="color:#FFFFFF"> </span>  <span style="color:#5E5E5E">National Endowment for the Humanities \(NEH\) funds the </span>  <span style="color:#5E5E5E"> __Brittle Books Program__ </span>  <span style="color:#5E5E5E"> to microfilm \(and eventually digitize\) ~3 million of 19th\-century books\.</span>
-
-<span style="color:#5E5E5E">Scott Armstrong \(Executive Director of the National Security Archive\) filed a Freedom of Information Act \(FOIA\) request to ensure that the contents of the White House electronic mail and records system\, contained on magnetic backup tapes\, would not be destroyed and subject to archival review before disposition\.</span>
-
-<span style="color:#FFFFFF">Sony and Philips introduce the first CD player\.</span>
-
-<span style="color:#FFFFFF">The National Information Systems Task Force \(NISTF\) develops the first two formally recognized archival description standards in the US: NISTF Data Elements Dictionary and USMARC AMC\.</span>
-
-<span style="color:#FFFFFF">Sony introduces the first 3½" floppy drives and diskettes\.</span>
+Sony introduces the first 3½" floppy drives and diskettes.
 
 ---
 
@@ -729,7 +800,7 @@ A year later, Scott Armstrong, Executive Director of the National Security Archi
 
 See: https://www.jstor.org/stable/40293774 and https://law.justia.com/cases/federal/district-courts/FSupp/821/761/1510466/
 
-__In December 1994\, the Research Libraries Group \(RLG\) and Commission on Preservation and Access \(CPA\) formed a Task Force on __  __Archiving of Digital Information__  __ with the main purpose of investigating what needed to be done to ensure long\-term preservation and continued access to the digital records\.__
+__In December 1994, the Research Libraries Group (RLG) and Commission on Preservation and Access (CPA) formed a Task Force on __  __Archiving of Digital Information__  __ with the main purpose of investigating what needed to be done to ensure long-term preservation and continued access to the digital records.__
 
 ---
 
@@ -742,21 +813,21 @@ This report specifically calls out the fact the threat of digital technologies i
 Source: https://www.clir.org/wp-content/uploads/sites/6/pub63watersgarrett.pdf
 
 
-<span style="color:#FFFFFF"> __Digital Library Federation \(DLF\) is formed\.__ </span>
+ __Digital Library Federation (DLF) is formed.
 
-<span style="color:#FFFFFF"> __National Digital Library Program \(NDLP\) established at Library of Congress\.__ </span>
+ __National Digital Library Program (NDLP) established at Library of Congress.
 
-<span style="color:#5E5E5E">The Mellon Foundation funds</span>  <span style="color:#5E5E5E"> __ Making of America \(MOA\) __ </span>  <span style="color:#5E5E5E">project\.</span>
+The Mellon Foundation funds   Making of America (MOA)   project.
 
-<span style="color:#5E5E5E"> __Dublin Core __ </span>  <span style="color:#5E5E5E">metadata schema is established by a working group\.</span>
+Dublin Core   metadata schema is established by a working group.
 
-<span style="color:#5E5E5E"> __Jeffery Rothenberg __ </span>  <span style="color:#5E5E5E">publishes </span>  <span style="color:#5E5E5E"> __“Ensuring the Longevity of Digital Information” __ </span>  <span style="color:#5E5E5E">in </span>  <span style="color:#5E5E5E"> _Scientific American_ </span>  <span style="color:#5E5E5E">\.</span>
+Jeffery Rothenberg   publishes   “Ensuring the Longevity of Digital Information”   in    _Scientific American_   .
 
-<span style="color:#FFFFFF">12 founding member institutions including NARA\, NYPL and LoC\.</span>
+12 founding member institutions including NARA, NYPL and LoC.
 
-<span style="color:#5E5E5E">This schema attempts to universalize how electronic resources are described on the web\.</span>
+This schema attempts to universalize how electronic resources are described on the web.
 
-<span style="color:#5E5E5E">Millions of late 19th\-century journals/monographs digitized\, resulting in ~15\,000 digital objects made available online\.</span>
+Millions of late 19th-century journals/monographs digitized, resulting in ~15,000 digital objects made available online.
 
 ---
 
@@ -774,9 +845,9 @@ Jeffery Rothenberg, a computer scientist for the RAND corporation, published an 
 
 Lastly, we have the Andrew W. Mellon Foundation funding the Making of America (MOA) Project, which digitized millions of pages of late 19th-century journals and monographs, and published approximately 15,000 digital objects online. Sources: http://collections.library.cornell.edu/moa_new/ and https://quod.lib.umich.edu/m/moagrp/
 
-<span style="color:#FFFFFF">The non\-profit </span>  <span style="color:#FFFFFF"> _Internet Archive_ </span>  <span style="color:#FFFFFF"> \(archive\.org\) was established “as a response to a rapidly growing problem—the disappearance of content from the World Wide Web\.”</span>
+The non-profit    _Internet Archive_    (archive.org) was established “as a response to a rapidly growing problem—the disappearance of content from the World Wide Web.”
 
-[Rackley\, Marilyn \(2010\) 'Internet Archive'\, Encyclopedia of Library and Information Sciences\, Third Edition\, 1: 1\, 2966 — 2976](https://ia800503.us.archive.org/34/items/internetarchive-encyclis/EncycLisInternetArchive.pdf)
+[Rackley, Marilyn (2010) 'Internet Archive', Encyclopedia of Library and Information Sciences, Third Edition, 1: 1, 2966 — 2976](https://ia800503.us.archive.org/34/items/internetarchive-encyclis/EncycLisInternetArchive.pdf)
 
 ---
 
@@ -789,21 +860,21 @@ Source: Rackley, Marilyn (2010) 'Internet Archive', Encyclopedia of Library and 
 
 
 
-The first version of  __E__  _X_  __tensible __  _M_  __arkup __  _L_  __anguage__  \(XML\) is released by the World Wide Web Consortium\.
+The first version of  __E__  _X_  __tensible __  _M_  __arkup __  _L_  __anguage__  (XML) is released by the World Wide Web Consortium.
 
-__\<item>__
+__<item>__
 
-__\<title>__  __Episode 3: Back it up__  __\</title>__
+__<title>__  __Episode 3: Back it up__  __</title>__
 
-__\<link>__  __https://ia801001\.us\.archive\.org/18/items/PreserveThisPodcastEpisode3/PreserveThisPodcast\_Episode3\.mp3__  __\</link>__
+__<link>__  __https://ia801001.us.archive.org/18/items/PreserveThisPodcastEpisode3/PreserveThisPodcast_Episode3.mp3__  __</link>__
 
-__	__  __\<pubDate>__
+__	__  __<pubDate>__
 
-__Thu\, 18 Apr 2019 09:00:00 \+0000__
+__Thu, 18 Apr 2019 09:00:00 +0000__
 
-__\</pubDate>__
+__</pubDate>__
 
-__\</item>__
+__</item>__
 
 ---
 
@@ -824,9 +895,9 @@ Source: http://www.dlib.org/dlib/february05/vannispen/02vannispen.html
 
 Encoded Archival Description (EAD) originated at the 1993 Society of American Archivists annual meeting in New Orleans and was headed by Daniel Pitti at the University of California, Berkeley. The project's goal was to create a data standard for describing archives, similar to the MARC standards for describing bibliographic materials. The initial EAD Version 1.0 was released in the fall of 1998. Such a standard enables archives, museums, libraries, and manuscript repositories to list and describe their holdings in a manner that would be machine-readable and therefore easy to search, maintain and exchange. EAD was released as XML-compliant, meaning, you could write a machine-readable EAD using XML and express hierarchical relationships between various finding aid components. This is an important digital archives development. Before this, finding aids were generally either made available to patrons as paper or Word documents, and MARC records were too flat to be able to encode these complex hierarchies.
 
-__Making of America II \(MOA2\) Project__
+__Making of America II (MOA2) Project__
 
-__Developed standards for creating and encoding digital representations of archival objects\.__
+__Developed standards for creating and encoding digital representations of archival objects.__
 
 ---
 
@@ -838,7 +909,7 @@ Funded by the DLF, the Making of America II (MOA2) Project served as a testbed f
 
 The report put forth a recommendation for what it referred to as Standard Generalized Markup Language (SGML) that served as the basis for the Metadata Encoding and Transmission Standard (METS) standard widely used across digital repositories today. Additionally, the project put forth object modeling frameworks, which result in being able to produce complex digital objects (e.g. a book = one object made up of many image files)
 
-<span style="color:#FFFFFF"> __National Digital Information Infrastructure and Preservation Program \(NDIIPP\)__ </span>  <span style="color:#FFFFFF"> established by the Library of Congress\. This leads to the development of programs such as </span>  <span style="color:#FFFFFF"> __Lots of Copies Keep Stuff Safe__ </span>  <span style="color:#FFFFFF"> \(LOCKSS\)\.</span>
+ __National Digital Information Infrastructure and Preservation Program (NDIIPP)   established by the Library of Congress. This leads to the development of programs such as    __Lots of Copies Keep Stuff Safe   (LOCKSS).
 
 ---
 
@@ -852,7 +923,7 @@ The NDIIPP funded several important preservation initiatives including the famou
 
 ![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives11.png)
 
-<span style="color:#FFFFFF"> __Northeast__ </span>  __ __  <span style="color:#FFFFFF"> __Document Conservation Center \(NEDCC\) __ </span>  <span style="color:#FFFFFF">publishes its </span>  <span style="color:#FFFFFF"> __Handbook for Digital Projects__ </span>
+ __Northeast  __ __   __Document Conservation Center (NEDCC)   publishes its    __Handbook for Digital Projects
 
 ---
 
@@ -865,7 +936,7 @@ https://www.erecordsusa.com/book-archival-services.html
 
 ![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives12.png)
 
-<span style="color:#FFFFFF">Internet Archive’s </span>  <span style="color:#FFFFFF"> _Wayback Machine_ </span>  <span style="color:#FFFFFF"> provides public access to archived versions of the websites it has been crawling since 1996\.</span>
+Internet Archive’s    _Wayback Machine_    provides public access to archived versions of the websites it has been crawling since 1996.
 
 ---
 
@@ -875,7 +946,7 @@ The Internet Archive releases the The Wayback Machine, which had been “crawlin
 
 ![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives13.png)
 
-__International Standards Organization \(ISO\) formally adopts the __  __Open Archives Information System \(OAIS\) __  __as the standard model for creating and maintaining a digital repository over time\. __
+__International Standards Organization (ISO) formally adopts the __  __Open Archives Information System (OAIS) __  __as the standard model for creating and maintaining a digital repository over time. __
 
 ---
 
@@ -888,7 +959,7 @@ Source: https://www.researchgate.net/figure/OAIS-Functional-Entities-from-Refere
 
 ![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives14.png)
 
-<span style="color:#FFFFFF"> __PRONOM__ </span>  <span style="color:#FFFFFF">\, an online registry of file formats and software products\, is developed by the Digital Preservation Department of the UK National Archives\.</span>
+ __PRONOM  , an online registry of file formats and software products, is developed by the Digital Preservation Department of the UK National Archives.
 
 ---
 
@@ -901,7 +972,7 @@ Source: https://www.nationalarchives.gov.uk/PRONOM/Default.aspx
 
 ![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives15.png)
 
-<span style="color:#FFFFFF"> _Google Books_ </span>  <span style="color:#FFFFFF"> project launches to digitize and make available the holdings of large research institutions online\. The project is essentially shuttered in 2017 after decades\-long legal battles\.</span>
+ _Google Books_    project launches to digitize and make available the holdings of large research institutions online. The project is essentially shuttered in 2017 after decades-long legal battles.
 
 ---
 
@@ -912,9 +983,9 @@ In 2002, Google Books project launches to digitize and make available the holdin
 
 ![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives16.png)
 
-<span style="color:#FFFFFF">RLG\, OCLC and NARA joint task force establishes the </span>  _Trustworthy Repositories Audit & Certification_  \(TRAC\) metric\.
+RLG, OCLC and NARA joint task force establishes the   _Trustworthy Repositories Audit & Certification_  (TRAC) metric.
 
-<span style="color:#FFFFFF">Image credit: Illustration by Jørgen Stamp digitalbevaring\.dk CC BY 2\.5 Denmark</span>
+Image credit: Illustration by Jørgen Stamp digitalbevaring.dk CC BY 2.5 Denmark
 
 ---
 
@@ -923,7 +994,7 @@ In 2002, Google Books project launches to digitize and make available the holdin
 In 2003, a RLG, OCLC and NARA joint task force established the Trustworthy Repositories Audit & Certification (TRAC) metric. This metric provides a framework through which an institution may be deemed a so-called “trustworthy” digital repository. You should know that there are only a handful of collecting institutions that can actually say they are TRAC certified. Getting certified is a lengthy and expensive process.
 
 
-<span style="color:#FFFFFF"> __PREMIS__ </span>   <span style="color:#FFFFFF">\(PREservation Metadata Implementation Strategies\) version 1\.0 data dictionary is released as the framework for metadata on preservation activities\.</span>
+ __PREMIS   (PREservation Metadata Implementation Strategies) version 1.0 data dictionary is released as the framework for metadata on preservation activities.
 
 ![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives17.png)
 
@@ -935,19 +1006,19 @@ In 2005, the first version of the PREservation Metadata Implementation Strategie
 
 Source (for information and screen capture): https://www.loc.gov/standards/premis/understanding-premis.pdf
 
-<span style="color:#FFFFFF">The term </span>  <span style="color:#FFFFFF"> _linked data_ </span>  <span style="color:#FFFFFF"> is coined by Tim Berners\-Lee\, inventor of the World Wide Web\.</span>
+The term    _linked data_    is coined by Tim Berners-Lee, inventor of the World Wide Web.
 
-<span style="color:#00FFFF"> __bell hooks__ </span>
+<span style="color:#00FFFF"> __bell hooks
 
-<span style="color:#00FFFF">https://en\.wikipedia\.org/wiki/Bell\_hooks</span>
+<span style="color:#00FFFF">https://en.wikipedia.org/wiki/Bell_hooks
 
-<span style="color:#00FFFF"> __Hopkinsville__ </span>
+<span style="color:#00FFFF"> __Hopkinsville
 
-<span style="color:#00FFFF">https://en\.wikipedia\.org/wiki/</span>
+<span style="color:#00FFFF">https://en.wikipedia.org/wiki/
 
-<span style="color:#00FFFF">Hopkinsville\,\_Kentucky</span>
+<span style="color:#00FFFF">Hopkinsville,_Kentucky
 
-<span style="color:#00FFFF">https://schema\.org/birthPlace</span>
+<span style="color:#00FFFF">https://schema.org/birthPlace
 
 ---
 
@@ -963,7 +1034,7 @@ Diagram inspired by https://ontola.io/blog/what-is-linked-data/
 
 ![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives18.png)
 
-<span style="color:#FFFFFF"> __ePADD__ </span>   <span style="color:#FFFFFF">begins initial work to establish a software for archiving email\.</span>
+ __ePADD   begins initial work to establish a software for archiving email.
 
 ---
 
@@ -975,7 +1046,7 @@ https://library.stanford.edu/projects/epadd
 
 ![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives19.png)
 
-<span style="color:#FFFFFF">The joint\-led </span>  <span style="color:#FFFFFF"> __BitCurator Project __ </span>  <span style="color:#FFFFFF">begins\, to develop a software application that can perform various digital forensics activities\.</span>
+The joint-led    __BitCurator Project   begins, to develop a software application that can perform various digital forensics activities.
 
 ---
 
@@ -987,7 +1058,7 @@ Bitcurator it addressed two fundamental needs for collecting institutions absent
 
 ![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives20.png)
 
-<span style="color:#FFFFFF"> _The Digital Preservation Network \(DPN\)_ </span>  <span style="color:#FFFFFF"> is founded as a collaborative use of technology\, expertise\, and financial resources to create a robust and enduring digital preservation service\. It sunsets in 2018\.</span>
+ _The Digital Preservation Network (DPN)_    is founded as a collaborative use of technology, expertise, and financial resources to create a robust and enduring digital preservation service. It sunsets in 2018.
 
 ---
 
@@ -999,7 +1070,7 @@ The Digital Preservation Network (DPN) is founded as a collaborative use of tech
 
 ![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives21.png)
 
-<span style="color:#FFFFFF"> _Digital Public Library of America_ </span>  <span style="color:#FFFFFF"> \(DPLA\)\, the US’s aggregator\, is founded as a project aimed at providing public access to digital holdings in order to create a large\-scale public digital library</span> \.
+ _Digital Public Library of America_    (DPLA), the US’s aggregator, is founded as a project aimed at providing public access to digital holdings in order to create a large-scale public digital library .
 
 ---
 
@@ -1010,7 +1081,7 @@ The Digital Public Library of America, or DPLA, was established in 2012. The DPL
 https://www.flickr.com/photos/dpla/6987082108
 https://dp.la/
 
-<span style="color:#FFFFFF">Building on nearly three decades of projects\, workflows and standards\, there is movement to better align standards\, an ever increasing need to develop accessible workflows and tools for digital accession\, ingest\, preservation and access\, and nearly 20 years worth of digital projects and collections that require custodianship\.</span>
+Building on nearly three decades of projects, workflows and standards, there is movement to better align standards, an ever increasing need to develop accessible workflows and tools for digital accession, ingest, preservation and access, and nearly 20 years worth of digital projects and collections that require custodianship.
 
 ---
 
@@ -1018,11 +1089,11 @@ https://dp.la/
 
 __Next week:__
 
-_[https://digital\-archives\.github\.io/HISTGA1011/](https://digital-archives.github.io/HISTGA1011/)_
+_[https://digital-archives.github.io/HISTGA1011/](https://digital-archives.github.io/HISTGA1011/)_
 
-__Sign up using this Google Form for a file format for the by the start of class\.__
+__Sign up using this Google Form for a file format for the by the start of class.__
 
-__Post your pre\-class reading reactions to Brightspace by 3:30pm today\.__
+__Post your pre-class reading reactions to Brightspace by 3:30pm today.__
 
 __Weekly activity: None this week__
 
@@ -1030,5 +1101,5 @@ __Weekly activity: None this week__
 
 _Final questions or reflections?_
 
-Email me at mary\.kidd@nyu\.edu\.
+Email me at mary.kidd@nyu.edu.
 
