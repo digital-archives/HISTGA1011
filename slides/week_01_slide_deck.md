@@ -98,28 +98,23 @@ A __digital object__ is a complex entity composed of __bitstreams__, necessitati
 Let's unpack this definition by thinking a bit about digital objects we encounter through our life and work.
 
 -->
-
 ---
 
-# Question for Class
-
-What are some examples of digital objects that you know of, or have worked with, in your job, or life?
-
-Answer in the [Airtable Form](https://airtable.com/appX8QYrNyTDJDGmg/pag5PKEZC1XAvye3O/form)
-
----
 # The Complex Relationship of Digital Objects
 
-**Digital Object**  
-(e.g., document, media, software)  
-↓  
-**Requires**  
-Software, Hardware, Emulation, Specialized Knowledge  
-↓  
-**Maintains**  
-Accessibility, Preservation  
-↓  
-**Failure to Maintain**  
+**Digital Object** (e.g., document, media, software)
+↓
+**Requires Multiple Layers of Technology**
+
+Software: Libraries, Plug-ins, Dependencies
+Hardware: Firmware, Drivers, Power Supply
+Machines/Devices: Vintage Systems, Specialized Parts, ROM Files, System Specs
+Knowledge: Documentation, Training, Communities
+↓
+**Maintains**
+Accessibility, Preservation
+↓
+**Failure to Maintain**
 → Obsolescence, Inaccessibility, Data Loss
 
 <!-- 
@@ -129,6 +124,19 @@ Digital objects encapsulate various forms of digital content, such as documents,
 All digital objects, whether it's a single file, or an entire application, will require specialized software, hardware, emulation, specialized knowledge, or one or all of these things, to faithfully render and understand, ensuring their long-term accessibility and preservation.
 
 -->
+
+---
+
+# Activity
+
+1. **Identify a Digital Object**  
+   Think of a **digital object** you have encountered in your professional, creative, or academic work.
+
+2. **Analyze Its Relationships**  
+   Consider how this object interacts with **software, hardware, emulation,** and **specialized knowledge**.
+
+3. **Submit Your Analysis**  
+   Use [this Airtable Form](https://airtable.com/appX8QYrNyTDJDGmg/pag5PKEZC1XAvye3O/form) to describe the relationships.
 
 ---
 
@@ -152,7 +160,7 @@ And this dependency on intermediaries presents a risk. What happens when the sof
 
 Can you think of an example from your life or work where you use a sequence of numbers to encode something?
 
-I'll start: A zip code
+Example: A US zip code encodes geographic areas using 5 numbers.
 
 <!-- presenter notes
 
@@ -190,7 +198,8 @@ Computers, true to their name, are machines primarily designed to carry out comp
 
 ---
 
-# 0 1 2 3 4 5 6 7 8 9
+# Base-10
+## 0 1 2 3 4 5 6 7 8 9
 
 <!-- presenter notes
 
@@ -206,7 +215,11 @@ The second thing to know about a base-10 decimal system is that it uses number p
 
 <!-- presenter notes
 
-Therefore, when we write out a ten, we don't have a "base value" that represents ten. Instead, we move the 1 over left to what is known as the "tenths" place, and combine that with the "0" right next to it, in the "ones" place. Combined, we know these two numbers to represent 10.
+Therefore, when we write out a ten, we don't have a "base value" that represents ten, like we do with a 9 or a 4.
+
+To represent 10, we move the 1 over left from the "ones" place to the "tenths" place, and restart the 1s place to 0.
+
+Combined, we know that 1 proceeded by a 0 represents 10.
 
 -->
 
@@ -215,7 +228,9 @@ Therefore, when we write out a ten, we don't have a "base value" that represents
 # 100
 
 <!-- presenter notes
-When we go up one hundred values, we again, bump our 1 over one more place to the left, and so on. Each new "place" represents an increment of 10 "to the power of" the placement designation.
+When we go up one hundred values, we again, bump our 1 over one more place to the left, to the one-hundredths place.
+
+Each new "place" represents an increment of 10 "to the power of" the placement designation.
 -->
 
 ---
@@ -224,9 +239,9 @@ When we go up one hundred values, we again, bump our 1 over one more place to th
 
 <!-- presenter notes 
 
-In a base-10 decimal system, we use position to determine a value. So here, we have four individual decimal values, 1, 2, 0 and 0. We know that this represents “1 thousand, two hundred” because the 1 is in the “thousandths” place, which we know to be four positions left from the very right. And to sometimes make base-10 numbers more readable, we'll place a convenient comma to group together three places.
+We know that this represents “1 thousand, two hundred” because the 1 is in the “thousandths” place, which we know to be four positions left from the very right. And to sometimes make base-10 numbers more readable, we'll place a  comma to group placement groups in threes.
 
-Binary works similarly in that we use bits value and their positions to determine their overall value, but it works in a slightly different manner, which we’ll explore in a bit (joke intended!)
+Binary works similarly in that we use both a decimal value (either a 1 or a 0), and place, to determine their overall value. It's pretty much the same system as base-10, except we are working with 0s and 1s, instead of 0-9.
 
 -->
 
@@ -234,13 +249,15 @@ Binary works similarly in that we use bits value and their positions to determin
 
 # Definition: Byte
 
-A __byte__ is a discrete-length grouping of bits.
+A __byte__ is a discrete-length grouping of __bits__ (a bit is a single binary value, i.e. a 1 or a 0).
 
-__Example: 00000111__
+__Example: 0000 0111__
 
-This byte has a discrete length of 8.
+This byte has a length of 8.
 
 A byte's length can determine how many distinct byte values can be represented.
+
+Similar to adding a comma to a base-10 number, we can group bytes in groups of 4 to make the number more readable.
 
 <!-- presenter notes
 
@@ -255,13 +272,13 @@ https://www.techtarget.com/whatis/definition/binary#:~:text=In%20mathematics%20a
 
 ---
 
-__00000111__
+Byte length can be used to determine the total number of values it can represent.
 
-An 8-bit system can store up to 256 values.
+An 8-bit length number can represent up to 256 values.
 
 Why 256?
-- Each bit represents 1 of 2 values (A base-2 system can only have two possible values: 1 or 0)
-- This byte has a length of 8 values. So, the total number of values can be determined by "raising" 2 possible bit values to the power of 8 possible bit values (2^8). This looks like:
+- Each bit represents 1 of 2 values (A base-2 system can only have two possible bit values: 1 or 0)
+- This byte has a length of 8 values. So, the total number of values can be determined by "raising" 2 possible bit values (1 or 0) to the power of an 8-bit byte length (2^8). This looks like:
 
 ```
 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 
@@ -285,9 +302,9 @@ To calculate how many different combinations of 8 1s and 0s, we raise the number
 
 # Question: How many possible byte values are there in a __16-bit__ system?
 
-Hint:
-* Number of possible values: 2
-* Length of byte: 16
+To determine this:
+* Determine number of possible bit values: 2
+* Determine length of byte: 16
 * Raise 2 to the power of 16 (2^16)
 
 ---
@@ -308,13 +325,25 @@ A 16-bit system can be calculated by raising the number of possible values (2) t
 ```
 ---
 
-![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives0.png)
+<style scoped>
+img {
+  max-height: 105vh; /* 80% of the viewport height */
+  object-fit: contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+  margin-top: 0;
+}
+</style>
 
-Example of an 8-bit system: Nintendo Entertainment System (NES) gaming console from the 1980s
+![Example of an 8-bit system: Nintendo Entertainment System (NES) gaming console from the 1980s.](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives0.png)
+
+Example of an 8-bit system: Nintendo Entertainment System (NES) gaming console from the 1980s.
 
 ---
 
-![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives1.gif)
+![Side-by-side animated GIF comparison of an 8-bit system, versus a 16-bit system. The 16-bit system shows more color, texture, and detail.](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives1.gif)
 
 <!-- presenter notes
 
@@ -576,10 +605,8 @@ Much of this timeline is influenced by Digital Preservation Management’s Timel
 -->
 ---
 
-The following timeline will attempt to show:
-- Development of early technologies and their influence on the public record
-- How preservation concerns and policies influenced record-keeping
-- The gradual re-integration of digital technologies from government to domestic sphere
+# In-Class Activity
+ 
 
 ---
 
@@ -600,8 +627,39 @@ Similar to what we just learned about binary code, we again, have two possible s
 See: https://www.computerhistory.org/storageengine/punched-cards-control-jacquard-loom/#:~:text=The%20Jacquard%20Loom%20is%20controlled,wide%20application%20in%20textile%20manufacturing.
 
 -->
+---
+
+<style scoped>
+img {
+  max-height: 120vh; /* 80% of the viewport height */
+  object-fit: contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+  margin-top: 0;
+}
+</style>
+
+![Image showing the charred remains of the 1890 United States census records](img/scientific-american-cover-census-with-punchcards.png)
+
+<!-- presenter notes
+
+Here is an image from an 1890 issue of Scientific American, depicting workers processing data for the U.S. Census. The 1890 census was the first census that involved computers to tabulate data.
+
+A few captions mention "enumerators"—these were the workers responsible for gathering census data. Enumerating referred to the act of going door-to-door to collect information, such as names, ages, birthplaces, occupations, and other personal details from each household.
+
+We also see captions referencing "tabulating machines", which highlight a major innovation of the time—Hollerith’s Tabulating Machine. These machines worked with punch cards. Each card had a set of holes punched in it, and these holes represented different categories of information—for example, age or marital status.
+
+To process the cards, workers would place them on the machine, and it functioned like a sort of panini press. One side of the press had an array of wires, one wire for each possible punch hole on the card. The other side had pools of mercury. When the machine pressed down, if a wire passed through a hole, it dipped into the mercury pool, completing an electrical circuit.
+
+That electric signal triggered a corresponding dial on the machine. Each dial counted a specific category, like the number of people aged 30-40. As the wire passed through the card and touched the mercury, the dial would advance by one count.
+
+What’s fun about learning about these older computing machines is that they make the connection between the physical and digital worlds much more tangible. In many ways, they worked exactly like what we learned about binary. The punch cards were essentially a physical representation of binary data—either a hole (1) or no hole (0). The position of the hole on the card represented a different category or variable, much like the placement of digits in binary tells us the value of the number.
+-->
 
 ---
+
 <style scoped>
 img {
   width: 80%;
@@ -611,11 +669,15 @@ img {
   margin-right: auto;
 }
 </style>
-![](img/64-NAD-264.jpg)
+![Image showing the charred remains of the 1890 United States census records](img/64-NAD-264.jpg)
 
 <!--presenter notes
 
+Finding aid: https://www.archives.gov/research/census/1890
 
+archives.gov article: https://www.archives.gov/publications/prologue/1996/spring/1890-census
+
+Tragically, in 1896, right before the results of the 1890 census were published, a fire and subsequent water damage destroyed a vast amount of the census data gathered in 1890. There is a great article on archives.gov addressing how this happened, and what came about (basically, establishing an official US Census Bureau Office, and ramping up storage conditions, including fireproofing where records like this were kept.)
 
 -->
 
@@ -629,7 +691,7 @@ img {
 
 Source: https://meridian.allenpress.com/american-archivist/article/58/2/182/23633/Punch-Card-Records-Precursors-of-Electronic
 
-Along with their usage in industry, punch cards were also used for data tabulation. Punch cards would, in fact, be used well into the mid-20th century, and incorporated into how some of the earliest computers read and interpreted information.
+Punch cards would be used well into the mid-20th century, and incorporated into how some of the earliest computers read and interpreted information.
 
 Punch cards were recognized as carriers of information, and in the 1939 Records Disposition Act, punch cards were listed as a type of record eligible for preservation. The slide shows an excerpt from this Act, that lists punch cards alongside other record types such as sound recordings, papers, correspondence and others.
 
@@ -661,9 +723,8 @@ img {
 }
 </style>
 
-![Magnetic core memory technology developed to encode binary data using magnetization.](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives6.jpg)
+![Image of a 32 x 32 core memory plane, developed by Dr. An Wang in 1949.](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives6.jpg)
 
-32 x 32 core memory plane
 
 <!--presenter notes
 
@@ -684,11 +745,25 @@ The image you see in the slide shows a 32 x 32 core memory plane storing 1024 bi
 
 ---
 
-__1950__: Federal Records Act passed, which includes a definition of the record as including “machine-readable materials.”
+<style scoped>
+img {
+  max-height: 100vh; /* 80% of the viewport height */
+  object-fit: contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+  margin-top: 0;
+}
+</style>
+
+![Image of a 32 x 32 core memory plane, developed by Dr. An Wang in 1949.](img/poster-records-mgt-518154.jpg)
+
+__1950__: Federal Records Act passed. Later amendments expand the definition of a record, whose definition is largely rooted in paper-based materials, to include “machine-readable materials.”
 
 <!--presenter notes
 
-Computer technology became more compact and faster over the decades. In 1950, the Federal Records Act was passed, providing a legal framework for federal records management. The Act specifically cites “machine-readable materials” as part of the definition of the record, which is the first time we see machine-stored information cited at this level.
+Computer technology became more compact and faster over the decades. In 1950, the Federal Records Act was passed, providing a legal framework for federal records management. Later amendments to The Act clarify the definition of a record to include “machine-readable materials”.
 
 The act has since been amended to meet modern circumstances. Most notably and recently the Presidential and Federal Records Act Amendments of 2014 was signed into law by President Obama, modernizing the Federal Records Act by expressly expanding the definition of federal records to include electronic records, which was the first change to the definition of "Federal record" since its initial enactment.
 
@@ -726,7 +801,7 @@ Magnetic writing and reading of memory was a huge step in revolutionizing comput
 
 ![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives8.png)
 
-__MARC__ (MAchine Readable Catalog) records become the US standard for library cataloging.
+__1968__: MARC (MAchine Readable Catalog) records become the US standard for library cataloging.
 
 <!--presenter notes
 
@@ -1085,15 +1160,11 @@ Building on nearly three decades of projects, workflows and standards, there is 
 
 ---
 
-1 min
-
 __Next week:__
 
 _[https://digital-archives.github.io/HISTGA1011/](https://digital-archives.github.io/HISTGA1011/)_
 
 __Sign up using this Google Form for a file format for the by the start of class.__
-
-__Post your pre-class reading reactions to Brightspace by 3:30pm today.__
 
 __Weekly activity: None this week__
 
