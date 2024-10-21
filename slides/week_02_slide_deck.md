@@ -207,7 +207,7 @@ Representation Information is the information that makes sense of the bitstream.
 
 -->
 
---
+---
 
 # There are two types of Representation Information:
 ## 1. Structure Information
@@ -268,7 +268,8 @@ img {
   margin-top: 0;
 }
 </style>
-![](img/week_02_slide_deck3.png)
+
+![Image of the lighting designer, Dennis Parichy, on set.](img/week_02_slide_deck3.png)
 
 <!--presenter notes
 
@@ -312,13 +313,11 @@ Pollard, Collette. "Set Design for DON’T TELL ME I CAN’T FLY." 2011. Digital
 
 # Definition: Consumers
 
-__Consumers__ can be described as the users of the OAIS.
-
----
+__Consumers__ are the the users of the OAIS.
 
 # Definition: Designated Community
 
-__A Designated Community__ is a special type of consumer that describes the primary users or people accessing the information preserved within the OAIS.
+__A Designated Community__ is a special type of __consumer__ that describes the primary users or people accessing the information preserved within the OAIS.
 
 <!--presenter notes
 
@@ -344,31 +343,41 @@ __A Knowledge Base__ is a set of information, incorporated by a person or system
 
 The OAIS must understand the knowledge base of its designated community to understand the minimum representation information that must be maintained.
 
----
-
 <!--presenter notes
 
 Designated communities have what’s known as a specific knowledge base. A knowledge base is a set of information, incorporated by a person or system, that allows them to understand the received information. An OAIS should incorporate what it knows about a designated community’s knowledge base in order to understand the minimum representation information that must be maintained for whatever it is preserving to make sense both in the immediate and long-term.
 
 -->
-
 ---
 
-![](img/week_02_slide_deck6.jpg)
+# Activity: Forme of Cury
 
-__Mini Activity__ 
+<table>
+  <tr>
+    <td>
+      <img src="img/week_02_slide_deck6.jpg" alt="Page from Forme of Cury, a cookbook from the Late Middle Ages. Part of the Rylands Medieval Collection. It was written in Middle English.">
+      <a href="https://luna.manchester.ac.uk/luna/servlet/detail/Man4MedievalVC~4~4~994591~289805:Drepe?sort=reference_number%2Cimage_sequence_number%2Cparent_work_title%2Cdate_created&qvq=q:forme%20of%20cury;sort:reference_number%2Cimage_sequence_number%2Cparent_work_title%2Cdate_created;lc:Man4MedievalVC~4~4&mi=37&trs=191" target="_blank">Link to University of Manchester's Digital Collections</a>
+    </td>
+    <td valign="top">
+      <strong>Details:</strong>
+      <ul>
+        <li>Filename: Forme of Cury-MS 7-18v.jpg</li>
+        <li>Digitized from a Late Middle Ages cookbook. Part of the Rylands Medieval Collection. Written in Middle English.</li>
+      </ul>
+      </td>
+      <td valign="top">
+      <p>For the entire digitized manuscript, what might be the:</p>
+      <ul>
+        <li>Content information</li>
+        <li>Structure information</li>
+        <li>Representation information</li>
+        <li>Designated community</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
-Page from Forme of Cury, a cookbook from the Late Middle Ages. Part of the Rylands Medieval Collection. It was written in Middle English.   __Determine:__ 
-
-__content information__
-
-__representation__ information__
-
-__designated community__
-
-Forme of Cury-MS 7-18v.jpg
-
----
+<!--presenter notes
 
 Source: https://en.wikipedia.org/wiki/JPEG_File_Interchange_Format
 
@@ -378,14 +387,14 @@ On the slide we have a screen capture of a scanned page of the Forme of Cury, a 
 
 Based on the definitions we just reviewed in the previous slides for Data Object and Representation Information, take a guess what might constitute, in an OAIS, its content information, the data object, the designated community and its knowledge base, and the representation information? Take a minute to think about it and write down your thoughts somewhere if you need to.
 
-Would anyone like to share their findings with the class?
+Suggested answers:
+* Data Object: the bitstream of the scanned page.
+* Structural information includes the image format type (JPEG).
+* Other representation information may include some sort of text transcription derived from optical character recognition (OCR) technology that translates the cookbook into modern English.
 
-An answer (this is not the right answer, just a suggestion):
+-->
 
-Data object: the bitstream of the scanned page of text.
-The system may require semantic information to convey that this book is written in an obsolete language.
-Structural information may include detail to render the bitstream into pixels, or even optical character recognition (OCR) technologies that can transcribe old English handwriting into raw text. 
-Other representation information may include some sort of text transcription that translates the cookbook into modern English. This may depend on the repository’s designated community’s knowledge base. If the knowledge base is narrow (say, researchers who are skilled in reading/translating old english texts) then this may not be necessary. However, if the designated community is broad (say, the general public), then this sort of information may be necessary.
+---
 
 __OAIS Functional Model__
 
