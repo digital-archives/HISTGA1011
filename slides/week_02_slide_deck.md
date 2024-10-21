@@ -356,7 +356,7 @@ Designated communities have what’s known as a specific knowledge base. A knowl
   <tr>
     <td>
       <img src="img/week_02_slide_deck6.jpg" alt="Page from Forme of Cury, a cookbook from the Late Middle Ages. Part of the Rylands Medieval Collection. It was written in Middle English.">
-      <a href="https://luna.manchester.ac.uk/luna/servlet/detail/Man4MedievalVC~4~4~994591~289805:Drepe?sort=reference_number%2Cimage_sequence_number%2Cparent_work_title%2Cdate_created&qvq=q:forme%20of%20cury;sort:reference_number%2Cimage_sequence_number%2Cparent_work_title%2Cdate_created;lc:Man4MedievalVC~4~4&mi=37&trs=191" target="_blank">Link to University of Manchester's Digital Collections</a>
+      <a href="https://luna.manchester.ac.uk/luna/servlet/detail/Man4MedievalVC~4~4~994591~289805:Drepe?sort=reference_number%2Cimage_sequence_number%2Cparent_work_title%2Cdate_created&qvq=q:forme%20of%20cury;sort:reference_number%2Cimage_sequence_number%2Cparent_work_title%2Cdate_created;lc:Man4MedievalVC~4~4&mi=37&trs=191" target="_blank">Digital Collections Link</a>
     </td>
     <td valign="top">
       <strong>Details:</strong>
@@ -366,12 +366,12 @@ Designated communities have what’s known as a specific knowledge base. A knowl
       </ul>
       </td>
       <td valign="top">
-      <p>For the entire digitized manuscript, what might be the:</p>
+      <p>For the entire digitized manuscript, what is the:</p>
       <ul>
-        <li>Content information</li>
-        <li>Structure information</li>
+        <li>Data object</li>
         <li>Representation information</li>
-        <li>Designated community</li>
+        <li>Structure information</li>
+        <li>Users/Designated community</li>
       </ul>
     </td>
   </tr>
