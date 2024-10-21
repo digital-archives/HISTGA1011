@@ -33,11 +33,23 @@ Source for quote: Lee, Christopher A., and Tibbo, Helen. “Where’s the Archiv
 
 ---
 
-https://muse.jhu.edu/article/223247
+<style scoped>
+img {
+  max-height: 105vh; /* 80% of the viewport height */
+  object-fit: contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+  margin-top: 0;
+}
+</style>
 
-![](img/week_02_slide_deck0.png)
+![Digital Repository Standards Development](img/week_02_slide_deck0.png)
 
 <!--presenter notes
+
+Diagram from: https://muse.jhu.edu/article/223247
 
 This diagram provides a timeline for some of the earliest developed digital preservation standards. You’ll see the OAIS Reference Model over near the top-right. You can see how it has been referenced by subsequent frameworks since it became an official ISO standard in 2003. We will not be going through all the frameworks OAIS influenced, but will look at one in particular: ISO 16363, aka the “Audit and certification of trustworthy digital repositories” standard, sometimes known just as “TRAC”, which stands for “Trustworthy Repositories Audit & Certification”.
 
@@ -96,14 +108,28 @@ The OAIS also does not address how to collaborate, coordinate or implement the m
 
 -->
 
-![](img/week_02_slide_deck1.png)
+---
 
-# Text: Reference Model for an Open Archival Information System (OAIS)
-—
-
-__The__  __Reference Model for an Open Archival Information System__ __ document was developed for use in facilitating a broad, discipline- independent consensus on the requirements for an archive or repository to provide long-term preservation of digital information.__
+<style scoped>
+img {
+  max-height: 105vh; /* 80% of the viewport height */
+  object-fit: contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+  margin-top: 0;
+}
+</style>
+![Cover of the Reference Model for an Open Archival Information System (OAIS)](img/week_02_slide_deck1.png)
 
 ---
+
+# Text: Reference Model for an Open Archival Information System (OAIS)
+
+__The Reference Model for an Open Archival Information System__ was developed for use in facilitating a broad, discipline-independent consensus on the requirements for an archive or repository to provide long-term preservation of digital information.
+
+<!--presenter notes
 
 This week, you were assigned to skim parts of the Reference Model for an OAIS document. The Reference Model for an Open Archival Information System (OAIS) document was developed for use in facilitating a broad, discipline-independent consensus on the requirements for an archive or repository to provide long-term preservation of digital information. It is sometimes referred to as the “Magenta Book” because of the color of its cover page.The OAIS Reference Model was approved in January 2002 as ISO International Standard 14721; a revised and updated version was published in 2012 as ISO (International Standards Organization) Standard 14721:2012.
 
@@ -113,44 +139,15 @@ This document was was developed for use in facilitating a broad, discipline-inde
 
 So now, let’s turn back again to our OAIS definition, and unpack what it means by “preserve information”.
 
-# Definition: Content Information
-—
-
-__Content information is composed of the__  __data object__ __ (bitstream) and__  __representation information__ __ (to make sense of the bitstream).__
-
-<span style="color:#595959"> __Data Object__ 
-
-<span style="color:#595959">01001000
-
-<span style="color:#595959"> __Representation Information__ 
-
-<span style="color:#595959">01001000
-
-<span style="color:#595959">= 72 
-
-<span style="color:#595959">= H
-
-<span style="color:#FFFFFF">Content   <span style="color:#FFFFFF">Information
+-->
 
 ---
 
-Source: https://wiki.dpconline.org/index.php?title=4.2.1.3.1_Representation_Information_Types
+# Question for class
 
-At first glance, you might think that an OAIS would only be concerned with preserving bitstreams, the 1s and 0s that underlie things like word processing documents, videos, audio, and even software. But that is far from the case.
+## As we learned last week, all data objects are, at their most fundamental, composed of 0s and 1s, or binary data. __Is it enough to preserve just the "bits" of a data object? Why or why not?__
 
-Bitstreams are not inherently understandable. Because of this, the OAIS considers both the bitstream and whatever else is needed to decode and make sense of the bitstream equally as important as far as the things it is concerned with preserving go.
-
-The OAIS calls the bitstream the data object. The tools necessary to interpret, decode or render the data object are known in OAIS as representation information, additional information needed to decode the bitstream. The data object and representation information together comprise content information.
-
-Content information is the primary thing that an OAIS is concerned with managing and preserving, and is sometimes also referred to as the preservation target.
-
-Let’s talk more about representation information.
-
-<span style="color:#F3F3F3">01001000
-
-<span style="color:#F3F3F3">01001001
-
----
+<!--presenter notes 
 
 Last week, we covered the basics of binaries and bitstreams. A bitstream is defined as sequence of 1s and 0s. We also learned how to interpret one byte of data to a decimal number.
 
@@ -159,134 +156,171 @@ Typically I do not like or endorse trick questions, but I’d like to ask this t
 The answer is that you can’t really know what any string of 1s and 0s means without some sort of other information that tells you how to interpret it, or can automatically render it. This is especially true when concerning things like a piece of digital art, video, document, that requires some sort of intermediary software or hardware system to interpret. Even if we were to decode this bitstream into decimals, without any sort of context, it still would just be numbers without any meaning.
 
 
+<!-- presenter notes
 
-<span style="color:#274E13">“Representation Information might include a description of the hardware and software environment needed to display the Content Data Object and/or access its contents; it might also summarize the appropriate interpretation of the Content Data Object. For example, if the Content Data Object is an ASCII file of numbers, Representation Information might indicate that the numbers correspond to average daily air temperature readings for London, measured in degrees Celsius, for the period 1972 – 2000.”
+But what makes this even more complicated is the nature of digital information itself. At its core, all data objects—whether they’re a document, an image, a video, or a piece of software—are nothing more than binary code. If you looked at their core code, you would see an endless stream of numeric ones and zeros.
 
-The Open Archival Information System (OAIS) Reference Model: Introductory Guide (2nd Edition)
+To understand or interact with a data object, we need some kind of intermediary, like software to process it, or hardware to run it. In contrast, think about a physical book or a printed photograph. You can hold them in your hands, see the information, and directly interpret it. The content is immediately accessible without requiring any additional technology.
 
----
+With data objects, however, every step—from the file type to the program that opens it—requires something to act as a bridge, translating that binary data into something recognizable, something we can make sense of.
 
-So what is an example of representation information? The quote on the slide is from an OCLC Research Publication, The Open Archival Information System (OAIS) Reference Model: Introductory Guide. Here, the author Brian Lavoie describes an example of representation information:
+And this dependency on intermediaries presents a risk. What happens when the software that interprets that file becomes obsolete? Or when the hardware is no longer available, because the manufacturing plant that produced it is no longer? Without maintaining these layers, data objects could easily become lost or unreadable, leaving us with nothing more than a stream of binary code that’s effectively inaccessible.
 
-“Representation Information might include a description of the hardware and software environment needed to display the Content Data Object and/or access its contents; it might also summarize the appropriate interpretation of the Content Data Object. For example, if the Content Data Object is an ASCII file of numbers, Representation Information might indicate that the numbers correspond to average daily air temperature readings for London, measured in degrees Celsius, for the period 1972–2000.”
-
-| Sentence | HI |
-| :-: | :-: |
-| Character |       H          I |
-| Number |      72          73 |
-| Binary | 01001000     01001001 |
-| Hardware |  |
+-->
 
 ---
 
-Last week, when we discussed binary, we talked about how we can break down letters into its constituent alphanumeric characters H and I, and then further to decimal numbers, which correspond to two bytes of information, each of which are composed of 8 total 0s and 1s. This was my simplistic example of representation information for digital text.
+# Definition: Content Information (1/2)
 
-![](img/week_02_slide_deck2.png)
+__Content Information__ is composed of two main elements:
+  1. The __Data Object__ (the 0s and 1s or the literal binary data, aka "bitstream", e.g. 01001000)
+
+<!--presenter notes
+
+Source: https://wiki.dpconline.org/index.php?title=4.2.1.3.1_Representation_Information_Types
+
+At first glance, you might think that an OAIS would only be concerned with preserving bitstreams, the 1s and 0s that underlie things like word processing documents, videos, audio, and even software. But that is far from the case.
+
+Bitstreams are not inherently understandable. Because of this, the OAIS considers both the bitstream and the information needed to decode and make sense of the bitstream equally as important as far as the things it is concerned with preserving go.
+
+The OAIS calls the bitstream the data object. The tools necessary to interpret, decode or render the data object are known in OAIS as representation information, additional information needed to decode the bitstream. The data object and representation information together comprise content information.
+
+Content information is the primary thing that an OAIS is concerned with managing and preserving, and is sometimes also referred to as the preservation target.
+
+Let’s talk more about representation information.
+-->
 
 ---
 
-We also talked about ASCII. ASCII stands for American Standard Code for Information Interchange. Most digital documents written using word processing software likely use ASCII, or some other sort of internal dictionary, that maps letters, numbers, and other symbols, to a decimal value, and ultimately a binary value.
+# Definition: Content Information (2/2)
 
-The slide shows a screenshot of an ASCII chart, that maps out binary representations to decimal numbers to hexadecimals (sometimes known as just “hex”) to the symbol on the screen or keyboard stroke that it ultimately represents.
+__Content Information__ is composed of two main elements:
+1. The __Data Object__ (the 0s and 1s or the literal binary data, aka "bitstream", e.g. 01001000)
+2. The __Representation Information__, or the information that makes sense of the bitstream (e.g. 01001000 = Decimal 72 = Letter H)
 
-# Definition: Structure Information
-—
+<!--presenter notes
 
-__A type of representation information that maps the data object, or bitstream, to understandable data types and structures.__
+Representation Information is the information that makes sense of the bitstream. This might include things like:
+- The hardware or software required to display or use the Data Object
+- Information, generally, for how to interpret the Content Data Object, such as knowing that any textual information might be encoded in ASCII, for example.
+- Further, it may also be information to make sense of the information itself. For example, it may still not be enough to know that something may be decoded using ASCII, if it's just a bunch of decimal numbers. However, this might make more sense if you knew that this jumble of numbers actually "indicate[s] that the numbers correspond to average daily air temperature readings for London, measured in degrees Celsius, for the period 1972–2000.” - The Open Archival Information System (OAIS) Reference Model: Introductory Guide (2nd Edition)
 
-__Example: file format (i.e. FLAC, PDF, DOC, JPEG, etc.)__
+-->
 
----
+--
+
+# There are two types of Representation Information:
+## 1. Structure Information
+## 2. Semantic Information
+
+<!--presenter notes
 
 There are two types of representation information: structure information and semantic information.
 
-Structure information deals with how to map the bitstream into higher-level data types and meaningful concepts. One example you have likely encountered working on a computer is file format metadata.
+https://wiki.dpconline.org/index.php?title=4.2.1.3.1_Representation_Information_Types
+
+-->
+
+---
+
+# Definition: Structure Information
+
+__Structure Information__ is a type of __representation information__ that maps the data object, or bitstream, to understandable data types.
+
+For example, a file extension (i.e. music.__FLAC__, document1.__PDF__, 12340000.__DOCX__, img_00123.__JPEG__)
+
+<!--presenter notes
+
+Structure information deals with how to map the bitstream into higher-level data types and meaningful concepts. One example you have likely encountered working on a computer is file format extensions.
 
 When you open up a folder of files, the files themselves have some sort of name, followed by a period, followed by a dot and then the name of a file type like my_image.JPEG or my_song.MP3 or my_writing.DOC. The dot, followed by a typically 3- or 4-character format code is a type of structure information that tells you or the computer how to decode the file. 
 
-[demo changing a file in my Downloads folder from PDF to JPEG and back to PDF, to see what happens]
+If you removed the file extension, your computer will throw some sort of error because it’s missing the structure information it expects to interpret and make sense of the file. Without it, the computer does not know how to interpret the Data Object
 
-If you removed the .[whatever] after a file’s name, your computer will throw some sort of error because it’s missing the structure information it expects to interpret and make sense of the file.
-
-https://wiki.dpconline.org/index.php?title=4.2.1.3.1_Representation_Information_Types
-
-# Definition: Semantic Information
-—
-
-__A type of representation information that clarifies the meaning or appropriate interpretation of the Content Data Object.__
-
-__Example: A glossary, a data dictionary, and a software application’s user documentation__
+-->
 
 ---
+
+# Definition: Semantic Information
+
+__Semantic Information__ is a type of representation information that clarifies the meaning or appropriate interpretation of the Content Data Object.
+
+<!--presenter notes
 
 Semantic information is any other additional information that clarifies, guides or interprets the data object. For example, a glossary, a data dictionary, or a software application’s user documentation. The ASCII dictionary we’ve been looking at is a good example of semantic information.
 
 https://wiki.dpconline.org/index.php?title=4.2.1.3.1_Representation_Information_Types
 
+-->
+
+---
+
+# __Case Study__: Dennis Parichy Lighting Designs
+
+<style scoped>
+img {
+  max-height: 100vh;
+  object-fit: contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+  margin-top: 0;
+}
+</style>
 ![](img/week_02_slide_deck3.png)
 
-__Case Study__
+<!--presenter notes
 
-__Dennis Parichy Lighting Designs__
+Photo credit:
 
-__Photo credit:__
+Billy Rose Theatre Division, The New York Public Library. "Publicity photo of lighting designer Dennis Parichy (New York)" New York Public Library Digital Collections.
+[https://digitalcollections.nypl.org/items/858d2d20-1fb7-0136-cbed-478a43ad47de](https://digitalcollections.nypl.org/items/858d2d20-1fb7-0136-cbed-478a43ad47de)
 
-__Billy Rose Theatre Division, The New York Public Library. "Publicity photo of lighting designer Dennis Parichy (New York)" New York Public Library Digital Collections.__  _[https://digitalcollections.nypl.org/items/858d2d20-1fb7-0136-cbed-478a43ad47de](https://digitalcollections.nypl.org/items/858d2d20-1fb7-0136-cbed-478a43ad47de)_
+-->
+
+---
+
+# In 2013, the New York Public Library (NYPL) acquired the works of Dennis Parichy, a New York City-based lighting designer. Parichy designed lighting for 25 Broadway productions since 1976. He has been nominated three times for a Tony Award for his lighting design work.
 
 ---
 
-Let’s look at an example from NYPL’s collections to discuss what we’ve learned so far about the OAIS Framework.
+![Screenshot of Dennis Parichy's lighting design database](img/week_02_slide_deck4.png)
 
-In 2013, NYPL acquired the works of Dennis Parichy, a New York City-based lighting designer. Parichy designed lighting for 25 Broadway productions since 1976. He has been nominated three times for a Tony Award for his lighting design work.
-
-
-![](img/week_02_slide_deck4.png)
-
----
+<!--presenter notes
 
 The Parichy acquisition contained both physical files as well as born-digital materials on floppy disks, because later on in his career, he used two software programs, Lightwright and VectorWorks (which are interoperable with one another), to program stage lighting cues. The slide shows a screenshot of the Lightwright interface. Here, you can see that the user could program a queue of stage lighting directions, and specify things like stage position, sequence, and give each lighting direction a name. We can, if we wanted to, watch a YouTube video of how to use this program. https://www.youtube.com/watch?v=LoBcIxjydKg
 
-
-
-![](img/week_02_slide_deck5.png)
+-->
 
 ---
+
+![Performance still of Don't Tell Me I Can't Fly, whose lighting was designed by Dennis Parichy.](img/week_02_slide_deck5.png)
+
+<!--presenter notes
 
 Photo credit:
 Pollard, Collette. "Set Design for DON’T TELL ME I CAN’T FLY." 2011. Digital Image. Accessed January 26, 2024. https://collettepollard.com/production/dont-tell-me-i-cant-fly/
 
-These sorts of lighting cues would translate into something like this (I’m not certain he was using LightWorks or some other program, but, you get what I mean!)
-
-
-<span style="color:#C27BA0"> __Question__ 
-
-<span style="color:#741B47">Using the Parichy LightWorks example, what might constitute this collection’s Content Information?
-
-<span style="color:#595959"> __Data object__ 
-
-<span style="color:#595959">01001000
-
-<span style="color:#595959"> __Representation Information__ 
-
-<span style="color:#595959">01001000
-
-<span style="color:#595959">= 72  <span style="color:#595959"> 
-
-<span style="color:#595959">= H
-
-<span style="color:#FFFFFF">Content Information
-
-# Definition: Consumers
-—
-
-__In the context of an OAIS,__  __consumers__ __ can be simply described as the users of the OAIS.__
-
-# Definition: Designated Community
-—
-
-__A__  __designated community__ __ is a special type of consumer that describes the primary users or people accessing the information preserved within the OAIS.__
+-->
 
 ---
+
+# Question: Using the Parichy LightWorks example, what might constitute this collection’s __Content Information__?
+
+---
+
+# Definition: Consumers
+
+__Consumers__ can be described as the users of the OAIS.
+
+---
+
+# Definition: Designated Community
+
+__A Designated Community__ is a special type of consumer that describes the primary users or people accessing the information preserved within the OAIS.
+
+<!--presenter notes
 
 Now that we have a grasp on what the OAIS’ definition of content information is and what that consists of, let’s look at what the OAIS means by a designated community.
 
@@ -300,30 +334,39 @@ Designated communities are determined in large part by the type of knowledge bas
 
 Source: https://www.oclc.org/research/publications/2000/lavoie-oais.html
 
-# Definition: Knowledge base
-—
-
-__A__  __knowledge base__ __ is a set of information, incorporated by a person or system, that allows that person or system to understand the information preserved in the OAIS.__
-
-__The OAIS must understand the knowledge base of its designated community to understand the minimum representation information that must be maintained.__
+-->
 
 ---
 
-Designated communities have what’s known as a specific knowledge base. A knowledge base is a set of information, incorporated by a person or system, that allows them to understand the received information. An OAIS should incorporate what it knows about a designated community’s knowledge base in order to understand the minimum representation information that must be maintained for whatever it is preserving to make sense both in the immediate and long-term. 
+# Definition: Knowledge base
+
+__A Knowledge Base__ is a set of information, incorporated by a person or system, that allows that person or system to understand the information preserved in the OAIS.
+
+The OAIS must understand the knowledge base of its designated community to understand the minimum representation information that must be maintained.
+
+---
+
+<!--presenter notes
+
+Designated communities have what’s known as a specific knowledge base. A knowledge base is a set of information, incorporated by a person or system, that allows them to understand the received information. An OAIS should incorporate what it knows about a designated community’s knowledge base in order to understand the minimum representation information that must be maintained for whatever it is preserving to make sense both in the immediate and long-term.
+
+-->
+
+---
 
 ![](img/week_02_slide_deck6.jpg)
 
-<span style="color:#CE8FFB"> __Mini Activity__ 
+__Mini Activity__ 
 
-<span style="color:#CE8FFB">Page from Forme of Cury, a cookbook from the Late Middle Ages. Part of the Rylands Medieval Collection. It was written in Middle English.   <span style="color:#CE8FFB"> __Determine:__ 
+Page from Forme of Cury, a cookbook from the Late Middle Ages. Part of the Rylands Medieval Collection. It was written in Middle English.   __Determine:__ 
 
 __content information__
 
-__representation__ __ information__
+__representation__ information__
 
 __designated community__
 
-Forme\_of\_Cury-MS\_7-18v.jpg
+Forme of Cury-MS 7-18v.jpg
 
 ---
 
@@ -403,11 +446,11 @@ All information packages contain four components containing different types of i
 
 # Information Package
 
-<span style="color:#FFFFFF">OAIS
+ OAIS
 
-<span style="color:#FFFFFF">1 OAIS Way
+ 1 OAIS Way
 
-<span style="color:#FFFFFF">OAIS, OH 11111
+ OAIS, OH 11111
 
 ![](img/week_02_slide_deck7.png)
 
@@ -418,23 +461,22 @@ Information packages “are necessary for the management of the data, according 
 You can think of an information package as similar to sending a gift to someone in the mail. Before you send a gift in the mail, you have to wrap it, print out a label, put it into a container. When you go to the post office, it is given various markings and identifiers, like a QR code for tracking, or a post date, to prepare it for its journey to the recipient. The recipient will then unbox and unwrap the package and use it for some intended purpose. I’ll be revisiting this analogy throughout the following slides to help ground us in these concepts.
 
 # Definition: Content Information
-—
 
-__Content information is composed of the__  __data object__ __ (bitstream) and__  __representation information__ __ (to make sense of the bitstream).__
+__Content information is composed of the data object__ (bitstream) and __representation information__ (to make sense of the bitstream).__
 
-<span style="color:#595959"> __Data object__ 
+__Data object__ 
 
-<span style="color:#595959">01001000
+01001000
 
-<span style="color:#595959"> __Representation Information__ 
+__Representation Information__ 
 
-<span style="color:#595959">01001000
+01001000
 
-<span style="color:#595959">= 72 
+= 72 
 
-<span style="color:#595959">= H
+= H
 
-<span style="color:#FFFFFF">Content Information
+Content Information
 
 ---
 
@@ -451,7 +493,7 @@ __Preservation Description__
 Preservation Description Information
 —
 
-__Identifiers that__  __allow__ __ outside systems to describe the past and present states of the content information, ensuring it is uniquely identifiable, and ensuring it has not been unknowingly altered.__
+__Identifiers that allow__ outside systems to describe the past and present states of the content information, ensuring it is uniquely identifiable, and ensuring it has not been unknowingly altered.__
 
 ---
 
@@ -463,17 +505,17 @@ Before moving on I want to spend a bit more time unpacking what Preservation Des
 
 __Preservation Description__
 
-<span style="color:#FFFFDB">Provenance
+Provenance
 
-<span style="color:#FFFFDB">(events)
+(events)
 
-<span style="color:#FFFFDB">Reference
+Reference
 
-<span style="color:#FFFFDB">(identifiers)
+(identifiers)
 
-<span style="color:#FFFFDB">Fixity
+Fixity
 
-<span style="color:#FFFFDB">(checksum)
+(checksum)
 
 ---
 
@@ -488,14 +530,14 @@ __Fixity describes the action of checking a file bitstream’s integrity at regu
 
 ---
 
-Fixity is the process of verifying that a digital object’s bitstream has not been altered. Bitstreams are prone to error degradation or corruption. When bitstreams degrade, this is referred to sometimes as bitrot. Bitrot can happen for a variety of reasons. Remember, all bitstreams are ultimately written onto some sort of physical medium. For example, a hard drive writes bitstreams onto spinning metallic plates using magnetism. If anything were to happen to the plate, or the head that reads and writes data, such as physical damage like dropping the hard drive onto the floor, shifts in humidity or moisture, power surges, accidental exposure to high-powered magnetis or high temperatures, any of these events could result in bitstream corruption. It is important that digital preservation systems are set up to check fixity to ensure bitstream integrity over time.
+Fixity is the process of verifying that a data object’s bitstream has not been altered. Bitstreams are prone to error degradation or corruption. When bitstreams degrade, this is referred to sometimes as bitrot. Bitrot can happen for a variety of reasons. Remember, all bitstreams are ultimately written onto some sort of physical medium. For example, a hard drive writes bitstreams onto spinning metallic plates using magnetism. If anything were to happen to the plate, or the head that reads and writes data, such as physical damage like dropping the hard drive onto the floor, shifts in humidity or moisture, power surges, accidental exposure to high-powered magnetis or high temperatures, any of these events could result in bitstream corruption. It is important that digital preservation systems are set up to check fixity to ensure bitstream integrity over time.
 
 This can be done by running a checksum algorithm against a bitstream. This process generates a unique string of characters that should match if and when additional checksums are run in the future. If a checksum is run at one point does not match a checksum run against the same preservation object at another point, that indicates that the bitstream has been altered.
 
 # Definition: Checksum
 —
 
-__A checksum is a unique string of alphanumeric characters generated by processing the bitstream of a digital object through an algorithm. So long as the bits (1s and 0s) of the bitstream remain the same, the checksum, too, will also remain unchanged.__
+__A checksum is a unique string of alphanumeric characters generated by processing the bitstream of a data object through an algorithm. So long as the bits (1s and 0s) of the bitstream remain the same, the checksum, too, will also remain unchanged.__
 
 ---
 
@@ -503,17 +545,17 @@ This can be done by running a checksum algorithm calculation over the bitstream,
 
 If a checksum is run at one point does not match a checksum run against the same preservation object at another point, that indicates that the bitstream has been altered.
 
-<span style="color:#CE8FFB"> __Mini Activity__ 
+__Mini Activity__ 
 
-<span style="color:#CE8FFB">Go to   <span style="color:#CE8FFB"> _[https://emn178.github.io/online-tools/md5\_checksum.html](https://emn178.github.io/online-tools/md5_checksum.html)_ 
+Go to   _[https://emn178.github.io/online-tools/md5 checksum.html](https://emn178.github.io/online-tools/md5_checksum.html)_ 
 
-<span style="color:#CE8FFB">Create a text file on your desktop and type some text into it.
+Create a text file on your desktop and type some text into it.
 
-<span style="color:#CE8FFB">In the MD5 Checksum Tool, drag and drop the text file into the Drop File Here box. Make sure “Auto Update” is selected.
+In the MD5 Checksum Tool, drag and drop the text file into the Drop File Here box. Make sure “Auto Update” is selected.
 
-<span style="color:#CE8FFB">Make a change to your text file and drag and drop again; click on the various hashes to see what happens.
+Make a change to your text file and drag and drop again; click on the various hashes to see what happens.
 
-<span style="color:#FFFFDB">Packaging Information
+Packaging Information
 
 # Definition: Packaging Information
 —
@@ -524,7 +566,7 @@ __Binds the content and preservation description information__
 
 Packaging Information: Binds together all the components of the information package together. Post office analogy: The box, which contains the gift, but also provides a surface on the outside to tie together all the information needed for postal workers to send the gift.
 
-<span style="color:#5B0F00">Descriptive Information
+Descriptive Information
 
 # Definition: Descriptive Information
 —
@@ -589,13 +631,13 @@ Passes QA, it will move on into the jurisdiction of the OAIS, and the ingest pro
 
 ![](img/week_02_slide_deck9.png)
 
-<span style="color:#595959"> __Figure 4-2:__   <span style="color:#595959"> __Functions of the Ingest Functional Entity__ 
+__Figure 4-2:__   __Functions of the Ingest Functional Entity__ 
 
-<span style="color:#595959"> __—__ 
+__—__ 
 
-<span style="color:#595959"> __Page 48__ 
+__Page 48__ 
 
-<span style="color:#595959"> __Magenta Book__ 
+__Magenta Book__ 
 
 ---
 
@@ -610,7 +652,7 @@ In short, the Ingest function serves as the OAIS’s external interface with Pro
 # Definition: Archival Information Package (AIP)
 —
 
-__AIP: An information package consisting of the digital object and associated Preservation Description Information (PDI), which is managed and preserved within an OAIS.__
+__AIP: An information package consisting of the data object and associated Preservation Description Information (PDI), which is managed and preserved within an OAIS.__
 
 __Management: responsible for policy objectives of the OAIS.__
 
@@ -626,13 +668,13 @@ Management is the entity that sets the policy objectives of the OAIS. This may i
 
 ![](img/week_02_slide_deck10.png)
 
-<span style="color:#595959"> __Figure 4-18: Archival Information Package__ 
+__Figure 4-18: Archival Information Package__ 
 
-<span style="color:#595959"> __—__ 
+__—__ 
 
-<span style="color:#595959"> __Page 83__ 
+__Page 83__ 
 
-<span style="color:#595959"> __Magenta Book__ 
+__Magenta Book__ 
 
 ---
 
@@ -652,13 +694,13 @@ Also notice on either side of the AIP, we have Package Description on the left h
 
 On the left-hand side of the AIP in the diagram we have Package Description, which is further described by another diagram.
 
-<span style="color:#595959"> __Figure 4-17: Package Description__ 
+__Figure 4-17: Package Description__ 
 
-<span style="color:#595959"> __—__ 
+__—__ 
 
-<span style="color:#595959"> __Page 82__ 
+__Page 82__ 
 
-<span style="color:#595959"> __Magenta Book__ 
+__Magenta Book__ 
 
 ![](img/week_02_slide_deck11.png)
 
@@ -712,27 +754,27 @@ Functional entities describe an entity responsible for a function that is requir
 
 We’ve already covered one functional entity, known as “Ingest”.
 
-<span style="color:#1155CC"> __Administration__ 
+__Administration__ 
 
-<span style="color:#1155CC">Services/functions that control the day-to-day OAIS operations
+Services/functions that control the day-to-day OAIS operations
 
-<span style="color:#1155CC"> __Preservation Planning__   <span style="color:#1155CC">Provide recommendations to ensure long-term viability of OAIS
+__Preservation Planning__   Provide recommendations to ensure long-term viability of OAIS
 
-<span style="color:#1155CC"> __Access__ 
+__Access__ 
 
-<span style="color:#1155CC">Support Consumer discovery and information requests and queries
+Support Consumer discovery and information requests and queries
 
-<span style="color:#1155CC"> __Ingest__ 
+__Ingest__ 
 
-<span style="color:#1155CC">Perform quality assurance over received SIPs; create AIPs
+Perform quality assurance over received SIPs; create AIPs
 
-<span style="color:#1155CC"> __Archival Storage__ 
+__Archival Storage__ 
 
-<span style="color:#1155CC">Move AIPs to permanent storage, perform error checking
+Move AIPs to permanent storage, perform error checking
 
-<span style="color:#1155CC"> __Data Management__ 
+__Data Management__ 
 
-<span style="color:#1155CC">Populate and relay data in systems used to manage and access the archive
+Populate and relay data in systems used to manage and access the archive
 
 ---
 
@@ -898,7 +940,7 @@ The standard document itself gives some reasoning behind why this standard was p
 
 # TRAC: Pros and Cons
 
-<span style="color:#FFFFFF">3.3.2 “The repository shall have an ingest process which verifies each SIP for completeness and correctness.”
+ 3.3.2 “The repository shall have an ingest process which verifies each SIP for completeness and correctness.”
 
 __CON: Cost-prohibitive__
 
@@ -928,25 +970,25 @@ Any questions?
 
 ![](img/week_02_slide_deck13.gif)
 
-<span style="color:#C27BA0"> __Scenario__ 
+__Scenario__ 
 
-<span style="color:#741B47">Pretend you work at a small museum archive that is considering acquiring a collection of indie video games created by members of the   _[Babycastles collective](https://www.babycastles.com/about)_  <span style="color:#741B47">. Some video games depend on obsolete operating systems and machines to play.
+Pretend you work at a small museum archive that is considering acquiring a collection of indie video games created by members of the   _[Babycastles collective](https://www.babycastles.com/about)_  . Some video games depend on obsolete operating systems and machines to play.
 
-<span style="color:#C27BA0"> __Question 1__ 
+__Question 1__ 
 
-<span style="color:#741B47">What sorts of questions might you ask the donor/creator of the game? As a digital curator, what details should you take into consideration? How might this impact gift agreements and donor relations?
+What sorts of questions might you ask the donor/creator of the game? As a digital curator, what details should you take into consideration? How might this impact gift agreements and donor relations?
 
-<span style="color:#C27BA0"> __Question 2__ 
+__Question 2__ 
 
-<span style="color:#741B47">What might an AIP look like for this particular video game? Hint: Look at the McDonough article, page 1628 onward.
+What might an AIP look like for this particular video game? Hint: Look at the McDonough article, page 1628 onward.
 
-<span style="color:#C27BA0"> __Question 3__ 
+__Question 3__ 
 
-<span style="color:#741B47">What might be some impediments to DIP creation and access for this collection? What are some of the things to consider when thinking about DIP and access?
+What might be some impediments to DIP creation and access for this collection? What are some of the things to consider when thinking about DIP and access?
 
-<span style="color:#FE7600">Post your pre-class reading reactions to Brightspace.
+Post your pre-class reading reactions to Brightspace.
 
-<span style="color:#FE7600">Weekly activity: None this week
+Weekly activity: None this week
 
-<span style="color:#FE7600">Let me know if you have any questions about the File Format Report and the file format you chose
+Let me know if you have any questions about the File Format Report and the file format you chose
 

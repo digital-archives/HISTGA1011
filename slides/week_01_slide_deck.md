@@ -7,7 +7,7 @@ Introduction to Digital Archives
 
 ---
 
-# Today
+
 - **Welcome and introductions**
 - **Review the syllabus**
 - **Break**
@@ -89,20 +89,20 @@ Lyons, Bertram. "Digital Preservation." In The Digital Archives Handbook: A Guid
 
 ---
 
-# Definition: Digital Object
+# Definition: data object
 
-A __digital object__ is a complex entity composed of __bitstreams__, necessitating the use of one or a combination of machines and digital components to access and understand.
+A __data object__ is a complex entity composed of __bitstreams__, necessitating the use of one or a combination of machines and digital components to access and understand.
 
 <!-- presenter notes
 
-Let's unpack this definition by thinking a bit about digital objects we encounter through our life and work.
+Let's unpack this definition by thinking a bit about data objects we encounter through our life and work.
 
 -->
 ---
 
-# The Complex Relationship of Digital Objects
+# The Complex Relationship of data objects
 
-**Digital Object** (e.g., document, media, software)
+**data object** (e.g., document, media, software)
 ↓
 **Requires Multiple Layers of Technology**
 
@@ -119,9 +119,9 @@ Accessibility, Preservation
 
 <!-- 
 
-Digital objects encapsulate various forms of digital content, such as documents, media, or software.
+data objects encapsulate various forms of digital content, such as documents, media, or software.
 
-All digital objects, whether it's a single file, or an entire application, will require specialized software, hardware, emulation, specialized knowledge, or one or all of these things, to faithfully render and understand, ensuring their long-term accessibility and preservation.
+All data objects, whether it's a single file, or an entire application, will require specialized software, hardware, emulation, specialized knowledge, or one or all of these things, to faithfully render and understand, ensuring their long-term accessibility and preservation.
 
 -->
 
@@ -129,8 +129,8 @@ All digital objects, whether it's a single file, or an entire application, will 
 
 # Activity
 
-1. **Identify a Digital Object**  
-   Think of a **digital object** you have encountered in your professional, creative, or academic work.
+1. **Identify a data object**  
+   Think of a **data object** you have encountered in your professional, creative, or academic work.
 
 2. **Analyze Its Relationships**  
    Consider how this object interacts with **software, hardware, emulation,** and **specialized knowledge**.
@@ -140,19 +140,11 @@ All digital objects, whether it's a single file, or an entire application, will 
 
 ---
 
-# Digital Object Encoding
+# Definition: Software
 
-<!-- presenter notes
+---
 
-But what makes this even more complicated is the nature of digital information itself. At its core, all digital objects—whether they’re a document, an image, a video, or a piece of software—are nothing more than binary code. If you looked at their core code, you would see an endless stream of numeric ones and zeros.
-
-To understand or interact with a digital object, we need some kind of intermediary, like software to process it, or hardware to run it. In contrast, think about a physical book or a printed photograph. You can hold them in your hands, see the information, and directly interpret it. The content is immediately accessible without requiring any additional technology.
-
-With digital objects, however, every step—from the file type to the program that opens it—requires something to act as a bridge, translating that binary data into something recognizable, something we can make sense of.
-
-And this dependency on intermediaries presents a risk. What happens when the software that interprets that file becomes obsolete? Or when the hardware is no longer available, because the manufacturing plant that produced it is no longer? Without maintaining these layers, digital objects could easily become lost or unreadable, leaving us with nothing more than a stream of binary code that’s effectively inaccessible.
-
--->
+# Definition: Hardware
 
 ---
 
@@ -515,11 +507,41 @@ In the table on the slide, the left-hand column names each of these layers, whil
 
 | Word | OK | |
 | :-: | :-: | :-: |
-| Characters | O | K |
+| ASCII Characters | O | K |
 
 <!--presenter notes
 
-The first layer is what you see—the letters "O" and "K." We are going to separate these letters into two individual letters, and treat them as such moving forward.
+The first layer is what you see—the letters "O" and "K." Notice how I call these, in the chart "ASCII" (pronounced ask-key).
+
+-->
+
+---
+
+# Definition: The American Standard Code for Information Interchange (ASCII)
+
+The American Standard Code for Information Interchange (ASCII) is a character encoding standard for electronic communication. It encodes 128 specified characters into seven-bit integers.
+
+---
+
+# Sample ASCII Chart
+
+<style scoped>
+img {
+  max-height: 100vh; /* 80% of the viewport height */
+  object-fit: contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+  margin-top: 0;
+}
+</style>
+
+![Image charting ASCII symbols and their binary and decimal equivilant](img/week_01_USASCII_code_chart.svg.png)
+
+<!--presenter notes 
+
+Image source: https://commons.wikimedia.org/wiki/File:USASCII_code_chart.svg
 
 -->
 
@@ -527,7 +549,7 @@ The first layer is what you see—the letters "O" and "K." We are going to separ
 
 | Word | OK | |
 | :-: | :-: | :-: |
-| Characters | O | K |
+| ASCII Characters | O | K |
 | Decimals | 79 | 75 |
 
 
@@ -543,7 +565,7 @@ The letter "O" corresponds to the decimal number 79, and "K" corresponds to 75.
 
 | Word | OK | |
 | :-: | :-: | :-: |
-| Characters | O | K |
+| ASCII Characters | O | K |
 | Decimals | 79 | 75 |
 | Hexadecimals | 4F | 4B |
 
@@ -557,7 +579,7 @@ Then, these decimal values are often converted into a hexadecimal system for eff
 
 | Word | OK | |
 | :-: | :-: | :-: |
-| Characters | O | K |
+| ASCII Characters | O | K |
 | Decimals | 79 | 75 |
 | Hexadecimals | 4F | 4B |
 | Byte (Binary) | 01001111 | 01001011 |
@@ -851,29 +873,22 @@ We end the 1970s with the emergence of USENET in 1979. USENET is a precursor to 
 
 ---
 
-The     National Endowment for the Humanities (NEH) funds the   Brittle Books Program   to microfilm (and eventually digitize) ~3 million of 19th-century books.
-
-Scott Armstrong (Executive Director of the National Security Archive) filed a Freedom of Information Act (FOIA) request to ensure that the contents of the White House electronic mail and records system, contained on magnetic backup tapes, would not be destroyed and subject to archival review before disposition.
-
-Sony and Philips introduce the first CD player.
-
-The National Information Systems Task Force (NISTF) develops the first two formally recognized archival description standards in the US: NISTF Data Elements Dictionary and USMARC AMC.
-
-Sony introduces the first 3½" floppy drives and diskettes.
+- The National Endowment for the Humanities (NEH) funds the __Brittle Books Program__ to microfilm ~3 million 19th-century books.
+- Scott Armstrong (Executive Director of the National Security Archive) filed a Freedom of Information Act (FOIA) request to ensure that the contents of the White House electronic mail and records system, contained on magnetic backup tapes, would not be destroyed and subject to archival review before disposition.
+- Sony and Philips introduce the first CD player.
+- The National Information Systems Task Force (NISTF) develops the first two formally recognized archival description standards in the US: NISTF Data Elements Dictionary and USMARC AMC.
+- Sony introduces the first 3½" floppy drives and diskettes.
 
 ---
 
-3 minutes
-
-In 1981 Sony introduced the first 3½” floppy drives and diskettes. Although other floppy disks were released earlier than this, the 3½ disk format was used widely and was very popular carrier.
-
-In 1982 the National Information Systems Task Force (NISTF) developed the first two formally recognized archival description standards in the United States: NISTF Data Elements Dictionary and USMARC AMC. These efforts were used to both standardize the description of archives in order to better exchange or share information across networked catalogs.
-
-In 1988, at the behest of the US Congress, the National Endowment for the Humanities (NEH) funds the Brittle Books Program to microfilm (and eventually digitize) ~3 million 19th-century books. When this program first began, books were digitized through preservation microfilming and even photocopying. Later, this would be replaced with digital scanning and photography methods, into high-resolution file formats such as Tag Image or “TIF” file format.
-
-A year later, Scott Armstrong, Executive Director of the National Security Archive, filed a Freedom of Information Act (FOIA) request to ensure that the contents of the White House electronic mail and records system, contained on magnetic backup tapes stored on the IBM PROFS system, would not be destroyed and subject to archival review before disposition. This FOIA led to a lawsuit known as Armstrong versus the Executive Office of the President implicating both the Reagan and Bush White Houses. This lawsuit resulted in the court ordering the transfer of 5,839 backup tapes to the National Archives.  
+- In 1981 Sony introduced the first 3½” floppy drives and diskettes. Although other floppy disks were released earlier than this, the 3½ disk format was used widely and was very popular carrier.
+- In 1982 the National Information Systems Task Force (NISTF) developed the first two formally recognized archival description standards in the United States: NISTF Data Elements Dictionary and USMARC AMC. These efforts were used to both standardize the description of archives in order to better exchange or share information across networked catalogs.
+- In 1988, at the behest of the US Congress, the National Endowment for the Humanities (NEH) funds the Brittle Books Program to microfilm (and eventually digitize) ~3 million 19th-century books. When this program first began, books were digitized through preservation microfilming and even photocopying. Later, this would be replaced with digital scanning and photography methods, into high-resolution file formats such as Tag Image or “TIF” file format.
+- A year later, Scott Armstrong, Executive Director of the National Security Archive, filed a Freedom of Information Act (FOIA) request to ensure that the contents of the White House electronic mail and records system, contained on magnetic backup tapes stored on the IBM PROFS system, would not be destroyed and subject to archival review before disposition. This FOIA led to a lawsuit known as Armstrong versus the Executive Office of the President implicating both the Reagan and Bush White Houses. This lawsuit resulted in the court ordering the transfer of 5,839 backup tapes to the National Archives.  
 
 See: https://www.jstor.org/stable/40293774 and https://law.justia.com/cases/federal/district-courts/FSupp/821/761/1510466/
+
+---
 
 __In December 1994, the Research Libraries Group (RLG) and Commission on Preservation and Access (CPA) formed a Task Force on __  __Archiving of Digital Information__  __ with the main purpose of investigating what needed to be done to ensure long-term preservation and continued access to the digital records.__
 
@@ -896,13 +911,13 @@ The Mellon Foundation funds   Making of America (MOA)   project.
 
 Dublin Core   metadata schema is established by a working group.
 
-Jeffery Rothenberg   publishes   “Ensuring the Longevity of Digital Information”   in    _Scientific American_   .
+Jeffery Rothenberg publishes “Ensuring the Longevity of Digital Information”   in    _Scientific American_   .
 
 12 founding member institutions including NARA, NYPL and LoC.
 
 This schema attempts to universalize how electronic resources are described on the web.
 
-Millions of late 19th-century journals/monographs digitized, resulting in ~15,000 digital objects made available online.
+Millions of late 19th-century journals/monographs digitized, resulting in ~15,000 data objects made available online.
 
 ---
 
@@ -918,7 +933,7 @@ Jeffery Rothenberg, a computer scientist for the RAND corporation, published an 
 
 1995 was was also the year when the National Center for Supercomputing Application (NCSA) and OCLC came together for a joint workshop in Dublin, OH to develop a core set of semantics for Web-based resources would be extremely useful for categorizing the Web for easier search and retrieval called Dublin Core. Source: https://www.dublincore.org/about/history/
 
-Lastly, we have the Andrew W. Mellon Foundation funding the Making of America (MOA) Project, which digitized millions of pages of late 19th-century journals and monographs, and published approximately 15,000 digital objects online. Sources: http://collections.library.cornell.edu/moa_new/ and https://quod.lib.umich.edu/m/moagrp/
+Lastly, we have the Andrew W. Mellon Foundation funding the Making of America (MOA) Project, which digitized millions of pages of late 19th-century journals and monographs, and published approximately 15,000 data objects online. Sources: http://collections.library.cornell.edu/moa_new/ and https://quod.lib.umich.edu/m/moagrp/
 
 The non-profit    _Internet Archive_    (archive.org) was established “as a response to a rapidly growing problem—the disappearance of content from the World Wide Web.”
 
@@ -976,19 +991,15 @@ __Developed standards for creating and encoding digital representations of archi
 
 ---
 
-2 min
-
 Source: https://www.clir.org/wp-content/uploads/sites/6/pub87.pdf
 
-Funded by the DLF, the Making of America II (MOA2) Project served as a testbed for establishing archival standards around digital object description, access, and tools. The project’s final report states that these efforts were important “...to develop standards for creating and encoding digital representations of archival objects (for example, a digitized photograph or a digital representation of a book or diary)”. Further, the report states, that “If tools are to be developed that work with digitized archival objects across distributed repositories, these objects will require some form of standardization”.
+Funded by the DLF, the Making of America II (MOA2) Project served as a testbed for establishing archival standards around data object description, access, and tools. The project’s final report states that these efforts were important “...to develop standards for creating and encoding digital representations of archival objects (for example, a digitized photograph or a digital representation of a book or diary)”. Further, the report states, that “If tools are to be developed that work with digitized archival objects across distributed repositories, these objects will require some form of standardization”.
 
-The report put forth a recommendation for what it referred to as Standard Generalized Markup Language (SGML) that served as the basis for the Metadata Encoding and Transmission Standard (METS) standard widely used across digital repositories today. Additionally, the project put forth object modeling frameworks, which result in being able to produce complex digital objects (e.g. a book = one object made up of many image files)
+The report put forth a recommendation for what it referred to as Standard Generalized Markup Language (SGML) that served as the basis for the Metadata Encoding and Transmission Standard (METS) standard widely used across digital repositories today. Additionally, the project put forth object modeling frameworks, which result in being able to produce complex data objects (e.g. a book = one object made up of many image files)
 
- __National Digital Information Infrastructure and Preservation Program (NDIIPP)   established by the Library of Congress. This leads to the development of programs such as    __Lots of Copies Keep Stuff Safe   (LOCKSS).
+ __National Digital Information Infrastructure and Preservation Program (NDIIPP)   established by the Library of Congress. This leads to the development of programs such as __Lots of Copies Keep Stuff Safe (LOCKSS)__.
 
 ---
-
-1 min
 
 We’ve made it to the 2000s!
 
@@ -1075,9 +1086,7 @@ In 2003, a RLG, OCLC and NARA joint task force established the Trustworthy Repos
 
 ---
 
-1 min
-
-In 2005, the first version of the PREservation Metadata Implementation Strategies (PREMIS) metadata schema is released. This framework is a type of metadata that describes the sorts of preservation activities or actions have occurred through the course of a digital object’s life in a repository. We will discuss PREMIS and also have a hands-on workshop, where we will take a peek into what PREMIS metadata looks like, in a few week’s time. You should know that PREMIS is most usually encoded into XML.
+In 2005, the first version of the PREservation Metadata Implementation Strategies (PREMIS) metadata schema is released. This framework is a type of metadata that describes the sorts of preservation activities or actions have occurred through the course of a data object’s life in a repository. We will discuss PREMIS and also have a hands-on workshop, where we will take a peek into what PREMIS metadata looks like, in a few week’s time. You should know that PREMIS is most usually encoded into XML.
 
 Source (for information and screen capture): https://www.loc.gov/standards/premis/understanding-premis.pdf
 
