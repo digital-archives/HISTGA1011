@@ -1,5 +1,5 @@
 ---
-title: Fixity and Digital Packages
+title: Breaking Bag(It)
 layout: default
 parent: Weekly Activities
 nav_order: 9
