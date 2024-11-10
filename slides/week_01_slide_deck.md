@@ -884,17 +884,18 @@ We end the 1970s with the emergence of USENET in 1979. USENET is a precursor to 
 - In 1981 Sony introduced the first 3½” floppy drives and diskettes. Although other floppy disks were released earlier than this, the 3½ disk format was used widely and was very popular carrier.
 - In 1982 the National Information Systems Task Force (NISTF) developed the first two formally recognized archival description standards in the United States: NISTF Data Elements Dictionary and USMARC AMC. These efforts were used to both standardize the description of archives in order to better exchange or share information across networked catalogs.
 - In 1988, at the behest of the US Congress, the National Endowment for the Humanities (NEH) funds the Brittle Books Program to microfilm (and eventually digitize) ~3 million 19th-century books. When this program first began, books were digitized through preservation microfilming and even photocopying. Later, this would be replaced with digital scanning and photography methods, into high-resolution file formats such as Tag Image or “TIF” file format.
-- A year later, Scott Armstrong, Executive Director of the National Security Archive, filed a Freedom of Information Act (FOIA) request to ensure that the contents of the White House electronic mail and records system, contained on magnetic backup tapes stored on the IBM PROFS system, would not be destroyed and subject to archival review before disposition. This FOIA led to a lawsuit known as Armstrong versus the Executive Office of the President implicating both the Reagan and Bush White Houses. This lawsuit resulted in the court ordering the transfer of 5,839 backup tapes to the National Archives.  
+
+---
+
+Scott Armstrong, Executive Director of the National Security Archive, filed a Freedom of Information Act (FOIA) request to ensure that the contents of the White House electronic mail and records system, contained on magnetic backup tapes stored on the IBM PROFS system, would not be destroyed and subject to archival review before disposition. This FOIA led to a lawsuit known as Armstrong versus the Executive Office of the President implicating both the Reagan and Bush White Houses. This lawsuit resulted in the court ordering the transfer of 5,839 backup tapes to the National Archives.  
 
 See: https://www.jstor.org/stable/40293774 and https://law.justia.com/cases/federal/district-courts/FSupp/821/761/1510466/
 
 ---
 
-__In December 1994, the Research Libraries Group (RLG) and Commission on Preservation and Access (CPA) formed a Task Force on __  __Archiving of Digital Information__  __ with the main purpose of investigating what needed to be done to ensure long-term preservation and continued access to the digital records.__
+1994: The Research Libraries Group (RLG) and Commission on Preservation and Access (CPA) formed a Task Force on Archiving of Digital Information with the main purpose of investigating what needed to be done to ensure long-term preservation and continued access to the digital records.
 
 ---
-
-1 minute
 
 In 1994, the Research Libraries Group and Commission on Preservation and Access (CPA) formed a Task Force on Archiving of Digital Information with the main purpose of investigating what needed to be done to ensure long-term preservation and continued access to digital records.
 
@@ -902,8 +903,9 @@ This report specifically calls out the fact the threat of digital technologies i
 
 Source: https://www.clir.org/wp-content/uploads/sites/6/pub63watersgarrett.pdf
 
+---
 
- __Digital Library Federation (DLF) is formed.
+Digital Library Federation (DLF) is formed.
 
  __National Digital Library Program (NDLP) established at Library of Congress.
 
