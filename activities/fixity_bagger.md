@@ -6,7 +6,7 @@ nav_order: 9
 has_children: false
 ---
 
-# Fixity and Digital Packages
+# Breaking Bag(It)
 
 This activity introduces students to essential concepts in digital preservation: fixity and digital packages. Ethan Gates, author of The Patch Bay, wrote two blog posts that provide a nice introduction to the concept of digital packages, and what Bagger (the program you will be installing and using for this activity) is, and what it does.
 
