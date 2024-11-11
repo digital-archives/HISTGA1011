@@ -2,7 +2,7 @@
 title: Breaking Bag(It)
 layout: default
 parent: Weekly Activities
-nav_order: 9
+nav_order: 1
 has_children: false
 ---
 
