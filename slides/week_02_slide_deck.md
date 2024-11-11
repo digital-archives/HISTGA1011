@@ -838,9 +838,8 @@ Source for producer definition: Lee, Christopher A., and Tibbo, Helen. “Where�
 
 # Ingest Workflow
 —
-
-<div class="mermaid">
-graph LR
+<div class="mermaid" style="width: 100%; max-width: 800px; height: auto;">
+    graph LR
     A[Producer] --> B[Submit SIP]
     B --> C[Quality Assurance]
     C -->|Fails QA| A
