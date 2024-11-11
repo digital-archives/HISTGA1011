@@ -1,37 +1,6 @@
 ---
 marp: true
-theme: forest
 ---
-
-<style>
-/* Slide container styling */
-.slide-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background: linear-gradient(135deg, #3a0ca3, #4361ee);
-  color: #f5f5f5;
-  text-align: center;
-}
-
-/* Main title styling */
-.title {
-  font-size: 3.5em;
-  font-weight: 700;
-  margin: 0;
-  color: #ffffff;
-}
-
-/* Subtitle styling */
-.subtitle {
-  font-size: 1.8em;
-  font-weight: 400;
-  color: #a6a6a6;
-  margin-top: 10px;
-}
-</style>
 
 <div class="slide-container">
   <h1 class="title">Week 2</h1>
@@ -1004,23 +973,16 @@ __The Requirements for Bodies Providing Audit Certification of Candidate Trustwo
 ![Take a break: Steaming teapot and tea animated GIF](img/week_02_slide_deck13.gif)
 
 ---
-<!-- _backgroundColor: '#4b0082' -->
 
-<div style="text-align: center; padding-top: 20px; font-size: 50px;">
-  <span style="color: #FFD700;">&#9786;</span> <!-- Yellow Smiley Face -->
-  <span style="color: #32CD32;">&#10047;</span> <!-- Green Flower -->
-  <span style="color: #FF69B4;">&#9825;</span> <!-- Pink Heart (Hollow) -->
-</div>
+## &#9786; &#10047; &#9825;
 
-<h1 style="color: #E6E6FA; font-size: 48px;">Weekly Activity: Breaking Bag</h1>
-
-<h2 style="color: #E6E6FA; font-size: 30px;">
+# Weekly Activity: Breaking Bag
 
 <script type="module">
   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
   mermaid.initialize({
     startOnLoad: true,
-    theme: "default",  // Customize as needed
+    theme: "default",
     flowchart: { useMaxWidth: true, diagramPadding: 20 }
   });
 </script>
