@@ -2,10 +2,8 @@
 marp: true
 ---
 
-<div class="slide-container">
-  <h1 class="title">Week 2</h1>
-  <h2 class="subtitle">Open Archival Information System (OAIS)</h2>
-</div>
+# Week 2
+## Open Archival Information System (OAIS)
 
 ---
 
