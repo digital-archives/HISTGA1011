@@ -1,7 +1,7 @@
 ---
 marp: true
+theme: default
 mermaid: true
-
 ---
 <style>
 /* Slide container styling */
