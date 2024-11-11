@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: default
+theme: custom-theme
 mermaid: true
 ---
 <style>
@@ -1016,12 +1016,12 @@ __The Requirements for Bodies Providing Audit Certification of Candidate Trustwo
 
 <h2 style="color: #E6E6FA; font-size: 30px;">
 
-_Pretend you work at a small museum that is considering acquiring a collection of indie video games created by members of the [Babycastles collective](https://www.babycastles.com/about). Some video games depend on obsolete operating systems and machines to play._
 
-__Question 1__ 
-
-What might an Archival Information Package (AIP) look like for a Babycastles acquisition? Hint: Look at the McDonough article, page 1628 onward.
-
-__Question 3__ 
-
-What might be some impediments to DIP creation and access for this collection? What are some of the things to consider when thinking about DIP and access?
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({
+    startOnLoad: true,
+    theme: "default",
+    flowchart: { useMaxWidth: true, diagramPadding: 20 }
+  });
+</script>

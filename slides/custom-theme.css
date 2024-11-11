@@ -1,0 +1,8 @@
+/* Custom Marp Theme */
+@import url('https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.css');
+
+/* Additional styles */
+.mermaid {
+  max-width: 100%;
+  height: auto;
+}
