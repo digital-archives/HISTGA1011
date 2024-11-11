@@ -7,8 +7,9 @@ has_children: false
 ---
 # Week 1: Introduction to Digital Archives<br>
 
-<a href="{{ site.baseurl }}/slides/week_01_slide_deck.html" target="_blank">Lecture slides</a>
+<a href="{{ site.baseurl }}/slides/week_01_slide_deck.html" target="_blank">Slides</a>
 
 {: .label .label-yellow }
 Due
+
 Nothing due for this week!
