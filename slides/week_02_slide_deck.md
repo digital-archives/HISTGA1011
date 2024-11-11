@@ -1,8 +1,8 @@
 ---
 marp: true
-theme: custom-theme
-mermaid: true
+theme: forest
 ---
+
 <style>
 /* Slide container styling */
 .slide-container {
@@ -1016,12 +1016,11 @@ __The Requirements for Bodies Providing Audit Certification of Candidate Trustwo
 
 <h2 style="color: #E6E6FA; font-size: 30px;">
 
-
 <script type="module">
   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
   mermaid.initialize({
     startOnLoad: true,
-    theme: "default",
+    theme: "default",  // Customize as needed
     flowchart: { useMaxWidth: true, diagramPadding: 20 }
   });
 </script>
