@@ -1,11 +1,45 @@
 ---
 marp: true
 mermaid: true
----
-
-# Week 2: Open Archival Information System (OAIS)
 
 ---
+<style>
+/* Slide container styling */
+.slide-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #3a0ca3, #4361ee);
+  color: #f5f5f5;
+  text-align: center;
+}
+
+/* Main title styling */
+.title {
+  font-size: 3.5em;
+  font-weight: 700;
+  margin: 0;
+  color: #ffffff;
+}
+
+/* Subtitle styling */
+.subtitle {
+  font-size: 1.8em;
+  font-weight: 400;
+  color: #a6a6a6;
+  margin-top: 10px;
+}
+</style>
+
+<div class="slide-container">
+  <h1 class="title">Week 2</h1>
+  <h2 class="subtitle">Open Archival Information System (OAIS)</h2>
+</div>
+
+---
+
 
 # Today
 - Reminders/announcements
@@ -465,44 +499,6 @@ In defining what each information package is, we will also learn more about the 
 -->
 
 ---
-
-# Information Package
-
-<svg width="800" height="800" viewBox="0 0 800 800">
-  <!-- Front face -->
-  <polygon points="200,200 600,200 600,600 200,600" fill="lightblue" stroke="black" />
-  
-  <!-- Top face -->
-  <polygon points="200,200 400,80 800,80 600,200" fill="lightblue" stroke="black" />
-  
-  <!-- Side face -->
-  <polygon points="600,200 800,80 800,480 600,600" fill="blue" stroke="black" />
-  
-  <!-- Text on the front face -->
-  <text x="400" y="320" font-family="Arial" font-size="40" fill="black" text-anchor="middle">
-    To: OAIS
-  </text>
-  <text x="400" y="380" font-family="Arial" font-size="40" fill="black" text-anchor="middle">
-    1 OAIS Way
-  </text>
-  <text x="400" y="440" font-family="Arial" font-size="40" fill="black" text-anchor="middle">
-    OAIS, OH 00000
-  </text>
-</svg>
-
-<!--presenter notes
-
-Information packages “are necessary for the management of the data, according to the place in the digital life cycle” (Source https://www.iasa-web.org/tc04/open-archival-information-system-oais). Information packages can change in size, shape and form as they move into and out of an OAIS.
-
-You can think of an information package as similar to sending a package in the mail. Before you send a gift in the mail, you have put whatever you are sending in a container, and on its surface, you stick markings like an address and postage.
-
-When you go to the post office, it is given various markings and identifiers, like a QR code for tracking, or a post date, to prepare it for its journey to the recipient. The recipient will then unbox and unwrap the package and use it for some intended purpose.
-
-I’ll be revisiting this analogy throughout the following slides to help ground us in these concepts.
-
--->
-
----
 <svg width="1000" height="1000" viewBox="-150 0 1600 1200">
 
   <!-- Cube 1: Content Information -->
@@ -802,6 +798,25 @@ Descriptive information rests outside of and points to the package: descriptive 
 
 ---
 
+# Library of Congress BagIt Specification
+
+- BagIt Folder
+  - `bagit.txt`
+  - `bag-info.txt`
+  - `manifest-md5.txt`
+  - `tagmanifest-md5.txt`
+  - `data`
+    - `file1.txt`
+    - `file2.jpg`
+
+<!--presenter notes
+
+The OAIS describes information packages in a conceptual manner, but does not go into specifics about what a bag might look like in front of you. This is where the Library of Congress BagIt specification comes in. This specification was developed to provide a framework for how these packages, which are, generally speaking, folders on your computer, which contain other folders and files that both hold the actual contents of what you are preserving - an image, a document, a series of documents, a video, an audio file, etc. - as well as meta information that describes the contents of the folder itself.
+
+-->
+
+---
+
 # Definition: Submission Information Package (SIP)
 —
 
@@ -949,7 +964,7 @@ This is a good segue into the final of the third information package managed by 
 # Definition: Dissemination Information Package (DIP)
 —
 
-The __Dissemination Information Package (DIP)__ is rerived from one or more AIPs, and is received by the Consumer (i.e. end-user) in response to a request (e.g. searching an online catalog).
+The __Dissemination Information Package (DIP)__ is derived from one or more AIPs, and is received by the Consumer (i.e. end-user) in response to a request (e.g. searching an online catalog).
 
 <!--presenter notes
 
@@ -998,7 +1013,7 @@ __The Requirements for Bodies Providing Audit Certification of Candidate Trustwo
   <span style="color: #FF69B4;">&#9825;</span> <!-- Pink Heart (Hollow) -->
 </div>
 
-<h1 style="color: #E6E6FA; font-size: 48px;">Mini Activity</h1>
+<h1 style="color: #E6E6FA; font-size: 48px;">Weekly Activity: Breaking Bag</h1>
 
 <h2 style="color: #E6E6FA; font-size: 30px;">
 
