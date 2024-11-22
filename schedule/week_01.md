@@ -9,12 +9,17 @@ has_children: false
 
 <a href="{{ site.baseurl }}/slides/week_01_slide_deck.html" target="_blank">Slides</a>
 
+{: .label .label-green }
+Read
+
+Nothing to read this week!
+
 {: .label .label-yellow }
 Due
+
+Nothing due this week!
 
 {: .label .label-pink }
 Activity
 
-[Data Object](https://digital-archives.github.io/HISTGA1011/activities/fixity_bagger.html)
-
-Nothing due for this week!
+[Data Object](https://digital-archives.github.io/HISTGA1011/activities/data_object.html)
