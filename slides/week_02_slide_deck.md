@@ -9,17 +9,22 @@ marp: true
 
 
 # Today
+- Discussion: Data Object Activity
 - Reminders/announcements
 - Lecture: Open Archival Information System (OAIS)- Break
 - Next class
 
 ---
 
-# Open Archival Information System (OAIS)
+# Discussion: Data Object Activity
+
+__What would a digital archivist or researcher in 30 years need to make sense of the object?__
+
+[Data object Airtable gallery](https://airtable.com/appX8QYrNyTDJDGmg/shrcCl043DAEFMjQe)
 
 ---
 
-# __Question__: What does Owens mean by “craft” of digital preservation? What does that term imply in regards to digital preservation?
+# Open Archival Information System (OAIS)
 
 ---
 
@@ -37,8 +42,8 @@ Source for quote: Lee, Christopher A., and Tibbo, Helen. “Where’s the Archiv
 
 <style scoped>
 img {
-  max-width: 100vw;  /* Limit width to viewport width */
-  max-height: 90vh;  /* Limit height to 90% of viewport height */
+  max-width: 100vw;
+  max-height: 90vh;
   object-fit: contain;
   display: block;
   margin-left: auto;
@@ -75,7 +80,7 @@ Now that we have a definition for OAIS under our belts, we will first define wha
 
 ---
 
-# Why is the OAIS important?
+# Why is it good to know about OAIS?
 
 - __Widely accepted:__  key digital preservation standard
 - __Comprehensive:__ covers ingest to end-user access
@@ -128,13 +133,14 @@ img {
 
 ---
 
-# Text: Reference Model for an Open Archival Information System (OAIS)
+## Text
+# Reference Model for an Open Archival Information System (OAIS)
 
 __The Reference Model for an Open Archival Information System__ was developed for use in facilitating a broad, discipline-independent consensus on the requirements for an archive or repository to provide long-term preservation of digital information.
 
 <!--presenter notes
 
-This week, you were assigned to skim parts of the Reference Model for an OAIS document. The Reference Model for an Open Archival Information System (OAIS) document was developed for use in facilitating a broad, discipline-independent consensus on the requirements for an archive or repository to provide long-term preservation of digital information. It is sometimes referred to as the “Magenta Book” because of the color of its cover page.The OAIS Reference Model was approved in January 2002 as ISO International Standard 14721; a revised and updated version was published in 2012 as ISO (International Standards Organization) Standard 14721:2012.
+This week, you were assigned to skim parts of the Reference Model for an OAIS document. The Reference Model for an Open Archival Information System (OAIS) document was developed for use in facilitating a broad, discipline-independent consensus on the requirements for an archive or repository to provide long-term preservation of digital information. It is sometimes referred to as the “Magenta Book” because of the color of its cover page. The OAIS Reference Model was approved in January 2002 as ISO International Standard 14721; a revised and updated version was published in 2012 as ISO (International Standards Organization) Standard 14721:2012.
 
 The Consultative Committee for Space Data Systems (CCSDS) initiated the creation of this standard, and aimed at developing formal standards for the long-term storage of digital data generated from space missions.
 
@@ -146,18 +152,9 @@ So now, let’s turn back again to our OAIS definition, and unpack what it means
 
 ---
 
-# Question for class
+## Question
 
-## As we learned last week, all data objects are, at their most fundamental, composed of 0s and 1s, or binary data. __Is it enough to preserve just the "bits" of a data object? Why or why not?__
-
-<!--presenter notes 
-
-Last week, we covered the basics of binaries and bitstreams. A bitstream is defined as sequence of 1s and 0s. We also learned how to interpret one byte of data to a decimal number.
-
-Typically I do not like or endorse trick questions, but I’d like to ask this to prove a point. The trick question is: Can anyone guess what this string of 1s and 0s on the slide means?
-
-The answer is that you can’t really know what any string of 1s and 0s means without some sort of other information that tells you how to interpret it, or can automatically render it. This is especially true when concerning things like a piece of digital art, video, document, that requires some sort of intermediary software or hardware system to interpret. Even if we were to decode this bitstream into decimals, without any sort of context, it still would just be numbers without any meaning.
-
+# As we learned last week, all data objects are, at their most fundamental, composed of 0s and 1s, or binary data. __Is it enough to preserve just the "bits" of a data object? Why or why not?__
 
 <!-- presenter notes
 
@@ -173,7 +170,8 @@ And this dependency on intermediaries presents a risk. What happens when the sof
 
 ---
 
-# Definition: Content Information (1/2)
+## Definition
+# Content Information (1/2)
 
 __Content Information__ is composed of two main elements:
   1. The __Data Object__ (the 0s and 1s or the literal binary data, aka "bitstream", e.g. 01001000)

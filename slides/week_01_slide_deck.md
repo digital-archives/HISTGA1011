@@ -75,7 +75,7 @@ I want to step you through basic concepts to do with what digital information is
 
 # As archivists, why should we know about digital preservation and archiving?
 
-“As archivists, if we are going to be able to take care of digital collections into the future, we must understand that the basic building blocks of… digital files are… bits and bytes. To know files, we must know how they are constructed… And from this knowledge, we will be better equipped to design preservation strategies for our digital collections.”
+“As archivists, if we are going to be able to take care of digital collections into the future, we must understand that the __basic building blocks of… digital files are… bits and bytes__. To know files, we must know how they are constructed… And from this knowledge, we will be better equipped to design preservation strategies for our digital collections.”
 
 Bertram Lyons, _The Digital Archives Handbook_ (2019)
 
@@ -87,7 +87,8 @@ Lyons, Bertram. "Digital Preservation." In The Digital Archives Handbook: A Guid
 
 ---
 
-# Definition: Data Object
+## Definition
+# Data Object
 
 A __data object__ is any entity represented as a sequence of binary digits (bits or bitstreams), whose meaningful interpretation depends on a combination of decoding processes and contextual factors.
 
@@ -119,7 +120,8 @@ All Data Objects, whether it's a single file, or an entire application, will req
 -->
 ---
 
-# Definition: Software
+## Definition
+# Software
 
 __Software__ is a set of instructions and data that tells a computer what to do. It works when the computer decodes these instructions and follows them to perform tasks. The way software runs depends on the computer's setup (like its hardware and operating system).
 
@@ -133,7 +135,8 @@ The way I like to think about these things is to think of these things in terms 
 
 ---
 
-# Definition: Hardware
+## Definition
+# Hardware
 
 __Hardware__ refers to the _physical_ components of a computer system that carry out tasks by following instructions provided by software.
 
@@ -144,19 +147,6 @@ Hardware refers to the physical components of a computer system that carry out t
 It includes all the tangible parts of a computer, such as the processor, memory, storage devices, input devices (like keyboards and mice), and output devices (like monitors and printers). Hardware provides the foundation for running software and processing data.
 
 -->
-
----
-
-# Activity
-
-1. **Identify a data object**  
-   Think of a **data object** you have encountered in your professional, creative, academic, or personal experience.
-
-2. **Analyze its relationships**  
-   Consider how this object interacts with **interpretive technologies** and **specialized knowledge**.
-
-3. **Submit your data object**  
-   Use <a href="https://airtable.com/appX8QYrNyTDJDGmg/pag5PKEZC1XAvye3O/form" target="_blank">this Airtable form</a> to describe the data object and its relationships.
 
 ---
 
@@ -180,7 +170,8 @@ These encodings are akin to how computers encode information into binary. Basica
 
 ---
 
-# Definition: Binary
+## Definition
+# Binary
 
 __Binary__ encodes information using:
 - A "base-2" system and place values
@@ -251,7 +242,8 @@ Binary works similarly in that we use both a decimal value (either a 1 or a 0), 
 
 ---
 
-# Definition: Byte (1/2)
+## Definition
+# Byte (1/2)
 
 A __byte__ is a discrete-length grouping of bits.
 
@@ -272,7 +264,8 @@ https://www.techtarget.com/whatis/definition/binary#:~:text=In%20mathematics%20a
 
 ---
 
-# Definition: Byte (2/2)
+## Definition
+# Byte (2/2)
 
 __Byte length__ can be used to determine the total number of values it can represent.
 
@@ -300,7 +293,8 @@ To calculate how many different combinations of 8 1s and 0s, we raise the number
 
 ---
 
-# Question: How many possible byte values are there in a __16-bit__ system?
+## Question
+# How many possible byte values are there in a __16-bit__ system?
 
 To determine this:
 * Determine number of possible bit values: 2
@@ -309,7 +303,8 @@ To determine this:
 
 ---
 
-# Question: How many possible byte values are there in a __16-bit__ system? Answer: 65,536
+## Question
+# How many possible byte values are there in a __16-bit__ system? Answer: 65,536
 
 A 16-bit system can be calculated by raising the number of possible values (2) to the power of the length of the byte (16), or "two to the power of 16" (2^16). That is:  
 
@@ -523,7 +518,8 @@ The first layer is what you see—the letters "O" and "K." Notice how I call the
 
 ---
 
-# Definition: The American Standard Code for Information Interchange (ASCII)
+## Definition
+# The American Standard Code for Information Interchange (ASCII)
 
 The American Standard Code for Information Interchange (ASCII) is a character encoding standard for electronic communication. It encodes 128 specified characters into seven-bit integers.
 
@@ -626,15 +622,11 @@ So, whether you're reading a word, watching a video, or listening to music, it's
 
 ---
 
-# A Brief History of Digital Preservation and Archiving
+# Binary Encoding Examples
 
 <!--presenter notes
 Much of this timeline is influenced by Digital Preservation Management’s Timeline of Digital Technology and Preservation (https://www.dpworkshop.org/dpm-eng/timeline/timeline.html).
--->
----
-
-# In-Class Activity
- 
+--> 
 
 ---
 
@@ -773,11 +765,21 @@ The image you see in the slide shows a 32 x 32 core memory plane storing 1024 bi
 
 ---
 
-__Weekly activity: None this week__
+## Activity
+# Data Object
+
+1. **Identify a data object**: Think of a **data object** you have encountered in your professional, creative, academic, or personal experiences.
+
+2. **Analyze its relationships**: Consider how this object interacts with **interpretive technologies** and **specialized knowledge**.
+
+3. **Submit your data object**: Describe your data object using <a href="https://airtable.com/appX8QYrNyTDJDGmg/pag5PKEZC1XAvye3O/form" target="_blank">this Airtable form</a>.
+
+4. **Discuss**: Come prepared next class to discuss your data object, and answer: __What would a digital archivist or researcher in 30 years need to make sense of the object?__
+
+---
 
 ![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives22.gif)
 
 _Final questions or reflections?_
 
-Email me at mary.kidd@nyu.edu.
-
+mary.kidd@nyu.edu
