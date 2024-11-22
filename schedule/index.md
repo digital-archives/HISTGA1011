@@ -9,8 +9,8 @@ has_children: true
 
 | Week Number | Date of Class  | Topic / Assignment Due                                  | Weekly Activity<br>Due following Sunday        |
 |-------------|----------------|-------------------------------------------|------------------------|
-| [Week 1](week_01.html)  | January 24 | Introduction to Digital Preservation |
-| [Week 2](week_02.html)  | January 31 | OAIS Conceptual Model<br>**_Sign up for a file format_** |
+| [Week 1](week_01.html)  | January 24 | Introduction to Digital Archives |
+| [Week 2](week_02.html)  | January 31 | OAIS Conceptual Model |
 | [Week 3](week_03.html)  | February 7 | Digital Preservation Planning & Policies | Preservation Policy Comparison |
 | [Week 4](week_04.html)  | February 14 | Repository Systems<br>**_File Format Report due_** | Fixity and Digital Packages |
 | [Week 5](week_05.html)  | February 21 | Storage Systems | Archivematica Sandbox |
