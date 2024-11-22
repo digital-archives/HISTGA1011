@@ -12,4 +12,9 @@ has_children: false
 {: .label .label-yellow }
 Due
 
+{: .label .label-pink }
+Activity
+
+[Data Object](https://digital-archives.github.io/HISTGA1011/activities/fixity_bagger.html)
+
 Nothing due for this week!
