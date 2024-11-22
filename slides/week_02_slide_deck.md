@@ -37,7 +37,8 @@ Source for quote: Lee, Christopher A., and Tibbo, Helen. “Where’s the Archiv
 
 <style scoped>
 img {
-  max-height: 105vh; /* 80% of the viewport height */
+  max-width: 100vw;  /* Limit width to viewport width */
+  max-height: 90vh;  /* Limit height to 90% of viewport height */
   object-fit: contain;
   display: block;
   margin-left: auto;

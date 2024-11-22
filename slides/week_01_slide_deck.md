@@ -3,10 +3,9 @@ marp: true
 ---
 
 # Week 1 
-Introduction to Digital Archives
+## Introduction to Digital Archives
 
 ---
-
 
 - **Welcome and introductions**
 - **Review the syllabus**
@@ -52,7 +51,6 @@ My email: [mary.kidd@nyu.edu](mailto:mary.kidd@nyu.edu)
 
 [https://digital-archives.github.io/HISTGA1011/](https://digital-archives.github.io/HISTGA1011/)
 
-
 <!-- presenter notes
 
 This semester’s syllabus is hosted on Github. Has anyone here used or are you familiar with Github?
@@ -65,7 +63,7 @@ Syllabus link: https://github.com/kiddmary/HIST-GA-1011
 
 ---
 
-# Digital Information Basics
+# Data Object Basics
 
 <!-- presenter notes
 
@@ -75,7 +73,7 @@ I want to step you through basic concepts to do with what digital information is
 
 ---
 
-# Why Should We Know About Digital Information?
+# As archivists, why should we know about digital preservation and archiving?
 
 “As archivists, if we are going to be able to take care of digital collections into the future, we must understand that the basic building blocks of… digital files are… bits and bytes. To know files, we must know how they are constructed… And from this knowledge, we will be better equipped to design preservation strategies for our digital collections.”
 
@@ -89,39 +87,61 @@ Lyons, Bertram. "Digital Preservation." In The Digital Archives Handbook: A Guid
 
 ---
 
-# Definition: data object
+# Definition: Data Object
 
-A __data object__ is a complex entity composed of __bitstreams__, necessitating the use of one or a combination of machines and digital components to access and understand.
+A __data object__ is any entity represented as a sequence of binary digits (bits or bitstreams), whose meaningful interpretation depends on a combination of decoding processes and contextual factors.
 
 <!-- presenter notes
 
-Let's unpack this definition by thinking a bit about data objects we encounter through our life and work.
+Let's unpack this definition by thinking a bit about Data Objects we encounter through our life and work. We will return to defining Bitstreams later on.
 
 -->
 ---
 
-# The Complex Relationship of data objects
+# The Complex Relationships of Data Objects
 
-**data object** (e.g., document, media, software)
-↓
-**Requires Multiple Layers of Technology**
+**Data Object** (e.g., bitstream)
+↓ Requires
+**Interpretive Technologies** (software, hardware)
+↓ Requires
+**Specialized Knowledge** (documentation, training, user communities)
+↓ Maintains
+**Accessibility, Preservation**
 
-Software: Libraries, Plug-ins, Dependencies
-Hardware: Firmware, Drivers, Power Supply
-Machines/Devices: Vintage Systems, Specialized Parts, ROM Files, System Specs
-Knowledge: Documentation, Training, Communities
-↓
-**Maintains**
-Accessibility, Preservation
-↓
-**Failure to Maintain**
-→ Obsolescence, Inaccessibility, Data Loss
+If these relationships are not maintained, the result is obsolescence, inaccessibility, data loss
 
 <!-- 
 
-data objects encapsulate various forms of digital content, such as documents, media, or software.
+Data Objects encapsulate various forms of digital content, such as documents, media, or software.
 
-All data objects, whether it's a single file, or an entire application, will require specialized software, hardware, emulation, specialized knowledge, or one or all of these things, to faithfully render and understand, ensuring their long-term accessibility and preservation.
+All Data Objects, whether it's a single file, or an entire application, will require specialized software, hardware, emulation, specialized knowledge, or one or all of these things, to faithfully render and understand, ensuring their long-term accessibility and preservation.
+
+-->
+---
+
+# Definition: Software
+
+__Software__ is a set of instructions and data that tells a computer what to do. It works when the computer decodes these instructions and follows them to perform tasks. The way software runs depends on the computer's setup (like its hardware and operating system).
+
+<!-- presenter notes
+
+Software is a set of instructions and data that tells a computer what to do. It works when the computer decodes these instructions and follows them to perform tasks. The way software runs depends on the computer's setup (like its hardware and operating system).
+
+The way I like to think about these things is to think of these things in terms of a restaurant. You can think of  software as recipes, which your computer, which you can think of as the chef, follows instructions for to put together Data Objects.
+
+-->
+
+---
+
+# Definition: Hardware
+
+__Hardware__ refers to the _physical_ components of a computer system that carry out tasks by following instructions provided by software.
+
+<!-- presenter notes
+
+Hardware refers to the physical components of a computer system that carry out tasks by following instructions provided by software.
+
+It includes all the tangible parts of a computer, such as the processor, memory, storage devices, input devices (like keyboards and mice), and output devices (like monitors and printers). Hardware provides the foundation for running software and processing data.
 
 -->
 
@@ -130,21 +150,13 @@ All data objects, whether it's a single file, or an entire application, will req
 # Activity
 
 1. **Identify a data object**  
-   Think of a **data object** you have encountered in your professional, creative, or academic work.
+   Think of a **data object** you have encountered in your professional, creative, academic, or personal experience.
 
-2. **Analyze Its Relationships**  
-   Consider how this object interacts with **software, hardware, emulation,** and **specialized knowledge**.
+2. **Analyze its relationships**  
+   Consider how this object interacts with **interpretive technologies** and **specialized knowledge**.
 
-3. **Submit Your Analysis**  
-   Use [this Airtable Form](https://airtable.com/appX8QYrNyTDJDGmg/pag5PKEZC1XAvye3O/form) to describe the relationships.
-
----
-
-# Definition: Software
-
----
-
-# Definition: Hardware
+3. **Submit your data object**  
+   Use <a href="https://airtable.com/appX8QYrNyTDJDGmg/pag5PKEZC1XAvye3O/form" target="_blank">this Airtable form</a> to describe the data object and its relationships.
 
 ---
 
@@ -172,7 +184,7 @@ These encodings are akin to how computers encode information into binary. Basica
 
 __Binary__ encodes information using:
 - A "base-2" system and place values
-- The digits 0 and 1, referred to as __bits__
+- The digits 0 and 1, referred to as __bits__ (stands for "binary digit")
 
 Binary works in a similar way to the familiar __base-10__ decimal system, which also uses digits and place values to represent numbers.
 
@@ -239,17 +251,13 @@ Binary works similarly in that we use both a decimal value (either a 1 or a 0), 
 
 ---
 
-# Definition: Byte
+# Definition: Byte (1/2)
 
-A __byte__ is a discrete-length grouping of __bits__ (a bit is a single binary value, i.e. a 1 or a 0).
+A __byte__ is a discrete-length grouping of bits.
 
-__Example: 0000 0111__
+__Example: 00000111__
 
 This byte has a length of 8.
-
-A byte's length can determine how many distinct byte values can be represented.
-
-Similar to adding a comma to a base-10 number, we can group bytes in groups of 4 to make the number more readable.
 
 <!-- presenter notes
 
@@ -264,13 +272,13 @@ https://www.techtarget.com/whatis/definition/binary#:~:text=In%20mathematics%20a
 
 ---
 
-Byte length can be used to determine the total number of values it can represent.
+# Definition: Byte (2/2)
 
-An 8-bit length number can represent up to 256 values.
+__Byte length__ can be used to determine the total number of values it can represent.
 
-Why 256?
-- Each bit represents 1 of 2 values (A base-2 system can only have two possible bit values: 1 or 0)
-- This byte has a length of 8 values. So, the total number of values can be determined by "raising" 2 possible bit values (1 or 0) to the power of an 8-bit byte length (2^8). This looks like:
+An 8-bit length byte like 00000111 can represent up to 256 values. 
+
+__We determine max value__ by "raising" 2 (possible bit values, 1 or 0) to the power of the byte length (8 bit), notated as 2^8.
 
 ```
 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 
@@ -297,11 +305,11 @@ To calculate how many different combinations of 8 1s and 0s, we raise the number
 To determine this:
 * Determine number of possible bit values: 2
 * Determine length of byte: 16
-* Raise 2 to the power of 16 (2^16)
+* Raise 2 to the power of the byte length (2^16)
 
 ---
 
-# Answer: 65,536
+# Question: How many possible byte values are there in a __16-bit__ system? Answer: 65,536
 
 A 16-bit system can be calculated by raising the number of possible values (2) to the power of the length of the byte (16), or "two to the power of 16" (2^16). That is:  
 
@@ -329,9 +337,7 @@ img {
 }
 </style>
 
-![Example of an 8-bit system: Nintendo Entertainment System (NES) gaming console from the 1980s.](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives0.png)
-
-Example of an 8-bit system: Nintendo Entertainment System (NES) gaming console from the 1980s.
+![Console screen capture of an 8-bit Nintendo Entertainment System (NES) gaming system from the late 1980s.](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives0.png)
 
 ---
 
@@ -766,416 +772,6 @@ The image you see in the slide shows a 32 x 32 core memory plane storing 1024 bi
 -->
 
 ---
-
-<style scoped>
-img {
-  max-height: 100vh; /* 80% of the viewport height */
-  object-fit: contain;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 5px;
-  margin-top: 0;
-}
-</style>
-
-![Image of a 32 x 32 core memory plane, developed by Dr. An Wang in 1949.](img/poster-records-mgt-518154.jpg)
-
-__1950__: Federal Records Act passed. Later amendments expand the definition of a record, whose definition is largely rooted in paper-based materials, to include “machine-readable materials.”
-
-<!--presenter notes
-
-Computer technology became more compact and faster over the decades. In 1950, the Federal Records Act was passed, providing a legal framework for federal records management. Later amendments to The Act clarify the definition of a record to include “machine-readable materials”.
-
-The act has since been amended to meet modern circumstances. Most notably and recently the Presidential and Federal Records Act Amendments of 2014 was signed into law by President Obama, modernizing the Federal Records Act by expressly expanding the definition of federal records to include electronic records, which was the first change to the definition of "Federal record" since its initial enactment.
-
-More background on the motivation for this Act being passed can be found in a 1953 American Archivist article: https://www.jstor.org/stable/40289125
--->
-
----
-
-<style scoped>
-img {
-  width: 75%;
-  object-fit: contain;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
-
-![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives7.jpg)
-
-__1956__: IBM introduces first commercial secondary storage computer, RAMAC.
-
-<!--presenter notes
-
-The 1950s saw an explosion of computing and storage device technologies. The RAMAC machine you see pictured above -- RAMAC stands for “Random Access Method of Accounting and Control” -- was used in the accounting industry. The RAMAC was the first commercial computer to store memory using a moving-head hard disk drive, or HDD.
-
-Source: https://cs.stanford.edu/people/nick/how-hard-drive-works/
-A hard disk drive works in a similar manner to the magnetic core memory example we just covered. Basically, a spinning plate is coated in a thin magnetic-field sensitive substrate. A magnetized head runs over the plate, magnetizing or “writing” into the substrate one of two directions: Magnetic North or South. Each direction corresponds to (you probably guessed it) a 1 or 0. To access this stored information, the head runs over the spinning plate again and instead or writing, “reads” the pattern of magnetized norths and souths.
-
-Magnetic writing and reading of memory was a huge step in revolutionizing computers. Because this information could be written in a near-microscopic manner, computers started to get smaller and more compact.
-
--->
-
----
-
-![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives8.png)
-
-__1968__: MARC (MAchine Readable Catalog) records become the US standard for library cataloging.
-
-<!--presenter notes
-
-The 1960s saw the development of smaller and smaller computers. In the library field, Machine Readable Catalog records, or MARC, becomes the US standard for library cataloging.
-
-https://www.dlib.org/dlib/may15/papadakis/05papadakis.print.html
-
--->
-
----
-
-![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives9.png)
-
-The first ARPANET node is installed at UCLA Network Measurement Center.
-
-<!--presenter notes
-
-Image source: 
-CC BY-SA 4.0
-File:Arpanet in the 1970s.png
-Created: 4 January 2022
-
-The late 1960s heralded the first networked computers. Advanced Research Projects Agency Network or ARPANET - a precursor to the modern internet - was the first wide-area packet-switched network. Packet-switched networks transmitted data from one node to another in a more efficient manner, and this model is essentially the backbone for how for data communications in computer networks worldwide today work.
-
-In the chart above, you can see a map of ARPANET node map from the early 1970s.
-
--->
-
----
-
-- USENET emerges as a collection of user-submitted messages on various subjects posted to servers on a worldwide network.
-- Altair 8800, one of the first personal “microcomputers” are sold through mail order catalogs.
-- The Kurzweil Reading Machine combines omni-font OCR, flat-bed scanners, and text-to-speech synthesis to create the first print-to-speech reading machine for the blind.
-- Ohio College Library Center (OCLC) established to provide a public, networked catalog.
-
-<!--presenter notes
-
-The 1970s saw an explosion of computing and networking technology, so I’ve cherry-picked some highlights from this decade. The first being in 1971, the establishing of the Ohio College Library Center or OCLC, which was a shared cataloging system for libraries.
-
-In 1974 we see the development of the Kurzweil Reading Machine, which used scanners to turn text into speech. This is considered the first practical application of optical character recognition or OCR technology. To me, it represents an important shift in how society uses technology. Leading up to this, computers are primarily used to support industries or war efforts. Here, we are seeing assistive technologies break down accessibility barriers to information and knowledge.
-
-In 1975, we see the release of what is considered the first commercially successful personal computers, the Altair 8800. Later in the 1970s, we will see the release of other personal computers such as the Apple II. These developments represents computers entering into the domestic sphere. 
-
-We end the 1970s with the emergence of USENET in 1979. USENET is a precursor to online discussion forums, a precursor to Reddit and others. The domestication of computer technology, and the introduction of these technologies into libraries, herald the socializing potential of networked computing, for better or for worse.
-
--->
-
----
-
-- The National Endowment for the Humanities (NEH) funds the __Brittle Books Program__ to microfilm ~3 million 19th-century books.
-- Scott Armstrong (Executive Director of the National Security Archive) filed a Freedom of Information Act (FOIA) request to ensure that the contents of the White House electronic mail and records system, contained on magnetic backup tapes, would not be destroyed and subject to archival review before disposition.
-- Sony and Philips introduce the first CD player.
-- The National Information Systems Task Force (NISTF) develops the first two formally recognized archival description standards in the US: NISTF Data Elements Dictionary and USMARC AMC.
-- Sony introduces the first 3½" floppy drives and diskettes.
-
----
-
-- In 1981 Sony introduced the first 3½” floppy drives and diskettes. Although other floppy disks were released earlier than this, the 3½ disk format was used widely and was very popular carrier.
-- In 1982 the National Information Systems Task Force (NISTF) developed the first two formally recognized archival description standards in the United States: NISTF Data Elements Dictionary and USMARC AMC. These efforts were used to both standardize the description of archives in order to better exchange or share information across networked catalogs.
-- In 1988, at the behest of the US Congress, the National Endowment for the Humanities (NEH) funds the Brittle Books Program to microfilm (and eventually digitize) ~3 million 19th-century books. When this program first began, books were digitized through preservation microfilming and even photocopying. Later, this would be replaced with digital scanning and photography methods, into high-resolution file formats such as Tag Image or “TIF” file format.
-
----
-
-Scott Armstrong, Executive Director of the National Security Archive, filed a Freedom of Information Act (FOIA) request to ensure that the contents of the White House electronic mail and records system, contained on magnetic backup tapes stored on the IBM PROFS system, would not be destroyed and subject to archival review before disposition. This FOIA led to a lawsuit known as Armstrong versus the Executive Office of the President implicating both the Reagan and Bush White Houses. This lawsuit resulted in the court ordering the transfer of 5,839 backup tapes to the National Archives.  
-
-See: https://www.jstor.org/stable/40293774 and https://law.justia.com/cases/federal/district-courts/FSupp/821/761/1510466/
-
----
-
-1994: The Research Libraries Group (RLG) and Commission on Preservation and Access (CPA) formed a Task Force on Archiving of Digital Information with the main purpose of investigating what needed to be done to ensure long-term preservation and continued access to the digital records.
-
----
-
-In 1994, the Research Libraries Group and Commission on Preservation and Access (CPA) formed a Task Force on Archiving of Digital Information with the main purpose of investigating what needed to be done to ensure long-term preservation and continued access to digital records.
-
-This report specifically calls out the fact the threat of digital technologies in light of the fact that digital technologies were becoming the standard for recording the cultural memory. In the Task Force report, they call out a specific instance in 1976 where the National Archives realized data from the 1960 Census files resided on tapes that the Bureau could read only with a specific and long-obsolete drive. This required the Census Bureau to migrate this data onto industry-standard tapes.
-
-Source: https://www.clir.org/wp-content/uploads/sites/6/pub63watersgarrett.pdf
-
----
-
-Digital Library Federation (DLF) is formed.
-
- __National Digital Library Program (NDLP) established at Library of Congress.
-
-The Mellon Foundation funds   Making of America (MOA)   project.
-
-Dublin Core   metadata schema is established by a working group.
-
-Jeffery Rothenberg publishes “Ensuring the Longevity of Digital Information”   in    _Scientific American_   .
-
-12 founding member institutions including NARA, NYPL and LoC.
-
-This schema attempts to universalize how electronic resources are described on the web.
-
-Millions of late 19th-century journals/monographs digitized, resulting in ~15,000 data objects made available online.
-
----
-
-3 minutes
-
-Several key events occurred in 1995 laying down the foundation for digital preservation efforts going forward.
-
-Here, we see several digital preservation and archives efforts underway: the National Digital Library Program (NDLP) was established at the Library of Congress with the goal of “assembling a digital library of reproductions of primary source materials to support the study of history and culture in the United States.” Source: https://memory.loc.gov/ammem/dli2/html/lcndlp.html
-
-The Digital Library Federation (DLF) was established with 12 founding member institutions including the National Archives, the New York Public Library and the Library of Congress. Early efforts focus on building digital infrastructures. The Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH) and Metadata Encoding and Transmission Standard or METS will come out of these efforts. Source: https://www.diglib.org/
-
-Jeffery Rothenberg, a computer scientist for the RAND corporation, published an article “Ensuring the Longevity of Digital Information” in Scientific American, which identified just how fragile digital data is to failure, unreadability, and how much information that only exists digitally will be lost if action isn’t taken. Rothenburg would later go on to develop emulation environments that allow for obsolete software to run on modern-day operating systems.
-
-1995 was was also the year when the National Center for Supercomputing Application (NCSA) and OCLC came together for a joint workshop in Dublin, OH to develop a core set of semantics for Web-based resources would be extremely useful for categorizing the Web for easier search and retrieval called Dublin Core. Source: https://www.dublincore.org/about/history/
-
-Lastly, we have the Andrew W. Mellon Foundation funding the Making of America (MOA) Project, which digitized millions of pages of late 19th-century journals and monographs, and published approximately 15,000 data objects online. Sources: http://collections.library.cornell.edu/moa_new/ and https://quod.lib.umich.edu/m/moagrp/
-
-The non-profit    _Internet Archive_    (archive.org) was established “as a response to a rapidly growing problem—the disappearance of content from the World Wide Web.”
-
-[Rackley, Marilyn (2010) 'Internet Archive', Encyclopedia of Library and Information Sciences, Third Edition, 1: 1, 2966 — 2976](https://ia800503.us.archive.org/34/items/internetarchive-encyclis/EncycLisInternetArchive.pdf)
-
----
-
-1 min
-
-Moving on to 1996, we see the establishment of the non-profit Internet Archive, which was “a response to a rapidly growing problem--the disappearance of content from the World Wide Web.”
-
-Source: Rackley, Marilyn (2010) 'Internet Archive', Encyclopedia of Library and Information Sciences, Third Edition, 1: 1, 2966 — 2976
-
-
-
-
-The first version of  __E__  _X_  __tensible __  _M_  __arkup __  _L_  __anguage__  (XML) is released by the World Wide Web Consortium.
-
-__<item>__
-
-__<title>__  __Episode 3: Back it up__  __</title>__
-
-__<link>__  __https://ia801001.us.archive.org/18/items/PreserveThisPodcastEpisode3/PreserveThisPodcast_Episode3.mp3__  __</link>__
-
-__	__  __<pubDate>__
-
-__Thu, 18 Apr 2019 09:00:00 +0000__
-
-__</pubDate>__
-
-__</item>__
-
----
-
-2 min
-
-In 1998, the first version of EXtensible Markup Language (XML) is released by the World Wide Web Consortium. XML enables internet-networked machines to “talk” to one another. Similar to the development of Dublin Core, XML allows better sharing of archival electronic resources on the web.
-
-Source: http://www.dlib.org/dlib/february05/vannispen/02vannispen.html
-
-
-![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives10.jpg)
-
-# Encoded Archival Description (EAD) version 1.0 is released and is XML-compliant.
-
----
-
-1 min
-
-Encoded Archival Description (EAD) originated at the 1993 Society of American Archivists annual meeting in New Orleans and was headed by Daniel Pitti at the University of California, Berkeley. The project's goal was to create a data standard for describing archives, similar to the MARC standards for describing bibliographic materials. The initial EAD Version 1.0 was released in the fall of 1998. Such a standard enables archives, museums, libraries, and manuscript repositories to list and describe their holdings in a manner that would be machine-readable and therefore easy to search, maintain and exchange. EAD was released as XML-compliant, meaning, you could write a machine-readable EAD using XML and express hierarchical relationships between various finding aid components. This is an important digital archives development. Before this, finding aids were generally either made available to patrons as paper or Word documents, and MARC records were too flat to be able to encode these complex hierarchies.
-
-__Making of America II (MOA2) Project__
-
-__Developed standards for creating and encoding digital representations of archival objects.__
-
----
-
-Source: https://www.clir.org/wp-content/uploads/sites/6/pub87.pdf
-
-Funded by the DLF, the Making of America II (MOA2) Project served as a testbed for establishing archival standards around data object description, access, and tools. The project’s final report states that these efforts were important “...to develop standards for creating and encoding digital representations of archival objects (for example, a digitized photograph or a digital representation of a book or diary)”. Further, the report states, that “If tools are to be developed that work with digitized archival objects across distributed repositories, these objects will require some form of standardization”.
-
-The report put forth a recommendation for what it referred to as Standard Generalized Markup Language (SGML) that served as the basis for the Metadata Encoding and Transmission Standard (METS) standard widely used across digital repositories today. Additionally, the project put forth object modeling frameworks, which result in being able to produce complex data objects (e.g. a book = one object made up of many image files)
-
- __National Digital Information Infrastructure and Preservation Program (NDIIPP)   established by the Library of Congress. This leads to the development of programs such as __Lots of Copies Keep Stuff Safe (LOCKSS)__.
-
----
-
-We’ve made it to the 2000s!
-
-In 2000, the National Digital Information Infrastructure and Preservation Program (NDIIPP) was given 100 million dollars by Congress. Led by the Library of Congress, its objective was to archive and provide access to digital resources, convene working groups, administer grant projects, and promote information about digital preservation issues.
-
-The NDIIPP funded several important preservation initiatives including the famous Lots of Copies Keep Stuff Safe (LOCKSS) approach to preservation. LOCKSS basically preserves things by copying and storing copies across nodes, checking copies against other copies to ensure file integrity, and using these copies to maintain continuous access across archives.
-
-![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives11.png)
-
- __Northeast  __ __   __Document Conservation Center (NEDCC)   publishes its    __Handbook for Digital Projects
-
----
-
-1 min
-
-The first edition of the Northeast Document Conservation Center (NEDCC)’s Handbook for Digital Projects is published, outlining how to build out digitization projects including prioritization, workflows, tools, planning, rights, preservation and access. Keep this document in mind: it may be useful to you for your final digital preservation plan project. The handbook is specific to flat/2-d scanning to create digital image-based derivatives.
-
-https://www.erecordsusa.com/book-archival-services.html
-
-
-![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives12.png)
-
-Internet Archive’s    _Wayback Machine_    provides public access to archived versions of the websites it has been crawling since 1996.
-
----
-
-1 min
-
-The Internet Archive releases the The Wayback Machine, which had been “crawling” websites since 1996, releases a portal through which users can search for, view and click through captures of websites over their lifetimes. The screen capture you see above is Lycos, one of the earliest search engines, from December 12, 1998.
-
-![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives13.png)
-
-__International Standards Organization (ISO) formally adopts the __  __Open Archives Information System (OAIS) __  __as the standard model for creating and maintaining a digital repository over time. __
-
----
-
-1 min
-
-In 2002, the International Standards Organization (ISO) formally adopts the Open Archives Information System (OAIS) as the standard model for creating and maintaining a digital repository over time. We will be reading and discussing the OAIS in next week’s class, so we won’t really say much here about it, other than the OAIS is now seen as the “gold standard” of digital repository frameworks.
-
-Source: https://www.researchgate.net/figure/OAIS-Functional-Entities-from-Reference-Model-for-an-Open-Archival-Information-System_fig2_272494377
-
-
-![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives14.png)
-
- __PRONOM  , an online registry of file formats and software products, is developed by the Digital Preservation Department of the UK National Archives.
-
----
-
-1 min
-
-In 2002, PRONOM, an online registry of file formats and software products, is developed by the Digital Preservation Department of the UK National Archives. The tool supports both identifying the technical metadata associated with various file formats, and if you happen to come across a new file format that is not in its registry, you can register one yourself. The screen capture you see in the slide was derived from a 2019 blog post (https://openpreservation.org/blogs/using-siegfried-tooling-for-signature-development-for-pronom2019/), whose author gives an example of filling out a fake file format which he has dubbed the “Cafe” file format into the registry by filling out a form.
-
-Source: https://www.nationalarchives.gov.uk/PRONOM/Default.aspx
-
-
-![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives15.png)
-
- _Google Books_    project launches to digitize and make available the holdings of large research institutions online. The project is essentially shuttered in 2017 after decades-long legal battles.
-
----
-
-1 min
-
-In 2002, Google Books project launches to digitize and make available the holdings of large research institutions online. A pilot, spearheaded by Google and Harvard was launched in 2004. Starting in 2005 through to 2013, the Authors’ Guild and others sued Google over copyright infringement. By 2013, the service surpassed 25 million books digitized. Then in 2017, the project basically was shut down by Google after fighting decades-long long legal battles. Seemingly well-meaning mass digitization projects will become a theme through the 2000s.
-
-
-![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives16.png)
-
-RLG, OCLC and NARA joint task force establishes the   _Trustworthy Repositories Audit & Certification_  (TRAC) metric.
-
-Image credit: Illustration by Jørgen Stamp digitalbevaring.dk CC BY 2.5 Denmark
-
----
-
-30 seconds
-
-In 2003, a RLG, OCLC and NARA joint task force established the Trustworthy Repositories Audit & Certification (TRAC) metric. This metric provides a framework through which an institution may be deemed a so-called “trustworthy” digital repository. You should know that there are only a handful of collecting institutions that can actually say they are TRAC certified. Getting certified is a lengthy and expensive process.
-
-
- __PREMIS   (PREservation Metadata Implementation Strategies) version 1.0 data dictionary is released as the framework for metadata on preservation activities.
-
-![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives17.png)
-
----
-
-In 2005, the first version of the PREservation Metadata Implementation Strategies (PREMIS) metadata schema is released. This framework is a type of metadata that describes the sorts of preservation activities or actions have occurred through the course of a data object’s life in a repository. We will discuss PREMIS and also have a hands-on workshop, where we will take a peek into what PREMIS metadata looks like, in a few week’s time. You should know that PREMIS is most usually encoded into XML.
-
-Source (for information and screen capture): https://www.loc.gov/standards/premis/understanding-premis.pdf
-
-The term    _linked data_    is coined by Tim Berners-Lee, inventor of the World Wide Web.
-
-<span style="color:#00FFFF"> __bell hooks
-
-<span style="color:#00FFFF">https://en.wikipedia.org/wiki/Bell_hooks
-
-<span style="color:#00FFFF"> __Hopkinsville
-
-<span style="color:#00FFFF">https://en.wikipedia.org/wiki/
-
-<span style="color:#00FFFF">Hopkinsville,_Kentucky
-
-<span style="color:#00FFFF">https://schema.org/birthPlace
-
----
-
-1 min
-
-In 2006, the term linked data is coined by Tim Berners-Lee, inventor of the World Wide Web.
-
-Linked data is a way to structure and share information, using links or URLS.
-
-Linked data enables us to make information we share online richer. For example, a website may contain a sentence that states, “bell hooks was born in Hopkinsville” (a city in Kentucky). The sentence in of itself, to a computer, is just an arrangement of alphanumeric digits, A-Z. However, you can parse and attribute meaning to this sentence so that a computer knows more, using linked data. So her name “bell hooks” can be linked to the bell hooks Wiki. Her birthplace can be encoded as a data schema element, birthplace, and the name of her birthplace itself, Hopkinsville, can be connected to the Wiki on Hopkinsville. By structuring text in this way, we can attribute more meaning but also, connect information to broadly-adopted standards or schemas.
-
-Diagram inspired by https://ontola.io/blog/what-is-linked-data/
-
-![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives18.png)
-
- __ePADD   begins initial work to establish a software for archiving email.
-
----
-
-30 seconds
-
-In 2010, Stanford University begins work to establish ePADD, a software tool that allows archivists to better automate processing and making accessible email archives.
-
-https://library.stanford.edu/projects/epadd
-
-![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives19.png)
-
-The joint-led    __BitCurator Project   begins, to develop a software application that can perform various digital forensics activities.
-
----
-
-1 min
-
-In 2011, the School of Information and Library Science at the University of North Carolina, Chapel Hill (SILS) and the Maryland Institute for Technology in the Humanities (MITH) began joint work developing a software application to support archival digital forensics activities known as Bitcurator.
-
-Bitcurator it addressed two fundamental needs for collecting institutions absent from software designed for the digital forensics industry: incorporation into the workflow of archives/library ingest and collection management environments, and provision of public access to the data. We will use BitCurator as part of an in-class activity in a few weeks time, so you will get some hands-on experience performing digital forensics.
-
-![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives20.png)
-
- _The Digital Preservation Network (DPN)_    is founded as a collaborative use of technology, expertise, and financial resources to create a robust and enduring digital preservation service. It sunsets in 2018.
-
----
-
-1 min
-
-https://commons.wikimedia.org/wiki/File:What_is_Digital_Preservation.png
-
-The Digital Preservation Network (DPN) is founded as a collaborative use of technology, expertise, and financial resources to create a robust and enduring digital preservation service. It sunsets in 2018. This is a really interesting case in failing at establishing a networked, national digital preservation network. The way it worked is that institutions would pay a yearly subscription to opt into the DPN technology network and submit their holdings to be stored and shared. There is more written about the ins and outs of why this program failed, but I think even in its failure it has given people in the field a better understanding of institutional limitations in regards to implementing digital preservation in general.
-
-![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives21.png)
-
- _Digital Public Library of America_    (DPLA), the US’s aggregator, is founded as a project aimed at providing public access to digital holdings in order to create a large-scale public digital library .
-
----
-
-1 min
-
-The Digital Public Library of America, or DPLA, was established in 2012. The DPLA sought to aggregate and curate special collections through a centralized website. Similar to DPN, the DPLA faced its own struggle in terms of strategic direction for the program and funding. It, too, also had a membership pay-to-play model. Again, there’s more to be said here about failures in national-level digital preservation efforts like this. Your takeaway should be that sometimes digital preservation programs fail, but through failure there are lessons to be learned in terms of funding and business models, and working on digital preservation at such a large scale. Digital preservation is complicated and takes incredible amount of time and resources.
-
-https://www.flickr.com/photos/dpla/6987082108
-https://dp.la/
-
-Building on nearly three decades of projects, workflows and standards, there is movement to better align standards, an ever increasing need to develop accessible workflows and tools for digital accession, ingest, preservation and access, and nearly 20 years worth of digital projects and collections that require custodianship.
-
----
-
-__Next week:__
-
-_[https://digital-archives.github.io/HISTGA1011/](https://digital-archives.github.io/HISTGA1011/)_
-
-__Sign up using this Google Form for a file format for the by the start of class.__
 
 __Weekly activity: None this week__
 
