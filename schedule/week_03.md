@@ -12,7 +12,7 @@ has_children: false
 
 {: .label .label-yellow }
 Due
-* Weekly activity: We will start <a href="https://digital-archives.github.io/HISTGA1011/activities/policy_comparison.html" target="_blank">First Encounters</a> in class. Submit your completed activity summary in Brightspace by the end of the week Sunday.
+* Weekly activity: We will start <a href="https://digital-archives.github.io/HISTGA1011/activities/policy_comparison.html" target="_blank">First Encounters with Digital Archives</a> in class. Submit your completed activity summary in Brightspace by the end of the week Sunday.
 
 {: .label .label-green }
 Read
