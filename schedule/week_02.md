@@ -13,6 +13,11 @@ Read
 
 Owens, Trevor. The Theory and Craft of Digital Preservation. 2018.
 
+{: .label .label-pink}
+Watch
+
+Dalhousie Libraries. "Introduction to the BagIt File Packaging Format." YouTube video, Apr 19, 2021. <a href="https://www.youtube.com/watch?v=nYG459M7FmY" target="_blank">https://www.youtube.com/watch?v=nYG459M7FmY</a>.
+
 {: .label .label-yellow }
 Due
 
