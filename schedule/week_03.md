@@ -6,22 +6,14 @@ nav_order: 3
 has_children: false
 ---
 
-# Week 3: Digital Preservation Planning & Policies
+# Week 3: Accessioning Digital Archives
 
 <a href="https://drive.google.com/file/d/1mYldAzDa1E1P-DbY0T2icm7g_ixSpdKq/view?usp=drive_link" target="_blank">Link to slide deck</a>
 
 {: .label .label-yellow }
 Due
-* Post your pre-class reading reactions to Brightspace by 3:30pm today.
-* Weekly activity: We will start <a href="https://digital-archives.github.io/HISTGA1011/activities/policy_comparison.html" target="_blank">Preservation Policy Comparison</a> in class. Submit your completed activity summary in Brightspace by the end of the week Sunday.
+* Weekly activity: We will start <a href="https://digital-archives.github.io/HISTGA1011/activities/policy_comparison.html" target="_blank">First Encounters</a> in class. Submit your completed activity summary in Brightspace by the end of the week Sunday.
 
 {: .label .label-green }
 Read
-* Trusted Digital Repository Document Checklist (2012) <a href="https://spotdocs.scholarsportal.info/display/OAIS/Document+Checklist" target="_blank">https://spotdocs.scholarsportal.info/display/OAIS/Document+Checklist</a>
-* ISO16363 Audit Criteria (2012) <a href="https://spotdocs.scholarsportal.info/display/OAIS/ISO16363+Audit+Criteria" target="_blank">https://spotdocs.scholarsportal.info/display/OAIS/ISO16363+Audit+Criteria</a>
-* Click through the resources provided on NDSA's <a href="https://ndsa.org/publications/levels-of-digital-preservation/" target="_blank">Levels of Digital Preservation</a> website (especially the <a href="https://osf.io/36xfy" target="_blank">Levels of Digital Preservation Matrix</a> chart
-
-{: .label .label-blue }
-Watch
-* Council of State Archivists. "Long-Term Digital Preservation: File Formats." YouTube video, June 16, 2021. <a href="https://www.youtube.com/watch?v=eJfnuSo_lCQ" target="_blank">https://www.youtube.com/watch?v=eJfnuSo_lCQ</a>. SERI Training Video Series.
-* Dalhousie Libraries. "Introduction to the BagIt File Packaging Format." YouTube video, Apr 19, 2021. <a href="https://www.youtube.com/watch?v=nYG459M7FmY" target="_blank">https://www.youtube.com/watch?v=nYG459M7FmY</a>.
+* Prael, Alice Sara. "Centralized Accessioning Support for Born Digital Archives." Code4Lib Journal, no. 40, 4 May 2018, <a href="https://journal.code4lib.org/articles/13494" target="_blank">https://journal.code4lib.org/articles/13494</a>.
