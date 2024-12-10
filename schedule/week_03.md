@@ -8,7 +8,7 @@ has_children: false
 
 # Week 3: Accessioning Digital Archives
 
-<a href="https://drive.google.com/file/d/1mYldAzDa1E1P-DbY0T2icm7g_ixSpdKq/view?usp=drive_link" target="_blank">Link to slide deck</a>
+<a href="https://digital-archives.github.io/HISTGA1011/slides/week_03_slide_deck.html" target="_blank">This week's slides</a>
 
 {: .label .label-green }
 Read
