@@ -12,14 +12,14 @@ has_children: false
 {: .label .label-green }
 Read
 
-Nothing to read this week!
+* Nothing to read this week!
 
 {: .label .label-yellow }
 Due
 
-Nothing due this week!
+* Nothing due this week!
 
 {: .label .label-pink }
-Activity
+Weekly Activity
 
-[Data Object](https://digital-archives.github.io/HISTGA1011/activities/data_object.html)
+* In class we will start [Data Object](https://digital-archives.github.io/HISTGA1011/activities/data_object.html). Submit your completed activity summary in Brightspace by the end of the week Sunday.
