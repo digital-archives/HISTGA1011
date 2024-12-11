@@ -15,7 +15,7 @@ This activity introduces students to the [Library of Congress BagIt Specificatio
 
 ### 1. Upload Bag Contents
 
-Typically, bags are created automatically through a script (e.g., [bagit-python](https://github.com/LibraryOfCongress/bagit-python) or a software application (e.g., [Bagger](https://github.com/LibraryOfCongress/bagger). For this activity, you’ll manually submit your bag’s contents.
+Typically, bags are created automatically through a script (e.g., [bagit-python](https://github.com/LibraryOfCongress/bagit-python)) or a software application (e.g., [Bagger](https://github.com/LibraryOfCongress/bagger)). For this activity, you’ll manually submit your bag’s contents.
 
 - Open the [Breaking Bag Google Drive folder](https://drive.google.com/drive/folders/1U1Va5o9ksyrg5yBtqL8RAOe5Y8OttCwX?usp=sharing) and create a folder titled with your name (e.g., `mary_kidd`).
 - Within your personal folder, create a subfolder named `files`.
