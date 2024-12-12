@@ -6,7 +6,7 @@ nav_order: 3
 has_children: false
 ---
 
-# Week 3: Accessioning Digital Archives
+# Week 3: Appraising and Accessioning Born-Digital Archives
 
 <a href="https://digital-archives.github.io/HISTGA1011/slides/week_03_slide_deck.html" target="_blank">This week's slides</a>
 
@@ -16,4 +16,5 @@ Read
 
 {: .label .label-yellow }
 Due
-* Weekly activity: We will start <a href="https://digital-archives.github.io/HISTGA1011/activities/policy_comparison.html" target="_blank">First Encounters with Digital Archives</a> in class. Submit your completed activity summary in Brightspace by the end of the week Sunday.
+* Weekly activity: We will start <a href="https://digital-archives.github.io/HISTGA1011/activities/format_rpg.html" target="_blank">Format Encounters Role-Playing Game (RPG)
+</a> in class. Submit your completed activity summary in Brightspace by the end of the week Sunday.
