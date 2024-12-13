@@ -1,5 +1,5 @@
 ---
-title: Week 11 - April 3
+title: Week 11
 layout: default
 parent: Course Schedule & Readings
 nav_order: 10

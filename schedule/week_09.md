@@ -1,5 +1,5 @@
 ---
-title: Week 9 - March 20 - NO CLASS
+title: Week 9
 layout: default
 parent: Course Schedule & Readings
 nav_order: 9

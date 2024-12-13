@@ -1,5 +1,5 @@
 ---
-title: Week 12 - April 10
+title: Week 12
 layout: default
 parent: Course Schedule & Readings
 nav_order: 12

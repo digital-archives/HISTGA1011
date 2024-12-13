@@ -1,5 +1,5 @@
 ---
-title: Week 5 - February 21
+title: Week 5
 layout: default
 parent: Course Schedule & Readings
 nav_order: 5

@@ -1,5 +1,5 @@
 ---
-title: Week 10 - March 27
+title: Week 10
 layout: default
 parent: Course Schedule & Readings
 nav_order: 10

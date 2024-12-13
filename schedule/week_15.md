@@ -1,5 +1,5 @@
 ---
-title: Week 15 - May 1
+title: Week 15
 layout: default
 parent: Course Schedule & Readings
 nav_order: 15
@@ -10,4 +10,6 @@ has_children: false
 {: .label .label-yellow }
 Due
 
-Final presentation and project paper
+Final presentation is due today
+
+Your project paper is due [TBD]

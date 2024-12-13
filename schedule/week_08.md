@@ -1,5 +1,5 @@
 ---
-title: Week 8 - March 13
+title: Week 8
 layout: default
 parent: Course Schedule & Readings
 nav_order: 8

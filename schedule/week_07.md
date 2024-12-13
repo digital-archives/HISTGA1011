@@ -1,5 +1,5 @@
 ---
-title: Week 7 - March 6
+title: Week 7
 layout: default
 parent: Course Schedule & Readings
 nav_order: 7

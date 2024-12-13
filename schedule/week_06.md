@@ -1,5 +1,5 @@
 ---
-title: Week 6 - February 28
+title: Week 6
 layout: default
 parent: Course Schedule & Readings
 nav_order: 6

@@ -1,5 +1,5 @@
 ---
-title: Week 13 - April 17
+title: Week 13
 layout: default
 parent: Course Schedule & Readings
 nav_order: 13
