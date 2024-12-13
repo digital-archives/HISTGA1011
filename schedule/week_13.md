@@ -5,8 +5,9 @@ parent: Course Schedule & Readings
 nav_order: 13
 has_children: false
 ---
-# Week 13: Web Archiving
-Link to slide deck [update me]
+# Week 13: Web and Email Archiving
+
+Link to slide deck [TK]
 
 {: .label .label-yellow }
 Due
