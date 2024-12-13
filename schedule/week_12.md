@@ -6,7 +6,7 @@ nav_order: 12
 has_children: false
 ---
 
-# Week 12: April 10, 2024 - Moving Image and Audio Preservation
+# Week 12: Moving Image and Audio Preservation
 Link to slide deck [update me]
 
 {: .label .label-yellow }
