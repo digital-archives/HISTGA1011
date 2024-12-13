@@ -13,7 +13,7 @@ has_children: true
 | [Week 2](week_02.html)  | January 29 | OAIS Conceptual Model | Breaking BagIt |
 | [Week 3](week_03.html)  | February 5 | Processing Born-Digital Archives | Format Encounters RPG |
 | [Week 4](week_04.html)  | February 12 | Repository Systems | Breaking Bag(It) |
-| [Week 5](week_05.html)  | February 19 | Storage Systems | Archivematica Sandbox |
+| [Week 5](week_05.html)  | February 19 | Storage Infrastructures | Archivematica Sandbox |
 | [Week 6](week_06.html)  | February 26 | Digital Preservation Metadata<br>**_Final Project Abstract due_** | Digital Preservation Metadata |
 | [Week 7](week_07.html)  | March 5 | Digitization and Reformatting |
 | [Week 8](week_08.html)  | March 12 | Access and Discovery<br>**_Imaging and Conservation Review due_** | The User's Experience |
