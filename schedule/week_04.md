@@ -6,7 +6,7 @@ nav_order: 4
 has_children: false
 ---
 
-# Week 4: Preservation Systems - Repository Systems and Integrations
+# Week 4: Repository Systems
 
 <a href="https://drive.google.com/file/d/1Vv7mFgewip9BavPNB4T9BNm9LHSDKPyI/view?usp=drive_link" target="_blank">Link to slide deck</a>
 
