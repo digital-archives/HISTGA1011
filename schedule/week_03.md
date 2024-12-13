@@ -6,7 +6,7 @@ nav_order: 3
 has_children: false
 ---
 
-# Week 3: Appraising and Accessioning Born-Digital Archives
+# Week 3: Processing Born-Digital Archives
 
 <a href="https://digital-archives.github.io/HISTGA1011/slides/week_03_slide_deck.html" target="_blank">This week's slides</a>
 
