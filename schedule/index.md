@@ -17,8 +17,8 @@ has_children: true
 | [Week 6](week_06.html)  | February 26 | Digital Preservation Metadata<br>**_Final Project Abstract due_** | Digital Preservation Metadata |
 | [Week 7](week_07.html)  | March 5 | Digitization Workflows - Part 1 |
 | [Week 8](week_08.html)  | March 12 | Digitization Workflows - Part 2<br>**_Imaging and Conservation Review due_** | The User's Experience |
-| [Week 9](week_09.html)  | March 19 | Digital Preservation Technical Skills | Preservation Practice |
-| [Week 10](week_10.html) | March 26 | NO CLASS - Spring Break              |
+| [Week 9](week_09.html)  | March 19 | Automation and Scripting | Preservation Practice |
+| [Week 10](week_10.html) | March 26 | <span style="color: #FFB6C1;">✿ </span><span style="color: #FFDAB9;">✿ </span><span style="color: #87CEEB;">✿ </span>No Class \| Spring Break <span style="color: #FFB6C1;">✿ </span><span style="color: #FFDAB9;">✿ </span><span style="color: #87CEEB;">✿ </span> |
 | [Week 11](week_11.html) | April 2 | Digital Preservation Technical Skills |
 | [Week 12](week_12.html) | April 9 | Born-Digital Archiving<br>**_Scripting Reflection Paper due_** | Corrupting a Bitstream |
 | [Week 13](week_13.html) | April 16 | Web Archiving | Podcast Archaeology |

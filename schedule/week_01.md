@@ -22,4 +22,4 @@ Due
 {: .label .label-pink }
 Weekly Activity
 
-* In class we will start [Data Object](https://digital-archives.github.io/HISTGA1011/activities/data_object.html). Submit your completed activity summary in Brightspace by the end of the week Sunday.
+* We will start [Data Object](https://digital-archives.github.io/HISTGA1011/activities/data_object.html) in class. Submit your completed activity summary in Brightspace by the end of the week Sunday.

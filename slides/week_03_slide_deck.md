@@ -32,8 +32,8 @@ _Feel free to email me with any announcements you would like me to boost (upcomi
 **Downstream Effects**  
 Poor appraisal decisions can create unintended negative outcomes later in the stewardship lifecycle.
 
-**Scale**  
-Reviewing files at scale complicates the task of identifying "record copy".
+**Redundancy at Scale**  
+Reviewing files at scale complicates the task of identifying unique records.
 
 **Format Diversity**  
 Repositories must be prepared to encounter unexpected media and/or file formats.
@@ -44,7 +44,7 @@ Born-digital records are not only numerous but often interdependent on other dat
 ---
 
 ## Definition
-# Appraisal - Paper-Based Definition
+# Archival Appraisal - Paper-Based Definition
 
 __Appraisal__ is the process of determining whether records and other materials have permanent (archival) value. Appraisal may be done at the collection, creator, series, file, or item level. Appraisal can take place prior to donation and prior to physical transfer, at or after accessioning. The basis of appraisal decisions may include a number of factors, including the records’ provenance and content, their authenticity and reliability, their order and completeness, their condition and costs to preserve them, and their intrinsic value. Appraisal often takes place within a larger institutional collecting policy and mission statement.
 
@@ -55,6 +55,13 @@ https://dictionary.archivists.org/entry/appraisal.html
 -->
 
 ---
+
+# Appraisal Considerations
+- Do we have the tools to extract the record off the media?
+- Can we preserve/maintain the record over time?
+- Can we provide access to the record?
+- Do these records speak to our collection development policy, or its overall goals?
+- Do we have access to the creator/organization, who can provide to us context as far as who and how records are being created?
 
 ---
 
