@@ -6,7 +6,7 @@ nav_order: 8
 has_children: false
 ---
 
-# Week 8: Digitization Workflows - Part 2 - Access and Discovery
+# Week 8: Access and Discovery
 
 <a href="https://https://drive.google.com/file/d/1bMxpG4bolU-JZNV38D2BRBIkC9oZoKXC/view?usp=drive_link" target="_blank">Link to slide deck</a>
 
@@ -26,3 +26,4 @@ Read
 * Alison Anderson; Kristin Bjork; Kyle DeCicco-Carey; Sylvia Welsh (2021). “Laying a Foundation for Digital Collections at the Property Information Resource Center,”  The American Archivist (2021) 84 (2): 256–280. <a href="https://drive.google.com/file/d/1e6pwdBBlqX8W2b00EviDxvEY819JSIU5/view?usp=drivesdk" target="_blank">https://drive.google.com/file/d/1e6pwdBBlqX8W2b00EviDxvEY819JSIU5/view?usp=drivesdk</a>
 * Schechter, Gayle. "Legal and Ethical Considerations for Providing Access to Born-Digital Collections: Copyright." Digital Library Federation (DLF) Blog. January 13, 2023. Accessed January 22, 2024, <a href="https://www.diglib.org/legal-and-ethical-considerations-for-providing-access-to-born-digital-collections-copyright/" target="_blank">https://www.diglib.org/legal-and-ethical-considerations-for-providing-access-to-born-digital-collections-copyright/</a>.
 * Gentry, Steven. “SAA 2019 recap - Session 204: Demystifying the Digital: Providing User Access to Born-Digital Records in Varying Contexts”. bloggERS <a href="https://saaers.wordpress.com/2019/10/08/saa-2019-recap-session-204-demystifying-the-digital-providing-user-access-to-born-digital-records-in-varying-contexts/" target="_blank">https://saaers.wordpress.com/2019/10/08/saa-2019-recap-session-204-demystifying-the-digital-providing-user-access-to-born-digital-records-in-varying-contexts/</a>
+* Valentine, Rebekah. "Why Piracy Fears are Keeping Some Researchers from Accessing the Games They Need." IGN Entertainment, May 17, 2024. https://www.ign.com/articles/why-piracy-fears-are-keeping-some-researchers-from-accessing-the-games-they-need.
