@@ -1,3 +1,4 @@
+---
 title: Course Schedule & Readings
 layout: default
 nav_order: 2
