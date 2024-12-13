@@ -19,5 +19,11 @@ Read
 
 {: .label .label-yellow }
 Due
+
 * Weekly activity: We will start <a href="https://digital-archives.github.io/HISTGA1011/activities/format_rpg.html" target="_blank">Format Encounters Role-Playing Game (RPG)
 </a> in class. Submit your completed activity summary in Brightspace by the end of the week Sunday.
+
+{: .label .label-pink }
+Optional Read
+
+* Nooney, Laine. The Apple II Age: How the Computer Became Personal. Chapter 5, "Utilities: Locksmith," pp. 145-177. 2023. [available on Ebook Central via NYU Library]
