@@ -6,7 +6,7 @@ nav_order: 5
 has_children: false
 ---
 
-# Week 5: Preservation Systems - Storage
+# Week 5: Storage Infrastructure
 <a href="https://drive.google.com/file/d/1pgeNwjYmxixx-3cmzEtA6UicMjV5aGSf/view?usp=sharing" target="_blank">Link to slide deck</a>
 
 {: .label .label-yellow }
