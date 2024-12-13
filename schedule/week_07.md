@@ -22,5 +22,7 @@ Read
 * “Digitizing Entire Collections.” Archives of American Art. <a href="https://www.aaa.si.edu/documentation/digitizing-entire-collections" target="_blank">https://www.aaa.si.edu/documentation/digitizing-entire-collections</a>
 * Total Cost of Stewardship: Responsible Collection Building in Archives and Special Collections <a href="https://www.oclc.org/content/dam/research/publications/2021/oclcresearch-total-cost-of-stewardship-a4.pdf" target="_blank">https://www.oclc.org/content/dam/research/publications/2021/oclcresearch-total-cost-of-stewardship-a4.pdf</a>
 
-Watch:
-* Total Cost of Stewardship: Operational Impacts Estimator Tutorial <a href="https://www.youtube.com/watch?v=LBJ_kul9PN8" target="_blank">https://www.youtube.com/watch?v=LBJ_kul9PN8</a>
+{: .label .label-green }
+Watch
+- <a href="https://www.youtube.com/watch?v=r5mJU-LlmhQ" target="_blank">COPY BYTES: Digitization And Libraries, Part 1</a>
+- <a href="https://www.youtube.com/watch?v=xt6qNPCevD0" target="_blank">COPY BYTES: Digitization And Libraries, Part 2</a>
