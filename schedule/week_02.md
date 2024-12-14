@@ -13,7 +13,7 @@ Read
 
 * Owens, Trevor. The Theory and Craft of Digital Preservation. 2018.
 
-{: .label .label-pink }
+{: .label .label-purple }
 Watch
 
 * Dalhousie Libraries. "Introduction to the BagIt File Packaging Format." YouTube video, Apr 19, 2021. <a href="https://www.youtube.com/watch?v=nYG459M7FmY" target="_blank">https://www.youtube.com/watch?v=nYG459M7FmY</a>.
@@ -23,7 +23,7 @@ Due
 
 Nothing due this week.
 
-{: .label .label-orange }
+{: .label .label-red }
 Weekly Activity
 
 * In class we will start [Breaking Bag(It)](https://digital-archives.github.io/HISTGA1011/activities/fixity_bagger.html). Submit your completed activity summary in Brightspace by the end of the week Sunday.
