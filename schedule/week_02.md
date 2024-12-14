@@ -23,7 +23,7 @@ Due
 
 Nothing due this week.
 
-{: .label .label-pink }
+{: .label .label-orange }
 Weekly Activity
 
 * In class we will start [Breaking Bag(It)](https://digital-archives.github.io/HISTGA1011/activities/fixity_bagger.html). Submit your completed activity summary in Brightspace by the end of the week Sunday.
