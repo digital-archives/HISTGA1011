@@ -2,7 +2,7 @@
 title: Format Encounters RPG
 layout: default
 parent: Weekly Activities
-nav_order: 1
+nav_order: 2
 has_children: false
 ---
 

@@ -10,7 +10,7 @@ has_children: true
 | Week Number | Date of Class  | Topic / Assignment Due                                  | Weekly Activity<br>Due following Sunday        |
 |-------------|----------------|---------------------------------------------------------|------------------------|
 | [Week 1](week_01.html)  | January 22 | Introduction to Digital Archives | Data Object |
-| [Week 2](week_02.html)  | January 29 | OAIS Conceptual Model | Breaking BagIt |
+| [Week 2](week_02.html)  | January 29 | OAIS Conceptual Model | Format Encounters RPG |
 | [Week 3](week_03.html)  | February 5 | Processing Born-Digital Archives | Corrupting a Bitstream |
 | [Week 4](week_04.html)  | February 12 | Repository Systems | Breaking Bag(It) |
 | [Week 5](week_05.html)  | February 19 | Storage Infrastructures | Archivematica Sandbox |
