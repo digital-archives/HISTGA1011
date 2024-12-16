@@ -11,12 +11,12 @@ has_children: true
 |-------------|----------------|---------------------------------------------------------|------------------------|
 | [Week 1](week_01.html)  | January 22 | Introduction to Digital Archives | Data Object |
 | [Week 2](week_02.html)  | January 29 | OAIS Conceptual Model | Breaking BagIt |
-| [Week 3](week_03.html)  | February 5 | Processing Born-Digital Archives | Format Encounters RPG |
+| [Week 3](week_03.html)  | February 5 | Processing Born-Digital Archives | Corrupting a Bitstream |
 | [Week 4](week_04.html)  | February 12 | Repository Systems | Breaking Bag(It) |
 | [Week 5](week_05.html)  | February 19 | Storage Infrastructures | Archivematica Sandbox |
-| [Week 6](week_06.html)  | February 26 | Digital Preservation Metadata<br>**_Final Project Abstract due_** | Digital Preservation Metadata |
-| [Week 7](week_07.html)  | March 5 | Digitization and Reformatting | Corrupting a Bitstream |
-| [Week 8](week_08.html)  | March 12 | Access and Discovery<br>**_Imaging and Conservation Review due_** | The User's Experience |
+| [Week 6](week_06.html)  | February 26 | Digital Preservation Metadata | Digital Preservation Metadata |
+| [Week 7](week_07.html)  | March 5 | Digitization and Reformatting | Imaging and Conservation Group Activity |
+| [Week 8](week_08.html)  | March 12 | Access and Discovery<br>**_Final Project Abstract due_** | The User's Experience |
 | [Week 9](week_09.html)  | March 19 | Automation and Scripting | Scripting Reflection |
 | [Week 10](week_10.html) | March 26 | No Class \| Spring Break | 
 | [Week 11](week_11.html) | April 2 | Class Field Trip or Guest Speaker | TK |
