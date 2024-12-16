@@ -1,8 +1,8 @@
 ---
 title: Imaging and Conservation Review
 layout: default
-parent: Assignments
-nav_order: 3
+parent: Weekly Activities
+nav_order: 7
 has_children: false
 ---
 

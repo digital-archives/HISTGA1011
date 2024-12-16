@@ -2,7 +2,7 @@
 title: QCTools - A/V Preservation
 layout: default
 parent: Weekly Activities
-nav_order: 5
+nav_order: 12
 has_children: true
 ---
 

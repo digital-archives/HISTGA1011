@@ -2,7 +2,7 @@
 title: Scripting Reflection Paper
 parent: Weekly Activities
 layout: default
-nav_order: 4
+nav_order: 9
 has_children: false
 ---
 
