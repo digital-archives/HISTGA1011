@@ -2,14 +2,14 @@
 title: Course Details
 layout: default
 nav_order: 1
-has_children: true
+has_children: false
 ---
 
 # Digital Archives [HIST-GA 1011]
 ## Spring 2024
 ### New York University, Department of History
 
-# Course Description
+# Course Details
 
 Meeting time: Wednesdays, 4:55-7:35pm<br>
 Room: KJCC 717<br>
