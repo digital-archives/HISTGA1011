@@ -9,16 +9,15 @@ marp: true
 
 
 # Today
-- Discussion: Data Object Activity
+- Weekly Activity Discussion: Data Object
 - Reminders/announcements
 - Lecture: Open Archival Information System (OAIS)- Break
-- Next class
+- Break
+- Start Weekly Activity: Format Encounters RPG
 
 ---
 
 # Discussion: Data Object Activity
-
-__What would a digital archivist or researcher in 30 years need to make sense of the object?__
 
 [Data object Airtable gallery](https://airtable.com/appX8QYrNyTDJDGmg/shrcCl043DAEFMjQe)
 

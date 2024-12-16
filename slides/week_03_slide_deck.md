@@ -8,12 +8,13 @@ marp: true
 
 ---
 
-# Today
 
-- **Discussion**
-- **Lecture**
-- **Break**
-- **Activity**
+# Today
+- Weekly Activity Discussion
+- Reminders/announcements
+- Lecture: Appraisal and Accessioning
+- Break
+- Start Weekly Activity
 
 ---
 

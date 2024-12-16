@@ -765,16 +765,10 @@ The image you see in the slide shows a 32 x 32 core memory plane storing 1024 bi
 
 ---
 
-## Activity
+## Weekly Activity
 # Data Object
 
-1. **Identify a data object**: Think of a **data object** you have encountered in your professional, creative, academic, or personal experiences.
-
-2. **Analyze its relationships**: Consider how this object interacts with **interpretive technologies** and **specialized knowledge**.
-
-3. **Submit your data object**: Describe your data object using <a href="https://airtable.com/appX8QYrNyTDJDGmg/pag5PKEZC1XAvye3O/form" target="_blank">this Airtable form</a>.
-
-4. **Discuss**: Come prepared next class to discuss your data object, and answer: __What would a digital archivist or researcher in 30 years need to make sense of the object?__
+Start: <a href="https://digital-archives.github.io/HISTGA1011/activities/data_object.html" target="_blank">https://digital-archives.github.io/HISTGA1011/activities/data_object.html</a>
 
 ---
 
