@@ -257,11 +257,8 @@ The process begins with recording the accession event in ArchivesSpace, then des
 Let's say, parallel to the archivist processing the letters, the acquiring curator expresses that they wish for the letters to be made available digitally, so that researchers can search the text.
 
 The letters are sent to the photography lab, where each letter is scanned and color corrected, followed by careful renaming and organization into folders. These files were then transferred to a digital asset
-management system for curation, and separately, submitted to a digital repository for
-long-term preservation. Each step in this example different systems, operating
-independently of one another. The result? A manual, time-consuming effort to link the
-digital representations back to their descriptions in ArchivesSpace, often relying on
-the meticulous work of archivists to ensure accuracy and completeness.
+management system for curation, and separately, submitted to a digital repository for long-term preservation. Each step in this example different systems, operating independently of one another. The result? A manual, time-consuming effort to link the
+digital representations back to their descriptions in ArchivesSpace, often relying on the meticulous work of archivists to ensure accuracy and completeness.
 
 -->
 

@@ -6,7 +6,7 @@ has_children: false
 ---
 
 # Digital Archives [HIST-GA 1011]
-## Spring 2024
+## Spring 2025
 ### New York University, Department of History
 
 # Course Details
