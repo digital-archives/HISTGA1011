@@ -3,7 +3,7 @@ marp: true
 ---
 
 # Week 4
-## Repository Systems
+## Digital Archives Systems
 
 ---
 
@@ -23,7 +23,7 @@ _Feel free to email me with any announcements you would like me to boost (upcomi
 
 ---
 
-# Repository Systems
+# Digital Archives Systems
 
 ---
 
@@ -59,26 +59,30 @@ The way digital repositories are set up, managed and maintained in many ways are
 
 ---
 
-# Repository System Types
+# System Types and Layers
 
 ---
 
 <div style="display: flex; justify-content: space-between;">
 
   <div style="width: 22%; padding: 20px; border: 1px solid #000; text-align: center;">
-    <h3>Digital preservation systems</h3>
+    <h3>Repository</h3>
   </div>
 
   <div style="width: 22%; padding: 20px; border: 1px solid #000; text-align: center;">
-    <h3>Institutional repositories</h3>
+    <h3>Digital Preservation</h3>
   </div>
 
   <div style="width: 22%; padding: 20px; border: 1px solid #000; text-align: center;">
-    <h3>Digital asset management systems</h3>
+    <h3>Digital Asset Management (DAM)</h3>
   </div>
 
   <div style="width: 22%; padding: 20px; border: 1px solid #000; text-align: center;">
-    <h3>Content management systems</h3>
+    <h3>Archival/Content/Collection Management</h3>
+  </div>
+
+  <div style="width: 22%; padding: 20px; border: 1px solid #000; text-align: center;">
+    <h3>Digital Library</h3>
   </div>
 
 </div>
@@ -96,16 +100,14 @@ There are four main types of digital repository systems. Each type has a differe
 ---
 
 <div style="width: 100%; padding: 20px; border: 2px solid #000; text-align: center; font-size: 24px; font-weight: bold; background-color: #f0f0f0;">
-  Digital Repository Systems
-</div>
+Institutional Repository (IR) System</div>
 
-### Key Features:
-- Drive digital preservation workflows
-- Typically modeled after OAIS
+### Key Function:
+- Depository for intellectual and research output of students, faculty and scholars (ex. dissertaions, conference papers, etc.)
 
 ### Examples:
-- Samvera
-- Preservica
+- Fedora
+- DSpace
 
 <!--presenter notes
 
@@ -117,15 +119,36 @@ are directly modeled after the OAIS Reference Model. For a weekly activity, you 
 ---
 
 <div style="width: 100%; padding: 20px; border: 2px solid #000; text-align: center; font-size: 24px; font-weight: bold; background-color: #f0f0f0;">
-  Institutional Repository
+Repository System
 </div>
 
-### Key Features:
-- Manage intellectual works
-- Common in research institutions like universities
+### Key Function:
+- Manage data objects on the "back-end"
 
 ### Examples:
-- Hyrax
+- Fedora
+- DSpace (specific to institutional repositories)
+
+<!--presenter notes
+
+Digital preservation systems drive workflows specific to ingest, processing, auditing and analyzing digital objects entering into, being stored within, and being delivered from a digital repository. Many digital preservation systems take their queues from or
+are directly modeled after the OAIS Reference Model. For a weekly activity, you will be testing out one widely-used digital preservation system called Archivematica.
+
+-->
+
+---
+
+<div style="width: 100%; padding: 20px; border: 2px solid #000; text-align: center; font-size: 24px; font-weight: bold; background-color: #f0f0f0;">
+Digital Preservation System
+</div>
+
+### Key Function:
+- Manage digital preservation workflows
+
+### Examples:
+- Preservica
+- Islandora
+- Rosetta
 
 <!--presenter notes
 
@@ -141,7 +164,7 @@ Institutional repositories (sometimes shortened to "IR") manage submission workf
 
 ### Key Features:
 - Streamlines digital content management
-- Specific to media (images, audio, video)
+- Specific to files produced from digitization and/or born-digital files (images, audio, video)
 
 ### Examples:
 - Orange Logic, ResourceSpace
@@ -156,17 +179,18 @@ searching, and distribution of collections of digital objects. Unlike an institu
 ---
 
 <div style="width: 100%; padding: 20px; border: 2px solid #000; text-align: center; font-size: 24px; font-weight: bold; background-color: #f0f0f0;">
-  Content or Collection Management Systems
+  Archival Management Systems
 </div>
 
-### Key Features:
-- Maintain descriptive, administrative, location, rights,
-and location management data.
+### Key functions:
+- Maintain descriptive and arrangement data
+- Produce finding aids
+- Public user interface for search and discovery
+- Collection management (acquisition, accession and location data)
 
 ### Examples:
 - ArchivesSpace
-- The Museum System (TMS)
-- Aeon
+- Archivist ToolKit (AT)
 
 <!--presenter notes
 
@@ -258,9 +282,533 @@ Let's say, parallel to the archivist processing the letters, the acquiring curat
 
 The letters are sent to the photography lab, where each letter is scanned and color corrected, followed by careful renaming and organization into folders. These files were then transferred to a digital asset
 management system for curation, and separately, submitted to a digital repository for long-term preservation. Each step in this example different systems, operating independently of one another. The result? A manual, time-consuming effort to link the
-digital representations back to their descriptions in ArchivesSpace, often relying on the meticulous work of archivists to ensure accuracy and completeness.
+digital representations back to their descriptions in ArchivesSpace.
 
 -->
 
 ---
+
+# Implications of Siloed Systems
+
+* Higher chance of human error
+* Hard to maintain and troubleshoot
+* Double (or triple... or more) data entry
+
+Currently, we are seeing more efforts across the field to better integrate systems to "talk" to one another.
+
+<!--presenter notes
+
+This disjointed approach introduced several challenges:
+
+- The risk of human error was high, as manual processes dominated the linking of digital objects to their metadata.
+- Maintaining the integrity and accessibility of these digital archives over time becomes a Herculean task. For example, if you are using 4-5 systems and one system gets an upgrade, this can have a cascading effect on the other systems on which it depends, and one system may become incompatible with another.
+- This also means you are entering the same information more than once across multiple systems. For example, the box number you enter into ArchivesSpace may need to be copied and pasted into another system. This increases drag, staff frustration, and introduces more opportunities for human error.
+- Furthermore, the consistency and completeness of metadata across systems are perpetually at risk, compromising the discoverability and utility of these invaluable digital resources.
+
+-->
+
+---
+
+## Definition
+# Systems Integration
+
+“A functional coupling between software applications to act as a coordinated whole.”
+Max Eckard, Making Your Tools Work for You
+
+<!--presenter notes
+
+Systems integration describes “[a] functional coupling between software applications to act as a coordinated whole.” This quote comes from Max Eckard’s book *Making Your Tools Work for You*, which was originally “adopted from... the ArchivesSpace Technical Advisory Committee (TAC) Integrations sub-team, which goes on to state that ‘a defining characteristic of all integrations is communication, i.e., seamless data flow–without a manual, intermediary step–between systems” (4).
+
+Integration characterizes the ability of one or multiple systems to “talk” to one another. The development of interoperable standards and the adoption of holistic digital asset management solutions have started to bridge the gaps between previously isolated systems. These integrated platforms streamline the archival process—from digitization to online accessibility—reducing redundancy, minimizing errors, and significantly improving the discoverability of digital archives.
+
+In addition, integration allows you to maintain your current system “ecosystem,” which is advantageous because no single system can do everything. In fact, having a single all-encompassing system might not be ideal. This modular approach enables systems ecosystems to be more flexible and adaptable over time.
+
+-->
+
+---
+
+## Case Study
+# Bentley Historical Library
+
+Archivematica-ArchivesSpace-Dspace Integration
+
+<!--presenter notes
+
+In this week’s assigned reading, we learned how the Bentley Historical Library developed an integrated system using three of the four digital repository system types we just covered: **Digital Preservation System** (Archivematica), **Institutional Repository** (DSpace), and **Content Management System** (ArchivesSpace). The goal was to leverage each system’s strengths to fully support an “end-to-end digital archives workflow.”  
+
+These types of integrative setups are quite common in digital archives. Such integrations are achieved using **application programming interfaces (APIs)**, which are essentially sets of instructions or protocols that allow one system to communicate with or update data in another.  
+
+Let’s explore each of these systems further.
+
+-->
+
+---
+
+<img src="img/week_04_archivematica.png">
+
+---
+
+## Digital Preservation System
+# Archivematica
+
+* Web/browser-based
+* Open source
+* Modeled after OAIS
+* Knits together various __microservices__ to get lots of small and large jobs done, in a specific order
+
+<!--presenter notes
+
+-->
+
+---
+
+## Definition
+# Microservice
+
+A __microservice__ is an application responsible for performing a single function.
+
+<!--presenter notes
+
+A microservice is an application designed to perform a single function within the digital curation and preservation process.  
+
+The concept of a microservice was developed by the California Digital Library (CDL), which in 2009 introduced a new approach to the curation and preservation of digital objects. This reconceptualization challenged the assumption that “the curation and preservation of digital objects required the installation and operation of a single, long-lived application combining the necessary functions behind one user interface.”  
+
+Instead, CDL proposed that “small, relatively simple utilities would pose fewer challenges in their development, deployment, maintenance, and enhancement than a large, integrated system, especially in the context of constant technological change.” Additionally, they noted that users could “easily adapt a set of distributed services to local conditions in different divisions and departments of the university, and easily replace each of them upon their obsolescence.” 
+
+-->
+
+---
+
+# Microservices Examples
+
+<table>
+<tr>
+<td>
+
+## Identity
+Assign a unique identifier
+
+## Storage
+Transfer data into protected environment
+
+## Fixity
+Verify data integrity over time
+
+</td>
+<td>
+
+## Inventory
+Produce manifests/lists
+
+## Replicate
+Create and distribute redundant copies
+
+## Characterize
+Analyze/report technical metadata
+
+</td>
+</tr>
+</table>
+
+<!--presenter notes
+
+-->
+
+---
+
+<img src="img/week_04_aspace.png">
+
+<!--presenter notes
+
+ArchivesSpace (aka ASpace) is an archival system primarily used throughout the accessioning, arrangement and description of archival collections. The data entered
+into ASpace can be used to produce finding aids in EAD XML format, so they may be viewed on the web.
+
+Collections, or bodies of work, are called “resources”. Within each resource, you will find various levels of hierachy that describe how a particular body of work is arranged, such as series or sub-series, which in ArchivesSpace are known as "archival objects". Archival objects can also be rolled up into what are known as "Top containers", which represent the physical containers/boxes that may be requested or circulated in a reading room or other special collection setting.
+
+-->
+
+---
+
+## Archival Management System
+# ArchivesSpace (Aspace)
+
+---
+
+<img src="img/week_04_dspace.png">
+
+---
+
+## Institutional Repository
+# DSpace
+
+<!--presenter notes
+
+DSpace is an open-source repository platform. If you were to encounter an institution that uses DSpace, what you, as the user would ultimately see is some sort of catalog.
+
+This is a screencapture from the DSpace website using NYU's Faculty Digital Archive, but you can see that DSpace essentially looks and behaves like a library or archive catalog.
+
+-->
+
+---
+
+<img src="img/week_04_bentley_flow_01.jpg">
+
+<!--presenter notes
+
+The article you read about the Bentley Archivematica - ASpace - DSpace integration maps out their integration with the Digital Curation Center or DCC Lifecycle Model.
+Before we look at the Bentley Library example, we should understand what the DCC Model is, what it is for, and how it differs from the OAIS, specifically.
+
+-->
+
+---
+
+<center><img src="img/week_04_dcc_curation.jpg" style="width: 70%; height: auto;"></center>
+
+<!--presenter notes
+
+Here’s the cleaned-up version of the text:
+
+---
+
+The DCC Curation Lifecycle Model provides a high-level graphical overview of the stages required for successful curation and preservation of data, starting from initial conceptualization or receipt. This model can be used to plan activities within an organization or consortium to ensure all necessary stages are undertaken in the correct sequence. 
+
+It enables granular functionality to be mapped against the lifecycle, helping to define roles and responsibilities and to build a framework of standards and technologies for implementation. Additionally, it supports the identification of extra steps that may be required, actions that are unnecessary for specific situations or disciplines, and ensures that processes and policies are thoroughly documented.
+
+For more information, refer to the [DCC Curation Lifecycle Model PDF](https://www.dcc.ac.uk/sites/default/files/documents/publications/DCCLifecycle.pdf).
+
+-->
+
+---
+
+## Definition
+# Digital Curation
+
+__Digital curation__ encompasses the selection, preservation, maintenance, collection, and archiving of digital assets, including data, documents, multimedia, and other digital objects. It involves managing the entire lifecycle of digital content to ensure its usability, integrity, authenticity, and accessibility over time.
+
+---
+
+<table>
+<tr>
+<td valign=top>
+<h1>DCC Model</h1><br>
+Looks at the entire digital curation lifecycle, which includes digital preservation, as well as selection, organization, and access to digital content.
+</td>
+<td valign=top>
+<h1>OAIS Framework</h1><br>
+Focuses specifically on digital preservation activities, processes, and technological approaches to setting up a successful digital preservation system.
+</td>
+</tr>
+</table>
+
+---
+
+<img src="img/week_04_bentley_diagram.png">
+
+<!--presenter notes
+
+Here’s the cleaned-up version:
+
+---
+
+The Bentley Historical Library's integrated system achieved the following:
+
+- Provided archivists with access to the ArchivesSpace interface directly from the context of the Archivematica system. This allowed them to use information generated during the Archivematica ingest process to inform appraisal tasks.  
+- Enabled archivists to view ArchivesSpace resource records, add or edit archival descriptions, and create digital object instances in the finding aid—all without switching over to ArchivesSpace, using a tab within Archivematica.  
+- Integrated Archivematica with DSpace to facilitate the deposit of Archival Information Packages (AIPs) into its preservation repository. Once deposited, the system returned a unique resource identifier (URI) to the ArchivesSpace access portal, enabling users to search for and access digital content.  
+
+-->
+
+---
+
+## Definition
+# Application Programming Interface (API)
+
+<!--presenter notes
+
+APIs provide a way for different software applications to communicate and request services or data from each other without needing to understand the internal workings of the other system. They enable applications to interact and collaborate, simplifying the development of interoperability.  
+
+While not always required, APIs often use web protocols—sets of instructions specific to computers or servers within a network—to execute requests, update data, and perform other tasks.
+
+-->
+
+---
+
+## Definition
+# API Endpoint
+
+An API endpoint is a specific point of interaction between an API and the outside world. It is typically represented by a URL where the API can receive requests and send responses.
+
+<!--presenter notes
+
+ArchivesSpace provides a list of API endpoints. An API endpoint is a specific point of interaction between an API (Application Programming Interface) and the outside world, typically represented by a URL where the API can receive requests and send responses.
+
+ArchivesSpace offers online documentation for all available endpoints. Using our cooking analogy, an endpoint is like browsing the menu of a restaurant.
+
+In this case, I want to "order up" a list of repositories. To do this, I would search the ASpace REST API documentation for the keyword "repository" to see what it offers. Sure enough, there is an endpoint called "Get a List of Repositories," which seems to be exactly what I need.
+
+You can check out the documentation here: [Get a List of Repositories](https://archivesspace.github.io/archivesspace/api/#get-a-list-of-repositories)
+
+The documentation tells me that the specific endpoint is called `/repositories`. So, what does this mean for me?
+
+-->
+
+---
+
+## Definition
+# Hypertext Transfer Protocol (HTTP)
+
+The underlying protocol used on the web to exchange data between computers using the world wide web.
+
+---
+
+# https://thebestestwebsite.net/
+
+Translation: "Using the __Hypertext Transfer Protocol Secure (HTTPS)__, retrieve the contents of the resource specified after the Uniform Resource Identifier marker (`://`) (e.g., `thebestwebsite.net`) and render it on my screen."
+
+<!--presenter notes
+
+Let’s unpack what we just said about APIs and the web. Why do they often go hand in hand?  
+
+A common way we send instructions to other computers around the world is by opening a web browser and typing in a URL to access a website. Here we are unknowingly prompting our web browser to send instructions to a server somewhere in the world.
+
+We are all very used to using HTTP for our own, human-centric purposes, especially for browsing the web. However, websites and the servers that host them contain parts or areas that enable them to speak to other computers, with or without a human prompting that communication.
+
+-->
+
+---
+
+<img src="img/week_04_bentley_flow_02.png">
+
+<!--presenter notes
+
+In the Bentley integration system, we learned that Archivematica, a web-based system, can talk to ASpace, another web-based system, using an API. They do this
+using a combination of both the HTTP protocol, as well as another protocol known as REST.
+
+-->
+
+---
+
+## Definition
+# REpresentational State Transfer (REST)
+
+Representational State Transfer __(REST)__ is a set of instructions that are transmitted between computers using HTTP.
+
+Common methods include GET, POST, PUT, and DELETE.
+
+---
+
+## REST Method: GET
+
+<table>
+<tr>
+<td width="50%" valign=top>
+<span style="font-size: 250px;">🖥️</span>
+<br>Computer A: "Hello, can I <b>GET</b> some information from you?"
+</td>
+
+<td valign=top>
+<span style="font-size: 250px;">🖥️</span>
+<br>Computer B: "Sure, here you go."
+</td>
+</table>
+
+---
+
+## REST Method: POST
+
+<table>
+<tr>
+<td width="50%" valign=top>
+<span style="font-size: 250px;">🖥️</span>
+<br>Computer A: "Hello, can I add a new record?"
+</td>
+
+<td valign=top>
+<span style="font-size: 250px;">🖥️</span>
+<br>Computer B: "Sure, the record has been added."
+</td>
+</table>
+
+---
+
+## REST Method: PUT
+
+<table>
+<tr>
+<td width="50%" valign=top>
+<span style="font-size: 250px;">🖥️</span>
+<br>Computer A: "Hello, can I update an existing record?"
+</td>
+
+<td valign=top>
+<span style="font-size: 250px;">🖥️</span>
+<br>Computer B: "Sure, the record is now updated."
+</td>
+</table>
+
+---
+
+## REST Method: DELETE
+
+<table>
+<tr>
+<td width="50%" valign=top>
+<span style="font-size: 250px;">🖥️</span>
+<br>Computer A: "Hello, can I remove this record?"
+</td>
+
+<td valign=top>
+<span style="font-size: 250px;">🖥️</span>
+<br>Computer B: "Sure, the record has been removed."
+</td>
+</table>
+
+---
+# Python Code Snippet Using APIs
+
+```
+# Import the library that allows you to use APIs
+import requests
+
+# Form the URL through which we will make a request
+url = 'https://archivesspace-staff.nypl.org/repositories/'
+
+# Make a GET request through the URL and store the data in memory
+response = requests.get(url)
+
+# Check if the request was successful
+if response.status_code == 200:
+    # Take the data and print it on screen
+    users = response.json()
+    print(users)
+    # If not successful, let me know
+else:
+    print(f'Failed to get data, sorry! Status code: {response.status_code}')
+
+```
+<!--presenter notes
+
+Here’s some Python code!  
+Python is a widely-used programming language, popular in many fields, including digital preservation and archives.
+
+This code snippet starts off with "import requests". What this means is that we are importing what's known in programming as a "library" of functionality that allows us to make API "calls" to ArchivesSpace. You can think of a library as a cookbook filled with recipes you can use to make a meal. Similarly, a library has a bunch of little pre-written code snippets we can use to call up a computer and ask things of it.
+
+In this example, I am queringy the ArchivesSpace API and asking it to return a list of repositories. So let's say I was querying the NYU ASpace API, it would return a list of repositories that use ASpace here, like Fales or Taimament.
+
+Of course, you could do this manually. You could visit the ASpace NYU website, and click on the Repositories dropdown, and then just re-type a list of the repositories listed there. Easy enough: but automating this cuts down on errors and is faster, especially if you are doing it multiple times.
+
+In my code, notice how tacked on at the end of the NYPL ASpace URL is "/repositories/". This is what I mean by how REST uses HTTP: Here, you are basically saying, at this address, open this particular door to the repositories room, and GET me information about repositories.
+
+-->
+
+---
+# JavaScript Object Notation (JSON)
+
+```
+[
+
+  {
+  "id": 1,
+  "name": "Manuscripts and Archives Division",
+  "uri": "/repositories/2",
+  "repo_code": "MSS",
+  "location": "Stephen A. Schwarzman Building"
+  },
+
+  {
+  "id": 2,
+  "name": "Rare Books Division",
+  "uri": "/repositories/3",
+  "repo_code": "RBD",
+  "location": "Stephen A. Schwarzman Building"
+  },
+
+  { ...etc
+```
+
+<!--presenter notes
+
+APIs return data in what is known as JavaScript Object Notation, or JSON (pronounced kind of like the name "Jason"). If you are seeing JSON for the first time it may look a bit strange at first, especially because of the brackets and curly braces. But look a bit closer and you'll also not only see human-readable information, but also a kind of repeating structure. Each repository (Manuscripts and Archives Division, Rare Books Division) and its associated data is contained within a pair of curly braces {}.
+
+-->
+
+---
+
+## Definition
+# JavaScript Object Notation (JSON)
+
+__JavaScript Object Notation (JSON)__ is a data interchange format that is easy for both humans and machines to parse and use.
+
+<!--presenter notes
+
+JavaScript Object Notation (JSON) is a lightweight data-interchange format that is easy for humans to read and write and easy for machines to parse.
+
+-->
+
+---
+
+# Recap
+
+<table>
+<tr>
+<td valign=top>
+
+<b>API</b>
+A set of rules that disparate computers can use to talk to and work with each other.
+
+<b>HTTP</b>
+A web protocol that APIs use to operate through networks.
+
+<b>REST</b>
+A set of API methods (GET, PUT, POST, DELETE)
+
+</td>
+
+<td valign=top>
+
+<b>Endpoint</b>
+A specific URL representing different records an API can see and update.
+
+<b>JSON</b>
+A data structure that APIs commonly use to relay and output data.
+</td></tr></table>
+
+---
+
+<img src="img/week_04_bentley_flow_02.png">
+
+---
+
+# The ASpace/Archivematica API allows archivists to:  
+
+- Search for ArchivesSpace resource records from within the context of Archivematica.
+- Create ArchivesSpace digital object instances and associate them with AIPs from Archivematica from within the context of ASpace.
+- Edit or add existing archival object instances.  
+- Edit metadata, including rights metadata.
+
+---
+
+<center><img src="img/week_04_aspace_archivematica_api.png" style="width: 80%; height: auto;"></center>
+
+---
+
+## Question
+
+What ArchivesSpace API endpoints do you think Archivematica is using within the “Appraisal” tab to bring back and update information in ArchivesSpace?
+
+---
+
+## Weekly Activity
+# Tech Stack
+
+Start: <a href="https://digital-archives.github.io/HISTGA1011/activities/tech_stack.html" target="_blank">https://digital-archives.github.io/HISTGA1011/activities/tech_stack.html</a>
+
+---
+
+![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives22.gif)
+
+_Final questions or reflections?_
+
+mary.kidd@nyu.edu
+
 
