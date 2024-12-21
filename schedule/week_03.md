@@ -10,6 +10,11 @@ has_children: false
 
 <a href="{{ site.baseurl }}/slides/week_03_slide_deck.html" target="_blank">Slides</a>
 
+{: .label .label-yellow }
+Due
+
+In class we will start the Week 3 activity. Submit your completed activity summary in Brightspace by Sunday night.
+
 {: .label .label-green }
 Read
 
@@ -17,8 +22,3 @@ Read
 * Faulder, Erin. “Module 16: Accessioning Digital Archives.” Appraisal and Acquisition Strategies, edited by Michael Shallcross and Christopher J. Prom, Trends in Archives Practice series, Society of American Archivists, 2016, <a href="https://www2.archivists.org/sites/all/files/Module_16_CaseStudy3_MaxEckard.pdf" target="_blank">https://www2.archivists.org/sites/all/files/Module_16_CaseStudy3_MaxEckard.pdf</a>.
 * Arroyo, Elvia. “Invisible Defaults and Perceived Limitations: Processing the Juan Gelman Files.” On Archivy,  Oct 30 2016, <a href="https://medium.com/on-archivy/invisible-defaults-and-perceived-limitations-processing-the-juan-gelman-files-4187fdd36759" target="_blank">https://medium.com/on-archivy/invisible-defaults-and-perceived-limitations-processing-the-juan-gelman-files-4187fdd36759</a>
 * Nooney, Laine. The Apple II Age: How the Computer Became Personal. Chapter 5, "Utilities: Locksmith," pp. 145-177. 2023. [available on Ebook Central via NYU Library]
-
-{: .label .label-yellow }
-Due
-
-In class we will start the Week 2 activity. Submit your completed activity summary in Brightspace by Sunday night.

@@ -9,12 +9,12 @@ has_children: false
 
 <a href="{{ site.baseurl }}/slides/week_01_slide_deck.html" target="_blank">Slides</a>
 
-{: .label .label-green }
-Read
-
-* Nothing to read this week!
-
 {: .label .label-yellow }
 Due
 
 In class we will start the Week 1 activity. Submit your completed activity summary in Brightspace by Sunday night.
+
+{: .label .label-green }
+Read
+
+* Nothing to read this week!
