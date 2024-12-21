@@ -17,9 +17,4 @@ Read
 {: .label .label-yellow }
 Due
 
-* Nothing due this week!
-
-{: .label .label-pink }
-Weekly Activity
-
-* We will start [Data Object](https://digital-archives.github.io/HISTGA1011/activities/data_object.html) in class. Submit your completed activity summary in Brightspace by the end of the week Sunday.
+In class we will start the Week 1 activity. Submit your completed activity summary in Brightspace by Sunday night.

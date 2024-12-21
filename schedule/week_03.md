@@ -8,7 +8,7 @@ has_children: false
 
 # Week 3: Processing Born-Digital Archives
 
-<a href="https://digital-archives.github.io/HISTGA1011/slides/week_03_slide_deck.html" target="_blank">This week's slides</a>
+<a href="{{ site.baseurl }}/slides/week_03_slide_deck.html" target="_blank">Slides</a>
 
 {: .label .label-green }
 Read
@@ -16,14 +16,9 @@ Read
 * National Best Practices for Archival Accessioning Working Group. Archival Accessioning Best Practices: ABP v.1.0.1. November 2024. GitBook, <a href="https://accessioning.gitbook.io/archival-accessioning-best-practices/accession-record-elements" target="_blank">https://accessioning.gitbook.io/archival-accessioning-best-practices/accession-record-elements</a>. __Note:__ _For this reading, use the search bar to locate and read just the sections addressing born-digital materials._
 * Faulder, Erin. “Module 16: Accessioning Digital Archives.” Appraisal and Acquisition Strategies, edited by Michael Shallcross and Christopher J. Prom, Trends in Archives Practice series, Society of American Archivists, 2016, <a href="https://www2.archivists.org/sites/all/files/Module_16_CaseStudy3_MaxEckard.pdf" target="_blank">https://www2.archivists.org/sites/all/files/Module_16_CaseStudy3_MaxEckard.pdf</a>.
 * Arroyo, Elvia. “Invisible Defaults and Perceived Limitations: Processing the Juan Gelman Files.” On Archivy,  Oct 30 2016, <a href="https://medium.com/on-archivy/invisible-defaults-and-perceived-limitations-processing-the-juan-gelman-files-4187fdd36759" target="_blank">https://medium.com/on-archivy/invisible-defaults-and-perceived-limitations-processing-the-juan-gelman-files-4187fdd36759</a>
+* Nooney, Laine. The Apple II Age: How the Computer Became Personal. Chapter 5, "Utilities: Locksmith," pp. 145-177. 2023. [available on Ebook Central via NYU Library]
 
 {: .label .label-yellow }
 Due
 
-* Weekly activity: We will start <a href="https://digital-archives.github.io/HISTGA1011/activities/format_rpg.html" target="_blank">Format Encounters Role-Playing Game (RPG)
-</a> in class. Submit your completed activity summary in Brightspace by the end of the week Sunday.
-
-{: .label .label-pink }
-Optional Read
-
-* Nooney, Laine. The Apple II Age: How the Computer Became Personal. Chapter 5, "Utilities: Locksmith," pp. 145-177. 2023. [available on Ebook Central via NYU Library]
+In class we will start the Week 2 activity. Submit your completed activity summary in Brightspace by Sunday night.

@@ -6,24 +6,16 @@ nav_order: 2
 has_children: false
 ---
 # Week 2: Open Archival Information System (OAIS) Conceptual Model
-<a href="https://digital-archives.github.io/HISTGA1011/slides/week_02_slide_deck.html" target="_blank">This week's slides</a>
+
+<a href="{{ site.baseurl }}/slides/week_02_slide_deck.html" target="_blank">Slides</a>
 
 {: .label .label-green }
-Read
+Read/Watch
 
 * Owens, Trevor. The Theory and Craft of Digital Preservation. 2018.
-
-{: .label .label-purple }
-Watch
-
 * Dalhousie Libraries. "Introduction to the BagIt File Packaging Format." YouTube video, Apr 19, 2021. <a href="https://www.youtube.com/watch?v=nYG459M7FmY" target="_blank">https://www.youtube.com/watch?v=nYG459M7FmY</a>.
 
 {: .label .label-yellow }
 Due
 
-Nothing due this week.
-
-{: .label .label-red }
-Weekly Activity
-
-* In class we will start [Breaking Bag(It)](https://digital-archives.github.io/HISTGA1011/activities/fixity_bagger.html). Submit your completed activity summary in Brightspace by the end of the week Sunday.
+In class we will start the Week 2 activity. Submit your completed activity summary in Brightspace by Sunday night.
