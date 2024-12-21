@@ -3,7 +3,7 @@ marp: true
 ---
 
 # Week 4
-## Digital Archives Systems
+## Digital Repository Systems
 
 ---
 
@@ -66,7 +66,7 @@ The way digital repositories are set up, managed and maintained in many ways are
 <div style="display: flex; justify-content: space-between;">
 
   <div style="width: 22%; padding: 20px; border: 1px solid #000; text-align: center;">
-    <h3>Repository</h3>
+    <h3>Digital/Institutional Repository</h3>
   </div>
 
   <div style="width: 22%; padding: 20px; border: 1px solid #000; text-align: center;">
@@ -100,7 +100,7 @@ There are four main types of digital repository systems. Each type has a differe
 ---
 
 <div style="width: 100%; padding: 20px; border: 2px solid #000; text-align: center; font-size: 24px; font-weight: bold; background-color: #f0f0f0;">
-Institutional Repository (IR) System</div>
+Digital/Institutional Repository (IR) System</div>
 
 ### Key Function:
 - Depository for intellectual and research output of students, faculty and scholars (ex. dissertaions, conference papers, etc.)
