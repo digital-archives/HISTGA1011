@@ -1,5 +1,19 @@
 ---
 marp: true
+theme: gaia
+size: 16:9
+paginate: true
+style: |
+  img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  span.emoji {
+    display: inline;
+    margin: 0;
+  }
 ---
 
 # Week 2
