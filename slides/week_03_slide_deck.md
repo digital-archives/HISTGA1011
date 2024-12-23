@@ -1,6 +1,22 @@
 ---
 marp: true
+theme: gaia
+size: 16:9
+paginate: true
+style: |
+  img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  span.emoji {
+    display: inline;
+    margin: 0;
+  }
 ---
+
+
 
 # Week 3 
 ## Processing Born-Digital Archives
@@ -70,15 +86,12 @@ Digital storage devices are commonly associated with legacy born-digital collect
 ## Workflow
 # Acquisition to Processing Workflow
 
-📥 **Decide to acquire something**  
-🔍 **Initial Appraisal**  
-📦 **Transfer/ship to repository**  
-🗂️ **Accession/inventory**  
-📤 **Transfer content off of media**  
-📋 **Process/input finding aid data**  
-🔗 **Reassociate resulting files in finding aid**  
-🛡️ **Rights management/review**  
-🌐 **Publish**
+- Decide to acquire something  
+- Initial appraisal  
+- Transfer/ship to repository  
+- Accession/inventory  
+- Transfer content off of media  
+- Reassociate resulting files in finding aid  
 
 ---
 
@@ -88,7 +101,7 @@ A __floppy disk__ is a thin, flexible magnetic storage medium encased in a squar
 
 ---
 
-<img src="img/week_04_floppy_inside.png">
+![Screen capture of a YouTube video frame showing the floppy disk being manipulated by two hands, showing its flexibility](img/week_04_floppy_inside.png) <!-- fit -->
 
 <!--presenter notes
 
@@ -100,10 +113,10 @@ https://www.youtube.com/watch?v=1-oH2T3W-q4
 ---
 
 ## Floppy disks use magnetism to encode binary data.
-* A flexible (hence the name "floppy") piece of plastic is coated in a magnetic substrate made up of microscopic particles.
+* A flexible piece of plastic is coated in a magnetic substrate made up of microscopic particles.
 * The computer hard disk:
-  * __Writes__ data by applying an electromagnetic field to specific areas of the plastic, aligning the particles to represent binary states: "up" = 1 and "down" = 0
-  * __Reads__ data using a sensitive electromagnetic head that detects the arrangement of particles and translates it into binary information.
+  * __Writes__ data by applying an electromagnetic field to particles. "Up" = 1 and "Down" = 0
+  * __Reads__ data using a sensitive electromagnetic head that detects particle arrangements and translates into binary information.
 
 ---
 
@@ -149,11 +162,10 @@ In short, disk imaging liberates bitstreams from digital storage media, which ca
 
 ## Mini Activity: Look at a disk image
 ### Steps
-1. Open your browser and search for "Apple II games Internet Archive."
-2. Brown the video game archives and select a game of interest.
-3. On the game's page, look for the "Download Options" section on the right-hand side. Click "Show All" to expand the available file types.
-4. Find the disk image file, which likely has the file extension .2mg (a disk image format specific to Apple II series computers).
-5. That’s a disk image! While it might look like an ordinary file to us, it contains the exact data layout of an Apple II disk. You don't need to download or open it.
+1. In a web browser search for "Apple II games Internet Archive."
+2. Browse video game archives and select a game of interest.
+3. On the game's page, look for the "Download Options" section; Click "Show All".
+4. Find 2mg disk image file listed.
 
 <!--presenter notes
 
@@ -250,16 +262,15 @@ A write blocker is piece of hardware or even physical component on a storage dev
 ---
 
 <table>
-<tr>
-<td valign=top width=400>
-<h1>Question for class</h1>
-Can you guess what might happen if you don't use a write blocker when imaging a disk?
-</td>
-<td valign=top>
-
-<img src="img/week_04_file_properties.png" style="width: 80%; height: auto;">
-</td>
-
+  <tr>
+    <td style="vertical-align: top; width: 60%;">
+      <h1>Question</h1>
+      Can you guess what might happen if you don't use a write blocker when imaging a disk?
+    </td>
+    <td style="vertical-align: top; width: 40%;">
+      <img src="img/week_04_file_properties.png" style="max-width: 100%; height: auto;" />
+    </td>
+  </tr>
 </table>
 
 <!--presenter notes
@@ -399,9 +410,8 @@ Here is a photo of the KryoFlux board, which comes with a built-in write-blocker
 1. **Appraisal**: Knowing the type of operating/file system used by the creator can help with troubleshooting.
 
 3. **Potential imaging challenges**:
-   - Damaged hardware
-   - Incompatible or outdated software
-   - Unavailability of necessary hardware, software, or peripherals (cables, entire computers)
+   - Damaged hardware/incompatible or outdated software
+   - Unavailability of necessary hardware, software, or peripherals
    - Proprietary disk image formats
    - Insufficient or missing metadata
 
@@ -409,7 +419,9 @@ Here is a photo of the KryoFlux board, which comes with a built-in write-blocker
 
 ---
 
-# Why is appraisal and accessioning important in terms of born-digital materials?
+# __Question__: Why is appraisal and accessioning important in terms of born-digital materials?
+
+---
 
 **Downstream effects**  
 Uninformed appraisal decisions can create unintended negative outcomes later in the stewardship lifecycle.
@@ -425,12 +437,14 @@ Unexpected media and file formats can challenge a repository's technical capacit
 ## Definition
 # Archival Appraisal
 
-__Appraisal__ is the process of determining whether records and other materials have permanent (archival) value. Appraisal may be done at the collection, creator, series, file, or item level. Appraisal can take place prior to donation and prior to physical transfer, at or after accessioning. The basis of appraisal decisions may include a number of factors, including the records’ provenance and content, their authenticity and reliability, their order and completeness, their condition and costs to preserve them, and their intrinsic value. Appraisal often takes place within a larger institutional collecting policy and mission statement.
+__Appraisal__ is the process of determining whether records and other materials have permanent (archival) value. Appraisal may be done at the collection, creator, series, file, or item level. Appraisal can take place prior to donation and prior to physical transfer, at or after accessioning.
 
 <!--presenter notes
 
 Definition source:
 https://dictionary.archivists.org/entry/appraisal.html
+
+The basis of appraisal decisions may include a number of factors, including the records’ provenance and content, their authenticity and reliability, their order and completeness, their condition and costs to preserve them, and their intrinsic value. Appraisal often takes place within a larger institutional collecting policy and mission statement.
 
 -->
 
@@ -450,7 +464,7 @@ __Question 5:__ Do we have access to the creator/organization, who can provide u
 
 "Accessioning is ... the suite of activities through which archivists appraise, transfer, stabilize, and document archival acquisitions. Accessioning provides pathways to access, informs future decisions, and promotes sustained resource commitment for the care of archival materials."
 
-Archival Accessioning Best Practices (2024)
+_Archival Accessioning Best Practices (2024)_
 
 ---
 
@@ -469,10 +483,10 @@ This definition comes from University of Georgia Libraries Github documentation 
 
 # How are born-digital materials transferred to a repository?
 
-* Physical shipments (i.e. a harddrive arrives in a box that was on a truck)
-* Donor instructed to deposit materials through an institutional repository portal (example: <a href="https://library.ccny.cuny.edu/dss/ir" target="_blank">https://library.ccny.cuny.edu/dss/ir</a>) or other networked transfer
-* Donor instructed to securely transfer materials to a shared drive/networked folder
-* Archivist is called upon to do the transfer themselves (curator gives the archivist a laptop; archivist removes just the hard drive)
+* Physical shipment
+* Donor deposits materials into an institutional repository
+* Donor securely uploads materials to a shared drive/networked folder
+* Archivist does transfer themselves (imaging)
 
 ---
 
@@ -526,13 +540,11 @@ Developed by Harvard University, the File Information Tool Set (FITS) is a suite
 
 ---
 
-# Question: Why might a repository need to identify the file formats present in a specific accession? What practical purposes or benefits could this serve for managing and preserving the collection?
+# __Question:__ Why might a repository need to identify the file formats present in a specific accession? What practical purposes or benefits could this serve for managing and preserving the collection?
 
 ---
 
-![Animated GIF of a garbage bin.](img/c_garbage_bag.gif)
-
-# Reason 1: Weeding Unnecessary or Redundant Files
+# Weed unnecessary, redundant files
 - __Application data__: Files that are tied to specific applications (example: config.ini)
 - __Encrypted or password-protected data__: Unless the decryption key is available, these files can be considered inaccessible.
 - __Duplicates__: Identical files that waste storage space and complicate processing.
@@ -541,7 +553,7 @@ Developed by Harvard University, the File Information Tool Set (FITS) is a suite
 
 ---
 
-# Reason 2: Determining the Processing Plan
+# Reason 2: Determine processing plan
 - __Size and complexity of the file system__: How much organization and descriptive file naming is already present.
 - __Sensitive or personally-identifying information__: Identifying and addressing areas with potentially sensitive data that may require special handling.
 - __Manual sampling needs__: Areas that may need manual review or sampling for appraisal.
