@@ -4,16 +4,23 @@ theme: gaia
 size: 16:9
 paginate: true
 style: |
+  section {
+    margin: 0;
+    padding: 30;
+  }
   img {
-    max-width: 80%;
+    max-width: 100%;
+    max-height: 90%;
     height: auto;
+    width: auto;
     display: block;
     margin: 0 auto;
   }
-  span.emoji {
-    display: inline;
-    margin: 0;
+  h1, h2, h3, h4, h5, h6 {
+  text-align: left;
+  margin: 0 0 1rem 0;
   }
+
 ---
 
 # Week 1 
@@ -87,7 +94,7 @@ I want to step you through basic concepts to do with what digital information is
 
 ---
 
-# As archivists, why should we know about digital preservation and archiving?
+# Why should we know about digital preservation and archiving?
 
 “As archivists, if we are going to be able to take care of digital collections into the future, we must understand that the __basic building blocks of… digital files are… bits and bytes__. To know files, we must know how they are constructed… And from this knowledge, we will be better equipped to design preservation strategies for our digital collections.”
 
@@ -113,7 +120,7 @@ Let's unpack this definition by thinking a bit about Data Objects we encounter t
 -->
 ---
 
-# The Complex Relationships of Data Objects
+# Data Object Relationships & Layers
 
 **Data Object** (e.g., bitstream)
 ↓ Requires
@@ -123,7 +130,7 @@ Let's unpack this definition by thinking a bit about Data Objects we encounter t
 ↓ Maintains
 **Accessibility, Preservation**
 
-If these relationships are not maintained, the result is obsolescence, inaccessibility, data loss
+If these relationships are not maintained, the result is obsolescence, inaccessibility, data loss.
 
 <!-- 
 
@@ -281,11 +288,9 @@ https://www.techtarget.com/whatis/definition/binary#:~:text=In%20mathematics%20a
 ## Definition
 # Byte (2/2)
 
-__Byte length__ can be used to determine the total number of values it can represent.
+__Byte length__ determines total number of values it can represent.
 
-An 8-bit length byte like 00000111 can represent up to 256 values. 
-
-__We determine max value__ by "raising" 2 (possible bit values, 1 or 0) to the power of the byte length (8 bit), notated as 2^8.
+An 8-bit length byte like 00000111 represents up to 256 values. To determine this, raise 2 possible bit values, (1 or 0) to the power of the byte length (8), notated as 2^8.
 
 ```
 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 
@@ -317,8 +322,7 @@ To determine this:
 
 ---
 
-## Question
-# How many possible byte values are there in a __16-bit__ system? Answer: 65,536
+# Answer: 65,536 byte values
 
 A 16-bit system can be calculated by raising the number of possible values (2) to the power of the length of the byte (16), or "two to the power of 16" (2^16). That is:  
 
@@ -646,7 +650,7 @@ Much of this timeline is influenced by Digital Preservation Management’s Timel
 
 ![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives3.jpg)
 
-1880s: Physical holes punched into a piece of paper of could tell machines what to do.
+1880s: Physical holes punched into a piece of paper correspond to warp/weft patterns.
 
 <!--presenter notes
 
@@ -663,19 +667,7 @@ See: https://www.computerhistory.org/storageengine/punched-cards-control-jacquar
 -->
 ---
 
-<style scoped>
-img {
-  max-height: 120vh; /* 80% of the viewport height */
-  object-fit: contain;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 5px;
-  margin-top: 0;
-}
-</style>
-
-![Image showing the charred remains of the 1890 United States census records](img/scientific-american-cover-census-with-punchcards.png)
+<img src="img/scientific-american-cover-census-with-punchcards.png">
 
 <!-- presenter notes
 
@@ -717,9 +709,7 @@ Tragically, in 1896, right before the results of the 1890 census were published,
 
 ---
 
-![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives4.png)
-
-1939: US National Archives mentions punch cards as part of the historic record.
+![Clip of the language of the 1939 Federal Records Act, which notes punch cards, along with photographic records, sound recordings, drawings, correspondence, etc. as part of the historic record.](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives4.png)
 
 <!--presenter notes 
 
@@ -733,9 +723,7 @@ Punch cards were recognized as carriers of information, and in the 1939 Records 
 
 ---
 
-![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives5.jpg)
-
-The 30-ton ENIAC, one of the first programmable computers.
+![The 30-ton ENIAC, one of the first programmable computers.](img/week_01_eniac.jpg)
 
 <!--presenter notes 
 
