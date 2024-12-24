@@ -4,10 +4,6 @@ theme: gaia
 size: 16:9
 paginate: true
 style: |
-  section {
-    margin: 0;
-    padding: 30;
-  }
   img {
     max-width: 100%;
     max-height: 90%;
@@ -15,10 +11,6 @@ style: |
     width: auto;
     display: block;
     margin: 0 auto;
-  }
-  h1, h2, h3, h4, h5, h6 {
-  text-align: left;
-  margin: 0 0 1rem 0;
   }
 
 ---
@@ -28,12 +20,12 @@ style: |
 
 ---
 
+# Today
 - **Welcome and introductions**
 - **Review the syllabus**
 - **Break**
 - **Lecture: Digital information basics**
-- **Discussion**
-- **Next week**
+- **Start weekly activity: Data Object**
 
 ---
 
@@ -96,7 +88,7 @@ I want to step you through basic concepts to do with what digital information is
 
 # Why should we know about digital preservation and archiving?
 
-“As archivists, if we are going to be able to take care of digital collections into the future, we must understand that the __basic building blocks of… digital files are… bits and bytes__. To know files, we must know how they are constructed… And from this knowledge, we will be better equipped to design preservation strategies for our digital collections.”
+“As archivists, if we are going to be able to take care of digital collections into the future, we must understand that the__basic building blocks of… digital files are… bits and bytes__. To know files, we must know how they are constructed… And from this knowledge, we will be better equipped to design preservation strategies for our digital collections.”
 
 Bertram Lyons, _The Digital Archives Handbook_ (2019)
 
@@ -111,7 +103,7 @@ Lyons, Bertram. "Digital Preservation." In The Digital Archives Handbook: A Guid
 ## Definition
 # Data Object
 
-A __data object__ is any entity represented as a sequence of binary digits (bits or bitstreams), whose meaningful interpretation depends on a combination of decoding processes and contextual factors.
+A__data object__ is any entity represented as a sequence of binary digits (bits or bitstreams), whose meaningful interpretation depends on a combination of decoding processes and contextual factors.
 
 <!-- presenter notes
 
@@ -196,9 +188,9 @@ These encodings are akin to how computers encode information into binary. Basica
 
 __Binary__ encodes information using:
 - A "base-2" system and place values
-- The digits 0 and 1, referred to as __bits__ (stands for "binary digit")
+- The digits 0 and 1, referred to as__bits__ (stands for "binary digit")
 
-Binary works in a similar way to the familiar __base-10__ decimal system, which also uses digits and place values to represent numbers.
+Binary works in a similar way to the familiar__base-10__ decimal system, which also uses digits and place values to represent numbers.
 
 <!-- presenter notes
 
@@ -266,7 +258,7 @@ Binary works similarly in that we use both a decimal value (either a 1 or a 0), 
 ## Definition
 # Byte (1/2)
 
-A __byte__ is a discrete-length grouping of bits.
+A__byte__ is a discrete-length grouping of bits.
 
 __Example: 00000111__
 
@@ -313,7 +305,7 @@ To calculate how many different combinations of 8 1s and 0s, we raise the number
 ---
 
 ## Question
-# How many possible byte values are there in a __16-bit__ system?
+# How many possible byte values are there in a__16-bit__ system?
 
 To determine this:
 * Determine number of possible bit values: 2
@@ -437,7 +429,7 @@ __Answer:__ 0, 1 and 2
 | Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
 | Weight | 2^7 | 2^6 | 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0 |
 
-__Third question to ask__: For each 1 we've found, what is their __weight__?
+__Third question to ask__: For each 1 we've found, what is their__weight__?
 
 ---
 

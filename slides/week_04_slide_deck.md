@@ -1,5 +1,19 @@
 ---
 marp: true
+theme: gaia
+size: 16:9
+paginate: true
+style: |
+  img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  span.emoji {
+    display: inline;
+    margin: 0;
+  }
 ---
 
 # Week 4
@@ -30,7 +44,7 @@ _Feel free to email me with any announcements you would like me to boost (upcomi
 ## Definition
 # Archival Repository
 
-An __archival repository__ describes a physical location where an archive stores the physical holdings of their collection. Ideally, this is a secure and stable environment to combat against risk of damage from threats like water, heat and pests over the long-term both in service of preservation and access/retrieval.
+An__archival repository__ describes a physical location where an archive stores the physical holdings of their collection. Ideally, this is a secure and stable environment to combat against risk of damage from threats like water, heat and pests over the long-term both in service of preservation and access/retrieval.
 
 <!--presenter notes 
 
@@ -43,7 +57,7 @@ Let’s start with a definition we are all probably fairly familiar with at this
 ## Definition
 # Digital Repository
 
-“A __digital repository__ is like the electronic equivalent of the library stacks; digital items are organized and searchable there, and they have a specific, persistent location so repository managers maintain intellectual control and researchers can find what they’re looking for. A digital repository does more than simply house digital objects online, it preserves their integrity in the long term.”
+“A__digital repository__ is like the electronic equivalent of the library stacks; digital items are organized and searchable there, and they have a specific, persistent location so repository managers maintain intellectual control and researchers can find what they’re looking for. A digital repository does more than simply house digital objects online, it preserves their integrity in the long term.”
 
 – Rachael Zipperer, Masters Candidate at the University of Texas School of Information, 2019
 
@@ -354,7 +368,7 @@ Let’s explore each of these systems further.
 * Web/browser-based
 * Open source
 * Modeled after OAIS
-* Knits together various __microservices__ to get lots of small and large jobs done, in a specific order
+* Knits together various__microservices__ to get lots of small and large jobs done, in a specific order
 
 <!--presenter notes
 
@@ -365,7 +379,7 @@ Let’s explore each of these systems further.
 ## Definition
 # Microservice
 
-A __microservice__ is an application responsible for performing a single function.
+A__microservice__ is an application responsible for performing a single function.
 
 <!--presenter notes
 
@@ -563,7 +577,7 @@ The underlying protocol used on the web to exchange data between computers using
 
 # https://thebestestwebsite.net/
 
-Translation: "Using the __Hypertext Transfer Protocol Secure (HTTPS)__, retrieve the contents of the resource specified after the Uniform Resource Identifier marker (`://`) (e.g., `thebestwebsite.net`) and render it on my screen."
+Translation: "Using the__Hypertext Transfer Protocol Secure (HTTPS)__, retrieve the contents of the resource specified after the Uniform Resource Identifier marker (`://`) (e.g., `thebestwebsite.net`) and render it on my screen."
 
 <!--presenter notes
 
@@ -591,7 +605,7 @@ using a combination of both the HTTP protocol, as well as another protocol known
 ## Definition
 # REpresentational State Transfer (REST)
 
-Representational State Transfer __(REST)__ is a set of instructions that are transmitted between computers using HTTP.
+Representational State Transfer__(REST)__ is a set of instructions that are transmitted between computers using HTTP.
 
 Common methods include GET, POST, PUT, and DELETE.
 
@@ -602,12 +616,12 @@ Common methods include GET, POST, PUT, and DELETE.
 <table>
 <tr>
 <td width="50%" valign=top>
-<span style="font-size: 250px;">🖥️</span>
+<span style="font-size: 250px;">🖥️
 <br>Computer A: "Hello, can I <b>GET</b> some information from you?"
 </td>
 
 <td valign=top>
-<span style="font-size: 250px;">🖥️</span>
+<span style="font-size: 250px;">🖥️
 <br>Computer B: "Sure, here you go."
 </td>
 </table>
@@ -619,12 +633,12 @@ Common methods include GET, POST, PUT, and DELETE.
 <table>
 <tr>
 <td width="50%" valign=top>
-<span style="font-size: 250px;">🖥️</span>
+<span style="font-size: 250px;">🖥️
 <br>Computer A: "Hello, can I add a new record?"
 </td>
 
 <td valign=top>
-<span style="font-size: 250px;">🖥️</span>
+<span style="font-size: 250px;">🖥️
 <br>Computer B: "Sure, the record has been added."
 </td>
 </table>
@@ -636,12 +650,12 @@ Common methods include GET, POST, PUT, and DELETE.
 <table>
 <tr>
 <td width="50%" valign=top>
-<span style="font-size: 250px;">🖥️</span>
+<span style="font-size: 250px;">🖥️
 <br>Computer A: "Hello, can I update an existing record?"
 </td>
 
 <td valign=top>
-<span style="font-size: 250px;">🖥️</span>
+<span style="font-size: 250px;">🖥️
 <br>Computer B: "Sure, the record is now updated."
 </td>
 </table>
@@ -653,12 +667,12 @@ Common methods include GET, POST, PUT, and DELETE.
 <table>
 <tr>
 <td width="50%" valign=top>
-<span style="font-size: 250px;">🖥️</span>
+<span style="font-size: 250px;">🖥️
 <br>Computer A: "Hello, can I remove this record?"
 </td>
 
 <td valign=top>
-<span style="font-size: 250px;">🖥️</span>
+<span style="font-size: 250px;">🖥️
 <br>Computer B: "Sure, the record has been removed."
 </td>
 </table>

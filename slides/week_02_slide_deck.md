@@ -21,23 +21,16 @@ style: |
 
 ---
 
-
 # Today
-- Weekly Activity Discussion: Data Object
-- Reminders/announcements
-- Lecture: Open Archival Information System (OAIS)- Break
-- Break
-- Start Weekly Activity: Format Encounters RPG
+- **Lecture: Open Archival Information System (OAIS)**
+- **Break**
+- **Weekly Activity Discussion: Data Object**
+- **Start weekly activity: Format Encounters RPG**
 
 ---
 
-# Discussion: Data Object Activity
-
-[Data object Airtable gallery](https://airtable.com/appX8QYrNyTDJDGmg/shrcCl043DAEFMjQe)
-
----
-
-# Open Archival Information System (OAIS)
+# Lecture
+## Open Archival Information System (OAIS)
 
 ---
 
@@ -95,10 +88,10 @@ Now that we have a definition for OAIS under our belts, we will first define wha
 
 # Why is it good to know about OAIS?
 
-- __Widely accepted:__  key digital preservation standard
-- __Comprehensive:__ covers ingest to end-user access
-- __Flexible:__ can be applied to a variety of environments and systems
-- __Clear:__ Well-defined attributes for a robust digital archives system
+-__Widely accepted:__  key digital preservation standard
+-__Comprehensive:__ covers ingest to end-user access
+-__Flexible:__ can be applied to a variety of environments and systems
+-__Clear:__ Well-defined attributes for a robust digital archives system
 
 <!--presenter notes
 
@@ -111,9 +104,9 @@ Source: These bullets are derived from a SERI Educational Webinar, viewable on Y
 ---
 
 # OAIS Reference Model Limitations
-- __Non-specific__: Written at a high level of abstraction
-- __Narrow scope__: Does not address core archival functions such as advocacy and outreach, deaccessioning, reference and user support services, or selection, appraisal, and disposition
-- __Non-prescriptive__: Does not detail how to collaborate, coordinate or implement the model
+-__Non-specific__: Written at a high level of abstraction
+-__Narrow scope__: Does not address core archival functions such as advocacy and outreach, deaccessioning, reference and user support services, or selection, appraisal, and disposition
+-__Non-prescriptive__: Does not detail how to collaborate, coordinate or implement the model
 
 <!--presenter notes
 
@@ -167,7 +160,7 @@ So now, let’s turn back again to our OAIS definition, and unpack what it means
 
 ## Question
 
-# As we learned last week, all data objects are, at their most fundamental, composed of 0s and 1s, or binary data. __Is it enough to preserve just the "bits" of a data object? Why or why not?__
+# As we learned last week, all data objects are, at their most fundamental, composed of 0s and 1s, or binary data.__Is it enough to preserve just the "bits" of a data object? Why or why not?__
 
 <!-- presenter notes
 
@@ -187,7 +180,7 @@ And this dependency on intermediaries presents a risk. What happens when the sof
 # Content Information (1/2)
 
 __Content Information__ is composed of two main elements:
-  1. The __Data Object__ (the 0s and 1s or the literal binary data, aka "bitstream", e.g. 01001000)
+  1. The__Data Object__ (the 0s and 1s or the literal binary data, aka "bitstream", e.g. 01001000)
 
 <!--presenter notes
 
@@ -209,8 +202,8 @@ Let’s talk more about representation information.
 # Definition: Content Information (2/2)
 
 __Content Information__ is composed of two main elements:
-1. The __Data Object__ (the 0s and 1s or the literal binary data, aka "bitstream", e.g. 01001000)
-2. The __Representation Information__, or the information that makes sense of the bitstream (e.g. 01001000 = Decimal 72 = Letter H)
+1. The__Data Object__ (the 0s and 1s or the literal binary data, aka "bitstream", e.g. 01001000)
+2. The__Representation Information__, or the information that makes sense of the bitstream (e.g. 01001000 = Decimal 72 = Letter H)
 
 <!--presenter notes
 
@@ -239,7 +232,7 @@ https://wiki.dpconline.org/index.php?title=4.2.1.3.1_Representation_Information_
 
 # Definition: Structure Information
 
-__Structure Information__ is a type of __representation information__ that maps the data object, or bitstream, to understandable data types.
+__Structure Information__ is a type of__representation information__ that maps the data object, or bitstream, to understandable data types.
 
 For example, a file extension (i.e. music.__FLAC__, document1.__PDF__, 12340000.__DOCX__, img_00123.__JPEG__)
 
@@ -269,7 +262,7 @@ https://wiki.dpconline.org/index.php?title=4.2.1.3.1_Representation_Information_
 
 ---
 
-# __Case Study__: Dennis Parichy Lighting Designs
+#__Case Study__: Dennis Parichy Lighting Designs
 
 <style scoped>
 img {
@@ -321,7 +314,7 @@ Pollard, Collette. "Set Design for DON’T TELL ME I CAN’T FLY." 2011. Digital
 
 ---
 
-# Question: Using the Parichy LightWorks example, what might constitute this collection’s __Content Information__?
+# Question: Using the Parichy LightWorks example, what might constitute this collection’s__Content Information__?
 
 ---
 
@@ -331,7 +324,7 @@ __Consumers__ are the the users of the OAIS.
 
 # Definition: Designated Community
 
-__A Designated Community__ is a special type of __consumer__ that describes the primary users or people accessing the information preserved within the OAIS.
+__A Designated Community__ is a special type of__consumer__ that describes the primary users or people accessing the information preserved within the OAIS.
 
 <!--presenter notes
 
@@ -465,7 +458,7 @@ We are going to focus first on what are known as information packages. They are 
 # Definition: Information Package (1/3)
 —
 
-The OAIS information model is built around the concept of an __information package__, composed of the object that is the focus of preservation, along with metadata necessary to support its long-term preservation, access, and understandability, bound into a single logical package, such as a file folder.
+The OAIS information model is built around the concept of an__information package__, composed of the object that is the focus of preservation, along with metadata necessary to support its long-term preservation, access, and understandability, bound into a single logical package, such as a file folder.
 
 <!--presenter notes
 
@@ -585,7 +578,7 @@ In defining what each information package is, we will also learn more about the 
 </svg>
 
 
-__Content information__ is composed of the __data object__ (bitstream) and __representation information__ (information that makes sense of the bitstream).
+__Content information__ is composed of the__data object__ (bitstream) and__representation information__ (information that makes sense of the bitstream).
 
 
 <!-- presenter notes
@@ -686,7 +679,7 @@ This can be done by running a checksum algorithm against a bitstream. This proce
 # Definition: Checksum
 —
 
-A __checksum__ is a unique alphanumeric group of characters generated by processing the bitstream of a data object through a specialized algorithm. So long as the bitstream remains the same, the checksum should match each time it is generated.
+A__checksum__ is a unique alphanumeric group of characters generated by processing the bitstream of a data object through a specialized algorithm. So long as the bitstream remains the same, the checksum should match each time it is generated.
 
 <!--presenter notes
 
@@ -799,7 +792,7 @@ The OAIS describes information packages in a conceptual manner, but does not go 
 # Definition: Submission Information Package (SIP)
 —
 
-A __Submission Information Package (SIP)__ is formed outside of the context of an OAIS, and delivered by a producer to the OAIS for __ingest__.
+A__Submission Information Package (SIP)__ is formed outside of the context of an OAIS, and delivered by a producer to the OAIS for__ingest__.
 
 <!--presenter notes
 
@@ -844,7 +837,7 @@ In short, the Ingest function serves as the OAIS’s external interface with Pro
 # Definition: Archival Information Package (AIP)
 —
 
-An __Archival Information Package (AIP)__ is an information package consisting of the __Data Object__ and associated __Preservation Description Information (PDI)__ which is managed and preserved within an OAIS.
+An__Archival Information Package (AIP)__ is an information package consisting of the__Data Object__ and associated__Preservation Description Information (PDI)__ which is managed and preserved within an OAIS.
 
 <!--presenter notes
 Source: https://www2.archivists.org/groups/standards-committee/open-archival-information-system-oais#:~:text=An%20Archival%20Information%20Package%20(AIP,repository%20to%20perform%20preservation%20services)
@@ -942,7 +935,7 @@ This is a good segue into the final of the third information package managed by 
 # Definition: Dissemination Information Package (DIP)
 —
 
-The __Dissemination Information Package (DIP)__ is derived from one or more AIPs, and is received by the Consumer (i.e. end-user) in response to a request (e.g. searching an online catalog).
+The__Dissemination Information Package (DIP)__ is derived from one or more AIPs, and is received by the Consumer (i.e. end-user) in response to a request (e.g. searching an online catalog).
 
 <!--presenter notes
 
@@ -981,6 +974,12 @@ __The Requirements for Bodies Providing Audit Certification of Candidate Trustwo
 
 # Break
 ![Take a break: Steaming teapot and tea animated GIF](img/week_02_slide_deck13.gif)
+
+---
+
+# Discussion: Data Object Activity
+
+[Data object Airtable gallery](https://airtable.com/appX8QYrNyTDJDGmg/shrcCl043DAEFMjQe)
 
 ---
 
