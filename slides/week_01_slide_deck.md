@@ -766,7 +766,7 @@ Start: <a href="https://digital-archives.github.io/HISTGA1011/activities/data_ob
 
 ---
 
-![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives22.gif)
+![](img/week_00_weekly_activity_sunset.gif)
 
 _Final questions or reflections?_
 

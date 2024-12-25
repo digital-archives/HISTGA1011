@@ -995,3 +995,11 @@ __The Requirements for Bodies Providing Audit Certification of Candidate Trustwo
     flowchart: { useMaxWidth: true, diagramPadding: 20 }
   });
 </script>
+
+---
+
+![](img/week_00_weekly_activity_sunset.gif)
+
+_Final questions or reflections?_
+
+mary.kidd@nyu.edu

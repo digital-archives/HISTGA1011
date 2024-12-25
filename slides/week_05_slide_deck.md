@@ -142,7 +142,8 @@ Next, we will discuss different types of technologies, which may be used in any 
     align-items: center; 
     position: relative; 
     height: 100vh;
-    max-width: 100%; 
+    max-width: 100%;
+    max-height: 100%;
     margin: 0; 
     overflow: hidden; 
     background-color:rgb(255, 255, 255);">
@@ -156,7 +157,7 @@ Next, we will discuss different types of technologies, which may be used in any 
   <h1 style="
       position: absolute; 
       top: 5%;
-      left: 30%; 
+      left: 40%; 
       transform: translateX(-50%); 
       font-weight: bold; 
       color: white; 
@@ -182,6 +183,7 @@ Hard disk drive (HDD): Mechanical spinning disk; arm reads/writes bitstreams usi
     align-items: center; 
     position: relative; 
     height: 100vh;
+    max-height: 100%;
     max-width: 100%; 
     margin: 0; 
     overflow: hidden; 
@@ -196,7 +198,7 @@ Hard disk drive (HDD): Mechanical spinning disk; arm reads/writes bitstreams usi
   <h1 style="
       position: absolute; 
       top: 5%;
-      left: 30%; 
+      left: 40%; 
       transform: translateX(-50%); 
       font-weight: bold; 
       color: white; 
@@ -246,6 +248,7 @@ The cells trap or “save” the level of electrons, which is how SSD drives sto
     position: relative; 
     height: 100vh;
     max-width: 100%; 
+    max-height: 100%;
     margin: 0; 
     overflow: hidden; 
     background-color:rgb(255, 255, 255);">
@@ -346,29 +349,73 @@ Next, we are going to talk about storage solutions. Each of the storage solution
 # Storage Solution
 —
 
-A __storage solution__ refers to specific devices or services that can be used for storage.
+A __storage solution__ refers to specific devices or services that can be used for storage. Each solution may use one or more storage technologies we just covered.
 
 <!--presenter notes
 
-A storage solution refers to specific devices or services that can be used for storage. They can consist of one or a combination of storage technologies that we covered just now: hard disk drives, solid state drives, or magnetic tape.
+Next, we are going to talk about storage solutions. Each of the storage solutions presented can utilize any of the three storage technologies and architectures we just stepped through, but you’ll see that some solutions are more specific to one or another technology.
 
 -->
 
 ---
 
-__Network-__
+<div style="
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    position: relative; 
+    height: 100vh;
+    max-width: 100%; 
+    max-height: 100%;
+    margin: 0; 
+    overflow: hidden; 
+    background-color: rgb(255, 255, 255);">
+    
+  <!-- Image -->
+  <img src="img/week_05_nas.png" 
+       alt="Stock image of a NAS" 
+       style="width: 100%; height: auto; max-height: 100vh; object-fit: contain;">
+       
+  <!-- Header Text -->
+  <h1 style="
+    position: absolute; 
+    top: 0%; 
+    left: 40%; 
+    transform: translateX(-50%); 
+    font-weight: bold; 
+    color: black; 
+    background-color: rgba(255, 255, 255, 0.5); 
+    padding: 0px; 
+    border-radius: 0px; 
+    text-align: center; 
+    width: 80%;
+    max-width: 1000px;
+    font-size: 3rem;">
+  Network Attached Storage (NAS)
+</h1>
 
-__attached storage (NAS)__
+  <!-- Bullet List -->
+  <ul style="
+      position: absolute; 
+      top: 50%;
+      width: 70%;
+      left: 50%; 
+      transform: translateX(-50%); 
+      font-weight: bold; 
+      color: white; 
+      background-color: rgba(66, 170, 6, .75); 
+      padding: 20px; 
+      border-radius: 5px; 
+      list-style: none;
+      text-align: center;">
+    <li>1 or more networked HDDs or SSDs</li>
+    <li>Online; quick</li>
+    <li>Examples: Isilon</li>
+  </ul>
 
-1 or more networked HDDs or SSDs
+</div>
 
-Online; quick
-
-Examples: Isilon
-
-![](img/Week%2005%20-%20Digital%20Preservation%20Storage%20Systems3.png)
-
----
+<!--presenter notes
 
 Network-attached storage (NAS) is a type of data storage device that is connected to a network, allowing users to access and share data over that network.
 
@@ -380,41 +427,115 @@ Easy access: NAS devices can be accessed from any device on the network, making 
 Enhanced security: NAS devices often have built-in security features such as user authentication and data encryption, making it easy to secure sensitive data.
 Scalability: NAS devices can be expanded with additional hard drives as needed, making it easy to increase storage capacity as data needs grow.
 
-__Linear-Tape Open (LTO)__
-
-Near or offline storage
-
-Example: CUNY TV uses an LTO tape library for offline storage
-
-![](img/Week%2005%20-%20Digital%20Preservation%20Storage%20Systems4.png)
+-->
 
 ---
+
+<div style="
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    position: relative; 
+    height: 100vh; 
+    width: 100%; 
+    max-width: 100%;
+    max-height: 90%;
+    margin: 0; 
+    overflow: hidden; 
+    background-color: rgb(255, 255, 255);">
+    
+  <!-- Image -->
+  <div style="flex: 1; display: flex; justify-content: center; align-items: center;">
+    <img src="img/week_05_lto.png" 
+         alt="Stock image of linear tape open (LTO library)" 
+         style="width: 80%; height: auto; max-height: 90vh; object-fit: contain;">
+  </div>
+       
+  <!-- Text Section -->
+  <div style="flex: 1; padding: 20px; text-align: left;">
+    <!-- Header Text -->
+    <h1>
+      Linear-Tape Open (LTO)
+    </h1>
+    <ul>
+      <li>Near or offline storage</li>
+      <li>Examples: CUNY TV uses an LTO tape library for offline storage</li>
+    </ul>
+  </div>
+
+</div>
+
+<!--presenter notes
 
 Read more about CUNY TV’s migration from LTO-5 to LTO-7 here: https://blogs.loc.gov/thesignal/2016/03/data-migration-digital-asset-management-and-microservices-at-cuny-tv/
 
 Photo credit: Dinah Handel, who was an NDSR resident at CUNY TV in 2015/2016
 
 A Linear Tape-Open (LTO) tape library is a type of tape storage system that uses magnetic tape technology to store and retrieve data, and is best suited for long-term data retention. Therefore, it is often used in offline storage architectures. LTO tape libraries consist of one or more tape drives and one or more tape cartridges that are housed in a removable magazine or a rack-mounted cabinet.
+
 The LTO format is an open-format standard developed by Hewlett-Packard, IBM, and Quantum, and has been widely adopted by various tape storage vendors.
+
 LTO tapes can store large amounts of data, with capacities in the tens of terabytes, making them well-suited for large-scale data storage.
+
 LTO tapes are highly durable and can last for several decades, making them an ideal choice for long-term data preservation.
+
 Tape storage is often more cost-effective than other types of storage, especially for large-scale data storage, making it a good choice for preserving large amounts of data.
+
 The tapes themselves are small and lightweight, making them easy to store and transport, especially when it comes to off-site storage and disaster recovery.
+
 Tape storage is known for its reliability and longevity, and is less likely to experience data loss due to disk failures, which can be a concern with other types of storage.
 
-![](img/Week%2005%20-%20Digital%20Preservation%20Storage%20Systems5.png)
-
-Remotely located
-
-Maintained by third-party vendor
-
-Arrays of SSDs or HDDs
-
-Near- or offline storage
-
-Example: Amazon S3
+-->
 
 ---
+
+<div style="
+    position: relative; 
+    width: 100%; 
+    height: 80vh; 
+    margin: 0; 
+    overflow: hidden;">
+    
+  <!-- Background Image -->
+  <img src="img/week_05_cloud.png" 
+       alt="Image of an Amazon server farm" 
+       style="width: 100%; height: 100%; object-fit: cover;">
+       
+  <!-- Overlay with Title and Bulleted List -->
+  <div style="
+      position: absolute; 
+      top: 50%; 
+      left: 50%; 
+      transform: translate(-50%, -50%); 
+      background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+      color: white; 
+      padding: 20px; 
+      border-radius: 10px; 
+      text-align: left; 
+      width: 80%; 
+      max-width: 800px;">
+    <h1 style="
+        margin: 0 0 20px 0;
+        font-size: 4rem; 
+        font-weight: bold; 
+        text-align: center;">
+      Cloud Storage
+    </h1>
+    <ul style="
+        list-style: disc; 
+        padding-left: 20px; 
+        margin: 0; 
+        font-size: 2rem;">
+      <li>Remotely located</li>
+      <li>Maintained by third-party vendor</li>
+      <li>Arrays of SSDs or HDDs</li>
+      <li>Near- or offline storage</li>
+      <li>Example: Amazon S3</li>
+    </ul>
+  </div>
+</div>
+
+<!--presenter notes
 
 Image source: https://en.wikipedia.org/wiki/Google_data_centers#/media/File:Google_datacenter_(2007)_-_panoramio_-_erwinboogert_(2).jpg
 
@@ -424,17 +545,68 @@ Cloud storage solutions can use either Hard Disk Drives (HDD) or Solid State Dri
 
 If considering cloud storage services, one thing to keep in mind is that the costs are not just specific to the amount of data you intend to store in the cloud; you will likely also be charged by the amount of data being transferred from the cloud to you, or to your access platform, or somewhere else. Something to keep in mind when thinking about storage budgets. The Rosenthal article assigned to you this week talks specifically about the cloud and associated costs.
 
-__Redundant Array of Independent Disks (RAID)__
-
-Array of HDDs or SSDs
-
-Usually onsite for quick access
-
-Uses parity technology to repair corruption
-
-![](img/Week%2005%20-%20Digital%20Preservation%20Storage%20Systems6.png)
+-->
 
 ---
+
+<div style="
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    position: relative; 
+    height: 100vh;
+    max-width: 100%; 
+    max-height: 100%;
+    margin: 0; 
+    overflow: hidden; 
+    background-color: rgb(255, 255, 255);">
+    
+  <!-- Image -->
+  <img src="img/week_05_raid.png" 
+       alt="Stock image of a RAID" 
+       style="width: 100%; height: auto; max-height: 100vh; object-fit: contain;">
+       
+  <!-- Header Text -->
+  <h1 style="
+    position: absolute; 
+    top: 0%; 
+    left: 40%; 
+    transform: translateX(-40%); 
+    font-weight: bold; 
+    color: black; 
+    background-color: rgba(255, 255, 255, 0.5); 
+    padding: 0px; 
+    border-radius: 0px; 
+    text-align: center; 
+    width: 100%;
+    max-width: 1000px;
+    font-size: 3rem;">
+  Redundant Array of Independent Disks (RAID)
+</h1>
+
+
+  <!-- Bullet List -->
+  <ul style="
+      position: absolute; 
+      top: 50%;
+      width: 70%;
+      left: 50%; 
+      transform: translateX(-50%); 
+      font-weight: bold; 
+      color: white; 
+      background-color: rgba(66, 170, 6, .75); 
+      padding: 20px; 
+      border-radius: 5px; 
+      list-style: none;
+      text-align: center;">
+    <li>Array of HDDs or SSDs</li>
+    <li>For production/live environments</li>
+    <li>Uses parity technology to repair corruption</li>
+  </ul>
+
+</div>
+
+<!--presenter notes
 
 RAID stands for “redundant array of independent disks”. A RAID is an array of hard disk or solid state drives, that work in concert with one another to ensure that if one drive fails, another can pick up where it left off.
 
@@ -442,16 +614,25 @@ One thing to note about RAIDS is that they are not without their own faults. For
 
 RAIDS use what is known as parity to restore and repair damaged bitstreams.
 
-# Definition: Parity
-—
-
-__Parity__ __describes the process that some storage systems use to identify and recover corrupted bits.__
-
-__It can do this by storing additional information (parity bits) about two twin bits stored on different drives.__
+-->
 
 ---
 
+## Definition
+# Parity
+—
+
+__Parity__ describes the process that some storage systems use to identify and recover corrupted bits.
+
+It can do this by storing additional information (parity bits) about two twin bits stored on different drives.
+
+<!--presenter notes
+
 Along with storing bitstreams, RAIDs store what are known “parity bits” or “parity data”, which it uses to both identify when a bit has become corrupted, and restore the corrupted bits to their original form. Parity information is stored in its own spot in the RAID adjacent to the data it is storing.
+
+-->
+
+---
 
 | Date | Bit A Value | Bit B Value | Bit A + Bit B | Parity bit value |
 | :-: | :-: | :-: | :-: | :-: |
@@ -460,7 +641,7 @@ Along with storing bitstreams, RAIDs store what are known “parity bits” or �
 | … | … | … | … | … |
 | 12/31/2024 | 0 | 1 | 0 + 1 = 1 | 0 (Odd) |
 
----
+<!--presenter notes
 
 Parity data stores information about whether or not the sum of the two identical bits over two or more hard drives adds up to an even number, or an odd number. For example, let’s pretend that we have a very simple RAID system with two hard drives. Each hard drive contains exactly 1 bit each, and are a copy of one another.
 
@@ -472,45 +653,60 @@ A week later, the RAID notices that one of hard drives has failed. It makes note
 
 This is a somewhat oversimplification of how parity works. However, it’s good to know that there are things like parity that devices and software can use to not just check for data corruption, but also restore data. I think this is an important thing to know because when it comes to digital technologies, we are often told that we never really know what’s going on inside of whatever device we are using, and as a result we are always just waiting for catastrophic failure. But just know that there are systems in place that are self-checking, and self-correcting.
 
-<span style="color:#FF8BFF">Case Study
-
-<span style="color:#FF8BFF">__UC San Diego\, Chronopolis__
-
-<span style="color:#FF8BFF"> _Updating storage systems_
+-->
 
 ---
+
+## Case Study
+# UC San Diego, Chronopolis
+
+ _Updating storage systems_
+
+<!--presenter notes
 
 In your assigned reading for this week, we read about how the Bentley Historical Library developed an integrated system using three of the four digital repository system types we just covered [Digital Preservation System: Archivematica; Institutional Repository: DSpace; and Content Management System: ArchivesSpace]. The purpose here was to play to each of the systems’ strengths to fully support an “end-to-end digital archives workflow”. These sorts of integrative setups are quite common in digital archives in general. These integrations are achieved using what are known as application programming interfaces or APIs. An API is basically just a set of instructions or protocols that allows one system to talk or update data in the other.
 
 Let’s explore each of these systems further.
 
-__Storage example: UC San Diego\,__ __Chronopolis__
-
-_In the past:_
-
-2-TB drives running on RAID 10
-
-Hard disk failure happened
-
-_Current:_
-
-Primary Storage: Isilon NAS (1.6 Petabytes) on 5 nodes
-
-Purchased another cluster 5 years later
-
-Location: On-campus
-
-Fixity audit run every 45 days
-
-_Future:_
-
-Amazon cloud storage
-
-Use a “snowball” SSD to transfer data
-
-Not considering tape backup; would prefer cold cloud storage
+-->
 
 ---
+
+<table>
+<tr>
+
+<td valign=top width=350>
+
+<h2>Past</h2>
+
+2-TB drives running on RAID 10<br>
+Hard disk failure occurred<br>
+
+</td>
+
+<td valign=top width=350>
+
+<h2>Current</h2>
+
+Isilon NAS (1.6 Petabytes) on 5 nodes<br>
+Purchased another cluster 5 years later<br>
+Fixity every 45 days<br>
+
+</td>
+
+<td valign=top width=350>
+
+<h2>Future</h2>
+
+Amazon cloud storage<br>
+Use a “snowball” SSD to transfer data<br>
+Eye towards clou<br>
+
+</td>
+</tr>
+</table>
+
+<!--presenter notes
 
 So how might all of what we covered, architectures, technologies, and solutions fit together? What is an example of their use in a digital preservation environment?
 
@@ -520,90 +716,49 @@ In the UC San Diego example, we are looking at a fairly large institutional repo
 
 In the future, it sounds like they are considering cloud storage services. In particular, they talk about how Amazon, for large data transfers, prefer that they use something called a “Snow ball”. A snowball is basically a beefed up hard drive that Amazon sends to the transferring institution. The institution then moves a copy of their archive to the snowball, and then physically ships it back to the data center for processing. Snow balls are useful because transferring over networks means there are bandwidth limitations. Also, networks can be unstable, which could compromise the data.
 
-<span style="color:#CE8FFB">__Mini Activity__
-
-<span style="color:#CE8FFB">Your institution is taking on a mass digitization project to scan and digitize 100 analog films. Each film will result in ~ 2 gigabytes worth of data. With a partner\, do a couple of web browser searches to come up with an estimate for each of the storage solutions below. Present your findings to the class.
-
-__Amazon S3 Glacier__
-
-__LTO tape library__
+-->
 
 ---
 
-Source: https://en.wikipedia.org/wiki/JPEG_File_Interchange_Format
+# Storage Challenges
 
-Let’s put all of what we just learned together about content information, content data objects, representation information, knowledge bases and designated communities.
+* Hardware failure
+* Software failure
+* Economic volatility/budget cuts
+* Natural disasters / climate change
+* Power supply/electrical grid failures
+* Human error
+* Third-party attack
 
-On the slide we have a screen capture of a scanned page of the Forme of Cury, a cookbook from the Late Middle Ages, dating to the late 14th century, written in Middle English.
-
-Based on the definitions we just reviewed in the previous slides for Data Object and Representation Information, take a guess what might constitute, in an OAIS, its content information, the data object, the designated community and its knowledge base, and the representation information? Take a minute to think about it and write down your thoughts somewhere if you need to.
-
-Would anyone like to share their findings with the class?
-
-An answer (this is not the right answer, just a suggestion):
-
-Data object: the bitstream of the scanned page of text.
-The system may require semantic information to convey that this book is written in an obsolete language.
-Structural information may include detail to render the bitstream into pixels, or even optical character recognition (OCR) technologies that can transcribe old English handwriting into raw text. 
-Other representation information may include some sort of text transcription that translates the cookbook into modern English. This may depend on the repository’s designated community’s knowledge base. If the knowledge base is narrow (say, researchers who are skilled in reading/translating old english texts) then this may not be necessary. However, if the designated community is broad (say, the general public), then this sort of information may be necessary.
-
----
-
-Next, we are going to talk about storage solutions. Each of the storage solutions presented can utilize any of the three storage technologies and architectures we just stepped through, but you’ll see that some solutions are more specific to one or another technology.
-
-<span style="color:#FF8BFF">__Challenges in data storage management__
-
-<span style="color:#FF8BFF">__Hardware failure__
-
-<span style="color:#FF8BFF">Component malfunction
-
-<span style="color:#FF8BFF">__Software failure__
-
-<span style="color:#FF8BFF">System malfunctions
-
-<span style="color:#FF8BFF">__Economic volatility__
-
-<span style="color:#FF8BFF">Financial instability
-
-<span style="color:#FF8BFF">__Budget cuts__
-
-<span style="color:#FF8BFF">Reduced financial resources
-
-<span style="color:#FF8BFF">__Natural disasters / climate change__
-
-<span style="color:#FF8BFF">Environmental disruptions
-
-<span style="color:#FF8BFF">__Power supply issues__
-
-<span style="color:#FF8BFF">Electrical grid failures
-
-<span style="color:#FF8BFF">__Human error__
-
-<span style="color:#FF8BFF">Operational mistakes
-
-<span style="color:#FF8BFF">__Third-party attack__
-
-<span style="color:#FF8BFF">External security breach
-
----
+<!--presenter notes
 
 There are a considerable number of risks posed to digital storage, a few which I have listed in the slide, many which I have alluded to in covering various storage technologies and solutions. Over the next few slides, we will talk about these risks in terms of how we can mitigate them over the short- and long-term.
 
-![](img/Week%2005%20-%20Digital%20Preservation%20Storage%20Systems7.png)
-
-# Monitor the storage environment
+-->
 
 ---
+
+## Solution
+* Monitor the storage environment
+* Schedule and perform data audits
+
+<!--presenter notes
 
 Regular monitoring should be done over the digital repository to ensure all parts are functioning as they should. Ideally this should be automated.
 
 This is a screenshot of a Synology NAS system monitoring dashboard. Here, there is a Storage panel that lists all hard disk storage devices, lists their temperatures, and status. On the right-hand side, notice that there are some other facets showing you things like total volume versus used capacity, and a security panel showing you logged in users. Systems like Synology provide these sorts of out-of-the-box dashboards that enable you and your colleagues to better monitor the overall performance of your storage. You can also set it up to receive email or other notifications if, for example, your available capacity reaches a certain threshold.
 
-![](img/Week%2005%20-%20Digital%20Preservation%20Storage%20Systems8.png)
-
-# Perform data audits
+-->
 
 ---
+
+![Screenshot of the control panel of a storage monitoring graphical user interface](img/week_05_storage_gui.png)
+
+---
+
+![Screenshot of a fictional fixity audit](img/week_05_fixity_audit.png)
+
+<!--presenter notes
 
 Image source: https://qanda.digipres.org/332/what-tools-do-you-use-for-the-ongoing-monitoring-of-checksums (note, the screenshot is a “fake” audit log that does not display real data, per the author’s explanation!)
 
@@ -613,34 +768,31 @@ Checksum or hash values: A checksum or hash value is a unique digital signature 
 
 Logging and auditing: Keeping a log of all changes made to the files in the digital preservation storage system can help identify if any files have been altered or corrupted. Regular auditing of the logs can help ensure that the system is working as intended and that the content of the files remains intact.
 
-
-
-
-<span style="color:#C27BA0">__Question__
-
-<span style="color:#741B47">Frequently backing data up across multiple storage devices is considered a de facto strategy to prevent loss. However\, we now know that bits can “flip”. How might an institution prevent accidentally backing up  <span style="color:#741B47"> _corrupted_  <span style="color:#741B47"> data?
-
-<span style="color:#1155CC">__Redundancy and Replication Strategies__
-
-<span style="color:#1155CC">__3-2-1 or LOCKSS (Lots of Copies Keep Stuff Safe)__
-
-<span style="color:#1155CC">Safety through redundancy
-
-<span style="color:#1155CC">__Offline/non-networked storage for file recovery__
-
-<span style="color:#1155CC">Keep backups in offline or non-networked storage\, to protect data from cyber threats and ensure a reliable recovery option in case of a network breach.
-
-<span style="color:#1155CC">__Delta differencing__
-
-<span style="color:#1155CC">Minimizes storage needs by only saving changes made since the last backup\, rather than duplicating the entire data set.
-
-<span style="color:#1155CC">__Cloud Storage Mirroring__
-
-<span style="color:#1155CC">Mirror (copy) across multiple cloud storage locations
+-->
 
 ---
 
-3-2-1 strategy (at least): Keep 3 copies, where 2 copies are on separate storage devices, and one copy is stored in a geographically distinct location from the other two.
+# Question
+
+Frequently backing data up across multiple storage devices is considered a de facto strategy to prevent loss. However, we now know that bits can “flip”. How might an institution prevent accidentally backing up _corrupted_ data?
+
+---
+
+# Redundancy Strategies
+
+__LOCKSS (Lots of Copies Keep Stuff Safe)__
+
+__Offline/non-networked storage__
+
+__Delta differencing__
+Minimizes storage needs by only saving changes made since the last backup, rather than duplicating the entire data set.
+
+__Cloud Storage Mirroring__
+Mirror (copy) across multiple cloud storage locations
+
+<!--presenter notes
+
+LOCKSS/3-2-1 strategy (at least): Keep 3 copies, where 2 copies are on separate storage devices, and one copy is stored in a geographically distinct location from the other two.
 
 Offline storage: Consider using some sort of offline storage solution. Not only is it cheap compared to on- or nearline solutions, but by nature of being non-networked, provides added protection against network-specific threats. This includes obvious things like viruses and malware infecting networked devices.
 
@@ -650,25 +802,20 @@ Delta differencing: a backup strategy only backs up blocks that have changed aft
 
 Cloud Storage Mirroring: Data is mirrored across multiple cloud storage locations to enhance accessibility and disaster recovery, ensuring data availability even if one cloud service experiences an outage.
 
-__Data Exit Strategy__
-
-__Scenarios:__
-
-__Your institution goes with a new service__
-
-__Digital preservation software service provider shutters its doors__
-
-__Make sure you document and discuss with your service provider:__
-
-__Steps for how to get data out__
-
-__Are there any software or hardware dependencies?__
-
-__Will they provide training?__
-
-__The steps your service provider will take__
+-->
 
 ---
+
+# Why You Need a Data Exit Strategy
+
+* Your repository will very likely move onto new services/solutions, or your current vendor may go insolvent. It happens all the time!
+
+Make sure you document and discuss with your service provider:
+* How do we get our data out of your database? (are there any software or hardware dependencies?)
+* Will they provide training or support?
+* What is their policy or steps they will take?
+
+<!--presenter notes
 
 https://sr.ithaka.org/publications/the-effectiveness-and-durability-of-digital-preservation-and-curation-systems/
 
@@ -680,9 +827,19 @@ You can and should expect that the vendor has a documented contingency plan. For
 
 Another good question to ask is if we do not uphold our end of the contract – let’s say we can’t pay for our license – is there a grace period? Will they just delete our stuff immediately or do we get some sort of grace period? What in general is their retention policy?
 
-![](img/Week%2005%20-%20Digital%20Preservation%20Storage%20Systems9.gif)
+-->
 
-<span style="color:#20124D">__In-class activity__
+---
 
-_[Archivematica Sandbox](https://digital-archives.github.io/HISTGA1011/activities/archivematica.html)_
+## Weekly Activity
+# Archivematica Sandbox
 
+Start: <a href="https://digital-archives.github.io/HISTGA1011/activities/archivematica.html" target="_blank">https://digital-archives.github.io/HISTGA1011/activities/archivematica.html</a>
+
+---
+
+![](img/week_00_weekly_activity_sunset.gif)
+
+_Final questions or reflections?_
+
+mary.kidd@nyu.edu
