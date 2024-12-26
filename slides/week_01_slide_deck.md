@@ -5,12 +5,12 @@ size: 16:9
 paginate: true
 style: |
   img {
-    max-width: 100%;
-    max-height: 90%;
-    height: auto;
-    width: auto;
-    display: block;
-    margin: 0 auto;
+  max-width: 100%;
+  max-height: 90%;
+  height: auto;
+  width: auto;
+  display: block;
+  margin: 0 auto;
   }
 
 ---
@@ -66,9 +66,7 @@ My email: [mary.kidd@nyu.edu](mailto:mary.kidd@nyu.edu)
 
 <!-- presenter notes
 
-This semester’s syllabus is hosted on Github. Has anyone here used or are you familiar with Github?
-
-Briefly: Github is an online platform that is used to store and version information. It is also a platform used widely in the digital archives and preservation fields. We will cover what Github is, more, later on in the semester, and see some "real life" examples of digital archiving and preservation repositories. But for now, you will be using it primarily to access the class syllabus, as well assignments and other documents we will be using for in-class activities.
+This semester’s syllabus is hosted on Github. Github is an online platform that is used to store and version information. It is also a platform used widely in the digital archives and preservation fields. We will cover what Github is, more, later on in the semester, and see some "real life" examples of digital archiving and preservation repositories. But for now, you will be using it primarily to access the class syllabus, as well assignments and other documents we will be using for in-class activities.
 
 Syllabus link: https://github.com/kiddmary/HIST-GA-1011
 
@@ -342,7 +340,7 @@ img {
 }
 </style>
 
-![Console screen capture of an 8-bit Nintendo Entertainment System (NES) gaming system from the late 1980s.](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives0.png)
+![Console screen capture of an 8-bit Nintendo Entertainment System (NES) gaming system from the late 1980s.](img/week_01_mario_01.png)
 
 ---
 
@@ -359,14 +357,14 @@ it's important to understand that when we are referring to an 8-bit versus a 16-
 
 # Binary -> Decimal
 
-| Binary value | Decimal value |   | Binary value | Decimal value |
+| Binary value | Decimal value | | Binary value | Decimal value |
 | :-: | :-: | :-: | :-: | :-: |
-| 0000 0000 | 0 |   | 0000 0110 | 6 |
-| 0000 0001 | 1 |   | 0000 0111 | 7 |
-| 0000 0010 | 2 |   | 0000 1000 | 8 |
-| 0000 0011 | 3 |   | 0000 1001 | 9 |
-| 0000 0100 | 4 |   |  |
-| 0000 0101 | 5 |   |  |
+| 0000 0000 | 0 | | 0000 0110 | 6 |
+| 0000 0001 | 1 | | 0000 0111 | 7 |
+| 0000 0010 | 2 | | 0000 1000 | 8 |
+| 0000 0011 | 3 | | 0000 1001 | 9 |
+| 0000 0100 | 4 | |  |
+| 0000 0101 | 5 | |  |
 
 
 <!--presenter notes
