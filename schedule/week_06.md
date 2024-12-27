@@ -6,13 +6,11 @@ nav_order: 6
 has_children: false
 ---
 # Week 6: Digital Preservation Metadata
-<a href="https://docs.google.com/presentation/d/1I0PwGut0qQ7LlR2asV3PMQtT9muj_O1HAukkXXeJBvI/edit?usp=sharing" target="_blank">Link to slide deck</a>
+<a href="https://digital-archives.github.io/HISTGA1011/slides/week_06_slide_deck.html" target="_blank">Slides</a>
 
 {: .label .label-yellow }
 Due
-* Assignment due: Submit your <a href="https://digital-archives.github.io/HISTGA1011/assignments/final/abstract.html" target="_blank">Final Project Abstract</a> in Brightspace by this Friday.
-* Post your pre-class reading reactions to Brightspace by 3:30pm today.
-* Weekly activity: We will start <a href="https://digital-archives.github.io/HISTGA1011/activities/metadata.html" target="_blank">METS and PREMIS Metadata</a> in class. Submit your annotated XML file in Brightspace by the end of the week Sunday.
+* In class we will start the Week 6 activity. Submit your completed activity summary in Brightspace by Sunday night.
 
 {: .label .label-green }
 Read
