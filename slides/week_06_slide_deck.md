@@ -5,15 +5,39 @@ size: 16:9
 paginate: true
 style: |
   img {
-  max-width: 100%;
-  max-height: 90%;
-  height: auto;
-  width: auto;
-  display: block;
-  margin: 0 auto;
+    max-width: 100%;
+    max-height: 90%;
+    height: auto;
+    width: auto;
+    display: block;
+    margin: 0 auto;
   }
 
+  /* Code block customization */
+  pre {
+    background-color: #1e1e1e; /* Dark gray background */
+    padding: 10px; /* Add spacing for readability */
+    border-radius: 5px; /* Rounded corners */
+    overflow-x: auto; /* Horizontal scrolling for long lines */
+  }
+
+  pre code {
+    color: #f5f5f5; /* Light text */
+    font-family: "Courier New", monospace; /* Monospace font for code */
+    font-size: 1.2rem; /* Adjusted font size for code blocks only */
+  }
+
+  /* Inline code customization */
+  code {
+    font-size: 1.2rem; /* Adjusted font size for inline code */
+    font-family: "Courier New", monospace; /* Consistent font for inline code */
+    background-color: #1e1e1e; /* Match the block code background */
+    color: #f5f5f5; /* Match the block code text color */
+    padding: 2px 4px; /* Add padding for inline code */
+    border-radius: 3px; /* Rounded corners for inline code */
+  }
 ---
+
 
 ## Week 6
 # Digital Preservation Metadata
@@ -311,27 +335,14 @@ XML “tags” (i.e. <originInfo>) are used to define a schema's elements. Tags 
 
 ```
 <mods xmlns="http://www.loc.gov/mods/v3" version="3.0">
-
-...
-
-<originInfo>
-
-  <place>
-
-    <placeTerm type="text">Ithaca, NY</placeTerm>
-
-  </place>
-
-  <publisher>Cornell University Press</publisher>
-
-  <copyrightDate>1999</copyrightDate>
-
-</originInfo>
-
-...
-
+  <originInfo>
+    <place>
+      <placeTerm type="text">Ithaca, NY</placeTerm>
+    </place>
+    <publisher>Cornell University Press</publisher>
+    <copyrightDate>1999</copyrightDate>
+  </originInfo>
 </mods>
-
 ```
 
 <!--presenter notes
@@ -471,18 +482,11 @@ Namespaces are a way of ensuring that the names of elements and attributes used 
 
 ```
 <mets:mets
-    
     xmlns:mets="http://www.loc.gov/METS/" 
-    
     xmlns:xlink="http://www.w3.org/1999/xlink"
-    
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-
-...
-
 </mets:mets>
-
-````
+```
 
 <!--presenter notes
 
@@ -561,7 +565,6 @@ Data is either wrapped or linked (examples in next 2 slides)
     </mets:mdWrap>
   </mets:dmdSec>
 </mets:mets>
-
 ```
 
 <!--presenter notes
@@ -590,25 +593,26 @@ Notice how each bibliographic tag starts with dc:. This is how we say, “This t
 </mets:mets>
 ```
 
----
+<!--presenter notes
 
 Here we have a second example of bibliographic data contains in a METS file, but instead of including the actual bibliographic metadata within the file, like creator and title, we link out to a bibliographic record, in a different database. To do this, we use the <mdRef> tag, which tells us that we are referencing an EAD-encoded finding aid.
 
 Either way (wrapping, or referencing) works here: it really depends on your local system setup and standards.
 
-# Administrative Section <mets:amdSec>
-
-The Administrative Section <mets:amdSec> contains information pertaining to the files that make up the digital objects described by the METS file. It has 4 subsections:
-
-<mets:techMD> Technical Metadata
-
-<mets:digiprovMD> Digital Provenance Metadata
-
-<mets:sourceMD> Source Metadata
-
-<mets:rightsMD> Rights Metadata
+-->
 
 ---
+
+# Administrative Section \<mets:amdSec>
+
+Information about files that make up the digital objects described by the METS file. It has 4 subsections:
+
+1. \<mets:techMD> Technical Metadata
+2. \<mets:digiprovMD> Digital Provenance Metadata
+3. \<mets:sourceMD> Source Metadata
+4. \<mets:rightsMD> Rights Metadata
+
+<!--presenter notes
 
 The Administrative Section <amdSec> contains information pertaining to the files that make up the digital objects described by the METS file. It has 4 subsections:
 <techMD> Technical Metadata
@@ -620,43 +624,28 @@ We are going to look at two specific sub-sections of <mets:amdSec>: Technical Me
 
 We are going to especially focus on Digital Provenance Metadata, especially in regards to PREMIS.
 
-<mets:mets>
-
-...
-
-<  mets:  amdSec>  
-
-  <  mets:  techMD ID="AMD001">
-
-  <  mets:  mdWrap MIMETYPE="text/xml" MDTYPE="NISOIMG" 
-
-LABEL="NISO Img. Data">
-
-  <  mets:  xmlData>
-
-    <niso:MIMEtype>image/tiff</niso:MIMEtype>
-
-    <niso:Compression>LZW</niso:Compression>
-
-    <niso:Orientation>1</niso:Orientation>
-
-    <niso:ScanningAgency>NYU Press
-
-</niso:ScanningAgency>
-
-  </  mets:  xmlData>
-
-  </  mets:  mdWrap>
-
-  </  mets:  techMD>
-
-</  mets:  amdSec>
-
-...
-
-</  mets:  mets>
+-->
 
 ---
+
+```
+<mets:mets>
+  <mets:amdSec>
+    <mets:techMD ID="AMD001">
+      <mets:mdWrap MIMETYPE="text/xml" MDTYPE="NISOIMG" LABEL="NISO Img. Data">
+        <mets:xmlData>
+          <niso:MIMEtype>image/tiff</niso:MIMEtype>
+          <niso:Compression>LZW</niso:Compression>
+          <niso:Orientation>1</niso:Orientation>
+          <niso:ScanningAgency>NYU Press</niso:ScanningAgency>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:techMD>
+  </mets:amdSec>
+</mets:mets>
+```
+
+<!--presenter notes
 
 Here we start with <amdSec>, followed immediately by the <techMD> tag. <techMD> contains technical metadata, pertaining to the technical characteristics of the digital object or objects described by the METS file.
 
@@ -668,21 +657,29 @@ Notice that each technical metadata detail is preceded by “<niso:” which dis
 
 https://www.niso.org/publications/ansiniso-z3987-2006-r2017-data-dictionary-technical-metadata-digital-still-images
 
-# File Section <mets:fileSec>
-
-The File Section <mets:fileSec> section lists all files containing content comprising the digital object.
+-->
 
 ---
+
+# File Section \<mets:fileSec>
+
+Lists all files containing content comprising the digital object.
+
+<!--presenter notes
 
 The <mets:fileSec> section lists all files containing content which comprise the electronic versions of the digital object.
 
 This is where METS starts to become interesting (and maybe even a little bit fun)
 
-![](img/week_06_slides3.png)
-
-<span style="color:#2200CC"> _[https://babel.hathitrust.org/cgi/pt?id=uc1.c030214385&seq=1](https://babel.hathitrust.org/cgi/pt?id=uc1.c030214385&seq=1)_ 
+-->
 
 ---
+
+![](img/week_06_slides3.png)
+
+<!--presenter notes
+
+<span style="color:#2200CC"> _[https://babel.hathitrust.org/cgi/pt?id=uc1.c030214385&seq=1](https://babel.hathitrust.org/cgi/pt?id=uc1.c030214385&seq=1)
 
 Take for example, a digitized book, like Millions of Cats, which you can browse on the HathiTrust website. https://babel.hathitrust.org/cgi/pt?id=uc1.c030214385&seq=1
 
@@ -696,39 +693,25 @@ Along with full-resolution scans of each page, there might also be derivative fi
 
 We can use the METS file, specifically the File Section element <fileSec> to express this relationship between a digital resource, and its derivative components.
 
-
-
-
-
-<mets  mets:  >
-
-...
-
-<mets:fileSec>
-
-  <  mets:  fileGrp ID="page_images">
-
-  <  mets:  file ID="page1" MIMETYPE="image/jpeg" USE="image">
-
-  <  mets:  FLocat LOCTYPE="URL" xlink:href="page1.jpg" />
-
-  </mets:file>
-
-  <  mets:  file ID="page2" MIMETYPE="image/jpeg" USE="image">
-
-  <  mets:  FLocat LOCTYPE="URL" xlink:href="page2.jpg" />
-
-  </  mets:  file>
-
-  </  mets:  fileGrp>
-
-</  mets:  fileSec>
-
-...
-
-</  mets:  mets>
+-->
 
 ---
+```
+<mets:mets>
+  <mets:fileSec>
+    <mets:fileGrp ID="page_images">
+      <mets:file ID="page1" MIMETYPE="image/jpeg" USE="image">
+        <mets:FLocat LOCTYPE="URL" xlink:href="page1.jpg" />
+      </mets:file>
+      <mets:file ID="page2" MIMETYPE="image/jpeg" USE="image">
+        <mets:FLocat LOCTYPE="URL" xlink:href="page2.jpg" />
+      </mets:file>
+    </mets:fileGrp>
+  </mets:fileSec>
+</mets:mets>
+```
+
+<!--presenter notes
 
 In the example, we start with the <mets:fileSec> tag. Beneath this, is the sub-element <mets:fileGrp> or “file group”, which we have given the nickname “page_images”. Beneath <mets:fileGrp>, we have listed two files, one for Page 1, and another for Page 2.
 
@@ -736,12 +719,16 @@ Each file is contained within the <mets:file> tag. Within each <mets:file> tag, 
 
 We repeat the <mets:file> tag for every file in this group.
 
-
-# Structure Map <mets:structMap>
-
-The Structure Map <mets:structMap> section works with the File Section to define the order of digital objects, which can be presented to users of the digital library.
+-->
 
 ---
+
+
+# Structure Map \<mets:structMap>
+
+Works with the File Section to define the order of digital objects. This enables digital objects to be presented to users of the digital library.
+
+<!--presenter notes
 
 This is where things get really interesting in METS!
 
@@ -749,47 +736,32 @@ The Structure Map <mets:structMap> section refers back to the files listed withi
 
 This information is used by things like the digital library front-end, so that the end-user is presented with the files in a way that they can logically browse. Though not always the case, it often is set up to mimic the experience of paging through a physical book (i.e. front to back).
 
-<mets:mets>
-
-...
-
-<mets:structMap TYPE="logical">
-
-  <div ID="book" TYPE="book">
-
-  <div ID="pg1" ORDER="1" TYPE="page">
-
-    <fptr FILEID="page1" />
-
-  <smLink xlink:href="http://example.com/thumbnail_page1.jpg"  
-
-  xlink:type="simple" xlink:role="alternate"/>
-
-  </div>
-
-  </div>
-
-  <div ID="pg2" ORDER="2" TYPE="page">
-
-    <fptr FILEID="page2" />
-
-  <smLink xlink:href="http://example.com/thumbnail_page2.jpg"  
-
-  xlink:type="simple" xlink:role="alternate"/>
-
-  </div>
-
-  </div>
-
-  </div>
-
-</mets:structMap>
-
-...
-
-</mets:met>
+-->
 
 ---
+
+```
+<mets:mets>
+  <mets:structMap TYPE="logical">
+    <div ID="book" TYPE="book">
+      <div ID="pg1" ORDER="1" TYPE="page">
+        <fptr FILEID="page1" />
+        <smLink 
+          xlink:href="http://example.com/thumbnail_page1.jpg" 
+          xlink:type="simple" 
+          xlink:role="alternate" />
+      </div>
+      <div ID="pg2" ORDER="2" TYPE="page">
+        <fptr FILEID="page2" />
+        <smLink 
+          xlink:href="http://example.com/thumbnail_page2.jpg" 
+          xlink:type="simple" 
+          xlink:role="alternate" />
+      </div></div></mets:structMap>
+</mets:mets>
+```
+
+<!--presenter notes
 
 In this example, we are continuing our example of a book that is composed of pages.
 
@@ -804,292 +776,199 @@ This is followed by an <smlink> or structural link tag. Here, we are saying that
 
 Overall, the <smLink> element provides a way to associate metadata with specific parts of a digital object, making it easier to manage and organize metadata related to the object. This can be particularly useful in complex digital collections with many components and related records.
 
-# Behavior <mets:behavior>
-
-Behavior <mets:behavior> is an optional METS element where behaviors or actions can be associated with specific objects or sections within the digital object. The <behavior> element can be used to define behaviors that are intended to be performed by software systems that process METS files.
-
-<mets:mets>
-
-...
-
-<mets:behaviorSec>
-
-  <mets:behavior ID="playAudio">
-
-  <mets:interfaceDef><mets:playAudio/></interfaceDef>
-
-  <mets:mechanism>
-
-   <mets:script>
-
-    <![CDATA[var audio = document.getElementById("audioPlayer");
-
-    if (audio.paused) {
-
-      audio.play();
-
-    } else {
-
-      audio.pause();
-
-    }]]>
-
-    </mets:script>
-
-  </mets:mechanism>
-
-  </mets:behavior>
-
-</mets:behaviorSec>
-
-...
-
-</mets:mets>
+-->
 
 ---
 
+# Behavior \<mets:behavior>
+
+An optional METS element where behaviors or actions can be associated with specific objects or sections within the digital object. The <behavior> element can be used to define behaviors that are intended to be performed by software systems that process METS files.
+
+---
+```
+<mets:mets>
+  <mets:behaviorSec>
+    <mets:behavior ID="playAudio">
+      <mets:interfaceDef>
+        <mets:playAudio />
+      </mets:interfaceDef>
+      <mets:mechanism><mets:script>
+          <![CDATA[
+            var audio = document.getElementById("audioPlayer");
+            if (audio.paused) {
+              audio.play();
+            } else {
+              audio.pause();
+            }
+          ]]>
+        </mets:script></mets:mechanism></mets:behavior></mets:behaviorSec>
+</mets:mets>
+```
+
+<!--presenter notes
+
 In this example, the <behavior> element is used to create a behavior called "playAudio". The behavior is defined using two sub-elements: <interfaceDef>, which defines the user interface for the behavior, and <mechanism>, which defines the actual code that implements the behavior. The code itself basically calls up an audio player that can be played or paused.
 
-Preservation Metadata: Implementation Strategies (PREMIS)
+-->
 
-# Definition: PREservation Metadata Implementation Strategies (PREMIS)
+---
+
+# Preservation Metadata: Implementation Strategies (PREMIS)
+
+---
+
+## Definition
+# PREservation Metadata Implementation Strategies (PREMIS)
 —
 
 An implementation-neutral data dictionary that defines a core set of metadata elements for describing preservation objects and their associated metadata activities.
 
 ---
 
-An implementation-neutral data dictionary that defines a core set of metadata elements for describing preservation objects and their associated metadata activities.
-
-<span style="color:#660000"> PREMIS <span style="color:#660000">  Structure 
+# PREMIS Structure 
 
 | Element / Tag |
 | :-: |
-| <premis:objects> |
-| <premis:environments> |
-| <premis:agents> |
-| <premis:events> |
-| <premis:rights> |
+| \<premis:objects> |
+| \<premis:environments> |
+| \<premis:agents> |
+| \<premis:events> |
+| \<premis:rights> |
 
----
+<!--presenter notes
 
 PREMIS has 5 main elements: Objects, Environments, Agents, Events, and Rights.
 
-# Objects <premis:objects>
-
-The Objects <premis:objects> element describes the digital file(s) being preserved.
-
-<premis>
-
-…
-
-<premis:objects>  <  premis:  object>
-
-<  premis:  objectIdentifier>
-
-<  premis:  objectIdentifierType>ARK</premis:objectIdentifierType>  	<  premis:  objectIdentifierValue>ark:/12345/abc123
-
-</objectIdentifierValue>
-
-  		</  premis:  objectIdentifier>
-
-  <  premis:  objectCategory>File</  premis:  objectCategory>
-
-  <  premis:  objectCharacteristics>
-
-  	<  premis:  messageDigestAlgorithm>MD5<  premis:  messageDigestAlgorithm>
-
-  	<  premis:  messageDigest>  05fc1aedc9f5d48f6c3fdc221f2ff674
-
-</  premis:  messageDigest>
-
-  	<  premis:  size>  2.5 GB  <  premis:  size>
-
-  </objectCharacteristics>
-
-  <  premis:  environments><  premis:  environment>
-
-    <  premis:  environmentType>Software</premis:environmentType>
-
-    <  premis:  environmentNote>  Archivematica version 1.12.0  </environmentNote>
-
-  </  premis:  environment></  premis:  environments>
-
-  </  premis:  object>  </  premis:  objects>
-
-...
-
-</premis>
+-->
 
 ---
+
+# Objects \<premis:objects>
+
+Describes the digital file(s) being preserved.
+
+---
+
+```
+<premis>
+  <premis:object>
+    <premis:objectIdentifier>
+      <premis:objectIdentifierType>ARK</premis:objectIdentifierType>
+      <premis:objectIdentifierValue>ark:/12345/abc123</premis:objectIdentifierValue>
+    </premis:objectIdentifier>
+    <premis:objectCategory>File</premis:objectCategory>
+    <premis:objectCharacteristics>
+      <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+      <premis:messageDigest>05fc1aedc9f5d48f6c3fdc221f2ff674</premis:messageDigest>
+      <premis:size>2.5 GB</premis:size>
+    </premis:objectCharacteristics>
+  </premis:object>
+</premis>
+```
+
+<!--presenter notes
 
 Here, we are describing an object’s characteristics in terms of a unique identifier, type (file), an MD5 checksum, and file size (2.5 gigabytes).
 
 The <premis:environments> element contains two <premis:environment> sub-elements, one for software type and one for note. The software environment is identified as Archivematica. You could also use this section to declare what hardware you used to run Archivematica, such as a computer model or type. This information can be useful for understanding the technical context in which the digital object was created, accessed, or modified.
 
-# Rights <premis:rights>
-
-Aggregates information related to statements of rights and permissions.
-
-<premis>
-
-...
-
-<premis:object>
-
- ...
-
-  <premis:rights>
-
-  <premis:rightsStatement>
-
-  <premis:rightsStatementIdentifier>   <premis:rightsStatementIdentifierType>URI</premis:rightsStatementIdentifierType>
-
-    <premis:rightsStatementIdentifierValue>
-
-    http://creativecommons.org/licenses/by-nc/4.0/
-
-    </rightsStatementIdentifierValue>
-
-    </premis:rightsStatementIdentifier>
-
-  <premis:rightsBasis>License</premis:rightsBasis>
-
-    <premis:rightsGranted>Attribution-NonCommercial 4.0 International  
-
-    </premis:rightsGranted>
-
-  <premis:startDate>2018-01-01T00:00:00Z</premis:startDate>
-
-  <premis:endDate>2019-12-31T23:59:59Z</premis:endDate>
-
-  </premis:rightsStatement>
-
-  </premis:rights>
-
-...
-
-</premis:object>
-
-...
-
-</premis>
+-->
 
 ---
 
+# Rights \<premis:rights>
+
+Aggregates information related to statements of rights and permissions.
+
+---
+
+```
+<premis:rightsStatement>
+  <!-- Identifier information -->
+  <premis:rightsStatementIdentifier>
+    <premis:rightsStatementIdentifierValue>
+      http://creativecommons.org/licenses/example
+    </premis:rightsStatementIdentifierValue>
+  </premis:rightsStatementIdentifier>
+
+  <!-- Rights details -->
+  <premis:rightsBasis>License</premis:rightsBasis>
+  <!-- Other rights information -->
+</premis:rightsStatement>
+```
+
+<!--presenter notes
+
 In this example, the metadata describes a digital object. The <rights> element contains a <rightsStatement> sub-element that describes the intellectual property rights associated with the digital object. The rights statement is identified by a URI, which in this case is a Creative Commons Attribution-NonCommercial 4.0 International license. The basis for the rights is identified as a license, and the specific rights granted are listed as Attribution-NonCommercial 4.0 International. The rights statement also includes start and end dates for the license.
 
-# Events <premis:events>
+-->
+
+---
+
+# Events \<premis:events>
 
 Describes an event performed by an agent to the digital object.
 
 Events document an object’s digital provenance, tracking the history of each object through the chain of events that occur during its lifecycle, and is essential to implementing preservation strategies.
 
-<premis>
-
-...
-
-<  premis:  event>
-
-<  premis:  eventIdentifier>
-
-<  premis:  eventIdentifierType>UUID</  premis:  eventIdentifierType>
-
-<  premis:  eventIdentifierValue>1de1f888-fbf7-47e5
-
-</  premis:  eventIdentifierValue>
-
-</  premis:  eventIdentifier>
-
-<  premis:  eventType>format identification</  premis:  eventType>
-
-<  premis:  eventDateTime>2014-04-16T22:22:22</  premis:  eventDateTime>
-
-<  premis:  eventDetailInformation>
-
-<  premis:  eventDetail>program="fido"</  premis:  eventDetail>
-
-</  premis:  eventDetailInformation>
-
-<  premis:  agent>
-
- 		<  premis:  agentType>person</premis:agentType>
-
-  		<  premis:  agentName>Mary Kidd</premis:agentName>
-
-  		<  premis:  agentNote>Used fido to ID the file</premis:agentNote>
-
-  	</  premis:  agent>
-
-</  premis:  event>
-
-...
-
-</premis>
-
 ---
+
+```
+<premis>
+  <premis:event>
+    <premis:eventIdentifierValue>1de1f888-fbf7-47e5</premis:eventIdentifierValue>
+    <premis:eventType>format identification</premis:eventType>
+    <premis:eventDateTime>2014-04-16T22:22:22</premis:eventDateTime>
+    <premis:agent>
+      <premis:agentName>Mary Kidd</premis:agentName>
+      <premis:agentNote>Used fido to ID the file</premis:agentNote>
+    </premis:agent>
+  </premis:event>
+</premis>
+```
+
+<!--presenter notes
 
 In this example, we have used the <event> element to describe a distinct event that has happened to a digital object.
 
 In this case, a person–Mary Kidd–performed a file format identification step using the fido tool (https://openpreservation.org/tools/fido/). Here, we have given the event a unique ID, and know when it happened.
 
-How METS and PREMIS work together
-
-METS describes the digital objects themselves
-
-PREMIS describes/logs events that happen to digital objects
-
-METS typically will contain PREMIS data
+-->
 
 ---
 
-Content Management Systems (CMS) are database applications intended to maintain descriptive and administrative metadata about the physical and digital collections including records of provenance, acquisition, archival description, rights and location management. Some CMSs allow for storage of digital surrogates for access and management of collections NOT for digital preservation. Examples: AT, ASpace, Archon, AtoM, CollectiveAccess
+# How METS and PREMIS work together
 
+* METS describes the digital objects themselves
+* PREMIS describes/logs events that happen to digital objects
+* METS typically will contain PREMIS data
+
+---
+```
 <mets:mets>
-
-…
-
-<mets:digiprovMD ID="digiprovMD_54">
-
-<mets:mdWrap MDTYPE="PREMIS:EVENT">
-
-<mets:xmlData>
-
-    <premis:event xmlns:premis="http://www.loc.gov/premis/v3" 
-
-xsi:schemaLocation="http://www.loc.gov/premis/v3
-
-http://www.loc.gov/standards/premis/v3/premis.xsd" version="3.0">
-
-<premis:eventIdentifier>
-
-<premis:eventIdentifierType>UUID</premis:eventIdentifierType>
-
-<premis:eventIdentifierValue>b0d7f0ce-1c47-42b9-b2f1-941ca8f90bfe</premis:eventIdentifierValue>
-
-    	</premis:eventIdentifier>
-
-    	<premis:eventType>format identification</premis:eventType>
-
-<premis:eventDateTime>2019-11-14T11:05:37.729651+00:00
-
-</premis:eventDateTime>
-
-    	<premis:eventDetailInformation>
-
-      	<premis:eventDetail>program="Siegfried";version="1.7.10"
-
-</premis:eventDetail>
-
-    	</premis:eventDetailInformation>
-
-    	<premis:eventOutcomeInformation>
-
-<premis:eventOutcome>Positive</premis:eventOutcome>
+  ...
+  <mets:digiprovMD ID="digiprovMD_54">
+    <mets:mdWrap MDTYPE="PREMIS:EVENT">
+      <mets:xmlData>
+        <premis:event xmlns:premis="http://www.loc.gov/premis/v3">
+          <premis:eventIdentifier>
+            <premis:eventIdentifierValue>b0d7f0ce-1c47-42b9-b2f1-941ca8f90bfe</premis:eventIdentifierValue>
+          </premis:eventIdentifier>
+          <premis:eventType>format identification</premis:eventType>
+          <premis:eventDateTime>2019-11-14T11:05:37Z</premis:eventDateTime>
+          <premis:eventDetail>program="Siegfried"</premis:eventDetail>
+          <premis:eventOutcome>Positive</premis:eventOutcome>
+        </premis:event>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:digiprovMD>
+  ...
+</mets:mets>
+```
 
 _... Continued on the next slide_
 
----
+<!--presenter notes
 
 This is an example of PREMIS metadata contained or wrapped within a METS metadata file. The PREMIS metadata is contained specifically within the <mets:digiprovMD> element, which stands for “Digital Provenance Metadata”. This is followed by a <mets:mdWrap> element that defines a new namespace using the attribute MDTYPE (metadata type) = “PREMIS:EVENT”. So here, we are not only declaring that we are using the PREMIS namespace, we are also specifically using its event element. After declaring the <mets:xmlData> element, our PREMIS chunk begins.
 
@@ -1097,51 +976,25 @@ First, we use the xmlns (XML namespace) attribute of <premis:event> to point to 
 
 Next, we declare the event type (“format identification”), declare when the event happened (using a timestamp), and then say what program we used to do the format identification (in this case, we used Siegfried, which is a popular format identification tool).
 
-This PREMIS in METS example comes directly from Archivematica’s PREMIS metadata in Archivematica page: https://www.archivematica.org/en/docs/archivematica-1.11/user-manual/metadata/premis/
+-->
 
-      	<premis:eventOutcomeDetail>
+---
 
-      	<premis:eventOutcomeDetailNote>fmt/353</premis:eventOutcomeDetailNote>
+# Challenge
 
-      	</premis:eventOutcomeDetail>
+The [Archivematica PREMIS metadata in Archivematica page](https://www.archivematica.org/en/docs/archivematica-1.11/user-manual/metadata/premis/) provides several examples of PREMIS and METs working together. Take a look at the first code block. Spend 5 minutes writing down what you think it is describing, and how you think the PREMIS and METS are working together.
 
-    	</premis:eventOutcomeInformation>
+---
 
-    	<premis:linkingAgentIdentifier>
+## Weekly Activity
+# Digital Preservation Metadata
 
-      	<premis:linkingAgentIdentifierType>preservation system
+Start: <a href="https://digital-archives.github.io/HISTGA1011/activities/metadata.html" target="_blank">https://digital-archives.github.io/HISTGA1011/activities/metadata.html</a>
 
-</premis:linkingAgentIdentifierType>
+---
 
-<premis:linkingAgentIdentifierValue>Archivematica-1.10
+![](img/week_00_weekly_activity_sunset.gif)
 
-</premis:linkingAgentIdentifierValue>
+_Final questions or reflections?_
 
-    	</premis:linkingAgentIdentifier>
-
-    	<premis:linkingAgentIdentifier>
-
-      	<premis:linkingAgentIdentifierType>repository code
-
-</premis:linkingAgentIdentifierType>      <premis:linkingAgentIdentifierValue>12345
-
-</premis:linkingAgentIdentifierValue>
-
-    	</premis:linkingAgentIdentifier>
-
-    	<premis:linkingAgentIdentifier>
-
-      	<premis:linkingAgentIdentifierType>Archivematica user pk
-
-</premis:linkingAgentIdentifierType>
-
-<premis:linkingAgentIdentifierValue>1
-
-</premis:linkingAgentIdentifierValue>
-
-    	</premis:linkingAgentIdentifier>
-
-...
-
-</mets:mets>
-
+mary.kidd@nyu.edu
