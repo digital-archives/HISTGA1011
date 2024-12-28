@@ -88,7 +88,7 @@ Now that we have a definition for OAIS under our belts, we will first define wha
 
 # Why is it good to know about OAIS?
 
--__Widely accepted:__  key digital preservation standard
+-__Widely accepted:_key digital preservation standard
 -__Comprehensive:__ covers ingest to end-user access
 -__Flexible:__ can be applied to a variety of environments and systems
 -__Clear:__ Well-defined attributes for a robust digital archives system
@@ -694,9 +694,9 @@ If a checksum is run at one point does not match a checksum run against the same
 <!-- _backgroundColor: '#4b0082' -->
 
 <div style="text-align: center; padding-top: 20px; font-size: 50px;">
-  <span style="color: #FFD700;">&#9786;</span> <!-- Yellow Smiley Face -->
-  <span style="color: #32CD32;">&#10047;</span> <!-- Green Flower -->
-  <span style="color: #FF69B4;">&#9825;</span> <!-- Pink Heart (Hollow) -->
+  &#9786; <!-- Yellow Smiley Face -->
+  &#10047; <!-- Green Flower -->
+  &#9825; <!-- Pink Heart (Hollow) -->
 </div>
 
 <h1 style="color: #E6E6FA; font-size: 48px;">Mini Activity</h1>

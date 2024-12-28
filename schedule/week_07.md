@@ -6,7 +6,7 @@ nav_order: 7
 has_children: false
 ---
 
-# Week 7: Digitization and Reformatting
+# Week 7: Digitization
 <a href="https://drive.google.com/file/d/1hSMoNXWCf5K-JLuaS9jWgU9QoV5UY1Rr/view?usp=sharing" target="_blank">Link to slide deck</a>
 
 {: .label .label-yellow }

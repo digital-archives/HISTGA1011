@@ -6,14 +6,13 @@ nav_order: 5
 has_children: false
 ---
 
-# Week 5: Storage Infrastructures
-<a href="https://drive.google.com/file/d/1pgeNwjYmxixx-3cmzEtA6UicMjV5aGSf/view?usp=sharing" target="_blank">Link to slide deck</a>
+# Week 5: Digital Preservation Storage Systems
+<a href="https://digital-archives.github.io/HISTGA1011/slides/week_05_slide_deck.html" target="_blank">Slides</a>
 
 {: .label .label-yellow }
 Due
 
-* Post your pre-class reading reactions to Brightspace by 3:30pm today.
-* Weekly activity: We will start the <a href="https://digital-archives.github.io/HISTGA1011/activities/archivematica.html" target="_blank">Archivematica Sandbox</a> in class. Submit your completed activity summary in Brightspace by the end of the week Sunday.
+* In class we will start the Week 5 activity. Submit your completed activity summary in Brightspace by Sunday night.
 
 {: .label .label-green }
 Read

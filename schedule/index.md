@@ -15,7 +15,7 @@ has_children: true
 | [Week 4](week_04.html)  | February 12 | Digital Repository Systems | Tech Stack |
 | [Week 5](week_05.html)  | February 19 | Storage Infrastructures | Archivematica Sandbox |
 | [Week 6](week_06.html)  | February 26 | Digital Preservation Metadata | Digital Preservation Metadata |
-| [Week 7](week_07.html)  | March 5 | Digitization and Reformatting | Imaging and Conservation Group Activity |
+| [Week 7](week_07.html)  | March 5 | Digitization | Imaging and Conservation Group Activity |
 | [Week 8](week_08.html)  | March 12 | Access and Discovery<br>**_Final Project Abstract due_** | The User's Experience |
 | [Week 9](week_09.html)  | March 19 | Automation and Scripting | Scripting Reflection |
 | [Week 10](week_10.html) | March 26 | No Class \| Spring Break | 

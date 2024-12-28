@@ -15,8 +15,8 @@ style: |
 
 ---
 
-# Week 1 
-## Introduction to Digital Archives
+## Week 1 
+# Introduction to Digital Archives
 
 ---
 
@@ -86,7 +86,7 @@ I want to step you through basic concepts to do with what digital information is
 
 # Why should we know about digital preservation and archiving?
 
-“As archivists, if we are going to be able to take care of digital collections into the future, we must understand that the__basic building blocks of… digital files are… bits and bytes__. To know files, we must know how they are constructed… And from this knowledge, we will be better equipped to design preservation strategies for our digital collections.”
+“As archivists, if we are going to be able to take care of digital collections into the future, we must understand that the basic building blocks of… digital files are… bits and bytes . To know files, we must know how they are constructed… And from this knowledge, we will be better equipped to design preservation strategies for our digital collections.”
 
 Bertram Lyons, _The Digital Archives Handbook_ (2019)
 
@@ -101,7 +101,7 @@ Lyons, Bertram. "Digital Preservation." In The Digital Archives Handbook: A Guid
 ## Definition
 # Data Object
 
-A__data object__ is any entity represented as a sequence of binary digits (bits or bitstreams), whose meaningful interpretation depends on a combination of decoding processes and contextual factors.
+A data object  is any entity represented as a sequence of binary digits (bits or bitstreams), whose meaningful interpretation depends on a combination of decoding processes and contextual factors.
 
 <!-- presenter notes
 
@@ -134,7 +134,7 @@ All Data Objects, whether it's a single file, or an entire application, will req
 ## Definition
 # Software
 
-__Software__ is a set of instructions and data that tells a computer what to do. It works when the computer decodes these instructions and follows them to perform tasks. The way software runs depends on the computer's setup (like its hardware and operating system).
+ Software  is a set of instructions and data that tells a computer what to do. It works when the computer decodes these instructions and follows them to perform tasks. The way software runs depends on the computer's setup (like its hardware and operating system).
 
 <!-- presenter notes
 
@@ -149,7 +149,7 @@ The way I like to think about these things is to think of these things in terms 
 ## Definition
 # Hardware
 
-__Hardware__ refers to the _physical_ components of a computer system that carry out tasks by following instructions provided by software.
+ Hardware  refers to the _physical_ components of a computer system that carry out tasks by following instructions provided by software.
 
 <!-- presenter notes
 
@@ -184,11 +184,11 @@ These encodings are akin to how computers encode information into binary. Basica
 ## Definition
 # Binary
 
-__Binary__ encodes information using:
+ Binary  encodes information using:
 - A "base-2" system and place values
-- The digits 0 and 1, referred to as__bits__ (stands for "binary digit")
+- The digits 0 and 1, referred to as bits  (stands for "binary digit")
 
-Binary works in a similar way to the familiar__base-10__ decimal system, which also uses digits and place values to represent numbers.
+Binary works in a similar way to the familiar base-10  decimal system, which also uses digits and place values to represent numbers.
 
 <!-- presenter notes
 
@@ -256,9 +256,9 @@ Binary works similarly in that we use both a decimal value (either a 1 or a 0), 
 ## Definition
 # Byte (1/2)
 
-A__byte__ is a discrete-length grouping of bits.
+A byte  is a discrete-length grouping of bits.
 
-__Example: 00000111__
+ Example: 00000111 
 
 This byte has a length of 8.
 
@@ -278,7 +278,7 @@ https://www.techtarget.com/whatis/definition/binary#:~:text=In%20mathematics%20a
 ## Definition
 # Byte (2/2)
 
-__Byte length__ determines total number of values it can represent.
+ Byte length  determines total number of values it can represent.
 
 An 8-bit length byte like 00000111 represents up to 256 values. To determine this, raise 2 possible bit values, (1 or 0) to the power of the byte length (8), notated as 2^8.
 
@@ -303,7 +303,7 @@ To calculate how many different combinations of 8 1s and 0s, we raise the number
 ---
 
 ## Question
-# How many possible byte values are there in a__16-bit__ system?
+# How many possible byte values are there in a 16-bit  system?
 
 To determine this:
 * Determine number of possible bit values: 2
@@ -381,7 +381,7 @@ You may have noticed that, there seems to be a pattern in the placement of 1s an
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 
 
-__This byte represents the decimal number 7__
+ This byte represents the decimal number 7 
 How do we get from 0000 0111 to 7?
 
 ---
@@ -389,7 +389,7 @@ How do we get from 0000 0111 to 7?
 | Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 
-__First question to ask__: How many ones (1s) are there?
+ First question to ask : How many ones (1s) are there?
 
 <!--presenter notes 
 
@@ -402,7 +402,7 @@ Each bit has its own place or position, which is mapped out on the slide. In an 
 | Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 
-__Answer__: 3
+ Answer : 3
 
 ---
 
@@ -410,7 +410,7 @@ __Answer__: 3
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
 
-__Second question to ask__: For each 1 we've found, what are their place values?
+ Second question to ask : For each 1 we've found, what are their place values?
 
 ---
 
@@ -418,16 +418,7 @@ __Second question to ask__: For each 1 we've found, what are their place values?
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
 
-__Answer:__ 0, 1 and 2
-
----
-
-| Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
-| Weight | 2^7 | 2^6 | 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0 |
-
-__Third question to ask__: For each 1 we've found, what is their__weight__?
+ Answer:  0, 1 and 2
 
 ---
 
@@ -436,7 +427,16 @@ __Third question to ask__: For each 1 we've found, what is their__weight__?
 | Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
 | Weight | 2^7 | 2^6 | 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0 |
 
-__Answer__: 4, 2 and 1, which add up to 7
+ Third question to ask : For each 1 we've found, what is their weight ?
+
+---
+
+| Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
+| Weight | 2^7 | 2^6 | 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0 |
+
+ Answer : 4, 2 and 1, which add up to 7
 
 <!-- presenter notes
 
@@ -623,6 +623,77 @@ So, whether you're reading a word, watching a video, or listening to music, it's
 -->
 
 ---
+
+# How are images encoded?
+
+---
+
+<div style="transform: scale(0.9); transform-origin: top;">
+    <table>
+      <tr>
+        <td style="width: 300px; text-align: center;">
+          <img src="img/week_01_pikachu.png" alt="Pikachu" style="max-width: 100%; max-height: 150px;">
+        </td>
+        <td style="text-align: center;">
+          Digital image (pikachu.jpg)
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">
+          <div style="width: 20px; height: 20px; background-color: red; display: inline-block;"></div>
+        </td>
+        <td style="text-align: center;">
+          1 red pixel from image
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">
+          255 [red]<br>255 [green]<br>0 [blue]
+        </td>
+        <td style="text-align: center;">
+          Pixel decimal value (3 color intensities represented by number between 0-255)
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">
+          FF [red]<br>FF [green]<br>00 [blue]
+        </td>
+        <td style="text-align: center;">
+          Hex value
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">
+          11111111 [red]<br>11111111 [green]<br>00000000 [blue]
+        </td>
+        <td style="text-align: center;">
+          Binary value
+        </td>
+      </tr>
+    </table>
+  </div>
+</section>
+
+<!--presenter notes
+
+At the beginning of the course we talked about how text can be encoded by a computer into bitstreams, combinations of 1s and 0s. The word HI, for example, was broken out into its constituent alphanumeric characters, H and I. Each character was encoded into a decimal number, which could then be encoded into bitstream.
+
+Images work in pretty much the same way. The constituent parts of an image are known as pixels, which are tiny squares of one particular color.
+
+The color of a single pixel can be encoded in what is known as the Red, Green and Blue color model, aka RGB. The RGB color model creates colors by combining various levels of the colors red, green, and blue.
+
+Let’s pretend that the particular system we are using to render Pikachu is an 8-bit system, which means that each of the red, green and blue values can be represented by a combination of up to eight 1s and 0s, which corresponds to the intensity or amount added for each color to create the color we see on the screen. We can express these 8-bit bitstreams by a pixel decimal number ranging from 0 to 255. 
+
+Each of these three values from 0 to 255 can be translated further into what are known as hexadecimal values. Hexadecimal values come in two alphanumeric character pairs, each which represent 4 bits. Since we are using an 8-bit system, each of the red, green and blue values corresponds to a 2-character hex value.
+
+Hex values can then be broken down into bits. In this case, F stands for 1111, so two Fs equals 11111111.
+
+Demo seeing HEX values in Google Slides.
+
+-->
+
+---
+
 
 # Break
 
