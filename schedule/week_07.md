@@ -7,12 +7,11 @@ has_children: false
 ---
 
 # Week 7: Digitization
-<a href="https://drive.google.com/file/d/1hSMoNXWCf5K-JLuaS9jWgU9QoV5UY1Rr/view?usp=sharing" target="_blank">Link to slide deck</a>
+<a href="https://digital-archives.github.io/HISTGA1011/slides/week_07_slide_deck.html" target="_blank">Slides</a>
 
 {: .label .label-yellow }
 Due
-* Post your pre-class reading reactions to Brightspace by 3:30pm today.
-* Weekly activity: We will start <a href="https://digital-archives.github.io/HISTGA1011/assignments/imaging.html" target="_blank">Imaging and Conservation Review</a> in class.
+* In class we will start the Week 6 activity. Submit your completed activity summary in Brightspace by Sunday night.
 
 {: .label .label-green }
 Read
