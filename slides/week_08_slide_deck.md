@@ -1,28 +1,5 @@
- __Access and Discovery__ 
 
-HIST\-GA 1011
 
-Spring 2024
-
-Instructor: Mary Kidd \(she/her/hers\)
-
-Announcements
-
-Break \(10\)
-
-Lecture: Access and Discovery \(60 min\)
-
-Discussion \(25\)
-
-Next week \(5\)
-
-__Post\-digitization workflows__
-
----
-
-Last week, we discussed and explored workflows leading up to the point where a digital surrogate is created (i.e. snapping a high-resolution photo of a 2D image, and giving the file a name).
-
-We are going to first speak generally about how metadata drives digitization workflows, and then look at a particular case study to tie together all that we have learned so far.
 
 _Metadata\-driven digital preservation workflow_
 

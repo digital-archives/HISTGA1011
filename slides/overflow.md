@@ -139,3 +139,124 @@ Today we are going to spend time looking at a particular genre of digitization: 
 We’ll spend some time looking at examples of equipment setups, and then move onto specific to do with standards for the files that are created through the course of this sort of digitization.
 
 -->
+
+---
+
+
+
+---
+
+Now that we have gone over what a typical digital imaging lab setup looks like, let’s talk about digital image technology. How are digital image files encoded? What are their technical aspects? Knowing this can then help us understand preservation standards for digital images.
+
+# Definition: Workflow
+
+ The sequence of industrial, administrative, or other processes through which a piece of work passes from initiation to completion. 
+
+ For workflows to be effectively communicated and understood, they should be a.) documented in some way b.) published and/or communicated out to stakeholders or staff working on projects. 
+
+---
+
+In the simplest terms, a workflow is defined as the sequence of industrial, administrative, or other processes through which a piece of work passes from initiation to completion. This is a term you will hear a lot in the context of digital preservation planning and decision-making. So, why are workflows so important to people who work on or manage digitization?
+
+ Why are workflows (and documenting them) important? 
+
+Streamlines processes
+
+Reduces collection management errors
+
+Allows you to understand where to improve
+
+Stops you from “reinventing the wheel”
+
+Opens up avenues for collaboration and resource -sharing; prevents gatekeeping
+
+---
+
+Workflows are extraordinarily important, both in determining what they are, and documenting them so that they may be shared or improved upon over time.
+
+ “A documented workflow streamlines the many processes and tasks involved in a digitization project, facilitating consistency and reliable results, especially when dealing with a large volume of objects to be digitized. Documenting the workflow is also important for tracking material through each stage of the process and identifying errors or problems.” 
+
+ From Wisconsin Historical Society’s Digitization Workflow 
+
+ “...\[D\]ocument as much as possible. It is important to record what was done and, even more so, when. As the project unfolded it became clear that time spent on certain tasks could end up taking either more or less time than originally thought. Technical and intellectual challenges affected the workflow and so it became essential to try to track what steps had been done both with respect to access and preservation.” 
+
+ Yolkowski, John and Jamieson, Krista. “Access and Preservation in Archival Mass Digitization Projects.” Practical Technology for Archives: 2017, Vol. 1, No. 7. 
+
+---
+
+Another perspective on why documenting workflows and even specific occurrences throughout a project comes from one of our assigned readings this week. Here, the authors reflect on how documentation allowed them to apply course corrections throughout the process. For example, they were able to use workflows to identify areas of work that were done in the same way over and over again, such as changing TIFFs to compressed JPEGs and collating those into multi-page PDFs. Here, they developed a script that automated this work, so staff did not have to spend time multi-tasking and performing rote work, and also uphold a certain level of quality, too.
+
+ “Sharing documentation is also important for the archival field. Being able to find out how other projects dealt with challenges can save time and effort by not repeating work others have completed.” 
+
+ Yolkowski, John and Jamieson, Krista. “Access and Preservation in Archival Mass Digitization Projects.” Practical Technology for Archives: 2017, Vol. 1, No. 7. 
+
+---
+
+Another perspective on why documenting workflows and even specific occurrences throughout a project comes from one of our assigned readings this week. Here, the authors reflect on how documentation allowed them to apply course corrections throughout the process. For example, they were able to use workflows to identify areas of work that were done in the same way over and over again, such as changing TIFFs to compressed JPEGs and collating those into multi-page PDFs. Here, they developed a script that automated this work, so staff did not have to spend time multi-tasking and performing rote work, and also uphold a certain level of quality, too.
+
+ The Curator fills out the Airtable Digitization Form, where they select which items from the catalog they would like to have digitized. Their submission is reviewed by the Digitization Committee, who reviews the request based on the institution’s Selection Criteria policy. If the request is approved, it will be placed the project in the Airtable Digitization Queue. This will alert the Registrar, who will schedule a time for the items to be retrieved and shipped to temporary storage stacks. Upon arrival, a conservator assesses the items, and pulls aside those requiring stabilization. After treatment, they mark the items in the Airtable queue, which alerts the photography technician and updates their locations in The Museum System (TMS). Once digitized, the photography technician submits the files to the Digital Archivist, who prepares a bag and submits it to Archivematica, which turns it into an AIP. The AIP is     incorporated     into the finding aid prepared by the Processing Archivist. The Processing Archivist will submit the finding aid for review, and once approved, publishes the finding aid, with links to respective digital objects, onto the digital library. 
+
+---
+
+Workflows are typically narrated, telling the story of how something flows through from point A to point B. You can use documentation such as manuals, guides, etc., to get the gist of a workflow.
+
+Sometimes, they can be long and verbose. Sometimes it’s hard just looking at a wall of text, what is going on.
+
+| Stage | Staff | Action | Result | Systems | Documents |
+| :-: | :-: | :-: | :-: | :-: | :-: |
+| Request | Curator | Fills out form | Inventory | Catalog, Airtable | Digitization Policy |
+| Queue | Committee | Review | Queued | Airtable | Selection Policy |
+| Get | Registrar | Transport | Delivery | Airtable | Transport Policy |
+| Assess | Conservator | Assessment | Treatment | TMS | Digitization Policy |
+| Digitize | Photo Tech | Images made | Bitstream | DAMS | Digitization Guide |
+| Post | Photo Tech | Transfer files | Files QC’ed | QC script | Digitization Guide |
+| Transfer | Digital Archivist | Prepare bag | Ingest | Archivematica | Digipres Guide |
+| Describe | Processing Archivist | AIP created | Finding aid | ContentDM, ASpace | Processing Guide |
+| Publish | Archivist | Rights cleared | Access | ASpace, Digital Library | Access Guide |
+
+---
+
+However, you can take workflow narratives and structure them in ways that are more visually appealing, but also, call out the who, what, when, where, and why of a process. This table takes key words from the narrative in the previous slide, and categorizes them into different buckets like “Stage” (of the workflow), Staff type, etc.
+
+ Shipment is today    ? 
+
+ Requires treatment? 
+
+ Location Management System 
+
+ Digitization Queue 
+
+![](img/week_07_slides8.png)
+
+   Request Digitization   
+
+   Finding aid approved?   
+
+   Archival processing   
+
+---
+
+Another way to articulate a workflow is to use a model. Some might refer to this as a Business Management Process or “BPM” model. Here, you can see there is some color and shape coding (purple rectangles = a specific process, green diamons = a decision point, yellow cylinders = databases or systems involved, gray ovals = start/end points of the workflow). You can even code the lines connecting one element to another: for example, a data flow is represented here by a dotted line, while other lines are represented by a one or bi-directional arrow.
+
+  _Project Tracking
+
+ Typically will utilize a shared working space 
+
+ Only track necessary information for project planning and workflow 
+
+ Can use APIs to relay data to/from project tracking systems 
+
+ Include fields for useful metrics for reporting, budget and planning 
+
+---
+
+
+
+
+
+
+![](img/week_07_slides9.png)
+
+---
+
+This is the Digital Archives processing queue, that uses Trello. Trello uses a “Kanban” arrangement of tasks (i.e. columns that represent major phases of work, and then within each, “cards” that can be dragged and dropped from one column to another as they are worked on and reach project milestones).
