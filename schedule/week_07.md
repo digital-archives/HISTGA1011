@@ -11,10 +11,11 @@ has_children: false
 
 {: .label .label-yellow }
 Due
-* In class we will start the Week 6 activity. Submit your completed activity summary in Brightspace by Sunday night.
+* In class we will start the Week 7 activity. Submit your completed activity summary in Brightspace by Sunday night.
 
 {: .label .label-green }
 Read
+* Koster, Lucas. “Persistent identifiers for heritage objects.” Code4lib Journal: Issue 47, 2020-02-17. https://journal.code4lib.org/articles/14978
 * Prescott, Andrew and Hughs, Lorna. “Why Do We Digitize? The Case for Slow Digitization.” Archive Journal: September 2018. <a href="https://www.archivejournal.net/essays/why-do-we-digitize-the-case-for-slow-digitization/" target="_blank">https://www.archivejournal.net/essays/why-do-we-digitize-the-case-for-slow-digitization/</a>
 * Thompson, Samantha, “Why don’t archivists digitize everything?” Archives @ PAMA blog: May 31, 2017. <a href="https://peelarchivesblog.com/2017/05/31/why-dont-archivists-digitize-everything/" target="_blank">https://peelarchivesblog.com/2017/05/31/why-dont-archivists-digitize-everything/</a>
 * Yolkowski, John and Jamieson, Krista. “Access and Preservation in Archival Mass Digitization Projects.” Practical Technology for Archives: 2017, Vol. 1, No. 7. <a href="https://ecommons.cornell.edu/bitstream/handle/1813/76865/Access_and_Preservation_in_Archival_Mass_Digitization_Projects.pdf?sequence=1&isAllowed=y" target="_blank">https://ecommons.cornell.edu/bitstream/handle/1813/76865/Access_and_Preservation_in_Archival_Mass_Digitization_Projects.pdf?sequence=1&isAllowed=y</a>

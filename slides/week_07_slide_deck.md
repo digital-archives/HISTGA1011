@@ -187,7 +187,7 @@ The FADGI Technical Guidelines for Digitizing Cultural Heritage Materials docume
 
 | Requirement | Example |
 | :-: | :-: |
-| File format extension required | collection001.__jpeg__ |
+| File format extension required | collection001.jpeg |
 | Express order that takes into account number of items to be scanned. Use leading 0s. | image0001.tif<br />image0002.tif<br />etc |
 | Lowercase | NOTTHIS.tiff this.tiff |
 | Unique across records | collection12345_0001.tif |
@@ -342,28 +342,28 @@ As you can see, Carpenters allows preservation administrators to organize digiti
 ## Definition
 # Preservation File
 
-A __preservation file__ is a high-quality, minimally processed digital file created to serve as the authoritative source for long-term preservation. It is typically produced during digitization and retains the maximum amount of detail, accuracy, and integrity from the original material.
+A preservation file is a high-quality, minimally processed digital file created to serve as the authoritative source for long-term preservation. It is typically produced during digitization and retains the maximum amount of detail, accuracy, and integrity from the original material.
 
 ---
 
 ## Definition
 # Mezzanine File
 
-A __mezzanine file__ is an intermediate-quality digital file derived from a preservation file. It is used for specific workflows, such as editing, while still maintaining a high level of fidelity. Mezzanine files strike a balance between the size and usability of the file and the quality of the original preservation file.
+A mezzanine file is an intermediate-quality digital file derived from a preservation file. It is used for specific workflows, such as editing, while still maintaining a high level of fidelity. Mezzanine files strike a balance between the size and usability of the file and the quality of the original preservation file.
 
 ---
 
 ## Definition
 # Access File
 
-An __access file__ is a derivative digital file used for providing convenient, user-friendly access to the content. Access copies are optimized for distribution, sharing, and everyday use, often with reduced file size and quality compared to the original preservation file.
+An access file is a derivative digital file used for providing convenient, user-friendly access to the content. Access copies are optimized for distribution, sharing, and everyday use, often with reduced file size and quality compared to the original preservation file.
 
 ---
 
 ## Definition
 # Uniform Resources identifier
 
-A __Uniform Resource Identifier (URI)__ in the context of ArchivesSpace is a persistent and unique identifier that represents a specific resource or object within the ArchivesSpace system. It serves as a stable reference to digital or physical items, collections, or metadata records, enabling interoperability, linkage, and retrieval across systems.
+A Uniform Resource Identifier (URI) in the context of ArchivesSpace is a persistent and unique identifier that represents a specific resource or object within the ArchivesSpace system. It serves as a stable reference to digital or physical items, collections, or metadata records, enabling interoperability, linkage, and retrieval across systems.
 
 ---
 
@@ -408,6 +408,126 @@ An identifier that is unique, universal, and persistent.
 
 ---
 
+### Definition  
+## Persistent Identifier (PID)
+
+**Oersistent identifiers (PIDs)** are **unique**, **universal** and **persistent**.
+
+- **Identifier**: Group of characters that names or references an object.  
+- **Unique**: Ensures the identifier is used only for one object.  
+- **Persistent**: Guarantees continued accessibility, even as systems or institutions change.  
+- **Universal**: Ensures uniqueness within a specific context, such as an institution, repository, or domain.
+
+<!--presenter notes
+A persistant identifier or "PID" is defined as an identifier that is unique, universal, and persistent.
+
+Break this down:
+- Identifier: a group of characters (a-z 0-9) used to refer to an object.
+- Unique: only used for one object and not repeated.
+- Persistent: remains available independently of individual institutions, systems or system implementations. Persistent also implies that the ID will be usable for the long term. However, as Koster acknowledges in the Persistent Identifiers for Heritage Objects article, this isn’t totally possible and requires maintenance by and continued existence of the institutions supporting the PIDs.
+- Universal: implies that the identifier is unique within a specific context. For example, a single identifier like "12345" might be used to identify different objects in different domains, such as a book in a library catalog, or an image in a separate online museum. Without knowing the specific context in which the identifier was produced or is being used, it may not be possible to ensure that it is globally unique. PIDs are assigned within a defined context to guarantee its uniqueness and distinguish it from other identifiers.
+
+-->
+
+---
+
+## Definition  
+# Unique Resource Identifier (URI) - 1/2
+
+A **Unique Resource Identifier (URI)** is a string of characters that uniquely identifies and, in some cases, locates a resource on the internet. **Persistent Identifiers (PIDs)** often use URIs to ensure resources can be consistently referenced and accessed over time.
+
+---
+
+### Definition
+## Unique Resource Identifier (URI) - 2/2
+
+There are two main types of URIs:
+
+1. **Uniform Resource Locators (URLs):** Identify and locate a resource by specifying its address.  
+Example: `http://purl.org/dc/elements/1.1/`
+
+2. **Uniform Resource Names (URNs):** Identify a resource by name within a specific namespace, without implying its location.  
+Example: `urn:nbn:nl:ui:29-8f66e0a8-b7c9-40a4-be28-54a7c01770`
+
+<!--presenter notes
+
+Persistent identifiers are composed of one or more Unique Resource Identifiers, or URIs.
+
+A Unique Resource Identifier or URI is a string of characters that identifies and locates a unique resource (such as a web page, image, video, etc.) on the internet. There are 2 types of URIs:
+- Uniform Resource Locators (URLs): resolvable on the web (uses protocols like http:// or https://) and points to a website
+- Uniform Resource Names (URNs): specific to a particular namespace, not a locator (not a web address on their own.)
+
+The composition or syntax of a PID is determined by the institution administering it.
+
+-->
+
+---
+
+## Definition  
+# Web Namespace
+
+A **web namespace** is a structured and standardized space on the internet used to assign and manage unique identifiers for resources. It provides a way to ensure that every resource has a globally unique and resolvable identifier, allowing for consistent referencing, discovery, and access.
+
+<!--presenter notes
+
+A web namespace is a logical grouping of resources or digital objects that share a common context, such as a particular domain or subject area. Various institutions administer identifiers and guarantees their uniqueness within a unique namespace on the web.
+-->
+
+---
+
+<style>
+  table {
+    width: 100%;
+    margin: auto;
+    font-size: 22px;
+  }
+  th, td {
+    padding: 4px;
+    line-height: 2;
+  }
+</style>
+
+| **System**  | **Type**           | **Registry**      | **Mint**  | **Persistence** | **Resolve**       |
+|-------------|--------------------|-------------------|-----------|------------------|-------------------|
+| **NBN**     | PID (+ PID-URI)    | National          | Local     | National         | National          |
+| **Handle**  | PID (+ PID-URI)    | Central           | Local     | Central          | Central/Local     |
+| **DOI**     | PID/PID-URI        | Central/Nodes     | Nodes     | Central          | Central           |
+| **ARK**     | PID                | Central           | Local     | Local            | Local             |
+| **Purl**    | PID-URI/URL        | Central           | Local     | Central/Local    | Central/Local     |
+| **Private** | PID/PID-URI        | Local             | Local     | Local            | Local             |
+
+<!--presenter notes
+
+Let’s look at one example: Digital Object Identifiers, or DOIs, are a type of persistent identifier. You have probably seen DOIs listed in electronic journal articles you’ve read. In the slide is a table of PIDs, including DOI, and their characteristics. Digital Object Identifiers are managed and administered by the International DOI Foundation. Here, the publisher The American Archivist registered with the DOI Foundation. Once registering with the DOI, they are assigned their own namespace and given a registration agency code, highlighted in the example as 17723. This code is then used in the DOI id naming convention. If another publisher by some change had the same suffix, even though there would be a slim chance of that, you could still disambiguate it using the registrant code.
+
+-->
+
+---
+
+**NBN (National Bibliographic Number)**
+Syntax: urn:nbn:[country code]:[institutional code]-[pid-suffix]
+Example: urn:nbn:nl:ui:29-8f66e0a8-b7c9-40a4-be28-54a7c01770
+Resolving: National: PID-URI = [national resolver URL]/[NBN]
+
+**Handle**
+Syntax: [naming authority code].[sublevel(s)]/[pid-suffix]
+Example: 11245.1/8f66e0a8-b7c9-40a4-be28-54a7c0177061
+Resolving: Central/Local: PID-URI = https://hdl.handle.net/[handle]
+
+**ARK**
+Syntax: ark:/[name assigning authority number]/[pid-suffix]
+Example: ark:/84475/do53246r617
+Resolving: Central: PID-URI = [local resolver URL]/[ARK]
+
+<!--presenter notes
+
+Here are examples of various administering organizations and their persistent identifier syntaxes. The last example, ARK, is the PID system used by the University of Houston.
+
+-->
+
+---
+
+
 ### **Access - Editing Metadata Checklist**
 
 1. **Metadata Unit Staff** loads the **Carpenters-generated DIP** into the **Brays descriptive metadata editor**.
@@ -424,6 +544,15 @@ An identifier that is unique, universal, and persistent.
 <!--presenter notes
 
 This is the Brays metadata creation staff interface. On the left-hand side, you see a list of all the digital preservation objects, in order. You can click into any one of them, and open up a descriptive metadata record. This record is connected to the CEDAR linked data vocab, which provides controlled lists, metadata validation and type-ahead suggestions.
+
+The access portion of the workflow begins when Metadata Unit personnel loads the Carpenters DIP in the Brays descriptive metadata editor and creates descriptive metadata for all objects. 
+
+Brays suggests controlled vocabulary terms from the Cedar linked data vocabulary manager and validates the record against their descriptive metadata specification.
+Brays dynamically reads and writes to a metadata CSV file included in the DIP.
+
+Color coding in the metadata creation interface indicates to staff  which fields are required, recommended, and optional.
+
+Additionally, once the record contains all required fields, the object name in the object viewer turns from red to green.
 
 -->
 
@@ -474,4 +603,3 @@ Start: <a href="https://digital-archives.github.io/HISTGA1011/activities/imaging
 _Final questions or reflections?_
 
 mary.kidd@nyu.edu
-

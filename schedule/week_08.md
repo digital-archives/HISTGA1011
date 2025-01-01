@@ -8,13 +8,11 @@ has_children: false
 
 # Week 8: Access and Discovery
 
-<a href="https://https://drive.google.com/file/d/1bMxpG4bolU-JZNV38D2BRBIkC9oZoKXC/view?usp=drive_link" target="_blank">Link to slide deck</a>
+<a href="https://digital-archives.github.io/HISTGA1011/slides/week_08_slide_deck.html" target="_blank">Slides</a>
 
 {: .label .label-yellow }
 Due
-* Assignment due: Submit your <a href="https://digital-archives.github.io/HISTGA1011/assignments/imaging.html" target="_blank">Imaging and Conservation Review</a> Group report and Individual Reflection in Brightspace.
-* Post your pre-class reading reactions to Brightspace by 3:30pm today.
-* Weekly activity: We will start <a href="https://digital-archives.github.io/HISTGA1011/activities/user_experience.html" target="_blank">The User's Experience</a> in class. Submit your completed activity summary in Brightspace by the end of the week Sunday.
+* In class we will start the Week 8 activity. Submit your completed activity summary in Brightspace by Sunday night.
 
 {: .label .label-green }
 Read
