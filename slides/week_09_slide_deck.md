@@ -910,24 +910,25 @@ for root, dir_list, file_list in os.walk(top):
 ## Case Study
 # NYPL Digital Preservation
 
-```
-import   pandas   as   pd
-df = pd.read_csv('  path/to/siegfried.csv  ')
-```
-
- _# How big are the files in the Siegfried report?_ 
-
-print(df.filesize.  sum  ())
-
- _# What 10 file formats have the largest average file size?_ 
-
-print(df.groupby('  format  ').filesize.mean().sort_values(ascending =   False  ).head(  10  ))
-
- _# What are the 5 most common file formats with a modified data in the 1980s?_ 
-
-print(df[df['  modified  ']<'  1990  '].groupby('  format  ').size().sort_values(ascending =   False  ).head(  5  ))
+NYPL's Digital Preservation department uses pandas to understand reports from Siegfried, to understand file format acquisition patterns.
 
 ---
+
+```
+import pandas as pd
+df = pd.read_csv('path/to/siegfried.csv')
+
+# How big are the files in the Siegfried report?
+print(df.filesize.sum())
+
+# What 10 file formats have the largest average file size?
+print(df.groupby('format').filesize.mean().sort_values(ascending = False).head(10))
+
+# What are the 5 most common file formats with a modified data in the 1980s?
+print(df[df['modified']<'1990'].groupby('format').size().sort_values(ascending = False).head(5))
+```
+
+<!--presenter notes
 
 https://nypl.github.io/digpres/posts/data-analysis-tools
 
@@ -941,39 +942,38 @@ Lastly, we have some code that is selecting a subset of rows from the "df" DataF
 
 What does the output look like when you press enter and run these scripts? I will show you in just a sec…
 
-![](img/week_09_slides10.png)
-
-Instructions from  _[https://dev.to/smpnjn/how-to-fix-zsh-command-not-found-python-22j8](https://dev.to/smpnjn/how-to-fix-zsh-command-not-found-python-22j8)_
+-->
 
 ---
-
-When we looked at the command line earlier, you saw that you write commands into the command line. Getting started using the command line is fairly simple and straightforward, with nothing really to install unless you want to work with a specific CLI program.
-
-With Python, you need to first install the Python. Doing this is fairly simple, especially if you have a package manager installed, like homebrew. You would simply open up the terminal and type in “brew install python” and it will install the latest version of Python for you in a matter of minutes.
-
-Next, you have to tell your shell (in my class, I have to tell the Z-Shell) that python exists. To do this, I use the command echo, followed by a string that tells zsh where to find python, and store it in a variable called “python”. In this way, in order to use Python, all I have to do is open up my terminal, type in Python, and press the enter key. You’ll see the prompt change to >>>, which indicates that I have switched over from the zsh shell to the Python command line. Here, I can type in scripts like print(‘hello’). To switch back to Z-shell, I enter exit(), which will bring me back to my zsh prompt.
-
-You are not limited to running Python code from the command line. In fact, that more versed you get in any sort of programming language, the more you will want to save and store your code in a designated file. For example, I could store the Python command print(‘hello’) to a file hello.py, and point the Python command line to that file to run it. That way, I don’t have to re-type the code each and every time I want to run a script.
 
 ![](img/week_09_slides11.png)
 
- _[https://towardsdatascience.com/visualizations-with-matplotlib-part-1-c9651008b6b8](https://towardsdatascience.com/visualizations-with-matplotlib-part-1-c9651008b6b8)_ 
+<!--presenter notes
+
+ _[https://towardsdatascience.com/visualizations-with-matplotlib-part-1-c9651008b6b8](https://towardsdatascience.com/visualizations-with-matplotlib-part-1-c9651008b6b8)
+
+ -->
 
 ---
 
-This is a smattering of the different types of visualizations you can create using matplotlib.
+<img src="img/week_09_slides12.png" alt="Picture of a Teletype Model 33, featuring a print-out of a face" style="width: 100%; height: auto;">
 
-Hopefully this shows you a little bit of all the different ways you can use Python. By no means did I show you everything that Python can do. It can be used for lots of different tasks, automations, visualizations, and more.
+<!--presenter notes
+https://www.crummy.com/software/BeautifulSoup/
 
-![](img/week_09_slides12.png)
-
- _[https://www.crummy.com/software/BeautifulSoup/](https://www.crummy.com/software/BeautifulSoup/)_ 
-
-![](img/week_09_slides13.png)
-
- _[https://github.com/RockefellerArchiveCenter/DACSspace](https://github.com/RockefellerArchiveCenter/DACSspace)_ 
+-->
 
 ---
 
-Why is it important to know about Github? Github is a popular platform for digital archives to store and make publicly available documentation and code they are using for different projects, processes, and efforts. On the slide is a screenshot of the Rockefeller Archive Center or RAC’s Github repository. Within their repository are different sub-repositories. For example, “DTeamDocs” is used to store RAC’s mission statement. In the lower right corner is DACSspace, “a simple Python script to evaluate your ArchivesSpace instance for DACS compliance.”
+## Weekly Activity
+# Scripting Reflection
 
+Start: <a href="https://digital-archives.github.io/HISTGA1011/activities/scripting_reflection.html" target="_blank">https://digital-archives.github.io/HISTGA1011/activities/scripting_reflection.html</a>
+
+---
+
+![](img/week_00_weekly_activity_sunset.gif)
+
+_Final questions or reflections?_
+
+mary.kidd@nyu.edu
