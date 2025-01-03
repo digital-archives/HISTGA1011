@@ -5,15 +5,160 @@ size: 16:9
 paginate: true
 style: |
   img {
-    max-width: 80%;
-    height: auto;
-    display: block;
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+  }
+
+  .pink-box {
+    background-color: #d184c2;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .green-box {
+    background-color: #a2c9a5;
+    padding: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+  }
+
+  .description {
+    padding: 20px;
+    text-align: left;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+
+  .quote {
+    font-size: 1.5rem;
+    font-style: italic;
+    text-align: left;
+    line-height: 1;
+    color: #4a4a4a;
     margin: 0 auto;
+    width: 90%;
   }
-  span.emoji {
-    display: inline;
+
+  .author {
+    font-size: 1.0rem;
+    text-align: right;
+    margin-top: 20px;
+    color: #6a6a6a;
+  }
+
+  .work {
+    font-size: 1rem;
+    text-align: right;
+    color: #8a8a8a;
+  }
+
+  .slide-title {
+    text-align: center;
+    color: #2e7d32; /* Green color for the header */
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .takeaway {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    gap: 15px;
+  }
+
+  .circle {
+    background-color: #2e7d32; /* Green background */
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  .content {
+    flex-grow: 1;
+  }
+  .content h2 {
     margin: 0;
+    color: #2e7d32; /* Green color for subheadings */
+    font-size: 1.2rem;
   }
+  .content p {
+    margin: 5px 0 0;
+    font-size: 1rem;
+    color: #4a4a4a; /* Gray for body text */
+  }
+
+  .activity-title {
+    text-align: center;
+    color:rgb(144, 0, 255); /* Soft purple */
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  .shapes {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .shapes span {
+    display: inline-block;
+    margin: 0 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  .triangle {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 30px solid #ffb347; /* Orange */
+    display: inline-block;
+    margin: 0 10px;
+  }
+  .circle {
+    background-color: #00c0ff; /* Blue */
+  }
+  .square {
+    width: 30px;
+    height: 30px;
+    background-color: #ff6767; /* Red */
+  }
+  .activity-list {
+    font-size: 1.1rem;
+    line-height: 1.1;
+    color:rgb(81, 0, 168); /* Light lavender */
+    margin-left: 20px;
+  }
+  .activity-list li {
+    margin-bottom: 10px;
+  }
+  .activity-list li strong {
+    color:rgb(235, 133, 133); /* Highlighted lavender */
+  }
+
 ---
 
 # Week 3 
@@ -22,11 +167,11 @@ style: |
 ---
 
 # Today
-- Reminders/announcements
-- Discuss last week's activity
-- Lecture: Processing Born-Digital Archives
-- Break
-- Start Weekly Activity
+- Reminders/announcements (15)
+- Discuss last week's activity (20)
+- Lecture: Processing Born-Digital Archives (45)
+- Break (10)
+- Start Weekly Activity (70)
 
 ---
 
@@ -41,17 +186,17 @@ _Feel free to email me with any announcements you would like me to boost (upcomi
 
 ---
 
-# Lots of terms/definitions coming up!
-
----
-
 ## Definition
 # Born-digital
 
-__Born-digital__ refers to items or materials whose contents were captured using binary encoding. Born-digital items are distinct from contents created using analog recording tools and subsequently digitized.
+**Born-digital** refers to items or materials whose contents were captured using binary encoding.
+
+Born-digital items are distinct from contents created using analog recording tools and subsequently digitized.
 
 <!--presenter notes
-https://primarysources.yale.edu/what-does-born-digital-mean
+
+Definition comes from: https://primarysources.yale.edu/what-does-born-digital-mean
+
 -->
 
 ---
@@ -59,13 +204,9 @@ https://primarysources.yale.edu/what-does-born-digital-mean
 ## Definition
 # Digital storage device or media
 
-__Digital storage device__ (sometimes just referred to as "media") is physical device used to store, read, or write digital data. 
+A __digital storage device__ (sometimes just referred to as "media") is a physical device used to store, read, or write digital data. 
 
-Examples: hard drive, compact disc, floppy disks, computer, smartphone
-
----
-
-# The type and age of media containing born-digital contents will determine next steps.
+Examples: hard drive, compact disc, floppy disk, computer, smartphone
 
 ---
 
@@ -81,25 +222,30 @@ Digital storage devices are commonly associated with legacy born-digital collect
 
 ---
 
-## Workflow
-# Acquisition to Processing Workflow
+# The type and age of media containing born-digital contents will determine next steps.
 
-- Decide to acquire something  
-- Initial appraisal  
-- Transfer/ship to repository  
-- Accession/inventory  
-- Transfer content off of media  
-- Reassociate resulting files in finding aid  
+---
+
+### Workflow
+## Acquisition to Processing Workflow
+
+- Decide to acquire something
+- Appraisal*
+- Transfer/ship to repository
+- Accession/inventory
+- Archival processing
+
+_Note: Some materials cannot be appraised until they are transferred off their media._
 
 ---
 
 ## Definition
-# Floppy Disk  💾
-A __floppy disk__ is a thin, flexible magnetic storage medium encased in a square or rectangular plastic shell, used in the past to store digital information.
+# Floppy Disk 💾
+A __floppy disk__ is a thin, flexible magnetic storage medium encased in a rectangular plastic shell.
 
 ---
 
-![Screen capture of a YouTube video frame showing the floppy disk being manipulated by two hands, showing its flexibility](img/week_04_floppy_inside.png) <!-- fit -->
+![Screen capture of a YouTube video frame showing a floppy disk being manipulated by two hands, showing its thinness and flexibility](img/week_04_floppy_inside.png) <!-- fit -->
 
 <!--presenter notes
 
@@ -112,7 +258,7 @@ https://www.youtube.com/watch?v=1-oH2T3W-q4
 
 ## Floppy disks use magnetism to encode binary data.
 * A flexible piece of plastic is coated in a magnetic substrate made up of microscopic particles.
-* The computer hard disk:
+* The computer:
   * __Writes__ data by applying an electromagnetic field to particles. "Up" = 1 and "Down" = 0
   * __Reads__ data using a sensitive electromagnetic head that detects particle arrangements and translates into binary information.
 
@@ -121,11 +267,11 @@ https://www.youtube.com/watch?v=1-oH2T3W-q4
 ## Definition
 # Disk sector
 
-A __disk sector__ is a fundamental unit of storage on a disk, whether it's a hard disk drive (HDD), solid-state drive (SSD), or other types of storage media like floppy disks. It represents the smallest addressable unit of data on the disk.
+A __disk sector__ is a fundamental unit of storage on a disk, whether it's a hard disk drive (HDD), solid-state drive (SSD), or other types of storage media like a floppy disk. It represents the smallest addressable unit of data on the disk.
 
 ---
 
-<img src="img/week_04_disk_sectors.png">
+<img src="img/week_04_disk_sectors.png" alt="Diagram of magnetic disk structures, showing a circle divided into slices and sectors, resembling evenly-spaced race tracks.">
 
 <!--presenter notes
 
@@ -158,12 +304,22 @@ In short, disk imaging liberates bitstreams from digital storage media, which ca
 
 ---
 
-## Mini Activity: Look at a disk image
-### Steps
-1. In a web browser search for "Apple II games Internet Archive."
-2. Browse video game archives and select a game of interest.
-3. On the game's page, look for the "Download Options" section; Click "Show All".
-4. Find 2mg disk image file listed.
+<div class="shapes">
+  <div class="triangle"></div>
+  <span class="circle"></span>
+  <span class="square"></span>
+</div>
+
+<div class="activity-title">Mini Activity - Disk Image</div>
+
+_Using the Internet Archive, you will look at a disk image file._
+
+<ul class="activity-list">
+<li><a href="https://archive.org/details/softwarelibrary_apple_games" target="_blank">Open the Apple II Games Library</a> on the Internet Archive.</li>
+<li>Browse the archive and select a game of interest.</li>
+<li>On your selected game's page, find the <b>Download Options</b> section; select <b>Show All</b>.</li>
+<li>Find *.2mg disk image file listed.</li>
+</ul>
 
 <!--presenter notes
 
@@ -229,7 +385,7 @@ On the capture workstation at Emory, archivists working with the Alice Walker fl
 ---
 
 <center>
-<img src="img/week_03_ftk.png" style="width: 80%; height: auto;">
+<img src="img/week_03_ftk.png" style="width: 70%; height: auto;" alt="Screen capture of Forensic Toolkit">
 </center>
 
 <!--presenter notes

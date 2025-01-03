@@ -402,19 +402,13 @@ That said, commands that appear similar from one shell to another may actually b
 
 ---
 
-# Question
-
-Now that you’ve seen demos of how terminals work—both on a modern Mac computer and on a 1990s computer using COMMAND.COM—why do you think programmers, archivists, and other professionals might choose to use the terminal instead of a proprietary software program like Adobe Photoshop?
-
----
-
 <div class="shapes">
   <div class="triangle"></div>
   <span class="circle"></span>
   <span class="square"></span>
 </div>
 
-<div class="activity-title">Mini Activity - Say Hello</div>
+<div class="activity-title">Mini Activity - Shell Switch</div>
 
 _Using your Terminal program, you will identify and switch shells._
 
@@ -452,11 +446,9 @@ _Think of variables as shelves with labels that hold a piece of information. So 
 
 # Question 
 
-Imagine you need to quickly find out what version of your operating system you’re using.
+### Imagine you need to quickly find out what version of your operating system you’re using.
 
-What steps would you take to find the same information using your mouse and keyboard?
-
-Which method do you think is faster, and why?
+What steps would you take to find the same information using your mouse and keyboard? Which method do you think is faster, and why?
 
 ---
 
@@ -477,7 +469,7 @@ So far, we have used the command line to run fairly simple commands using comman
 ## Definition
 # Package manager - 1/2
 
-A software tool that is used to automate the process of installing, updating, configuring, and removing software packages on a computer system.
+A type of command line tool that is used to automate the process of installing, updating, configuring, and removing software packages on a computer system.
 
 ---
 ## Package manager examples
@@ -571,7 +563,7 @@ This is the basic syntax of how to run a command in the rsync program. Rsync com
 rsync -avz /local/files/ mkidd@remote:/backup/files/
 ```
 
-"Using **rsync**, **archive** and **compress** the files from source **/local/files/**, and transfer them to destination **/backup/files/** on a computer in **another building** using the computer's login **mkidd**."
+"Using **rsync**, **archive** and **compress** the files contained in the folder called **/local/files/**, and transfer them to another folder called **/backup/files/** on a computer in **another building** using the computer's login **mkidd**."
 
 ---
 
@@ -640,7 +632,7 @@ $ rsync -av --progress 12345-bag.tar /mnt/sam/archiveimages/electronic-records/
 ```
 <ul class="activity-list">
   <li>Using a text editor or pen/paper, spend 5 minutes writing out what you think this command is doing.</li>
-  <li>For the not obvious parts of the code, you may need to consult <code>rsync</code> documentation (search for "rsync command" in a web browser)
+  <li>For the not-so-obvious parts of the code (i.e. -av or --progress), you may need to consult <code>rsync</code> documentation (search for "rsync documentation" in your web browser).
 </ul>
 
 <!--presenter notes
@@ -655,85 +647,127 @@ Take a minute or two to look at the chunk of code on screen, and write out what 
 
 ---
 
- $     rsync     -av --progress     12345-bag.tar     /mnt/sam/archiveimages/electronic-records/ 
+# <code>rsync</code> Syntax Breakdown
 
-transfer this file
+<style>
+  .code-block {
+    border-radius: 5px;
+    padding: 10px;
+    font-family: monospace;
+    display: inline-block;
+  }
+  .highlight {
+    font-weight: bold;
+    padding: 2px 4px;
+    border-radius: 3px;
+  }
+  .purple { background-color: #d8ccff; }
+  .green { background-color: #ccffd8; }
+  .orange { background-color: #ffd8a8; }
+  .red { background-color: #ffcccc; }
+  .cyan { background-color: #cceeff; }
 
- $     rsync     -av --progress     12345-bag.tar         /mnt/sam/archiveimages/electronic-records/ 
+  .explanation-table {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  .explanation-item {
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 22px;
+  }
+  .purple-bg { background-color: #d8ccff; }
+  .green-bg { background-color: #ccffd8; }
+  .orange-bg { background-color: #ffd8a8; }
+  .red-bg { background-color: #ffcccc; }
+  .cyan-bg { background-color: #cceeff; }
+</style>
 
-transfer this file
+<!-- Syntax Highlighting -->
+<div class="code-block">
+  <br>$ <span class="highlight purple">rsync</span> 
+  <span class="highlight green">-av</span> 
+  <span class="highlight orange">--progress</span> 
+  <span class="highlight red">12345-bag.tar</span> 
+  <span class="highlight cyan">/mnt/sam/archiveimages/electronic-records/</span>
+</div>
 
-to this directory
+<!-- Explanation Table -->
+<div class="explanation-table">
+  <div class="explanation-item purple-bg">
+    <b>Using rsync</b><br> The program to run.
+  </div>
+  <div class="explanation-item green-bg">
+    <b>Preserve metadata</b><br> Use archive mode and show verbose output.
+  </div>
+  <div class="explanation-item orange-bg">
+    <b>Show me progress</b><br> Display a progress bar during transfer.
+  </div>
+  <div class="explanation-item red-bg">
+    <b>Transfer this file</b><br> The file being copied.
+  </div>
+  <div class="explanation-item cyan-bg">
+    <b>To this directory</b><br> The destination folder.
+  </div>
+</div>
 
- $     rsync         -a    v --progress     12345-bag.tar         /mnt/sam/archiveimages/electronic-records/ 
-
-transfer this file
-
-to this directory
-
-don’t change anything
-
- $     rsync         -a    v     --progress     12345-bag.tar         /mnt/sam/archiveimages/electronic-records/ 
-
-transfer this file
-
-to this directory
-
-don’t change anything
-
-tell me everything that happens
-
- $     rsync         -a    v         --progress         12345-bag.tar         /mnt/sam/archiveimages/electronic-records/ 
-
-transfer this file
-
-to this directory
-
-don’t change anything
-
-tell me everything that happens
-
-S  how me a progress bar
-
----
+<!--presenter notes
 
 “Use rsync program to move files from the current directory containing a TAR file to the SAM. When you transfer over the files, please preserve the synced file’s metadata with the source file’s metadata. Please also show me additional information about the transfer, such as file size and transfer speed. Lastly, please show me a progress bar so I know how far along the transfer you are.”
 
-Python (and related tools)
+-->
 
 ---
 
-A really good introduction to automation is through what is known as the Command Line Interface or CLI (I prefer and often refer to it as just “the command line”).
+# Question
 
-The command line is a pretty powerful tool, both in general, but also throughout the digital preservation and archives field. Why is that?
-
-If you have a computer, you most likely have a way to access the command line for no cost at all. For example, all Mac and Windows machines come with a simple user interface into the command line. Meaning, there isn’t anything that you have to install to use the CLI. You can pretty much open up the CLI from your computer, and start using it today, if you wanted.This, I think, is one of the most important reasons why the command line is so great: it tends to not share the same fate as software applications, that often become unusable over time. Though this is anecdotal, I have been using the command line since I was a kid (I started using the computers in the late 1980s) and the command line has basically looked and operated in the same way since.
-Another reason why the command line is great is because it can do a lot, and is not specific to one type of kind of thing to do. Its non-specifity makes it universal.
-It is also easy to learn, in part because it has been around for so long, and has generally behaved the same way over time, therefore it is well documented. Basically, once you get the syntax down, and see a few examples, it’s fairly easy to turn around and just start using it.
-
-# General uses of Python at NLNZ
-
- Transfer 
-
-Generating a list of files on original storage media
-
-Transferring files off the original digital media to our storage servers
-
- Appraisal 
-
-Identifying duplicate files across different locations
-
-Adding file extensions so material opens in the correct software
-
-Flattening complex folder structures to support easy assessment
-
- Technical Analysis 
-
-Sorting files into groups based on file extension to isolate unknown files
-
-Extracting file signature information from unknown files
+Now that you’ve seen demos of how terminals work—both on a modern Mac computer and on a 1990s computer using COMMAND.COM—why do you think programmers, archivists, and other professionals might choose to use the terminal instead of a proprietary software program like Adobe Photoshop?
 
 ---
+
+# Python and Related Tools
+
+---
+
+## Case Study
+# Python at the National Library of New Zealand
+
+---
+
+<style>
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  th, td {
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #ddd;
+  }
+  th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  h2 {
+    font-size: 1.2rem;
+    margin: 0 0 5px;
+  }
+  ul {
+    padding-left: 20px;
+    margin: 0;
+  }
+</style>
+
+| **Transfer**                              | **Appraisal**                           | **Analysis**                                |
+|-------------------------------------------|------------------------------------------|---------------------------------------------|
+| Generate file manifests<br><br>Transfer files off the original digital media to storage servers | Identify duplicates<br><br>Add file extensions so material opens in the correct software<br><br>Flatten complex folder structures to support easy assessment | Sort files into groups based on file extension to isolate unknown files<br><br>Extract file signature information from unknown files |
+
+<!--presenter notes
 
 https://saaers.wordpress.com/2018/07/31/small-scale-scripts-for-large-scale-analysis-python-at-the-alexander-turnbull-library/
 
@@ -752,16 +786,17 @@ Extracting file signature information from unknown files
 
 …and much more!
 
-
-
-
-
-# Definition: Python
-—
-
-Python is a high-level, interpreted programming language that was first released in 1991 by Guido van Rossum. It is designed to be easy to read and write, with a simple syntax and minimalistic approach to coding, making it a popular language for beginners and experts alike.
+-->
 
 ---
+
+## Definition
+# Python
+—
+
+**Python** is a high-level, interpreted programming language that was first released in 1991 by Guido van Rossum. It is designed to be easy to read and write, with a simple syntax and minimalistic approach to coding, making it a popular language for beginners and experts alike.
+
+<!--presenter notes
 
 Python is a high-level, interpreted programming language that was first released in 1991 by Guido van Rossum. It is designed to be easy to read and write, with a simple syntax and minimalistic approach to coding, making it a popular language for beginners and experts alike.
 
@@ -769,37 +804,63 @@ Python has a large standard library and a vast collection of third-party librari
 
 Python's popularity has grown rapidly over the years, and it is now one of the most widely used programming languages in the world, with an active and vibrant community of developers and users. It is open-source, free to use, and available for various platforms, including Windows, macOS, and Linux.
 
-# Definition: Programming Library
-—
-
-A programming library is a collection of pre-built functions that can be imported and used in your own Python code, rather than having to write everything from scratch.
-
-The standard library that comes with Python is known as “os” (stands for “operating system”)
+-->
 
 ---
+
+## Definition
+# Programming Library
+—
+
+A **programming library** (aka "library") is a collection of pre-built functions that can be imported and used in your own Python code, rather than having to write everything from scratch.
+
+<!--presenter notes
 
 Most programming languages, once installed on your workstation, come with a standard “library” of pre-built functions. For example, when you download and install Python, it comes with a standard library called “os”. The os module is a standard library module in Python that provides a way for Python programs to interact with the operating system on which they are running. The os module provides functions for performing common tasks such as navigating directories, reading and writing files, renaming files, listing folders and files: the usual things that you are used to when interacting with your file system. You can kind of think of them as recipe books for different cuisines.
 
-Example 1
-
- ArchivesSnake 
-
- _A Python Library that enables you a way to query the ArchivesSpace API._ 
+-->
 
 ---
+
+## Tool
+# ArchivesSnake
+
+A Python Library enabling the user to query and update the underlying database of an ArchivesSpace instance.
+
+---
+
+## Case Study
+# Alexander Turnbull Library Uses ArchivesSnake
+
+_Archivist Flora Feltham writes about their experience learning and working with Python in the context of an archive_
+
+<!--presenter notes
 
 https://saaers.wordpress.com/2018/07/31/small-scale-scripts-for-large-scale-analysis-python-at-the-alexander-turnbull-library/
 
-Case Study: Flora Feltham writes about their experience learning and working with Python in the context of an archive
-
-Problem: “Recently, we received a Mac-formatted 1TB hard drive from a local composer and performer. When [our Safe Mover] script stopped in the middle of transferring files, we wondered if there was a file path clash. Generally speaking, in a Windows formatted file system there’s a limit of 255 characters to a file path (“D:so_it_pays_tokeep_your_file_pathsniceandshort.doc”).
-Some older Mac systems have no limit on the number of file path characters so, if they’re really long, there can be a conflict when you’re transferring material to a Windows environment. To troubleshoot this problem we wrote a [Python] script.”
-
-![](img/week_09_slides8.png)
-
-![](img/week_09_slides9.png)
+-->
 
 ---
+
+<div class="quote">
+
+“Recently, we received a Mac-formatted 1TB hard drive from a local composer and performer. When [our Safe Mover] script stopped in the middle of transferring files, we wondered if there was a file path clash... [continued]
+
+</div>
+
+---
+
+<div class="quote">
+
+"...Generally speaking, in a Windows formatted file system there’s a limit of 255 characters to a file path. Some older Mac systems have no limit on the number of file path characters so, if they’re really long, there can be a conflict when you’re transferring material to a Windows environment. To troubleshoot this problem we wrote a [Python] script.”
+
+</div>
+
+---
+
+![Screen capture of the ArchivesSnake Github repository](img/week_09_slides8.png)
+
+<!--presenter notes
 
 On slide is a screencap of a Python library called ArchivesSnake, which is something I am currently using to pull data out of NYPL’s ArchivesSpace database using Python commands and ArchiveSpace’s Application Programming Interface or API. ArchivesSnake provides a set of tools for working with archival collections and data. It was developed by the Rockefeller Archive Center and is designed to simplify the process of working with large and complex archival collections, such as those containing manuscripts, photographs, and other historical documents.
 
@@ -807,23 +868,11 @@ This particular library does not come with Python. It has to be downloaded separ
 
 Python has a package manager known as pip3 that can make downloading these sorts of libraries easy. Similar to what we just saw with homebrew and chocolatey, if I wanted to install ArchivesSnake, I would use the pip3 package manager and type into my command line, pip3 install archivessnake, and voila, ArchivesSnake would be installed onto my computer in a matter of minutes. 
 
-Example 2
-
- National Library of New Zealand 
-
- _Problem: _    _Transferring legacy-named files resulted in system crashing._ 
-
- _Solution:_    _ Use Python to identify filenames causing system crashes._ 
+-->
 
 ---
 
-https://saaers.wordpress.com/2018/07/31/small-scale-scripts-for-large-scale-analysis-python-at-the-alexander-turnbull-library/
-
-Case Study: Flora Feltham writes about their experience learning and working with Python in the context of an archive
-
-Problem: “Recently, we received a Mac-formatted 1TB hard drive from a local composer and performer. When [our Safe Mover] script stopped in the middle of transferring files, we wondered if there was a file path clash. Generally speaking, in a Windows formatted file system there’s a limit of 255 characters to a file path (“D:so_it_pays_tokeep_your_file_pathsniceandshort.doc”).
-Some older Mac systems have no limit on the number of file path characters so, if they’re really long, there can be a conflict when you’re transferring material to a Windows environment. To troubleshoot this problem we wrote a [Python] script.”
-
+```
 import os
 
 top = "D:example_folder_01collection"
@@ -837,37 +886,34 @@ for root, dir_list, file_list in os.walk(top):
     if len(file_path) > 255:
 
         print (file_path)
+```
 
 ---
 
-Instead of writing pseudocode individually, this time we are going to verbalize pseudocode, while looking at some Python code as a group.
-
-| Code | Plain speak |
+| **Code** | **Pseudocode** |
 | :-: | :-: |
-| import os | Import the OS module |
-| top = "D:example_folder_01collection" | Store the folder path we are analyzing in a variable called “top” |
-| for root, dir_list, file_list in os.walk(top): | Use the “walk” function to generate a list of file names in “top”, showing the directory being looked at, a list of subdirectories in that directory, and a list of files in each directory. |
-|      for item in file_list: | For each file in the file list |
-|      file_path = os.path.join(root,item) | Use the “path.join” function to string the directory name and the file name. |
-|      if len(file_path) > 255: | If the length of the file path exceeds 255 characters |
-|           print (file_path) | Print out the file path so I can see |
+| `import os` | Import the **operating system module** to work with files and folders. |
+| `top = "D:\\example_folder_01\\collection"` | Define **path** to the folder you want to analyze; store in variable called `top`. |
+| `for root, dir_list, file_list in os.walk(top):` | For each **folder (`root`)**, its **subdirectories (`dir_list`)**, and its **files (`file_list`)** starting from the top folder... |
 
 ---
 
-The import os statement imports the os module, which provides a way for Python programs to interact with the operating system.
-The top variable is set to the path of the directory to start the directory tree walk from. In this case, it is set to "D:example_folder_01collection".
-The os.walk() function is called with the variable, “top”, which we just defined as the the collection folder, as its argument. This function generates the file names in a directory tree by walking the tree either top-down or bottom-up.
-The for loop iterates over the generator object returned by os.walk(). On each iteration of the loop, root contains the path to the current directory being walked, dir_list contains a list of the subdirectories in that directory, and file_list contains a list of the files in that directory.
-The inner for loop then iterates over file_list, which contains a list of files in the current directory. The os.path.join() function is used to join the root and item (which is a file name) into a full file path.
-The if statement checks if the length of the file_path is greater than 255 characters. If it is, the print() statement is executed, which prints out the full path of the file.
+| **Code** | **Pseudocode** |
+| :-: | :-: |
+| `for item in file_list:` | ...and each file in the current folder... |
+| `file_path = os.path.join(root, item)` | Combine the folder path and file name into a **complete file path**. |
+| `if len(file_path) > 255:` | Check if the total path length (folder + filename) is **greater than 255 characters**... |
+| `print(file_path)` | ...and if it is, print the long file path to the **command line** so I can locate and fix it. |
 
-Questions?
+---
 
-# Case Study: NYPL Digital Preservation
+## Case Study
+# NYPL Digital Preservation
 
+```
 import   pandas   as   pd
-
 df = pd.read_csv('  path/to/siegfried.csv  ')
+```
 
  _# How big are the files in the Siegfried report?_ 
 

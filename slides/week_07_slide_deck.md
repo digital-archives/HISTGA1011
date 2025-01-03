@@ -580,14 +580,68 @@ You can also use BRAYS to view a copy of the preservation file in full screen mo
 
 ---
 
-# Try it out
+# Try it out - UH Digital Collections - 1/3
 
 - Visit https://digitalcollections.lib.uh.edu/
-- Search for 'Galveston 1915 Hurricane Photographs'
+- Search for "Galveston 1915 Hurricane Photographs"
 - Click on any image that appears in results
 - Scroll and find the ARK, rights statement, and descriptive metadata
 - Click "View item in finding aid"
 - Locate your photograph in the context of the archival hierarchy (note: you can widen the "Collection organization" section using your mouse pointer)
+
+---
+
+# Try it out - New-York Historial Society Museum & Library - 2/3
+
+- Visit https://findingaids.library.nyu.edu/nyhs/ms3216_rebuild_by_design/all/
+- Browse finding aid's contents. Focus specifically on: Extent, Abstract, Arrangement, Genres, and Conditions Governing Use, Processing Information
+- On the left-hand side of the screen, click "View Inventory". Find "Digital-Folder: 14"; read the Technical Requirements section.
+
+
+---
+
+## Tool
+# International Image Interoperability Framework (IIIF) - 1/2
+
+**IIIF** is a set of open standards for delivering high-quality, attributed digital objects online at scale. It’s also an international community developing and implementing the IIIF APIs. IIIF is backed by a consortium of leading cultural institutions.
+
+---
+
+## Tool
+# International Image Interoperability Framework (IIIF) - 2/2
+
+IIIF is best known for its ability for institutions hosting digitized content to be interoperable with each other.
+
+---
+
+<img src="img/week_07_iiif_side_by_side.png">
+
+<!--presenter notes
+
+This image is a screencapture of two medieval manuscripts, each held by a different repository: one from the Bodleian Libraries, the other from St. Gallen. Along with side-by-side comparisons or two high-resolution images from their digital collections, IIIF viewers allow deep zoom to see exacting/tiniest details, which supports research, scholarship and interest.
+
+Read more here: https://blog.digitizedmedievalmanuscripts.org/iiif-international-image-interoperability-framework/
+
+-->
+
+---
+
+# Try it out - IIIF - 1/2
+
+- Return to the results page for "Galveston 1915 Hurricane Photographs"; click on a different image.
+- Notice the IIIF logo beneath the photo: that indicates that the viewer is IIIF-compliant. <img src="img/week_07_iiif.png" style="width: 10%; height: auto;">
+- Click on the IIIF logo to generate a JSON manifest; click on the "Pretty-print" checkbox to make the data more readable.
+- Copy the URL for the manifest.
+
+---
+
+# Try it out - IIIF - 2/2
+
+- Visit [https://projectmirador.org/](https://projectmirador.org/); click `DEMO` at the top of the page.
+- Click `Add Resource` button (blue circle with +) in the upper left-hand corner.
+- Click `+ ADD RESOURCE` (lower right-hand corner)
+- In the Resource location field, paste the IIIF manifest URL; Click `ADD
+- Your selected image should now appear at the top: click on it to open within the viewer. Notice how the image, title, etc. were auto-imported.
 
 ---
 

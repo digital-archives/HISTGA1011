@@ -269,6 +269,43 @@ Here is the XML describing the Correspondence series of the James Baldwin collec
 
 ---
 
+# Descriptive Practices
+
+---
+
+# General Overview: ArchivesSpace Record Types
+
+---
+
+- Repository
+  - Resource Record (i.e. "Arthur Russell papers")
+    - Component Records: Describe logical or physical parts of a resource that make up an aggregation of archival materials
+    - Instances: Embodiments of the same content in different media (example, a hand-written letter: ink on paper, microfilm image, digital object)
+    - Digital Objects
+
+---
+
+## Use Case: Archives @ Yale
+# Digital Object Record
+
+The **digital object record** holds technical and administrative metadata about digital objects. This type of record can be multi-layered (meaning, it can say something about a metadata record and its associated scanned pages)
+
+---
+
+## Use Case: Archives @ Yale
+# Digital Object Record
+
+Though **digital object records** can be manually created by staff, most digital object records are created automatically by Preservica, which "talks" to ArchivesSpace via an API.
+
+---
+
+## Use Case: Archives @ Yale
+# Digital Object Record
+
+The title of a digital object, in the case of Yale, uses the name of the SIP folder, and the Preservica-generated identifier.
+
+---
+
 <div class="slide-title">Online Finding Aid Usability: 8 Takeaways</div>
 
 ---

@@ -73,55 +73,23 @@ The way digital repositories are set up, managed and maintained in many ways are
 
 ---
 
-# System Types and Layers
+# System Functions
+- Drive digital preservation workflows
+- Manage deposits into repository
+- Manage metadata workflows, taxonomies
+- Manage digital assets
+- Descriptive system of record
+- Descriptive or archival processing
+- Collection management
+- Public-facing interface
 
 ---
 
-<div style="display: flex; justify-content: space-between;">
-
-  <div style="width: 22%; padding: 20px; border: 1px solid #000; text-align: center;">
-    <h3>Digital/Institutional Repository</h3>
-  </div>
-
-  <div style="width: 22%; padding: 20px; border: 1px solid #000; text-align: center;">
-    <h3>Digital Preservation</h3>
-  </div>
-
-  <div style="width: 22%; padding: 20px; border: 1px solid #000; text-align: center;">
-    <h3>Digital Asset Management (DAM)</h3>
-  </div>
-
-  <div style="width: 22%; padding: 20px; border: 1px solid #000; text-align: center;">
-    <h3>Archival/Content/Collection Management</h3>
-  </div>
-
-  <div style="width: 22%; padding: 20px; border: 1px solid #000; text-align: center;">
-    <h3>Digital Library</h3>
-  </div>
-
-</div>
-
-<!--presenter notes
-
-There are four main types of digital repository systems. Each type has a different focus and set of features:
-1. Digital preservation systems
-2. Institutional repositories
-3. Digital asset management systems
-4. Content management systems
-
--->
-
----
-
-<div style="width: 100%; padding: 20px; border: 2px solid #000; text-align: center; font-size: 24px; font-weight: bold; background-color: #f0f0f0;">
-Digital/Institutional Repository (IR) System</div>
-
-### Key Function:
-- Depository for intellectual and research output of students, faculty and scholars (ex. dissertaions, conference papers, etc.)
-
-### Examples:
-- Fedora
-- DSpace
+# Islandora
+### Open-source digital asset management system
+#### Key Functions:
+- Provides a dynamic, modern front-end based on Drupal for end-users, and a SOLR search engine
+- Uses Fedora for back-end to manage preservation objects
 
 <!--presenter notes
 
@@ -132,9 +100,15 @@ are directly modeled after the OAIS Reference Model. For a weekly activity, you 
 
 ---
 
-<div style="width: 100%; padding: 20px; border: 2px solid #000; text-align: center; font-size: 24px; font-weight: bold; background-color: #f0f0f0;">
-Repository System
-</div>
+# Solr
+#### Open-source search platform
+
+Key Functions:
+- Provides fast index-driven website search capability
+
+---
+
+## Fedora
 
 ### Key Function:
 - Manage data objects on the "back-end"
