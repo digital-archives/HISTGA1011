@@ -8,12 +8,11 @@ has_children: false
 
 # Week 9: Automation and Scripting
 
-<a href="http://https://drive.google.com/file/d/1A1M7SLjq4wq1EtSSImYhw70Ia3nnCYz2/view?usp=drive_link" target="_blank">Link to slide deck</a>
+<a href="https://digital-archives.github.io/HISTGA1011/slides/week_09_slide_deck.html" target="_blank">Slides</a>
 
 {: .label .label-yellow }
 Due
-* Post your pre-class reading reactions to Brightspace.
-* Weekly activity: This week, we will forgo the Weekly Activity. Instead, I would like to open up time after today's lecture to discuss the scripting language you chose for the Scripting Reflection Assignment due next week, and address any questions you might have about learning the language, the language itself, and finding relevant examples of it being used online.
+* In class we will start the Week 9 activity. Submit your completed activity summary in Brightspace by Sunday night.
 
 {: .label .label-green }
 Read
@@ -24,4 +23,3 @@ Read
 * Potter, Abbey. “Automating Digital Archival Processing at Johns Hopkins University” May 9, 2017. <a href="https://blogs.loc.gov/thesignal/2017/05/automating-digital-archival-processing-at-johns-hopkins-university/" target="_blank">https://blogs.loc.gov/thesignal/2017/05/automating-digital-archival-processing-at-johns-hopkins-university/</a>
 * Libraries, University of California Systemwide. UC Guidelines for Born-Digital Archival Description. Oct. 2017. <a href="https://escholarship.org/uc/item/9cg222jc" target="_blank">https://escholarship.org/uc/item/9cg222jc</a>
 * Tammi Kim; Karla Irwin. “Learning from Las Vegas: Adapting Workflows for Managing Born-Digital Design Records." The American Archivist (2021) 84 (2): 355–373. <a href="https://doi.org/10.17723/0360-9081-84.2.355" target="_blank">https://doi.org/10.17723/0360-9081-84.2.355</a>
-* Jacquarie, C., Berdini, A., Peltzman, S., & Tasker, K. (2018). Describing Digital: The Design and Creation of a Born-Digital Archival Description Standard at the University of California Libraries. Journal of Western Archives, 9(1), 1-24. Retrieved from <a href="https://digitalcommons.usu.edu/westernarchives/vol9/iss1/10/" target="_blank">https://digitalcommons.usu.edu/westernarchives/vol9/iss1/10/</a>
