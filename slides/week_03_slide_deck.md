@@ -167,11 +167,12 @@ style: |
 ---
 
 # Today
-- Reminders/announcements (15)
-- Discuss last week's activity (20)
-- Lecture: Processing Born-Digital Archives (45)
-- Break (10)
-- Start Weekly Activity (70)
+- **Settle in/Reminders/Announcements** (15 min)
+- **Discuss Last Week's Activity** (20 min)
+- **Lecture: Processing Born-Digital Archives** (45 min)
+- **Break** (10 min)
+- **Start Weekly Activity** (70 min)
+- **Wrap up** (10 min)
 
 ---
 

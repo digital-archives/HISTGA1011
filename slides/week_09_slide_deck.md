@@ -167,10 +167,18 @@ style: |
 ---
 
 # Today
-- **Lecture: Automation and Scripting**
-- **Break**
-- **Weekly Activity Discussion**
-- **Start Weekly Activity**
+- **Settle in/Reminders/Announcements** (15 min)
+- **Discuss Last Week's Activity** (20 min)
+- **Lecture: Automation and Scripting** (45 min)
+- **Break** (10 min)
+- **Start Weekly Activity** (70 min)
+- **Wrap up** (10 min)
+
+---
+
+# Announcements
+
+_Feel free to email me with any announcements you would like me to boost (upcoming conferences, webinars, trainings, or other events/topics of interest)._
 
 ---
 
@@ -404,8 +412,8 @@ That said, commands that appear similar from one shell to another may actually b
 
 <div class="shapes">
   <div class="triangle"></div>
-  <span class="circle"></span>
-  <span class="square"></span>
+  </span>
+  </span>
 </div>
 
 <div class="activity-title">Mini Activity - Shell Switch</div>
@@ -621,8 +629,8 @@ Let’s look at a real rsync command used by the Johns Hopkins University Archiv
 
 <div class="shapes">
   <div class="triangle"></div>
-  <span class="circle"></span>
-  <span class="square"></span>
+  </span>
+  </span>
 </div>
 
 <div class="activity-title">Mini Activity - Pseudocode</div>
@@ -688,11 +696,11 @@ Take a minute or two to look at the chunk of code on screen, and write out what 
 
 <!-- Syntax Highlighting -->
 <div class="code-block">
-  <br>$ <span class="highlight purple">rsync</span> 
-  <span class="highlight green">-av</span> 
-  <span class="highlight orange">--progress</span> 
-  <span class="highlight red">12345-bag.tar</span> 
-  <span class="highlight cyan">/mnt/sam/archiveimages/electronic-records/</span>
+  <br>$ rsync</span> 
+  -av</span> 
+  --progress</span> 
+  12345-bag.tar</span> 
+  /mnt/sam/archiveimages/electronic-records/</span>
 </div>
 
 <!-- Explanation Table -->

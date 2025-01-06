@@ -22,10 +22,18 @@ style: |
 ---
 
 # Today
-- **Lecture: Open Archival Information System (OAIS)**
-- **Break**
-- **Weekly Activity Discussion: Data Object**
-- **Start weekly activity: Format Encounters RPG**
+- **Settle in/Reminders/Announcements** (15 min)
+- **Discuss Last Week's Activity** (20 min)
+- **Lecture: Open Archival Information System (OAIS)** (45 min)
+- **Break** (10 min)
+- **Start Weekly Activity** (70 min)
+- **Wrap up** (10 min)
+
+---
+
+# Announcements
+
+_Feel free to email me with any announcements you would like me to boost (upcoming conferences, webinars, trainings, or other events/topics of interest)._
 
 ---
 

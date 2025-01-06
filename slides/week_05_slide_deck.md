@@ -28,12 +28,19 @@ style: |
 
 ---
 
+# Today
+- **Settle in/Reminders/Announcements** (15 min)
+- **Discuss Last Week's Activity** (20 min)
+- **Lecture: Digital Preservation Storage Systems** (45 min)
+- **Break** (10 min)
+- **Start Weekly Activity** (70 min)
+- **Wrap up** (10 min)
+
+---
+
 # Announcements
 
-- **Lecture: Digital Preservation Storage Systems**
-- **Break**
-- **Share: Tech Stack Slides**
-- **In-class activity: Archivematica Sandbox**
+_Feel free to email me with any announcements you would like me to boost (upcoming conferences, webinars, trainings, or other events/topics of interest)._
 
 ---
 

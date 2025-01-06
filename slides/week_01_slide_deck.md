@@ -21,11 +21,13 @@ style: |
 ---
 
 # Today
-- **Welcome and introductions**
-- **Review the syllabus**
-- **Break**
-- **Lecture: Digital information basics**
-- **Start weekly activity: Data Object**
+- **Settle in/Reminders/Announcements** (15 min)
+- **Introductions** (10 min)
+- **Syllabus Review** (10 min)
+- **Lecture: Data Object Basics** (45 min)
+- **Break** (10 min)
+- **Start Weekly Activity** (70 min)
+- **Wrap up**
 
 ---
 

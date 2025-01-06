@@ -45,10 +45,18 @@ style: |
 ---
 
 # Today
-* **Announcements**
-* **Lecture: Digital Preservation Metadata**
-* **Break**
-* **Start weekly activity: Digital Preservation Metadata**
+- **Settle in/Reminders/Announcements** (15 min)
+- **Discuss Last Week's Activity** (20 min)
+- **Lecture: Digital Preservation Metadata** (45 min)
+- **Break** (10 min)
+- **Start Weekly Activity** (70 min)
+- **Wrap up** (10 min)
+
+---
+
+# Announcements
+
+_Feel free to email me with any announcements you would like me to boost (upcoming conferences, webinars, trainings, or other events/topics of interest)._
 
 ---
 

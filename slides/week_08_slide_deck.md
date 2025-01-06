@@ -166,6 +166,22 @@ style: |
 
 ---
 
+# Today
+- **Settle in/Reminders/Announcements** (15 min)
+- **Discuss Last Week's Activity** (20 min)
+- **Lecture: Access and Discovery** (45 min)
+- **Break** (10 min)
+- **Start Weekly Activity** (70 min)
+- **Wrap up** (10 min)
+
+---
+
+# Announcements
+
+_Feel free to email me with any announcements you would like me to boost (upcoming conferences, webinars, trainings, or other events/topics of interest)._
+
+---
+
 # Recap: Digitization
 
 _Metadata-driven digital preservation workflow_
@@ -388,8 +404,8 @@ These takeaways were derived from Joyce Celeste Chapman’s article “Observing
 
 <div class="shapes">
   <div class="triangle"></div>
-  <span class="circle"></span>
-  <span class="square"></span>
+  </span>
+  </span>
 </div>
 
 <div class="activity-title">Mini Activity - Part 1</div>
@@ -406,8 +422,8 @@ These takeaways were derived from Joyce Celeste Chapman’s article “Observing
 
 <div class="shapes">
   <div class="triangle"></div>
-  <span class="circle"></span>
-  <span class="square"></span>
+  </span>
+  </span>
 </div>
 
 <div class="activity-title">Mini Activity - Part 2</div>
@@ -422,8 +438,8 @@ These takeaways were derived from Joyce Celeste Chapman’s article “Observing
 
 <div class="shapes">
   <div class="triangle"></div>
-  <span class="circle"></span>
-  <span class="square"></span>
+  </span>
+  </span>
 </div>
 
 <div class="activity-title">Mini Activity - Part 3</div>
@@ -537,8 +553,8 @@ Most institutions’ accessibility expectations will be informed by federal law,
 
 <div class="shapes">
   <div class="triangle"></div>
-  <span class="circle"></span>
-  <span class="square"></span>
+  </span>
+  </span>
 </div>
 
 <div class="activity-title">Activity - Accessibility Review</div>
