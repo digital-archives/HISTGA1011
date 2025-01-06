@@ -457,19 +457,8 @@ E. Metal frame that holds everything together
 <img src="img/week_12_dc_memory_lab.png" alt="Photo of the DC Public Memory Lab, featuring a transfer rack, flatbed scanner, desk and dedicated workstation." style="width: 100%; height: auto;">
 
 ---
-<div class="mermaid">
-graph TD
-    A["VHS: BNC/video monitor output"] -->|"BNC cable"| B["CRT Monitor: BNC input"]
-    C["VHS: S-Video output (video)"] -->|"S-Video cable"| D["Time-Based Corrector (TBC): S-Video input"]
-    D -->|"Component output"| E["BlackMagic (A-D): Component input (video)"]
-    F["VHS: XLR output (audio)"] -->|"XLR cable"| E
-    E -->|"Thunderbolt output"| G["Apple Computer: Thunderbolt input"]
-</div>
 
-
----
-
-<img src="img/week_12_wiring_vhs_01.jpg" alt="Wiring diagram for digitizing VHS, showing the VHS connected to a CRT monitor, Time-based corrector, a BlackMagic A-D, and finally, the workstation." style="width: 100%; height: auto;">
+<img src="img/week_12_vhs_wiring.svg" alt="VHS Digitization Wiring Diagram" width="80%">
 
 <!--presenter notes
 
