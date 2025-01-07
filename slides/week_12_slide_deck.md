@@ -6,167 +6,167 @@ paginate: true
 mermaid: true
 
 style: |
-  img {
-  max-width: 100%;
-  max-height: 100%;
-  height: auto;
-  width: auto;
-  display: block;
-  margin: 0 auto;
-  }
+ img {
+ max-width: 100%;
+ max-height: 100%;
+ height: auto;
+ width: auto;
+ display: block;
+ margin: 0 auto;
+ }
 
-  .mermaid {
-  max-width: 100%;
-  overflow: hidden;
-  }
+ .mermaid {
+ max-width: 100%;
+ overflow: hidden;
+ }
 
-  .custom-title {
-  text-align: center;
-  font-size: 2rem;
-  color: #0044cc;
-  font-weight: bold;
-  }
-  
-  table, td, th, ul {
-    background: rgba(0, 0, 0, 0) !important;
-    border: none !important;
-  }
+ .custom-title {
+ text-align: center;
+ font-size: 2rem;
+ color: #0044cc;
+ font-weight: bold;
+ }
+ 
+ table, td, th, ul {
+ background: rgba(0, 0, 0, 0) !important;
+ border: none !important;
+ }
 
-  .pink-box {
-    background-color: #d184c2;
-    color: white;
-    padding: 20px;
-    border-radius: 5px;
-    font-weight: bold;
-    text-align: center;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-  }
+ .pink-box {
+ background-color: #d184c2;
+ color: white;
+ padding: 20px;
+ border-radius: 5px;
+ font-weight: bold;
+ text-align: center;
+ box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+ }
 
-  .green-box {
-    background-color: #a2c9a5;
-    padding: 20px;
-    border-radius: 5px;
-    font-weight: bold;
-    text-align: center;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    margin: 10px;
-  }
+ .green-box {
+ background-color: #a2c9a5;
+ padding: 20px;
+ border-radius: 5px;
+ font-weight: bold;
+ text-align: center;
+ box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+ margin: 10px;
+ }
 
-  .description {
-    padding: 20px;
-    text-align: left;
-    font-size: 18px;
-    margin-top: 10px;
-  }
+ .description {
+ padding: 20px;
+ text-align: left;
+ font-size: 18px;
+ margin-top: 10px;
+ }
 
-  .row {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 20px;
-  }
+ .row {
+ display: flex;
+ justify-content: space-around;
+ margin-bottom: 20px;
+ }
 
-  .quote {
-    font-size: 1.5rem;
-    font-style: italic;
-    text-align: left;
-    line-height: 1;
-    color: #4a4a4a;
-    margin: 0 auto;
-    width: 100%;
-  }
+ .quote {
+ font-size: 1.5rem;
+ font-style: italic;
+ text-align: left;
+ line-height: 1;
+ color: #4a4a4a;
+ margin: 0 auto;
+ width: 100%;
+ }
 
-  .author {
-    font-size: 1.0rem;
-    text-align: right;
-    margin-top: 20px;
-    color: #6a6a6a;
-  }
+ .author {
+ font-size: 1.0rem;
+ text-align: right;
+ margin-top: 20px;
+ color: #6a6a6a;
+ }
 
-  .work {
-    font-size: 1rem;
-    text-align: right;
-    color: #8a8a8a;
-  }
+ .work {
+ font-size: 1rem;
+ text-align: right;
+ color: #8a8a8a;
+ }
 
-  .slide-title {
-    text-align: center;
-    color: #2e7d32;     font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 30px;
-  }
-  
-  .takeaway {
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: 20px;
-    gap: 15px;
-  }
+ .slide-title {
+ text-align: center;
+ color: #2e7d32;  font-size: 2rem;
+ font-weight: bold;
+ margin-bottom: 30px;
+ }
+ 
+ .takeaway {
+ display: flex;
+ align-items: flex-start;
+ margin-bottom: 20px;
+ gap: 15px;
+ }
 
-  .circle {
-    background-color: #2e7d32;     color: white;
-    font-size: 1.5rem;
-    font-weight: bold;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    flex-shrink: 0;
-  }
-  .content {
-    flex-grow: 1;
-  }
-  .content h2 {
-    margin: 0;
-    color: #2e7d32;     font-size: 1.2rem;
-  }
-  .content p {
-    margin: 5px 0 0;
-    font-size: 1rem;
-    color: #4a4a4a;   }
+ .circle {
+ background-color: #2e7d32;  color: white;
+ font-size: 1.5rem;
+ font-weight: bold;
+ width: 50px;
+ height: 50px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-radius: 50%;
+ flex-shrink: 0;
+ }
+ .content {
+ flex-grow: 1;
+ }
+ .content h2 {
+ margin: 0;
+ color: #2e7d32;  font-size: 1.2rem;
+ }
+ .content p {
+ margin: 5px 0 0;
+ font-size: 1rem;
+ color: #4a4a4a; }
 
-  .activity-title {
-    text-align: center;
-    color:rgb(144, 0, 255);     font-size: 2rem;
-    margin-bottom: 20px;
-    font-weight: bold;
-  }
-  .shapes {
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  .shapes span {
-    display: inline-block;
-    margin: 0 10px;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-  }
-  .triangle {
-    width: 0;
-    height: 0;
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
-    border-bottom: 30px solid #ffb347;     display: inline-block;
-    margin: 0 10px;
-  }
-  .circle {
-    background-color: #00c0ff;   }
-  .square {
-    width: 30px;
-    height: 30px;
-    background-color: #ff6767;   }
-  .activity-list {
-    font-size: 1.1rem;
-    line-height: 1.1;
-    color:rgb(81, 0, 168);     margin-left: 20px;
-  }
-  .activity-list li {
-    margin-bottom: 10px;
-  }
-  .activity-list li strong {
-    color:rgb(235, 133, 133);   }
+ .activity-title {
+ text-align: center;
+ color:rgb(144, 0, 255);  font-size: 2rem;
+ margin-bottom: 20px;
+ font-weight: bold;
+ }
+ .shapes {
+ text-align: center;
+ margin-bottom: 30px;
+ }
+ .shapes span {
+ display: inline-block;
+ margin: 0 10px;
+ width: 30px;
+ height: 30px;
+ border-radius: 50%;
+ }
+ .triangle {
+ width: 0;
+ height: 0;
+ border-left: 15px solid transparent;
+ border-right: 15px solid transparent;
+ border-bottom: 30px solid #ffb347;  display: inline-block;
+ margin: 0 10px;
+ }
+ .circle {
+ background-color: #00c0ff; }
+ .square {
+ width: 30px;
+ height: 30px;
+ background-color: #ff6767; }
+ .activity-list {
+ font-size: 1.1rem;
+ line-height: 1.1;
+ color:rgb(81, 0, 168);  margin-left: 20px;
+ }
+ .activity-list li {
+ margin-bottom: 10px;
+ }
+ .activity-list li strong {
+ color:rgb(235, 133, 133); }
 
 ---
 
@@ -244,9 +244,9 @@ This is a diagram of a waveform, showing its characteristics likes peaks and tro
 
 ![Scanning Electron Microscopy image of the record "je t'aime...moi non plus" with Jane Birkin and Serge Gainsbourg.](img/week_12_vinyl_grooves.jpg)
 
-**Image Title:** SEM vinyl record  
-**Author:** [Tbraunstein](https://commons.wikimedia.org/wiki/User:Tbraunstein)  
-**Source:** [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:SEM_vinyl_record.jpg)  
+**Image Title:** SEM vinyl record 
+**Author:** [Tbraunstein](https://commons.wikimedia.org/wiki/User:Tbraunstein) 
+**Source:** [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:SEM_vinyl_record.jpg) 
 **License:** [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)
 
 <!--presenter notes
@@ -418,21 +418,21 @@ In addition to a separate audio and video track, was a third track, known as the
 ---
 
 <table style="width: 100%; border-collapse: collapse; background: transparent; border: none;">
-  <tr style="vertical-align: top; border: none;">
-    <td style="padding: 10px; text-align: left; border: none;">
-      <img src="img/week_12_transfer_station.jpg" alt="Black and white illustration of a transfer rack" style="max-width: 100%; height: 600px;">
-    </td>
-    <td style="padding: 10px; text-align: left; border: none;">
-      <strong>General transfer station setup</strong>
-      <ol type="A">
-        <li>Playback deck</li>
-        <li>Monitor and scopes</li>
-        <li>Time-base corrector</li>
-        <li>Analog-to-digital (A to D) converter</li>
-        <li>Metal frame or “rack”</li>
-      </ol>
-    </td>
-  </tr>
+ <tr style="vertical-align: top; border: none;">
+ <td style="padding: 10px; text-align: left; border: none;">
+ <img src="img/week_12_transfer_station.jpg" alt="Black and white illustration of a transfer rack" style="max-width: 100%; height: 600px;">
+ </td>
+ <td style="padding: 10px; text-align: left; border: none;">
+ <strong>General transfer station setup</strong>
+ <ol type="A">
+  <li>Playback deck</li>
+  <li>Monitor and scopes</li>
+  <li>Time-base corrector</li>
+  <li>Analog-to-digital (A to D) converter</li>
+  <li>Metal frame or “rack”</li>
+ </ol>
+ </td>
+ </tr>
 </table>
 
 
@@ -458,7 +458,7 @@ E. Metal frame that holds everything together
 
 ---
 
-<img src="img/week_12_vhs_wiring.svg" alt="VHS Digitization Wiring Diagram" width="80%">
+<img src="img/week_12_vhs_wiring.svg" alt="SVG diagram of how a VHS playback deck is connected to transfer station devices to create a digital file." style="width: 50%; height: auto;">
 
 <!--presenter notes
 
@@ -503,104 +503,190 @@ Another common type of scope is known as a waveform monitor, which gives us info
 
 ---
 
-![](img/week13slides53.jpg)
+## Device
+# Time-Based Corrector (TBC)
+
+A **time-based corrector (TBC)** is used to correct errors in the timing of analog video signals caused by physical degradation/warping of the tape or playback equipment. TBCs use a stable reference signal to retime the incoming video signal and stabilizes the synchronization signals, ensuring the image is displayed correctly without distortion.
+
+<!--presenter notes
+
+The VHS deck is wired to a device known as a time-based corrector or TBC. A TBC is used to correct errors in the timing of analog video signals caused by variations in tape speed or aging of playback equipment. The TBC uses a stable reference signal to retime the incoming video signal and stabilizes the synchronization signals, ensuring the image is displayed correctly without distortion. It is a critical component for ensuring high-quality and accurate analog to digital video transfers.
+
+-->
 
 ---
 
-Next, we see that the VHS deck is wired to a time-based corrector or TBC. A TBC is used to correct errors in the timing of analog video signals caused by variations in tape speed or aging of playback equipment. The TBC uses a stable reference signal to retime the incoming video signal and stabilizes the synchronization signals, ensuring the image is displayed correctly without distortion. It is a critical component for ensuring high-quality and accurate analog to digital video transfers.
+![Time-base Corrector (TBC) device](img/week_12_tbc.png)
 
+<!--presenter notes
 
-Time-base Corrector (TBC)
+This is what one type of TBC looks like. Very unassuming... yet powerful! TBCs can be purchased as an external device (as they did for the DC Memory Lab) but sometimes can come pre-installed within certain playback decks.
 
-![](img/week13slides54.png)
-
----
-
-This is what one type of TBC looks like. TBCs can be purchased as an external device (as they did for the DC Memory Lab) but sometimes can come pre-installed within certain playback decks.
-
-
-![](img/week13slides55.png)
+-->
 
 ---
 
-The connection between the VHS and TBC is through an S-Video connection. S stands for “separate”-video, and carries over video signal information to do with brightness and color saturation information.
+![Blackmagic brand analog-to-digital converter](img/week_12_blackmagic.png)
 
+<!--presenter notes
 
-![](img/week13slides56.jpg)
-
----
+Image credit: Duke University blog post Digitization Details: Thunderbolts, Waveforms & Black Magic: https://blogs.library.duke.edu/bitstreams/2014/06/19/digitization-details-thunderbolts-waveforms-black-magic/
 
 Notice how the VHS playback deck is wired via the time-base corrector to the Analog-to-Digital converter, while the VHS audio signal is routed directly to the A-to-D. We will talk about why this is in a second. But first, let’s talk about what the A-to-D is. The A-to-D does exactly what its name suggests: it converts the analog signal into a digital signal, which can ultimately be read and turned into a digital file on a computer (and as you can see, the next stop after the A to D is a computer).
 
 So why is the VHS playback deck wired to the A-D via the TBC, but the audio is routed separately? This is done to improve the quality of the video signal captured. TBC’s sometimes introduce a slight delay in the video signal while its doing its “correcting”, which can cause the audio and video to become out of sync if they are passed through the TBC together. To avoid this issue, the audio signal can be routed directly to the A to D device, bypassing the TBC. This ensures that the audio and video remain in sync, while still allowing the video signal to be corrected by the TBC.
 
-
-![](img/week13slides57.png)
-
-Image credit: Duke University blog post “  [Digitization Details: Thunderbolts, Waveforms & Black Magic](https://blogs.library.duke.edu/bitstreams/2014/06/19/digitization-details-thunderbolts-waveforms-black-magic/)  ”
+-->
 
 ---
 
-This is what a Blackmagic A-to-D looks like. One thing to notice here is the wiring. On the left hand side, you see three cables, one green, one blue and one red. These comprise a type of component cable that carry over video signal information. The green cable carries brightness or “chrominance” information, while the red and blue cables carry over color or “chrominance” information. On the right-hand side, we
+<img src="img/week_12_vrecord.png" alt="Screen capture of the capture software vrecord." style="width: 100%; height: auto;">
 
-![](img/week13slides58.jpg)
-
----
+<!--presenter notes
 
 Lastly, let’s talk about the computer, which represents the end of the road for the video signal, but the beginning of everything else in terms of digital preservation workflows.
 
 In the DC Memory Lab setup, the computer comes with a number of different software programs installed.
 
-
-
- Capture Software: vrecord 
-
-![](img/week13slides59.png)
-
----
-
 With any computer that is being used to capture a digital signal and turn it into a digital file, you need to use some sort of capture software. DC Memory Lab uses BlackMagic Media Express. There are many types of software that can be used for a setup. One tool I have used recently is known as vrecord. This is a screen capture of what you see when you open up record. Here, you establish settings to do with which folder you’re placing the final file, the file format, the codec, bit depth, whether to generate frame-level MD5 checksums, metadata XML outputs, and other settings.
 
 Once you click the “OK” button, you would then press play on your VHS or other playback deck, you would first run what’s known as a “pass through” to just test whether or not the signal coming out of the video is looking and sounding ok. Once you’re done checking, you would rewind the tape back to the beginning, press play on the deck, press ok in vrecord, and run the capture.
 
-![](img/week13slides60.gif)
-
-Audio/Visual 
-
-Preservation Files
+-->
 
 ---
 
-Now that we have an understanding of how analog video works, we can move into talking about how to set up a transfer lab or station to digitize analog tapes.
-
-[Ashley Blewer](https://ashleyblewer.com/)  ’s audio/visual tutorial site:   [training.ashleyblewer.com](https://training.ashleyblewer.com/)
-
-This work is licensed under a   [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/)  .
+<img src="img/week_12_vrecord_video.gif" style="height: 100%" alt="Animated gif showing a live transfer of a VHS tape.">
 
 ---
 
-Much of what I am about to talk about next is directly derived / remixed from Ashley Blewer’s audio/visual training website (https://training.ashleyblewer.com/). This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License which allows me to do this, contingent on me giving credit where credit istdt due.
+# Audio/Visual Preservation Files
+
+For this portion of lecture we will be looking at [Ashley Blewer](https://ashleyblewer.com/)’s audio/visual tutorial site: **[training.ashleyblewer.com](https://training.ashleyblewer.com/)**
+
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/) .
+
+<!--presenter notes
+
+Much of what I am about to talk about next is directly derived/remixed from Ashley Blewer’s audio/visual training website (https://training.ashleyblewer.com/). This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License which allows me to do this, contingent on me giving credit where credit istdt due.
 
 I highly recommend you check this site out and if you are interested/have the capacity, step through it in its entirety or through one or more of the independent study paths to do with digital or audio/visual preservation. Ashley is a brilliant teacher, and has made tutorials readily available for anyone, free of charge.
 
-
-“\[A media\] \[file\] is made up of   streams  , wrapped in a   container  , and some of those streams are encoded with a   codec  .”
-
-Ashley Blewer
+-->
 
 ---
 
-What does a digital video file consist of? In Ashley’s tutorial, she explains a video file’s contents “made up of streams, wrapped in a container, and some of those streams are encoded with a codec.” Let’s talk about what she means by streams, containers, and codecs.
+# Let's unpack this sentence
+“A media file is made up of **streams**, wrapped in a **container**, and some of those streams are encoded with a **codec**.”
 
-Tells you what the container is
+<!--presenter notes
+
+What does a media file consist of? In Ashley’s tutorial, she explains a video file’s contents “made up of streams, wrapped in a container, and some of those streams are encoded with a codec.” Let’s talk about what she means by streams, containers, and codecs.
+
+-->
 
 ---
 
-Media files are complicated things, because they contain much more than just information about video or audio. So, when we refer to a media “format”, we are actually talking about two things. The first is the container, the thing that holds all of a media file’s components together, and the codec, which describes how the various components are encoded or can be decoded by media players.
+<!-- Media File Diagram -->
+<style>
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        font-size: 28px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    .box {
+        padding: 15px 25px;
+        border-radius: 8px;
+        font-weight: bold;
+        text-align: center;
+        min-width: 200px;
+        position: relative;
+        font-size: 30px;
+    }
+    .file { background-color: #e67e22; color: white; }
+    .container-box { background-color: #27ae60; color: white; min-width: 260px; }
+    .codec { background-color: #e57373; color: white; min-width: 280px; }
 
-The first “rule” to know is that, in order to determine a media file’s container, is to just look at the file format extension. However, it is not possible to look at a media file and determine, outright, its codec(s), which is sometimes confusing because sometimes the name of a file’s container can match its respective codecs.
+    /* Symbols */
+    .equals, .plus { font-size: 36px; }
+
+    /* Descriptions */
+    .description {
+        font-size: 22px;
+        font-weight: normal;
+        text-align: center;
+        color: black;
+        margin-top: 8px;
+        background: rgba(255, 255, 255, 0.6);
+        padding: 6px;
+        border-radius: 5px;
+    }
+
+    /* File name under Media File */
+    .filename {
+        margin-top: 10px;
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    /* Bullet Lists Inside Boxes */
+    .container-box ul, .codec ul {
+        list-style-type: disc;
+        text-align: left;
+        font-size: 24px;
+        margin-top: 10px;
+        padding-left: 20px;
+    }
+</style>
+
+<!-- Main Structure -->
+<div class="container">
+    <div class="box file">Media File
+        <div class="description">Example: MyMovie.mp4</div>
+    </div>
+    <div class="equals">=</div>
+    <div class="box container-box">Container
+        <div class="description">AKA "wrapper": holds streams</div>
+        <ul>
+            <li>MP4</li>
+            <li>AVI</li>
+            <li>MKV</li>
+            <li>MOV</li>
+            <li>WAV</li>
+            <li>FLAC</li>
+            <li>MP3</li>
+            <li>OGG</li>
+        </ul>
+    </div>
+    <div class="plus">+</div>
+    <div class="box codec">Encoded Streams
+        <div class="description">AKA Codec: Compresses & decompresses</div>
+        <ul>
+            <li>Metadata</li>
+            <li>Video</li>
+            <li>Audio</li>
+            <li>Subtitles/Text</li>
+            <li>Chapters</li>
+        </ul>
+    </div>
+</div>
 
 
+<!--presenter notes
+
+Media files are complicated things, because they contain much more than just information about video or audio. So, when we refer to a media file, we are actually talking about two things. The first is the container, the thing that holds all of a media file’s components together into one logical package, and the streams, which are basically other files that make up the package: for example, the audio track, the file that lists the chapters (if it's a DVD), title screen, the actual video, and anything else. We will talk about codecs in just a second.
+
+The first “rule” to know is that, in order to determine a media file’s container, is to just look at the file format extension. However, it is not possible to look at a media file and determine, outright, its codec(s), which is sometimes confusing because sometimes the name of a file’s container can match its codecs.
+
+-->
+
+
+---
 Container / aka format / aka wrapper
 
 Streams:
@@ -633,13 +719,17 @@ MP3
 
 OGG
 
----
+<!--presenter notes
 
 The container contains all of the files that make up a single media file, and also establish the appropriate file extension for it. The contents of a container are sometimes referred to as “streams”. Streams can take on the form of distinct files, or metadata. Streams can include the video and audio files, and any metadata to do with things like bitrate, type, resolution, provenance like time of creation, subtitles and chapters. The extent and availability of streams for any particular container is contingent on the parameters of the container. So a container is not just a thing that has stuff in it, containers have rules about what it carries. So for example, if we looked at the MP4 wiki, and scroll down to the data streams section, you’ll see a list of all the various streams the MP4 container type includes. For MP4s, it is video, audio, and subtitles.
 
 The individual streams themselves, in particular, the video and audio streams, and compressed or decompressed using what are known as codecs.
 
 See: https://en.wikipedia.org/wiki/Comparisonofvideocontainerformats
+
+-->
+
+---
 
 
 Definition: Codec
@@ -674,7 +764,7 @@ Chapters
 
 Let’s take a look at one example of a container–an MP4–and the type of codecs it expects to contain. The MP4 the video stream generally will use the H.265 codec. The audio stream uses another audio file-specific codec, known as Advanced Audio Coding or AAC (to see a list of codecs specific to the MP4 container, you can easily see them listed on the MP4 Wiki).
 
-Definition:   Lossless compression
+Definition: Lossless compression
 
 A method of reducing the size of a digital file without losing any data or quality.
 
@@ -686,7 +776,7 @@ Run-length encoding: This technique is used for data that contains long runs of 
 Huffman coding: This technique involves assigning shorter codes to more frequently occurring data values, and longer codes to less frequent ones. This results in a more efficient representation of the data.
 
 
-Definition:   Lossy compression
+Definition: Lossy compression
 
 A method of reducing the size of a digital file by discarding some of the original data. This type of compression works by removing information that is deemed less important or perceptually irrelevant, in order to achieve higher levels of compression.
 
@@ -708,7 +798,7 @@ Lossy compression example: MP3
 
 ---
 
-MP3, which stands for “MPEG-1 Audio Layer 3” is a type of lossy codec. It uses what is known as perceptual audio coding compression technology based on imperfections in how the human ear perceives sound.  An underlying data algorithm is programmed to discern and effectively filter out what it knows our ears cannot hear like super high-end or low-end frequencies.
+MP3, which stands for “MPEG-1 Audio Layer 3” is a type of lossy codec. It uses what is known as perceptual audio coding compression technology based on imperfections in how the human ear perceives sound. An underlying data algorithm is programmed to discern and effectively filter out what it knows our ears cannot hear like super high-end or low-end frequencies.
 (although I personally cannot hear the difference between a lossless and lossy compression audio codec, some engineers I have talked to say that they can!)
 
 ![](img/week13slides65.png)
@@ -743,11 +833,11 @@ Menus
 
 [https://www.matroska.org/technical/basics.html](https://www.matroska.org/technical/basics.html)
 
-An open-source,   lossless   video compression format developed by the ffmpeg project.
+An open-source, lossless video compression format developed by the ffmpeg project.
 
 Free Lossless Audio Codec (FLAC)
 
-An open-source,   lossless   audio compression format developed by the ffmpeg project.
+An open-source, lossless audio compression format developed by the ffmpeg project.
 
 ---
 
@@ -797,17 +887,17 @@ You can read more about magnetic tape degradation in Richard Hess’ paper “Ta
 Tapes get a lot of attention in the world of a/v preservation. However, there are later recording carrier, such as the MiniDisc, that had their own issues to do with proprietary codecs. The image you see here was taken by me 5 years ago when I worked as a resident at the NYPR Archive, which had over 3,000 MD-Rs in its holdings. Sizeable chunks of long-time WNYC reporter’s careers are stored in MD-R format. What you see here is a photograph of an MD-R I pulled out of a box at random, a Hillary Clinton Press Briefing from 13 years ago.
 
 Reporters used MiniDiscs in the early 2000s primarily, for a number of reasons.
-MiniDisc dimensions were approximately 2.75” tall x 2.65" wide and 0.18" thick and weighed in at around 0.6 oz.  So they were small.  Their portability appealed to reporters running around in the field trying to capture sound bytes for newscasts on deadline.
-For being so small, MD-Rs could pack in a lot of data.  Earlier versions of MD-Rs could store up to 160 megabytes - or 74 minutes - of CD-quality audio: later versions offered up to 80 minutes of audio.  And for the most part, the sound was considered as good as CD quality.
-Also, MiniDiscs were fast: a reporter could record, erase, rewrite and rename tracks with a few presses of a button.  This was preferred over compact cassettes, where you would have to sit and wait for a tape to fast-forward or rewind.
+MiniDisc dimensions were approximately 2.75” tall x 2.65" wide and 0.18" thick and weighed in at around 0.6 oz. So they were small. Their portability appealed to reporters running around in the field trying to capture sound bytes for newscasts on deadline.
+For being so small, MD-Rs could pack in a lot of data. Earlier versions of MD-Rs could store up to 160 megabytes - or 74 minutes - of CD-quality audio: later versions offered up to 80 minutes of audio. And for the most part, the sound was considered as good as CD quality.
+Also, MiniDiscs were fast: a reporter could record, erase, rewrite and rename tracks with a few presses of a button. This was preferred over compact cassettes, where you would have to sit and wait for a tape to fast-forward or rewind.
 
 ![](img/week13slides70.jpg)
 
 ---
 
 Some more advantages:
-The magnetic recorded area was sandwiched into a double-shuttered protective plastic cartridge.  So, unlike their CD cousins, you didn’t have to worry about accidentally scratching or smudging the disc.
-MDs also offered shock resistance.  I am sure some of you in this audience at one point or another owned a CD Walkman.  You may remember having to hold the Walkman still on a shaky bus ride or in your car in order to prevent the audio signal from “skipping”, which was a huge pain in the neck.  MD technology solved this problem by reading the data into a memory buffer at a higher speed than was required before being read out to the digital-to-analog converter.
+The magnetic recorded area was sandwiched into a double-shuttered protective plastic cartridge. So, unlike their CD cousins, you didn’t have to worry about accidentally scratching or smudging the disc.
+MDs also offered shock resistance. I am sure some of you in this audience at one point or another owned a CD Walkman. You may remember having to hold the Walkman still on a shaky bus ride or in your car in order to prevent the audio signal from “skipping”, which was a huge pain in the neck. MD technology solved this problem by reading the data into a memory buffer at a higher speed than was required before being read out to the digital-to-analog converter.
 
 ![](img/week13slides71.jpg)
 
@@ -819,11 +909,11 @@ MDs also offered shock resistance.  I am sure some of you in this audience at on
 
 ---
 
-MD-Rs employed “magneto-optical” recording and playback technology. So, how does “magneto-optical” recording and storage technology work?  Simply put:
+MD-Rs employed “magneto-optical” recording and playback technology. So, how does “magneto-optical” recording and storage technology work? Simply put:
 When recording, a laser heats a spot on the recording layer to a specific temperature.
-While this is happening, a head in contact with the other side of the disc bathes the heated spot in a magnetic field.  The magnetic particle’s orientation corresponds to 0s and 1s in the data.
+While this is happening, a head in contact with the other side of the disc bathes the heated spot in a magnetic field. The magnetic particle’s orientation corresponds to 0s and 1s in the data.
 Once the heat is taken away, the particles are frozen into position.
-And that is how you record an audio signal into the MD substrate.  To erase an old recording and record something new, simply re-heat and re-bathe the area in a new magnetic field.
+And that is how you record an audio signal into the MD substrate. To erase an old recording and record something new, simply re-heat and re-bathe the area in a new magnetic field.
 During playback the MD machine focuses the laser on the same spot again, but at lower power, and the data is read back by measuring changes in polarization of light reflected from the previously magnetized regions.
 
 ![](img/week13slides75.gif)
@@ -836,7 +926,7 @@ During playback the MD machine focuses the laser on the same spot again, but at 
 
 ---
 
-Sony developed a special perceptual audio codec for MDs called Adaptive Transform Acoustic Coding or ATRAC.  ATRAC effectively reduced a 16-bit stereo sample into 292 kbps: a fifth less than of the original data rate with minimal reduction in sound quality.  Without ATRAC, an MD-R could store only about 15 minutes of recorded audio.
+Sony developed a special perceptual audio codec for MDs called Adaptive Transform Acoustic Coding or ATRAC. ATRAC effectively reduced a 16-bit stereo sample into 292 kbps: a fifth less than of the original data rate with minimal reduction in sound quality. Without ATRAC, an MD-R could store only about 15 minutes of recorded audio.
 
 ![](img/week13slides79.gif)
 
@@ -853,10 +943,10 @@ Sony developed a special perceptual audio codec for MDs called Adaptive Transfor
 ---
 
 To understand consumer frustration with minidiscs, it’s good to know a little history of the development of MD technology.
-In 1992, MD products were released to the consumer market.  At this time, there was no way you could transfer ATRAC data from the Walkman to your computer and visa versa. Your only option was to transfer audio in real-time which is a huge pain in the neck, because they take a long time, and you lose all sorts of metadata, like track information.
-In 2001, Sony released a the MZ-N1 portable recorder equipped with so-called “NetMD interface” technology.  NetMD players came equipped with a USB socket.  In conjunction with proprietary music library management software (initially, this was OpenMG Jukebox, which was later superseded by SonicStage), users could transfer ATRAC data from their PC to an MD over a USB connection in faster than real-time.
-However, users could not transfer ATRAC data from a NetMD player to their PC.  This one-way transfer protocol was deliberately built into NetMD technology to prevent commercial recordings from being freely distributed over networks.  However, this also prevented someone like me from being able to transfer my own personal recordings into my own computer.
-In response to user frustruation over these restrictions, in 2004, Sony released another update: The Hi-MD player, along with SonicStage 3.4.  Both could distinguish between tracks that were personally recorded using the microphone input and those recorded for mass sale and distribution.  Users were finally allowed to transfer personally recorded material from their MD player to their computer and convert the ATRAC data into WAV format.
+In 1992, MD products were released to the consumer market. At this time, there was no way you could transfer ATRAC data from the Walkman to your computer and visa versa. Your only option was to transfer audio in real-time which is a huge pain in the neck, because they take a long time, and you lose all sorts of metadata, like track information.
+In 2001, Sony released a the MZ-N1 portable recorder equipped with so-called “NetMD interface” technology. NetMD players came equipped with a USB socket. In conjunction with proprietary music library management software (initially, this was OpenMG Jukebox, which was later superseded by SonicStage), users could transfer ATRAC data from their PC to an MD over a USB connection in faster than real-time.
+However, users could not transfer ATRAC data from a NetMD player to their PC. This one-way transfer protocol was deliberately built into NetMD technology to prevent commercial recordings from being freely distributed over networks. However, this also prevented someone like me from being able to transfer my own personal recordings into my own computer.
+In response to user frustruation over these restrictions, in 2004, Sony released another update: The Hi-MD player, along with SonicStage 3.4. Both could distinguish between tracks that were personally recorded using the microphone input and those recorded for mass sale and distribution. Users were finally allowed to transfer personally recorded material from their MD player to their computer and convert the ATRAC data into WAV format.
 
 ![](img/week13slides85.gif)
 
@@ -866,11 +956,11 @@ In response to user frustruation over these restrictions, in 2004, Sony released
 
 ---
 
-NYPR’s archive owns SonicStage 4.3 and a Hi-MD player.  Yet, when I first plugged in NYPR’s MD Walkman into my work computer to try my first ATRAC data transfer, I could see the tracks listed, but when I clicked on Import, nothing happened.
+NYPR’s archive owns SonicStage 4.3 and a Hi-MD player. Yet, when I first plugged in NYPR’s MD Walkman into my work computer to try my first ATRAC data transfer, I could see the tracks listed, but when I clicked on Import, nothing happened.
 
-I opened up Windows Explorer to see if the player was listed as a drive in the file tree, but nothing appeared, even though when I plugged in the player I would get that little USB connection notification in my toolbar.  What I was experiencing here was a so called “audio/data firewall” that prevents me from being able to directly access my MD.
+I opened up Windows Explorer to see if the player was listed as a drive in the file tree, but nothing appeared, even though when I plugged in the player I would get that little USB connection notification in my toolbar. What I was experiencing here was a so called “audio/data firewall” that prevents me from being able to directly access my MD.
 
-What frustrated me was that I was using all the “right” hardware and software to perform a perfectly legal, innocent MD > PC transfer.  Yet, the software and I had no other way of getting in.
+What frustrated me was that I was using all the “right” hardware and software to perform a perfectly legal, innocent MD > PC transfer. Yet, the software and I had no other way of getting in.
 
 # Linux-minidisc project
 
@@ -878,9 +968,9 @@ What frustrated me was that I was using all the “right” hardware and softwar
 
 ---
 
-The “linux-minidisc project” was started in 2008 by a few developers who decided that they, and I quote, “...want[ed] to create a [way to perform] simple transfer[s]... for HiMD and NetMD Walkm[e]n which will run under [their] preferred operating systems and [that was] free of any of the annoying ‘features’ of the original software.”  They also claim to have started this project as a way to collect and consolidate as much information about MD technology.  The image you see above is their logo.  To date, over 30 people have contributed code to this project.
+The “linux-minidisc project” was started in 2008 by a few developers who decided that they, and I quote, “...want[ed] to create a [way to perform] simple transfer[s]... for HiMD and NetMD Walkm[e]n which will run under [their] preferred operating systems and [that was] free of any of the annoying ‘features’ of the original software.” They also claim to have started this project as a way to collect and consolidate as much information about MD technology. The image you see above is their logo. To date, over 30 people have contributed code to this project.
 
-Today I will be showing you how netmdpython works.  Netmdpython is a collection of Python scripts created by the linux-minidisc project developers that enable users to transmit data directly from an MiniDisc Walkman to their PC over a USB connection.
+Today I will be showing you how netmdpython works. Netmdpython is a collection of Python scripts created by the linux-minidisc project developers that enable users to transmit data directly from an MiniDisc Walkman to their PC over a USB connection.
 
 ![](img/week13slides89.png)
 
@@ -889,50 +979,50 @@ List, count and describe the contents of an MD-R
 
 ---
 
-So, the first script I will show you is called lsmd.py, which is a script that allows you to get a directory listing of what’s inside your MD-R.  To launch it, I type into the terminal prompt “python, space, lsmd.py”.
+So, the first script I will show you is called lsmd.py, which is a script that allows you to get a directory listing of what’s inside your MD-R. To launch it, I type into the terminal prompt “python, space, lsmd.py”.
 
 Once you press enter, a list will appear right below the command.
 Each recorded track appears in sequence and is assigned a track number.
 Next to that is the length of the track.
-Next to that is information about how the track was recorded: so here, “sp” refers to Standard Play, which means it was recorded at a high quality.  Mono indicates it was probably recorded with a microphone through a single channel.
-Lastly, each track is listed as either protected or unprotected.  What this means is that the script can differentiate between whether or not something was recorded personally using the player’s mic input, rather than something commercially recorded in the studio.  Netmdpython can only transfer unprotected tracks and not protected tracks.
+Next to that is information about how the track was recorded: so here, “sp” refers to Standard Play, which means it was recorded at a high quality. Mono indicates it was probably recorded with a microphone through a single channel.
+Lastly, each track is listed as either protected or unprotected. What this means is that the script can differentiate between whether or not something was recorded personally using the player’s mic input, rather than something commercially recorded in the studio. Netmdpython can only transfer unprotected tracks and not protected tracks.
 
-Note that this command doesn’t actually upload any audio data.  However, it’s an easy way to get a manifest of what’s on your MD-R.  I used to check my upload to make sure I got all 63 tracks.  You could also export this list into text file and use it to populate fields in a catalog.
+Note that this command doesn’t actually upload any audio data. However, it’s an easy way to get a manifest of what’s on your MD-R. I used to check my upload to make sure I got all 63 tracks. You could also export this list into text file and use it to populate fields in a catalog.
 
 ![](img/week13slides90.gif)
 
 ---
 
-So, here is lsmd.py in action.  Takes just a few seconds.
+So, here is lsmd.py in action. Takes just a few seconds.
 
 ![](img/week13slides91.png)
 
 # upload.py
-Transfer ATRAC data to PC.  Each track has an *.aea extension.
+Transfer ATRAC data to PC. Each track has an *.aea extension.
 
 ---
 
-Next, I will show you upload.py.  This is the script that actually uploads data off the MD-R over USB onto your computer.
+Next, I will show you upload.py. This is the script that actually uploads data off the MD-R over USB onto your computer.
 
-The screenshot here shows the last two tracks - 62 and 63 - that were transferred.  Each track takes a few seconds to upload depending on how long it is.  You can see in parenthesis the progress each track is making from start to finish.  So this is kind of like, a text-based way of monitoring the status of your transfer.
+The screenshot here shows the last two tracks - 62 and 63 - that were transferred. Each track takes a few seconds to upload depending on how long it is. You can see in parenthesis the progress each track is making from start to finish. So this is kind of like, a text-based way of monitoring the status of your transfer.
 
-The tracks end up on your computer with an AEA extension.  AEA just means ATRAC.
+The tracks end up on your computer with an AEA extension. AEA just means ATRAC.
 
-Something to note: when I first launched the upload script, it didn’t complete the transfer.  It got through about 50 tracks and then just stopped.  So, I unplugged everything and restarted the system, and then, it worked!  But, it wasn’t apparent what had happened and I received no error message.  And it’s happened to me a few times since, even when I was extra careful to not bother the USB cable during the transfer.  So, it’s a little buggy.
+Something to note: when I first launched the upload script, it didn’t complete the transfer. It got through about 50 tracks and then just stopped. So, I unplugged everything and restarted the system, and then, it worked! But, it wasn’t apparent what had happened and I received no error message. And it’s happened to me a few times since, even when I was extra careful to not bother the USB cable during the transfer. So, it’s a little buggy.
 
 ![](img/week13slides92.gif)
 
 ---
 
-Here is a little video of me launching upload.py.  As you can see, it runs through each track and provides a percent status.
+Here is a little video of me launching upload.py. As you can see, it runs through each track and provides a percent status.
 
-for f in \*.aea; do ffmpeg -i "$f" "$\{f%.aea\}.wav";   done
+for f in \*.aea; do ffmpeg -i "$f" "$\{f%.aea\}.wav"; done
 
 ![](img/week13slides93.png)
 
 ---
 
-So, that’s basically it for the netmypython scripts.  And now, you have a folder full of AEA tracks.  What’s great is that the people who developed netmdpython worked together with the people over at ffmpeg to make sure that users of netmdpython could use ffmpeg convert tracks into non-proprietary audio formats.  So, what you see above is the ffmpeg command I would use to convert all AEA tracks in a folder into WAV format.
+So, that’s basically it for the netmypython scripts. And now, you have a folder full of AEA tracks. What’s great is that the people who developed netmdpython worked together with the people over at ffmpeg to make sure that users of netmdpython could use ffmpeg convert tracks into non-proprietary audio formats. So, what you see above is the ffmpeg command I would use to convert all AEA tracks in a folder into WAV format.
 
 ![](img/week13slides94.gif)
 
@@ -952,10 +1042,10 @@ Python \+ command line \+ Git \+ ... = intimidating
 
 ---
 
-So, that’s what netmdpython looks like in action.  What’s great about it is it worked for NYPR!  However, it is not the perfect solution for a number of reasons.
-As I mentioned before, the last MD Walkman was sold in March 2013.  These scripts only work with 2 of the dozens of MD players released onto the market, so if you don’t have the right player, you may have to troll eBay.  Over time, though, these specific players may become rarer and more expensive.
-Also, these scripts only works with certain OS’s and excludes Windows users.  Lots and lots of people and organizations use Windows.
-These scripts are experimental.  Meaning, there’s no guarantee that they will work smoothly, or not break or erase something.  One of the linux-minidisc’s disclaimers is to use netmdpython with quote “toy media only”.  I obviously went against that and took a risk, with my mentor’s permission of course.  But, I must emphasize that this isn’t a widely acceptable archival transfer practice.  I personally haven’t found an example of another archive using these scripts, and going at these things alone is a bit daunting.
+So, that’s what netmdpython looks like in action. What’s great about it is it worked for NYPR! However, it is not the perfect solution for a number of reasons.
+As I mentioned before, the last MD Walkman was sold in March 2013. These scripts only work with 2 of the dozens of MD players released onto the market, so if you don’t have the right player, you may have to troll eBay. Over time, though, these specific players may become rarer and more expensive.
+Also, these scripts only works with certain OS’s and excludes Windows users. Lots and lots of people and organizations use Windows.
+These scripts are experimental. Meaning, there’s no guarantee that they will work smoothly, or not break or erase something. One of the linux-minidisc’s disclaimers is to use netmdpython with quote “toy media only”. I obviously went against that and took a risk, with my mentor’s permission of course. But, I must emphasize that this isn’t a widely acceptable archival transfer practice. I personally haven’t found an example of another archive using these scripts, and going at these things alone is a bit daunting.
 Implementing netmdpython can be intimidating for users who do not know what Python is, are not used to using and installing libraries from git, or using the command line.
 That being said, there is a linux-minidisc project mailing list and an IRC chatroom where you can ask questions.
 
@@ -965,17 +1055,17 @@ That being said, there is a linux-minidisc project mailing list and an IRC chatr
 
 ---
 
-To put things in perspective, we should talk about smartphones.  Have you plugged in your smartphone into your computer by USB lately?  Ever notice that when you peer into your smartphone using your computer, you see maybe 1 folder with just photos and nothing else?  Most of us here today are carrying one of these things in our pockets.  My smartphone contains a lot of personal recordings.  Voice memos, some containing voice memo interviews with NYPR staff for my NDSR report.  And these recordings are mine.
+To put things in perspective, we should talk about smartphones. Have you plugged in your smartphone into your computer by USB lately? Ever notice that when you peer into your smartphone using your computer, you see maybe 1 folder with just photos and nothing else? Most of us here today are carrying one of these things in our pockets. My smartphone contains a lot of personal recordings. Voice memos, some containing voice memo interviews with NYPR staff for my NDSR report. And these recordings are mine.
 
-To get my voice memos off my phone, I have to use iTunes to “sync” my phone data to my computer.  Without iTunes, I can’t see or interact with them in any other way.  iTunes is just another SonicStage.  My voice memos hide behind the same audio data firewall protecting my Taylor Swift MP3s.
+To get my voice memos off my phone, I have to use iTunes to “sync” my phone data to my computer. Without iTunes, I can’t see or interact with them in any other way. iTunes is just another SonicStage. My voice memos hide behind the same audio data firewall protecting my Taylor Swift MP3s.
 
-Reporters at NYPR use voice memos to record from the field.  It’s the standard now.  But what will happen in 50 years and we start using something else besides an iPhone or an Android?  What’s scarier is MDs were a market failure, yet the archive ended up with thousands of MD-Rs.  iPhones are ubiquitous, a market success.  And one day, we may have to break down the doors of our smartphones or our clouds and demand what’s rightfully ours.
+Reporters at NYPR use voice memos to record from the field. It’s the standard now. But what will happen in 50 years and we start using something else besides an iPhone or an Android? What’s scarier is MDs were a market failure, yet the archive ended up with thousands of MD-Rs. iPhones are ubiquitous, a market success. And one day, we may have to break down the doors of our smartphones or our clouds and demand what’s rightfully ours.
 
  In-class activity 
 
  [QC Tools](https://digital-archives.github.io/HISTGA1011/activities/qctools.html) 
 
-QCTools   allows archivists, curators, preservationists and other moving image professionals to identify, filter, and assess all manner of video errors and anomalies. The tool is flexible, providing a variety of viewing options, as well the ability to create and export reports (gzip, or .gz files, formatted according to the ffprobe xml standard).
+QCTools allows archivists, curators, preservationists and other moving image professionals to identify, filter, and assess all manner of video errors and anomalies. The tool is flexible, providing a variety of viewing options, as well the ability to create and export reports (gzip, or .gz files, formatted according to the ffprobe xml standard).
 
 [https://docs.google.com/document/d/1HZbDQkr0mnwTBNMW3fCvaSiUbSbVnKDXlnqDe5NcshM/edit\#](https://docs.google.com/document/d/1HZbDQkr0mnwTBNMW3fCvaSiUbSbVnKDXlnqDe5NcshM/edit#)
 
