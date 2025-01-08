@@ -15,6 +15,68 @@ style: |
  margin: 0 auto;
  }
 
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        font-size: 28px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    .box {
+        padding: 15px 25px;
+        border-radius: 8px;
+        font-weight: bold;
+        text-align: center;
+        min-width: 200px;
+        position: relative;
+        font-size: 30px;
+    }
+    .file { background-color: #e67e22; color: white; }
+    .container-box { background-color: #27ae60; color: white; min-width: 260px; }
+    .codec { background-color: #e57373; color: white; min-width: 280px; }
+
+    /* Symbols */
+    .equals, .plus { font-size: 36px; }
+
+    /* Descriptions */
+    .description {
+        font-size: 22px;
+        font-weight: normal;
+        text-align: center;
+        color: black;
+        margin-top: 8px;
+        background: rgba(255, 255, 255, 0.6);
+        padding: 6px;
+        border-radius: 5px;
+    }
+
+    /* File name under Media File */
+    .filename {
+        margin-top: 10px;
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    /* Bullet Lists Inside Boxes */
+    .container-box ul, .codec ul {
+        list-style-type: disc;
+        text-align: left;
+        font-size: 24px;
+        margin-top: 10px;
+        padding-left: 20px;
+    }
+
+ th {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: black !important;
+  background-color: #f4f4f4 !important;
+  border-bottom: 2px solid black;
+ }
+
  .mermaid {
  max-width: 100%;
  overflow: hidden;
@@ -50,13 +112,6 @@ style: |
  text-align: center;
  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
  margin: 10px;
- }
-
- .description {
- padding: 20px;
- text-align: left;
- font-size: 18px;
- margin-top: 10px;
  }
 
  .row {
@@ -214,7 +269,7 @@ An **analog signal** is a continuous wave that represents information through va
 
 ---
 
-<img src="img/week_12_ripple.webp">
+<img src="img/week_12_ripple.webp" style="width: 50%; height: auto;">
 
 Analog = smooth wave
 
@@ -230,7 +285,7 @@ What do we mean by "analog signal"? When you hear "analog", imagine the waves an
 
 ---
 
-<img src="img/week_12_analog_wave.png">
+<img src="img/week_12_analog_wave.png" style="width: 100%; height: auto;">
 
 <!--presenter notes
 
@@ -257,7 +312,7 @@ When a vinyl record, made of plastic, is made, its surface is etched into, in th
 
 ---
 
-<img src="img/week_12_irene.png" alt="Three color, two-dimensional image of a 78 rpm shellac disc taken by the IRENE System." width="50%">
+<img src="img/week_12_irene.png" alt="Three color, two-dimensional image of a 78 rpm shellac disc taken by the IRENE System." style="width: 100%; height: auto;">
 
 <!--presenter notes
 
@@ -473,10 +528,15 @@ CRT monitors in transfer lab setups are used to view the original analog image B
 
 ---
 
-<img src="img/week_12_rack_example.png" alt="Image of a transfer rack from How to Build a Video Preservation Rack for In-House Digitization.">
+<img src="img/week_12_rack_example.png" style="width: 50%; height: auto" alt="Image of a transfer rack from How to Build a Video Preservation Rack for In-House Digitization.">
+
+<!--presenter notes
+
+Photo of a transfer station with multiple CRTs
 
 Image from <a href="https://parkslibrarypreservation.wordpress.com/2019/05/01/how-to-build-a-video-preservation-rack-for-in-house-digitization/" target="_blank">How to Build a Video Preservation Rack for In-House Digitization</a>
 
+-->
 ---
 
 <img src="img/week_12_scopes_01.jpg" alt="Photograph of a vectorscope" style="width: 100%; height: auto;">
@@ -560,6 +620,36 @@ Once you click the “OK” button, you would then press play on your VHS or oth
 
 ---
 
+# Transfer Station Obstacles
+
+---
+
+![Diagram showing the azimuth misaligned with the left and right channels](img/week_12_azimuth.png)
+
+<!--presenter notes
+
+The azimuth angle refers to the angle at which the tape head is oriented in relation to the tape itself. Proper alignment of the azimuth is essential to ensure optimal capture of a tape and to avoid degradation of the signal quality.
+
+Azimuth misalignment in a tape occurs when the angle of the tape head does not precisely match the angle of the recorded tracks on the tape. If the azimuth angle is not set correctly, the tape head may not fully capture the audio signal, resulting in increased noise, and other issues. Azimuth misalignment can occur due to a variety of factors, including wear and tear on the tape head, improper calibration of the playback equipment, or incorrect handling of the tape. When azimuth misalignment is suspected, the engineer can fix it by either taking a screwdriver and screw or unscrew the head to adjust its angle in relation to the tape. Interestingly enough, if a tape was recorded with a misaligned azimuth to begin with, the engineer may need to adjust the tape head azimuth “incorrectly” in order to capture as much of the magnetic-imprinted signal as possible.
+
+-->
+
+---
+
+<img src="img/week_12_stickyshed.png" style="width: 75%; height: auto;" alt="Image showing a capstan caked in sticky shed syndrome particulate matter">
+
+<!--presenter notes
+
+Sticky shed syndrome happens when the binder that “glues” the magnetic coating of a tape to the plastic, which carries the signal, has a chemical reaction to the moisture in the air. This causes the coating to flake off the tape, leaving behind deposits on the mechanics of the playback machine. Sticky shed can be recognized by a telltale high-pitched “squealing” that occurs during playback. 
+
+Tapes that have sticky shed can be treated by placing them into a special oven. By gently heating the tape at a controlled temperature, it can encourage the substrate to re-glue itself back to the tape. However, tape baking only works enough to get one more good pass, before the binder starts to react again with the moisture in the air.
+
+You can read more about magnetic tape degradation in Richard Hess’ paper “Tape Degradation Factors and Challenges in Predicting Tape Life” (https://www.richardhess.com/tape/history/HESSTapeDegradationARSCJournal39-2.pdf)
+
+-->
+
+---
+
 # Audio/Visual Preservation Files
 
 For this portion of lecture we will be looking at [Ashley Blewer](https://ashleyblewer.com/)’s audio/visual tutorial site: **[training.ashleyblewer.com](https://training.ashleyblewer.com/)**
@@ -587,64 +677,6 @@ What does a media file consist of? In Ashley’s tutorial, she explains a video 
 
 ---
 
-<!-- Media File Diagram -->
-<style>
-    .container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-        font-size: 28px;
-        font-weight: bold;
-        margin-top: 20px;
-    }
-    .box {
-        padding: 15px 25px;
-        border-radius: 8px;
-        font-weight: bold;
-        text-align: center;
-        min-width: 200px;
-        position: relative;
-        font-size: 30px;
-    }
-    .file { background-color: #e67e22; color: white; }
-    .container-box { background-color: #27ae60; color: white; min-width: 260px; }
-    .codec { background-color: #e57373; color: white; min-width: 280px; }
-
-    /* Symbols */
-    .equals, .plus { font-size: 36px; }
-
-    /* Descriptions */
-    .description {
-        font-size: 22px;
-        font-weight: normal;
-        text-align: center;
-        color: black;
-        margin-top: 8px;
-        background: rgba(255, 255, 255, 0.6);
-        padding: 6px;
-        border-radius: 5px;
-    }
-
-    /* File name under Media File */
-    .filename {
-        margin-top: 10px;
-        font-size: 24px;
-        font-weight: bold;
-        text-align: center;
-    }
-
-    /* Bullet Lists Inside Boxes */
-    .container-box ul, .codec ul {
-        list-style-type: disc;
-        text-align: left;
-        font-size: 24px;
-        margin-top: 10px;
-        padding-left: 20px;
-    }
-</style>
-
-<!-- Main Structure -->
 <div class="container">
     <div class="box file">Media File
         <div class="description">Example: MyMovie.mp4</div>
@@ -653,7 +685,7 @@ What does a media file consist of? In Ashley’s tutorial, she explains a video 
     <div class="box container-box">Container
         <div class="description">AKA "wrapper": holds streams</div>
         <ul>
-            <li>MP4</li>
+            <li><a href="https://en.wikipedia.org/wiki/MP4_file_format" target="_blank">MP4</a></li>
             <li>AVI</li>
             <li>MKV</li>
             <li>MOV</li>
@@ -664,10 +696,9 @@ What does a media file consist of? In Ashley’s tutorial, she explains a video 
         </ul>
     </div>
     <div class="plus">+</div>
-    <div class="box codec">Encoded Streams
-        <div class="description">AKA Codec: Compresses & decompresses</div>
+    <div class="box codec">Streams
+    <div class="description">Encoded/decoded using codecs</div>
         <ul>
-            <li>Metadata</li>
             <li>Video</li>
             <li>Audio</li>
             <li>Subtitles/Text</li>
@@ -676,396 +707,156 @@ What does a media file consist of? In Ashley’s tutorial, she explains a video 
     </div>
 </div>
 
-
 <!--presenter notes
 
-Media files are complicated things, because they contain much more than just information about video or audio. So, when we refer to a media file, we are actually talking about two things. The first is the container, the thing that holds all of a media file’s components together into one logical package, and the streams, which are basically other files that make up the package: for example, the audio track, the file that lists the chapters (if it's a DVD), title screen, the actual video, and anything else. We will talk about codecs in just a second.
+Media files at first may just seem like any file. However, they're slightly complex, in the sense that they are multi-layered.
 
-The first “rule” to know is that, in order to determine a media file’s container, is to just look at the file format extension. However, it is not possible to look at a media file and determine, outright, its codec(s), which is sometimes confusing because sometimes the name of a file’s container can match its codecs.
+A good way to think about a media file is a kind of bucket that holds things. The technical term for this is a "container" or a "wrapper". In order to tell the type of container, all you need to do is look at the file extension at the end of the file: .mp4 means we are looking at an MP4 container.
 
--->
+The media container contains what are known as "streams", which are the files that live within the container. A simple way to look up what streams can live within a container, you can look at its Wiki. For MP4:
 
+https://en.wikipedia.org/wiki/MP4_file_format
 
----
-Container / aka format / aka wrapper
+On the page there should be a "data streams" section:
+https://en.wikipedia.org/wiki/MP4_file_format#Data_streams
 
-Streams:
-
-General/metadata
-
-Video
-
-Audio
-
-Subtitles/text
-
-Chapters
-
-Container examples:
-
-MP4
-
-AVI
-
-MKV
-
-MOV
-
-WAV
-
-FLAC
-
-MP3
-
-OGG
-
-<!--presenter notes
-
-The container contains all of the files that make up a single media file, and also establish the appropriate file extension for it. The contents of a container are sometimes referred to as “streams”. Streams can take on the form of distinct files, or metadata. Streams can include the video and audio files, and any metadata to do with things like bitrate, type, resolution, provenance like time of creation, subtitles and chapters. The extent and availability of streams for any particular container is contingent on the parameters of the container. So a container is not just a thing that has stuff in it, containers have rules about what it carries. So for example, if we looked at the MP4 wiki, and scroll down to the data streams section, you’ll see a list of all the various streams the MP4 container type includes. For MP4s, it is video, audio, and subtitles.
-
-The individual streams themselves, in particular, the video and audio streams, and compressed or decompressed using what are known as codecs.
+Here you can browse the streams.
 
 See: https://en.wikipedia.org/wiki/Comparisonofvideocontainerformats
 
 -->
 
 ---
+## Definition
+# Codec
 
+A **codec** refers to how a file is **encoded or decoded** which affects file size, image/sound quality, and compatibility.
 
-Definition: Codec
+To play back a media file encoded with a specific codec, a player must support both the container, and the codecs within.
 
-A codec is a software program or hardware device that compresses or decompresses a media file.
+<!--presenter notes
 
-| Device | Codec | Container |
-| :-: | :-: | :-: |
-| DSLR | H.264 or H.265 | MP4 or MOV |
-| Android phone | H.264 or H.265 | 3GP, 3G2 or MP4 |
-| iPhone | H.264 or H.265 | MOV |
+Within the data streams section of a media container you'll notice it mentions "codecs".
 
----
+A codec refers to how a data stream may be encoded, or decoded (the word codec is a portmanteau of the words "encoded" and "decoded").
 
-A codec is a software program or hardware device that compresses or decompresses a media file. Codecs are used to make files more manageable, in terms of the amount of storage space they use on servers, the amount of bandwidth required to transmit them over networks, all the while retaining a certain quality that can either be discernable or not, which depends in part on whether the codec applied uses a lossy or lossless compression algorithm.
+ compresses or decompresses a media file. Codecs are used to make files more manageable, in terms of the amount of storage space they use on servers, the amount of bandwidth required to transmit them over networks, all the while retaining a certain quality that can either be discernable or not, which depends in part on whether the codec applied uses a lossy or lossless compression algorithm.
 
-
-
-Streams:
-
-General/metadata
-
-Video ( H.265/HEVC )
-
-Audio ( AAC )
-
-Subtitles/text
-
-Chapters
+-->
 
 ---
 
-Let’s take a look at one example of a container–an MP4–and the type of codecs it expects to contain. The MP4 the video stream generally will use the H.265 codec. The audio stream uses another audio file-specific codec, known as Advanced Audio Coding or AAC (to see a list of codecs specific to the MP4 container, you can easily see them listed on the MP4 Wiki).
-
-Definition: Lossless compression
-
-A method of reducing the size of a digital file without losing any data or quality.
-
----
-
-Lossless compression is a method of reducing the size of a digital file without losing any data or quality. This is achieved by identifying and eliminating redundancies and patterns within the data. Some techniques include:
-Dictionary-based compression: This technique involves creating a dictionary of frequently used data patterns in the data to be compressed. The dictionary is then used to replace the repeated patterns with shorter codes, resulting in a more efficient representation of the data.
-Run-length encoding: This technique is used for data that contains long runs of the same value or repeating patterns. It replaces these runs with a shorter code that represents the value and the length of the run.
-Huffman coding: This technique involves assigning shorter codes to more frequently occurring data values, and longer codes to less frequent ones. This results in a more efficient representation of the data.
-
-
-Definition: Lossy compression
+## Definition
+# Lossy compression
 
 A method of reducing the size of a digital file by discarding some of the original data. This type of compression works by removing information that is deemed less important or perceptually irrelevant, in order to achieve higher levels of compression.
 
----
+<!--presenter notes
 
 Lossy compression is a method of reducing the size of a digital file by discarding some of the original data. This type of compression works by removing information that is deemed less important or perceptually irrelevant, in order to achieve higher levels of compression. The bad part about lossy compression is its impossible to “unsmush” a lossy compressed file: once the information is lost, it is lost forever.
 
 Lossy compression could be appropriate for service copies, while lossless compression or uncompressed files are more appropriate for preservation masters and mezzanine files. Determining what approach to use is contingent on your institution’s specifications.
 
-Lossy compression example: MP3
-
-![](img/week13slides61.gif)
-
-![](img/week13slides62.gif)
-
-![](img/week13slides63.gif)
-
-![](img/week13slides64.gif)
+-->
 
 ---
 
-MP3, which stands for “MPEG-1 Audio Layer 3” is a type of lossy codec. It uses what is known as perceptual audio coding compression technology based on imperfections in how the human ear perceives sound. An underlying data algorithm is programmed to discern and effectively filter out what it knows our ears cannot hear like super high-end or low-end frequencies.
-(although I personally cannot hear the difference between a lossless and lossy compression audio codec, some engineers I have talked to say that they can!)
+## Definition
+# MPEG-1 Audio Layer 3 (MP3)
 
-![](img/week13slides65.png)
+**MPEG-1 Audio Layer 3 (MP3)** is a type of _lossy_ codec, and uses perceptual audio coding comrpession technology.
 
-Container: Matroska (MKV)
+<!--presenter notes
 
-Video codec: FFv1 version 3
+MP3, which stands for “MPEG-1 Audio Layer 3” is a type of lossy codec.
 
-Audio codec: FLAC
-
- [https://nypl.github.io/ami-preservation/pages/ami-specifications.html\#video-group-1](https://nypl.github.io/ami-preservation/pages/ami-specifications.html#video-group-1) 
+-->
 
 ---
 
-In digital preservation, certain containers and codecs are specified in order to ensure that we are capturing signals optimally, balancing that of storage and budget constraints. The screen capture shows NYPL’s specifications for analog video cassettes. Here, we use the Matroska or MKV container (called a wrapper here). Within our MKV files we use the FFv1 codec for the video stream, and the FLAC codec for the audio stream.
+# Perceptual Audio Coding (Lossy)
 
-Ffmpeg video codec 1 (ffv1)
+MP3s use what is known as **perceptual audio coding compression technology** based on imperfections in how the human ear perceives sound.
 
-Fast seeking in the file
+An underlying data algorithm is programmed to discern and effectively filter out what it knows our ears cannot hear (super high-end or low-end frequencies).
 
-Chapter entries
+<!--presenter notes
 
-Full metadata (tags) support
+Why use MP3? MP3s arose as a way to transmit data over networks quickly.
 
-Selectable subtitle/audio/video streams
-
-Modularly expandable
-
-Error resilience
-
-Menus
-
-[https://www.matroska.org/technical/basics.html](https://www.matroska.org/technical/basics.html)
-
-An open-source, lossless video compression format developed by the ffmpeg project.
-
-Free Lossless Audio Codec (FLAC)
-
-An open-source, lossless audio compression format developed by the ffmpeg project.
+-->
 
 ---
 
-Matroska basics: https://www.matroska.org/technical/basics.html
+![Screen capture of NYPL's media file specifications](img/week_12_nypl_lossless.png)
 
-Matroska is known for being an open and free container. Other formats, such as MP4, are proprietary, meaning that they are owned by MPEG-LA, LLC. Its proprietary nature means that it is not freely implementable by anyone. To use the MP4 format, companies must pay licensing fees to MPEG-LA, and comply with the licensing terms and conditions. Along with video and audio streams, MKV containers can also store chapter, subtitle and other metadata, and are highly suited for streaming over networks.
+<!--presenter notes
 
-The FFV1 codec is a lossless video compression format developed by the FFmpeg project, which is a free, open-source collection of multimedia tools and libraries. FFV1 stands for "FFmpeg video codec 1," and it was designed to provide a high level of compression while preserving image quality, making it useful for archiving and preserving video content.
+In digital preservation, certain containers and codecs are used in order to ensure that we are capturing signals optimally, balancing that of storage and budget constraints.
 
-FLAC is open-source lossless audio compression format.
+The screen capture shows NYPL’s specifications for analog video cassettes. They use the Matroska or MKV container or wrapper. The MKV files can contain a video stream, which uses the FFV1 codec, and an audio stream, that uses the FLAC codec for the audio stream. Both codecs use lossless compression encoding technology.
 
-
-
----
-
-The purpose of building up a transfer station or lab is to retrieve an optimal analog signal from the original carrier. However, a lot of things can go wrong, and it’s to be expected that a certain amount of troubleshooting be done for some transfers. I am going to go over just a couple of examples, two examples to do with the playback equipment itself, and one to do with digital rights management.
-
-Azimuth misalignment
-
-![](img/week13slides66.png)
+-->
 
 ---
 
-The azimuth angle refers to the angle at which the tape head is oriented in relation to the tape itself. Proper alignment of the azimuth is essential to ensure optimal capture of a tape and to avoid degradation of the signal quality.
+## Definition
+# Lossless compression
 
-Azimuth misalignment in a tape occurs when the angle of the tape head does not precisely match the angle of the recorded tracks on the tape. If the azimuth angle is not set correctly, the tape head may not fully capture the audio signal, resulting in increased noise, and other issues. Azimuth misalignment can occur due to a variety of factors, including wear and tear on the tape head, improper calibration of the playback equipment, or incorrect handling of the tape. When azimuth misalignment is suspected, the engineer can fix it by either taking a screwdriver and screw or unscrew the head to adjust its angle in relation to the tape. Interestingly enough, if a tape was recorded with a misaligned azimuth to begin with, the engineer may need to adjust the tape head azimuth “incorrectly” in order to capture as much of the magnetic-imprinted signal as possible.
+**Lossless compression** refers to a method of reducing the size of a digital file without losing any data or sound/image quality.
 
-![](img/week13slides67.png)
+<!--presenter notes
 
-Sticky shed syndrome
+Lossless compression is a method of reducing the size of a digital file without losing any data or quality. This is achieved by identifying and eliminating redundancies and patterns within the data. Some techniques include:
+Dictionary-based compression: This technique involves creating a dictionary of frequently used data patterns in the data to be compressed. The dictionary is then used to replace the repeated patterns with shorter codes, resulting in a more efficient representation of the data.
 
----
+Run-length encoding: This technique is used for data that contains long runs of the same value or repeating patterns. It replaces these runs with a shorter code that represents the value and the length of the run.
+Huffman coding: This technique involves assigning shorter codes to more frequently occurring data values, and longer codes to less frequent ones. This results in a more efficient representation of the data.
 
-Sticky shed syndrome happens when the binder that “glues” the magnetic coating of a tape to the plastic, which carries the signal, has a chemical reaction to the moisture in the air. This causes the coating to flake off the tape, leaving behind deposits on the mechanics of the playback machine. Sticky shed can be recognized by a telltale high-pitched “squealing” that occurs during playback. 
-
-Tapes that have sticky shed can be treated by placing them into a special oven. By gently heating the tape at a controlled temperature, it can encourage the substrate to re-glue itself back to the tape. However, tape baking only works enough to get one more good pass, before the binder starts to react again with the moisture in the air.
-
-You can read more about magnetic tape degradation in Richard Hess’ paper “Tape Degradation Factors and Challenges in Predicting Tape Life” (https://www.richardhess.com/tape/history/HESSTapeDegradationARSCJournal39-2.pdf)
-
-
-![](img/week13slides68.gif)
-
-![](img/week13slides69.jpg)
+-->
 
 ---
 
-Tapes get a lot of attention in the world of a/v preservation. However, there are later recording carrier, such as the MiniDisc, that had their own issues to do with proprietary codecs. The image you see here was taken by me 5 years ago when I worked as a resident at the NYPR Archive, which had over 3,000 MD-Rs in its holdings. Sizeable chunks of long-time WNYC reporter’s careers are stored in MD-R format. What you see here is a photograph of an MD-R I pulled out of a box at random, a Hillary Clinton Press Briefing from 13 years ago.
-
-Reporters used MiniDiscs in the early 2000s primarily, for a number of reasons.
-MiniDisc dimensions were approximately 2.75” tall x 2.65" wide and 0.18" thick and weighed in at around 0.6 oz. So they were small. Their portability appealed to reporters running around in the field trying to capture sound bytes for newscasts on deadline.
-For being so small, MD-Rs could pack in a lot of data. Earlier versions of MD-Rs could store up to 160 megabytes - or 74 minutes - of CD-quality audio: later versions offered up to 80 minutes of audio. And for the most part, the sound was considered as good as CD quality.
-Also, MiniDiscs were fast: a reporter could record, erase, rewrite and rename tracks with a few presses of a button. This was preferred over compact cassettes, where you would have to sit and wait for a tape to fast-forward or rewind.
-
-![](img/week13slides70.jpg)
+# How can a file be smaller, yet maintain a high sound/image quality?
 
 ---
 
-Some more advantages:
-The magnetic recorded area was sandwiched into a double-shuttered protective plastic cartridge. So, unlike their CD cousins, you didn’t have to worry about accidentally scratching or smudging the disc.
-MDs also offered shock resistance. I am sure some of you in this audience at one point or another owned a CD Walkman. You may remember having to hold the Walkman still on a shaky bus ride or in your car in order to prevent the audio signal from “skipping”, which was a huge pain in the neck. MD technology solved this problem by reading the data into a memory buffer at a higher speed than was required before being read out to the digital-to-analog converter.
+## Definition
+# Predictive Encoding
 
-![](img/week13slides71.jpg)
-
-![](img/week13slides72.gif)
-
-![](img/week13slides73.gif)
-
-![](img/week13slides74.gif)
+Used by FLAC, **predictive encoding** reduces file size by storing the value of the _difference_ between two consecutive sound values, instead of the full value of the sound itself.
 
 ---
 
-MD-Rs employed “magneto-optical” recording and playback technology. So, how does “magneto-optical” recording and storage technology work? Simply put:
-When recording, a laser heats a spot on the recording layer to a specific temperature.
-While this is happening, a head in contact with the other side of the disc bathes the heated spot in a magnetic field. The magnetic particle’s orientation corresponds to 0s and 1s in the data.
-Once the heat is taken away, the particles are frozen into position.
-And that is how you record an audio signal into the MD substrate. To erase an old recording and record something new, simply re-heat and re-bathe the area in a new magnetic field.
-During playback the MD machine focuses the laser on the same spot again, but at lower power, and the data is read back by measuring changes in polarization of light reflected from the previously magnetized regions.
+<div style="display: flex; gap: 50px; align-items: center;">
 
-![](img/week13slides75.gif)
+  <!-- Original Sentences -->
+  <div>
+    <h3>Original Sentences</h3>
+    <p><b>1️⃣</b> The quick brown fox jumps over the <span style="background-color: yellow;">lazy dog</span></p>
+    <p><b>2️⃣</b> The quick brown fox jumps over the <span style="background-color: lightblue;">sleepy cat</span></p>
+  </div>
 
-![](img/week13slides76.gif)
+  <!-- Predictive Coding Example -->
+  <div>
+    <h3>Optimized Using Predictive Coding</h3>
+    <p><b>1️⃣</b> The quick brown fox jumps over the lazy dog</p>
+    <p><b>2️⃣</b> <span style="color: gray;">[Same as above]</span>, except <span style="background-color: yellow;">lazy dog</span> → <span style="background-color: lightblue;">sleepy cat</span></p>
+  </div>
 
-![](img/week13slides77.gif)
-
-![](img/week13slides78.gif)
-
----
-
-Sony developed a special perceptual audio codec for MDs called Adaptive Transform Acoustic Coding or ATRAC. ATRAC effectively reduced a 16-bit stereo sample into 292 kbps: a fifth less than of the original data rate with minimal reduction in sound quality. Without ATRAC, an MD-R could store only about 15 minutes of recorded audio.
-
-![](img/week13slides79.gif)
-
-![](img/week13slides80.gif)
-
-![](img/week13slides81.gif)
-
-![](img/week13slides82.jpg)
-
-![](img/week13slides83.jpg)
-
-![](img/week13slides84.jpg)
+</div>
 
 ---
 
-To understand consumer frustration with minidiscs, it’s good to know a little history of the development of MD technology.
-In 1992, MD products were released to the consumer market. At this time, there was no way you could transfer ATRAC data from the Walkman to your computer and visa versa. Your only option was to transfer audio in real-time which is a huge pain in the neck, because they take a long time, and you lose all sorts of metadata, like track information.
-In 2001, Sony released a the MZ-N1 portable recorder equipped with so-called “NetMD interface” technology. NetMD players came equipped with a USB socket. In conjunction with proprietary music library management software (initially, this was OpenMG Jukebox, which was later superseded by SonicStage), users could transfer ATRAC data from their PC to an MD over a USB connection in faster than real-time.
-However, users could not transfer ATRAC data from a NetMD player to their PC. This one-way transfer protocol was deliberately built into NetMD technology to prevent commercial recordings from being freely distributed over networks. However, this also prevented someone like me from being able to transfer my own personal recordings into my own computer.
-In response to user frustruation over these restrictions, in 2004, Sony released another update: The Hi-MD player, along with SonicStage 3.4. Both could distinguish between tracks that were personally recorded using the microphone input and those recorded for mass sale and distribution. Users were finally allowed to transfer personally recorded material from their MD player to their computer and convert the ATRAC data into WAV format.
+## Weekly Activity
+# QC Tools
 
-![](img/week13slides85.gif)
-
-![](img/week13slides86.jpg)
-
-![](img/week13slides87.gif)
+Start: <a href="https://digital-archives.github.io/HISTGA1011/activities/qctools.html" target="_blank">https://digital-archives.github.io/HISTGA1011/activities/qctools.html</a>
 
 ---
 
-NYPR’s archive owns SonicStage 4.3 and a Hi-MD player. Yet, when I first plugged in NYPR’s MD Walkman into my work computer to try my first ATRAC data transfer, I could see the tracks listed, but when I clicked on Import, nothing happened.
+![](img/week_00_weekly_activity_sunset.gif)
 
-I opened up Windows Explorer to see if the player was listed as a drive in the file tree, but nothing appeared, even though when I plugged in the player I would get that little USB connection notification in my toolbar. What I was experiencing here was a so called “audio/data firewall” that prevents me from being able to directly access my MD.
+_Final questions or reflections?_
 
-What frustrated me was that I was using all the “right” hardware and software to perform a perfectly legal, innocent MD > PC transfer. Yet, the software and I had no other way of getting in.
-
-# Linux-minidisc project
-
-![](img/week13slides88.png)
-
----
-
-The “linux-minidisc project” was started in 2008 by a few developers who decided that they, and I quote, “...want[ed] to create a [way to perform] simple transfer[s]... for HiMD and NetMD Walkm[e]n which will run under [their] preferred operating systems and [that was] free of any of the annoying ‘features’ of the original software.” They also claim to have started this project as a way to collect and consolidate as much information about MD technology. The image you see above is their logo. To date, over 30 people have contributed code to this project.
-
-Today I will be showing you how netmdpython works. Netmdpython is a collection of Python scripts created by the linux-minidisc project developers that enable users to transmit data directly from an MiniDisc Walkman to their PC over a USB connection.
-
-![](img/week13slides89.png)
-
-# lsmd.py
-List, count and describe the contents of an MD-R
-
----
-
-So, the first script I will show you is called lsmd.py, which is a script that allows you to get a directory listing of what’s inside your MD-R. To launch it, I type into the terminal prompt “python, space, lsmd.py”.
-
-Once you press enter, a list will appear right below the command.
-Each recorded track appears in sequence and is assigned a track number.
-Next to that is the length of the track.
-Next to that is information about how the track was recorded: so here, “sp” refers to Standard Play, which means it was recorded at a high quality. Mono indicates it was probably recorded with a microphone through a single channel.
-Lastly, each track is listed as either protected or unprotected. What this means is that the script can differentiate between whether or not something was recorded personally using the player’s mic input, rather than something commercially recorded in the studio. Netmdpython can only transfer unprotected tracks and not protected tracks.
-
-Note that this command doesn’t actually upload any audio data. However, it’s an easy way to get a manifest of what’s on your MD-R. I used to check my upload to make sure I got all 63 tracks. You could also export this list into text file and use it to populate fields in a catalog.
-
-![](img/week13slides90.gif)
-
----
-
-So, here is lsmd.py in action. Takes just a few seconds.
-
-![](img/week13slides91.png)
-
-# upload.py
-Transfer ATRAC data to PC. Each track has an *.aea extension.
-
----
-
-Next, I will show you upload.py. This is the script that actually uploads data off the MD-R over USB onto your computer.
-
-The screenshot here shows the last two tracks - 62 and 63 - that were transferred. Each track takes a few seconds to upload depending on how long it is. You can see in parenthesis the progress each track is making from start to finish. So this is kind of like, a text-based way of monitoring the status of your transfer.
-
-The tracks end up on your computer with an AEA extension. AEA just means ATRAC.
-
-Something to note: when I first launched the upload script, it didn’t complete the transfer. It got through about 50 tracks and then just stopped. So, I unplugged everything and restarted the system, and then, it worked! But, it wasn’t apparent what had happened and I received no error message. And it’s happened to me a few times since, even when I was extra careful to not bother the USB cable during the transfer. So, it’s a little buggy.
-
-![](img/week13slides92.gif)
-
----
-
-Here is a little video of me launching upload.py. As you can see, it runs through each track and provides a percent status.
-
-for f in \*.aea; do ffmpeg -i "$f" "$\{f%.aea\}.wav"; done
-
-![](img/week13slides93.png)
-
----
-
-So, that’s basically it for the netmypython scripts. And now, you have a folder full of AEA tracks. What’s great is that the people who developed netmdpython worked together with the people over at ffmpeg to make sure that users of netmdpython could use ffmpeg convert tracks into non-proprietary audio formats. So, what you see above is the ffmpeg command I would use to convert all AEA tracks in a folder into WAV format.
-
-![](img/week13slides94.gif)
-
----
-
-Here is the command running.
-
-![](img/week13slides95.gif)
-
-Only works with 1 type of player
-
-Scripts are experimental
-
-Doesn’t work on Windows OS :(
-
-Python \+ command line \+ Git \+ ... = intimidating
-
----
-
-So, that’s what netmdpython looks like in action. What’s great about it is it worked for NYPR! However, it is not the perfect solution for a number of reasons.
-As I mentioned before, the last MD Walkman was sold in March 2013. These scripts only work with 2 of the dozens of MD players released onto the market, so if you don’t have the right player, you may have to troll eBay. Over time, though, these specific players may become rarer and more expensive.
-Also, these scripts only works with certain OS’s and excludes Windows users. Lots and lots of people and organizations use Windows.
-These scripts are experimental. Meaning, there’s no guarantee that they will work smoothly, or not break or erase something. One of the linux-minidisc’s disclaimers is to use netmdpython with quote “toy media only”. I obviously went against that and took a risk, with my mentor’s permission of course. But, I must emphasize that this isn’t a widely acceptable archival transfer practice. I personally haven’t found an example of another archive using these scripts, and going at these things alone is a bit daunting.
-Implementing netmdpython can be intimidating for users who do not know what Python is, are not used to using and installing libraries from git, or using the command line.
-That being said, there is a linux-minidisc project mailing list and an IRC chatroom where you can ask questions.
-
-![](img/week13slides96.gif)
-
-![](img/week13slides97.gif)
-
----
-
-To put things in perspective, we should talk about smartphones. Have you plugged in your smartphone into your computer by USB lately? Ever notice that when you peer into your smartphone using your computer, you see maybe 1 folder with just photos and nothing else? Most of us here today are carrying one of these things in our pockets. My smartphone contains a lot of personal recordings. Voice memos, some containing voice memo interviews with NYPR staff for my NDSR report. And these recordings are mine.
-
-To get my voice memos off my phone, I have to use iTunes to “sync” my phone data to my computer. Without iTunes, I can’t see or interact with them in any other way. iTunes is just another SonicStage. My voice memos hide behind the same audio data firewall protecting my Taylor Swift MP3s.
-
-Reporters at NYPR use voice memos to record from the field. It’s the standard now. But what will happen in 50 years and we start using something else besides an iPhone or an Android? What’s scarier is MDs were a market failure, yet the archive ended up with thousands of MD-Rs. iPhones are ubiquitous, a market success. And one day, we may have to break down the doors of our smartphones or our clouds and demand what’s rightfully ours.
-
- In-class activity 
-
- [QC Tools](https://digital-archives.github.io/HISTGA1011/activities/qctools.html) 
-
-QCTools allows archivists, curators, preservationists and other moving image professionals to identify, filter, and assess all manner of video errors and anomalies. The tool is flexible, providing a variety of viewing options, as well the ability to create and export reports (gzip, or .gz files, formatted according to the ffprobe xml standard).
-
-[https://docs.google.com/document/d/1HZbDQkr0mnwTBNMW3fCvaSiUbSbVnKDXlnqDe5NcshM/edit\#](https://docs.google.com/document/d/1HZbDQkr0mnwTBNMW3fCvaSiUbSbVnKDXlnqDe5NcshM/edit#)
-
+mary.kidd@nyu.edu
