@@ -7,12 +7,12 @@ has_children: false
 ---
 
 # Week 12: Moving Image and Audio Preservation
-Link to slide deck [update me]
+
+<a href="https://digital-archives.github.io/HISTGA1011/slides/week_12_slide_deck.html" target="_blank">Slides</a>
 
 {: .label .label-yellow }
 Due
-* Post your pre-class reading reactions to Brightspace.
-* Weekly activity: We will start <a href="QCTools Audio/Visual Preservation" target="_blank">QC Tools - Audio/Visual Preservation</a> in class. Submit your completed activity summary in Brightspace by the end of the week Sunday.
+* In class we will start the Week 12 activity. Submit your completed activity summary in Brightspace by Sunday night.
 
 {: .label .label-green }
 Read
