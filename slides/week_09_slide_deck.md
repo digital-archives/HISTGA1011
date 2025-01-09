@@ -13,6 +13,14 @@ style: |
   margin: 0 auto;
   }
 
+  th {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: black !important;
+  background-color: #f4f4f4 !important;
+  border-bottom: 2px solid black;
+  }
+
   .pink-box {
     background-color: #d184c2;
     color: white;
