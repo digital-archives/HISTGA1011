@@ -348,6 +348,11 @@ A **hypertext document** is a type of electronic document that contains hyperlin
 
 <!--presenter notes
 
+Image Credit:
+University of Cape Town, Department of Computer Science. "The Client-Server Model."
+Source: MIT Web Programming Course Notes
+Direct Image URL: 01_001.gifs
+
 The world wide web aka “the web” is built on the idea of linking hypertext documents together to form a vast network of interconnected information. In this way, hypertext documents are a fundamental and essential concept that underpins the web’s structure and functionality.
 
 A hypertext document is a type of electronic document that contains links to other documents or resources. Hypertext allows the reader to navigate between different sections of a document or to jump to related content on other websites or documents.
@@ -674,185 +679,217 @@ This next activity will show us some of the actions our browsers take when we ac
 
 ---
 
-You’ve learned the basics of how hypertext documents, or websites, are relayed to and from your browser through the web, using various communication and data transmission protocols. Now, let’s look at some of the tools and techniques employed by people working in web archives to use these technologies to the advantage of developing and collecting websites or domains of interest. One primary technique is known as web crawling.
+<!--presenter notes
 
-# Definition: 
-Web crawler (aka “spider” or “search engine bot”)
+Next we will cover the tools and techniques employed by people working in web archives to use these technologies to the advantage of developing and collecting websites or domains of interest. One primary technique is known as web crawling.
 
-A program or software that systematically collects    hypertext documents    using the    Hypertext Transfer Protocol \(HTTP\)   .
+-->
 
----
+## Definition 
+# Web crawler
+
+A **web crawler** (also sometimes referred to as a “spider” or even just “search engine bot”) is any tool that systematically collects hypertext documents using/leveraging HTTP.
+
+<!--presenter notes
 
 A web crawler is a program or software that systematically scans and indexes websites on the internet. The purpose of a web crawler is to collect information from web pages. Web crawlers are used for a number of different purposes. Famously, they are used by web search engines to index web pages, which makes them quickly searchable by users.
 
-
-
- _Another external link_ 
-
-_How a web crawler works_
+-->
 
 ---
 
+
+
+<img src="img/week_13_spider.svg" alt="SVG diagram of how a VHS playback deck is connected to transfer station devices to create a digital file." style="width: 50%; height: auto;">
+
+<!--presenter notes
+
 How do web crawlers work?
+
 The crawler starts with what known as a “seed URL”, which is basically the starting URL through which the crawler will work its way through. This can be a single URL, or a list, depending on your archiving scope.
+
 Once it is does scanning one page, it will go onto scan the pages of any other related URLs it has found.
-The crawler scans each page’s contents, collecting information about text, images, and metadata such as page titles and descriptions, and other related URLs. Information is worked through and retrieved using HTTP requests and responses, in a similar fashion to how a browser queries and receives information.
+The crawler scans each page’s contents, collecting information about text, images, and metadata such as page titles and descriptions, and other related URLs.
+
+Information is worked through and retrieved using HTTP requests and responses, in a similar fashion to how a browser queries and receives information.
+
 The crawler will repeat these steps over and over until it has scanned all seed URLs and their related pages.
 
+-->
 
+---
 
-
-# Definition: 
-Web ARChive (WARC) File Format
+## Definition
+# Web ARChive (WARC) File Format
 
 A digital archival format used to store and preserve web content, such as HTML pages, images, videos, and other digital assets, for long-term access and retrieval. Web \+ Archive = WARC
 
-ISO 28500:2017 \(   _[https://www.iso.org/standard/68004.html](https://www.iso.org/standard/68004.html)_  \)
+ISO 28500:2017 ([https://www.iso.org/standard/68004.html](https://www.iso.org/standard/68004.html))
 
----
+<!--presenter notes
 
 The result: All web archiving crawlers produce a specific type of file called a WARC, which stands for “Web ARChive”.
 
 WARC is a digital archival format that stores web content, such as HTML pages, images, videos, and other digital assets, for long-term access and retrieval. It is governed by the ISO standard 28500:2017.
 
-
-
-* Download a sample WARC file
-  * Open   _[https://archive.org/details/sample-warc-file](https://archive.org/details/sample-warc-file)_ 
-  * Click “Show All” on the right-hand side of the page
-  * Download  IIPC-COVID-Announcement.warc
-* Open ReplayWeb.Page:   _[https://replayweb.page/](https://replayweb.page/)_ 
-  * Click Choose File
-  * Choose the IIPC-COVID-Announcement.warc file you downloaded
-  * Click the Load button
-  * In the drop-down next to to Search, select “HTML”
-  * Click on a few HTML files
-
-_ReplayWeb.Page / WARC Activity_
-
-![](img/week_13_slides1.png)
-
- _Tool: Archive-It_ 
-
-Created in 2006
-
-Subscription-based service
-
-Backed by Internet Archive
-
-Widely used
-
-_Not_   the Wayback Machine.
+-->
 
 ---
 
+<div class="shapes">
+  <div class="triangle"></div>
+  <span class="circle"></span>
+  <span class="square"></span>
+</div>
+
+<div class="activity-title">Mini Activity - Replay WARC - 1/2</div>
+
+_Look at how a WARC file works._
+
+<ul class="activity-list">
+
+<li>Download a sample WARC file: <a href="https://archive.org/details/sample-warc-file" target="_blank">https://archive.org/details/sample-warc-file</a></li>
+<li>Click “Show All” on the right-hand side of the page</li>
+<li>Download IIPC-COVID-Announcement.warc</li>
+<li>Open ReplayWeb.Page: <a href="https://replayweb.page/" target="_blank">https://replayweb.page/</a>
+</ul>
+
+---
+
+<div class="shapes">
+  <div class="triangle"></div>
+  <span class="circle"></span>
+  <span class="square"></span>
+</div>
+
+<div class="activity-title">Mini Activity - WARC - 2/2</div>
+
+<ul class="activity-list">
+
+<li>Click <b>Choose File</b>; locate and select the WARC just downloaded</li> and click <b>Load</b>
+<li>In the drop-down next to to Search, select “HTML”</li>
+<li>Click on 5-10 HTML files to browse the web archive</li>
+
+</ul>
+
+---
+
+## Tool
+# Archive-It
+
+
+* Created in 2006
+* Subscription-based service
+* Backed by Internet Archive (it looks like, but is not the same as the <a href="https://web.archive.org/" target="_blank">Wayback Machine</a>.)
+* Widely used
+
+<!--presenter notes
+
 One tool in particular that is used for web archiving is Archive-It. Archive-It was created in 2006, and has become, at least according to a National Digital Stewardship Alliance (NDSA) survey, one of the most widely-used web archiving tools, “...used by approximately 94 percent of libraries and archives with web archiving programs” (Matthew Farrell et al., “Web Archiving in the United States: A 2017 Survey,” National Digital, Stewardship Alliance (October 2018), 20, https://osf.io/ht6ay)
+
 Archive-It is a subscription-based service, where institutions pay an annual fee for the service
 It works by performing web crawls to capture websites. The websites are then saved to the Internet Archive’s servers. Archive-It provides a backend interface for a subscribing institution’s library or archival staff to perform data management and creation. Completed crawls are made available through an end-user interface, where users can explore collections of websites. These websites are maintained by the subscriber institution.
 Although it was created by the Internet Archive, and uses the Wayback Machine as part of how it presents archives website, it differs from the Wayback Machine in a number of ways.
+
 The Wayback Machine is a public archive of websites run and maintained by Internet Archive staff.
 Archive-It, on the other hand, allows subscribers to capture and curate their own web archives relevant to their institution’s goals, mission, or collection development policies.
 
- _Archive-It Mini Activity_ 
-
-Visit    _[https://archive-it.org/](https://archive-it.org/)_ 
-
-Under “Explore Collecting Organizations”, open any institution’s instance
-
-Click on the Collections tab and see what’s there
-
-Click on the Sites tab
-
-Open a site that has more than one capture listed
-
-_Question:_  _ Compare 1-2 Wayback captures listed. What sort of contextual information is provided to tell you more about why or how these captures were made? What would you have like to see to provide more context?_
-
-![](img/week_13_slides2.png)
-
-Created in 1996 by the Internet Archive
-
-Open source web crawler
-
-Java-based
-
-Meant for large-scale projects
-
-P  rimarily used on Linux operating system
+-->
 
 ---
 
-Archive-It provides users with two crawling technologies types: a “Standard” type and the “Brozzler” type. The “Standard” type incorporates the functionalities of two crawler technologies: Heritrix, and Umbra.
-
-Heritrix is an open-source web crawler developed by the Internet Archive that is designed to capture and preserve web content at scale. It is used by many institutions and organizations for web archiving, and it provides advanced customization options for users who want to configure their crawls in detail.
-
-Heritrix is built to be used on a Linux operating system. Although it can be used on Windows and other operating systems, it has not been tested extensively. 
-
-![](img/week_13_slides3.png)
-
-Technology that handles client-side scripts, that otherwise challenge traditional crawling technologies
-
-Mimics how a browser accesses URLS
-
-Also mimics how a human would interact with a website
+![Screen capture of the Archive-It tool](img/week_13_archive_it.png)
 
 ---
 
-Umbra works in conjunction with Heritrix and increases its ability to capture everything. In particular, it is set up to handle client-side scripts. A client-side script is a script that is executed on the client-side, meaning it runs in a user's web browser rather than on a server. Client-side scripts are typically written in languages such as JavaScript, and they are used to provide interactivity and dynamic functionality to web pages.
+<div class="shapes">
+  <div class="triangle"></div>
+  <span class="circle"></span>
+  <span class="square"></span>
+</div>
 
-Client-side scripts are downloaded along with the HTML, CSS, and other resources that make up a web page, and they are executed by the user's web browser as the page loads or in response to user actions such as button clicks, form submissions, or mouse movements. Common examples of client-side scripts include form validation scripts that check user input for errors before submitting a form, interactive menus or sliders that allow users to adjust settings or navigate through content, and animation or effects that make the page more engaging and dynamic.
+<div class="activity-title">Archive-It Mini Activity
+</div>
 
-“For example, as a user navigates within a Facebook page, content is delivered on demand through JavaScript when the user scrolls to an un-viewed section of their timeline. Displaying content dynamically through client script allows sites to optimize the user experience and reduce the load on their servers. These optimizations, however, make it difficult for Heritrix to discover resources that are necessary for optimal capture and display of archived content.”
+_Look at a web archive made with Archive-It._
 
-“In Archive-It the initial pages of each seed are sent to Umbra by Heritrix, in a separate process that mimics the way a browser would access the seed URLs. This allows client-side scripts to be executed so that previously unavailable URLs can be detected for Heritrix to crawl. Umbra also gives Heritrix some abilities to imitate human interactions with Web sites that were previously not possible, such as executing JavaScript through clicking or hovering the mouse over different Web page elements and scrolling down a page.”
+<ul class="activity-list">
 
-Example given was from Jillian Lohndorf’s article, “Archive-It Crawling Technology” https://support.archive-it.org/hc/en-us/articles/115001081186-Archive-It-Crawling-Technology
-
-![](img/week_13_slides4.png)
-
-Webrecorder
-
-_Web archiving for all\!_
-
- _Tool: webrecorder/conifer_ 
-
-Open source, developed by Rhizome to capture digital art
-
-“User-driven” capture within the comfort of a browser
-
-Result is a WARC \(stands for   _W_  eb   _ARC_  hive\) file
-
-Also provides mechanism through which to replay captures
-
-Two main tools are   _[https://ArchiveWeb.page/](https://archiveweb.page/)_   \(to capture\) and   _[https://ReplayWeb.page/](https://replayweb.page/)_   \(to replay\)
+<li>Visit <a href="https://archive-it.org/" target="_blank">https://archive-it.org/</a></li>
+<li>Under “Explore Collecting Organizations”, open any institution’s instance.
+</li>
+<li>Click on the <b>Collections tab</b> and explore/click around.
+</li>
+<li>Click on the <b>Sites tab</b>; Find and click on a site that has more than one capture listed</li>
+<li>Take these steps again with another instance.</li>
+</ul>
 
 ---
+
+# Question  
+Compare the two Wayback Machine captures you just explored. Consider the **contextual information** available:  
+
+- Can you determine **why**, **how**, or **how often** these captures were made?
+- What clues (or lack thereof) help you understand the capture process?
+- What additional information would you like to see to better understand the **context** of these web captures?
+
+---
+
+## Tool
+# Webrecorder
+
+* Open source: originally developed by <a href="https://rhizome.org/" target="_blank">Rhizome</a> to capture digital art
+* User-driven capture within the comfort of a browser: Result is a WARC file
+* Also provides mechanism to "replay" a capture
+* Two main tools are <a href="https://ArchiveWeb.page/" target="_blank">https://archiveweb.page/</a> (to capture) and <a href="https://ReplayWeb.page/" target="_blank">https://replayweb.page/</a> (to replay)
+
+<!--presenter notes
 
 The next tool we will cover is Webrecorder, which is a web archiving platform that approaches website captures a bit differently than a standard web crawl.
+
 Webrecorder was developed by the non-profit organization Rhizome as a tool for preserving online cultural heritage and digital art, first deployed in 2016. It has now expanded to include any web-based artifact.
+
 Webrecorder is an open source tool, meaning it is free for anyone to use, and does not require a subscription.
 User driven web archiving: the user determines what to/not archive. The actual web content capturing is also driven by the user themselves. The user will use a web browser to “drive” a capture session. This is different from, say, a web crawl, which relies mostly on automation to snake through and find whatever it can. Webrecorder is a more deliberate, manual action performed by a user.
 Webrecorder has made available two main tools: ArchiveWeb.Page to capture and archive websites into a WARC file, and then ReplayWeb.page to replay WARC files.
 
 Information about webrecorder was primarily derived from Lorena Ramirez-Lopez and Ilya Kreymer’s presentation here: https://www.youtube.com/watch?v=AP6wucoqJw0
 
+-->
 
+---
 
-* _Watch me demo or try yourself_
-* Open   _[https://ArchiveWeb.page/](https://archiveweb.page/)_  , install the extension and pin it
-* Open up any website you wish \(  _[https://thecreativeindependent.com/](https://thecreativeindependent.com/)_  \)
-* Click:
-  * The extension button
-  * “Create new archive”
-  * Start
-  * Navigate around the site for 10-20 seconds
-  * Autopilot
-  * Browse Archive to see what has been captured so far
-  * Stop recording
-  * Download the WACZ file
+<div class="shapes">
+  <div class="triangle"></div>
+  <span class="circle"></span>
+  <span class="square"></span>
+</div>
 
-_webrecorder_  _ Activity_
+<div class="activity-title">Mini Activity - Record the Web
+</div>
 
- In-class activity 
+_Watch me demo WebRecorder or try yourself._
 
- _[Podcast Archaeology](https://digital-archives.github.io/HISTGA1011/activities/podcast.html)_ 
+<ul class="activity-list">
 
+<li>Open and install <a href="https://ArchiveWeb.page/" target="_blank">https://archiveweb.page/</a>; pin to browser.</li>
+<li>Open up any website you wish.
+</li>
+<li>Click in this order: 1.) Extension button, 2.) Create new archive, 3.) Start</li>
+<li>Navigate around the site for 10-20 seconds</li>
+<li>Stop recording and download the WACZ file</li>
+
+---
+
+## Weekly Activity
+# Podcast Archaeology
+
+Start: <a href="https://digital-archives.github.io/HISTGA1011/activities/podcast.html" target="_blank">https://digital-archives.github.io/HISTGA1011/activities/podcast.html</a>
+
+---
+
+![Animated GIF of a yellow sunset generating pixelated ripples.](img/week_00_weekly_activity_sunset.gif)
+
+_Final questions or reflections?_
+
+mary.kidd@nyu.edu

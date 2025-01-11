@@ -96,10 +96,9 @@ Now that we have a definition for OAIS under our belts, we will first define wha
 
 # Why is it good to know about OAIS?
 
--__Widely accepted:_key digital preservation standard
--__Comprehensive:__ covers ingest to end-user access
--__Flexible:__ can be applied to a variety of environments and systems
--__Clear:__ Well-defined attributes for a robust digital archives system
+-**Widely accepted:** lots of policies, systems, practice, informed by it
+-**Comprehensive:** covers ingest to end-user access
+-**Flexible:** can be applied to a variety of environments and systems
 
 <!--presenter notes
 
