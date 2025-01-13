@@ -6,7 +6,7 @@ nav_order: 4
 has_children: false
 ---
 
-# Tech Stack Activity 🥞
+# Tech Stack 🥞
 
 ## Overview
 

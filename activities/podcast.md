@@ -6,7 +6,7 @@ nav_order: 13
 has_children: false
 ---
 
-# Weekly Activity: Podcast Archaeology
+# Podcast Archaeology
 
 ## Introduction
 The "Podcast Archaeology" activity provides a way for you to explore some of the earliest media files ever uploaded to the web in the early 2000s.
