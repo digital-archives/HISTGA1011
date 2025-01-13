@@ -1,12 +1,12 @@
 ---
-title: QCTools - A/V Preservation
+title: QCTools
 layout: default
 parent: Weekly Activities
 nav_order: 12
 has_children: true
 ---
 
-# QCTools Audio/Visual Preservation Weekly Activity
+# QCTools
 
 ## Introduction
 

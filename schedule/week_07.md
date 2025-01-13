@@ -7,11 +7,11 @@ has_children: false
 ---
 
 # Week 7: Digitization
-<a href="https://digital-archives.github.io/HISTGA1011/slides/week_07_slide_deck.html" target="_blank">Slides</a>
+<!-- <a href="https://digital-archives.github.io/HISTGA1011/slides/week_07_slide_deck.html" target="_blank">Slides</a> -->
 
 {: .label .label-yellow }
 Due
-* In class we will start the Week 7 activity. Submit your completed activity summary in Brightspace by Sunday night.
+* In class we will start the Week 7 activity, <a href="https://digital-archives.github.io/HISTGA1011/activities/imaging.html" target="_blank">Imaging and Conservation Group Activity</a>. Submit your completed activity summary in Brightspace by Sunday night.
 
 {: .label .label-green }
 Read

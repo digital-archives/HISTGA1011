@@ -6,11 +6,9 @@ nav_order: 7
 has_children: false
 ---
 
-# Imaging and Conservation Review 
+# Imaging and Conservation Group Activity
 
 ## Group Report and Individual Reflection
-
-Due: March 9th, 2024
 
 - [Step 1: Perform in-class pre-imaging and conservation review](#step-1)
 - [Step 2: Consultation](#step-2)

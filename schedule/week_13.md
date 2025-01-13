@@ -7,13 +7,11 @@ has_children: false
 ---
 # Week 13: Web and Email Archiving
 
-Link to slide deck [TK]
+<!-- <a href="https://digital-archives.github.io/HISTGA1011/slides/week_13_slide_deck.html" target="_blank">Slides</a> -->
 
 {: .label .label-yellow }
 Due
-* Assignment due: Submit your <a href="https://digital-archives.github.io/HISTGA1011/assignments/repository_comparison.html" target="_blank">Repository System Comparison</a> to Brightspace today.
-* Post your pre-class reading reactions to Brightspace.
-* During/post-class activity: Podcast Archaeology Activity
+* In class we will start the Week 13 activity, <a href="https://digital-archives.github.io/HISTGA1011/activities/podcast.html" target="_blank">Podcast Archaeology</a>. Submit your completed activity summary in Brightspace by Sunday night.
 
 {: .label .label-green }
 Read

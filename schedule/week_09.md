@@ -8,11 +8,11 @@ has_children: false
 
 # Week 9: Automation and Scripting
 
-<a href="https://digital-archives.github.io/HISTGA1011/slides/week_09_slide_deck.html" target="_blank">Slides</a>
+<!-- <a href="https://digital-archives.github.io/HISTGA1011/slides/week_09_slide_deck.html" target="_blank">Slides</a> -->
 
 {: .label .label-yellow }
 Due
-* In class we will start the Week 9 activity. Submit your completed activity summary in Brightspace by Sunday night.
+* In class we will start the Week 9 activity, <a href="https://digital-archives.github.io/HISTGA1011/activities/scripting_reflection.html">Scripting Reflection</a>. Submit your completed activity summary in Brightspace by Sunday night.
 
 {: .label .label-green }
 Read

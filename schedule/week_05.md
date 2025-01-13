@@ -7,12 +7,12 @@ has_children: false
 ---
 
 # Week 5: Digital Preservation Storage Systems
-<a href="https://digital-archives.github.io/HISTGA1011/slides/week_05_slide_deck.html" target="_blank">Slides</a>
+<!-- <a href="https://digital-archives.github.io/HISTGA1011/slides/week_05_slide_deck.html" target="_blank">Slides</a> -->
 
 {: .label .label-yellow }
 Due
 
-* In class we will start the Week 5 activity. Submit your completed activity summary in Brightspace by Sunday night.
+* In class we will start the Week 5 activity, <a href="https://digital-archives.github.io/HISTGA1011/activities/archivematica.html" target="_blank">Archivematica Sandbox</a>. Submit your completed activity summary in Brightspace by Sunday night.
 
 {: .label .label-green }
 Read

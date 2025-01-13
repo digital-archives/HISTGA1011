@@ -8,12 +8,12 @@ has_children: false
 
 # Week 4: Digital Repository Systems
 
-<a href="{{ site.baseurl }}/slides/week_04_slide_deck.html" target="_blank">Slides</a>
+<!-- <a href="{{ site.baseurl }}/slides/week_04_slide_deck.html" target="_blank">Slides</a> -->
 
 {: .label .label-yellow }
 Due
 
-In class we will start the Week 4 activity. Submit your completed activity summary in Brightspace by Sunday night.
+In class we will start the Week 4 activity, <a href="https://digital-archives.github.io/HISTGA1011/activities/tech_stack.html" target="_blank">Tech Stack 🥞</a>. Submit your completed activity summary in Brightspace by Sunday night.
 
 {: .label .label-green }
 Read

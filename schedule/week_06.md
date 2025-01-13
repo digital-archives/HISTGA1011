@@ -6,11 +6,11 @@ nav_order: 6
 has_children: false
 ---
 # Week 6: Digital Preservation Metadata
-<a href="https://digital-archives.github.io/HISTGA1011/slides/week_06_slide_deck.html" target="_blank">Slides</a>
+<!-- <a href="https://digital-archives.github.io/HISTGA1011/slides/week_06_slide_deck.html" target="_blank">Slides</a> -->
 
 {: .label .label-yellow }
 Due
-* In class we will start the Week 6 activity. Submit your completed activity summary in Brightspace by Sunday night.
+* In class we will start the Week 6 activity, <a href="https://digital-archives.github.io/HISTGA1011/activities/metadata.html" target="_blank">Digital Preservation Metadata</a>. Submit your completed activity summary in Brightspace by Sunday night.
 
 {: .label .label-green }
 Read

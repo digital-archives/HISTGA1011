@@ -8,11 +8,11 @@ has_children: false
 
 # Week 8: Access and Discovery
 
-<a href="https://digital-archives.github.io/HISTGA1011/slides/week_08_slide_deck.html" target="_blank">Slides</a>
+<!-- <a href="https://digital-archives.github.io/HISTGA1011/slides/week_08_slide_deck.html" target="_blank">Slides</a> -->
 
 {: .label .label-yellow }
 Due
-* In class we will start the Week 8 activity. Submit your completed activity summary in Brightspace by Sunday night.
+* In class we will start the Week 8 activity, <a href="https://digital-archives.github.io/HISTGA1011/activities/user_experience.html" target="_blank">The User's Experience</a>. Submit your completed activity summary in Brightspace by Sunday night.
 
 {: .label .label-green }
 Read
