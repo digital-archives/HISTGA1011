@@ -1,23 +1,29 @@
 ---
-title: Paper Structure & Requirements
+title: Paper Requirements and Structure
 layout: default
 parent: Final Project
 grand_parent: Assignments
-nav_order: 3
+nav_order: 2
 has_children: false
 ---
 
-# Paper structure and requirements
+# Paper Requirements and Structure
 
-## General requirements
+## General
 
-**Length:** 10-12 pages (not including required appendices and bibliography)
+**Length:** 10-12 pages of text (not including required appendices and bibliography)
 
-The paper should reference relevant readings and resources we have discussed over the course of the semester. Make sure to use appropriate in-text citations and include a bibliography. Visuals are welcome and often necessary: include them in your appendices or within the text of the paper (graphics do not count toward your paper length).
+**Font:** Double-spaced at 12 point font
 
-If it is physical, the collection you choose should be, at minimum, 5 linear feet. This requirement is obviously a bit fuzzier when it comes to other collection types such as email or web archives; I will review these when you submit your project abstracts to me, and provide you feedback as needed.
+**Citations:** Use whatever citation format you are most comfortable with, so long as it's consistent.
 
-### Structure
+**Other notes:**
+* The paper should reference relevant readings and resources we have discussed over the course of the semester.
+* Use appropriate in-text citations and include a bibliography.
+* Visuals are welcome and often necessary: include them in your appendices or within the text of the paper.
+* If the collection you choose contains paper-based archival materials, it should be, at minimum, at least 5 linear feet. This requirement is obviously a bit fuzzier when it comes to other collection types such as born-digital archives; I will review these when you submit your project abstracts, and provide you feedback as needed.
+
+### Paper Structure
 
 #### Introduction
 
@@ -55,7 +61,7 @@ Describe how your project will be carried out from start to finish. Where possib
 
 Describe your proposed workflow for digitization that addresses these stages:
 
-- Acquisition/accessioning
+- Acquisition and accessioning
 - Archival processing, appraisal, and description
 - Preparation of works for digitization by in-house staff, vendors, or both
 - Digital repository
@@ -76,15 +82,15 @@ Your workflow narrative will be supported by the Workflow diagram included in yo
 
 #### Technical specifications and standards
 
-- Software/hardware: Name any software applications or other tools/systems used throughout your workflow, as well as related hardware that will be used to automate or facilitate certain processes.
-- File formats: Determine the submission, preservation, and distribution formats your digital repository will accept or produce for each material type identified in your inventory.
-- File resolution: Describe minimum file resolutions/sample rates for each of your file formats
-- Quality control (QC): Determine how resulting digitized files are checked for quality
-- Metadata: Identify which schemas you will use for descriptive, administrative, preservation, technical metadata, and access/catalog metadata
-- Access: Name any access platforms that you will use to enable end-user discovery of material
-- Rights: Identify any potential intellectual property or privacy issues that might affect access to this material. If the material you have selected includes rights issues that could preclude access, this is okay and normal, and a good opportunity for you to discuss why this is and how this may affect certain aspects of your workflow.
+- **Software/hardware**: Name any software applications or other tools/systems used throughout your workflow, as well as related hardware that will be used to automate or facilitate certain processes.
+- **File formats**: Determine the submission, preservation, and distribution formats your digital repository will accept or produce for each material type identified in your inventory.
+- **File resolution**: Describe minimum file resolutions/sample rates for each of your file formats.
+- **Quality control (QC)**: Determine how resulting digitized files are checked for quality.
+- **Metadata**: Identify which schemas you will use for descriptive, administrative, preservation, technical metadata, and access/catalog metadata.
+- **Access**: Describe how end-users will access the collection, and be specific about the platforms that will be used.
+- **Rights**: Identify any potential intellectual property or privacy issues that might affect access to this material. If the material you have selected includes rights issues that could preclude access, this is okay and normal, and a good opportunity for you to discuss why this is and how this may affect certain aspects of your workflow.
 
-#### Front-end experience/user personas
+#### Front-end experience
 
 Describe who your end users are, and what they might require to both discover and access your digitized collection. What are their characteristics? What are their needs, and what features can support how they might best discover and experience these materials?
 
@@ -114,4 +120,4 @@ Describe the plan for the long-term preservation of your project. This may inclu
 
 **Appendix**
 
-**End-user experience mockup:** To support your Front-end experience/user personas narrative, create a mockup that describes how a user will search, browse, and eventually come to a single record in your digitized collection. Use this mockup to point out key features and functionality provided by your access portal. You should also think critically about how users might drill down into various representation hierarchies. For example, a digitized audio cassette tape may be associated with one or multiple digital files (one file for Side A, another for Side B, or representing different tracks on multi-track tapes, etc). How will the user understand each pages’ relation to one another?
+**End-user experience mockup:** To support your front-end experience/user personas narrative, create a mockup that describes how a user will search, browse, and eventually come to a single record in your digitized collection. Use this mockup to point out key features and functionality provided by your access portal. You should also think critically about how users might drill down into various representation hierarchies. For example, a digitized audio cassette tape may be associated with one or multiple digital files (one file for Side A, another for Side B, or representing different tracks on multi-track tapes, etc). How will the user understand each pages’ relation to one another?

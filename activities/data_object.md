@@ -35,7 +35,7 @@ By "layers of complexity," consider the components that support access to the ob
 3. **Submit your activity summary to Brightspace**
    Since the majority of your activity work will be in Airtable, please just submit the URL to your Airtable gallery card (to get the URL, simply click on the card and copy/paste the URL) to the Assignments section of Brightspace.
 
-4. **Prepare to share for next class**  
-   Be ready to deliver a brief, **2–3 minute overview** of your data object, using your Airtable card as your "slide". In your overview, address the following:  
+4. **Prepare to share for our next class**  
+   Be ready to deliver a brief **3-5 minute overview** of your data object, using your Airtable card as your "slide". In your overview, address the following:  
    - **Obsolescence**: In 40 years, do you think this object will still be more or less accessible and understandable in the same way it is today or when it was originally created and used? Why or why not?
    - **Future users**: What additional context or resources (e.g., documentation, software, emulators) would a future archivist, scholar, or casual user, need or require to make sense of your data object?
