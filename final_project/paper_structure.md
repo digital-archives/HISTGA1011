@@ -2,7 +2,6 @@
 title: Paper Requirements and Structure
 layout: default
 parent: Final Project
-grand_parent: Assignments
 nav_order: 2
 has_children: false
 ---

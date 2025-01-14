@@ -2,7 +2,6 @@
 title: Abstract Checklist
 layout: default
 parent: Final Project
-grand_parent: Assignments
 nav_order: 1
 has_children: false
 ---

@@ -2,7 +2,6 @@
 title: Presentation
 layout: default
 parent: Final Project
-grand_parent: Assignments
 nav_order: 3
 has_children: false
 ---
