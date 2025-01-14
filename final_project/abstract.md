@@ -1,5 +1,5 @@
 ---
-title: Abstract
+title: Abstract Checklist
 layout: default
 parent: Final Project
 grand_parent: Assignments
@@ -9,7 +9,6 @@ has_children: false
 
 # Abstract Checklist
 
-**Abstract due:** February 28, 2024 (Week 6)
 **Suggested Length:** 2-3 pages
 
 Before writing your abstract, choose a collection from an existing institution that will serve as the basis for your Digitization Project Plan. The collection you choose to work with should have these characteristics:
