@@ -1,14 +1,16 @@
 ---
-title: Abstract Checklist
+title: Abstract
 layout: default
 parent: Final Project
 nav_order: 1
 has_children: false
 ---
 
-# Abstract Checklist
+# Abstract
 
-**Suggested Length:** 2-3 pages
+## Overview
+
+Your abstract is a way for you to begin piecing together the critical components that you will write and present on for your final project.
 
 Before writing your abstract, choose a collection from an existing institution that will serve as the basis for your Digitization Project Plan. The collection you choose to work with should have these characteristics:
 - Is described online by an archival finding aid
