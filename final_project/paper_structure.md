@@ -8,115 +8,133 @@ has_children: false
 
 # Paper Requirements and Structure
 
-## General
+## Overview
 
-**Length:** 10-12 pages of text (not including required appendices and bibliography)
+Your final paper is an opportunity to fully articulate your Project Plan and demonstrate how you have applied digital preservation principles to a real-world archival collection.  
 
-**Font:** Double-spaced at 12 point font
+This report should build on your abstract submission, expanding on the critical components of your project, including selection rationale, digitization workflows, access strategies, and long-term sustainability considerations.
 
-**Citations:** Use whatever citation format you are most comfortable with, so long as it's consistent.
+The final paper should also align with the structure of your presentation, ensuring that you can clearly communicate your project’s goals, challenges, and impact.
 
-**Other notes:**
-* The paper should reference relevant readings and resources we have discussed over the course of the semester.
-* Use appropriate in-text citations and include a bibliography.
-* Visuals are welcome and often necessary: include them in your appendices or within the text of the paper.
-* If the collection you choose contains paper-based archival materials, it should be, at minimum, at least 5 linear feet. This requirement is obviously a bit fuzzier when it comes to other collection types such as born-digital archives; I will review these when you submit your project abstracts, and provide you feedback as needed.
+---
 
-### Paper Structure
+## General Requirements
 
-#### Introduction
+- **Length:** 10–12 pages of text *(not including required appendices and bibliography)*
+- **Formatting:** 12-point font, double-spaced  
+- **Citations:** Use any citation format, as long as you apply it consistently  
 
-This can also be thought of as your “elevator pitch”. Incorporate a brief, high-level overview of the problem you are trying to solve or the goal or effort you are trying to accomplish, what qualifies your department to address the problem, how you will go about solving the problem, and the resulting outcomes.
+**Additional Notes:**  
+✅ Your paper should reference relevant **readings and resources** from the course, or from your own research.  
+✅ Use **appropriate in-text citations** and include a bibliography.  
+✅ **Visuals are encouraged** and may be embedded within the text or included in the appendix.  
 
-#### Rationale
+---
 
-Describe why your department is choosing this particular collection or collections for digitization over other undigitized collections in the repository. Here, you might address:
+## 🔖 Paper Structure
 
-- Long-term benefits to or potential impacts on research, education, artistry, teaching, public programming, social movements, surfacing deliberately marginalized histories, or advancing yours or the field at-large’s technical capacity
-- Current circulation statistics for the physical collection, and how digitization and access may stand to increase usage and physical or virtual engagement
-- Physical fragility of materials, where a digital surrogate may reduce cumulative damage or exposure through physical handling or use
-- Increasing compliance to national and/or local preservation standards
-- Alignment with your department or institution’s overall goals and objectives
+Your final report should follow this structured format to ensure consistency and clarity.
 
-#### Stakeholders
+### 1. Introduction  
+Provide a high-level overview of:  
+- The problem or goal your project addresses  
+- Why your department is positioned to tackle this issue  
+- Your proposed approach  
+- The expected outcomes of your digitization project  
 
-List staff and/or departments who have a stake in the success of your Plan. For each, specifically call out their role and responsibility for each step of your workflow, and/or in your overall Plan’s goals for outcomes or long-term sustainability.
+### 2. Rationale  
+Explain why your institution is prioritizing this collection over others. Consider:  
+- Long-term impact on research, teaching, public programming, social movements, or marginalized histories  
+- Circulation statistics and how digitization may increase engagement  
+- Physical fragility and how digital surrogates may reduce wear and tear  
+- Compliance with preservation standards  
+- Alignment with institutional goals and priorities  
 
-#### Scope/inventory
+### 3. Stakeholders  
+List staff, departments, or external partners involved in your project. For each, specify:  
+- Their role and responsibilities  
+- How they contribute to the project’s success and sustainability  
 
-Provide a high-level summarization of the candidate collection(s)’s form and extent. An item-level inventory is not required, but feel free to link out to a more detailed finding aid or other catalog record if available.
+### 4. Scope & Inventory  
+Provide a summary of your collection’s form and extent.  
+- Describe the collection (formats, volume, content types)  
+- What is in scope for digitization  
+- What is out of scope (e.g., commercial recordings, duplicate materials)  
+- Link to the finding aid or catalog record, if available  
 
-You should also make an effort to describe what may be out of scope for this project. For example, your collection may include a group of commercial recordings that do not carry the same risks as other unique/rarer items in the collection requiring digitization.
+### 5. Selection Criteria & Prioritization  
+Describe the order in which materials will be digitized, considering the institution’s existing access methods, technological limitations, and institutional priorities. Identify any challenges in the current system that may impact digitization workflows or user access. Considerations may include:
+- Format and condition  
+- Copyright and legal restrictions  
+- Dependence on specific hardware/software  
+- Other institutional priorities  
 
-#### Selection criteria and prioritization approach
+### 6. Preservation Approach  
+Describe your methodology and cite national standards and best practices where applicable. If you depart from existing practices, explain why and how your approach remains interoperable.  
 
-Describe the order in which materials will be digitized based on a selection criteria that takes into consideration the materials’ format, condition, copyright restrictions, or dependencies on specific resources, hardware, or software, or other factors.
+### 7. End-to-End Workflow  
+Outline the full workflow for your project, covering:  
+- Acquisition and accessioning  
+- Archival processing, appraisal, and description  
+- Digitization preparation (in-house or vendor-based)  
+- Digital repository ingestion and file storage  
+- Additional processing (OCR, auto-transcription, normalization, QC, rights clearance)  
+- Long-term preservation strategies (backups, data integrity, disaster planning)  
 
-#### Preservation approach
+### 8. Discovery, Access & Use  
+Explain how users currently access materials at your institution. Identify limitations (e.g., discoverability, user experience, metadata structure). Compare access models at other institutions and discuss how similar approaches could improve your institution’s access strategy, or suggest improvements to the user experience, features, and functionality.
 
-Describe how your project will be carried out from start to finish. Where possible, cite appropriate national standards and accepted professional practices. If your project’s methodology departs from usual standards and procedures, explain why its goals require such an approach and how the results would be interoperable with other relevant resources that do follow existing standards.
+Ensure this section aligns with any visualizations/diagrams/workflows in the appendix and in your presentation.
 
-#### End-to-end workflow
+### 9. Technical Specifications & Standards  
+- Software and hardware: Identify tools used in the workflow  
+- File formats: Define submission, preservation, and access formats  
+- Resolution and sample rates: Outline minimum standards for digitized files  
+- Quality control: Describe how files will be assessed  
+- Metadata: Identify schemas for descriptive, administrative, preservation, technical, and access/catalog metadata  
+- Access platform: Explain how users will interact with the collection  
+- Rights and restrictions: Discuss potential copyright or privacy concerns  
 
-Describe your proposed workflow for digitization that addresses these stages:
+### 10. Front-End Experience  
+Describe who your intended users are and how they will engage with the collection. Consider:  
+- User characteristics and needs  
+- Features that will support discovery and access  
+- Format-specific requirements (e.g., audio players for digitized tapes)  
+- How the digital experience will replicate or enhance the physical experience  
 
-- Acquisition and accessioning
-- Archival processing, appraisal, and description
-- Preparation of works for digitization by in-house staff, vendors, or both
-- Digital repository
-- Submission
-- Ingest/file storage
-- Any other processing steps (for example, optical character recognition, auto-transcription, file normalization, quality control, rights clearances)
-- Long-term digital preservation activities: Backups, data integrity/other audits, disaster planning/risk mitigation, and other measures taken to ensure digitized works persist over the long term
+This section should align with your mockup in the appendix.  
 
-#### Discovery, access and use
+### 11. Anticipated Challenges & Risk Mitigation  
+Identify potential obstacles and how you plan to address them, including:  
+- Material-specific challenges  
+- Workflow or policy gaps  
+- Budget and resource constraints  
+- Technical limitations  
+- Sustainability concerns  
+- Legal or rights-based risks  
 
-For each stage in your workflow, clarify:
+Outline a long-term digital preservation plan, considering:  
+- Institutional commitments required for storage, integrity, and access  
+- Storage locations for preservation masters  
+- Existing or missing institutional policies on digital collections  
 
-- Who/which staff will perform each step
-- Which software and hardware are required to handle each step
-- How each step progresses from one stage to the next. Are there any hand-offs between staff or systems? If so, describe what those are and how they prompt the next step or stage in the process.
+---
 
-Your workflow narrative will be supported by the Workflow diagram included in your appendix, so make sure your workflow narrative and diagram accurately reflect one another.
+## Appendices  
+Include the following supporting documents:  
 
-#### Technical specifications and standards
+### End-User Experience Mockup  
+- A visual representation of how users will search, browse, and access your digitized collection  
+- Key features and functionalities of your access portal  
+- Hierarchical relationships (e.g., multiple files for an audio cassette)  
 
-- **Software/hardware**: Name any software applications or other tools/systems used throughout your workflow, as well as related hardware that will be used to automate or facilitate certain processes.
-- **File formats**: Determine the submission, preservation, and distribution formats your digital repository will accept or produce for each material type identified in your inventory.
-- **File resolution**: Describe minimum file resolutions/sample rates for each of your file formats.
-- **Quality control (QC)**: Determine how resulting digitized files are checked for quality.
-- **Metadata**: Identify which schemas you will use for descriptive, administrative, preservation, technical metadata, and access/catalog metadata.
-- **Access**: Describe how end-users will access the collection, and be specific about the platforms that will be used.
-- **Rights**: Identify any potential intellectual property or privacy issues that might affect access to this material. If the material you have selected includes rights issues that could preclude access, this is okay and normal, and a good opportunity for you to discuss why this is and how this may affect certain aspects of your workflow.
+### Workflow Diagram  
+- A diagram mapping out your workflow from digitization to access  
+- Ensure it visually aligns with your workflow narrative  
 
-#### Front-end experience
+---
 
-Describe who your end users are, and what they might require to both discover and access your digitized collection. What are their characteristics? What are their needs, and what features can support how they might best discover and experience these materials?
+## Submission Details  
+Your final paper is due **[1 week before the semester ends]** (date to be confirmed based on the academic calendar).  
 
-Keep in mind that some of these proposed features may be format-specific: digitized audio will require a different end-user interface and features that are vastly different than browsing a creator's email archives.
-
-Please also consider researcher needs. How will these materials be presented on-screen, in a way that promotes the same level of serendipitous research that would otherwise happen if the researcher were encountering physical materials? What sort of context be provided to connect digitized materials to their physical counterparts, if at all? If materials are presented in some sort of sequence or order, how will the end-user understand and make sense of this virtual environment?
-
-You will support your end-user narrative by creating a End-user experience mockup in your Appendix.
-
-#### Challenges
-
-Describe anticipated challenges or obstacles that may hinder your Plan’s success, and how you might meet them. These challenges may stem from:
-
-- Issues related to the materials to be digitized
-- Workflow gaps
-- Policy gaps
-- Available budget or resources for both short- and long-term digital preservation efforts
-- Technical shortcomings
-- Sustainability
-- Risk that may arise due to rights clearance
-
-Describe the plan for the long-term preservation of your project. This may include identifying:
-
-- Institutional commitments that may be required to sustain storage, integrity and access of digitized contents over the long term.
-- Specifics over how and where your preservation masters will be stored and any additional details on digital preservation infrastructures.
-- Any existing institutional policies that sustainable digital collections management (if there are no existing policies to cite, this would be a good time to point that out).
-
-**Appendix**
-
-**End-user experience mockup:** To support your front-end experience/user personas narrative, create a mockup that describes how a user will search, browse, and eventually come to a single record in your digitized collection. Use this mockup to point out key features and functionality provided by your access portal. You should also think critically about how users might drill down into various representation hierarchies. For example, a digitized audio cassette tape may be associated with one or multiple digital files (one file for Side A, another for Side B, or representing different tracks on multi-track tapes, etc). How will the user understand each pages’ relation to one another?
+Submit in **PDF format** via **[submission platform or email, as applicable]**. 
