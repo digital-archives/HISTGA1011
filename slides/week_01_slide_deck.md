@@ -21,12 +21,12 @@ style: |
 ---
 
 # Today
-- **Settle in/Reminders/Announcements** (15 min)
+- **Settle in/reminders/announcements** (15 min)
 - **Introductions** (10 min)
-- **Syllabus Review** (10 min)
+- **Syllabus review** (20 min)
 - **Lecture: Data Object Basics** (45 min)
 - **Break** (10 min)
-- **Start Weekly Activity** (70 min)
+- **Start weekly activity**
 - **Wrap up**
 
 ---
@@ -41,7 +41,7 @@ _Feel free to email me with any announcements you would like me to boost (upcomi
 
 This class is intended to be a welcoming and productive space.
 
-All questions, including repeat questions, or questions with “obvious” answers, are welcome and encouraged. Anti-oppressive or harmful language will not be tolerated.
+All questions, including repeat questions, or questions with “obvious” answers, are welcome and encouraged.
 
 ---
 
@@ -49,7 +49,9 @@ All questions, including repeat questions, or questions with “obvious” answe
 
 My name is Mary Kidd. My pronouns are she/her. You can call me Mary in class, over email, or anywhere else.
 
-I work at the New York Public Library as the Systems and Operations Manager in the Preservation and Collections Processing Department. I also consult on and have led various digital preservation projects.
+I work at Yale University in their Information Technology (IT) Department, as their Technical Lead for Archival Systems. I just started 2 months ago!
+
+I also consult on and have led various digital preservation projects.
 
 My email: [mary.kidd@nyu.edu](mailto:mary.kidd@nyu.edu)
 
@@ -76,7 +78,7 @@ Syllabus link: https://github.com/kiddmary/HIST-GA-1011
 
 ---
 
-# Data Object Basics
+# Introduction to Digital Archives
 
 <!-- presenter notes
 
@@ -86,7 +88,43 @@ I want to step you through basic concepts to do with what digital information is
 
 ---
 
-# Why should we know about digital preservation and archiving?
+# Question
+
+What does the concept of "digital archives" mean to you?
+
+* What does it bring to mind?
+* Where have you encountered a "digital archive"?
+
+---
+
+# The concept of digital preservation has many meanings, and also depends a lot of context.
+
+---
+
+## Definition
+# Digital Archiving
+
+**Digital archiving** can refer to the specific archival processing practice of accessioning, appraising, arranging, and describing exclusively **born-digital** archival materials. The workers who do this work are sometimes referred to as **digital archivists**.
+
+---
+
+## Definition
+# Digital Archive
+
+A **digital archive** can refer to an archive, usually with an online access platform, consisting of some or all born-digital _or_ digital surrogates (digital representations of physical materials). This is also sometimes referred to as a **digital library** or **digital collections**.
+
+---
+
+## Definition
+# Digital Preservation
+
+**Digital preservation**, sometimes also called **digital curation**, refers to the activities involved in selecting, establishing, maintaining, and making accessible the contents of a **digital repository or archive**.
+
+---
+
+# The common thread through all of these terms and definitions is **digital**.
+
+---
 
 “As archivists, if we are going to be able to take care of digital collections into the future, we must understand that the basic building blocks of… digital files are… bits and bytes . To know files, we must know how they are constructed… And from this knowledge, we will be better equipped to design preservation strategies for our digital collections.”
 
@@ -103,7 +141,9 @@ Lyons, Bertram. "Digital Preservation." In The Digital Archives Handbook: A Guid
 ## Definition
 # Data Object
 
-A data object  is any entity represented as a sequence of binary digits (bits or bitstreams), whose meaningful interpretation depends on a combination of decoding processes and contextual factors.
+A **data object** is anything encoded by a sequence of binary digits (bits or bitstreams), whose meaningful interpretation depends on a combination of decoding processes and contextual factors.
+
+Examples: a computer file, a software application, a hard disk, a floppy disk, a thumb drive, a flip phone
 
 <!-- presenter notes
 
@@ -112,7 +152,7 @@ Let's unpack this definition by thinking a bit about Data Objects we encounter t
 -->
 ---
 
-# Data Object Relationships & Layers
+# Data Object: Relationships & Layers
 
 **Data Object** (e.g., bitstream)
 ↓ Requires
@@ -696,13 +736,6 @@ Demo seeing HEX values in Google Slides.
 
 ---
 
-
-# Break
-
-![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives2.gif)
-
----
-
 # Binary Encoding Examples
 
 <!--presenter notes
@@ -827,6 +860,12 @@ Magnetic core memory works by subjecting a magnetic field to a magnetic-sensitiv
 The image you see in the slide shows a 32 x 32 core memory plane storing 1024 bits (or 128 bytes) of data. The small black rings at the intersections of the grid wires, organised in four squares, are the ferrite cores. This so-called “core memory” is one of the first instances of using magnetism to store data. We will see magnetism crop up again with the advent of hard disk drive and recording media later on.
 
 -->
+
+---
+
+# Break
+
+![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives2.gif)
 
 ---
 
