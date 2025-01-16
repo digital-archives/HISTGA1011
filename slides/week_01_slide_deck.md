@@ -20,14 +20,15 @@ style: |
 
 ---
 
-# Today
-- **Settle in/reminders/announcements** (15 min)
-- **Introductions** (10 min)
-- **Syllabus review** (20 min)
-- **Lecture: Data Object Basics** (45 min)
-- **Break** (10 min)
-- **Start weekly activity**
-- **Wrap up**
+# Today’s Agenda
+
+- **Settle in/reminders/announcements** (15 minutes)
+- **Introductions** (10 minutes)
+- **Syllabus review** (20 minutes)
+- **Lecture: Introduction to Digital Archives** (60 minutes)
+- **Break** (10 minutes)
+- **Start weekly activity** (35 minutes)
+- **Wrap up** (10 minutes)
 
 ---
 
@@ -386,7 +387,7 @@ img {
 
 ---
 
-![Side-by-side animated GIF comparison of an 8-bit system, versus a 16-bit system. The 16-bit system shows more color, texture, and detail.](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives1.gif)
+![Side-by-side animated GIF comparison of an 8-bit system, versus a 16-bit system. The 16-bit system shows more color, texture, and detail.](img/week_01_16_bit_vs_8_bit.gif)
 
 <!-- presenter notes
 
@@ -575,25 +576,11 @@ The American Standard Code for Information Interchange (ASCII) is a character en
 
 ---
 
-# Sample ASCII Chart
-
-<style scoped>
-img {
-  max-height: 100vh; /* 80% of the viewport height */
-  object-fit: contain;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 5px;
-  margin-top: 0;
-}
-</style>
-
-![Image charting ASCII symbols and their binary and decimal equivilant](img/week_01_USASCII_code_chart.svg.png)
+![Image charting ASCII symbols and their binary and decimal equivilant](img/week_01_ascii_chart.svg)
 
 <!--presenter notes 
 
-Image source: https://commons.wikimedia.org/wiki/File:USASCII_code_chart.svg
+Image source: https://upload.wikimedia.org/wikipedia/commons/1/1b/ASCII-Table-wide.svg
 
 -->
 
@@ -736,136 +723,9 @@ Demo seeing HEX values in Google Slides.
 
 ---
 
-# Binary Encoding Examples
-
-<!--presenter notes
-Much of this timeline is influenced by Digital Preservation Management’s Timeline of Digital Technology and Preservation (https://www.dpworkshop.org/dpm-eng/timeline/timeline.html).
---> 
-
----
-
-![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives3.jpg)
-
-1880s: Physical holes punched into a piece of paper correspond to warp/weft patterns.
-
-<!--presenter notes
-
-https://www.dpworkshop.org/dpm-eng/timeline/timeline.html
-
-Here, we are looking at a piece of card stock with an array of decimal numbers printed on it. The paper is punched through with holes that correspond to what are essentially bits and bytes of information. These demarcations were then inserted into and "read" by various machines.
-
-Punch cards like this were used throughout numerous industries with the most famous examples being the Jacquard Loom. Looms would be loaded with punch cards, "that determine[d] which cords of the fabric warp should be raised for each pass of the shuttle."
-
-Similar to what we just learned about binary code, we again, have two possible states represented: warp up, or warp down, and further, the placement of the punch on the card which likely corresponded to a specific warp on the loom.
-
-See: https://www.computerhistory.org/storageengine/punched-cards-control-jacquard-loom/#:~:text=The%20Jacquard%20Loom%20is%20controlled,wide%20application%20in%20textile%20manufacturing.
-
--->
----
-
-<img src="img/scientific-american-cover-census-with-punchcards.png">
-
-<!-- presenter notes
-
-Here is an image from an 1890 issue of Scientific American, depicting workers processing data for the U.S. Census. The 1890 census was the first census that involved computers to tabulate data.
-
-A few captions mention "enumerators"—these were the workers responsible for gathering census data. Enumerating referred to the act of going door-to-door to collect information, such as names, ages, birthplaces, occupations, and other personal details from each household.
-
-We also see captions referencing "tabulating machines", which highlight a major innovation of the time—Hollerith’s Tabulating Machine. These machines worked with punch cards. Each card had a set of holes punched in it, and these holes represented different categories of information—for example, age or marital status.
-
-To process the cards, workers would place them on the machine, and it functioned like a sort of panini press. One side of the press had an array of wires, one wire for each possible punch hole on the card. The other side had pools of mercury. When the machine pressed down, if a wire passed through a hole, it dipped into the mercury pool, completing an electrical circuit.
-
-That electric signal triggered a corresponding dial on the machine. Each dial counted a specific category, like the number of people aged 30-40. As the wire passed through the card and touched the mercury, the dial would advance by one count.
-
-What’s fun about learning about these older computing machines is that they make the connection between the physical and digital worlds much more tangible. In many ways, they worked exactly like what we learned about binary. The punch cards were essentially a physical representation of binary data—either a hole (1) or no hole (0). The position of the hole on the card represented a different category or variable, much like the placement of digits in binary tells us the value of the number.
--->
-
----
-
-<style scoped>
-img {
-  width: 80%;
-  object-fit: contain;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
-![Image showing the charred remains of the 1890 United States census records](img/64-NAD-264.jpg)
-
-<!--presenter notes
-
-Finding aid: https://www.archives.gov/research/census/1890
-
-archives.gov article: https://www.archives.gov/publications/prologue/1996/spring/1890-census
-
-Tragically, in 1896, right before the results of the 1890 census were published, a fire and subsequent water damage destroyed a vast amount of the census data gathered in 1890. There is a great article on archives.gov addressing how this happened, and what came about (basically, establishing an official US Census Bureau Office, and ramping up storage conditions, including fireproofing where records like this were kept.)
-
--->
-
----
-
-![Clip of the language of the 1939 Federal Records Act, which notes punch cards, along with photographic records, sound recordings, drawings, correspondence, etc. as part of the historic record.](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives4.png)
-
-<!--presenter notes 
-
-Source: https://meridian.allenpress.com/american-archivist/article/58/2/182/23633/Punch-Card-Records-Precursors-of-Electronic
-
-Punch cards would be used well into the mid-20th century, and incorporated into how some of the earliest computers read and interpreted information.
-
-Punch cards were recognized as carriers of information, and in the 1939 Records Disposition Act, punch cards were listed as a type of record eligible for preservation. The slide shows an excerpt from this Act, that lists punch cards alongside other record types such as sound recordings, papers, correspondence and others.
-
--->
-
----
-
-![The 30-ton ENIAC, one of the first programmable computers.](img/week_01_eniac.jpg)
-
-<!--presenter notes 
-
-In 1940, we start to see the development of programmable computers. In the slide above we are looking at the Electronic Numerical Integrator and Computer, aka ENIAC, developed by the United States Army, and housed in Philadelphia, Pennsylvania. In the foreground of the photo is Betty Holberton, an American computer scientist who was one of the six original programmers of the ENIAC.
-
-Take note of the plug boards you see in the photo on the left. These plug boards are how computations were programmed into the computer. They work in an essentially similar manner to punch cards; instead of holes in paper, you had cables going into boards that corresponded to numbers that the ENIAC could interpret into computations.
-
--->
-
----
-
-<style scoped>
-img {
-  width: 60%;
-  object-fit: contain;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
-
-![Image of a 32 x 32 core memory plane, developed by Dr. An Wang in 1949.](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives6.jpg)
-
-
-<!--presenter notes
-
-Image source: Konstantin Lanzet - received per EMail Camera: Canon EOS 400D
-Core Memory Module – A 32 x 32 core memory plane storing 1024 bits (or 128 bytes) of data. The small black rings at the intersections of the grid wires, organized in four squares, are the ferrite cores.
-
-CC BY-SA 3.0
-File: KL CoreMemory.jpg
-Created: 14 June 2009
-
-In 1949, Dr. An Wang from the Harvard University Laboratory in the United States invented magnetic core memory.
-
-Magnetic core memory works by subjecting a magnetic field to a magnetic-sensitive “core”. The core, in turn, could be magnetized in a certain direction. One direction would correspond to a 1, and in another direction correspond to a 0. So, instead of holes in paper cards or cables into punch boards, we are seeing magnetic field sensitive cores used to encode bits.
-
-The image you see in the slide shows a 32 x 32 core memory plane storing 1024 bits (or 128 bytes) of data. The small black rings at the intersections of the grid wires, organised in four squares, are the ferrite cores. This so-called “core memory” is one of the first instances of using magnetism to store data. We will see magnetism crop up again with the advent of hard disk drive and recording media later on.
-
--->
-
----
-
 # Break
 
-![](img/Week%2001%20-%20Introduction%20to%20Digital%20Archives2.gif)
+![Animated GIF of a teapot and a steaming cup of tea.](img/week_00_hot_tea.gif)
 
 ---
 
@@ -876,7 +736,7 @@ Start: <a href="https://digital-archives.github.io/HISTGA1011/activities/data_ob
 
 ---
 
-![](img/week_00_weekly_activity_sunset.gif)
+![Animated GIF of a sun setting over still water.](img/week_00_weekly_activity_sunset.gif)
 
 _Final questions or reflections?_
 
