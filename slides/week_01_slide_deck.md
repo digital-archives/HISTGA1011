@@ -98,7 +98,7 @@ What does the concept of "digital archives" mean to you?
 
 ---
 
-# The concept of digital preservation has many meanings, and also depends a lot of context.
+# Digital archives/archiving has many meanings, influenced by the context in which they are discussed.
 
 ---
 
@@ -212,8 +212,6 @@ Example: A US zip code encodes geographic areas using 5 numbers.
 
 <!-- presenter notes
 
-Question for the class: Can you think of an example from your life or work where meaning is encoded by numbers in a specific order?
-
 Other examples:
 - Area code of a telephone number
 - DD/MM/YYYY format date
@@ -227,21 +225,15 @@ These encodings are akin to how computers encode information into binary. Basica
 ## Definition
 # Binary
 
- Binary  encodes information using:
-- A "base-2" system and place values
-- The digits 0 and 1, referred to as bits  (stands for "binary digit")
-
-Binary works in a similar way to the familiar base-10  decimal system, which also uses digits and place values to represent numbers.
+ Binary encodes information using:
+- A "base-2" system consisting of **binary digits** or **bits** (0 and 1)
+- Place value
 
 <!-- presenter notes
 
-Binary describes an encoding scheme in which there are only two possible values or states for each value, such as 1 or 0. Because there are only two possible values, binary is considered a base-2 system.
+Binary is an encoding scheme that represents things with binary digits, aka "bits", represented by 1 or 0. Because there are only two possible values, binary is considered a base-2 system.
 
-Each individual value is referred to as a “bit”. In the case of a binary computing that uses 1s and 0s, the “1” and the “0” are two individual bits.
-
-Along with bit values, binary also uses place values to represent real-world values.
-
-Computers, true to their name, are machines primarily designed to carry out computations. They excel in understanding the language of numbers.
+Along with bit values, binary also uses place values to represent information. Place values are a term we were all probably introduced to in elementary or middle school. So, let's switch gears and look at the encoding scheme we are most used to: The base-10 decimal system.
 
 -->
 
@@ -250,11 +242,11 @@ Computers, true to their name, are machines primarily designed to carry out comp
 # Base-10
 ## 0 1 2 3 4 5 6 7 8 9
 
+9 possible decimal representations
+
 <!-- presenter notes
 
-If you did not know this already, the numbers that you and I are most familiar with are written in a "base-10" decimal system. The first thing to know about a base-10 system is that it uses 10 digits (0-9) to represent the "base" values.
-
-The second thing to know about a base-10 decimal system is that it uses number placement to represents values that exceed 9.
+If you did not know this already, the numbers that you and I are most familiar with are written in a "base-10" decimal system. The 10 in base-10 refers to the fact that it uses 10 decimal values (0-9) to represent numeric values.
 
 -->
 
@@ -264,50 +256,75 @@ The second thing to know about a base-10 decimal system is that it uses number p
 
 <!-- presenter notes
 
-Therefore, when we write out a ten, we don't have a "base value" that represents ten, like we do with a 9 or a 4.
+Therefore, when we write out a ten, we don't have a specific decimal number that represents 10 (otherwise it would be called a base-11 system). Instead, we insert a 0, and move the 1 over left from the "ones" place to the "tenths" place, and "restart" the 1s place to 0.
 
-To represent 10, we move the 1 over left from the "ones" place to the "tenths" place, and restart the 1s place to 0.
-
-Combined, we know that 1 proceeded by a 0 represents 10.
+By combining decimals and using place values, we can represent any number.
 
 -->
 
 ---
 
-# 100
+| Digit | 1 | 0 |
+| :-:   | :-: | :-: |
+| Place | 10^1 (Tens) | 10^0 (Ones) |
 
-<!-- presenter notes
-When we go up one hundred values, we again, bump our 1 over one more place to the left, to the one-hundredths place.
+- The digit `1` is in the **tens place** ( 10^1 ) and represents \( 1 × 10 = 10 \).
+- The digit `0` is in the **ones place** ( 10^0 ) and represents ( 0 × 1 = 0 ).
 
-Each new "place" represents an increment of 10 "to the power of" the placement designation.
+**Decimal Value**: (1 × 10^1 ) + (0 × 10^0) = 10
+
+---
+
+| Digit | 6 | 4 | 7 | 8 | 3 | 4 | 1 |
+| :-:   | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| Place | 10^6 | 10^5 | 10^4 | 10^3 | 10^2 | 10^1 | 10^0 |
+
+- `6` in the **millions place** (6 × 1,000,000 = 6,000,000)
+- `4` in the **hundred thousands place** (4 × 100,000 = 400,000)
+- `7` in the **ten thousands place** (7 × 10,000 = 70,000)
+- `8` in the **thousands place** (8 × 1,000 = 8,000)
+- `3` in the **hundreds place** (3 × 100 = 300)
+- `4` in the **tens place** (4 × 10 = 40)
+- `1` in the **ones place** (1 × 1 = 1)
+
+---
+
+1010100110110001110100010111010110100001111010101101000010111101011001110101011001011011101010111001101010010101100101010110101001011010101011100101110110110100101110101010100110110001110100010111010110100001111010101101000010111101011001110101011001011011101010111001101010010101100101010110101001011010101011100101110110110100101110101010100110110001110100010111010110100001111010101101000010111101011001110101011001011011101010111001101010010101100101010110101001011010101011100101110110110100101110101010100110110001110100010111010110100001111010101101000010111101011001110101011001011011101010111001101010010101100101010110101001011010101011100101110110110100101110101010
+
+<!--presenter notes
+
+Back to binary: If you were to encounter some binary code, this is what it would look like: a giant stream of bits, with little rhyme or reason at least from the perspective of a human.
+
 -->
 
 ---
 
-# 1,200
+10101001 10110001 11010001 01110101  
+10100001 11101010 11010000 10111101  
+01100111 01010110 01011011 10101011  
+10011010 10010101 10010101 10101010  
+10101001 10110001 11010001 01110101  
+10100001 11101010 11010000 10111101  
+01100111 01010110 01011011 10101011  
+10011010 10010101 10010101 10101010  
+10101001 10110001 11010001 01110101  
+10100001 11101010 11010000 10111101  
 
-<!-- presenter notes 
-
-We know that this represents “1 thousand, two hundred” because the 1 is in the “thousandths” place, which we know to be four positions left from the very right. And to sometimes make base-10 numbers more readable, we'll place a  comma to group placement groups in threes.
-
-Binary works similarly in that we use both a decimal value (either a 1 or a 0), and place, to determine their overall value. It's pretty much the same system as base-10, except we are working with 0s and 1s, instead of 0-9.
-
--->
 
 ---
 
 ## Definition
-# Byte (1/2)
+# Byte (1/3)
 
-A byte  is a discrete-length grouping of bits.
+A byte is a distinct-length group of bits.
 
  Example: 00000111 
 
-This byte has a length of 8.
+This byte has a distinct length of 8 bits.
 
 <!-- presenter notes
 
-A byte is a discrete-length grouping of bits. In the slide, we have an example of a byte that consists of 8 bits.
+A byte is a discrete-length grouping of bits. In the slide, we have an example of a byte whose length is 8 bits.
 
 There are other systems that have 16-bit or 24-bit length bytes. But for this example, and for the rest of the lesson, let’s work within a system that uses 8-bit bytes, for simplicity’s sake.
 
@@ -319,11 +336,18 @@ https://www.techtarget.com/whatis/definition/binary#:~:text=In%20mathematics%20a
 ---
 
 ## Definition
-# Byte (2/2)
+# Byte (2/3)
 
- Byte length  determines total number of values it can represent.
+Byte length determines total number of values it can represent.
 
-An 8-bit length byte like 00000111 represents up to 256 values. To determine this, raise 2 possible bit values, (1 or 0) to the power of the byte length (8), notated as 2^8.
+An 8-bit byte can represent up to 256 values.
+
+---
+
+## Definition
+# Byte (3/3)
+
+To determine how many values a byte can represent, you can "raise" the 2 possible bit values (1 or 0) to the "power" of the byte length (8), notated as 2^8.
 
 ```
 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 
@@ -332,9 +356,6 @@ An 8-bit length byte like 00000111 represents up to 256 values. To determine thi
 ```
 
 <!--presenter notes
-I mentioned before than in a base-10 counting system, the length and position encodes value. Binary, similarly, can be interpreted by both length and position.
-
-The position of each digit determines its decimal value. Thus, by understanding the position of each bit, a binary number can be converted into a decimal number.
 
 An 8-bit byte system means each byte contains 8 bits.
 
@@ -346,7 +367,7 @@ To calculate how many different combinations of 8 1s and 0s, we raise the number
 ---
 
 ## Question
-# How many possible byte values are there in a 16-bit  system?
+# How many possible values are there in a 16-bit system?
 
 To determine this:
 * Determine number of possible bit values: 2
@@ -371,18 +392,6 @@ A 16-bit system can be calculated by raising the number of possible values (2) t
 ```
 ---
 
-<style scoped>
-img {
-  max-height: 105vh; /* 80% of the viewport height */
-  object-fit: contain;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 5px;
-  margin-top: 0;
-}
-</style>
-
 ![Console screen capture of an 8-bit Nintendo Entertainment System (NES) gaming system from the late 1980s.](img/week_01_mario_01.png)
 
 ---
@@ -391,11 +400,73 @@ img {
 
 <!-- presenter notes
 
-Comparing an 8-bit Nintendo Entertainment System to a 16-bit one side-by-side, you can see some differences. There are more colors, shades, textures, and tones in the right-hand screen. The more information you can encode, the more stuff you can represent on-screen.
-
-it's important to understand that when we are referring to an 8-bit versus a 16-bit system, and how many byte values each can handle, does not mean that an 8-bit system can only handle 256 values max across all aspects of the game, such as sound, colors, etc, or 65,000 max values for a 16-bit system. This actually refers more to how large of a byte the Central Processing Unit, or CPU, can handle. The CPU is considered the “brain” of the computer or gaming console: it executes instructions from the game software, which include operations like processing inputs, updating game logic, rendering graphics, and managing sound. This allows a 16-bit system to handle more complex instructions at any given moment in gameplay.
+Comparing an 8-bit Nintendo Entertainment System to a 16-bit one side-by-side. There are more colors, shades, textures, and tones in the right-hand screen. The more values you can encode, the more colors and other visual details you can represent on-screen.
 
 -->
+---
+
+<div style="transform: scale(0.9); transform-origin: top;">
+    <table>
+      <tr>
+        <td style="width: 300px; text-align: center;">
+          <img src="img/week_01_pikachu.png" alt="Pikachu" style="max-width: 100%; max-height: 150px;">
+        </td>
+        <td style="text-align: center;">
+          Digital image (pikachu.jpg)
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">
+          <div style="width: 20px; height: 20px; background-color: red; display: inline-block;"></div>
+        </td>
+        <td style="text-align: center;">
+          1 red pixel from Pikachu's wand
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">
+          255 [red]<br>255 [green]<br>0 [blue]
+        </td>
+        <td style="text-align: center;">
+          Pixel decimal value (3 color intensities represented by number between 0-255)
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">
+          FF [red]<br>FF [green]<br>00 [blue]
+        </td>
+        <td style="text-align: center;">
+          Hex value
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">
+          11111111 [red]<br>11111111 [green]<br>00000000 [blue]
+        </td>
+        <td style="text-align: center;">
+          Binary value
+        </td>
+      </tr>
+    </table>
+  </div>
+</section>
+
+<!--presenter notes
+
+So how do we get from bits to Mario - or in my example in the slide, an image of Pikachu?
+
+The constituent parts of an image are known as pixels, which are tiny squares of one particular color.
+
+The color of a single pixel can be encoded in what is known as the Red, Green and Blue color model, aka RGB. The RGB color model creates colors by combining various levels of the colors red, green, and blue.
+
+Let’s pretend that the particular system we are using to render Pikachu is an 8-bit system, which means that each of the red, green and blue values can be represented by a combination of up to eight 1s and 0s, which corresponds to the intensity or amount added for each color to create the color we see on the screen. We can express these 8-bit bitstreams by a pixel decimal number ranging from 0 to 255. 
+
+Each of these three values from 0 to 255 can be translated further into what are known as hexadecimal values. Hexadecimal values come in two alphanumeric character pairs, each which represent 4 bits. Since we are using an 8-bit system, each of the red, green and blue values corresponds to a 2-character hex value.
+
+Hex values can then be broken down into bits. In this case, F stands for 1111, so two Fs equals 11111111.
+
+-->
+
 ---
 
 # Binary -> Decimal
@@ -648,76 +719,6 @@ If we could microscopically zoom into the physical storage—like a hard drive o
 For example, a 1 might be represented by a magnetic field pointing in one direction, while a 0 is stored as the magnetic field pointing in the opposite direction. On a hard drive or chip, this encoding process happens for every single bit, ensuring that what you see on the screen is faithfully represented by physical signals underneath.
 
 So, whether you're reading a word, watching a video, or listening to music, it's all fundamentally encoded in binary and stored physically as on/off signals or magnetic impressions. This entire process—from the word "OK" you see on the screen down to the magnetic signals on a storage device—is how modern computing translates information into a format both humans and machines can understand.
-
--->
-
----
-
-# How are images encoded?
-
----
-
-<div style="transform: scale(0.9); transform-origin: top;">
-    <table>
-      <tr>
-        <td style="width: 300px; text-align: center;">
-          <img src="img/week_01_pikachu.png" alt="Pikachu" style="max-width: 100%; max-height: 150px;">
-        </td>
-        <td style="text-align: center;">
-          Digital image (pikachu.jpg)
-        </td>
-      </tr>
-      <tr>
-        <td style="text-align: center;">
-          <div style="width: 20px; height: 20px; background-color: red; display: inline-block;"></div>
-        </td>
-        <td style="text-align: center;">
-          1 red pixel from image
-        </td>
-      </tr>
-      <tr>
-        <td style="text-align: center;">
-          255 [red]<br>255 [green]<br>0 [blue]
-        </td>
-        <td style="text-align: center;">
-          Pixel decimal value (3 color intensities represented by number between 0-255)
-        </td>
-      </tr>
-      <tr>
-        <td style="text-align: center;">
-          FF [red]<br>FF [green]<br>00 [blue]
-        </td>
-        <td style="text-align: center;">
-          Hex value
-        </td>
-      </tr>
-      <tr>
-        <td style="text-align: center;">
-          11111111 [red]<br>11111111 [green]<br>00000000 [blue]
-        </td>
-        <td style="text-align: center;">
-          Binary value
-        </td>
-      </tr>
-    </table>
-  </div>
-</section>
-
-<!--presenter notes
-
-At the beginning of the course we talked about how text can be encoded by a computer into bitstreams, combinations of 1s and 0s. The word HI, for example, was broken out into its constituent alphanumeric characters, H and I. Each character was encoded into a decimal number, which could then be encoded into bitstream.
-
-Images work in pretty much the same way. The constituent parts of an image are known as pixels, which are tiny squares of one particular color.
-
-The color of a single pixel can be encoded in what is known as the Red, Green and Blue color model, aka RGB. The RGB color model creates colors by combining various levels of the colors red, green, and blue.
-
-Let’s pretend that the particular system we are using to render Pikachu is an 8-bit system, which means that each of the red, green and blue values can be represented by a combination of up to eight 1s and 0s, which corresponds to the intensity or amount added for each color to create the color we see on the screen. We can express these 8-bit bitstreams by a pixel decimal number ranging from 0 to 255. 
-
-Each of these three values from 0 to 255 can be translated further into what are known as hexadecimal values. Hexadecimal values come in two alphanumeric character pairs, each which represent 4 bits. Since we are using an 8-bit system, each of the red, green and blue values corresponds to a 2-character hex value.
-
-Hex values can then be broken down into bits. In this case, F stands for 1111, so two Fs equals 11111111.
-
-Demo seeing HEX values in Google Slides.
 
 -->
 
