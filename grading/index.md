@@ -14,7 +14,7 @@ Students are evaluated using a points-based system totaling 100 across two main 
 | Activity                          | Points  |
 |-----------------------------------|--------|
 | Weekly Assignments                | **60** |
-| Participation (includes discussions & lightning talks) | **10** |
+| Participation (includes activity discussions) | **10** |
 | **Total**                          | **70** |
 
 ### Notes on Weekly Assignments
@@ -30,3 +30,8 @@ The **Imaging and Conservation Group Activity** is worth **10 points**, while al
 | Paper                             | **15** |
 | Presentation                      | **10** |
 | **Total**                         | **30** |
+
+### Extra Credit Opportunity
+Students can earn up to **3 extra credit points** by reaching out to a repository and setting up a time to talk with an archivist or a preservation/digital archives practitioner. To receive credit, students must, in their abstract, turn in a summary of their conversation with the project abstract (minimum 300 words) and reflect on how the discussion informs their final project.
+
+Extra credit will be applied to the Final Project score.
