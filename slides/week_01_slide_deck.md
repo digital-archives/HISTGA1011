@@ -155,9 +155,9 @@ Let's unpack this definition by thinking a bit about Data Objects we encounter t
 
 # Data Object: Relationships & Layers
 
-**Data Object** (e.g., bitstream)
+**Data Object**
 ↓ Requires
-**Interpretive Technologies** (software, hardware)
+**Other Data Objects**
 ↓ Requires
 **Specialized Knowledge** (documentation, training, user communities)
 ↓ Maintains
@@ -174,33 +174,25 @@ All Data Objects, whether it's a single file, or an entire application, will req
 -->
 ---
 
-## Definition
-# Software
+# Data Object Example
 
- Software  is a set of instructions and data that tells a computer what to do. It works when the computer decodes these instructions and follows them to perform tasks. The way software runs depends on the computer's setup (like its hardware and operating system).
+**Data Object: Lotus file (.123)**
+↓ Requires
+**Lotus software**
+↓ Requires
+**DOS operating system**
+↓ Requires
+**DOS emulator**
+↓ Requires
+**Specialized Knowledge: Lotus manual, DOS OS manual
 
 <!-- presenter notes
-
-Software is a set of instructions and data that tells a computer what to do. It works when the computer decodes these instructions and follows them to perform tasks. The way software runs depends on the computer's setup (like its hardware and operating system).
-
-The way I like to think about these things is to think of these things in terms of a restaurant. You can think of  software as recipes, which your computer, which you can think of as the chef, follows instructions for to put together Data Objects.
 
 -->
 
 ---
 
-## Definition
-# Hardware
-
- Hardware  refers to the _physical_ components of a computer system that carry out tasks by following instructions provided by software.
-
-<!-- presenter notes
-
-Hardware refers to the physical components of a computer system that carry out tasks by following instructions provided by software.
-
-It includes all the tangible parts of a computer, such as the processor, memory, storage devices, input devices (like keyboards and mice), and output devices (like monitors and printers). Hardware provides the foundation for running software and processing data.
-
--->
+# Digital Information Encoding
 
 ---
 
@@ -225,7 +217,7 @@ These encodings are akin to how computers encode information into binary. Basica
 ## Definition
 # Binary
 
- Binary encodes information using:
+ Binary is an encoding scheme that uses:
 - A "base-2" system consisting of **binary digits** or **bits** (0 and 1)
 - Place value
 
@@ -242,7 +234,7 @@ Along with bit values, binary also uses place values to represent information. P
 # Base-10
 ## 0 1 2 3 4 5 6 7 8 9
 
-9 possible decimal representations
+10 possible decimal representations
 
 <!-- presenter notes
 
@@ -252,11 +244,11 @@ If you did not know this already, the numbers that you and I are most familiar w
 
 ---
 
-# 10
+# 12
 
 <!-- presenter notes
 
-Therefore, when we write out a ten, we don't have a specific decimal number that represents 10 (otherwise it would be called a base-11 system). Instead, we insert a 0, and move the 1 over left from the "ones" place to the "tenths" place, and "restart" the 1s place to 0.
+Therefore, when we write out a number like twelve (12), we don't have a specific decimal number that represents 12 (otherwise it would be called a base-11 system). Instead, we combine a 1 and a 2 together to form a 12. The 2 is in the "ones" place, which we know to be the right-most decimal, and the 1 is in the "tenths" place.
 
 By combining decimals and using place values, we can represent any number.
 
@@ -264,14 +256,14 @@ By combining decimals and using place values, we can represent any number.
 
 ---
 
-| Digit | 1 | 0 |
+| Digit | 1 | 2 |
 | :-:   | :-: | :-: |
 | Place | 10^1 (Tens) | 10^0 (Ones) |
 
 - The digit `1` is in the **tens place** ( 10^1 ) and represents \( 1 × 10 = 10 \).
-- The digit `0` is in the **ones place** ( 10^0 ) and represents ( 0 × 1 = 0 ).
+- The digit `2` is in the **ones place** ( 10^0 ) and represents ( 2 × 1 = 2 ).
 
-**Decimal Value**: (1 × 10^1 ) + (0 × 10^0) = 10
+**Decimal Value**: (1 × 10^1 ) + (2 × 10^0) = 12
 
 ---
 
@@ -293,7 +285,7 @@ By combining decimals and using place values, we can represent any number.
 
 <!--presenter notes
 
-Back to binary: If you were to encounter some binary code, this is what it would look like: a giant stream of bits, with little rhyme or reason at least from the perspective of a human.
+If you were to encounter a bunch of binary values, this is what it would look like: a giant stream of bits, with little rhyme or reason at least from the perspective of a human. This is sometimes called a "bitstream".
 
 -->
 
@@ -310,6 +302,10 @@ Back to binary: If you were to encounter some binary code, this is what it would
 10101001 10110001 11010001 01110101  
 10100001 11101010 11010000 10111101  
 
+<!--presenter notes
+
+Similar to how we insert commas every three places into decimal numbers to make them easier to read, computers can be programmed to read bitstreams in chunks.
+-->
 
 ---
 
@@ -326,10 +322,9 @@ This byte has a distinct length of 8 bits.
 
 A byte is a discrete-length grouping of bits. In the slide, we have an example of a byte whose length is 8 bits.
 
-There are other systems that have 16-bit or 24-bit length bytes. But for this example, and for the rest of the lesson, let’s work within a system that uses 8-bit bytes, for simplicity’s sake.
+You can think of a byte as a container that holds a certain amount of bits.
 
-Source: https://www.youtube.com/watch?v=N5SU4RW9opc&ab_channel=CodeHS
-https://www.techtarget.com/whatis/definition/binary#:~:text=In%20mathematics%20and%20in%20computing,unit%20(CPU)%20and%20RAM.
+Computers are built to handle specific byte lengths. Some handle 8-bit bytes, others 16, or 32. For simplicity's sake, for the rest of the lesson, we will work with a fictional 8-bit system.
 
 -->
 
@@ -338,7 +333,7 @@ https://www.techtarget.com/whatis/definition/binary#:~:text=In%20mathematics%20a
 ## Definition
 # Byte (2/3)
 
-Byte length determines total number of values it can represent.
+Byte length determines total number of values a byte can represent.
 
 An 8-bit byte can represent up to 256 values.
 
@@ -347,7 +342,7 @@ An 8-bit byte can represent up to 256 values.
 ## Definition
 # Byte (3/3)
 
-To determine how many values a byte can represent, you can "raise" the 2 possible bit values (1 or 0) to the "power" of the byte length (8), notated as 2^8.
+To determine the maximum values a byte can represent, you can "raise" the 2 possible bit values (1 or 0) to the "power" of the byte length (8), notated as 2^8.
 
 ```
 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 
@@ -425,23 +420,23 @@ Comparing an 8-bit Nintendo Entertainment System to a 16-bit one side-by-side. T
       </tr>
       <tr>
         <td style="text-align: center;">
-          255 [red]<br>255 [green]<br>0 [blue]
+          255 [red]<br>0 [green]<br>0 [blue]
         </td>
         <td style="text-align: center;">
-          Pixel decimal value (3 color intensities represented by number between 0-255)
-        </td>
-      </tr>
-      <tr>
-        <td style="text-align: center;">
-          FF [red]<br>FF [green]<br>00 [blue]
-        </td>
-        <td style="text-align: center;">
-          Hex value
+          Pixel decimal value (3 color intensities indicated by a number between 0-255)
         </td>
       </tr>
       <tr>
         <td style="text-align: center;">
-          11111111 [red]<br>11111111 [green]<br>00000000 [blue]
+          FF [red]<br>00 [green]<br>00 [blue]
+        </td>
+        <td style="text-align: center;">
+          Hexadecimal value (binary value shorthand)
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">
+          11111111 [red]<br>00000000 [green]<br>00000000 [blue]
         </td>
         <td style="text-align: center;">
           Binary value
@@ -495,7 +490,7 @@ You may have noticed that, there seems to be a pattern in the placement of 1s an
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 
 
- This byte represents the decimal number 7 
+ This byte represents the decimal number 7.
 How do we get from 0000 0111 to 7?
 
 ---
@@ -562,45 +557,16 @@ A good example comes from the base-10 decimal system we are most familiar with.
 
 ---
 
-Decimal value: 787
-
-| Digit | 7 | 8 | 7 |
-| :-: | :-: | :-: | :-: |
-| Place | 2 | 1 | 0 |
-| Weight | 10^2 | 10^1 | 10^0 |
-| Value | 100 | 10 | 1 |
-
-7 + 80 + 800 = 787
-
-<!-- presenter notes
-
-Translating binary to decimals may seem unfamiliar, which is fine, because we rarely ever have to do this (that’s the job of computers, afterall).
-
-However, the steps we take to interpret a binary number are similar to how we interpret a decimal number. Let’s take the number 787.
-
-For decimals we also read placements from right to left, as we did with the binary example. In this case, the rightmost digit, which is in place 0, represents the “ones” place. It carries a weight of 10^0, which equals 1. So, the digit 7 in the ones place contributes 7 * 1 = 7 to the overall value of the number.
-
-Moving to the left, the next digit in Place 1 represents the tens place. It carries a weight of 10^1, which equals 10. Therefore, the digit 8 in the tens place contributes 8 * 10 = 80 to the overall value of the number.
-
-Finally, the last digit in place 2 represents the hundreds place. It carries a weight of 10^2, which equals 100. Therefore, the digit 7 in the hundreds place contributes 7 * 100 = 700 to the overall value of the number.
-
-By multiplying each digit by their weight value, we get three numbers: 700, 80 and 7. If we add these three numbers together, we get 787.
-
-Place value allows us to understand the significance and contribution of each digit within a number based on its position, with each position representing a different power of the base of the number system.
-
-Now that we better understand the concept of weight, let's return to our binary example.
-
--->
-
----
-
-Decimal value: 7
-
 | Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
 | Weight | 2^7 | 2^6 | 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0 |
 | Value | 0 | 0 | 0 | 0 | 0 | 4 | 2 | 1 |
+
+The last step is to add the weight values together:
+4 + 2 + 1 = 7
+
+Byte value 00000111 = Decimal number 7
 
 <!--presenter notes
 
@@ -710,7 +676,7 @@ At its core, computers understand and process everything in bits and bytes. In t
 | Decimals | 79 | 75 |
 | Hexadecimals | 4F | 4B |
 | Byte (Binary) | 01001111 | 01001011 |
-| Hardware (On/Off Signals) | ■ □ □ □ ■ ■ ■ ■ | ■ □ □ □ ■ □ ■ ■ |
+| Hardware (Voltage High/Low) | □ ■ □ □ ■ ■ ■ ■ | □ ■ □ □ ■ □ ■ ■ |
 
 <!--presenter notes
 
