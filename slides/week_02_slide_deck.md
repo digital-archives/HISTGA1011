@@ -5,15 +5,257 @@ size: 16:9
 paginate: true
 style: |
   img {
-    max-width: 80%;
-    height: auto;
-    display: block;
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+  }
+
+  th {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: black !important;
+  background-color: #f4f4f4 !important;
+  border-bottom: 2px solid black;
+  }
+
+  .browser-window {
+    width: 600px;
+    height: 350px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    border: 2px solid #ccc;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .browser-header {
+    background: #ddd;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .browser-controls {
+    display: flex;
+    gap: 5px;
+  }
+
+  .control {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+  }
+
+  .red { background: #ff5f57; }
+  .yellow { background: #ffbd2e; }
+  .green { background: #27c93f; }
+
+  .address-bar {
+    flex-grow: 1;
+    background: white;
+    border-radius: 6px;
+    padding: 5px 10px;
+    border: 1px solid #bbb;
+    font-family: monospace;
+    font-size: 14px;
+  }
+
+  .browser-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #666;
+    padding: 20px;
+  }
+
+  /* Styles for action button */
+  .action-button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  /* Make the table completely transparent */
+  table {
+    border-collapse: collapse !important;
+    border: none !important;
+    background: transparent !important;
+    width: 100% !important;
+  }
+
+  table td, table th {
+    border: none !important;
+    background: transparent !important;
+    padding: 16px !important;
+    text-align: left !important;
+    box-shadow: none !important;
+  }
+
+  table img, table a {
+    border: none !important;
+    background: transparent !important;
+  }
+
+  .pink-box {
+    background-color: #d184c2;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .green-box {
+    background-color: #a2c9a5;
+    padding: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+  }
+
+  .description {
+    padding: 20px;
+    text-align: left;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+
+  .quote {
+    font-size: 1.2rem;
+    font-style: italic;
+    text-align: left;
+    line-height: 1;
+    color: #4a4a4a;
     margin: 0 auto;
+    width: 90%;
   }
-  span.emoji {
-    display: inline;
+
+  .author {
+    font-size: 1.0rem;
+    text-align: right;
+    margin-top: 20px;
+    color: #6a6a6a;
+  }
+
+  .work {
+    font-size: 1rem;
+    text-align: right;
+    color: #8a8a8a;
+  }
+
+  .slide-title {
+    text-align: center;
+    color: #2e7d32; /* Green color for the header */
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .takeaway {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    gap: 15px;
+  }
+
+  .circle {
+    background-color: #2e7d32; /* Green background */
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  .content {
+    flex-grow: 1;
+  }
+  .content h2 {
     margin: 0;
+    color: #2e7d32; /* Green color for subheadings */
+    font-size: 1.2rem;
   }
+  .content p {
+    margin: 5px 0 0;
+    font-size: 1rem;
+    color: #4a4a4a; /* Gray for body text */
+  }
+
+  .activity-title {
+    text-align: center;
+    color:rgb(144, 0, 255); /* Soft purple */
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+
+  .shapes {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .shapes span {
+    display: inline-block;
+    margin: 0 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  .triangle {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 30px solid #ffb347; /* Orange */
+    display: inline-block;
+    margin: 0 10px;
+  }
+  .circle {
+    background-color: #00c0ff; /* Blue */
+  }
+  .square {
+    width: 30px;
+    height: 30px;
+    background-color: #ff6767; /* Red */
+  }
+  .activity-list {
+    font-size: 1.1rem;
+    line-height: 1.1;
+    color:rgb(81, 0, 168); /* Light lavender */
+    margin-left: 20px;
+  }
+  .activity-list li {
+    margin-bottom: 10px;
+  }
+  .activity-list li strong {
+    color:rgb(235, 133, 133); /* Highlighted lavender */
+  }
+
 ---
 
 # Week 2
@@ -23,7 +265,7 @@ style: |
 
 # Today
 - **Settle in/Reminders/Announcements** (15 min)
-- **Discuss Last Week's Activity** (20 min)
+- **Lightning Talks: Data Object** (20 min)
 - **Lecture: Open Archival Information System (OAIS)** (45 min)
 - **Break** (10 min)
 - **Start Weekly Activity** (70 min)
@@ -37,14 +279,46 @@ _Feel free to email me with any announcements you would like me to boost (upcomi
 
 ---
 
+# Lightning Talks: Data Object
+
+Each student spends ~2 minutes talking about their data object in <a href="https://airtable.com/appX8QYrNyTDJDGmg/shrcCl043DAEFMjQe/tblFNKDulPFQ629VV" target="_blank">Data Object Gallery</a>.
+
+In 40 years, do you think this object will still be more or less accessible and understandable in the same way it is today or when it was originally created and used? Why or why not?
+
+What additional context or resources (e.g., documentation, software, emulators) would a future archivist, scholar, or casual user, need or require to make sense of your data object?
+
+---
+
 # Lecture
 ## Open Archival Information System (OAIS)
 
 ---
 
-“If the permanent maintenance of any given state, or set of states, was the definition of digital sustainability, then we could merely select a suitable technical strategy to permanently inscribe those states and entrust the objects to an appropriate storage and preservation strategy. However, the layers of dependencies and interdependencies, standards, agreements, understandings, technologies, strategies, workflows, and business models render that simple preservation model indefensible.”
+## Question
 
-Kevin Bradley, from “Defining Digital Sustainability” (2007)
+### As we learned last week, all data objects are, at their most fundamental, composed of 0s and 1s. __Is it enough to preserve just the "bits" of a data object? Why or why not?__
+
+<!-- presenter notes
+
+But what makes this even more complicated is the nature of digital information itself. At its core, all data objects—whether they’re a document, an image, a video, or a piece of software—are nothing more than binary code. If you looked at their core code, you would see an endless stream of numeric ones and zeros.
+
+To understand or interact with a data object, we need some kind of intermediary, like software to process it, or hardware to run it. In contrast, think about a physical book or a printed photograph. You can hold them in your hands, see the information, and directly interpret it. The content is immediately accessible without requiring any additional technology.
+
+With data objects, however, every step—from the file type to the program that opens it—requires something to act as a bridge, translating that binary data into something recognizable, something we can make sense of.
+
+And this dependency on intermediaries presents a risk. What happens when the software that interprets that file becomes obsolete? Or when the hardware is no longer available, because the manufacturing plant that produced it is no longer? Without maintaining these layers, data objects could easily become lost or unreadable, leaving us with nothing more than a stream of binary code that’s effectively inaccessible.
+
+-->
+
+---
+
+<div class="quote">
+“If the permanent maintenance of any given state, or set of states, was the definition of digital sustainability, then we could merely select a suitable technical strategy to permanently inscribe those states and entrust the objects to an appropriate storage and preservation strategy. However, the layers of dependencies and interdependencies, standards, agreements, understandings, technologies, strategies, workflows, and business models render that simple preservation model indefensible.”
+</div>
+
+<div class="author">Kevin Bradley</div>
+
+<div class="work">Defining Digital Sustainability, 2007</div>
 
 <!--presenter notes
 
@@ -54,20 +328,9 @@ Source for quote: Lee, Christopher A., and Tibbo, Helen. “Where’s the Archiv
 
 ---
 
-<style scoped>
-img {
-  max-width: 100vw;
-  max-height: 90vh;
-  object-fit: contain;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 5px;
-  margin-top: 0;
-}
-</style>
-
-![Digital Repository Standards Development](img/week_02_slide_deck0.png)
+<center>
+<img src="img/week_02_standards_timeline.png" alt="Digital Repository Standards Development" style="width: 50%; height: auto;">
+</center>
 
 <!--presenter notes
 
@@ -82,7 +345,7 @@ This diagram provides a timeline for some of the earliest developed digital pres
 ## Definition
 # Open Archival Information System (OAIS)
 
-__An Open Archival Information System__ (OAIS) is an Archive consisting of an organization, which may be part of a larger organization, of people and systems that has accepted the responsibility to preserve information and make it available for a Designated Community.
+An **Open Archival Information System (OAIS)** is an Archive consisting of an organization, which may be part of a larger organization, of people and systems that has accepted the responsibility to preserve information and make it available for a **Designated Community**.
 
 <!--presenter notes
 
@@ -94,11 +357,11 @@ Now that we have a definition for OAIS under our belts, we will first define wha
 
 ---
 
-# Why is it good to know about OAIS?
+# Why know about OAIS?
 
--**Widely accepted:** lots of policies, systems, practice, informed by it
--**Comprehensive:** covers ingest to end-user access
--**Flexible:** can be applied to a variety of environments and systems
+- **Widely accepted:** lots of policies, systems, practice, informed by it
+- **Comprehensive:** covers ingest to end-user access
+- **Flexible:** can be applied to a variety of environments and systems
 
 <!--presenter notes
 
@@ -111,9 +374,9 @@ Source: These bullets are derived from a SERI Educational Webinar, viewable on Y
 ---
 
 # OAIS Reference Model Limitations
--__Non-specific__: Written at a high level of abstraction
--__Narrow scope__: Does not address core archival functions such as advocacy and outreach, deaccessioning, reference and user support services, or selection, appraisal, and disposition
--__Non-prescriptive__: Does not detail how to collaborate, coordinate or implement the model
+- **Non-specific**: Written at a high level of abstraction
+- **Narrow scope**: Does not address core archival functions such as advocacy and outreach, deaccessioning, reference and user support services, or selection, appraisal, and disposition
+- **Non-prescriptive**: Does not detail how to collaborate, coordinate or implement the model
 
 <!--presenter notes
 
@@ -131,25 +394,16 @@ The OAIS also does not address how to collaborate, coordinate or implement the m
 
 ---
 
-<style scoped>
-img {
-  max-height: 105vh; /* 80% of the viewport height */
-  object-fit: contain;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 5px;
-  margin-top: 0;
-}
-</style>
-![Cover of the Reference Model for an Open Archival Information System (OAIS)](img/week_02_slide_deck1.png)
+<center>
+<img src="img/week_02_oais_cover.png" alt="Cover of the Reference Model for an Open Archival Information System (OAIS)" style="width: 50%; height: auto;">
+</center>
 
 ---
 
 ## Text
 # Reference Model for an Open Archival Information System (OAIS)
 
-__The Reference Model for an Open Archival Information System__ was developed for use in facilitating a broad, discipline-independent consensus on the requirements for an archive or repository to provide long-term preservation of digital information.
+The **Reference Model for an Open Archival Information System** was developed for use in facilitating a broad, discipline-independent consensus on the requirements for an archive or repository to provide long-term preservation of digital information.
 
 <!--presenter notes
 
@@ -165,29 +419,11 @@ So now, let’s turn back again to our OAIS definition, and unpack what it means
 
 ---
 
-## Question
-
-# As we learned last week, all data objects are, at their most fundamental, composed of 0s and 1s, or binary data.__Is it enough to preserve just the "bits" of a data object? Why or why not?__
-
-<!-- presenter notes
-
-But what makes this even more complicated is the nature of digital information itself. At its core, all data objects—whether they’re a document, an image, a video, or a piece of software—are nothing more than binary code. If you looked at their core code, you would see an endless stream of numeric ones and zeros.
-
-To understand or interact with a data object, we need some kind of intermediary, like software to process it, or hardware to run it. In contrast, think about a physical book or a printed photograph. You can hold them in your hands, see the information, and directly interpret it. The content is immediately accessible without requiring any additional technology.
-
-With data objects, however, every step—from the file type to the program that opens it—requires something to act as a bridge, translating that binary data into something recognizable, something we can make sense of.
-
-And this dependency on intermediaries presents a risk. What happens when the software that interprets that file becomes obsolete? Or when the hardware is no longer available, because the manufacturing plant that produced it is no longer? Without maintaining these layers, data objects could easily become lost or unreadable, leaving us with nothing more than a stream of binary code that’s effectively inaccessible.
-
--->
-
----
-
 ## Definition
 # Content Information (1/2)
 
-__Content Information__ is composed of two main elements:
-  1. The__Data Object__ (the 0s and 1s or the literal binary data, aka "bitstream", e.g. 01001000)
+**Content Information** is composed of two main elements:
+  1. The **Content Data Object** (the bitstream).
 
 <!--presenter notes
 
@@ -206,11 +442,12 @@ Let’s talk more about representation information.
 
 ---
 
-# Definition: Content Information (2/2)
+## Definition
+# Content Information (2/2)
 
-__Content Information__ is composed of two main elements:
-1. The__Data Object__ (the 0s and 1s or the literal binary data, aka "bitstream", e.g. 01001000)
-2. The__Representation Information__, or the information that makes sense of the bitstream (e.g. 01001000 = Decimal 72 = Letter H)
+**Content Information** is composed of two main elements:
+1. The **Content Data Object** (the bitstream).
+2. The **Representation Information**, or data that makes the bitstream understandable/interpretable.
 
 <!--presenter notes
 
@@ -237,11 +474,12 @@ https://wiki.dpconline.org/index.php?title=4.2.1.3.1_Representation_Information_
 
 ---
 
-# Definition: Structure Information
+## Definition
+# Structure Information
 
-__Structure Information__ is a type of__representation information__ that maps the data object, or bitstream, to understandable data types.
+**Structure Information** is a type of representation information that a computer can use to understand the **format** of the content data object.
 
-For example, a file extension (i.e. music.__FLAC__, document1.__PDF__, 12340000.__DOCX__, img_00123.__JPEG__)
+Example: A file extension (i.e. oral_history_file.**flac**, document1.**pdf**, 12340000.**docx**, img_00123.**jpeg**)
 
 <!--presenter notes
 
@@ -255,9 +493,29 @@ If you removed the file extension, your computer will throw some sort of error b
 
 ---
 
-# Definition: Semantic Information
+## Definition
+# File format
 
-__Semantic Information__ is a type of representation information that clarifies the meaning or appropriate interpretation of the Content Data Object.
+A **file format** refers to the way that information is encoded for storage in a computer file. You can think of a file format as a map key or primer that tells your computer how to read a bitstream.
+
+_Note: We will dive deeper into file formats in later classes!_
+
+---
+
+## Definition
+# Semantic Information
+
+**Semantic Information** is a type of representation information that clarifies the intellectual meaning of the Content Data Object.
+
+---
+
+# Weather Data Set
+
+* Look at: <a href="https://www.ncei.noaa.gov/pub/data/cdo/samples/PRECIP_HLY_sample_ascii.dat" target="_blank">Sample weather data set</a>
+* Content Data Object: Always a bitstream (010101010...)
+* Representation Information:
+  * Structure Information: PRECIP_HLY_sample_ascii.**dat**
+  * Semantic Information: Column headers (Latitude, Longitude, Station Name, etc.)
 
 <!--presenter notes
 
@@ -269,21 +527,20 @@ https://wiki.dpconline.org/index.php?title=4.2.1.3.1_Representation_Information_
 
 ---
 
-#__Case Study__: Dennis Parichy Lighting Designs
+<table>
+<tr>
+<td>
+<h1>Case Study</h1>
+<h2>Dennis Parichy Lighting Designs</h2>
+</td>
+<td>
 
-<style scoped>
-img {
-  max-height: 80vh;
-  object-fit: contain;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 5px;
-  margin-top: 0;
-}
-</style>
-
-![Image of the lighting designer, Dennis Parichy, on set.](img/week_02_slide_deck3.png)
+<center>
+<img src="img/week_02_parichy_01.png" alt="Image of the lighting designer, Dennis Parichy, on set." style="width: auto; height: 40%;">
+</center>
+</td>
+</tr>
+</table>
 
 <!--presenter notes
 
@@ -296,21 +553,7 @@ Billy Rose Theatre Division, The New York Public Library. "Publicity photo of li
 
 ---
 
-# In 2013, the New York Public Library (NYPL) acquired the works of Dennis Parichy, a New York City-based lighting designer. Parichy designed lighting for 25 Broadway productions since 1976. He has been nominated three times for a Tony Award for his lighting design work.
-
----
-
-![Screenshot of Dennis Parichy's lighting design database](img/week_02_slide_deck4.png)
-
-<!--presenter notes
-
-The Parichy acquisition contained both physical files as well as born-digital materials on floppy disks, because later on in his career, he used two software programs, Lightwright and VectorWorks (which are interoperable with one another), to program stage lighting cues. The slide shows a screenshot of the Lightwright interface. Here, you can see that the user could program a queue of stage lighting directions, and specify things like stage position, sequence, and give each lighting direction a name. We can, if we wanted to, watch a YouTube video of how to use this program. https://www.youtube.com/watch?v=LoBcIxjydKg
-
--->
-
----
-
-![Performance still of Don't Tell Me I Can't Fly, whose lighting was designed by Dennis Parichy.](img/week_02_slide_deck5.png)
+![Performance still of Don't Tell Me I Can't Fly, whose lighting was designed by Dennis Parichy.](img/week_02_parichy_02.png)
 
 <!--presenter notes
 
@@ -321,17 +564,47 @@ Pollard, Collette. "Set Design for DON’T TELL ME I CAN’T FLY." 2011. Digital
 
 ---
 
-# Question: Using the Parichy LightWorks example, what might constitute this collection’s__Content Information__?
+## In 2013, the New York Public Library (NYPL) acquired the works of **Dennis Parichy**, a New York City-based lighting designer. Parichy designed stage lighting for 25 Broadway productions since 1976. He has been nominated three times for a Tony Award for his work.
 
 ---
 
-# Definition: Consumers
+![Screenshot of Dennis Parichy's lighting design database](img/week_02_parichy_database.png)
 
-__Consumers__ are the the users of the OAIS.
+<!--presenter notes
 
-# Definition: Designated Community
+The Parichy acquisition contained both physical files as well as born-digital materials on floppy disks, because later on in his career, he used two software programs, Lightwright and VectorWorks (which are interoperable with one another), to program stage lighting cues. The slide shows a screenshot of the Lightwright interface. Here, you can see that the user could program a queue of stage lighting directions, and specify things like stage position, sequence, and give each lighting direction a name. We could, if we wanted to, watch a YouTube video of how to use this program. https://www.youtube.com/watch?v=LoBcIxjydKg
 
-__A Designated Community__ is a special type of__consumer__ that describes the primary users or people accessing the information preserved within the OAIS.
+-->
+
+---
+
+<div class="shapes">
+  <div class="triangle"></div>
+  <span class="circle"></span>
+  <span class="square"></span>
+</div>
+
+<div class="activity-title">Mini Activity -  OAIS Flex</div>
+
+Pretend you are bringing Parichy's LightWorks data into an OAIS. Can you guess what might be the:
+* Content Data Information
+* Representation Information:
+  * Structure Information
+  * Semantic Information
+
+---
+
+## Definition
+# Consumers
+
+**Consumers** are the the users of an OAIS.
+
+---
+
+## Definition
+# Designated Community
+
+A **Designated Community** is a special type of consumer describing the primary users using/accessing the information preserved within an OAIS.
 
 <!--presenter notes
 
@@ -339,21 +612,26 @@ Now that we have a grasp on what the OAIS’ definition of content information i
 
 Let’s revisit the definition of an OAIS, which is “an Archive consisting of an organization, which may be part of a larger organization, of people and systems that has accepted the responsibility to preserve information and make it available for a Designated Community.”
 
-A Designated Community is a specified class of users expected to consume and understand the archived information in an OAIS. For example:
-NARA’s Electronic and Special Media Records Services Division’s Archives’ designated community is the general public.
-NASA’s Planetary Data Systems Archive’s designated community is the planetary science community.
-
-Designated communities are determined in large part by the type of knowledge base required to understand the archive’s holdings. Let’s define what we mean by knowledge base next.
-
-Source: https://www.oclc.org/research/publications/2000/lavoie-oais.html
+A Designated Community is a specified class of users expected to consume and understand the archived information in an OAIS.
 
 -->
 
 ---
 
+## NARA’s Electronic and Special Media Records Services Division’s Archives’ designated community is the __general public__.
+
+## NASA’s Planetary Data Systems Archive’s designated community is the __planetary science community__.
+
+---
+
+## Question
+# Can you guess who might constitute the designated community for the works of __Dennis Parichy__?
+
+---
+
 # Definition: Knowledge base
 
-__A Knowledge Base__ is a set of information, incorporated by a person or system, that allows that person or system to understand the information preserved in the OAIS.
+A **Knowledge Base** is a set of information, incorporated by a person or system, that allows that person or system to understand the information preserved in the OAIS.
 
 The OAIS must understand the knowledge base of its designated community to understand the minimum representation information that must be maintained.
 
@@ -364,28 +642,51 @@ Designated communities have what’s known as a specific knowledge base. A knowl
 -->
 ---
 
-# Activity: Forme of Cury
+<table>
+<tr>
+<td valign=top>
+<div class="shapes">
+  <div class="triangle"></div>
+  <span class="circle"></span>
+  <span class="square"></span>
+</div>
+<div class="activity-title">
+Mini Activity<br>
+Forme of Cury</div>
+
+<center>
+<a href="https://luna.manchester.ac.uk/luna/servlet/detail/Man4MedievalVC~4~4~994591~289805:Drepe?sort=reference_number%2Cimage_sequence_number%2Cparent_work_title%2Cdate_created&qvq=q:forme%20of%20cury;sort:reference_number%2Cimage_sequence_number%2Cparent_work_title%2Cdate_created;lc:Man4MedievalVC~4~4&mi=37&trs=191" target="_blank">Digital Collections Link</a>
+</center>
+</td>
+<td>
+
+<img src="img/week_02_forme_of_cury.jpg" alt="Page from Forme of Cury, a cookbook from the Late Middle Ages. Part of the Rylands Medieval Collection. It was written in Middle English.">
+
+</td>
+</tr>
+</table>
+
+---
 
 <table>
   <tr>
-    <td>
-      <img src="img/week_02_slide_deck6.jpg" alt="Page from Forme of Cury, a cookbook from the Late Middle Ages. Part of the Rylands Medieval Collection. It was written in Middle English.">
+    <td valign="top">
+      <img src="img/week_02_forme_of_cury.jpg" alt="Page from Forme of Cury, a cookbook from the Late Middle Ages. Part of the Rylands Medieval Collection. It was written in Middle English.">
       <a href="https://luna.manchester.ac.uk/luna/servlet/detail/Man4MedievalVC~4~4~994591~289805:Drepe?sort=reference_number%2Cimage_sequence_number%2Cparent_work_title%2Cdate_created&qvq=q:forme%20of%20cury;sort:reference_number%2Cimage_sequence_number%2Cparent_work_title%2Cdate_created;lc:Man4MedievalVC~4~4&mi=37&trs=191" target="_blank">Digital Collections Link</a>
     </td>
     <td valign="top">
-      <strong>Details:</strong>
-      <ul>
-        <li>Filename: Forme of Cury-MS 7-18v.jpg</li>
-        <li>Digitized from a Late Middle Ages cookbook. Part of the Rylands Medieval Collection. Written in Middle English.</li>
-      </ul>
+      <strong>Details</strong><br><br>
+      Filename: Forme of Cury-MS 7-18v.jpg<br><br>
+      Late Middle Ages cookbook.<br><br>
+      Hand-written in Middle English.
       </td>
       <td valign="top">
-      <p>For the entire digitized manuscript, what is the:</p>
+      <strong>Question</strong><br><br>
+      For the entire digitized manuscript, what is the: 
       <ul>
-        <li>Data object</li>
-        <li>Representation information</li>
-        <li>Structure information</li>
-        <li>Users/Designated community</li>
+        <li>Content Data Object?</li>
+        <li>Representation information (Structure, Semantic?</li>
+        <li>Users/Designated community?</li>
       </ul>
     </td>
   </tr>
@@ -414,18 +715,16 @@ Suggested answers:
 
 ---
 
-<style scoped>
-img {
-  object-fit: contain;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 0px;
-  margin-top: 0;
-}
-</style>
+## Definition
+# Functional Model
 
-![OAIS Functional Model Diagram.](img/week_02_oais_conceptual_model_01.png)
+A **functional model** is a diagram showing a systems functions, and describes the actions a system can do, and how those actions "flow" through the system.
+
+---
+
+<center>
+<img src="img/week_02_oais_conceptual_model_01.png" alt="Diagram of the OAIS functional model" style="width: auto; height: 40%;">
+</center>
 
 <!--presenter notes
 
@@ -441,18 +740,9 @@ Source: Figure 1 diagram from https://www.oclc.org/research/publications/2000/la
 
 ---
 
-<style scoped>
-img {
-  object-fit: contain;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 0px;
-  margin-top: 0;
-}
-</style>
-
-![OAIS Functional Model Diagram.](img/week_02_oais_conceptual_model_02.png)
+<center>
+<img src="img/week_02_oais_conceptual_model_02.png" alt="Diagram of the OAIS functional model with SIPs, AIPs and DIPs highlighted in yellow." style="width: auto; height: 40%;">
+</center>
 
 <!--presenter notes
 
@@ -462,10 +752,10 @@ We are going to focus first on what are known as information packages. They are 
 
 ---
 
-# Definition: Information Package (1/3)
-—
+## Definition
+# Information Package (1/3)
 
-The OAIS information model is built around the concept of an__information package__, composed of the object that is the focus of preservation, along with metadata necessary to support its long-term preservation, access, and understandability, bound into a single logical package, such as a file folder.
+The OAIS information model is built around the concept of an **information package**, which consists of 4 sub-information packages: Content Information, Preservation Description Information, Packaging Information, and Description Information.
 
 <!--presenter notes
 
@@ -478,186 +768,71 @@ In defining what each information package is, we will also learn more about the 
 -->
 
 ---
-<svg width="1000" height="1000" viewBox="-150 0 1600 1200">
 
-  <!-- Cube 1: Content Information -->
-  <!-- Front face -->
-  <polygon points="100,200 500,200 500,600 100,600" fill="lightblue" stroke="black" />
-  <!-- Top face -->
-  <polygon points="100,200 300,120 700,120 500,200" fill="lightblue" stroke="black" />
-  <!-- Side face -->
-  <polygon points="500,200 700,120 700,520 500,600" fill="blue" stroke="black" />
-  <!-- Text on the front face -->
-  <text x="300" y="400" font-family="Arial" font-size="40" fill="black" text-anchor="middle">
-    Content
-  </text>
-  <text x="300" y="460" font-family="Arial" font-size="40" fill="black" text-anchor="middle">
-    Information
-  </text>
-
-  <!-- Cube 2: Preservation Description Information -->
-  <!-- Front face -->
-  <polygon points="700,200 1100,200 1100,600 700,600" fill="lightgreen" stroke="black" />
-  <!-- Top face -->
-  <polygon points="700,200 900,120 1300,120 1100,200" fill="lightgreen" stroke="black" />
-  <!-- Side face -->
-  <polygon points="1100,200 1300,120 1300,520 1100,600" fill="green" stroke="black" />
-  <!-- Text on the front face -->
-  <text x="900" y="400" font-family="Arial" font-size="40" fill="black" text-anchor="middle">
-    Preservation
-  </text>
-  <text x="900" y="460" font-family="Arial" font-size="40" fill="black" text-anchor="middle">
-    Description
-  </text>
-  <text x="900" y="520" font-family="Arial" font-size="40" fill="black" text-anchor="middle">
-    Information
-  </text>
-
-  <!-- Cube 3: Packaging Information -->
-  <!-- Front face -->
-  <polygon points="100,700 500,700 500,1100 100,1100" fill="lightcoral" stroke="black" />
-  <!-- Top face -->
-  <polygon points="100,700 300,620 700,620 500,700" fill="lightcoral" stroke="black" />
-  <!-- Side face -->
-  <polygon points="500,700 700,620 700,1020 500,1100" fill="darkred" stroke="black" />
-  <!-- Text on the front face -->
-  <text x="300" y="900" font-family="Arial" font-size="40" fill="black" text-anchor="middle">
-    Packaging
-  </text>
-  <text x="300" y="960" font-family="Arial" font-size="40" fill="black" text-anchor="middle">
-    Information
-  </text>
-
-  <!-- Cube 4: Description Information -->
-  <!-- Front face -->
-  <polygon points="700,700 1100,700 1100,1100 700,1100" fill="lightyellow" stroke="black" />
-  <!-- Top face -->
-  <polygon points="700,700 900,620 1300,620 1100,700" fill="lightyellow" stroke="black" />
-  <!-- Side face -->
-  <polygon points="1100,700 1300,620 1300,1020 1100,1100" fill="goldenrod" stroke="black" />
-  <!-- Text on the front face -->
-  <text x="900" y="900" font-family="Arial" font-size="40" fill="black" text-anchor="middle">
-    Description
-  </text>
-  <text x="900" y="960" font-family="Arial" font-size="40" fill="black" text-anchor="middle">
-    Information
-  </text>
-</svg>
+<center>
+  <div style="display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; width: 600px; height: 600px;">
+    <div style="background-color: lightgray; color: gray; border: 2px solid lightgray; display: flex; justify-content: center; align-items: center;">
+      💾 Content Information
+    </div>
+    <div style="background-color: lightgray; color: gray; border: 2px solid lightgray; display: flex; justify-content: center; align-items: center;">
+      🛡️ Preservation Description Information
+    </div>
+    <div style="background-color: lightgray; color: gray; border: 2px solid lightgray; display: flex; justify-content: center; align-items: center;">
+      📦 Packaging Information
+    </div>
+    <div style="background-color: lightgray; color: gray; border: 2px solid lightgray; display: flex; justify-content: center; align-items: center;">
+      🔍 Description Information
+    </div>
+  </div>
+</center>
 
 ---
 
-# Definition: Content Information
-
-<svg width="800" height="400" viewBox="0 0 800 400">
-
-  <!-- Main Content Information box -->
-  <rect x="300" y="50" width="200" height="100" fill="lightblue" stroke="black" />
-  <text x="400" y="100" font-family="Arial" font-size="20" fill="black" text-anchor="middle">
-    Content Information
-  </text>
-  
-  <!-- Arrow indicating composition relationship -->
-  <line x1="350" y1="150" x2="250" y2="250" stroke="black" marker-end="url(#arrowhead)" />
-  <line x1="450" y1="150" x2="550" y2="250" stroke="black" marker-end="url(#arrowhead)" />
-  
-  <!-- Arrowhead definition -->
-  <defs>
-    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="black" />
-    </marker>
-  </defs>
-
-  <!-- Data Object box -->
-  <rect x="150" y="250" width="150" height="80" fill="lightgreen" stroke="black" />
-  <text x="225" y="290" font-family="Arial" font-size="18" fill="black" text-anchor="middle">
-    Data Object
-  </text>
-  
-  <!-- Representation Information box -->
-  <rect x="500" y="250" width="200" height="100" fill="lightcoral" stroke="black" />
-  <text x="600" y="290" font-family="Arial" font-size="18" fill="black" text-anchor="middle">
-    Representation
-  </text>
-  <text x="600" y="320" font-family="Arial" font-size="18" fill="black" text-anchor="middle">
-    Information
-  </text>
-
-</svg>
-
-
-__Content information__ is composed of the__data object__ (bitstream) and__representation information__ (information that makes sense of the bitstream).
-
-
-<!-- presenter notes
-
-The first type is something we already learned about: Content Information.
-Content Information is the primary thing being preserved. This includes the data object and its representation information (what we just learned about). 
-
-In our post office analogy, this would be the gift inside of the box being sent: the actual thing being sent.
-
--->
+<center>
+  <div style="display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; width: 600px; height: 600px;">
+    <div style="background-color: lightblue; color: black; border: 2px solid black; display: flex; justify-content: center; align-items: center;">
+      💾 Content Information
+    </div>
+    <div style="background-color: lightgray; color: gray; border: 2px solid lightgray; display: flex; justify-content: center; align-items: center;">
+      🛡️ Preservation Description Information
+    </div>
+    <div style="background-color: lightgray; color: gray; border: 2px solid lightgray; display: flex; justify-content: center; align-items: center;">
+      📦 Packaging Information
+    </div>
+    <div style="background-color: lightgray; color: gray; border: 2px solid lightgray; display: flex; justify-content: center; align-items: center;">
+      🔍 Description Information
+    </div>
+  </div>
+</center>
 
 ---
 
-# Definition: Preservation Description Information (1/2)
+<center>
+  <div style="display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; width: 600px; height: 600px;">
+    <div style="background-color: lightgray; color: gray; border: 2px solid lightgray; display: flex; justify-content: center; align-items: center;">
+      💾 Content Information
+    </div>
+    <div style="background-color: lightgreen; color: black; border: 2px solid black; display: flex; justify-content: center; align-items: center;">
+      🛡️ Preservation Description Information
+    </div>
+    <div style="background-color: lightgray; color: gray; border: 2px solid lightgray; display: flex; justify-content: center; align-items: center;">
+      📦 Packaging Information
+    </div>
+    <div style="background-color: lightgray; color: gray; border: 2px solid lightgray; display: flex; justify-content: center; align-items: center;">
+      🔍 Description Information
+    </div>
+  </div>
+</center>
 
-__Preservation Description Information__ is any information that  can be used to appraise the content information.
 
 ---
 
-# Definition: Preservation Description Information (2/2)
+# Definition: Preservation Description Information
 
-<svg width="1000" height="600" viewBox="0 0 1000 600">
-
-  <!-- Main Preservation Description Information box -->
-  <rect x="350" y="50" width="300" height="120" fill="lightyellow" stroke="black" />
-  <text x="500" y="100" font-family="Arial" font-size="24" fill="black" text-anchor="middle">
-    Preservation Description
-  </text>
-  <text x="500" y="130" font-family="Arial" font-size="24" fill="black" text-anchor="middle">
-    Information
-  </text>
-  
-  <!-- Arrows indicating relationship with components -->
-  <line x1="500" y1="170" x2="300" y2="320" stroke="black" marker-end="url(#arrowhead)" />
-  <line x1="500" y1="170" x2="500" y2="320" stroke="black" marker-end="url(#arrowhead)" />
-  <line x1="500" y1="170" x2="700" y2="320" stroke="black" marker-end="url(#arrowhead)" />
-  
-  <!-- Arrowhead definition -->
-  <defs>
-    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="black" />
-    </marker>
-  </defs>
-
-  <!-- Provenance box -->
-  <rect x="200" y="320" width="200" height="100" fill="lightgreen" stroke="black" />
-  <text x="300" y="360" font-family="Arial" font-size="20" fill="black" text-anchor="middle">
-    Provenance
-  </text>
-  <text x="300" y="390" font-family="Arial" font-size="16" fill="black" text-anchor="middle">
-    (events)
-  </text>
-  
-  <!-- Reference box -->
-  <rect x="400" y="320" width="200" height="100" fill="lightblue" stroke="black" />
-  <text x="500" y="360" font-family="Arial" font-size="20" fill="black" text-anchor="middle">
-    Reference
-  </text>
-  <text x="500" y="390" font-family="Arial" font-size="16" fill="black" text-anchor="middle">
-    (identifiers)
-  </text>
-  
-  <!-- Fixity box -->
-  <rect x="600" y="320" width="200" height="100" fill="lightcoral" stroke="black" />
-  <text x="700" y="360" font-family="Arial" font-size="20" fill="black" text-anchor="middle">
-    Fixity
-  </text>
-  <text x="700" y="390" font-family="Arial" font-size="16" fill="black" text-anchor="middle">
-    (checksum)
-  </text>
-
-</svg>
+**Preservation Description Information** is any information that can be used to appraise the package, especially in terms of:
+1. Fixity Information
+2. Provenance Information
+3. Reference Information
 
 <!--presenter notes
 
@@ -666,27 +841,28 @@ Reference: refers to unique identifiers, like an ID assigned by an external data
 Fixity: Refers to information that can be used to check the integrity of a preserved object’s bitstream over time. Fixity is an important digital preservation concept to know, so let’s dig a little deeper there.
 
 -->
+
 ---
 
-# Definition: Fixity
-—
+## Definition
+# Fixity Information
 
-__Fixity__ describes the action of checking a file bitstream’s integrity at regular intervals over the time it lives within a digital repository.
+**Fixity Information** describes the action of checking the integrity of Data Object Content (bitstream) at regular intervals.
 
 <!--presenter notes
 
 Fixity is the process of verifying that a data object’s bitstream has not been altered. Bitstreams are prone to error degradation or corruption. When bitstreams degrade, this is referred to sometimes as bitrot. Bitrot can happen for a variety of reasons. Remember, all bitstreams are ultimately written onto some sort of physical medium. For example, a hard drive writes bitstreams onto spinning metallic plates using magnetism. If anything were to happen to the plate, or the head that reads and writes data, such as physical damage like dropping the hard drive onto the floor, shifts in humidity or moisture, power surges, accidental exposure to high-powered magnetis or high temperatures, any of these events could result in bitstream corruption. It is important that digital preservation systems are set up to check fixity to ensure bitstream integrity over time.
 
-This can be done by running a checksum algorithm against a bitstream. This process generates a unique string of characters that should match if and when additional checksums are run in the future. If a checksum is run at one point does not match a checksum run against the same preservation object at another point, that indicates that the bitstream has been altered.
-
 -->
 
 ---
 
-# Definition: Checksum
-—
+## Definition
+# Checksum
 
-A__checksum__ is a unique alphanumeric group of characters generated by processing the bitstream of a data object through a specialized algorithm. So long as the bitstream remains the same, the checksum should match each time it is generated.
+A **checksum** is a unique alphanumeric group of characters generated by processing a bitstream through a specialized algorithm.
+
+So long as the bitstream remains the same, the checksum should match each time it is generated.
 
 <!--presenter notes
 
@@ -698,43 +874,79 @@ If a checksum is run at one point does not match a checksum run against the same
 
 ---
 
-<!-- _backgroundColor: '#4b0082' -->
-
-<div style="text-align: center; padding-top: 20px; font-size: 50px;">
-  &#9786; <!-- Yellow Smiley Face -->
-  &#10047; <!-- Green Flower -->
-  &#9825; <!-- Pink Heart (Hollow) -->
+<div class="shapes">
+  <div class="triangle"></div>
+  <span class="circle"></span>
+  <span class="square"></span>
 </div>
 
-<h1 style="color: #E6E6FA; font-size: 48px;">Mini Activity</h1>
-
-<h2 style="color: #E6E6FA; font-size: 30px;">
+<div class="activity-title">Mini Activity - #hash</div>
 
 - Go to [https://emn178.github.io/online-tools/md5 checksum.html](https://emn178.github.io/online-tools/md5_checksum.html)
 - Create a text file on your desktop and type some text into it.
 - In the MD5 Checksum Tool, drag and drop the text file into the Drop File Here box. Make sure “Auto Update” is selected.
-- Make a change to your text file and drag and drop again; click on the various hashes to see what happens.
+- Make a change to your text file and drag and drop again; click on different checksum types to see what happens.
 </h2>
 
 ---
 
-# Definition: Packaging Information
-—
+## Definition
+# Provenance Information
 
-__Packaging information__ binds the content and preservation description information into one logical package.
+**Provenance Information** documents the history of the Content Information, including its creation, any alterations to its content or format over time, its chain of custody, any actions taken to preserve
+the Content Information (such as normalization or format migration), and the outcome of these actions.
 
-<!--presenter notes
+<!--presenter notes 
 
-Packaging Information: Binds together all the components of the information package together. Post office analogy: The box, which contains the gift, but also provides a surface on the outside to tie together all the information needed for postal workers to send the gift.
+Definition taken from https://www.dpconline.org/docs/technology-watch-reports/1359-dpctw14-02/file
 
 -->
 
 ---
 
-# Definition: Descriptive Information
-—
+<center>
+  <div style="display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; width: 600px; height: 600px;">
+    <div style="background-color: lightgray; color: gray; border: 2px solid lightgray; display: flex; justify-content: center; align-items: center;">
+      💾 Content Information
+    </div>
+    <div style="background-color: lightgray; color: gray; border: 2px solid lightgray; display: flex; justify-content: center; align-items: center;">
+      🛡️ Preservation Description Information
+    </div>
+    <div style="background-color: lightcoral; color: black; border: 2px solid black; display: flex; justify-content: center; align-items: center;">
+      📦 Packaging Information
+    </div>
+    <div style="background-color: lightgray; color: gray; border: 2px solid lightgray; display: flex; justify-content: center; align-items: center;">
+      🔍 Description Information
+    </div>
+  </div>
+</center>
 
-__Descriptive information__ is a subset of data used for discovery and access.
+---
+
+<center>
+  <div style="display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; width: 600px; height: 600px;">
+    <div style="background-color: lightgray; color: gray; border: 2px solid lightgray; display: flex; justify-content: center; align-items: center;">
+      💾 Content Information
+    </div>
+    <div style="background-color: lightgray; color: gray; border: 2px solid lightgray; display: flex; justify-content: center; align-items: center;">
+      🛡️ Preservation Description Information
+    </div>
+    <div style="background-color: lightgray; color: gray; border: 2px solid lightgray; display: flex; justify-content: center; align-items: center;">
+      📦 Packaging Information
+    </div>
+    <div style="background-color: goldenrod; color: black; border: 2px solid black; display: flex; justify-content: center; align-items: center;">
+      🔍 Description Information
+    </div>
+  </div>
+</center>
+
+
+---
+
+## Definition
+# Descriptive Information
+
+**Descriptive information** is a subset of data used for discovery and access.
 
 <!--presenter notes
 
@@ -744,26 +956,7 @@ Descriptive Information: Metadata that allows the object to be located at a late
 
 ---
 
-<style>
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-}
-
-img {
-  max-width: 100%;
-  max-height: 90vh;
-  object-fit: contain;
-  margin: 0;
-}
-</style>
-
-<div class="container">
-  <img src="img/week_02_slide_deck8.png" alt="Slide Deck Image">
-</div>
+<img src="img/week_02_slide_deck8.png" alt="A diagram showing how Content and Preservation Description Information are bound together by package information, and Descriptive Information points to the package as a whole.">
 
 <!--presenter notes
 
@@ -777,29 +970,93 @@ Descriptive information rests outside of and points to the package: descriptive 
 
 ---
 
-# Library of Congress BagIt Specification
-
-- BagIt Folder
-  - `bagit.txt`
-  - `bag-info.txt`
-  - `manifest-md5.txt`
-  - `tagmanifest-md5.txt`
-  - `data`
-    - `file1.txt`
-    - `file2.jpg`
+<center>
+  <div style="display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; width: 600px; height: 600px;">
+    <div style="background-color: lightblue; display: flex; justify-content: center; align-items: center;">
+      💾 Content Information
+    </div>
+    <div style="background-color: lightgreen; display: flex; justify-content: center; align-items: center;">
+      🛡️ Preservation Description Information
+    </div>
+    <div style="background-color: lightcoral; display: flex; justify-content: center; align-items: center;">
+      📦 Packaging Information
+    </div>
+    <div style="background-color: goldenrod; display: flex; justify-content: center; align-items: center;">
+      🔍 Description Information
+    </div>
+  </div>
+</center>
 
 <!--presenter notes
 
-The OAIS describes information packages in a conceptual manner, but does not go into specifics about what a bag might look like in front of you. This is where the Library of Congress BagIt specification comes in. This specification was developed to provide a framework for how these packages, which are, generally speaking, folders on your computer, which contain other folders and files that both hold the actual contents of what you are preserving - an image, a document, a series of documents, a video, an audio file, etc. - as well as meta information that describes the contents of the folder itself.
+So now that we know about all 4 parts of an Information Package...
 
 -->
 
 ---
 
-# Definition: Submission Information Package (SIP)
-—
+<div style="display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; width: 200px; height: 200px; margin: 0 auto;">
+  <div style="background-color: lightblue; display: flex; justify-content: center; align-items: center;">
+    💾
+  </div>
+  <div style="background-color: lightgreen; display: flex; justify-content: center; align-items: center;">
+    🛡️
+  </div>
+  <div style="background-color: lightcoral; display: flex; justify-content: center; align-items: center;">
+    📦
+  </div>
+  <div style="background-color: goldenrod; display: flex; justify-content: center; align-items: center;">
+    🔍
+  </div>
+</div>
 
-A__Submission Information Package (SIP)__ is formed outside of the context of an OAIS, and delivered by a producer to the OAIS for__ingest__.
+The Information Package takes on three distinct manifestations depending on how it interacts with the OAIS:
+
+1. **Submission Information Package (SIP):** When it is first submitted.
+2. **Archival Information Package (AIP):** When it is ingested and placed into long-term management.
+3. **Dissemination Information Package (DIP):** When it is delivered to a user.
+
+
+<!--presenter notes
+
+...and shrink it down.
+
+-->
+
+---
+
+<!-- Slide 2 -->
+## Definition  
+# Submission Information Package (SIP)
+
+A **Submission Information Package (SIP)** is formed **outside of the OAIS**, and delivered by a producer for ingest.
+
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px; margin-top: 20px;">
+  <!-- Miniature Package -->
+  <div style="display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; width: 80px; height: 80px;">
+    <div style="background-color: lightblue; display: flex; justify-content: center; align-items: center;">
+      💾
+    </div>
+    <div style="background-color: lightgreen; display: flex; justify-content: center; align-items: center;">
+      🛡️
+    </div>
+    <div style="background-color: lightcoral; display: flex; justify-content: center; align-items: center;">
+      📦
+    </div>
+    <div style="background-color: goldenrod; display: flex; justify-content: center; align-items: center;">
+      🔍
+    </div>
+  </div>
+
+  <div style="font-size: 50px; color: black;">
+  --->
+  </div>
+
+  <div style="font-size: 150px;">
+    🚪
+  </div>
+</div>
+
 
 <!--presenter notes
 
@@ -815,19 +1072,10 @@ Source for producer definition: Lee, Christopher A., and Tibbo, Helen. “Where�
 
 ---
 
-# Ingest Workflow
-—
-<div class="mermaid" style="width: 100%; max-width: 800px; height: auto;">
-    graph LR
-    A[Producer] --> B[Submit SIP]
-    B --> C[Quality Assurance]
-    C -->|Fails QA| A
-    C -->|Passes QA| D[Create AIP]
-    D --> E[Long-Term Archival Storage]
-    D --> F[Generate Descriptive Information]
-    F --> G[Database]
-    G --> H[Query Response]
-</div>
+## Definition
+# Ingest
+
+**Ingest** is the set of processes responsible for accepting a SIP and prepping it to live in the OAIS. Actions include validation, transformation, metadata extraction, and transfer to storage.
 
 <!--presenter notes
 
@@ -841,10 +1089,10 @@ In short, the Ingest function serves as the OAIS’s external interface with Pro
 
 ---
 
-# Definition: Archival Information Package (AIP)
-—
+## Definition
+# Archival Information Package (AIP)
 
-An__Archival Information Package (AIP)__ is an information package consisting of the__Data Object__ and associated__Preservation Description Information (PDI)__ which is managed and preserved within an OAIS.
+An **Archival Information Package (AIP)** describes the primary content and metadata managed by the OAIS.
 
 <!--presenter notes
 Source: https://www2.archivists.org/groups/standards-committee/open-archival-information-system-oais#:~:text=An%20Archival%20Information%20Package%20(AIP,repository%20to%20perform%20preservation%20services)
@@ -858,42 +1106,6 @@ Management is the entity that sets the policy objectives of the OAIS. This may i
 -->
 
 ---
-
-<div class="mermaid">
-graph LR
-    A[Package Description] -- described by --> B[Archival Information Package]
-    B -- delimited by --> C[Packaging Information]
-    B -- derived from --> D[Content Information]
-    B -- identifies --> C
-    D -- further described by --> E[Preservation Description Information]
-
-    D --> F[Data Object]
-    D --> G[Representation Information]
-    F --> H[Physical Object]
-    F --> I[Digital Object]
-    I --> J[Bit]
-    G --> K[Structure Information]
-    G --> L[Semantic Information]
-    G --> M[Other Representation Information]
-    G --> J[Bit]
-    G --> N[Interpreted using]
-
-    E --> O[Reference Information]
-    E --> P[Provenance Information]
-    E --> Q[Context Information]
-    E --> R[Fixity Information]
-    E --> S[Access Rights Information]
-
-    subgraph PreservationDescriptionInfo
-        O
-        P
-        Q
-        R
-        S
-    end
-
-    style PreservationDescriptionInfo fill:#f9f,stroke:#333,stroke-width:2px
-</div>
 
 <!--presenter notes
 
@@ -914,20 +1126,6 @@ On the left-hand side of the AIP in the diagram we have Package Description, whi
 -->
 
 ---
-
-<div class="mermaid">
-graph LR
-    A[Archival Information Package] -->|derived from| B[Package Description]
-    A -->|described by| C[Associated Description]
-    B -->|1| C
-    C -->|Provide data for| D[Access Aid]
-    
-    subgraph Access Aids
-        D --> E[Finding Aid]
-        D --> F[Ordering Aid]
-        D --> G[Retrieval Aid]
-    end
-</div>
 
 <!--presenter notes
 
@@ -979,18 +1177,29 @@ __The Requirements for Bodies Providing Audit Certification of Candidate Trustwo
 
 ---
 
+# Library of Congress BagIt Specification
+
+- BagIt Folder
+  - `bagit.txt`
+  - `bag-info.txt`
+  - `manifest-md5.txt`
+  - `tagmanifest-md5.txt`
+  - `data`
+    - `file1.txt`
+    - `file2.jpg`
+
+<!--presenter notes
+
+The OAIS describes information packages in a conceptual manner, but does not go into specifics about what a bag might look like in front of you. This is where the Library of Congress BagIt specification comes in. This specification was developed to provide a framework for how these packages, which are, generally speaking, folders on your computer, which contain other folders and files that both hold the actual contents of what you are preserving - an image, a document, a series of documents, a video, an audio file, etc. - as well as meta information that describes the contents of the folder itself.
+
+-->
+
+---
+
 # Break
 ![Take a break: Steaming teapot and tea animated GIF](img/week_02_slide_deck13.gif)
 
 ---
-
-# Discussion: Data Object Activity
-
-[Data object Airtable gallery](https://airtable.com/appX8QYrNyTDJDGmg/shrcCl043DAEFMjQe)
-
----
-
-## &#9786; &#10047; &#9825;
 
 # Weekly Activity: Breaking Bag
 
