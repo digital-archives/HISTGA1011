@@ -1192,6 +1192,16 @@ __The Requirements for Bodies Providing Audit Certification of Candidate Trustwo
 
 ---
 
+# Break
+![Take a break: Steaming teapot and tea animated GIF](img/week_02_slide_deck13.gif)
+
+---
+
+# Weekly Activity: Breaking BagIt
+<a href="https://digital-archives.github.io/HISTGA1011/activities/fixity_bagger.html" target="_blank">https://digital-archives.github.io/HISTGA1011/activities/fixity_bagger.html</a>
+
+---
+
 # BagIt Specification
 
 - Folder
@@ -1211,17 +1221,7 @@ The OAIS describes information packages in a conceptual manner, but does not go 
 
 ---
 
-# Break
-![Take a break: Steaming teapot and tea animated GIF](img/week_02_slide_deck13.gif)
-
----
-
-# Weekly Activity: Format Encounters RPG
-<a href="https://digital-archives.github.io/HISTGA1011/activities/format_rpg.html" target="_blank">https://digital-archives.github.io/HISTGA1011/activities/format_rpg.html</a>
-
----
-
-![](img/week_00_weekly_activity_sunset.gif)
+![Animated GIF of a yellow sunset generating pixelated ripples.](img/week_00_weekly_activity_sunset.gif)
 
 _Final questions or reflections?_
 
