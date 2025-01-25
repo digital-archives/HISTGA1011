@@ -10,7 +10,7 @@ has_children: true
 | Week Number | Date of Class  | Topic / Assignment Due                                  | Weekly Activity<br>Due following Sunday        |
 |-------------|----------------|---------------------------------------------------------|------------------------|
 | [Week 1](week_01.html)  | January 22 | Introduction to Digital Archives | <a href="https://digital-archives.github.io/HISTGA1011/activities/data_object.html" target="_blank">Data Object</a> |
-| [Week 2](week_02.html)  | January 29 | OAIS Conceptual Model | <a href="https://digital-archives.github.io/HISTGA1011/activities/format_rpg.html" target="_blank">Format Encounters RPG</a> |
+| [Week 2](week_02.html)  | January 29 | OAIS Conceptual Model | <a href="https://digital-archives.github.io/HISTGA1011/activities/fixity_bagger.html" target="_blank">Breaking BagIt</a> |
 | [Week 3](week_03.html)  | February 5 | Processing Born-Digital Archives | <a href="https://digital-archives.github.io/HISTGA1011/activities/corrupting_a_bitstream.html" target="_blank">Corrupting a Bitstream</a> |
 | [Week 4](week_04.html)  | February 12 | Digital Repository Systems | <a href="https://digital-archives.github.io/HISTGA1011/activities/tech_stack.html" target="_blank">Tech Stack</a> |
 | [Week 5](week_05.html)  | February 19 | Storage Infrastructures | <a href="https://digital-archives.github.io/HISTGA1011/activities/archivematica.html" target="_blank">Archivematica Sandbox</a> |

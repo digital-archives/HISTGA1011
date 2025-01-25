@@ -12,7 +12,7 @@ has_children: false
 {: .label .label-yellow }
 Due
 
-In class we will start the Week 2 activity, <a href="https://digital-archives.github.io/HISTGA1011/activities/format_rpg.html" target="_blank">Format Encounters Role-Playing Game (RPG)</a>. Submit your completed activity summary in Brightspace by Sunday night.
+In class we will start the Week 2 activity, <a href="https://digital-archives.github.io/HISTGA1011/activities/fixity_bagger.html" target="_blank">Breaking BagIt</a>. Submit your completed activity summary in Brightspace by Sunday night.
 
 {: .label .label-green }
 Read

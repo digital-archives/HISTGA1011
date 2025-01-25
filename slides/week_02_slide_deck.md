@@ -1048,27 +1048,33 @@ A **Submission Information Package (SIP)** is formed **outside of the OAIS**, an
     </div>
   </div>
 
-  <div style="font-size: 50px; color: black;">
-  --->
+  <div style="font-size: 150px; color: black;">
+  ➡︎
   </div>
 
   <div style="font-size: 150px;">
     🚪
   </div>
+  <div style"font-size: 24px;">OAIS</div>
+  </div>
 </div>
-
 
 <!--presenter notes
 
 A Submission Information Package, or SIP, is the initial information package submitted by a producer to an OAIS.
-
-A producer is a person or system that interacts with the OAIS by submitting the thing to be preserved. An example of a producer might be an archivist whose job is to prepare preservation materials for upload into an OAIS.
 
 SIPs are implicated in two processes commonly called “ingest” and “pre-ingest”.
 
 Source for producer definition: Lee, Christopher A., and Tibbo, Helen. “Where’s the Archivist in Digital Curation? Exploring the Possibilities through a Matrix of Knowledge and Skills.” Archivaria: 72 (Fall 2011) pp. 123-168. http://www.ils.unc.edu/callee/p123-lee.pdf
 
 -->
+
+---
+
+## Definition
+# Producer
+
+A **producer** is a person or system that prepares the submitted SIP. An example of a producer might be a digital preservation technician, archivist, or someone else.
 
 ---
 
@@ -1083,21 +1089,34 @@ Source: https://www.dpconline.org/docs/technology-watch-reports/1359-dpctw14-02/
 
 Ingest is the set of processes responsible for accepting information submitted by Producers and preparing it for inclusion in the archival store. Specific functions performed by Ingest includes receipt of information transferred to the OAIS by a Producer; validation that the information received is uncorrupted and complete; transformation of the submitted information into a form suitable for storage and management within the archival system; extraction and/or creation of descriptive metadata to support the OAIS’s search and retrieval tools and finding aids; and transfer of the submitted information and its associated metadata to the archival store.
 
-In short, the Ingest function serves as the OAIS’s external interface with Producers, managing the entire process of accepting custody of submitted information and preparing it for archival retention. 
+In short, the Ingest function serves as the OAIS’s external interface with Producers, managing the entire process of accepting custody of submitted information and preparing it for long-term storage. 
 
 -->
 
 ---
 
 ## Definition
-# Archival Information Package (AIP)
+# Archival Information Package (AIP) - 1/2
 
 An **Archival Information Package (AIP)** describes the primary content and metadata managed by the OAIS.
 
 <!--presenter notes
 Source: https://www2.archivists.org/groups/standards-committee/open-archival-information-system-oais#:~:text=An%20Archival%20Information%20Package%20(AIP,repository%20to%20perform%20preservation%20services)
 
-So now, we are at the point where the OAIS has created an Archival Information Package or AIP through the submission and ingest processes. An AIP is the set of content and metadata managed by the OAIS, and organized in a way that allows the OAIS to perform preservation activities, like fixity.
+So now, we are at the point where the OAIS has created an Archival Information Package or AIP through the submission and ingest processes. An AIP is the primary set of content and metadata managed by the OAIS, and organized in a way that allows the OAIS to perform preservation activities, like fixity.
+
+-->
+
+---
+
+# Note: SIPs and AIPs
+
+SIPs and AIPs do not necessarily have a 1-to-1 relationship.
+
+A SIP may be, through the process of ingest, transformed into one or multiple AIPs. This largely depends on the rules of your OAIS setup.
+
+
+<!--presenter notes
 
 Note that a SIP and an AIP do not always have a one-to-one relationship, meaning, you can submit a SIP to an OAIS, which may result in one or multiple AIPs created. For example, let’s say someone submitted a SIP containing video files of performances that occurred through the course of a season or a year, the OAIS may then turn each one of those performances into their own AIP. This behaviour will vary depending on the rules set up by the organization who manages the OAIS.
 
@@ -1107,9 +1126,11 @@ Management is the entity that sets the policy objectives of the OAIS. This may i
 
 ---
 
+<img src="img/week_02_oais_figure_4_18.png">
+
 <!--presenter notes
 
-Source: https://public.ccsds.org/pubs/650x0m2.pdf
+<!--presenter notes
 
 An AIP consists of several components, most which we have covered up through now. This diagram shows how all of these various components fit together.
 
@@ -1123,12 +1144,6 @@ Also notice on either side of the AIP, we have Package Description on the left h
 
 On the left-hand side of the AIP in the diagram we have Package Description, which is further described by another diagram.
 
--->
-
----
-
-<!--presenter notes
-
 The Package Description “enables the Consumer to locate information of potential interest, analyze that information, and order desired information. The information needed for one Access Aid is called an Associated Description. A single Package Description may contain several Associated Descriptions depending on the number of different Access Aids that can locate, visualize, retrieve or order the associated Content Information and PDI.” Basically, this is the information that is relayed to discovery platforms such as an online finding aid.
 
 This is a good segue into the final of the third information package managed by the OAIS, the DIP.
@@ -1137,10 +1152,10 @@ This is a good segue into the final of the third information package managed by 
 
 ---
 
-# Definition: Dissemination Information Package (DIP)
-—
+## Definition
+# Dissemination Information Package (DIP)
 
-The__Dissemination Information Package (DIP)__ is derived from one or more AIPs, and is received by the Consumer (i.e. end-user) in response to a request (e.g. searching an online catalog).
+The **Dissemination Information Package (DIP)** is derived from one or more AIPs, and is received by the Consumer (i.e. end-user) in response to a request (e.g. searching an online catalog or finding aid).
 
 <!--presenter notes
 
@@ -1156,10 +1171,10 @@ An example of a Consumer is a researcher using an online finding aid that has be
 
 ---
 
-# Definition: Audit and Certification of Trustworthy Digital Repositories: Criteria and Checklist - ISO 16363
-—
+# Document
+## Audit and Certification of Trustworthy Digital Repositories: Criteria and Checklist - ISO 16363
 
-__The Audit and Certification of Trustworthy Repositories: Criteria and Checklist (TRAC)__ is a document describing the characteristics and metrics of an OAIS-compliant digital repository.
+The **Audit and Certification of Trustworthy Repositories: Criteria and Checklist (TRAC)** is a document describing the characteristics and metrics of an OAIS-compliant digital repository.
 
 <!--presenter notes
 
@@ -1177,9 +1192,9 @@ __The Requirements for Bodies Providing Audit Certification of Candidate Trustwo
 
 ---
 
-# Library of Congress BagIt Specification
+# BagIt Specification
 
-- BagIt Folder
+- Folder
   - `bagit.txt`
   - `bag-info.txt`
   - `manifest-md5.txt`
@@ -1201,16 +1216,8 @@ The OAIS describes information packages in a conceptual manner, but does not go 
 
 ---
 
-# Weekly Activity: Breaking Bag
-
-<script type="module">
-  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-  mermaid.initialize({
-    startOnLoad: true,
-    theme: "default",
-    flowchart: { useMaxWidth: true, diagramPadding: 20 }
-  });
-</script>
+# Weekly Activity: Format Encounters RPG
+<a href="https://digital-archives.github.io/HISTGA1011/activities/format_rpg.html" target="_blank">https://digital-archives.github.io/HISTGA1011/activities/format_rpg.html</a>
 
 ---
 
