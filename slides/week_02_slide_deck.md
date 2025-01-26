@@ -275,7 +275,7 @@ style: |
 
 # Announcements
 
-_Feel free to email me with any announcements you would like me to boost (upcoming conferences, webinars, trainings, or other events/topics of interest)._
+* Syllabus update: Week 2's activity has been changed from Format Encounters RPG to Breaking BagIt. 
 
 ---
 
@@ -328,9 +328,8 @@ Source for quote: Lee, Christopher A., and Tibbo, Helen. “Where’s the Archiv
 
 ---
 
-<center>
-<img src="img/week_02_standards_timeline.png" alt="Digital Repository Standards Development" style="width: 50%; height: auto;">
-</center>
+![height:600px](img/week_02_standards_timeline.png)
+
 
 <!--presenter notes
 
@@ -394,9 +393,7 @@ The OAIS also does not address how to collaborate, coordinate or implement the m
 
 ---
 
-<center>
-<img src="img/week_02_oais_cover.png" alt="Cover of the Reference Model for an Open Archival Information System (OAIS)" style="width: 50%; height: auto;">
-</center>
+![height:600px](img/week_02_oais_cover.png)
 
 ---
 
@@ -407,7 +404,7 @@ The **Reference Model for an Open Archival Information System** was developed fo
 
 <!--presenter notes
 
-This week, you were assigned to skim parts of the Reference Model for an OAIS document. The Reference Model for an Open Archival Information System (OAIS) document was developed for use in facilitating a broad, discipline-independent consensus on the requirements for an archive or repository to provide long-term preservation of digital information. It is sometimes referred to as the “Magenta Book” because of the color of its cover page. The OAIS Reference Model was approved in January 2002 as ISO International Standard 14721; a revised and updated version was published in 2012 as ISO (International Standards Organization) Standard 14721:2012.
+The Reference Model for an Open Archival Information System (OAIS) document was developed for use in facilitating a broad, discipline-independent consensus on the requirements for an archive or repository to provide long-term preservation of digital information. It is sometimes referred to as the “Magenta Book” because of the color of its cover page. The OAIS Reference Model was approved in January 2002 as ISO International Standard 14721; a revised and updated version was published in 2012 as ISO (International Standards Organization) Standard 14721:2012.
 
 The Consultative Committee for Space Data Systems (CCSDS) initiated the creation of this standard, and aimed at developing formal standards for the long-term storage of digital data generated from space missions.
 
@@ -420,7 +417,14 @@ So now, let’s turn back again to our OAIS definition, and unpack what it means
 ---
 
 ## Definition
-# Content Information (1/2)
+# Content Information (1/3)
+
+**Content information** refers to the primary data that an OAIS is preserving over the long-term.
+
+---
+
+## Definition
+# Content Information (2/3)
 
 **Content Information** is composed of two main elements:
   1. The **Content Data Object** (the bitstream).
@@ -433,7 +437,9 @@ At first glance, you might think that an OAIS would only be concerned with prese
 
 Bitstreams are not inherently understandable. Because of this, the OAIS considers both the bitstream and the information needed to decode and make sense of the bitstream equally as important as far as the things it is concerned with preserving go.
 
-The OAIS calls the bitstream the data object. The tools necessary to interpret, decode or render the data object are known in OAIS as representation information, additional information needed to decode the bitstream. The data object and representation information together comprise content information.
+The OAIS calls the bitstream the "content data object".
+
+The tools necessary to interpret, decode or render the content data object are known as its "representation information": additional information needed to decode the bitstream. The data object and representation information together comprise content information.
 
 Content information is the primary thing that an OAIS is concerned with managing and preserving, and is sometimes also referred to as the preservation target.
 
@@ -443,7 +449,7 @@ Let’s talk more about representation information.
 ---
 
 ## Definition
-# Content Information (2/2)
+# Content Information (3/3)
 
 **Content Information** is composed of two main elements:
 1. The **Content Data Object** (the bitstream).
