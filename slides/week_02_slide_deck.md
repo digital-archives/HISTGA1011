@@ -275,17 +275,17 @@ style: |
 
 # Announcements
 
-* Syllabus update: Week 2's activity has been changed from Format Encounters RPG to Breaking BagIt. 
+* **Syllabus update:** Week 2's activity has been changed from Format Encounters RPG to Breaking BagIt. 
 
 ---
 
 # Lightning Talks: Data Object
 
-Each student spends ~2 minutes talking about their data object in <a href="https://airtable.com/appX8QYrNyTDJDGmg/shrcCl043DAEFMjQe/tblFNKDulPFQ629VV" target="_blank">Data Object Gallery</a>.
+Spend ~2 minutes talking your your data object (<a href="https://airtable.com/appX8QYrNyTDJDGmg/shrcCl043DAEFMjQe/tblFNKDulPFQ629VV" target="_blank">Data Object Gallery</a>)
 
-In 40 years, do you think this object will still be more or less accessible and understandable in the same way it is today or when it was originally created and used? Why or why not?
+_In 40 years, do you think this object will still be more or less accessible and understandable in the same way it is today or when it was originally created and used? Why or why not?_
 
-What additional context or resources (e.g., documentation, software, emulators) would a future archivist, scholar, or casual user, need or require to make sense of your data object?
+_What additional context or resources (e.g., documentation, software, emulators) would a future archivist, scholar, or casual user, need or require to make sense of your data object?_
 
 ---
 
@@ -294,21 +294,34 @@ What additional context or resources (e.g., documentation, software, emulators) 
 
 ---
 
-## Question
+![height:600px](img/week_02_oais_cover.png)
 
-### As we learned last week, all data objects are, at their most fundamental, composed of 0s and 1s. __Is it enough to preserve just the "bits" of a data object? Why or why not?__
+---
 
-<!-- presenter notes
+## Text
+# Reference Model for an Open Archival Information System (OAIS)
 
-But what makes this even more complicated is the nature of digital information itself. At its core, all data objects—whether they’re a document, an image, a video, or a piece of software—are nothing more than binary code. If you looked at their core code, you would see an endless stream of numeric ones and zeros.
+The **Reference Model for an Open Archival Information System** was developed for use in facilitating a broad, discipline-independent consensus on the requirements for an OAIS archive or repository to provide long-term preservation of digital information.
 
-To understand or interact with a data object, we need some kind of intermediary, like software to process it, or hardware to run it. In contrast, think about a physical book or a printed photograph. You can hold them in your hands, see the information, and directly interpret it. The content is immediately accessible without requiring any additional technology.
+<!--presenter notes
 
-With data objects, however, every step—from the file type to the program that opens it—requires something to act as a bridge, translating that binary data into something recognizable, something we can make sense of.
+The Reference Model for an Open Archival Information System (OAIS) document was developed for use in facilitating a broad, discipline-independent consensus on the requirements for an archive or repository to provide long-term preservation of digital information. It is sometimes referred to as the “Magenta Book” because of the color of its cover page. The OAIS Reference Model was approved in January 2002 as ISO International Standard 14721; a revised and updated version was published in 2012 as ISO (International Standards Organization) Standard 14721:2012.
 
-And this dependency on intermediaries presents a risk. What happens when the software that interprets that file becomes obsolete? Or when the hardware is no longer available, because the manufacturing plant that produced it is no longer? Without maintaining these layers, data objects could easily become lost or unreadable, leaving us with nothing more than a stream of binary code that’s effectively inaccessible.
+The Consultative Committee for Space Data Systems (CCSDS) initiated the creation of this standard, and aimed at developing formal standards for the long-term storage of digital data generated from space missions.
+
+This document was was developed for use in facilitating a broad, discipline-independent consensus on the requirements for an archive or repository to provide long-term preservation of digital information. It was also intended to support the development of additional digital preservation standards.
+
+So now, let’s turn back again to our OAIS definition, and unpack what it means by “preserve information”.
+
+“Over the past several years, the OAIS has become a widely accepted foundation for research and development on digital archives. The OAIS has become ‘the reference model of choice of those involved in the digital preservation world serving as a ‘galvanizing force’ and a ‘major factor in the advancement of digital archiving efforts.’ It has contributed ‘a common language and concepts for different professional groups involved in digital preservation and developing archiving systems’ and represents ‘common ground upon which to consolidate understanding of the needs and requirements of digital preservation.’ Many types of institutions – including archives – were involved in its development and have used it as a basis for their work.”
 
 -->
+
+---
+
+## Question
+
+### As we learned last week, all data objects are composed of 0s and 1s. __Is it enough to preserve just the "bits and bytes" of a data object? Why or why not?__
 
 ---
 
@@ -322,9 +335,21 @@ And this dependency on intermediaries presents a risk. What happens when the sof
 
 <!--presenter notes
 
-Source for quote: Lee, Christopher A., and Tibbo, Helen. “Where’s the Archivist in Digital Curation? Exploring the Possibilities through a Matrix of Knowledge and Skills.” Archivaria: 72 (Fall 2011) pp. 123-168. http://www.ils.unc.edu/callee/p123-lee.pdf
+Bradley, Kevin. "Defining Digital Sustainability." Library Trends, vol. 56 no. 1, 2007, p. 148-163. Project MUSE, https://dx.doi.org/10.1353/lib.2007.0044.
 
 -->
+
+---
+
+# OAIS Model Background - 1/2
+* The OAIS is a framework for managing and preserving digital information over the long term while ensuring its accessibility and usability by a defined Designated Community (the group intended to use the archived information).
+* ISO Standard: The OAIS Reference Model became an international standard in 2003 as **ISO 14721:2003**. It has since been updated, with the most recent version being **ISO 14721:2012**.
+
+---
+
+# OAIS Model Background - 1/2
+* The Consultative Committee for Space Data Systems (CCSDS), a multinational group of space agencies (including NASA, ESA, and others), initiated the development of the OAIS model.
+* Timeline: The development began in the late 1990s, with the first version of the OAIS Reference Model published in 1999.
 
 ---
 
@@ -335,22 +360,9 @@ Source for quote: Lee, Christopher A., and Tibbo, Helen. “Where’s the Archiv
 
 Diagram from: https://muse.jhu.edu/article/223247
 
-This diagram provides a timeline for some of the earliest developed digital preservation standards. You’ll see the OAIS Reference Model over near the top-right. You can see how it has been referenced by subsequent frameworks since it became an official ISO standard in 2003. We will not be going through all the frameworks OAIS influenced, but will look at one in particular: ISO 16363, aka the “Audit and certification of trustworthy digital repositories” standard, sometimes known just as “TRAC”, which stands for “Trustworthy Repositories Audit & Certification”.
+This diagram provides a timeline for some of the earliest developed digital preservation standards. 
 
--->
-
----
-
-## Definition
-# Open Archival Information System (OAIS)
-
-An **Open Archival Information System (OAIS)** is an Archive consisting of an organization, which may be part of a larger organization, of people and systems that has accepted the responsibility to preserve information and make it available for a **Designated Community**.
-
-<!--presenter notes
-
-An Open Archival Information System, or OAIS, is defined as an Archive, consisting of an organization, which may be part of a larger organization, of people that has accepted the responsibility to preserve information and make it available for a Designated Community. When we are referring to an OAIS, we are referring, basically, to an archive who has accepted this responsibility.
-
-Now that we have a definition for OAIS under our belts, we will first define what the Reference Model for an OAIS is, and then unpack some of the terms used in the definition on the slide: information, and later, designated community.
+Notice that there are two "tracks": One for the OAIS, and another for TRAC for “Trustworthy Repositories Audit & Certification”. Though we will not be focusing specifically on TRAC today (I'll share why in a bit), you can see that TRAC and OAIS influenced one another over the course of time.
 
 -->
 
@@ -364,9 +376,7 @@ Now that we have a definition for OAIS under our belts, we will first define wha
 
 <!--presenter notes
 
-Source: These bullets are derived from a SERI Educational Webinar, viewable on YouTube: https://www.youtube.com/watch?v=MWITvx5yAEs (the slide I’ve transferred can be found at 9:33)
-
-“Over the past several years, the OAIS has become a widely accepted foundation for research and development on digital archives. The OAIS has become ‘the reference model of choice of those involved in the digital preservation world serving as a ‘galvanizing force’ and a ‘major factor in the advancement of digital archiving efforts.’ It has contributed ‘a common language and concepts for different professional groups involved in digital preservation and developing archiving systems’ and represents ‘common ground upon which to consolidate understanding of the needs and requirements of digital preservation.’ Many types of institutions – including archives – were involved in its development and have used it as a basis for their work.”
+Source: These bullets are derived from a SERI Educational Webinar, which you can watch on YouTube: https://www.youtube.com/watch?v=MWITvx5yAEs.
 
 -->
 
@@ -393,41 +403,32 @@ The OAIS also does not address how to collaborate, coordinate or implement the m
 
 ---
 
-![height:600px](img/week_02_oais_cover.png)
+## Definition
+# Open Archival Information System (OAIS)
 
----
-
-## Text
-# Reference Model for an Open Archival Information System (OAIS)
-
-The **Reference Model for an Open Archival Information System** was developed for use in facilitating a broad, discipline-independent consensus on the requirements for an archive or repository to provide long-term preservation of digital information.
+An **Open Archival Information System (OAIS)** is an Archive consisting of an organization, which may be part of a larger organization, of people and systems that has accepted the responsibility to preserve information and make it available for a **Designated Community**.
 
 <!--presenter notes
 
-The Reference Model for an Open Archival Information System (OAIS) document was developed for use in facilitating a broad, discipline-independent consensus on the requirements for an archive or repository to provide long-term preservation of digital information. It is sometimes referred to as the “Magenta Book” because of the color of its cover page. The OAIS Reference Model was approved in January 2002 as ISO International Standard 14721; a revised and updated version was published in 2012 as ISO (International Standards Organization) Standard 14721:2012.
+An Open Archival Information System, or OAIS, is defined as an Archive, consisting of an organization, which may be part of a larger organization, of people that has accepted the responsibility to preserve information and make it available for a Designated Community. When we are referring to an OAIS, we are referring, basically, to an archive who has accepted this responsibility.
 
-The Consultative Committee for Space Data Systems (CCSDS) initiated the creation of this standard, and aimed at developing formal standards for the long-term storage of digital data generated from space missions.
-
-This document was was developed for use in facilitating a broad, discipline-independent consensus on the requirements for an archive or repository to provide long-term preservation of digital information. It was also intended to support the development of additional digital preservation standards.
-
-So now, let’s turn back again to our OAIS definition, and unpack what it means by “preserve information”.
+Now that we have a definition for OAIS, we will first define what the Reference Model for an OAIS is, and then unpack some of the terms used in the definition on the slide: information, and later, designated community.
 
 -->
 
 ---
 
 ## Definition
-# Content Information (1/3)
+# Content Information
 
-**Content information** refers to the primary data that an OAIS is preserving over the long-term.
+**Content information** refers to the primary data that an OAIS is preserving over the long-term. Content information consists of two main elements: the Content Data Object, and Representation Information.
 
 ---
 
 ## Definition
-# Content Information (2/3)
+# Content Data Object
 
-**Content Information** is composed of two main elements:
-  1. The **Content Data Object** (the bitstream).
+The **Content Data Object** refers to the bitstream: the 0s and 1s of the preservation target.
 
 <!--presenter notes
 
@@ -449,11 +450,9 @@ Let’s talk more about representation information.
 ---
 
 ## Definition
-# Content Information (3/3)
+# Representation Information - 1/2
 
-**Content Information** is composed of two main elements:
-1. The **Content Data Object** (the bitstream).
-2. The **Representation Information**, or data that makes the bitstream understandable/interpretable.
+The **Representation Information** is information necessary to render and understand the bit sequences constituting the Content Data Object.
 
 <!--presenter notes
 
@@ -463,6 +462,15 @@ Representation Information is the information that makes sense of the bitstream.
 - Further, it may also be information to make sense of the information itself. For example, it may still not be enough to know that something may be decoded using ASCII, if it's just a bunch of decimal numbers. However, this might make more sense if you knew that this jumble of numbers actually "indicate[s] that the numbers correspond to average daily air temperature readings for London, measured in degrees Celsius, for the period 1972–2000.” - The Open Archival Information System (OAIS) Reference Model: Introductory Guide (2nd Edition)
 
 -->
+
+---
+
+## Definition
+# Representation Information - 2/2
+
+Representation Information might include:
+* a description of the hardware and software environment needed to display the Content Data Object and/or access its contents
+* summarization of the appropriate interpretation of the Content Data Object.
 
 ---
 
@@ -518,7 +526,7 @@ _Note: We will dive deeper into file formats in later classes!_
 # Weather Data Set
 
 * Look at: <a href="https://www.ncei.noaa.gov/pub/data/cdo/samples/PRECIP_HLY_sample_ascii.dat" target="_blank">Sample weather data set</a>
-* Content Data Object: Always a bitstream (010101010...)
+* Content Data Object: Always a bitstream (0s and 1s)
 * Representation Information:
   * Structure Information: PRECIP_HLY_sample_ascii.**dat**
   * Semantic Information: Column headers (Latitude, Longitude, Station Name, etc.)
@@ -535,15 +543,17 @@ https://wiki.dpconline.org/index.php?title=4.2.1.3.1_Representation_Information_
 
 <table>
 <tr>
-<td>
+<td valign=top>
 <h1>Case Study</h1>
 <h2>Dennis Parichy Lighting Designs</h2>
+<p>
+Right: Image of the lighting designer, Dennis Parichy, on set.
+</p>
 </td>
-<td>
+<td valign=top>
 
-<center>
-<img src="img/week_02_parichy_01.png" alt="Image of the lighting designer, Dennis Parichy, on set." style="width: auto; height: 40%;">
-</center>
+![width:600px](img/week_02_parichy_01.png)
+
 </td>
 </tr>
 </table>
@@ -559,7 +569,8 @@ Billy Rose Theatre Division, The New York Public Library. "Publicity photo of li
 
 ---
 
-![Performance still of Don't Tell Me I Can't Fly, whose lighting was designed by Dennis Parichy.](img/week_02_parichy_02.png)
+![width:600px](img/week_02_parichy_02.png)
+Performance still of Don't Tell Me I Can't Fly.
 
 <!--presenter notes
 
@@ -574,7 +585,7 @@ Pollard, Collette. "Set Design for DON’T TELL ME I CAN’T FLY." 2011. Digital
 
 ---
 
-![Screenshot of Dennis Parichy's lighting design database](img/week_02_parichy_database.png)
+![width:1090px](img/week_02_parichy_database.png)
 
 <!--presenter notes
 
@@ -590,7 +601,7 @@ The Parichy acquisition contained both physical files as well as born-digital ma
   <span class="square"></span>
 </div>
 
-<div class="activity-title">Mini Activity -  OAIS Flex</div>
+<div class="activity-title">Mini Activity - OAIS Flex</div>
 
 Pretend you are bringing Parichy's LightWorks data into an OAIS. Can you guess what might be the:
 * Content Data Information
@@ -666,7 +677,7 @@ Forme of Cury</div>
 </td>
 <td>
 
-<img src="img/week_02_forme_of_cury.jpg" alt="Page from Forme of Cury, a cookbook from the Late Middle Ages. Part of the Rylands Medieval Collection. It was written in Middle English.">
+![height:500px](img/week_02_forme_of_cury.jpg)
 
 </td>
 </tr>
@@ -1208,9 +1219,29 @@ __The Requirements for Bodies Providing Audit Certification of Candidate Trustwo
 
 ---
 
-# BagIt Specification
+## Definition
+# BagIt
 
-- Folder
+**BagIt** is a set of hierarchical file layout conventions designed to support storage and transfer of arbitrary digital content. The standard was jointly developed by the Library of Congress and California Digital Library.
+
+<!--presenter notes
+
+A comprehensive write-up of the BagIt standard can be read here: https://datatracker.ietf.org/doc/html/rfc8493
+
+-->
+
+---
+
+## Definition
+# Bag
+
+A **bag** is a folder or directory structured after the BagIt standard, containing the payload files and other accompanying metadata files known as "tag" files containing metadata files intended to facilitate and document the storage and transfer of the bag.
+
+---
+
+# What a bag looks like:
+
+- Top-level folder
   - `bagit.txt`
   - `bag-info.txt`
   - `manifest-md5.txt`
@@ -1224,6 +1255,20 @@ __The Requirements for Bodies Providing Audit Certification of Candidate Trustwo
 The OAIS describes information packages in a conceptual manner, but does not go into specifics about what a bag might look like in front of you. This is where the Library of Congress BagIt specification comes in. This specification was developed to provide a framework for how these packages, which are, generally speaking, folders on your computer, which contain other folders and files that both hold the actual contents of what you are preserving - an image, a document, a series of documents, a video, an audio file, etc. - as well as meta information that describes the contents of the folder itself.
 
 -->
+
+---
+
+# Why BagIt?
+
+<div class="quote">
+"[BagIt] outlines file naming structures that are optimized to work as data moves across operating systems and file systems; it provides a manifest of all the files included in a delivery and provides a correct checksum value for each; it allows the senders and recipients to include additional provenance information so that anyone viewing the package can identify immediately what the package contains and who the contacts for it are."
+</div>
+
+<div class="author">Meghan Ferriter</div>
+
+<div class="work"><a href="https://blogs.loc.gov/thesignal/2019/04/bagit-at-the-library-of-congress/" target="_blank">BagIt at the Library of Congress</a>
+, Signal Blog, 2019</div>
+
 
 ---
 

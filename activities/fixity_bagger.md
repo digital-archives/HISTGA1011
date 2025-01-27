@@ -25,7 +25,7 @@ Your goal will be to troubleshoot and document what went wrong with the bad bag.
 ### 1. Upload bag contents
 
 - Open the [Breaking Bag Google Drive folder](https://drive.google.com/drive/folders/1U1Va5o9ksyrg5yBtqL8RAOe5Y8OttCwX?usp=sharing) and within it, create a new folder titled your first name, underscore, and last name (e.g., `mary_kidd`).
-- Within your personal folder, create a subfolder within it and title it `files`.
+- Within your personal folder, create a subfolder within it and title it `original_files`.
 - Upload _at least_ five files of your choice to your `files` folder. These can be any files you want (please avoid large files like audio/video files, if possible!)
 
 ### 2. Bag Creation
