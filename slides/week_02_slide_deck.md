@@ -266,10 +266,9 @@ style: |
 # Today
 - **Settle in/Reminders/Announcements** (15 min)
 - **Lightning Talks: Data Object** (20 min)
-- **Lecture: Open Archival Information System (OAIS)** (45 min)
+- **Lecture: Open Archival Information System (OAIS)** (1 hr)
 - **Break** (10 min)
-- **Start Weekly Activity** (70 min)
-- **Wrap up** (10 min)
+- **Start Weekly Activity**: Breaking BagIt (50 min)
 
 ---
 
@@ -291,22 +290,6 @@ _What additional context or resources (e.g., documentation, software, emulators)
 
 # Lecture
 ## Open Archival Information System (OAIS)
-
----
-
-<div class="quote">
-“If the permanent maintenance of any given state, or set of states, was the definition of digital sustainability, then we could merely select a suitable technical strategy to permanently inscribe those states and entrust the objects to an appropriate storage and preservation strategy. However, the layers of dependencies and interdependencies, standards, agreements, understandings, technologies, strategies, workflows, and business models render that simple preservation model indefensible.”
-</div>
-
-<div class="author">Kevin Bradley</div>
-
-<div class="work">Defining Digital Sustainability, 2007</div>
-
-<!--presenter notes
-
-Bradley, Kevin. "Defining Digital Sustainability." Library Trends, vol. 56 no. 1, 2007, p. 148-163. Project MUSE, https://dx.doi.org/10.1353/lib.2007.0044.
-
--->
 
 ---
 
@@ -497,8 +480,6 @@ In defining what each information package is, we will also learn more about the 
 
 ---
 
----
-
 ## Definition
 # Content Information
 
@@ -678,8 +659,9 @@ The Parichy acquisition contained both physical files as well as born-digital ma
 <div class="activity-title">Mini Activity - LightWright</div>
 
 Pretend you are bringing Parichy's LightWorks data into an OAIS. Can you guess what might be the:
-* Content Data Information?
-* Representation Information (Structure Information, Semantic Information)?
+- Content Data Information?
+- Representation Information (Structure Information, Semantic Information)?
+- **Bonus question:** How much representation information should we include?
 
 ---
 
@@ -766,11 +748,11 @@ Forme of Cury</div>
       </td>
       <td valign="top">
       <strong>Question</strong><br><br>
-      For the entire digitized manuscript, what is the: 
+      For the entire digitized manuscript, what might be the: 
       <ul>
         <li>Content Data Object?</li>
-        <li>Representation information (Structure, Semantic?</li>
-        <li>Users/Designated community?</li>
+        <li>Representation information (Structure, Semantic?)</li>
+        <li>Designated communities/Knowledge bases?</li>
       </ul>
     </td>
   </tr>
@@ -1084,7 +1066,7 @@ In short, the Ingest function serves as the OAIS’s external interface with Pro
 ---
 
 ## Definition
-# Archival Information Package (AIP) - 1/2
+# Archival Information Package (AIP)
 
 An **Archival Information Package (AIP)** describes the primary content and metadata managed by the OAIS.
 
@@ -1114,9 +1096,26 @@ Management is the entity that sets the policy objectives of the OAIS. This may i
 
 ---
 
-<img src="img/week_02_oais_figure_4_18.png">
+## Definition
+# Dissemination Information Package (DIP)
+
+The **Dissemination Information Package (DIP)** is derived from one or more AIPs, and is received by the Consumer (i.e. end-user) in response to a request (e.g. searching an online catalog or finding aid).
 
 <!--presenter notes
+
+Source for DIP definition: Lee, Christopher A., and Tibbo, Helen. “Where’s the Archivist in Digital Curation? Exploring the Possibilities through a Matrix of Knowledge and Skills.” Archivaria: 72 (Fall 2011) pp. 123-168. http://www.ils.unc.edu/callee/p123-lee.pdf
+
+A Dissemination Information Package or DIP is the information package that is delivered from within an OAIS to the consumer making the request.
+
+A Consumer is an entity, taking on the form of a person or client system (or both) that interacts with OAIS service to find preserved information of interest and to access that information in detail.
+
+An example of a Consumer is a researcher using an online finding aid that has been set up to point to one or multiple AIP package descriptions. When they click on a finding aid component to request to read, watch, listen to, or otherwise experience or interact with a preservation object, the finding aid will be set up to query the OAIS. The OAIS, in turn, will retrieve and deliver a DIP. The DIP will contain a derivative of the AIP. By keeping the AIP and the DIP separate, we do not risk disturbing the Content Information in archival storage.
+
+-->
+
+---
+
+<img src="img/week_02_oais_figure_4_18.png">
 
 <!--presenter notes
 
@@ -1135,25 +1134,6 @@ On the left-hand side of the AIP in the diagram we have Package Description, whi
 The Package Description “enables the Consumer to locate information of potential interest, analyze that information, and order desired information. The information needed for one Access Aid is called an Associated Description. A single Package Description may contain several Associated Descriptions depending on the number of different Access Aids that can locate, visualize, retrieve or order the associated Content Information and PDI.” Basically, this is the information that is relayed to discovery platforms such as an online finding aid.
 
 This is a good segue into the final of the third information package managed by the OAIS, the DIP.
-
--->
-
----
-
-## Definition
-# Dissemination Information Package (DIP)
-
-The **Dissemination Information Package (DIP)** is derived from one or more AIPs, and is received by the Consumer (i.e. end-user) in response to a request (e.g. searching an online catalog or finding aid).
-
-<!--presenter notes
-
-Source for DIP definition: Lee, Christopher A., and Tibbo, Helen. “Where’s the Archivist in Digital Curation? Exploring the Possibilities through a Matrix of Knowledge and Skills.” Archivaria: 72 (Fall 2011) pp. 123-168. http://www.ils.unc.edu/callee/p123-lee.pdf
-
-A Dissemination Information Package or DIP is the information package that is delivered from within an OAIS to the consumer making the request.
-
-A Consumer is an entity, taking on the form of a person or client system (or both) that interacts with OAIS service to find preserved information of interest and to access that information in detail.
-
-An example of a Consumer is a researcher using an online finding aid that has been set up to point to one or multiple AIP package descriptions. When they click on a finding aid component to request to read, watch, listen to, or otherwise experience or interact with a preservation object, the finding aid will be set up to query the OAIS. The OAIS, in turn, will retrieve and deliver a DIP. The DIP will contain a derivative of the AIP. By keeping the AIP and the DIP separate, we do not risk disturbing the Content Information in archival storage.
 
 -->
 
