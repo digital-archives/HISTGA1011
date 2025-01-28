@@ -328,9 +328,9 @@ The Reference Model for an Open Archival Information System (OAIS) document was 
 ---
 
 # OAIS Model Background
-* ISO Standard: The OAIS Reference Model became an international standard in 2003 as **ISO 14721:2003**. It has since been updated, with the most recent version being **ISO 14721:2012**.
-* The Consultative Committee for Space Data Systems (CCSDS), a multinational group of space agencies (including NASA and others), initiated the development of the OAIS model.
-* Timeline: The development began in the late 1990s, with the first version of the OAIS Reference Model published in 1999.
+- ISO Standard: The OAIS Reference Model became an international standard in 2003 as **ISO 14721:2003**. It has since been updated, with the most recent version being **ISO 14721:2012**.
+- The Consultative Committee for Space Data Systems (CCSDS), a multinational group of space agencies (including NASA and others), initiated the development of the OAIS model.
+- Timeline: The development began in the late 1990s, with the first version of the OAIS Reference Model published in 1999.
 
 ---
 
