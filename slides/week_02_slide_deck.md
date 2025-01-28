@@ -401,6 +401,104 @@ Now that we have a definition for OAIS, we will first define what the Reference 
 
 ---
 
+# OAIS Functional Model
+
+---
+
+## Definition
+# Functional Model
+
+A **functional model** is a diagram showing a systems functions, and describes the actions a system can do, and how those actions "flow" through the system.
+
+---
+
+<center>
+<img src="img/week_02_oais_conceptual_model_01.png" alt="Diagram of the OAIS functional model" style="width: auto; height: 40%;">
+</center>
+
+<!--presenter notes
+
+Diagram credit: By Mathieualexhache (original work); Mess (SVG conversion; English translation) - File:Schema fonctionnel modele oais.jpg, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=98896005
+
+Here we have a diagram showing a visualization of the OAIS functional model, which describes how information enters into, is stored in, and flows out of an OAIS and the various functional entities that interact with the OAIS.
+
+Take a moment to look at the “flow” of information in/outof an OAIS. The various OAIS functions - preservation planning, ingest, data management, archival storage, administration and access - are labeled in brown. Entities that interact with the OAIS - producers, consumers and management - are labeled in plain black text. Various information packages handled by the OAIS - SIPs, AIPs, and DIPs - are labeled in the white circles. The OAIS itself is delineated by the dotted rectangle.
+
+Source: Figure 1 diagram from https://www.oclc.org/research/publications/2000/lavoie-oais.html
+
+-->
+
+---
+
+<center>
+<img src="img/week_02_oais_conceptual_model_02.png" alt="Diagram of the OAIS functional model with SIPs, AIPs and DIPs highlighted in yellow." style="width: auto; height: 40%;">
+</center>
+
+<!--presenter notes
+
+We are going to focus first on what are known as information packages. They are highlighted in yellow in the OAIS Functional Model Diagram and are known in short as SIPs, AIPs and DIPs. 
+
+-->
+
+---
+
+## Definition
+# Information Package (1/3)
+
+The OAIS information model is built around the concept of an **information package**, which consists of 4 sub-information packages: Content Information, Preservation Description Information, Packaging Information, and Description Information.
+
+<!--presenter notes
+
+The OAIS information model is built around the concept of an information package, which consists of the object that is the focus of preservation, along with metadata necessary to support its long-term preservation, access, and understandability, bound into a single logical package (usually, a computer folder)
+
+An information package is the data submitted, managed and distributed by an OAIS. There are three different types of information packages: Submission Information packages, or “SIPs”, Archival Information Packages, or “AIPs”, and Dissemination Information Packages, or “DIPs”. So SIPs, AIPs and DIPs. These are all highlighted in the slide in yellow.
+
+In defining what each information package is, we will also learn more about the entities who interact with or receive data from an OAIS: Producers, Consumers, and Management. I’ve underlined these entities in yellow.
+
+-->
+
+---
+
+<center>
+  <div style="display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; width: 600px; height: 600px;">
+    <div style="background-color: lightgray; color: gray; border: 2px solid lightgray; display: flex; justify-content: center; align-items: center;">
+      💾 Content Information
+    </div>
+    <div style="background-color: lightgray; color: gray; border: 2px solid lightgray; display: flex; justify-content: center; align-items: center;">
+      🛡️ Preservation Description Information
+    </div>
+    <div style="background-color: lightgray; color: gray; border: 2px solid lightgray; display: flex; justify-content: center; align-items: center;">
+      📦 Packaging Information
+    </div>
+    <div style="background-color: lightgray; color: gray; border: 2px solid lightgray; display: flex; justify-content: center; align-items: center;">
+      🔍 Description Information
+    </div>
+  </div>
+</center>
+
+---
+
+<center>
+  <div style="display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; width: 600px; height: 600px;">
+    <div style="background-color: lightblue; color: black; border: 2px solid black; display: flex; justify-content: center; align-items: center;">
+      💾 Content Information
+    </div>
+    <div style="background-color: lightgray; color: gray; border: 2px solid lightgray; display: flex; justify-content: center; align-items: center;">
+      🛡️ Preservation Description Information
+    </div>
+    <div style="background-color: lightgray; color: gray; border: 2px solid lightgray; display: flex; justify-content: center; align-items: center;">
+      📦 Packaging Information
+    </div>
+    <div style="background-color: lightgray; color: gray; border: 2px solid lightgray; display: flex; justify-content: center; align-items: center;">
+      🔍 Description Information
+    </div>
+  </div>
+</center>
+
+---
+
+---
+
 ## Definition
 # Content Information
 
@@ -433,9 +531,11 @@ Let’s talk more about representation information.
 ---
 
 ## Definition
-# Representation Information - 1/2
+# Representation Information
 
 The **Representation Information** is information necessary to render and understand the bit sequences constituting the Content Data Object.
+
+Example: Description of the hardware and software needed
 
 <!--presenter notes
 
@@ -445,15 +545,6 @@ Representation Information is the information that makes sense of the bitstream.
 - Further, it may also be information to make sense of the information itself. For example, it may still not be enough to know that something may be decoded using ASCII, if it's just a bunch of decimal numbers. However, this might make more sense if you knew that this jumble of numbers actually "indicate[s] that the numbers correspond to average daily air temperature readings for London, measured in degrees Celsius, for the period 1972–2000.” - The Open Archival Information System (OAIS) Reference Model: Introductory Guide (2nd Edition)
 
 -->
-
----
-
-## Definition
-# Representation Information - 2/2
-
-Representation Information might include:
-* a description of the hardware and software environment needed to display the Content Data Object and/or access its contents
-* summarization of the appropriate interpretation of the Content Data Object.
 
 ---
 
@@ -584,13 +675,11 @@ The Parichy acquisition contained both physical files as well as born-digital ma
   <span class="square"></span>
 </div>
 
-<div class="activity-title">Mini Activity - OAIS Flex</div>
+<div class="activity-title">Mini Activity - LightWright</div>
 
 Pretend you are bringing Parichy's LightWorks data into an OAIS. Can you guess what might be the:
-* Content Data Information
-* Representation Information:
-  * Structure Information
-  * Semantic Information
+* Content Data Information?
+* Representation Information (Structure Information, Semantic Information)?
 
 ---
 
@@ -618,14 +707,9 @@ A Designated Community is a specified class of users expected to consume and und
 
 ---
 
-## NARA’s Electronic and Special Media Records Services Division’s Archives’ designated community is the __general public__.
+## The Theatre Division of the New York Public Library (which acquired the Dennis Parishy collection) may be __theater/performing arts researchers__.
 
-## NASA’s Planetary Data Systems Archive’s designated community is the __planetary science community__.
-
----
-
-## Question
-# Can you guess who might constitute the designated community for the works of __Dennis Parichy__?
+## NASA’s Planetary Data Systems Archive’s designated community may be the __planetary science community__.
 
 ---
 
@@ -708,102 +792,6 @@ Suggested answers:
 * Other representation information may include some sort of text transcription derived from optical character recognition (OCR) technology that translates the cookbook into modern English.
 
 -->
-
----
-
-# OAIS Functional Model
-
----
-
-## Definition
-# Functional Model
-
-A **functional model** is a diagram showing a systems functions, and describes the actions a system can do, and how those actions "flow" through the system.
-
----
-
-<center>
-<img src="img/week_02_oais_conceptual_model_01.png" alt="Diagram of the OAIS functional model" style="width: auto; height: 40%;">
-</center>
-
-<!--presenter notes
-
-Diagram credit: By Mathieualexhache (original work); Mess (SVG conversion; English translation) - File:Schema fonctionnel modele oais.jpg, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=98896005
-
-Here we have a diagram showing a visualization of the OAIS functional model, which describes how information enters into, is stored in, and flows out of an OAIS and the various functional entities that interact with the OAIS.
-
-Take a moment to look at the “flow” of information in/outof an OAIS. The various OAIS functions - preservation planning, ingest, data management, archival storage, administration and access - are labeled in brown. Entities that interact with the OAIS - producers, consumers and management - are labeled in plain black text. Various information packages handled by the OAIS - SIPs, AIPs, and DIPs - are labeled in the white circles. The OAIS itself is delineated by the dotted rectangle.
-
-Source: Figure 1 diagram from https://www.oclc.org/research/publications/2000/lavoie-oais.html
-
--->
-
----
-
-<center>
-<img src="img/week_02_oais_conceptual_model_02.png" alt="Diagram of the OAIS functional model with SIPs, AIPs and DIPs highlighted in yellow." style="width: auto; height: 40%;">
-</center>
-
-<!--presenter notes
-
-We are going to focus first on what are known as information packages. They are highlighted in yellow in the OAIS Functional Model Diagram and are known in short as SIPs, AIPs and DIPs. 
-
--->
-
----
-
-## Definition
-# Information Package (1/3)
-
-The OAIS information model is built around the concept of an **information package**, which consists of 4 sub-information packages: Content Information, Preservation Description Information, Packaging Information, and Description Information.
-
-<!--presenter notes
-
-The OAIS information model is built around the concept of an information package, which consists of the object that is the focus of preservation, along with metadata necessary to support its long-term preservation, access, and understandability, bound into a single logical package (usually, a computer folder)
-
-An information package is the data submitted, managed and distributed by an OAIS. There are three different types of information packages: Submission Information packages, or “SIPs”, Archival Information Packages, or “AIPs”, and Dissemination Information Packages, or “DIPs”. So SIPs, AIPs and DIPs. These are all highlighted in the slide in yellow.
-
-In defining what each information package is, we will also learn more about the entities who interact with or receive data from an OAIS: Producers, Consumers, and Management. I’ve underlined these entities in yellow.
-
--->
-
----
-
-<center>
-  <div style="display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; width: 600px; height: 600px;">
-    <div style="background-color: lightgray; color: gray; border: 2px solid lightgray; display: flex; justify-content: center; align-items: center;">
-      💾 Content Information
-    </div>
-    <div style="background-color: lightgray; color: gray; border: 2px solid lightgray; display: flex; justify-content: center; align-items: center;">
-      🛡️ Preservation Description Information
-    </div>
-    <div style="background-color: lightgray; color: gray; border: 2px solid lightgray; display: flex; justify-content: center; align-items: center;">
-      📦 Packaging Information
-    </div>
-    <div style="background-color: lightgray; color: gray; border: 2px solid lightgray; display: flex; justify-content: center; align-items: center;">
-      🔍 Description Information
-    </div>
-  </div>
-</center>
-
----
-
-<center>
-  <div style="display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; width: 600px; height: 600px;">
-    <div style="background-color: lightblue; color: black; border: 2px solid black; display: flex; justify-content: center; align-items: center;">
-      💾 Content Information
-    </div>
-    <div style="background-color: lightgray; color: gray; border: 2px solid lightgray; display: flex; justify-content: center; align-items: center;">
-      🛡️ Preservation Description Information
-    </div>
-    <div style="background-color: lightgray; color: gray; border: 2px solid lightgray; display: flex; justify-content: center; align-items: center;">
-      📦 Packaging Information
-    </div>
-    <div style="background-color: lightgray; color: gray; border: 2px solid lightgray; display: flex; justify-content: center; align-items: center;">
-      🔍 Description Information
-    </div>
-  </div>
-</center>
 
 ---
 
