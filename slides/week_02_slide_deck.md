@@ -323,19 +323,13 @@ The **Reference Model for an Open Archival Information System** was developed fo
 
 The Reference Model for an Open Archival Information System (OAIS) document was developed for use in facilitating a broad, discipline-independent consensus on the requirements for an archive or repository to provide long-term preservation of digital information. It is sometimes referred to as the “Magenta Book” because of the color of its cover page.
 
-This document was was developed for use in facilitating a broad, discipline-independent consensus on the requirements for an archive or repository to provide long-term preservation of digital information. It was also intended to support the development of additional digital preservation standards.
-
 -->
 
 ---
 
-# OAIS Model Background - 1/2
+# OAIS Model Background
 * ISO Standard: The OAIS Reference Model became an international standard in 2003 as **ISO 14721:2003**. It has since been updated, with the most recent version being **ISO 14721:2012**.
-
----
-
-# OAIS Model Background - 1/2
-* The Consultative Committee for Space Data Systems (CCSDS), a multinational group of space agencies (including NASA, ESA, and others), initiated the development of the OAIS model.
+* The Consultative Committee for Space Data Systems (CCSDS), a multinational group of space agencies (including NASA and others), initiated the development of the OAIS model.
 * Timeline: The development began in the late 1990s, with the first version of the OAIS Reference Model published in 1999.
 
 ---
