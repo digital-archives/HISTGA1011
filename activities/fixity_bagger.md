@@ -42,7 +42,7 @@ Your goal will be to troubleshoot and document what went wrong with the bad bag.
 
 ### 4. Submit your activity summary in Brightspace
 
-In the Assignments section of Brightspace, please submit answers to the following questions:
+In the Assignments section of Brightspace, please prepare and attach a document with your answers to the following questions:
 - What do you think I altered?
 - What did you examine to figure this out? What clues did you find that told you something went wrong?
 - _Optional:_ If you couldn't find exactly what went wrong, were there any differences, in general, between the two SIP/bags, that you noticed? What were they?

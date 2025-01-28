@@ -294,37 +294,6 @@ _What additional context or resources (e.g., documentation, software, emulators)
 
 ---
 
-![height:600px](img/week_02_oais_cover.png)
-
----
-
-## Text
-# Reference Model for an Open Archival Information System (OAIS)
-
-The **Reference Model for an Open Archival Information System** was developed for use in facilitating a broad, discipline-independent consensus on the requirements for an OAIS archive or repository to provide long-term preservation of digital information.
-
-<!--presenter notes
-
-The Reference Model for an Open Archival Information System (OAIS) document was developed for use in facilitating a broad, discipline-independent consensus on the requirements for an archive or repository to provide long-term preservation of digital information. It is sometimes referred to as the “Magenta Book” because of the color of its cover page. The OAIS Reference Model was approved in January 2002 as ISO International Standard 14721; a revised and updated version was published in 2012 as ISO (International Standards Organization) Standard 14721:2012.
-
-The Consultative Committee for Space Data Systems (CCSDS) initiated the creation of this standard, and aimed at developing formal standards for the long-term storage of digital data generated from space missions.
-
-This document was was developed for use in facilitating a broad, discipline-independent consensus on the requirements for an archive or repository to provide long-term preservation of digital information. It was also intended to support the development of additional digital preservation standards.
-
-So now, let’s turn back again to our OAIS definition, and unpack what it means by “preserve information”.
-
-“Over the past several years, the OAIS has become a widely accepted foundation for research and development on digital archives. The OAIS has become ‘the reference model of choice of those involved in the digital preservation world serving as a ‘galvanizing force’ and a ‘major factor in the advancement of digital archiving efforts.’ It has contributed ‘a common language and concepts for different professional groups involved in digital preservation and developing archiving systems’ and represents ‘common ground upon which to consolidate understanding of the needs and requirements of digital preservation.’ Many types of institutions – including archives – were involved in its development and have used it as a basis for their work.”
-
--->
-
----
-
-## Question
-
-### As we learned last week, all data objects are composed of 0s and 1s. __Is it enough to preserve just the "bits and bytes" of a data object? Why or why not?__
-
----
-
 <div class="quote">
 “If the permanent maintenance of any given state, or set of states, was the definition of digital sustainability, then we could merely select a suitable technical strategy to permanently inscribe those states and entrust the objects to an appropriate storage and preservation strategy. However, the layers of dependencies and interdependencies, standards, agreements, understandings, technologies, strategies, workflows, and business models render that simple preservation model indefensible.”
 </div>
@@ -341,8 +310,26 @@ Bradley, Kevin. "Defining Digital Sustainability." Library Trends, vol. 56 no. 1
 
 ---
 
+![height:600px](img/week_02_oais_cover.png)
+
+---
+
+## Text
+# Reference Model for an Open Archival Information System (OAIS)
+
+The **Reference Model for an Open Archival Information System** was developed for use in facilitating a broad, discipline-independent consensus on the requirements for an OAIS archive or repository to provide long-term preservation of digital information.
+
+<!--presenter notes
+
+The Reference Model for an Open Archival Information System (OAIS) document was developed for use in facilitating a broad, discipline-independent consensus on the requirements for an archive or repository to provide long-term preservation of digital information. It is sometimes referred to as the “Magenta Book” because of the color of its cover page.
+
+This document was was developed for use in facilitating a broad, discipline-independent consensus on the requirements for an archive or repository to provide long-term preservation of digital information. It was also intended to support the development of additional digital preservation standards.
+
+-->
+
+---
+
 # OAIS Model Background - 1/2
-* The OAIS is a framework for managing and preserving digital information over the long term while ensuring its accessibility and usability by a defined Designated Community (the group intended to use the archived information).
 * ISO Standard: The OAIS Reference Model became an international standard in 2003 as **ISO 14721:2003**. It has since been updated, with the most recent version being **ISO 14721:2012**.
 
 ---
@@ -377,6 +364,8 @@ Notice that there are two "tracks": One for the OAIS, and another for TRAC for �
 <!--presenter notes
 
 Source: These bullets are derived from a SERI Educational Webinar, which you can watch on YouTube: https://www.youtube.com/watch?v=MWITvx5yAEs.
+
+“Over the past several years, the OAIS has become a widely accepted foundation for research and development on digital archives. The OAIS has become ‘the reference model of choice of those involved in the digital preservation world serving as a ‘galvanizing force’ and a ‘major factor in the advancement of digital archiving efforts.’ It has contributed ‘a common language and concepts for different professional groups involved in digital preservation and developing archiving systems’ and represents ‘common ground upon which to consolidate understanding of the needs and requirements of digital preservation.’ Many types of institutions – including archives – were involved in its development and have used it as a basis for their work.”
 
 -->
 
