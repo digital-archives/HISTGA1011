@@ -12,7 +12,7 @@ has_children: false
 This activity revolves around the Open Archival Information System (OAIS), information packages, and the [Library of Congress BagIt Specification](https://datatracker.ietf.org/doc/html/rfc8493).
 
 In this activity:
-- You will first act as the "producer" (as defined by the OAIS model) and take the first steps to prepare a **Submission Information Package (SIP)**.
+- You will first act as the "producer" (as defined by the OAIS model) and take steps to prepare a **Submission Information Package (SIP)**.
 - For this exercise, your SIP will be implemented using the BagIt specification. Think of your BagIt bag as a concrete example of a SIP (note, SIP and bag, for this activity, will be used interchangeably)
 - Once you've prepped your SIP (bag), you will hand it over to me for processing. I will create:
   1. A valid BagIt-conforming SIP (good bag).
@@ -26,7 +26,7 @@ Your goal will be to troubleshoot and document what went wrong with the bad bag.
 
 - Open the [Breaking Bag Google Drive folder](https://drive.google.com/drive/folders/1U1Va5o9ksyrg5yBtqL8RAOe5Y8OttCwX?usp=sharing) and within it, create a new folder titled your first name, underscore, and last name (e.g., `mary_kidd`).
 - Within your personal folder, create a subfolder within it and title it `original_files`.
-- Upload _at least_ five files of your choice to your `files` folder. These can be any files you want (please avoid large files like audio/video files, if possible!)
+- Upload _at least_ five files of your choice to your `original_files` folder. These can be any files you want (please avoid large files like audio/video files, if possible!)
 
 ### 2. Bag Creation
 
