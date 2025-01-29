@@ -391,7 +391,7 @@ Now that we have a definition for OAIS, we will first define what the Reference 
 ## Definition
 # Functional Model
 
-A **functional model** is a diagram showing a systems functions, and describes the actions a system can do, and how those actions "flow" through the system.
+A **functional model**  is a diagram that represents a system's functions, illustrating the actions the system can perform and how these actions flow within the system.
 
 ---
 
