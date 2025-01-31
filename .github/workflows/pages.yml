@@ -64,4 +64,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v2
         with:
-          artifact-name: jekyll-site  # This is the name of the artifact you uploaded
+          artifact: jekyll-site  # This is the name of the artifact you uploaded
