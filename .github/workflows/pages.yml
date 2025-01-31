@@ -17,7 +17,7 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2.2'  # Force GitHub Actions to use Ruby 3.2.2
-          bundler-cache: true  # Automatically install and cache gems
+          bundler-cache: false  # Automatically install and cache gems
 
       - name: Install dependencies
         run: bundle install
@@ -31,3 +31,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
           publish_branch: gh-pages
+
+      - name: Force cache reset
+        run: echo "cache-version=$RANDOM" >> $GITHUB_ENV
