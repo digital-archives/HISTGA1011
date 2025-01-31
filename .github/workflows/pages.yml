@@ -13,16 +13,30 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Force Cache Reset
+        run: echo "cache-version=$(date +%s)" >> $GITHUB_ENV
+
+      - name: Remove Old Ruby Cache
+        run: |
+          rm -rf vendor/bundle
+          rm -rf ~/.bundle
+          rm -rf ~/.gem
+          rm -rf .jekyll-cache
+          rm -rf .sass-cache
+          rm -rf Gemfile.lock  # Remove this to force GitHub to install fresh gems
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.2.2'  # Force GitHub Actions to use Ruby 3.2.2
-          bundler-cache: false  # Automatically install and cache gems
+          ruby-version: '3.2.2'   # Force GitHub to use Ruby 3.2.2
+          bundler-cache: false    # Prevents restoring old Ruby versions
 
-      - name: Install dependencies
-        run: bundle install
+      - name: Install Bundler & Dependencies
+        run: |
+          gem install bundler:2.5.9
+          bundle install --no-cache
 
-      - name: Build Jekyll site
+      - name: Build Jekyll Site
         run: bundle exec jekyll build
 
       - name: Deploy to GitHub Pages
@@ -31,6 +45,3 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
           publish_branch: gh-pages
-
-      - name: Force cache reset
-        run: echo "cache-version=$RANDOM" >> $GITHUB_ENV
