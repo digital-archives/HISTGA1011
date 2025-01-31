@@ -3,7 +3,7 @@ name: Deploy Jekyll Site to GitHub Pages
 on:
   push:
     branches:
-      - main  # Adjust if your default branch is different
+      - main
   workflow_dispatch:
 
 jobs:
@@ -13,25 +13,23 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Force Cache Reset
-        run: echo "cache-bust=$(date +%s)" >> $GITHUB_ENV
-
-      - name: Remove Old Ruby Cache
+      - name: Remove Old Cache Manually
         run: |
           rm -rf vendor/bundle
           rm -rf ~/.bundle
           rm -rf ~/.gem
           rm -rf .jekyll-cache
           rm -rf .sass-cache
-          rm -rf Gemfile.lock  # Force reinstall
+          rm -rf Gemfile.lock  # Force fresh install
+          echo "cache-bust=$(date +%s)" >> $GITHUB_ENV
 
       - name: Setup Ruby (Force 3.2.2)
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.2.2'  # Force Ruby 3.2.2
-          bundler-cache: false    # Prevents restoring the old cache
+          ruby-version: '3.2.2'
+          bundler-cache: false
 
-      - name: Install Dependencies
+      - name: Install Bundler and Dependencies
         run: |
           gem install bundler:2.5.9
           bundle install --no-cache
