@@ -16,19 +16,18 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.2.2'  # Ensure this matches your local version
-          bundler-cache: true
+          ruby-version: '3.2.2'  # Force GitHub Actions to use Ruby 3.2.2
+          bundler-cache: true  # Automatically install and cache gems
 
       - name: Install dependencies
-        run: |
-          bundle install
+        run: bundle install
 
       - name: Build Jekyll site
         run: bundle exec jekyll build
 
       - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./_site
-        publish_branch: gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          publish_branch: gh-pages
