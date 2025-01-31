@@ -1,3 +1,9 @@
+--
+
+nav_exclude: true
+
+--
+
 ## Some command line commands I use to make this website
 
 Convert Powerpoint slide deck to Markdown:
