@@ -3,161 +3,225 @@ marp: true
 theme: gaia
 size: 16:9
 paginate: true
+mermaid: true
+
 style: |
-  img {
-  max-width: 100%;
-  max-height: 100%;
-  height: auto;
-  width: auto;
-  display: block;
-  margin: 0 auto;
-  }
+ img {
+ max-width: 100%;
+ max-height: 100%;
+ height: auto;
+ width: auto;
+ display: block;
+ margin: 0 auto;
+ }
 
-  .pink-box {
-    background-color: #d184c2;
-    color: white;
-    padding: 20px;
-    border-radius: 5px;
-    font-weight: bold;
-    text-align: center;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-  }
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        font-size: 28px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    .box {
+        padding: 15px 25px;
+        border-radius: 8px;
+        font-weight: bold;
+        text-align: center;
+        min-width: 200px;
+        position: relative;
+        font-size: 30px;
+    }
+    .file { background-color: #e67e22; color: white; }
+    .container-box { background-color: #27ae60; color: white; min-width: 260px; }
+    .codec { background-color: #e57373; color: white; min-width: 280px; }
 
-  .green-box {
-    background-color: #a2c9a5;
-    padding: 20px;
-    border-radius: 5px;
-    font-weight: bold;
-    text-align: center;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    margin: 10px;
-  }
+    /* Symbols */
+    .equals, .plus { font-size: 36px; }
 
-  .description {
-    padding: 20px;
-    text-align: left;
-    font-size: 18px;
-    margin-top: 10px;
-  }
+    /* Descriptions */
+    .description {
+        font-size: 22px;
+        font-weight: normal;
+        text-align: center;
+        color: black;
+        margin-top: 8px;
+        background: rgba(255, 255, 255, 0.6);
+        padding: 6px;
+        border-radius: 5px;
+    }
 
-  .row {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 20px;
-  }
+    /* File name under Media File */
+    .filename {
+        margin-top: 10px;
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+    }
 
-  .quote {
-    font-size: 1.5rem;
-    font-style: italic;
-    text-align: left;
-    line-height: 1;
-    color: #4a4a4a;
-    margin: 0 auto;
-    width: 90%;
-  }
+    /* Bullet Lists Inside Boxes */
+    .container-box ul, .codec ul {
+        list-style-type: disc;
+        text-align: left;
+        font-size: 24px;
+        margin-top: 10px;
+        padding-left: 20px;
+    }
 
-  .author {
-    font-size: 1.0rem;
-    text-align: right;
-    margin-top: 20px;
-    color: #6a6a6a;
-  }
+ th {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: black !important;
+  background-color: #f4f4f4 !important;
+  border-bottom: 2px solid black;
+ }
 
-  .work {
-    font-size: 1rem;
-    text-align: right;
-    color: #8a8a8a;
-  }
+ .mermaid {
+ max-width: 100%;
+ overflow: hidden;
+ }
 
-  .slide-title {
-    text-align: center;
-    color: #2e7d32; /* Green color for the header */
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 30px;
-  }
-  
-  .takeaway {
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: 20px;
-    gap: 15px;
-  }
+ .custom-title {
+ text-align: center;
+ font-size: 2rem;
+ color: #0044cc;
+ font-weight: bold;
+ }
+ 
+ table, td, th, ul {
+ background: rgba(0, 0, 0, 0) !important;
+ border: none !important;
+ }
 
-  .circle {
-    background-color: #2e7d32; /* Green background */
-    color: white;
-    font-size: 1.5rem;
-    font-weight: bold;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    flex-shrink: 0;
-  }
-  .content {
-    flex-grow: 1;
-  }
-  .content h2 {
-    margin: 0;
-    color: #2e7d32; /* Green color for subheadings */
-    font-size: 1.2rem;
-  }
-  .content p {
-    margin: 5px 0 0;
-    font-size: 1rem;
-    color: #4a4a4a; /* Gray for body text */
-  }
+ .pink-box {
+ background-color: #d184c2;
+ color: white;
+ padding: 20px;
+ border-radius: 5px;
+ font-weight: bold;
+ text-align: center;
+ box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+ }
 
-  .activity-title {
-    text-align: center;
-    color:rgb(144, 0, 255); /* Soft purple */
-    font-size: 2rem;
-    margin-bottom: 20px;
-    font-weight: bold;
-  }
-  .shapes {
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  .shapes span {
-    display: inline-block;
-    margin: 0 10px;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-  }
-  .triangle {
-    width: 0;
-    height: 0;
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
-    border-bottom: 30px solid #ffb347; /* Orange */
-    display: inline-block;
-    margin: 0 10px;
-  }
-  .circle {
-    background-color: #00c0ff; /* Blue */
-  }
-  .square {
-    width: 30px;
-    height: 30px;
-    background-color: #ff6767; /* Red */
-  }
-  .activity-list {
-    font-size: 1.1rem;
-    line-height: 1.1;
-    color:rgb(81, 0, 168); /* Light lavender */
-    margin-left: 20px;
-  }
-  .activity-list li {
-    margin-bottom: 10px;
-  }
-  .activity-list li strong {
-    color:rgb(235, 133, 133); /* Highlighted lavender */
-  }
+ .green-box {
+ background-color: #a2c9a5;
+ padding: 20px;
+ border-radius: 5px;
+ font-weight: bold;
+ text-align: center;
+ box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+ margin: 10px;
+ }
+
+ .row {
+ display: flex;
+ justify-content: space-around;
+ margin-bottom: 20px;
+ }
+
+ .quote {
+ font-size: 1.5rem;
+ font-style: italic;
+ text-align: left;
+ line-height: 1;
+ color: #4a4a4a;
+ margin: 0 auto;
+ width: 100%;
+ }
+
+ .author {
+ font-size: 1.0rem;
+ text-align: right;
+ margin-top: 20px;
+ color: #6a6a6a;
+ }
+
+ .work {
+ font-size: 1rem;
+ text-align: right;
+ color: #8a8a8a;
+ }
+
+ .slide-title {
+ text-align: center;
+ color: #2e7d32;  font-size: 2rem;
+ font-weight: bold;
+ margin-bottom: 30px;
+ }
+ 
+ .takeaway {
+ display: flex;
+ align-items: flex-start;
+ margin-bottom: 20px;
+ gap: 15px;
+ }
+
+ .circle {
+ background-color: #2e7d32;  color: white;
+ font-size: 1.5rem;
+ font-weight: bold;
+ width: 50px;
+ height: 50px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-radius: 50%;
+ flex-shrink: 0;
+ }
+ .content {
+ flex-grow: 1;
+ }
+ .content h2 {
+ margin: 0;
+ color: #2e7d32;  font-size: 1.2rem;
+ }
+ .content p {
+ margin: 5px 0 0;
+ font-size: 1rem;
+ color: #4a4a4a; }
+
+ .activity-title {
+ text-align: center;
+ color:rgb(144, 0, 255);  font-size: 2rem;
+ margin-bottom: 20px;
+ font-weight: bold;
+ }
+ .shapes {
+ text-align: center;
+ margin-bottom: 30px;
+ }
+ .shapes span {
+ display: inline-block;
+ margin: 0 10px;
+ width: 30px;
+ height: 30px;
+ border-radius: 50%;
+ }
+ .triangle {
+ width: 0;
+ height: 0;
+ border-left: 15px solid transparent;
+ border-right: 15px solid transparent;
+ border-bottom: 30px solid #ffb347;  display: inline-block;
+ margin: 0 10px;
+ }
+ .circle {
+ background-color: #00c0ff; }
+ .square {
+ width: 30px;
+ height: 30px;
+ background-color: #ff6767; }
+ .activity-list {
+ font-size: 1.1rem;
+ line-height: 1.1;
+ color:rgb(81, 0, 168);  margin-left: 20px;
+ }
+ .activity-list li {
+ margin-bottom: 10px;
+ }
+ .activity-list li strong {
+ color:rgb(235, 133, 133); }
 
 ---
 
@@ -168,7 +232,7 @@ style: |
 
 # Today
 - **Settle in/Reminders/Announcements** (15 min)
-- **Discuss Last Week's Activity** (20 min)
+- **Discuss Last Week's Activity: Breaking BagIt** (20 min)
 - **Lecture: Processing Born-Digital Archives** (45 min)
 - **Break** (10 min)
 - **Start Weekly Activity** (70 min)
@@ -178,12 +242,36 @@ style: |
 
 # Announcements
 
-_Feel free to email me with any announcements you would like me to boost (upcoming conferences, webinars, trainings, or other events/topics of interest)._
+Job announcements:
+* <a href="https://www.rfcuny.org/careers/postings?pvnID=VA-2501-006680" target="_blank">Newmark CUNY Wikimedia Documentarian (apply by March 28)</a>
+* <a href="https://www.archivingtheblackweb.org/warc-school/apply/" target="_blank">Archiving the Black Web Web Archiving (WARC) School Fellow and Teaching Assistant</a> (apply by January 31)
+* <a href="https://memoryrising.us21.list-manage.com/subscribe?u=33964c505212f62c031cc170e&id=866da7c133" target="_blank">Memory Rising</a> Newsletter, No Time For Fear (podcast on the New Deal) by Eira Tansey</a>
+
+---
+
+# Activity Discussion: Breaking BagIt
+
+- Top-level folder
+  - `bagit.txt`
+  - `bag-info.txt`
+  - `manifest-md5.txt`
+  - `tagmanifest-md5.txt`
+  - `data`
+    - `file1.txt`
+    - etc.
+
+<!--presenter notes
+
+https://datatracker.ietf.org/doc/html/rfc8493
+
+-->
 
 ---
 
 ## Processing Born-Digital Archives
-# Accessioning & Appraisal
+- Acquisitions
+- Accessioning
+- Processing (arrangement and description)
 
 ---
 
@@ -205,13 +293,13 @@ Definition comes from: https://primarysources.yale.edu/what-does-born-digital-me
 ## Definition
 # Digital storage device or media
 
-A __digital storage device__ (sometimes just referred to as "media") is a physical device used to store, read, or write digital data. 
+A **digital storage device** (sometimes just referred to as "media") is a physical device used to store, read, or write digital-encoded data. 
 
 Examples: hard drive, compact disc, floppy disk, computer, smartphone
 
 ---
 
-<img src="img/week_03_media.png">
+<img src="img/week_03_media.png" alt="Photograph of various digital media types such as floppy disks and hard drives of various shapes and sizes">
 
 <!--presenter notes
 
@@ -223,34 +311,80 @@ Digital storage devices are commonly associated with legacy born-digital collect
 
 ---
 
-# The type and age of media containing born-digital contents will determine next steps.
+## Definition
+# Acquisition
+
+When an institution gets ownership of item or a body of work, either through purchasing (resulting in an invoice), or donation/gift/bequest (resulting in some sort of legally-binding agreement such as a deed of gift), the legal and physical transfer of materials is referred to as the/an **acquisition**.
 
 ---
 
-### Workflow
-## Acquisition to Processing Workflow
+## Definition
+# Accessioning - 1/2
 
-- Decide to acquire something
-- Appraisal*
-- Transfer/ship to repository
-- Accession/inventory
-- Archival processing
+"**Accessioning** is ... the suite of activities through which archivists appraise, transfer, stabilize, and document archival acquisitions. Accessioning provides pathways to access, informs future decisions, and promotes sustained resource commitment for the care of archival materials."
 
-_Note: Some materials cannot be appraised until they are transferred off their media._
+_Archival Accessioning Best Practices (2024)_
+
+---
+
+## Definition
+# Accessioning - 2/2
+
+"Accessioning is the process of transferring and documenting the transfer of collections material into the Libraries' care. For **born-digital materials**, that means safely copying them into the Libraries' temporary storage system and documentating the process. Digital files should be accessioned within four months of receipt."
+
+<!--presenter notes
+
+This definition comes from University of Georgia Libraries Github documentation on born-digital accessioning. See: https://github.com/uga-libraries/born-digital-accessioning?tab=readme-ov-file
+
+-->
+
+---
+
+## Definition
+# [Archival] Appraisal
+
+**Appraisal** is the process of determining whether records and other materials have permanent (archival) value.
+
+It may be done at the collection, creator, series, file, or item level.
+
+It can take place _prior_ to acquisition, or _after_ accessioning, or both.
+
+<!--presenter notes
+
+Definition source:
+https://dictionary.archivists.org/entry/appraisal.html
+
+The basis of appraisal decisions may include a number of factors, including the records’ provenance and content, their authenticity and reliability, their order and completeness, their condition and costs to preserve them, and their intrinsic value. Appraisal often takes place within a larger institutional collecting policy and mission statement.
+
+-->
+
+---
+
+### Workflow: Acquisition -> Processing
+
+- Acquisition proposed
+- Deliver raw materials (secure file transfer, or ship temporary and/or original physical media)
+- Accession, stabilize (virus scan, create disk images)
+- Pre-processing analysis
+- Arranagement and description
+
+---
+
+# Some media cannot be properly handled until their contents are _imaged_.
 
 ---
 
 ## Definition
 # Floppy Disk 💾
-A __floppy disk__ is a thin, flexible magnetic storage medium encased in a rectangular plastic shell.
+A **floppy disk** is a thin, flexible magnetic storage medium encased in a rectangular plastic shell.
 
 ---
 
-![Screen capture of a YouTube video frame showing a floppy disk being manipulated by two hands, showing its thinness and flexibility](img/week_04_floppy_inside.png) <!-- fit -->
+![width:1000px](img/week_04_floppy_inside.png) <!-- fit -->
 
 <!--presenter notes
 
-Screen capture from this YouTube video:
+Screen capture of a person handling the insides of a floppy disk, from this YouTube video:
 https://www.youtube.com/watch?v=1-oH2T3W-q4
 
 -->
@@ -258,17 +392,17 @@ https://www.youtube.com/watch?v=1-oH2T3W-q4
 ---
 
 ## Floppy disks use magnetism to encode binary data.
-* A flexible piece of plastic is coated in a magnetic substrate made up of microscopic particles.
-* The computer:
-  * __Writes__ data by applying an electromagnetic field to particles. "Up" = 1 and "Down" = 0
-  * __Reads__ data using a sensitive electromagnetic head that detects particle arrangements and translates into binary information.
+- A flexible piece of plastic is coated in a magnetic substrate made up of microscopic particles.
+- The computer:
+  - **Writes** data by applying an electromagnetic field to particles. Direction "Up" = 1 and Direction "Down" = 0
+  - **Reads** data using a sensitive electromagnetic head that detects variance in directions amd translates to binary information.
 
 ---
 
 ## Definition
 # Disk sector
 
-A __disk sector__ is a fundamental unit of storage on a disk, whether it's a hard disk drive (HDD), solid-state drive (SSD), or other types of storage media like a floppy disk. It represents the smallest addressable unit of data on the disk.
+A **disk sector** is a fundamental unit of storage on a disk. It represents the smallest addressable unit of data on the disk.
 
 ---
 
@@ -287,19 +421,57 @@ When a file is saved to a hard drive, the file system assigns it to a series of 
 ---
 
 ## Definition
-# Disk imaging
+# Transfer
 
-__Disk imaging__ describes the steps to create a bit-identical copy of the source media, resulting in a disk image. The imaging process copies data sector-by-sector from the disk.
+A **transfer** refers to moving select data from one device to another.
+
+
+---
+
+## Definition
+# Imaging
+
+**Imaging** describes the process of creating a bit-identical copy of some sort of physical source media. The imaging process copies data _sector-by-sector_ from the disk. The result is an image file.
 
 <!--presenter notes
 
 Disk imaging describes the process of creating a bit-identical copy of the source media. The imaging process copies data sector-by-sector from the raw device.
 
-What is the purpose of creating disk images? A clear explanation is given in the Canadian Center for Architecture (CCA)’s digital archives workflows Github repo. Here, they say, “[D]isk images can be stored redundantly, backed up, and audited in ways that physical carriers like DVDs or external hard drives cannot…they are a much better suited for preservation of digital information over time, while retaining all characteristics of the original physical media as a storage volume.” (https://github.com/CCA-Public/digital-archives-manual/blob/master/guides/diskimaging.md)
+-->
 
-The benefits of disk imaging are further described by an article written by Dorothy Waugh about Emory University’s digital forensics processes. Here, she says, “From a preservation perspective, this makes forensic imaging ideal; an exact copy of the original data can be ingested into a secure and long-term storage environment. Derivative copies can later be used for continued appraisal and processing.”
+---
 
-In short, disk imaging liberates bitstreams from digital storage media, which can otherwise be subject to all the inherent risks associated with born-digital items. Disk images can be migrated into modern computing environments where they can be analyzed. The analysis may be for appraisal purposes, or throughout the course of archival processing in arranging and describing the contents.
+<div class="quote">
+“[D]isk images can be stored redundantly, backed up, and audited in ways that physical carriers like DVDs or external hard drives cannot…they are a much better suited for preservation of digital information over time, while retaining all characteristics of the original physical media as a storage volume.” 
+</div>
+
+<div class="author">
+Canadian Center for Architecture (CCA)
+</div>
+
+<div class="work"><a href="https://github.com/CCA-Public/digital-archives-manual/blob/master/guides/diskimaging.md" target="_blank">Digital Archives Manual</a>
+</div>
+
+---
+
+<div class="quote">
+“From a preservation perspective, this makes forensic imaging ideal; an exact copy of the original data can be ingested into a secure and long-term storage environment. Derivative copies can later be used for continued appraisal and processing.”
+</div>
+
+<div class="author">Dorothy Waugh, Emory University</div>
+
+<div class="work"><a href="https://ecommons.cornell.edu/server/api/core/bitstreams/f85f26b7-859c-4f5e-9fab-aabed683c3c4/content" target="_blank">A Dogged Pursuit: Capturing Forensic Images of 3.5” Floppy Disks</a></div>
+
+---
+
+# A disk image
+- "Liberates" the bitstream from its physical media
+- Disk images can be evaluated on modern computing environment
+- Resulting analyses can be used for appraisal,and for coming up with a processing plan
+
+<!--presenter notes
+
+Disk imaging liberates bitstreams from digital storage media, which can otherwise be subject to all the inherent risks associated with born-digital items. Disk images can be migrated into modern computing environments where they can be analyzed. The analysis may be for appraisal purposes, or throughout the course of archival processing in arranging and describing the contents.
 
 -->
 
@@ -313,7 +485,7 @@ In short, disk imaging liberates bitstreams from digital storage media, which ca
 
 <div class="activity-title">Mini Activity - Disk Image</div>
 
-_Using the Internet Archive, you will look at a disk image file._
+_Play an Apple II disk image file._
 
 <ul class="activity-list">
 <li><a href="https://archive.org/details/softwarelibrary_apple_games" target="_blank">Open the Apple II Games Library</a> on the Internet Archive.</li>
@@ -338,50 +510,41 @@ You can see the image file listed by clicking “Show all files” on the right/
 
 ---
 
-# Case Study: Alice Walker Papers (Emory University)
-__Inventory:__
-* 37 3.5" floppy disks
-* 2 optical media
-* 1 Mac laptop
-
-__Issue:__ At first, archivists could only successfully image a few of the 37 disks. Other disks appeared totally un-imageable.
-
-<!--presenter notes
-
-We have talked about how disk imaging, data writing, file systems and operating systems work. I wanted to pull all of these concepts together into a digital archiving-centered case study. In 2007, Emory University acquired the papers of Alice Walker. Walker is an acclaimed novelist, essayist, poet and short story writer, who in 1983, became the first African American woman to win the Pulitzer Prize for Fiction for her novel The Color Purple. Her papers including drafts of all of her manuscripts, photographs, journals and memorabilia from her life, some which were in born-digital formats, with a total of 37 3.5” floppy disks, 2 optical media CDs, and 1 Mac laptop.
-
-Finding aid for Alice Walker Papers: https://findingaids.library.emory.edu/documents/walker1061/series13/
-
-Case study is written in depth at: https://practicaltechnologyforarchives.org/issue2_waugh/
-
--->
-
----
-
 <img src="img/week_04_image_capture_workstation.png">
 
 <!--presenter notes
 
-Archivists first attempted to image disks using an external 3.5” floppy disk drive connected to a Windows workstation via the Tableau Ultrablock USB write blocker. The setup probably looked something like this, but note this is just a stock/sample image I found on the web to show you what this setup may have looked like, not an actual image of the Emory setup.
+What does a disk imaging workstation look like?
 
-Here, we have a dedicated workstation, sometimes known as the capture workstation. This is connected to a device known as a write blocker, which is an intermediary between the capture workstation and a 3.5 floppy disk drive. All have power supplies.
+- Dedicated capture workstation: A laptop or desktop computer used for disk imaging.  
+- Write blocker: A hardware device that sits between the capture workstation and the disk reader, preventing accidental modification of the source media.  
+- Disk reader: A device that reads the physical media (e.g., a floppy disk drive for floppy disks).  
+- Various cables connect the workstation, write blocker, and disk reader to each other, ensuring proper data transfer, and to power.
+
 
 -->
 
 ---
 
-# The capture workstation will have some sort of tool that can interface with the drive making the image
+## Pre-Imaging Step: Virus Scan  
+
+- **Run a virus scan**: Before creating a disk image, a virus scan should be performed to check for potential malware. A common tool used is known as ClamAV. 
+- **Air-gapped workstations**: To reduce risk, capture workstations are sometimes **non-networked**, preventing malware from spreading beyond the imaging environment.  
+
+---
+
+# The capture workstation will have some sort of program that provides the archivist an interface with the drive making the image.
 
 ---
 
 ## Tool
-# Forensic Toolkit (FTK)
+# Disk Imaging Tools
 
-<!--presenter note
+**Guymager**: Imaging utility; part of the BitCurator suite of born-digital processing tools.
+**Forensic Toolkit (FTK)**: Suite of born-digital processing tools; Windows-based
+**ISO Buster**: Imaging specific to optical media (CDs, DVDs, etc.)
 
-On the capture workstation at Emory, archivists working with the Alice Walker floppies first used a digital forensics tool known as FTK. FTK stands for Forensic Toolkit, and the software was created by a company called AccessData.
-
--->
+...and many more
 
 ---
 
@@ -391,13 +554,11 @@ On the capture workstation at Emory, archivists working with the Alice Walker fl
 
 <!--presenter notes
 
-This is a screen capture of the FTK Imager graphical user interface (GUI). On the left-hand side of the screen is a folder directory or "tree" showing one of the disk images (ending in the file format extension aff, which stands for "advanced file format", an dopen-source forensic disk image file format.) On the lower right-hand side of the screen is a hex editor, which lists the hexadecimal representations of the binary code stored on the image, as well as their sector location listed in the left-hand column.
+This is a screen capture of the FTK Imager graphical user interface (GUI), which is one of many tools offered in the Forensic Toolkit environment.
+
+On the left-hand side of the screen is a folder directory or "tree" showing one of the disk images (ending in the file format extension AFF, which stands for "advanced file format", a forensic disk image file format.) On the lower right-hand side of the screen is a hex editor, which lists the hexadecimal representations of the binary code stored on the image, as well as their sector location (a sector refers to a specific area of a disk) listed in the left-hand column.
 
 Along with creating a disk image, FTK Imager also “...calculates MD5 and SHA-1 checksums in order to verify that the capture was successful … a text file including some technical metadata and fixity information, and a CSV file listing the file names and paths of data contained on the imaged media.”
-
-“Unfortunately, FTK Imager was only able to capture images of a handful of the floppy diskss. When unsuccessful, the software frequently failed to recognize the external floppy disk drive or became unresponsive. Neither was this problem necessarily remedied by removing the problem disk and replacing it with another; on several occasions, an unreadable disk seemed to corrupt the entire imaging process, requiring that the drive be switched off and disconnected from the computer workstation, and the software restarted. Only then would another otherwise readable disk be recognized. As might be expected, this slowed the imaging process substantially.
-
-Further attempts were made using another imaging tool, Acronis Backup & Recovery. As the name suggests, this is a proprietary product designed to help small businesses backup their data through the capture of forensic images. However, imaging attempts using this tool and the same configuration of hardware as had been used with FTK Imager were no more successful.”
 
 -->
 
@@ -420,7 +581,7 @@ A write blocker is piece of hardware or even physical component on a storage dev
   <tr>
     <td style="vertical-align: top; width: 60%;">
       <h1>Question</h1>
-      Can you guess what might happen if you don't use a write blocker when imaging a disk?
+      <h2>Can you guess what might happen if you attempt to read a disk without applying a write blocker when imaging a disk?</h2>
     </td>
     <td style="vertical-align: top; width: 40%;">
       <img src="img/week_04_file_properties.png" style="max-width: 100%; height: auto;" />
@@ -436,96 +597,56 @@ What happens when you don’t toggle a write blocker? A good example of this are
 
 ---
 
-Emory knew Walker was a Mac user. This meant her floppy disks were __formatted__ in a specific way (i.e. only a Mac could "read" the floppies). They attempted to image the remaining disks on a modern Mac workstation using the Disk Utility tool.
+# Arrangement & Processing of Born-Digital Archives
 
 ---
 
-## Definition
-# File System (1/2)
-
-__File systems__ are the methods and rules that a computing system uses to manage, name, store, and retrieve stored data. All computing and storage devices, whether that is a laptop, a smartphone, a flash drive, have a file system in place.
-
-<!--presenter notes
-
-The term “file system” takes its name directly from paper-based management systems, and is the reason why we call computer files “files”.
-
-File systems enable us, the users of computing and storage devices, to store, manage, organize and access files. If you’ve ever renamed, deleted, moved, or copied a file, you have directly interacted with the file system. 
-
-Without a file system, a computer would not know how and where to look for data when you, or a piece of software, or anything else wishes to interact with files wants to do something with them. Remember, at its core, a storage device contains a long, seemingly endless string of 1s and 0s. A file system organizes these 1s and 0s in a way so that each sector is given a name and location. In this way, data can be easily called up.
-
-The filesystem also serves another purpose: it “hides” complicated information from the user about “where and how it stores information.” For most purposes, the filesystem is a very valuable abstraction mechanism, because it does not require users to understand or directly access the underlying data.
-
--->
+## Considerations
+- **Arrangement** is the first step in processing digital and analog archives.
+- Factors affecting arrangement include **original order**, **institutional priorities**, and **researcher needs**.
+- There is no one strategy that can be applied to any or all collections!
 
 ---
 
-## Definition
-# File System (2/2)
+## Approaches to Arrangement
 
-File systems contain an essential layer of technical, administrative, structural and provenance metadata:
-1. File names (thumbnail.gif, preservation_edit.tif)
-2. Format identifiers (.pdf, .tif, etc)
-3. File size
-4. Location addresses/pointers of sectors and clusters
-5. Timestamps: created, last modified, last accessed
+- **Separate digital series**: Fonds → Digital Files  
+- **Sub-series within existing series**: Fonds → Series → Digital Files  
+- **Co-arranged with other formats**: Fonds → Series → Project File (includes digital and physical files)  
+- When possible, **co-arrange digital records with similar physical records**.
 
 ---
 
-<center>
-<img src="img/week_03_file_system.png" style="width: 60%; height: auto;">
-</center>
+## Factors Affecting Arrangement
+
+- **How records arrive**: Large transfers (e.g., full hard drives) retain **original structure**; Small media (e.g., floppies, CDs) may require **more active arrangement**.  
+- **Existing organization**:  
+  - Does the order reflect original use?  
+  - Does it support researcher accessibility?  
+- **Context of creation & archival collection**:  
+  - Relationship to physical records?  
+  - Full fonds vs. partial collection?
+---
+
+## Developing a Processing Plan
+
+- **Survey & Familiarization**: Archivist reviews structure, content, and documentation.
+- **Pre-Processing Meeting**: Archivists, digital specialists, and stakeholders draft an arrangement plan.
+- **Decisions Made On**:  
+  - Descriptive standards  
+  - Preservation concerns  
+  - Normalization requirements  
+  - Handling of original storage media  
 
 ---
 
-## Definition
-# Operating System (OS)
+## Processing & SIP Packaging for Archivematica
 
-An __operating system__ is a software program that manages the hardware and software resources of a computer system. It serves as a bridge between the user and the hardware, providing an interface for users to interact with the computer and controlling the allocation of system resources such as CPU, memory, and storage devices.
-
-<!--presenter notes
-
-An operating system is a software program that manages the hardware and software resources of a computer system. It serves as a bridge between the user and the hardware, providing an interface for users to interact with the computer, which includes interacting with the file system. OSs are the primary way that we interact with file systems. Computers and even smartphones all use operating systems.
-
--->
-
----
-
-| Name                     | Operating System                                               |
-|--------------------------|---------------------------------------------------------------|
-| FAT12, FAT16             | MS-DOS, floppy disks                                          |
-| FAT32 (VFAT)             | Windows 95, 98                                               |
-| exFAT                   | Windows XP SP2 and later (primary use: USB drives, SD cards)  |
-| NTFS                     | Windows NT, 2000, XP, Server 2003/2008, Vista, 7, 8/8.1, 10  |
-| ReFS (Resilient File System) | Windows 10 Pro (Workstation/Enterprise, default starting 2018) |
-| MFS                      | Macintosh System 1-3                                         |
-| HFS (Hierarchical File System) | Macintosh System 4-8                                    |
-| HFS+                     | Macintosh System 8.1-9, OS X 10.0 - 10.11                     |
-| APFS (Apple File System) | MacOS 10.12                                                  |
-| Ext2, ext3, ext4 (Extended File System) | Linux                                          |
-| ZFS                      | Sun Microsystems (later Oracle as Open ZFS)                  |
-| XFS                      | Linux, typically Enterprise variants (RHEL)                  |
-
-<!--presenter notes
-
-File systems are not universal, meaning there is no one file system that is used by all computing systems and storage devices. Different file systems are specific to certain operating systems, and within those, certain versions. This is a list of just some file systems out there. Notice how Windows started with FAT12 and FAT16, and now primarily uses NTFS.
-
-What this means is that there are potential compatibility issues posed by this wide range of different file systems which may make it difficult to transfer data between different operating systems. For example, if an archivist is trying to access a video game from a series of floppies that were formatted to store data using the FAT12 file system, and you are using a modern Macintosh computer connected to the floppy drive via a USB cable, you may get an error message, or it may not even be able to show you a list of files. This is not always the case. However, knowing that there are different file systems that are not always compatible with one another can be helpful if and when you have to troubleshoot issues during disk imaging or other data transfers between systems.
-
--->
-
----
-
-<center>
-<img src="img/week_03_mac.png" style="width: 100%; height: auto;">
-</center>
-
-<!--presenter notes
-
-After the imaging attempt with FTK was not totally successful, Emory archivists decided to use a modern Mac machine and the Disk Utility tool.
-
-Again, an external 3.5” floppy disk drive was connected to the Mac with a Tableau Ultrablock USB write blocker. Like FTK Imager, Apple’s Disk Utility can be used to capture bitstream images of digital media. Unlike FTK Imager, however, it generates no metadata during that process and also only outputs DMG (stands for “disk image”) image files, which is an Apple proprietary disk image format. This approach to imaging the thirty-seven floppy disks was only marginally more successful than earlier attempts using FTK Imager on a Windows workstation. Having worked through the entire set of disks using Disk Utility, only two additional images were captured.
-
--->
+- **SIP Creation Tools**:  
+  - **Disk Image Processor**: Processes forensic disk images.  
+  - **Folder Processor**: Organizes directories into SIPs.  
+  - **SIP Creator**: Combines directories and files.  
+- **Normalization**: Files may be manually migrated to preservation formats.
 
 ---
 
@@ -561,23 +682,6 @@ Here is a photo of the KryoFlux board, which comes with a built-in write-blocker
 
 ---
 
-# Alice Walker Imaging Takeaways
-1. **Appraisal**: Knowing the type of operating/file system used by the creator can help with troubleshooting.
-
-3. **Potential imaging challenges**:
-   - Damaged hardware/incompatible or outdated software
-   - Unavailability of necessary hardware, software, or peripherals
-   - Proprietary disk image formats
-   - Insufficient or missing metadata
-
-4. **Be prepared to try (and try) again**
-
----
-
-# __Question__: Why is appraisal and accessioning important in terms of born-digital materials?
-
----
-
 **Downstream effects**  
 Uninformed appraisal decisions can create unintended negative outcomes later in the stewardship lifecycle.
 
@@ -589,59 +693,12 @@ Unexpected media and file formats can challenge a repository's technical capacit
 
 ---
 
-## Definition
-# Archival Appraisal
-
-__Appraisal__ is the process of determining whether records and other materials have permanent (archival) value. Appraisal may be done at the collection, creator, series, file, or item level. Appraisal can take place prior to donation and prior to physical transfer, at or after accessioning.
-
-<!--presenter notes
-
-Definition source:
-https://dictionary.archivists.org/entry/appraisal.html
-
-The basis of appraisal decisions may include a number of factors, including the records’ provenance and content, their authenticity and reliability, their order and completeness, their condition and costs to preserve them, and their intrinsic value. Appraisal often takes place within a larger institutional collecting policy and mission statement.
-
--->
-
----
-
-# Appraisal Considerations - Born-Digital Style
+# Born-Digital Appraisal Considerations
 __Question 1:__ Do we have the tools to extract the record off the media?
 __Question 2:__ Can we preserve/maintain the record over time?
 __Question 3:__ Can we provide access to the record?
 __Question 4:__ Do these records speak to our collection development policy, or its overall goals?
 __Question 5:__ Do we have access to the creator/organization, who can provide us context as far as who and how records are being created?
-
----
-
-## Definition
-# Accessioning - 1/2
-
-"Accessioning is ... the suite of activities through which archivists appraise, transfer, stabilize, and document archival acquisitions. Accessioning provides pathways to access, informs future decisions, and promotes sustained resource commitment for the care of archival materials."
-
-_Archival Accessioning Best Practices (2024)_
-
----
-
-## Definition
-# Accessioning - 2/2
-
-"Accessioning is the process of transferring and documenting the transfer of collections material into the Libraries' care. For __born-digital materials__, that means safely copying them into the Libraries' temporary storage system and documentating the process. Digital files should be accessioned within four months of receipt."
-
-<!--presenter notes
-
-This definition comes from University of Georgia Libraries Github documentation on born-digital accessioning. See: https://github.com/uga-libraries/born-digital-accessioning?tab=readme-ov-file
-
--->
-
----
-
-# How are born-digital materials transferred to a repository?
-
-* Physical shipment
-* Donor deposits materials into an institutional repository
-* Donor securely uploads materials to a shared drive/networked folder
-* Archivist does transfer themselves (imaging)
 
 ---
 
@@ -659,7 +716,9 @@ Image credit:
 ## Definition
 # File Format
 
-A __file format__ defines the way information is encoded and structured within a file. It determines how data is stored, organized, and read by software or systems.
+A **file format** "...refers to the internal structure and encoding of a digital object, which allows it to be processed, or to be rendered in human-accessible form. A digital object may be a file, or a bitstream embedded within a file."
+
+From the <a href="https://www.nationalarchives.gov.uk/aboutapps/pronom/pdf/pronom_unique_identifier_scheme.pdf" target="_blank">PRONOM PUID Scheme: A scheme of persistent unique identifiers for representation information</a>
 
 <!--presenter notes
 
@@ -671,11 +730,13 @@ But what if an archivist is handling an entire harddrive, containing hundreds or
 
 ---
 
-![Screen capture of the ExifTool graphical user interface (GUI).](img/exiftool.png)
+![Screen capture of the ExifTool graphical user interface (GUI).](img/week_03_exiftool.png)
 
 <!--presenter notes
 
 On screen is an image of ExifTool, which can be used to extract so-called "technical metadata" from a file or group of files.
+
+Archivists can (and do) use tools like this to peer into the technical metadata of a file. Here, we can see things about the file, such as what device it was shot on (a Canon EOS 450D), and other details. This can definitely helpful for appraising individual files.
 
 -->
 
@@ -684,7 +745,7 @@ On screen is an image of ExifTool, which can be used to extract so-called "techn
 ## Definition
 # Technical Metadata
 
-__Technical Metadata__ refers to data that describes technical characteristics of a file, such as the file format, file size, provenance (i.e. creation date, last modified date), and other details.
+**Technical metadata** refers to data that describes technical characteristics of a file, such as the file format, file size, provenance (i.e. creation date, last modified date), and other details.
 
 ---
 
@@ -693,9 +754,112 @@ __Technical Metadata__ refers to data that describes technical characteristics o
 
 Developed by Harvard University, the File Information Tool Set (FITS) is a suite of tools (including ExifTool) that, together, may be used to identify and extract technical metadata from files. The data is output into XML format.
 
+<!--presenter notes
+
+Exiftool is one of many tools that can be used to see technical metadata about a file. Another tool, known as FITS, was developed by Harvard to bulk extract tech metadata into XML format. What's nice about this is, once you get it into a structured format like XML, you can do all sorts of things with it, like import it into your database, and you could potentially do this for many many files at once.
+
+-->
+
 ---
 
-# __Question:__ Why might a repository need to identify the file formats present in a specific accession? What practical purposes or benefits could this serve for managing and preserving the collection?
+## Tool
+# BitCurator
+
+**BitCurator** is an open-source program providing a suite of tools used to help with born-digital processing tasks.
+
+---
+
+## Tool
+# Digital Record Object Identification (DROID)
+
+**DROID (Digital Record Object Identification)** is an open-source file format identification tool developed by The National Archives (TNA) in the UK. It is used for digital preservation, archiving, and forensics to identify file formats based on their PRONOM database signatures.
+
+---
+
+## Tool
+# Siegfried
+
+Siegfried (or sf) is an open-source file format identification tool used for digital preservation and file forensics. 
+
+<!--presenter notes
+
+And another tool! Siegfried also does bulk identifying, but is known to be nimble and quick, and can compare against PRONOM database.
+
+-->
+
+---
+
+## Question
+### Why might an archivist need to identify the file formats present in a specific accession?
+
+---
+
+## Tool
+# PRONOM
+
+**PRONOM** is an on-line information system about data file formats and their supporting software products. Originally developed to support the accession and long-term preservation of electronic records held by the National Archives, PRONOM is now being made available as a resource for anyone requiring access to this type of information.
+
+https://www.nationalarchives.gov.uk/pronom/
+
+---
+
+<div class="shapes">
+  <div class="triangle"></div>
+  <span class="circle"></span>
+  <span class="square"></span>
+</div>
+
+<div class="activity-title">Mini Activity - PRONOM</div>
+
+_Use PRONOM to look up a registered file format._
+
+<ul class="activity-list">
+<li>Open <a href="https://archive.org/details/softwarelibrary_apple_games" target="_blank">PRONOM</a> in a browser; select "Search PRONOM".</li>
+<li>Select the "File format" tab.</li>
+<li>Input the file format JPG; select Search.</li>
+<li>Notice how there are a lot of results! Click on the first result for PRONOM unique ID fmt/41.</li>
+<li>Have a look at the Summary.
+
+</ul>
+
+---
+
+# Pronom Summary: Things to notice
+
+---
+
+## Definition
+# Format signature
+
+A **format signature** is a unique pattern of bytes that identifies a specific file format.
+
+_To see the signature of a JPEG, click the Signatures tab_
+
+---
+
+- "Has lower priority than": Refers to format identification precedence when multiple related file formats could apply to a given file. When a file is analyzed (using, for example, DROID or Siegfried), it may match multiple format signatures.
+
+
+---
+
+# Digital Forensics
+
+---
+
+## Definition
+# Digital forensics
+
+__Digital forensics__ describes various techniques, practices and tools that focus on recovering and analyzing information from storage devices.
+
+<!--presenter notes
+
+So how do we address risks inherent to born-digital items, all the while making sure that provenance, original order, chain of custody, and other archival principles are maintained? This is especially important because storage media can contain swaths of data that ideally would be handled in bulk, but all the while enable the archivist to take precise measures to properly appraise, arrange and describe the contents.
+
+One way to do this is through taking digital forensics measures. Know that digital forensics requires a little bit of understanding of how computers work, especially in terms of how they store, read, write, delete, and make sense of what it is that they store. Know that knowing this is what I would consider a necessary skill for any archivist, not just those archivists with “digital” in front of their names.
+
+Archives have a need to create and analyze authentic, trustworthy and complete version of digital storage devices to preserve the digital historical record. One way to do this is to take digital forensics measures. Digital forensics refers to techniques, practices and tools that are used by archivists and other technicians to recover and analyze information from born-digital media and devices such as computer hard drives, floppy disks, flash drives, smartphones and so on.
+
+-->
 
 ---
 
@@ -716,17 +880,59 @@ Developed by Harvard University, the File Information Tool Set (FITS) is a suite
 
 ---
 
-## Definition
-# Digital forensics
+# Case Study: Alice Walker Papers (Emory University)
+**Inventory:**
+- 37 3.5" floppy disks
+- 2 optical media
+- 1 Mac laptop
 
-__Digital forensics__ describes various techniques, practices and tools that focus on recovering and analyzing information from storage devices.
+**Issue:** At first, archivists could only successfully image a few of the 37 disks. Other disks appeared totally un-imageable.
 
 <!--presenter notes
 
-So how do we address risks inherent to born-digital items, all the while making sure that provenance, original order, chain of custody, and other archival principles are maintained? This is especially important because storage media can contain swaths of data that ideally would be handled in bulk, but all the while enable the archivist to take precise measures to properly appraise, arrange and describe the contents.
+We have talked about what a disk image is, and with that in mind, I want to pull all of these concepts together into a digital archiving-centered case study, and use this to step through a typical born-digital processing workflow, to introduce you to various tools and devices used.
 
-One way to do this is through taking digital forensics measures. Know that digital forensics requires a little bit of understanding of how computers work, especially in terms of how they store, read, write, delete, and make sense of what it is that they store. Know that knowing this is what I would consider a necessary skill for any archivist, not just those archivists with “digital” in front of their names.
+In 2007, Emory University acquired the papers of Alice Walker. Walker is an acclaimed novelist, essayist, poet and short story writer, who in 1983, became the first African American woman to win the Pulitzer Prize for Fiction for her novel The Color Purple.
 
-Archives have a need to create and analyze authentic, trustworthy and complete version of digital storage devices to preserve the digital historical record. One way to do this is to take digital forensics measures. Digital forensics refers to techniques, practices and tools that are used by archivists and other technicians to recover and analyze information from born-digital media and devices such as computer hard drives, floppy disks, flash drives, smartphones and so on.
+Her papers included drafts of her manuscripts, photographs, journals and memorabilia from her life, some which were in received on born-digital media, including 37 3.5” floppy disks, 2 optical media CDs, and 1 Mac laptop.
+
+Finding aid for Alice Walker Papers: https://findingaids.library.emory.edu/documents/walker1061/series13/
+
+Case study is written in depth at: https://practicaltechnologyforarchives.org/issue2_waugh/
+
+-->
+
+---
+
+## Tools Used by Emory
+
+- FTK Imager (failed to capture all)
+- Acronis Backup & Recovery
+- Kryoflux
+
+<!--presenter notes
+
+“Unfortunately, FTK Imager was only able to capture images of a handful of the floppy diskss. When unsuccessful, the software frequently failed to recognize the external floppy disk drive or became unresponsive. Neither was this problem necessarily remedied by removing the problem disk and replacing it with another; on several occasions, an unreadable disk seemed to corrupt the entire imaging process, requiring that the drive be switched off and disconnected from the computer workstation, and the software restarted. Only then would another otherwise readable disk be recognized. As might be expected, this slowed the imaging process substantially.
+
+Further attempts were made using another imaging tool, Acronis Backup & Recovery. As the name suggests, this is a proprietary product designed to help small businesses backup their data through the capture of forensic images. However, imaging attempts using this tool and the same configuration of hardware as had been used with FTK Imager were no more successful.”
+
+-->
+
+---
+
+# Alice Walker Imaging Takeaways
+1. **Appraisal**: Knowing the type of operating/file system used by the creator can help with troubleshooting.
+
+3. **Potential imaging challenges**:
+   - Damaged hardware/incompatible or outdated software
+   - Unavailability of necessary hardware, software, or peripherals
+   - Proprietary disk image formats
+   - Insufficient or missing metadata
+
+4. **Be prepared to try (and try) again**
+
+<!--presenter notes
+
+The archivists at Emory knew Walker was a Mac user. This meant her floppy disks were formatted in a specific way (i.e. only a Mac could "read" the floppies). They attempted to image the remaining disks on a modern Mac workstation using the Disk Utility tool.
 
 -->

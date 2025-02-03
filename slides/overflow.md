@@ -260,3 +260,97 @@ Another way to articulate a workflow is to use a model. Some might refer to this
 ---
 
 This is the Digital Archives processing queue, that uses Trello. Trello uses a “Kanban” arrangement of tasks (i.e. columns that represent major phases of work, and then within each, “cards” that can be dragged and dropped from one column to another as they are worked on and reach project milestones).
+
+---
+
+## Definition
+# File System (1/2)
+
+**File systems** are the methods and rules that a computing system uses to manage, name, store, and retrieve stored data. All computing and storage devices, whether that is a laptop, a smartphone, a flash drive, have a file system in place.
+
+<!--presenter notes
+
+The term “file system” takes its name directly from paper-based management systems, and is the reason why we call computer files “files”.
+
+File systems enable us, the users of computing and storage devices, to store, manage, organize and access files. If you’ve ever renamed, deleted, moved, or copied a file, you have directly interacted with the file system. 
+
+Without a file system, a computer would not know how and where to look for data when you, or a piece of software, or anything else wishes to interact with files wants to do something with them. Remember, at its core, a storage device contains a long, seemingly endless string of 1s and 0s. A file system organizes these 1s and 0s in a way so that each sector is given a name and location. In this way, data can be easily called up.
+
+The filesystem also serves another purpose: it “hides” complicated information from the user about “where and how it stores information.” For most purposes, the filesystem is a very valuable abstraction mechanism, because it does not require users to understand or directly access the underlying data.
+
+-->
+
+---
+
+## Definition
+# File System (2/2)
+
+**File systems** contain an essential layer of technical, administrative, structural and provenance metadata.
+
+---
+
+## Examples of file system elements
+1. File names (thumbnail.gif)
+2. Format identifiers (.pdf, .tif, etc)
+3. File size
+4. Addresses/pointers to sectors and clusters
+5. Timestamps: created, last modified, last accessed
+
+---
+
+<center>
+<img src="img/week_03_file_system.png" style="width: 60%; height: auto;">
+</center>
+
+---
+
+## Definition
+# Operating System (OS) - 1/2
+
+An **operating system (OS)** is a software program that manages the hardware and software resources of a computer system.
+
+---
+
+## Definition
+# Operating System (OS) - 2/2
+
+The operating system serves as a bridge between the user and the hardware, providing an interface for users to interact with the computer and controlling the allocation of system resources such as memory and storage.
+
+<!--presenter notes
+
+An operating system is a software program that manages the hardware and software resources of a computer system. It serves as a bridge between the user and the hardware, providing an interface for users to interact with the computer, which includes interacting with the file system. OSs are the primary way that we interact with file systems. Computers and even smartphones all use operating systems.
+
+-->
+
+---
+
+| Name                     | Operating System                                               |
+|--------------------------|---------------------------------------------------------------|
+| FAT12, FAT16             | MS-DOS, floppy disks                                          |
+| FAT32 (VFAT)             | Windows 95, 98                                               |
+| exFAT                   | Windows XP SP2 and later (primary use: USB drives, SD cards)  |
+| NTFS                     | Windows NT, 2000, XP, Server 2003/2008, Vista, 7, 8/8.1, 10  |
+| ReFS (Resilient File System) | Windows 10 Pro (Workstation/Enterprise, default starting 2018) |
+| APFS (Apple File System) | MacOS 10.12 |
+
+<!--presenter notes
+
+File systems are not universal, meaning there is no one file system that is used by all computing systems and storage devices. Different file systems are specific to certain operating systems, and within those, certain versions. This is a list of just some file systems out there. Notice how Windows started with FAT12 and FAT16, and now primarily uses NTFS.
+
+What this means is that there are potential compatibility issues posed by this wide range of different file systems which may make it difficult to transfer data between different operating systems. For example, if an archivist is trying to access a video game from a series of floppies that were formatted to store data using the FAT12 file system, and you are using a modern Macintosh computer connected to the floppy drive via a USB cable, you may get an error message, or it may not even be able to show you a list of files. This is not always the case. However, knowing that there are different file systems that are not always compatible with one another can be helpful if and when you have to troubleshoot issues during disk imaging or other data transfers between systems.
+
+-->
+
+---
+
+<center>
+<img src="img/week_03_mac.png" style="width: 100%; height: auto;">
+</center>
+
+<!--presenter notes
+
+After the imaging attempt with FTK was not totally successful, Emory archivists decided to use a modern Mac machine and the Disk Utility tool.
+
+Again, an external 3.5” floppy disk drive was connected to the Mac with a Tableau Ultrablock USB write blocker. Like FTK Imager, Apple’s Disk Utility can be used to capture bitstream images of digital media. Unlike FTK Imager, however, it generates no metadata during that process and also only outputs DMG (stands for “disk image”) image files, which is an Apple proprietary disk image format. This approach to imaging the thirty-seven floppy disks was only marginally more successful than earlier attempts using FTK Imager on a Windows workstation. Having worked through the entire set of disks using Disk Utility, only two additional images were captured.
+
+-->
