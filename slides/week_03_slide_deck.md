@@ -311,6 +311,17 @@ Digital storage devices are commonly associated with legacy born-digital collect
 
 ---
 
+<img src="img/week_03_born_digital_media_types.jpg" alt="An array of born-digital media formats: CD-RW, Zip disk, hard drives, flash drives, various floppy disks.">
+
+<!--presenter notes
+
+Image credit:
+"Assortment of obsolete and current media that the AHC’s Born Digital unit handles on a daily basis." Digital Preservation 101: Demystifying the Digital, American Heritage Center, 20 July 2020, https://ahcwyo.org/2020/07/20/digital-preservation-101-demystifying-the-digital/.
+
+-->
+
+---
+
 ## Definition
 # Acquisition
 
@@ -332,6 +343,8 @@ _Archival Accessioning Best Practices (2024)_
 
 "Accessioning is the process of transferring and documenting the transfer of collections material into the Libraries' care. For **born-digital materials**, that means safely copying them into the Libraries' temporary storage system and documentating the process. Digital files should be accessioned within four months of receipt."
 
+<a href="https://github.com/uga-libraries/born-digital-accessioning?tab=readme-ov-file" target="_blank">University of Georgia Libraries Github documentation on born-digital accessioning</a>
+
 <!--presenter notes
 
 This definition comes from University of Georgia Libraries Github documentation on born-digital accessioning. See: https://github.com/uga-libraries/born-digital-accessioning?tab=readme-ov-file
@@ -347,7 +360,7 @@ This definition comes from University of Georgia Libraries Github documentation 
 
 It may be done at the collection, creator, series, file, or item level.
 
-It can take place _prior_ to acquisition, or _after_ accessioning, or both.
+Born-digital materials may be appraised at different points of the process (_prior_ to acquisition, or _after_ accessioning, or even both.)
 
 <!--presenter notes
 
@@ -421,14 +434,6 @@ When a file is saved to a hard drive, the file system assigns it to a series of 
 ---
 
 ## Definition
-# Transfer
-
-A **transfer** refers to moving select data from one device to another.
-
-
----
-
-## Definition
 # Imaging
 
 **Imaging** describes the process of creating a bit-identical copy of some sort of physical source media. The imaging process copies data _sector-by-sector_ from the disk. The result is an image file.
@@ -438,6 +443,13 @@ A **transfer** refers to moving select data from one device to another.
 Disk imaging describes the process of creating a bit-identical copy of the source media. The imaging process copies data sector-by-sector from the raw device.
 
 -->
+
+---
+
+## Definition
+# Transfer
+
+A **transfer** refers to moving select data from one device to another.
 
 ---
 
@@ -466,7 +478,7 @@ Canadian Center for Architecture (CCA)
 
 # A disk image
 - "Liberates" the bitstream from its physical media
-- Disk images can be evaluated on modern computing environment
+- Disk images can be evaluated on modern computing environments
 - Resulting analyses can be used for appraisal,and for coming up with a processing plan
 
 <!--presenter notes
@@ -489,9 +501,9 @@ _Play an Apple II disk image file._
 
 <ul class="activity-list">
 <li><a href="https://archive.org/details/softwarelibrary_apple_games" target="_blank">Open the Apple II Games Library</a> on the Internet Archive.</li>
-<li>Browse the archive and select a game of interest.</li>
+<li>Browse the archive and select <a href="https://archive.org/details/orion_202103" target="_blank">a game of interest</a>.</li>
 <li>On your selected game's page, find the <b>Download Options</b> section; select <b>Show All</b>.</li>
-<li>Find *.2mg disk image file listed.</li>
+<li>Try and see if you can find a disk image file listed.</li>
 </ul>
 
 <!--presenter notes
@@ -521,6 +533,71 @@ What does a disk imaging workstation look like?
 - Disk reader: A device that reads the physical media (e.g., a floppy disk drive for floppy disks).  
 - Various cables connect the workstation, write blocker, and disk reader to each other, ensuring proper data transfer, and to power.
 
+-->
+
+---
+
+<img src="img/week_03_kryoflux_01.png">
+
+<!--presenter notes
+
+Sometimes, imaging fails, and we have to use other devices and tools at our disposal to get the bitstream.
+
+On the slide is a KryoFlux controller card. These images were taken from a Github repo called “The Archivist’s Guide to KryoFlux”, which was a collaborative document written by several digital archivists from different repositories.
+
+You have several components. Starting from the top left going from left to right, is the KryoFlux board, which looks like an exposed computer chip.
+
+The KryoFlux board is connected to the floppy drive using a data cable. The data cable size will depend on the type of drive you are transferring from. The image on the slide shows a 3.5” floppy drive, but a KryoFlux board can be connected a multitude of floppy drives.
+
+Once your floppy drive is connected to the KryoFlux board, you will next connect the board to your computer using a USB cable. Once your drive and board are connected to your computer, you launch the tool via the command line. Once this is done, you connect your floppy drive to an power source using a power adapter. Again, depending on the drive you are using for imaging, you will use a different power adapter.
+
+This ultimately enabled Emory to capture all of Walkers disks. Why did the KryoFlux work so much better? KryoFlux is known to be able to capture disk images of a variety of formats.
+
+Along with the KryoFlux card, you will need to install the Disk Tool Controller (DTC) software. DTC is used to control the board and interact with floppy disk drives and provides a user-friendly interface for controlling the board and performing various disk-related tasks. This software is available for various operating systems, including Windows, Linux, and macOS.
+
+-->
+
+---
+
+
+<img src="img/week_03_kryoflux_02.png">
+
+<!--presenter notes
+
+Here is a close-up photo of the KryoFlux board, which comes with a built-in write-blocker, circled in red. To enable write-blocking functionality, you would actually physically remove the jumper for the write gate.
+
+-->
+
+---
+
+# Tool
+## Write blocker
+
+A piece of hardware or even physical component on a device that prevents a system from overwriting data held in a target born-digital item.
+
+<!--presenter notes
+
+A write blocker is piece of hardware or even physical component on a storage device that prevents a system from overwriting data held in a target born-digital item. It is a physical gate that puts you into read-only mode.
+
+-->
+
+---
+
+<table>
+  <tr>
+    <td style="vertical-align: top; width: 60%;">
+      <h1>Question</h1>
+      <h2>Can you guess what might happen if you attempt to image a disk without applying a write-blocker?</h2>
+    </td>
+    <td style="vertical-align: top; width: 40%;">
+      <img src="img/week_04_file_properties.png" style="max-width: 100%; height: auto;" />
+    </td>
+  </tr>
+</table>
+
+<!--presenter notes
+
+What happens when you don’t toggle a write blocker? A good example of this are the created, modified and accessed metadata properties of a file. Each of these three data points holds important details about provenance. File systems, by design, automatically update this data without asking you whether or not you would like to commit the change. As a result, if you were to image a disk without the write blocker turned on, you would see the Created, Modified and Accessed data change to today’s date, rather than the date the original file was accessed by its creator.
 
 -->
 
@@ -564,159 +641,32 @@ Along with creating a disk image, FTK Imager also “...calculates MD5 and SHA-1
 
 ---
 
-# Tool
-## Write blocker
+## Definition
+# Digital forensics
 
-A piece of hardware or even physical component on a device that prevents a system from overwriting data held in a target born-digital item.
+**Digital forensics** describes various techniques, practices and tools that focus on recovering and analyzing information from storage devices.
 
 <!--presenter notes
 
-A write blocker is piece of hardware or even physical component on a storage device that prevents a system from overwriting data held in a target born-digital item. It is a physical gate that puts you into read-only mode.
+Digital forensics techniques are often deployed because storage media can contain swaths of data that would make analyzing it nearly impossible. Forensic technologies enable the archivist to take precise measures to properly appraise, arrange and describe the contents.
 
 -->
 
 ---
 
-<table>
-  <tr>
-    <td style="vertical-align: top; width: 60%;">
-      <h1>Question</h1>
-      <h2>Can you guess what might happen if you attempt to read a disk without applying a write blocker when imaging a disk?</h2>
-    </td>
-    <td style="vertical-align: top; width: 40%;">
-      <img src="img/week_04_file_properties.png" style="max-width: 100%; height: auto;" />
-    </td>
-  </tr>
-</table>
-
-<!--presenter notes
-
-What happens when you don’t toggle a write blocker? A good example of this are the created, modified and accessed metadata properties of a file. Each of these three data points holds important details about provenance. File systems, by design, automatically update this data without asking you whether or not you would like to commit the change. As a result, if you were to image a disk without the write blocker turned on, you would see the Created, Modified and Accessed data change to today’s date, rather than the date the original file was accessed by its creator.
-
--->
-
----
-
-# Arrangement & Processing of Born-Digital Archives
-
----
-
-## Considerations
-- **Arrangement** is the first step in processing digital and analog archives.
-- Factors affecting arrangement include **original order**, **institutional priorities**, and **researcher needs**.
-- There is no one strategy that can be applied to any or all collections!
-
----
-
-## Approaches to Arrangement
-
-- **Separate digital series**: Fonds → Digital Files  
-- **Sub-series within existing series**: Fonds → Series → Digital Files  
-- **Co-arranged with other formats**: Fonds → Series → Project File (includes digital and physical files)  
-- When possible, **co-arrange digital records with similar physical records**.
-
----
-
-## Factors Affecting Arrangement
-
-- **How records arrive**: Large transfers (e.g., full hard drives) retain **original structure**; Small media (e.g., floppies, CDs) may require **more active arrangement**.  
-- **Existing organization**:  
-  - Does the order reflect original use?  
-  - Does it support researcher accessibility?  
-- **Context of creation & archival collection**:  
-  - Relationship to physical records?  
-  - Full fonds vs. partial collection?
----
-
-## Developing a Processing Plan
-
-- **Survey & Familiarization**: Archivist reviews structure, content, and documentation.
-- **Pre-Processing Meeting**: Archivists, digital specialists, and stakeholders draft an arrangement plan.
-- **Decisions Made On**:  
-  - Descriptive standards  
-  - Preservation concerns  
-  - Normalization requirements  
-  - Handling of original storage media  
-
----
-
-## Processing & SIP Packaging for Archivematica
-
-- **SIP Creation Tools**:  
-  - **Disk Image Processor**: Processes forensic disk images.  
-  - **Folder Processor**: Organizes directories into SIPs.  
-  - **SIP Creator**: Combines directories and files.  
-- **Normalization**: Files may be manually migrated to preservation formats.
-
----
-
-<img src="img/week_03_kryoflux_01.png">
-
-<!--presenter notes
-
-Emory took one more step. After consulting with archivists on listservs, they decided to purchase a KryoFlux device.
-
-On the slide is what a KryoFlux controller card and all of its various components looks like “out of the box”. These images were taken from a Github repo called “The Archivist’s Guide to KryoFlux”, which was a collaborative document written by several digital archivists from different repositories.
-
-You have several components. Starting from the top left going from left to right, is the KryoFlux board, which looks like an exposed computer chip.
-
-The KryoFlux board is connected to the floppy drive using a data cable. The data cable size will depend on the type of drive you are transferring from. The image on the slide shows a 3.5” floppy drive, but a KryoFlux board can be connected a multitude of floppy drives.
-
-Once your floppy drive is connected to the KryoFlux board, you will next connect the board to your computer using a USB cable. Once your drive and board are connected to your computer, you launch the tool via the command line. Once this is done, you connect your floppy drive to an power source using a power adapter. Again, depending on the drive you are using for imaging, you will use a different power adapter.
-
-This ultimately enabled Emory to capture all of Walkers disks. Why did the KryoFlux work so much better? KryoFlux is known to be able to capture disk images of a variety of formats.
-
-Along with the KryoFlux card, you will need to install the Disk Tool Controller (DTC) software. DTC is used to control the board and interact with floppy disk drives and provides a user-friendly interface for controlling the board and performing various disk-related tasks. This software is available for various operating systems, including Windows, Linux, and macOS.
-
--->
-
----
-
-<img src="img/week_03_kryoflux_02.png">
-
-<!--presenter notes
-
-Here is a photo of the KryoFlux board, which comes with a built-in write-blocker, circled in red. To enable write-blocking functionality, you would actually physically remove the jumper for the write gate.
-
--->
-
----
-
-**Downstream effects**  
-Uninformed appraisal decisions can create unintended negative outcomes later in the stewardship lifecycle.
-
-**Scale**  
-The scale we are dealing with (thousands of files on a harddrive, an entire laptop) complicates deciding what/not to keep.
-
-**Format diversity**  
-Unexpected media and file formats can challenge a repository's technical capacity.
-
----
-
-# Born-Digital Appraisal Considerations
-__Question 1:__ Do we have the tools to extract the record off the media?
-__Question 2:__ Can we preserve/maintain the record over time?
-__Question 3:__ Can we provide access to the record?
-__Question 4:__ Do these records speak to our collection development policy, or its overall goals?
-__Question 5:__ Do we have access to the creator/organization, who can provide us context as far as who and how records are being created?
-
----
-
-<img src="img/born_digital_gallery.webp" alt="An array of born-digital media formats: CD-RW, Zip disk, hard drives, flash drives, various floppy disks.">
-
-<!--presenter notes
-
-Image credit:
-"Assortment of obsolete and current media that the AHC’s Born Digital unit handles on a daily basis." Digital Preservation 101: Demystifying the Digital, American Heritage Center, 20 July 2020, https://ahcwyo.org/2020/07/20/digital-preservation-101-demystifying-the-digital/.
-
--->
+# Forensics can give insight into:
+- **File formats**: What file formats are present?
+- **Application data**: Files that are tied to specific applications (example: config.ini)
+- **Encrypted or password-protected data**: Unless the decryption key is available, these files can be considered inaccessible.
+- **Duplicate, temporary or binned files**: These often don’t hold any long-term value and can be safely discarded.
+- **Personal identifying information (PID)**
 
 ---
 
 ## Definition
 # File Format
 
-A **file format** "...refers to the internal structure and encoding of a digital object, which allows it to be processed, or to be rendered in human-accessible form. A digital object may be a file, or a bitstream embedded within a file."
+A **file format** "...refers to the internal structure and encoding of a digital object, which allows it to be processed, or to be rendered in human-accessible form."
 
 From the <a href="https://www.nationalarchives.gov.uk/aboutapps/pronom/pdf/pronom_unique_identifier_scheme.pdf" target="_blank">PRONOM PUID Scheme: A scheme of persistent unique identifiers for representation information</a>
 
@@ -750,36 +700,24 @@ Archivists can (and do) use tools like this to peer into the technical metadata 
 ---
 
 ## Tool
-# File Information Tool Set (FITS)
-
-Developed by Harvard University, the File Information Tool Set (FITS) is a suite of tools (including ExifTool) that, together, may be used to identify and extract technical metadata from files. The data is output into XML format.
-
-<!--presenter notes
-
-Exiftool is one of many tools that can be used to see technical metadata about a file. Another tool, known as FITS, was developed by Harvard to bulk extract tech metadata into XML format. What's nice about this is, once you get it into a structured format like XML, you can do all sorts of things with it, like import it into your database, and you could potentially do this for many many files at once.
-
--->
-
----
-
-## Tool
 # BitCurator
 
-**BitCurator** is an open-source program providing a suite of tools used to help with born-digital processing tasks.
+**BitCurator** is an open-source program providing a suite of tools used to help with born-digital processing tasks. BitCurator provides a number of tools that can be used to produce a file format analysis.
+
+<a href="https://docs.google.com/spreadsheets/d/1doQYdCh2QxtwA7p2_FKXdy-D0g4jfUl8fjbx1KWKwHk/edit?gid=0#gid=0" target="_blank">Full list of tools</a>
 
 ---
 
 ## Tool
-# Digital Record Object Identification (DROID)
-
-**DROID (Digital Record Object Identification)** is an open-source file format identification tool developed by The National Archives (TNA) in the UK. It is used for digital preservation, archiving, and forensics to identify file formats based on their PRONOM database signatures.
+# fido
+**Format Identification for Digital Objects (fido)** is an open-source command-line tool to identify the file formats of digital objects. FIDO utilises the PRONOM format registry, which is maintained by The National Archives UK.
 
 ---
 
 ## Tool
 # Siegfried
 
-Siegfried (or sf) is an open-source file format identification tool used for digital preservation and file forensics. 
+**<a href="https://www.itforarchivists.com/siegfried" target="_blank">Siegfried</a>** is an open-source file format identification tool used for digital preservation and file forensics that uses the National Archives UK’s PRONOM file format signatures, MIME-info file format signatures, and Library of Congress’s FDD file format signatures.
 
 <!--presenter notes
 
@@ -794,12 +732,26 @@ And another tool! Siegfried also does bulk identifying, but is known to be nimbl
 
 ---
 
+# Born-Digital Appraisal Considerations
+__Question 1:__ Do we have the tools to extract the record off the media?
+__Question 2:__ Can we preserve/maintain the various file formats, as-is, or through normalization?
+__Question 3:__ Can we provide access to the record?
+__Question 4:__ Do these records speak to our collection development policy, or its overall goals?
+__Question 5:__ Do we have access to the creator/organization, who can provide us context as far as who and how records are being created?
+
+---
+
+## Definition
+# Normalization
+
+**Normalization** refers to the process of converting a digital object into a persistent file format.
+
+---
+
 ## Tool
 # PRONOM
 
-**PRONOM** is an on-line information system about data file formats and their supporting software products. Originally developed to support the accession and long-term preservation of electronic records held by the National Archives, PRONOM is now being made available as a resource for anyone requiring access to this type of information.
-
-https://www.nationalarchives.gov.uk/pronom/
+**<a href="https://www.nationalarchives.gov.uk/pronom/" target="_blank">PRONOM</a>** is an on-line registry of data file formats, signatures, and their supporting software products. Originally developed to support the accession and long-term preservation of electronic records held by the National Archives, PRONOM is now being made available as a resource for anyone requiring access to this type of information, and is integrated in a variety of file format identification tools and systems.
 
 ---
 
@@ -814,7 +766,7 @@ https://www.nationalarchives.gov.uk/pronom/
 _Use PRONOM to look up a registered file format._
 
 <ul class="activity-list">
-<li>Open <a href="https://archive.org/details/softwarelibrary_apple_games" target="_blank">PRONOM</a> in a browser; select "Search PRONOM".</li>
+<li>Open <a href="https://www.nationalarchives.gov.uk/pronom/" target="_blank">PRONOM</a> in a browser; select "Search PRONOM".</li>
 <li>Select the "File format" tab.</li>
 <li>Input the file format JPG; select Search.</li>
 <li>Notice how there are a lot of results! Click on the first result for PRONOM unique ID fmt/41.</li>
@@ -824,7 +776,18 @@ _Use PRONOM to look up a registered file format._
 
 ---
 
+<div class="shapes">
+  <div class="triangle"></div>
+  <span class="circle"></span>
+  <span class="square"></span>
+</div>
+
 # Pronom Summary: Things to notice
+- Name ("Raw JPEG Stream")
+- Identifiers (LOC, PUID, MIME)
+- Description
+- Source date
+- "Has lower priority than": Refers to format identification precedence when multiple related file formats could apply to a given file.
 
 ---
 
@@ -833,106 +796,141 @@ _Use PRONOM to look up a registered file format._
 
 A **format signature** is a unique pattern of bytes that identifies a specific file format.
 
-_To see the signature of a JPEG, click the Signatures tab_
+_To see the signature of a JPEG, click the Signatures tab of a PRONOM entry._
 
 ---
 
-- "Has lower priority than": Refers to format identification precedence when multiple related file formats could apply to a given file. When a file is analyzed (using, for example, DROID or Siegfried), it may match multiple format signatures.
-
+# Format signature key
+**BOF**: Beginning of file
+**EOF**: End of file
+**SOI**: Start of image
+**EOI**: End of image
 
 ---
 
-# Digital Forensics
+# Arrangement & Processing of Born-Digital Archives
 
 ---
 
-## Definition
-# Digital forensics
+## Considerations
+- Maintaining **original order**
+- Scale of files being described and arranged
+- Researchers' needs
+- Institutional priorities and values
 
-__Digital forensics__ describes various techniques, practices and tools that focus on recovering and analyzing information from storage devices.
+_There is no one strategy that can be applied to any or all collections!_
+
+---
+
+## Approaches: Original Order
+
+Born-digital contents can be **vast**, requiring the archivist to think strategically about **original order** without bogging down finding aids with long file groupings and lists.
+  
+- **Use file directories** to illustrate broad groupings and bring clarity to ambiguous filenaming conventions.
+- **Provide context** by describing files in terms of **functions, activities, and file types**.
 
 <!--presenter notes
 
-So how do we address risks inherent to born-digital items, all the while making sure that provenance, original order, chain of custody, and other archival principles are maintained? This is especially important because storage media can contain swaths of data that ideally would be handled in bulk, but all the while enable the archivist to take precise measures to properly appraise, arrange and describe the contents.
+I am distilling the information outlined in Yale's Libguide for Born Digital Archival Description Guidelines (https://guides.library.yale.edu/c.php?g=934566&p=6736587)
 
-One way to do this is through taking digital forensics measures. Know that digital forensics requires a little bit of understanding of how computers work, especially in terms of how they store, read, write, delete, and make sense of what it is that they store. Know that knowing this is what I would consider a necessary skill for any archivist, not just those archivists with “digital” in front of their names.
+-->
 
-Archives have a need to create and analyze authentic, trustworthy and complete version of digital storage devices to preserve the digital historical record. One way to do this is to take digital forensics measures. Digital forensics refers to techniques, practices and tools that are used by archivists and other technicians to recover and analyze information from born-digital media and devices such as computer hard drives, floppy disks, flash drives, smartphones and so on.
+
+---
+
+## Approaches: Arrangement
+
+1. In a separate "born-digital" series (e.g. Fonds -> Series: Digital files)
+2. In separate "born-digital" sub-series within existing series (e.g. Fonds -> Series: Projects -> Sub-series: Digital files)
+3. Co-arranged with other formats (e.g. Fonds -> Series: Projects -> Project File: Example Project -> File-level group of digital 3D models)
+
+<!--presenter notes
+
+Here I am taking queues from the Canadian Centre for Architecture's "Arrangement of born-digital archives" section: https://github.com/CCA-Public/digital-archives-manual/blob/master/guides/arrangement.md#arrprinciple
 
 -->
 
 ---
 
-# Weed unnecessary, redundant files
-- __Application data__: Files that are tied to specific applications (example: config.ini)
-- __Encrypted or password-protected data__: Unless the decryption key is available, these files can be considered inaccessible.
-- __Duplicates__: Identical files that waste storage space and complicate processing.
-- __Temp files__: These often don’t hold any long-term value and can be safely discarded.
-- __Binned files__: Files deleted by the creator.
+# **How did the records arrive?**
+  - **Large Transfers** e.g., a creator's entire hard drive 
+    - More likely to reflect **original order**  
+    - May have **dependencies** between files  
+    - Less manual arrangement needed  
+  - **Small storage media** (e.g., floppies, CDs)  
+    - Less likely to reflect **original order**
+    - More likely to have a relationship with a physical item (i.e. a CD in a folder of correspondence)
 
 ---
 
-# Reason 2: Determine processing plan
-- __Size and complexity of the file system__: How much organization and descriptive file naming is already present.
-- __Sensitive or personally-identifying information__: Identifying and addressing areas with potentially sensitive data that may require special handling.
-- __Manual sampling needs__: Areas that may need manual review or sampling for appraisal.
-- __Complexity of file formats__: Some formats may require special access or reformatting, which needs to be considered early on.
+<div class="shapes">
+  <div class="triangle"></div>
+  <span class="circle"></span>
+  <span class="square"></span>
+</div>
+
+_**Mini Activity**: Browse finding aids containing born-digital materials._
+
+<ul class="activity-list">
+<li>Open the <a href="https://archives.libraries.emory.edu/repositories/7/resources/2165" target="_blank">Alice Walker papers finding aid</a> (Emory University).
+<li>In the collection organization section, select Born Digital Materials.
+<li>Read the Processing Note.
+<li>Browse the list of born-digital materials.
+
+</ul>
 
 ---
 
-# Case Study: Alice Walker Papers (Emory University)
-**Inventory:**
-- 37 3.5" floppy disks
-- 2 optical media
-- 1 Mac laptop
+<div class="shapes">
+  <div class="triangle"></div>
+  <span class="circle"></span>
+  <span class="square"></span>
+</div>
 
-**Issue:** At first, archivists could only successfully image a few of the 37 disks. Other disks appeared totally un-imageable.
+_**Mini Activity**: Browse finding aids containing born-digital materials._
 
-<!--presenter notes
+<ul class="activity-list">
+<li>Open the <a href="https://findingaids.lib.buffalo.edu/repositories/3/resources/1148" target="_blank">kari edwards papers
+ finding aid</a>.
+<li>Review Extent; Arrangement and Processing Information.
+<li>Read the Processing Note.
+<li>Browse the list of born-digital materials.
+<li>Click on Writings, 1992-2010 > Manuscripts and digital files, 1992-2010 and browse.
 
-We have talked about what a disk image is, and with that in mind, I want to pull all of these concepts together into a digital archiving-centered case study, and use this to step through a typical born-digital processing workflow, to introduce you to various tools and devices used.
-
-In 2007, Emory University acquired the papers of Alice Walker. Walker is an acclaimed novelist, essayist, poet and short story writer, who in 1983, became the first African American woman to win the Pulitzer Prize for Fiction for her novel The Color Purple.
-
-Her papers included drafts of her manuscripts, photographs, journals and memorabilia from her life, some which were in received on born-digital media, including 37 3.5” floppy disks, 2 optical media CDs, and 1 Mac laptop.
-
-Finding aid for Alice Walker Papers: https://findingaids.library.emory.edu/documents/walker1061/series13/
-
-Case study is written in depth at: https://practicaltechnologyforarchives.org/issue2_waugh/
-
--->
+</ul>
 
 ---
 
-## Tools Used by Emory
+<div class="shapes">
+  <div class="triangle"></div>
+  <span class="circle"></span>
+  <span class="square"></span>
+</div>
 
-- FTK Imager (failed to capture all)
-- Acronis Backup & Recovery
-- Kryoflux
+_**Mini Activity**: Browse finding aids containing born-digital materials._
 
-<!--presenter notes
+<ul class="activity-list">
+<li>Open the <a href="https://findingaids.library.nyu.edu/nyhs/ms3216_rebuild_by_design/all/" target="_blank">Rebuild by Design Hurricane Sandy Competition records</a> (New York Historical Society/NYU).
+<li>Review: Extent, Arrangement, Conditions Governing Use and Processing Information
+<li>Click "View Inventory" button on the left-hand side of the page (beneath the Contents header)
+<li>Look through each of the digital folders.
 
-“Unfortunately, FTK Imager was only able to capture images of a handful of the floppy diskss. When unsuccessful, the software frequently failed to recognize the external floppy disk drive or became unresponsive. Neither was this problem necessarily remedied by removing the problem disk and replacing it with another; on several occasions, an unreadable disk seemed to corrupt the entire imaging process, requiring that the drive be switched off and disconnected from the computer workstation, and the software restarted. Only then would another otherwise readable disk be recognized. As might be expected, this slowed the imaging process substantially.
-
-Further attempts were made using another imaging tool, Acronis Backup & Recovery. As the name suggests, this is a proprietary product designed to help small businesses backup their data through the capture of forensic images. However, imaging attempts using this tool and the same configuration of hardware as had been used with FTK Imager were no more successful.”
-
--->
+</ul>
 
 ---
 
-# Alice Walker Imaging Takeaways
-1. **Appraisal**: Knowing the type of operating/file system used by the creator can help with troubleshooting.
+# Break
+![Take a break: Steaming teapot and tea animated GIF](img/week_02_slide_deck13.gif)
 
-3. **Potential imaging challenges**:
-   - Damaged hardware/incompatible or outdated software
-   - Unavailability of necessary hardware, software, or peripherals
-   - Proprietary disk image formats
-   - Insufficient or missing metadata
+---
 
-4. **Be prepared to try (and try) again**
+# Weekly Activity: Corrupting a Bitstream
+<a href="https://digital-archives.github.io/HISTGA1011/activities/corrupting_a_bitstream" target="_blank">https://digital-archives.github.io/HISTGA1011/activities/corrupting_a_bitstream</a>
 
-<!--presenter notes
+---
 
-The archivists at Emory knew Walker was a Mac user. This meant her floppy disks were formatted in a specific way (i.e. only a Mac could "read" the floppies). They attempted to image the remaining disks on a modern Mac workstation using the Disk Utility tool.
+![Animated GIF of a yellow sunset generating pixelated ripples.](img/week_00_weekly_activity_sunset.gif)
 
--->
+_Final questions or reflections?_
+
+mary.kidd@nyu.edu
