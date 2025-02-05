@@ -322,10 +322,10 @@ Image credit:
 
 ---
 
-## Definition
-# Acquisition
+## Definition  
+# Acquisition  
 
-When an institution gets ownership of item or a body of work, either through purchasing (resulting in an invoice), or donation/gift/bequest (resulting in some sort of legally-binding agreement such as a deed of gift), the legal and physical transfer of materials is referred to as the/an **acquisition**.
+An **acquisition** is the legal and physical transfer of materials to an institution, either through **purchase** (resulting in an invoice) or **donation, gift, or bequest** (formalized by a legally binding agreement such as a deed of gift). Acquisitions establish the institution's ownership and stewardship of the materials.  
 
 ---
 
@@ -354,13 +354,13 @@ This definition comes from University of Georgia Libraries Github documentation 
 ---
 
 ## Definition
-# [Archival] Appraisal
+# Appraisal
 
 **Appraisal** is the process of determining whether records and other materials have permanent (archival) value.
 
 It may be done at the collection, creator, series, file, or item level.
 
-Born-digital materials may be appraised at different points of the process (_prior_ to acquisition, or _after_ accessioning, or even both.)
+Born-digital materials may be appraised at different points of the process. This largely depends on the type(s) of media received, and whether the repository has the necessary equipment to extract contents.
 
 <!--presenter notes
 
@@ -377,7 +377,7 @@ The basis of appraisal decisions may include a number of factors, including the 
 
 - Acquisition proposed
 - Deliver raw materials (secure file transfer, or ship temporary and/or original physical media)
-- Accession, stabilize (virus scan, create disk images)
+- Accession, stabilize (virus scan, create bit-level copies, or "images")
 - Pre-processing analysis
 - Arranagement and description
 
@@ -479,7 +479,7 @@ Canadian Center for Architecture (CCA)
 # A disk image
 - "Liberates" the bitstream from its physical media
 - Disk images can be evaluated on modern computing environments
-- Resulting analyses can be used for appraisal,and for coming up with a processing plan
+- Resulting analyses can be used for appraisal and for coming up with a processing plan
 
 <!--presenter notes
 
@@ -655,11 +655,10 @@ Digital forensics techniques are often deployed because storage media can contai
 ---
 
 # Forensics can give insight into:
-- **File formats**: What file formats are present?
-- **Application data**: Files that are tied to specific applications (example: config.ini)
+- **File formats**: What file format signatures are present?
 - **Encrypted or password-protected data**: Unless the decryption key is available, these files can be considered inaccessible.
 - **Duplicate, temporary or binned files**: These often don’t hold any long-term value and can be safely discarded.
-- **Personal identifying information (PID)**
+- **Personal identifying information (PID)**: Pattern recognition can root out social security numbers, credit cards numbers, etc.
 
 ---
 
@@ -853,11 +852,11 @@ Here I am taking queues from the Canadian Centre for Architecture's "Arrangement
 ---
 
 # **How did the records arrive?**
-  - **Large Transfers** e.g., a creator's entire hard drive 
+  - **A creator's entire hard drive is...
     - More likely to reflect **original order**  
     - May have **dependencies** between files  
     - Less manual arrangement needed  
-  - **Small storage media** (e.g., floppies, CDs)  
+  - **Small (as in capacity) storage media** (e.g., floppies, CDs)  
     - Less likely to reflect **original order**
     - More likely to have a relationship with a physical item (i.e. a CD in a folder of correspondence)
 

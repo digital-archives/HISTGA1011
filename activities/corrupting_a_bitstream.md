@@ -9,20 +9,20 @@ has_children: false
 # Corrupting a Bitstream
 
 ## Introduction
-The goal of the "Corrupting a Bitstream" exercise is to introduce students to using a hex editor to analyze file signatures, perform checksums, and make controlled modifications to files. By exploring the impact of altering data at the byte level, participants can observe changes in checksums and file behavior. They are also encouraged to extract useful information from the ASCII text and summarize their findings from the exercise.
+The goal of the "Corrupting a Bitstream" exercise is to introduce you to using a hex editor to analyze file signatures, perform checksums, and make controlled modifications to files. By exploring the impact of altering data at the byte level, you will be able to observe changes in checksums and file behavior.
 
 ## Setup instructions:
-* Open and use:
-  * [HexEd.it](https://hexed.it/) in your browser
-  * Terminal
-    * Mac: Open Finder > Applications. Find and double-click on Terminal icon.
-    * Windows: Use the keyboard shortcut Windows + R. In the window that appears, type "cmd" (without quotes) and then press Enter.
-  * Download <a href="https://drive.google.com/drive/folders/1UzQbxCrIcE0LhKNi7QImC4YryopubrKB?usp=sharing" target="_blank">Activity Files</a> locally: 1.) IMG_3782.jpg and 2.) PRPR19.docx
+* In your browser, open:
+  * [HexEd.it](https://hexed.it/)
+  * [MD5 Checksum Generator](https://emn178.github.io/online-tools/md5_checksum.html)
+  * Download all <a href="https://drive.google.com/drive/folders/1UzQbxCrIcE0LhKNi7QImC4YryopubrKB?usp=sharing" target="_blank">Activity Files</a> locally: 1.) IMG_3782.jpg and 2.) PRPR19.docx
 
 ## Task 1
 #### Identify format types
-* Open IMG_3782.jpg in your hex editor. Use your knowledge to look up and identify file signatures. Confirm the file type of this file by locating its file signature and make a note of it.
-* Confirm the file type for PRPR19.docx by locating its file signature. Make a note of this file's type. Hint: you may need to read up on DOCX files and their components to confirm the signature properly.
+* Open IMG_3782.jpg in HexEd.it (to do this, click the "Open File" button at the top of the window and select the JPG file to load it).
+* In a separate tab, open up [PRONOM](https://www.nationalarchives.gov.uk/pronom/). Use the PRONOM Search feature to look up the format registry profile for a JPG file; look up and note the characteristics of a JPG internal file format signature.
+* Back in HexEd.it, find the file signature in the positions indicated by PRONOM.
+* Take these same steps with PRPR19.docx: Load it into HexEd.it, look up information DOCX in PRONOM, and locate its file signature within the hex data. Hint: You will see this will not be as easy as looking up the signature of a JPG. You will need to read up on DOCX files on Wikipedia, or other resources, to figure out what a DOCX is really made of, to figure out its signature.
 
 ## Task 2
 ### Corrupt some bitstreams!
@@ -31,37 +31,26 @@ The goal of the "Corrupting a Bitstream" exercise is to introduce students to us
 
 #### Fundamentally change a file's bitstream using hex and text editors
 
-1. Open Terminal (Mac) or PowerShell (Windows).
-2. Navigate to the location of PRPR19.docx using the `cd` (change directory) command followed by the directory path. For example: `cd C:\Users\kiddm\Downloads` [Enter].
-3. Rename PRPR19.docx:
-   * Mac: `mv oldfilename newfilename`
-   * Windows: `Rename-Item -Path oldfilename -NewName newfilename`
-4. Run a checksum of your file and output the checksum to a plain text file.
-   * Mac: Run command: `md5 filename`. To save the checksum to a file: `md5 filename > md5.txt`
-   * Windows: Run command: `Get-FileHash filename -Algorithm md5 | Format-List`. To save the checksum to a file, replace `| Format-List` with `> md5.txt`
-5. Open PRPR19.docx in the hex editor.
-6. Confirm the file type using magic numbers/file signature as in Task 1.
-7. Examine the ASCII text. Look closer for human-readable elements. Can you identify any useful information from the available ASCII text to learn more about this file?
-8. Change one letter within the ASCII text on the right side. Note the byte position using the "Current Address" feature of the hex editor.
-9. Save the file.
-10. Run and output a new checksum text file; name it md5-1.txt.
-11. Compare your first and second checksums. Are they the same or different?
-12. Change the letter back to the original in the hex editor.
-13. Run and output another checksum text file; name it md5-2.txt. Compare all checksums generated so far.
-14. Open the file in Word or Google Docs (if using Google Docs, import it first). Make a change to the document by deleting or altering a word.
-15. Run and output a new checksum text file; name it md5-3.txt. Compare the checksums again.
-16. Open the file in Word again and undo the change you made. Save the file.
-17. Run and output another checksum text file; name it md5-4.txt. Compare the checksums again.
+1. Use Finder or File explorer to manually rename your DOCX file to something different ([Windows] Right-click or [Mac] Ctrl+click, select "Rename")
+2. Generate a checksum for PRPR19.docx and note it somewhere (tip: Store this, and subsequent checksums, in a text file, as a sort of "running log" of checksums generated. You'll be generating a bunch of checksums for this exercise and comparing them.)
+3. With PRPR19.docx open in HexEd.it, examine the ASCII text to the right of the hex values. There will be some human-readable elements. Can you identify any useful information from the available ASCII text to learn more about this file?
+4. Change 2-3 letters within the ASCII text. Note the letters you changed, and their byte positions using the "Current Address" feature (you can find the current address in the left-hand most pane; scroll about half-way down).
+5. Save the DOCX file using the "Save As" button at the top of HexEd.it.
+6. Run and output a new checksum for PRPR19.docx. Compare your original and newest checksum values. Are they the same or different?
+7. Change the letters back to what they were originally in the hex editor.
+8. Run and output another checksum. It should match your original checksum.
+9. Lastly, I would like you to choose your own file to examine with HexEd.it (what might be fun is looking back on the Data Object you explored in Week 1, but you can also just choose whatever you wish). Make sure whatever you choose is not a DOCX or JPG file. Also, you will need a "sample" file to work with here, meaning:
+  - You will need to have a file on-hand to load in HexEd.it.
+  - ⚠️ _I highly recommend that if you are working with your own files, to **first make a copy of the file**, place it in a separate folder, and load that into HexEd.it. This will help you avoid inadvertently editing your own files by mistake! You may also choose to work with a file you download from the web. I would recommend [https://commons.wikimedia.org/wiki/Main_Page](Wikimedia Commons); scroll down to Content and unroll "By type", where you can browse through and download a variety of different file types)._
+10. Search for your chosen file within PRONOM, look up its file signature characteristics, and then use HexEd.it to locate the signature, and make observations of any other data you see displayed.
 
 ## Submission instructions
 Submit your findings in Brightspace with the following details:
-* Magic number/file signature of IMG_3782.jpg. Confirm filetype.
-* Magic number/file signature of PRPR19.docx. Confirm filetype.
-* List all the checksums you generated:
-  * Original
-  * Letter change (hex)
-  * Letter fixed (hex)
-  * Word change (Word or Google Docs)
-  * Word fixed (Word or Google Docs)
-* Provide a brief summary of any relevant information you are able to pull from ASCII text in the hex editor.
-* Provide a brief summary of findings from corrupting the bitstream of your file in both the text and hex editors.
+* How did this activity go for you, in general?
+* What file format did you choose for steps 9 and 10? For your chosen file, please answer:
+  - What are the characteristics of its file signature (sometimes also called "magic number")?
+  - Were you able to locate its signature within HexEd.it?
+  - Were there other interesting artifacts you found, such as human-readable metadata within the ASCII details that you saw in HexEd.it? What were they?
+
+## Share your findings
+Next week, we will discuss your chosen file format types, and how that went for you in HexEd.it.
