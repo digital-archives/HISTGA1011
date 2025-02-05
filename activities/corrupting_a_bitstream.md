@@ -28,8 +28,6 @@ The goal of the "Corrupting a Bitstream" exercise is to introduce you to using a
 ## Task 2
 ### Corrupt some bitstreams!
 
-**Use the .docx file from Task 1 for the remainder of the activity.**
-
 #### Fundamentally change a file's bitstream using hex and text editors
 
 1. Generate a checksum for PRPR19.docx and note it somewhere (tip: Store this, and subsequent checksums, in a text file, as a sort of "running log" of checksums generated.)
