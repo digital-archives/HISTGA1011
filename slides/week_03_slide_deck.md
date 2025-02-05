@@ -662,6 +662,11 @@ Digital forensics techniques are often deployed because storage media can contai
 
 ---
 
+## Question
+### Why might an archivist need to identify the file formats present in a specific accession?
+
+---
+
 ## Definition
 # File Format
 
@@ -676,25 +681,6 @@ When we are working with media containing files, it is very likely that we will 
 But what if an archivist is handling an entire harddrive, containing hundreds or even thousands of files. Performing a technical appraisal at this scale is simply impossible to do manually.
 
 -->
-
----
-
-![Screen capture of the ExifTool graphical user interface (GUI).](img/week_03_exiftool.png)
-
-<!--presenter notes
-
-On screen is an image of ExifTool, which can be used to extract so-called "technical metadata" from a file or group of files.
-
-Archivists can (and do) use tools like this to peer into the technical metadata of a file. Here, we can see things about the file, such as what device it was shot on (a Canon EOS 450D), and other details. This can definitely helpful for appraising individual files.
-
--->
-
----
-
-## Definition
-# Technical Metadata
-
-**Technical metadata** refers to data that describes technical characteristics of a file, such as the file format, file size, provenance (i.e. creation date, last modified date), and other details.
 
 ---
 
@@ -726,24 +712,11 @@ And another tool! Siegfried also does bulk identifying, but is known to be nimbl
 
 ---
 
-## Question
-### Why might an archivist need to identify the file formats present in a specific accession?
-
----
-
-# Born-Digital Appraisal Considerations
+# Born-Digital Appraisal Considerations Raised by File Format Analysis
 __Question 1:__ Do we have the tools to extract the record off the media?
-__Question 2:__ Can we preserve/maintain the various file formats, as-is, or through normalization?
+__Question 2:__ Can we preserve/maintain the various file formats, as-is, or through normalization (**Normalization** refers to the process of converting a digital object into a persistent file format.)
 __Question 3:__ Can we provide access to the record?
 __Question 4:__ Do these records speak to our collection development policy, or its overall goals?
-__Question 5:__ Do we have access to the creator/organization, who can provide us context as far as who and how records are being created?
-
----
-
-## Definition
-# Normalization
-
-**Normalization** refers to the process of converting a digital object into a persistent file format.
 
 ---
 
