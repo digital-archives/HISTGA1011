@@ -242,8 +242,8 @@ style: |
 
 # Announcements
 
-_Feel free to email me with any announcements you would like me to boost (upcoming conferences, webinars, trainings, or other events/topics of interest)._
-
+- I recommend that you open up the slides for this week and follow along (there will be links to click on that will be easier than typing in long, unwieldy URLs)
+- 
 ---
 
 # Digital Archives Systems
@@ -504,6 +504,8 @@ general digital preservation object types like “audio” or “ebook” on the
 <img src="img/week_04_knit.gif">
 
 <!--presenter notes
+
+Image from GIF Cities (https://web.archive.org/web/20091027084349/http://hk.geocities.com/kieou/3.htm)
 
 In the early days of digital archiving and preservation, a variety of platforms emerged, to better automate, standardize and streamline various processes. Systems like ArchivesSpace emerged, designed with the intention of enabling archivists to accession collections, describe them accurately, and create and publish finding aids. Yet, these systems were built in isolation, tailored to specific tasks without consideration for the full lifecycle of digital records.
 
@@ -882,7 +884,7 @@ The underlying protocol used on the web to exchange data between computers using
 
 # https://thebestestwebsite.net/
 
-Translation: "Using the__Hypertext Transfer Protocol Secure (HTTPS)__, retrieve the contents of the resource specified after the Uniform Resource Identifier marker (`://`) (e.g., `thebestwebsite.net`) and render it on my screen."
+Translation: "Using the **Hypertext Transfer Protocol Secure (HTTPS)**, retrieve the contents of the resource specified after the Uniform Resource Identifier marker (`://`) (e.g., `thebestwebsite.net`) and render it on my screen."
 
 <!--presenter notes
 
@@ -983,86 +985,51 @@ Common methods include GET, POST, PUT, and DELETE.
 </table>
 
 ---
-# Python Code Snippet Using APIs
 
-```
-# Import the library that allows you to use APIs
-import requests
+<div class="shapes">
+  <div class="triangle"></div>
+  <span class="circle"></span>
+  <span class="square"></span>
+</div>
 
-# Form the URL through which we will make a request
-url = 'https://archivesspace-staff.nypl.org/repositories/'
+<div class="activity-title">Mini Activity - API</div>
 
-# Make a GET request through the URL and store the data in memory
-response = requests.get(url)
+_Try out the Library of Congress' API._
 
-# Check if the request was successful
-if response.status_code == 200:
-    # Take the data and print it on screen
-    users = response.json()
-    print(users)
-    # If not successful, let me know
-else:
-    print(f'Failed to get data, sorry! Status code: {response.status_code}')
-
-```
-<!--presenter notes
-
-Here’s some Python code!  
-Python is a widely-used programming language, popular in many fields, including digital preservation and archives.
-
-This code snippet starts off with "import requests". What this means is that we are importing what's known in programming as a "library" of functionality that allows us to make API "calls" to ArchivesSpace. You can think of a library as a cookbook filled with recipes you can use to make a meal. Similarly, a library has a bunch of little pre-written code snippets we can use to call up a computer and ask things of it.
-
-In this example, I am queringy the ArchivesSpace API and asking it to return a list of repositories. So let's say I was querying the NYU ASpace API, it would return a list of repositories that use ASpace here, like Fales or Taimament.
-
-Of course, you could do this manually. You could visit the ASpace NYU website, and click on the Repositories dropdown, and then just re-type a list of the repositories listed there. Easy enough: but automating this cuts down on errors and is faster, especially if you are doing it multiple times.
-
-In my code, notice how tacked on at the end of the NYPL ASpace URL is "/repositories/". This is what I mean by how REST uses HTTP: Here, you are basically saying, at this address, open this particular door to the repositories room, and GET me information about repositories.
-
--->
-
----
-# JavaScript Object Notation (JSON)
-
-```
-[
-
-  {
-  "id": 1,
-  "name": "Manuscripts and Archives Division",
-  "uri": "/repositories/2",
-  "repo_code": "MSS",
-  "location": "Stephen A. Schwarzman Building"
-  },
-
-  {
-  "id": 2,
-  "name": "Rare Books Division",
-  "uri": "/repositories/3",
-  "repo_code": "RBD",
-  "location": "Stephen A. Schwarzman Building"
-  },
-
-  { ...etc
-```
-
-<!--presenter notes
-
-APIs return data in what is known as JavaScript Object Notation, or JSON (pronounced kind of like the name "Jason"). If you are seeing JSON for the first time it may look a bit strange at first, especially because of the brackets and curly braces. But look a bit closer and you'll also not only see human-readable information, but also a kind of repeating structure. Each repository (Manuscripts and Archives Division, Rare Books Division) and its associated data is contained within a pair of curly braces {}.
-
--->
+<ul class="activity-list">
+<li>Open any web browser.</li>
+<li>Copy and paste this URL in your search bar: <a href="https://www.loc.gov/search/?q=maps&fo=json" target="_blank">https://www.loc.gov/search/?q=maps&fo=json</a></li>
+<li>Check the "pretty-print" option (may not be available on your browser)
+</ul>
 
 ---
 
 ## Definition
 # JavaScript Object Notation (JSON)
 
-__JavaScript Object Notation (JSON)__ is a data interchange format that is easy for both humans and machines to parse and use.
+**JavaScript Object Notation (JSON)** (pronounced "jay-sohn") is a data interchange format that is easy for both humans and machines to parse and use.
 
 <!--presenter notes
 
 JavaScript Object Notation (JSON) is a lightweight data-interchange format that is easy for humans to read and write and easy for machines to parse.
 
 -->
+
+---
+
+
+<div class="shapes">
+  <div class="triangle"></div>
+  <span class="circle"></span>
+  <span class="square"></span>
+</div>
+
+<ul class="activity-list">
+<li>Try changing the search term by replacing "maps" with "photographs" <a href="https://www.loc.gov/search/?q=photographs&fo=json" target="_blank">https://www.loc.gov/search/?q=photographs&fo=json</a>
+<li>Next, search for photographs from the 1900s: <a href="https://www.loc.gov/search/?q=photographs&fo=json&fa=partof:prints%20and%20photographs&dates=1900-1999
+" target="_blank">https://www.loc.gov/search/?q=photographs&fo=json&fa=partof:prints%20and%20photographs&dates=1900-1999
+</a>
+</ul>
 
 ---
 
