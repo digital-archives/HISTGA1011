@@ -3,21 +3,230 @@ marp: true
 theme: gaia
 size: 16:9
 paginate: true
+mermaid: true
+
 style: |
-  img {
-    max-width: 80%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-  }
-  span.emoji {
-    display: inline;
-    margin: 0;
-  }
+ img {
+ max-width: 100%;
+ max-height: 100%;
+ height: auto;
+ width: auto;
+ display: block;
+ margin: 0 auto;
+ }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        font-size: 28px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    .box {
+        padding: 15px 25px;
+        border-radius: 8px;
+        font-weight: bold;
+        text-align: center;
+        min-width: 200px;
+        position: relative;
+        font-size: 30px;
+    }
+    .file { background-color: #e67e22; color: white; }
+    .container-box { background-color: #27ae60; color: white; min-width: 260px; }
+    .codec { background-color: #e57373; color: white; min-width: 280px; }
+
+    /* Symbols */
+    .equals, .plus { font-size: 36px; }
+
+    /* Descriptions */
+    .description {
+        font-size: 22px;
+        font-weight: normal;
+        text-align: center;
+        color: black;
+        margin-top: 8px;
+        background: rgba(255, 255, 255, 0.6);
+        padding: 6px;
+        border-radius: 5px;
+    }
+
+    /* File name under Media File */
+    .filename {
+        margin-top: 10px;
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    /* Bullet Lists Inside Boxes */
+    .container-box ul, .codec ul {
+        list-style-type: disc;
+        text-align: left;
+        font-size: 24px;
+        margin-top: 10px;
+        padding-left: 20px;
+    }
+
+ th {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: black !important;
+  background-color: #f4f4f4 !important;
+  border-bottom: 2px solid black;
+ }
+
+ .mermaid {
+ max-width: 100%;
+ overflow: hidden;
+ }
+
+ .custom-title {
+ text-align: center;
+ font-size: 2rem;
+ color: #0044cc;
+ font-weight: bold;
+ }
+ 
+ table, td, th, ul {
+ background: rgba(0, 0, 0, 0) !important;
+ border: none !important;
+ }
+
+ .pink-box {
+ background-color: #d184c2;
+ color: white;
+ padding: 20px;
+ border-radius: 5px;
+ font-weight: bold;
+ text-align: center;
+ box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+ }
+
+ .green-box {
+ background-color: #a2c9a5;
+ padding: 20px;
+ border-radius: 5px;
+ font-weight: bold;
+ text-align: center;
+ box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+ margin: 10px;
+ }
+
+ .row {
+ display: flex;
+ justify-content: space-around;
+ margin-bottom: 20px;
+ }
+
+ .quote {
+ font-size: 1.2rem;
+ font-style: italic;
+ text-align: left;
+ line-height: 1;
+ color: #4a4a4a;
+ margin: 0 auto;
+ width: 100%;
+ }
+
+ .author {
+ font-size: 1.0rem;
+ text-align: right;
+ margin-top: 20px;
+ color: #6a6a6a;
+ }
+
+ .work {
+ font-size: 1rem;
+ text-align: right;
+ color: #8a8a8a;
+ }
+
+ .slide-title {
+ text-align: center;
+ color: #2e7d32;  font-size: 2rem;
+ font-weight: bold;
+ margin-bottom: 30px;
+ }
+ 
+ .takeaway {
+ display: flex;
+ align-items: flex-start;
+ margin-bottom: 20px;
+ gap: 15px;
+ }
+
+ .circle {
+ background-color: #2e7d32;  color: white;
+ font-size: 1.5rem;
+ font-weight: bold;
+ width: 50px;
+ height: 50px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-radius: 50%;
+ flex-shrink: 0;
+ }
+ .content {
+ flex-grow: 1;
+ }
+ .content h2 {
+ margin: 0;
+ color: #2e7d32;  font-size: 1.2rem;
+ }
+ .content p {
+ margin: 5px 0 0;
+ font-size: 1rem;
+ color: #4a4a4a; }
+
+ .activity-title {
+ text-align: center;
+ color:rgb(144, 0, 255);  font-size: 2rem;
+ margin-bottom: 20px;
+ font-weight: bold;
+ }
+ .shapes {
+ text-align: center;
+ margin-bottom: 30px;
+ }
+ .shapes span {
+ display: inline-block;
+ margin: 0 10px;
+ width: 30px;
+ height: 30px;
+ border-radius: 50%;
+ }
+ .triangle {
+ width: 0;
+ height: 0;
+ border-left: 15px solid transparent;
+ border-right: 15px solid transparent;
+ border-bottom: 30px solid #ffb347;  display: inline-block;
+ margin: 0 10px;
+ }
+ .circle {
+ background-color: #00c0ff; }
+ .square {
+ width: 30px;
+ height: 30px;
+ background-color: #ff6767; }
+ .activity-list {
+ font-size: 1.1rem;
+ line-height: 1.1;
+ color:rgb(81, 0, 168);  margin-left: 20px;
+ }
+ .activity-list li {
+ margin-bottom: 10px;
+ }
+ .activity-list li strong {
+ color:rgb(235, 133, 133); }
+
 ---
 
 # Week 4
-## Digital Repository Systems
+## Digital Archives Systems
 
 ---
 
@@ -44,7 +253,7 @@ _Feel free to email me with any announcements you would like me to boost (upcomi
 ## Definition
 # Archival Repository
 
-An__archival repository__ describes a physical location where an archive stores the physical holdings of their collection. Ideally, this is a secure and stable environment to combat against risk of damage from threats like water, heat and pests over the long-term both in service of preservation and access/retrieval.
+An archival **repository** describes a physical location where an archive stores the physical holdings of their collection. Ideally, this is a secure and stable environment to combat against risk of damage from threats like water, heat and pests over the long-term both in service of preservation and access/retrieval.
 
 <!--presenter notes 
 
@@ -54,12 +263,12 @@ Let’s start with a definition we are all probably fairly familiar with at this
 
 ---
 
-## Definition
-# Digital Repository
+<div class="quote">
+“A <b>digital repository</b> is like the electronic equivalent of the library stacks; digital items are organized and searchable there, and they have a specific, persistent location so repository managers maintain intellectual control and researchers can find what they’re looking for. A digital repository does more than simply house digital objects online, it preserves their integrity in the long term.”
+</div>
 
-“A__digital repository__ is like the electronic equivalent of the library stacks; digital items are organized and searchable there, and they have a specific, persistent location so repository managers maintain intellectual control and researchers can find what they’re looking for. A digital repository does more than simply house digital objects online, it preserves their integrity in the long term.”
-
-– Rachael Zipperer, Masters Candidate at the University of Texas School of Information, 2019
+<div class="author">Rachael Zipperer</div>
+<div class="work">Masters Candidate at the University of Texas School of Information, 2019</div>
 
 <!--presenter notes 
 
@@ -73,119 +282,175 @@ The way digital repositories are set up, managed and maintained in many ways are
 
 ---
 
-# System Functions
-- Drive digital preservation workflows
-- Manage deposits into repository
-- Manage metadata workflows, taxonomies
-- Manage digital assets
-- Descriptive system of record
-- Descriptive or archival processing
-- Collection management
-- Public-facing interface
+## Definition
+# Technology Stack
+
+A **technology stack** (or just "stack" for short) refers to a layered set of technologies or systems that work together in a structured way.
 
 ---
+### **System Types in a Digital Archives Systems Stack**  
 
-# Islandora
-### Open-source digital asset management system
-#### Key Functions:
-- Provides a dynamic, modern front-end based on Drupal for end-users, and a SOLR search engine
-- Uses Fedora for back-end to manage preservation objects
+<div style="display: flex; justify-content: space-between;">
 
-<!--presenter notes
+<table>
+<tr><th></th><th align=left>System Type</th></tr>
+<tr><td>📖</td><td>Descriptive & Bibliographic</td></tr>
+<tr><td>🖼️</td><td>Digitization Workflow</td></tr>
+<tr><td>🏛️</td><td>Digital Preservation</td></tr>
+<tr><td>🌍</td><td>Public Access & Discovery</td></tr>
+<tr><td>📂</td><td>Metadata Management</td></tr>
+</table>
 
-Digital preservation systems drive workflows specific to ingest, processing, auditing and analyzing digital objects entering into, being stored within, and being delivered from a digital repository. Many digital preservation systems take their queues from or
-are directly modeled after the OAIS Reference Model. For a weekly activity, you will be testing out one widely-used digital preservation system called Archivematica.
+<table>
+<tr><th></th><th align=left>System Type</th></tr>
+<tr><td>🎛️</td><td>Media Viewers</td></tr>
+<tr><td>📊</td><td>Research Data Repositories</td></tr>
+<tr><td>🔐</td><td>Rights & Access Control</td></tr>
+<tr><td>📝</td><td>Workflow & Project Mgmt</td></tr>
+<tr><td>🏷️</td><td>Request & Patron Services</td></tr>
+</table>
 
--->
-
----
-
-# Solr
-#### Open-source search platform
-
-Key Functions:
-- Provides fast index-driven website search capability
-
----
-
-## Fedora
-
-### Key Function:
-- Manage data objects on the "back-end"
-
-### Examples:
-- Fedora
-- DSpace (specific to institutional repositories)
-
-<!--presenter notes
-
-Digital preservation systems drive workflows specific to ingest, processing, auditing and analyzing digital objects entering into, being stored within, and being delivered from a digital repository. Many digital preservation systems take their queues from or
-are directly modeled after the OAIS Reference Model. For a weekly activity, you will be testing out one widely-used digital preservation system called Archivematica.
-
--->
-
----
-
-<div style="width: 100%; padding: 20px; border: 2px solid #000; text-align: center; font-size: 24px; font-weight: bold; background-color: #f0f0f0;">
-Digital Preservation System
 </div>
 
-### Key Function:
-- Manage digital preservation workflows
+---
 
-### Examples:
-- Preservica
-- Islandora
-- Rosetta
-
-<!--presenter notes
-
-Institutional repositories (sometimes shortened to "IR") manage submission workflows of digital works and provides access to various communities to these works. Institutional repositories are very common at university and other research-focused institutions, and are used to manage and provide access to things like scholarly articles, theses and dissertations, and other research outputs. A good example of an institutional repository system is DSpace, developed in the early 2000s by MIT.
-
--->
+# Digital Archives Systems Stack  
+Understanding how different systems interact in a digital archives environment.
 
 ---
 
-<div style="width: 100%; padding: 20px; border: 2px solid #000; text-align: center; font-size: 24px; font-weight: bold; background-color: #f0f0f0;">
-  Digital Asset Management System (DAMS)
-</div>
+## 📖 Descriptive & Bibliographic  
+**Role:** Descriptive system of record
 
-### Key Features:
-- Streamlines digital content management
-- Specific to files produced from digitization and/or born-digital files (images, audio, video)
-
-### Examples:
-- Orange Logic, ResourceSpace
-
-<!--presenter notes
-
-Digital Asset Management Systems (DAMS) streamline processes involved in managing digital content, including description, tracking, discovery, retrieval,
-searching, and distribution of collections of digital objects. Unlike an institutional repository, a DAMS typically will be set up to handle formats beyond research outputs, such as images, audio and video formats. Examples: ResourceSpace
-
--->
+- Organizes materials using metadata standards
+- Provides controlled vocabularies for consistency
+- Links related records for better navigation
+- Supports discovery in catalogs and finding aids
 
 ---
 
-<div style="width: 100%; padding: 20px; border: 2px solid #000; text-align: center; font-size: 24px; font-weight: bold; background-color: #f0f0f0;">
-  Archival Management Systems
-</div>
+## 🖼️ Digitization Workflow  
+**Role:** Manage scanning and reformatting workflows
 
-### Key functions:
-- Maintain descriptive and arrangement data
-- Produce finding aids
-- Public user interface for search and discovery
-- Collection management (acquisition, accession and location data)
+- Manages file creation
+- Packages files for preservation and access
+- Supports quality control
+- Tracks progress of projects
 
-### Examples:
-- ArchivesSpace
-- Archivist ToolKit (AT)
+---
 
-<!--presenter notes
+## 🏛️ Digital Preservation  
+**Role:** Actively ensures the long-term accessibility, integrity, and authenticity of digital assets.  
 
-Content Management Systems (CMS) are database applications intended to maintain descriptive and administrative metadata about the physical and digital
-collections including records of provenance, acquisition, archival description, rights and location management. Some CMSs allow for storage of digital surrogates for access and management of collections NOT for digital preservation.
+- Detects & prevents data corruption  
+- Migrates file formats for future readability  
+- Protects against loss with redundant storage  
+- Tracks provenance & authenticity  
+- Balances security & usability  
 
--->
+---
+
+## 🌍 Public Access & Discovery  
+**Role:** Provides user-facing tools to search, browse, and access digital materials.  
+
+- Aggregates metadata from multiple sources  
+- Enables dynamic searching  
+
+---
+
+## 📂 Metadata Management  
+**Role:** Standardizes, transforms, and distributes metadata across systems.  
+
+- Normalizes metadata for consistency, standardization and accessibility
+- Maps fields between different schemas
+- Supports automated workflows & interoperability  
+
+---
+
+## 🎛️ Media Viewers  
+**Role:** Renders digital objects for users in access systems.  
+
+- Displays images, documents, and audio/visual, born-digital, and other files  
+- Supports zooming, annotations, and side-by-side comparisons  
+- Provides accessibility features such as transcription
+
+---
+
+## 📊 Research Data Repositories  
+**Role:** Stores, manages, and provides access to research datasets.  
+
+- Preserves datasets for long-term access  
+- Supports metadata-rich dataset descriptions  
+- Enables versioning & citation via DOIs  
+- Facilitates sharing under access policies  
+
+---
+
+## 🔐 Rights & Access Control  
+**Role:** Manages permissions, restrictions, and copyright compliance for digital content.  
+
+- Controls who can view, edit, or download files  
+- Implements embargoes & access tiers  
+- Tracks copyright & licensing information  
+- Supports authentication & authorization  
+
+---
+
+## 📝 Workflow & Project Management  
+**Role:** Tracks digitization, preservation, and archival processing workflows.  
+
+- Organizes tasks & project timelines including handoffs between various systems
+- Assigns roles & responsibilities
+- Logs progress for accountability
+- Connects with metadata & preservation systems
+
+---
+
+## 🏷️ Request & Patron Services  
+**Role:** Manages user requests for archival materials and digital reproductions.  
+
+- Facilitates access to restricted materials  
+- Tracks user requests & fulfillment status  
+- Schedules reading room appointments  
+- Interfaces with discovery & archival systems  
+
+---
+
+<img src="img/week_04_yale_diagram.png">
+
+---
+<style>
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 85%;
+    border: 1px solid #ddd; /* Ensures a visible outer border */
+}
+th, td {
+    padding: 10px 15px;
+    text-align: left;
+    border: 1px solid #ddd; /* Adds a border to each cell */
+}
+th {
+    background-color: #f4f4f4; /* Light gray background for headers */
+}
+
+</style>
+<table><tr><th>System Type</th><th>Yale System(s)</th></tr>
+    <tr><td>📖 Descriptive & Bibliographic</td><td>ArchivesSpace, Alma, Sierra</td></tr>
+    <tr><td>🖼️ Digitization Workflow</td><td>Goobi, ICE</td></tr>
+    <tr><td>🏛️ Digital Preservation</td><td>Preservica</td></tr>
+    <tr><td>🌍 Public Access & Discovery</td><td>Blacklight, QuickSearch</td></tr>
+    <tr><td>📂 Metadata Management</td><td>Metadata Cloud, DCS SOLR</td></tr>
+    <tr><td>🎛️ Media Viewers</td><td>Aviary, IIIF</td>
+    </tr>
+    <tr><td>📊 Research Data Repositories</td><td>Dataverse</td></tr>
+    <tr><td>🔐 Rights & Access Control</td><td>Management App</td></tr>
+    <tr><td>📝 Project Management</td><td>Sharepoint, spreadsheets</td></tr>
+    <tr><td>🏷️ Reading room/patron requests</td><td>Aeon</td></tr>
+</table>
+
+
 
 ---
 
