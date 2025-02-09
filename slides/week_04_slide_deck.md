@@ -296,6 +296,7 @@ A **technology stack** (or just "stack" for short) refers to a layered set of te
 <tr><th></th><th align=left>System Type</th></tr>
 <tr><td>📖</td><td>Descriptive & Bibliographic</td></tr>
 <tr><td>🖼️</td><td>Digitization Workflow</td></tr>
+<tr><td>📁</td><td>Digital Asset Management</td></tr>
 <tr><td>🏛️</td><td>Digital Preservation</td></tr>
 <tr><td>🌍</td><td>Public Access & Discovery</td></tr>
 <tr><td>📂</td><td>Metadata Management</td></tr>
@@ -304,7 +305,7 @@ A **technology stack** (or just "stack" for short) refers to a layered set of te
 <table>
 <tr><th></th><th align=left>System Type</th></tr>
 <tr><td>🎛️</td><td>Media Viewers</td></tr>
-<tr><td>📊</td><td>Research Data Repositories</td></tr>
+<tr><td>📊</td><td>Repository Storage & Access</td></tr>
 <tr><td>🔐</td><td>Rights & Access Control</td></tr>
 <tr><td>📝</td><td>Workflow & Project Mgmt</td></tr>
 <tr><td>🏷️</td><td>Request & Patron Services</td></tr>
@@ -336,6 +337,16 @@ Understanding how different systems interact in a digital archives environment.
 - Packages files for preservation and access
 - Supports quality control
 - Tracks progress of projects
+
+---
+
+## 📁 Digital Asset Management (DAM)  
+**Role:** Organize, store, and manage digital assets for access and reuse  
+
+- Centralizes storage for digital assets  
+- Enables metadata-driven search and retrieval  
+- Supports version control and asset tracking  
+- Facilitates integration with preservation and access systems 
 
 ---
 
@@ -376,13 +387,13 @@ Understanding how different systems interact in a digital archives environment.
 
 ---
 
-## 📊 Research Data Repositories  
-**Role:** Stores, manages, and provides access to research datasets.  
+## 📊 Repository Storage & Access  
+**Role:** Manages the storage, organization, and retrieval of digital objects for long-term access and use.
 
-- Preserves datasets for long-term access  
-- Supports metadata-rich dataset descriptions  
-- Enables versioning & citation via DOIs  
-- Facilitates sharing under access policies  
+- Stores and organizes digital objects for preservation and retrieval
+- Maintains metadata to ensure discoverability and context
+- Supports versioning & persistent identifiers (e.g., DOIs, ARKs) for citation and long-term reference
+- Integrates with discovery and access systems to connect stored objects with descriptive records  
 
 ---
 
@@ -420,20 +431,28 @@ Understanding how different systems interact in a digital archives environment.
 
 ---
 <style>
-  table {
+
+table {
     width: 100%;
-    border-collapse: collapse;
+    border-collapse: collapse; /* Ensures no extra spacing between borders */
+    border-spacing: 0; /* Explicitly removes gaps */
     font-size: 85%;
-    border: 1px solid #ddd; /* Ensures a visible outer border */
+    border: 2px solid black; /* Ensures a visible outer border */
 }
+
 th, td {
     padding: 10px 15px;
     text-align: left;
-    border: 1px solid #ddd; /* Adds a border to each cell */
+    border: 1px solid black !important;
+    border-style: solid;
 }
+
 th {
-    background-color: #f4f4f4; /* Light gray background for headers */
+    background-color: #f4f4f4;
+    border-bottom: 2px solid black;
 }
+
+
 
 </style>
 <table><tr><th>System Type</th><th>Yale System(s)</th></tr>
@@ -444,7 +463,7 @@ th {
     <tr><td>📂 Metadata Management</td><td>Metadata Cloud, DCS SOLR</td></tr>
     <tr><td>🎛️ Media Viewers</td><td>Aviary, IIIF</td>
     </tr>
-    <tr><td>📊 Research Data Repositories</td><td>Dataverse</td></tr>
+    <tr><td>📊 Repository Storage & Access</td><td>Dataverse</td></tr>
     <tr><td>🔐 Rights & Access Control</td><td>Management App</td></tr>
     <tr><td>📝 Project Management</td><td>Sharepoint, spreadsheets</td></tr>
     <tr><td>🏷️ Reading room/patron requests</td><td>Aeon</td></tr>
@@ -479,43 +498,10 @@ general digital preservation object types like “audio” or “ebook” on the
 
 ---
 
-## Definition
-# Software as a Service (SaaS)
+# Integrating Systems
+## How to Knit Software Systems Together
 
-__Software as a Service (SaaS)__ refers to any system that provides its services via the cloud. Rather than having to download software on your desktop PC, you can access this software using an internet browser. The software and all its data are hosted and maintained on remote servers by a third-party provider.
-
-A popular archives-specific example of a SaaS platform is ArchivesSpace. Other examples include Google Drive, Zoom
-
-<!--presenter notes
-
-There are a lot of benefits to using a SaaS system. 
-1. Users can access SaaS applications through a web browser, from any device with an internet connection.
-2. Maintenance-Free: The service provider manages updates, patches, and security, so users don't need to worry about maintenance.
-3. Scalability: Users can scale up or down based on their needs, adjusting usage or subscription plans easily.
-
-SaaS eliminates the need for users to install, manage, and maintain software, making it a convenient and cost-effective solution for many businesses and individuals.
-
--->
-
----
-
-## Definition
-# On-premesis hosting
-
-Sometimes shortened to "on-prem", some institutions resort to hosting their own systems, which means they take responsibility for its maintenance and upgrades.
-
----
-
-## Definition
-# Open source
-
-__Open source__ refers to software whose source code is made available to the public, allowing anyone to view, modify, distribute, and use it. The key idea behind open-source software is that it promotes collaboration and transparency, enabling developers and users to contribute to its improvement, adapt it to their needs, and share it freely.
-
-Example: ArchivesSpace
-
----
-
-# Interoperability and Integrations
+<img src="img/week_04_knit.gif">
 
 <!--presenter notes
 
@@ -524,6 +510,9 @@ In the early days of digital archiving and preservation, a variety of platforms 
 -->
 
 ---
+
+# Question
+## Why might one digital archives system need to communicate with another?
 
 <!--presenter notes
 
@@ -541,32 +530,33 @@ digital representations back to their descriptions in ArchivesSpace.
 
 ---
 
-# Implications of Siloed Systems
+## Scenario: Digitizing Handwritten Letters
+Imagine an institution selects a set of handwritten letters for digitization. The process unfolds like this:
 
-* Higher chance of human error
-* Hard to maintain and troubleshoot
-* Double (or triple... or more) data entry
+1️. **Description:** The letters are accessioned and described in ASpace.
+2. **Digitization Request:** A curator requests that the letters be digitized so researchers can search the text.
+3. **Scanning & Processing:** Letters are scanned.
+4. **Storage & Preservation:** Digital files are transferred separately to digital repository for long-term storage.
+5️. **Manual Linking:** ASpace links to photographs manually updated.
 
-Currently, we are seeing more efforts across the field to better integrate systems to "talk" to one another.
+---
 
-<!--presenter notes
-
-This disjointed approach introduced several challenges:
-
-- The risk of human error was high, as manual processes dominated the linking of digital objects to their metadata.
-- Maintaining the integrity and accessibility of these digital archives over time becomes a Herculean task. For example, if you are using 4-5 systems and one system gets an upgrade, this can have a cascading effect on the other systems on which it depends, and one system may become incompatible with another.
-- This also means you are entering the same information more than once across multiple systems. For example, the box number you enter into ArchivesSpace may need to be copied and pasted into another system. This increases drag, staff frustration, and introduces more opportunities for human error.
-- Furthermore, the consistency and completeness of metadata across systems are perpetually at risk, compromising the discoverability and utility of these invaluable digital resources.
-
--->
+# Challenges of Disconnected Systems
+❌ High Risk of Human Error: Manual updates encourage mistakes.
+❌ Difficult Maintenance: If one system updates, it may break connections with others.
+❌ Redundant Data Entry: The same information (e.g., box number) is entered multiple times across systems.
+❌ Inconsistent & Fragmented Metadata: Metadata stored in different systems may not align, reducing discoverability.
 
 ---
 
 ## Definition
 # Systems Integration
 
-“A functional coupling between software applications to act as a coordinated whole.”
-Max Eckard, Making Your Tools Work for You
+<br>
+<div class="quote">"A functional coupling between software applications to act as a coordinated whole."</div>
+
+<div class="author">Max Eckard</div>
+<div class="work">Making Your Tools Work for You</div>
 
 <!--presenter notes
 
@@ -597,17 +587,43 @@ Let’s explore each of these systems further.
 
 ---
 
+<div style="display: flex; justify-content: space-between;">
+
+<table>
+<tr><th></th><th align=left>System Type</th></tr>
+<tr><td style="background-color: yellow !important; font-weight: bold;">📖</td><td style="background-color: yellow !important; font-weight: bold;">Descriptive & Bibliographic (ArchivesSpace)</td></tr>
+<tr><td>🖼️</td><td>Digitization Workflow</td></tr>
+<tr><td>📁</td><td>Digital Asset Management</td></tr>
+<tr><td style="background-color: yellow !important; font-weight: bold;">🏛️</td><td style="background-color: yellow !important; font-weight: bold;">Digital Preservation (Archivematica)</td></tr>
+<tr><td>🌍</td><td>Public Access & Discovery</td></tr>
+<tr><td>📂</td><td>Metadata Management</td></tr>
+</table>
+
+<table>
+<tr><th></th><th align=left>System Type</th></tr>
+<tr><td>🎛️</td><td>Media Viewers</td></tr>
+<tr><td style="background-color: yellow !important; font-weight: bold;">📊</td><td style="background-color: yellow !important; font-weight: bold;">Repository Storage & Access (DSpace)</td></tr>
+<tr><td>🔐</td><td>Rights & Access Control</td></tr>
+<tr><td>📝</td><td>Workflow & Project Mgmt</td></tr>
+<tr><td>🏷️</td><td>Request & Patron Services</td></tr>
+</table>
+
+</div>
+
+
+---
+
 <img src="img/week_04_archivematica.png">
 
 ---
 
-## Digital Preservation System
+## 🏛️ Digital Preservation System
 # Archivematica
 
-* Web/browser-based
+* Web browser-based (aka "SaaS")
 * Open source
 * Modeled after OAIS
-* Knits together various__microservices__ to get lots of small and large jobs done, in a specific order
+* Knits together various <a href="https://wiki.archivematica.org/Getting_started#Projects" target="_blank">services/projects</a> to get lots of small and large jobs done, usually in a specific order, and following specific rules set by the institution.
 
 <!--presenter notes
 
@@ -616,9 +632,38 @@ Let’s explore each of these systems further.
 ---
 
 ## Definition
+# Software as a Service (SaaS)
+
+__Software as a Service (SaaS)__ refers to any system that provides its services via the cloud. Rather than having to download software on your computer, you can access this software using a web browser. The software and all its data are hosted and maintained on remote servers by a third-party provider.
+
+<!--presenter notes
+
+A popular archives-specific example of a SaaS platforms are Archivematica, ArchivesSpace. A SaaS service you might be Google Drive, Zoom.
+
+There are a lot of benefits to using a SaaS system. 
+1. Users can access SaaS applications through a web browser, from any device with an internet connection.
+2. Maintenance-Free: The service provider manages updates, patches, and security, so users don't need to worry about maintenance.
+3. Scalability: Users can scale up or down based on their needs, adjusting usage or subscription plans easily.
+
+SaaS eliminates the need for users to install, manage, and maintain software, making it a convenient and cost-effective solution for many businesses and individuals.
+
+-->
+
+---
+
+## Definition
+# Open source
+
+**Open source** refers to software whose source code is made available to the public, allowing anyone to view, modify, distribute, and use it. The key idea behind open-source software is that it promotes collaboration and transparency, enabling developers and users to contribute to its improvement, adapt it to their needs, and share it freely.
+
+Example: <a href="https://github.com/artefactual/archivematica" target="_blank">https://github.com/artefactual/archivematica</a>
+
+---
+
+## Definition
 # Microservice
 
-A__microservice__ is an application responsible for performing a single function.
+A **microservice** is an application responsible for performing a single function.
 
 <!--presenter notes
 
@@ -632,36 +677,43 @@ Instead, CDL proposed that “small, relatively simple utilities would pose fewe
 
 ---
 
-# Microservices Examples
+# Archivematica Projects Examples
 
-<table>
-<tr>
-<td>
+<style>
+  table, th, td {
+    border: none !important;
+    border-collapse: collapse;
+  }
+  td {
+    padding: 10px;
+    vertical-align: top;
+  }
+  h2 {
+    margin: 5px 0;
+    padding: 0;
+  }
+</style>
 
-## Identity
-Assign a unique identifier
-
-## Storage
+<table><tr><td>
+<h2>Identity</h2>
+Assign a unique identifier  
+<br><br>
+<h2>Storage</h2>
 Transfer data into protected environment
-
-## Fixity
-Verify data integrity over time
-
+<br><br>
+<h2>Fixity</h2>
+Verify data integrity over time  
 </td>
 <td>
-
-## Inventory
-Produce manifests/lists
-
-## Replicate
-Create and distribute redundant copies
-
-## Characterize
-Analyze/report technical metadata
-
-</td>
-</tr>
-</table>
+<h2>Inventory</h2>
+Produce manifests/lists  
+<br><br>
+<h2>Replicate</h2>
+Create and distribute redundant copies  
+<br><br>
+<h2>Characterize</h2>
+Analyze/report on file formats  
+</td></tr></table>
 
 <!--presenter notes
 
@@ -682,8 +734,13 @@ Collections, or bodies of work, are called “resources”. Within each resource
 
 ---
 
-## Archival Management System
+## 📖 Descriptive & Bibliographic System
 # ArchivesSpace (Aspace)
+
+* Web browser-based (aka "SaaS")  
+* Open source  
+* Designed for archival description and collection management  
+* Supports hierarchical description following archival standards (e.g., DACS, EAD, MARC)  
 
 ---
 
@@ -691,8 +748,21 @@ Collections, or bodies of work, are called “resources”. Within each resource
 
 ---
 
-## Institutional Repository
-# DSpace
+## 📊 Repository Storage & Access System  
+# DSpace  
+
+<table><tr><td>
+<ul>
+<li>Web browser-based (aka "SaaS")  
+<li>Open source  
+<li>Designed for managing and providing access to digital objects
+</ul></td>
+<td>
+<ul>
+<li>Supports structured metadata (Dublin Core, MODS) and persistent identifiers (DOIs, Handles)  
+<li>Enables long-term storage, retrieval, and dissemination of digital collections and research outputs
+</ul></td></tr></table>
+
 
 <!--presenter notes
 
@@ -715,13 +785,9 @@ Before we look at the Bentley Library example, we should understand what the DCC
 
 ---
 
-<center><img src="img/week_04_dcc_curation.jpg" style="width: 70%; height: auto;"></center>
+<center><img src="img/week_04_dcc_curation.jpg" style="width: 60%; height: auto;"></center>
 
 <!--presenter notes
-
-Here’s the cleaned-up version of the text:
-
----
 
 The DCC Curation Lifecycle Model provides a high-level graphical overview of the stages required for successful curation and preservation of data, starting from initial conceptualization or receipt. This model can be used to plan activities within an organization or consortium to ensure all necessary stages are undertaken in the correct sequence. 
 
@@ -844,7 +910,7 @@ using a combination of both the HTTP protocol, as well as another protocol known
 ## Definition
 # REpresentational State Transfer (REST)
 
-Representational State Transfer__(REST)__ is a set of instructions that are transmitted between computers using HTTP.
+Representational State Transfer **(REST)** is a set of instructions that are transmitted between computers using HTTP.
 
 Common methods include GET, POST, PUT, and DELETE.
 
@@ -855,12 +921,12 @@ Common methods include GET, POST, PUT, and DELETE.
 <table>
 <tr>
 <td width="50%" valign=top>
-<span style="font-size: 250px;">🖥️
+<span style="font-size: 50px;">🖥️
 <br>Computer A: "Hello, can I <b>GET</b> some information from you?"
 </td>
 
 <td valign=top>
-<span style="font-size: 250px;">🖥️
+<span style="font-size: 50px;">🖥️
 <br>Computer B: "Sure, here you go."
 </td>
 </table>
@@ -872,12 +938,12 @@ Common methods include GET, POST, PUT, and DELETE.
 <table>
 <tr>
 <td width="50%" valign=top>
-<span style="font-size: 250px;">🖥️
+<span style="font-size: 50px;">🖥️
 <br>Computer A: "Hello, can I add a new record?"
 </td>
 
 <td valign=top>
-<span style="font-size: 250px;">🖥️
+<span style="font-size: 50px;">🖥️
 <br>Computer B: "Sure, the record has been added."
 </td>
 </table>
@@ -889,13 +955,13 @@ Common methods include GET, POST, PUT, and DELETE.
 <table>
 <tr>
 <td width="50%" valign=top>
-<span style="font-size: 250px;">🖥️
+<span style="font-size: 50px;">🖥️
 <br>Computer A: "Hello, can I update an existing record?"
 </td>
 
 <td valign=top>
-<span style="font-size: 250px;">🖥️
-<br>Computer B: "Sure, the record is now updated."
+<span style="font-size: 50px;">🖥️
+<br>Computer B: "Sure, the existing record has been updated."
 </td>
 </table>
 
@@ -906,13 +972,13 @@ Common methods include GET, POST, PUT, and DELETE.
 <table>
 <tr>
 <td width="50%" valign=top>
-<span style="font-size: 250px;">🖥️
+<span style="font-size: 50px;">🖥️
 <br>Computer A: "Hello, can I remove this record?"
 </td>
 
 <td valign=top>
-<span style="font-size: 250px;">🖥️
-<br>Computer B: "Sure, the record has been removed."
+<span style="font-size: 50px;">🖥️
+<br>Computer B: "Sure, the record has been deleted."
 </td>
 </table>
 
