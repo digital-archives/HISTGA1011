@@ -223,6 +223,11 @@ style: |
  .activity-list li strong {
  color:rgb(235, 133, 133); }
 
+ .highlighted {
+  background-color: yellow !important;
+  font-weight: bold;
+ }
+
 ---
 
 # Week 4
@@ -243,7 +248,7 @@ style: |
 # Announcements
 
 - I recommend that you open up the slides for this week and follow along (there will be links to click on that will be easier than typing in long, unwieldy URLs)
-- 
+
 ---
 
 # Digital Archives Systems
@@ -288,10 +293,21 @@ The way digital repositories are set up, managed and maintained in many ways are
 A **technology stack** (or just "stack" for short) refers to a layered set of technologies or systems that work together in a structured way.
 
 ---
-### **System Types in a Digital Archives Systems Stack**  
+### **Typical Digital Repository/Archives System Types**  
 
-<div style="display: flex; justify-content: space-between;">
+<style>
+.tables-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 1rem;
+}
+table {
+  width: 100%;
+}
+</style>
 
+<div class="tables-container">
+  
 <table>
 <tr><th></th><th align=left>System Type</th></tr>
 <tr><td>📖</td><td>Descriptive & Bibliographic</td></tr>
@@ -456,17 +472,17 @@ th {
 
 </style>
 <table><tr><th>System Type</th><th>Yale System(s)</th></tr>
-    <tr><td>📖 Descriptive & Bibliographic</td><td>ArchivesSpace, Alma, Sierra</td></tr>
-    <tr><td>🖼️ Digitization Workflow</td><td>Goobi, ICE</td></tr>
-    <tr><td>🏛️ Digital Preservation</td><td>Preservica</td></tr>
-    <tr><td>🌍 Public Access & Discovery</td><td>Blacklight, QuickSearch</td></tr>
-    <tr><td>📂 Metadata Management</td><td>Metadata Cloud, DCS SOLR</td></tr>
-    <tr><td>🎛️ Media Viewers</td><td>Aviary, IIIF</td>
+    <tr><td>📖 Descriptive & Bibliographic</td><td><a href="https://archives.yale.edu/" target="_blank">Archives @ Yale</a>, <a href="https://search.library.yale.edu/" target="_blank">Yale Catalog</a></td></tr>
+    <tr><td>🖼️ Digitization Workflow</td><td><a href="https://www.projects.ed.ac.uk/project/dlib004" target="_blank">Goobi</a></td></tr>
+    <tr><td>🏛️ Digital Preservation</td><td><a href="https://preservica.com/" target="_blank">Preservica</a></td></tr>
+    <tr><td>🌍 Public Access & Discovery</td><td><a href="https://search.library.yale.edu/" target="_blank">QuickSearch</a>, <a href="https://collections.library.yale.edu/" target="_blank">Digital Collections</a></td></tr>
+    <tr><td>📂 Metadata Management</td><td><a href="https://github.com/projectblacklight/blacklight" target="_blank">Metadata Cloud</a></td></tr>
+    <tr><td>🎛️ Media Viewers</td><td><a href="https://avcollections.library.yale.edu/" target="_blank">Aviary</a>, <a href="https://collections.library.yale.edu/catalog/16712418" target="_blank">IIIF</a></td>
     </tr>
-    <tr><td>📊 Repository Storage & Access</td><td>Dataverse</td></tr>
+    <tr><td>📊 Repository Storage & Access</td><td><a href="https://dataverse.yale.edu/" target="_blank">Dataverse</a></td></tr>
     <tr><td>🔐 Rights & Access Control</td><td>Management App</td></tr>
     <tr><td>📝 Project Management</td><td>Sharepoint, spreadsheets</td></tr>
-    <tr><td>🏷️ Reading room/patron requests</td><td>Aeon</td></tr>
+    <tr><td>🏷️ Reading room/patron requests</td><td><a href="https://guides.library.yale.edu/aeon_staff" target="_blank">Aeon</a></td></tr>
 </table>
 
 
@@ -589,14 +605,27 @@ Let’s explore each of these systems further.
 
 ---
 
-<div style="display: flex; justify-content: space-between;">
+# Bentley Systems
 
+<style>
+.tables-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 1rem;
+}
+table {
+  width: 100%;
+}
+</style>
+
+<div class="tables-container">
+  
 <table>
 <tr><th></th><th align=left>System Type</th></tr>
-<tr><td style="background-color: yellow !important; font-weight: bold;">📖</td><td style="background-color: yellow !important; font-weight: bold;">Descriptive & Bibliographic (ArchivesSpace)</td></tr>
+<tr><td>📖</td><td class="highlighted">Descriptive & Bibliographic</td></tr>
 <tr><td>🖼️</td><td>Digitization Workflow</td></tr>
 <tr><td>📁</td><td>Digital Asset Management</td></tr>
-<tr><td style="background-color: yellow !important; font-weight: bold;">🏛️</td><td style="background-color: yellow !important; font-weight: bold;">Digital Preservation (Archivematica)</td></tr>
+<tr><td>🏛️</td><td class="highlighted">Digital Preservation</td></tr>
 <tr><td>🌍</td><td>Public Access & Discovery</td></tr>
 <tr><td>📂</td><td>Metadata Management</td></tr>
 </table>
@@ -604,14 +633,13 @@ Let’s explore each of these systems further.
 <table>
 <tr><th></th><th align=left>System Type</th></tr>
 <tr><td>🎛️</td><td>Media Viewers</td></tr>
-<tr><td style="background-color: yellow !important; font-weight: bold;">📊</td><td style="background-color: yellow !important; font-weight: bold;">Repository Storage & Access (DSpace)</td></tr>
+<tr><td>📊</td><td class="highlighted">Repository Storage & Access</td></tr>
 <tr><td>🔐</td><td>Rights & Access Control</td></tr>
 <tr><td>📝</td><td>Workflow & Project Mgmt</td></tr>
 <tr><td>🏷️</td><td>Request & Patron Services</td></tr>
 </table>
 
 </div>
-
 
 ---
 
