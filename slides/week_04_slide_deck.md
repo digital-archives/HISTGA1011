@@ -247,11 +247,36 @@ style: |
 
 # Announcements
 
-- I recommend that you open up the slides for this week and follow along (there will be links to click on that will be easier than typing in long, unwieldy URLs)
+- **Schedule Update:** Guest Speaker Karly Wildenhaus (Interim Manager, Metadata Services Unit, NYPL) will be joining us on 4/16
 
 ---
 
 # Digital Archives Systems
+
+- Systems help manage & provide access to digital collections.
+- We will cover two real-life examples: Yale & Bentley Library systems in action.
+- Systems must communicate with each other. This can be done using **APIs (Application Programming Interfaces)**.
+
+
+<!--presenter notes 
+
+Last week, we started discussing born-digital processing and the hands-on work of managing and preserving digital materials through imaging and transfers. We’ll continue exploring different aspects of that work in the coming weeks.
+
+This week, we’re zooming out to look at systems: the tools that help us do this work at scale. To effectively manage digital collections, we need systems that can:
+a.) Store and process data about files, such as those created through imaging or digitization.
+b.) Make this data accessible to end-users—researchers, patrons, and casual browsers—so they can search, discover, and make sense of these materials.
+
+I’ll walk through two real-life examples of archival systems in use:
+- At Yale (where I work)
+- At the Bentley Historical Library at the University of Michigan
+
+These examples will show how different systems work together to support digital archiving.
+
+Beyond just having systems, we also need to ensure that they communicate with each other—this is where interoperability comes in. If a system can send, receive, or exchange data with another system, it means they are interoperable.
+
+One of the primary ways that systems "talk" to one another is through Application Programming Interfaces, or APIs. Today, we’ll introduce APIs and discuss how they allow different systems to share data, automate tasks, and enhance access to digital collections.
+
+-->
 
 ---
 
@@ -262,7 +287,29 @@ An archival **repository** describes a physical location where an archive stores
 
 <!--presenter notes 
 
-Let’s start with a definition we are all probably fairly familiar with at this point: archival repository. An archival repository is a physical place where archives are kept. The physical components of an archival repository are stored on shelves (aka “stacks”) in, ideally, highly monitored, climate-controlled spaces, to ensure the materials are protected from risks posed by things like rodents, bugs, and humidity, but also organized in a way so items can be retrieved for access or remediation.
+To approach the topic of systems used in a digital repository (and defining what a digital repository is), let’s start by exploring the systems that support a physical archival repository.
+
+An archival repository is a physical place where archives are kept. The physical components of an archival repository are stored on shelves (aka “stacks”) in, ideally, highly monitored, climate-controlled spaces, to ensure the materials are protected from risks posed by things like rodents, bugs, and humidity, but also organized in a way so items can be retrieved for access or remediation.
+
+-->
+
+---
+
+# Archival Repository Systems
+- **Collection Management**: to manage and location track/audit individual objects
+- **Archival Description**: to manage intellectual arrangement and description
+- **Catalog Description**: to manage bibliographic descriptions of both individual items and entire collectios
+- **Request & Patron Services**: Manage reading room requests and reproduction orders.
+
+<!--presenter notes 
+
+Let’s imagine we are working in a purely physical repository: just record boxes on shelves, no digital items. That would be pretty rare today, but for the sake of this example, let's focus only on the systems that help manage physical collections. Let's pretend it's the year 1995.
+
+Here’s a non-exhaustive list of systems we might be using in this environment.
+
+These systems, especially back in the day, worked separate from one another. For example, you would have the archivist entering finding aid data into a word processing document; you would have a spreadsheet or maybe a simple database tracking object locations and reading room requests, a separate website that published a list of archival collections, and an online catalog entry for the archival collection, maybe with a special instruction to email the archives to schedule an appointment. Once you got to your appointment, the archivist would hand you a paper-based finding aid.
+
+This kind of systems set up worked for their time. But, this started to crumble, one repositories started handling digital materials. Additionally, there was an increased expectation for information to be online. Covid increased those expectations to allow for the avaiability of online-only reading rooms.
 
 -->
 
@@ -279,9 +326,17 @@ Let’s start with a definition we are all probably fairly familiar with at this
 
 Link to Rachael’s blog post: https://www.tdl.org/2019/04/what-is-a-digital-repository/
 
-Digital repositories function much in the same way as a “traditional” archival repository.
+Digital repositories function much like physical archival repositories—both are designed to organize, store, and provide access to materials. The way digital repositories are set up, managed, and maintained often mirrors how physical stacks work, following similar principles of organization and preservation.
 
-The way digital repositories are set up, managed and maintained in many ways are analogous to how physical stacks work, and why they are set up in the way they are set up. That said, a digital repository also has its differences. The main difference is in the way the things in the repository are managed. In archival repositories, you use rooms and shelves. In digital repositories, you use systems and databases, along with hardware, not just to store items securely, but manage them through their entire lifecycle across various digital preservation functions, such as ingest, access, and description.
+However, digital repositories introduce added complexity. The biggest difference is in how materials are managed, requiring multiple layers of systems to track different aspects of digital objects.
+
+For example, a floppy disk in a box would be tracked in a collection management system, which records its physical location—inside a specific box, on a particular shelf, in a room with controlled temperature and humidity.
+
+But that same floppy disk may also have a digital presence that needs additional tracking. A separate system would record that a disk image exists, where it is stored on a server, and when its checksum was last verified.
+
+Modern archival systems also need to connect the physical object to its digital manifestation, ensuring that both are managed in relation to each other. It would need to make that information available both to repository managers, and end-users, in a way that is understandable and discoverable.
+
+A digital repository is just one layer in a larger system that tracks both the physical and digital characteristics, versions, and events of an archival object. These layers work together to maintain integrity, access, and preservation across different formats.
 
 -->
 
@@ -292,7 +347,18 @@ The way digital repositories are set up, managed and maintained in many ways are
 
 A **technology stack** (or just "stack" for short) refers to a layered set of technologies or systems that work together in a structured way.
 
+<!--presenter notes
+
+Now that we’ve talked about how different archival systems interact, both for physical and digital materials, let’s step back and look at how these systems fit together structurally.
+
+In the world of technology, we often refer to these interconnected systems as a technology stack or simply a stack. A stack is a layered set of technologies that work together in a structured way to support different functions.
+
+Understanding technology stacks helps us see how different systems communicate, where different types of data live, and how they integrate to form a functional ecosystem, whether we’re managing physical collections, digital archives, or both.
+
+-->
+
 ---
+
 ### **Typical Digital Repository/Archives System Types**  
 
 <style>
@@ -329,10 +395,11 @@ table {
 
 </div>
 
----
+<!--presenter notes
 
-# Digital Archives Systems Stack  
-Understanding how different systems interact in a digital archives environment.
+The following slides describe each of these systems
+
+-->
 
 ---
 
@@ -445,15 +512,21 @@ Understanding how different systems interact in a digital archives environment.
 
 <img src="img/week_04_yale_diagram.png">
 
+<!--presenter notes
+
+Let's start with our first real life example. I decided to show you a kind of fun, informal, colorful diagram that comes from the perspective of our Digital Collections system, and how it "talks" to other systems in the stack.
+
+-->
+
 ---
 <style>
 
 table {
     width: 100%;
-    border-collapse: collapse; /* Ensures no extra spacing between borders */
-    border-spacing: 0; /* Explicitly removes gaps */
+    border-collapse: collapse;
+    border-spacing: 0;
     font-size: 85%;
-    border: 2px solid black; /* Ensures a visible outer border */
+    border: 2px solid black;
 }
 
 th, td {
@@ -467,8 +540,6 @@ th {
     background-color: #f4f4f4;
     border-bottom: 2px solid black;
 }
-
-
 
 </style>
 <table><tr><th>System Type</th><th>Yale System(s)</th></tr>
@@ -485,7 +556,24 @@ th {
     <tr><td>🏷️ Reading room/patron requests</td><td><a href="https://guides.library.yale.edu/aeon_staff" target="_blank">Aeon</a></td></tr>
 </table>
 
+<!--presenter notes
 
+This table maps each system type to the specific tools Yale uses. Some of these systems have public-facing components, while others are internal tools used by staff. For those with public-facing components, I've provided a link to the Yale-specific website. For those systems that are internal to Yale, I have provided a link to the general vendor system website.
+
+Please click on each link to see more information.
+
+- Descriptive & Bibliographic: Yale uses Archives @ Yale for archival descriptions and the Yale Catalog for bibliographic records. This is a branded website built on top of ArchivesSpace.
+- Digitization Workflow: Goobi is used to manage digitization projects and file packaging. I've included a link to the vendor page.
+- Digital Preservation: Preservica serves as the long-term digital preservation system. Again, this system is internal-facing, so I've provided a link to the general Preservica site.
+- Public Access & Discovery: Users can search collections through QuickSearch and Yale Digital Collections. These are so-called "discovery layers", that take information from various catalogs like ASpace, the Yale library catalog, and others, to provide a sophisticated way to search for items across all of Yale's special collections.
+- Metadata Management: Metadata Cloud is built on Blacklight, so I've included a link to the Blacklight Github repository, since this is an open-source system. Metadata Cloud acts as middleware, integrating metadata across multiple descriptive systems of record like ASpace and the catalog.
+- Media Viewers: Yale uses Aviary for audio/video playback and IIIF for high-resolution image access.
+- Repository Storage & Access: Dataverse is used for structured research data storage. Students and faculty can use Dataverse to submit various datasets to a repository for long-term safekeeping.
+- Rights & Access Control: The Management App helps control visibility and access restrictions. This is a homegrown system with no real public-facing documentation, so no link provided.
+- Project Management: Internally, staff use SharePoint and spreadsheets to manage workflows. Again, these are internal-only, so you will need to take my word for it! :-)
+- Reading Room & Patron Requests: Aeon is used for handling patron requests and tracking reading room access. I provided a link to a Yale-authored LibGuide.
+
+-->
 
 ---
 
@@ -503,9 +591,8 @@ This also might help:
 <!--presenter notes
 
 If you want to take a deep dive into all the systems that are out there, there are a couple of resources to check out. The first one is a crowd-sourced Google Sheet,
-“The Collection Management System Collection”, which was kick-started by Ashley Blewer, a preeminent software developer, educator, writer, and artist who has done
-incredible work, especially within the field of audio/visual and moving image preservation. In 2017, she made this spreadsheet publicly available for folks in the
-field to contribute system descriptions in a matrix form.
+“The Collection Management System Collection”, which was kick-started by Ashley Blewer, a software developer, educator, writer, and artist who has done
+incredible work, especially within the field of audio/visual and moving image preservation. In 2017, she made this spreadsheet publicly available for folks in the field to contribute system descriptions in a matrix form.
 
 Another helpful resource is the Community Owned Digital Preservation Tool Registry (COPTR) Tools Grid, which uses a Wiki format. This grid starts off with a matrix of
 general digital preservation object types like “audio” or “ebook” on the Y-axis, and broad digital preservation functional areas on the X-axis. You can click on any of the numbers to see a list of relevant tools for that object type/functional area, and further drill down into other functional area sub-categories. There are nearly 600 tools described in this Wiki.
@@ -532,38 +619,12 @@ In the early days of digital archiving and preservation, a variety of platforms 
 # Question
 ## Why might one digital archives system need to communicate with another?
 
-<!--presenter notes
-
-Let’s imagine that the institution we work at have selected, from a collection, a set hand-written letters for digitization.
-
-The process begins with recording the accession event in ArchivesSpace, then describing the letters to eventually be published as a finding aid.
-
-Let's say, parallel to the archivist processing the letters, the acquiring curator expresses that they wish for the letters to be made available digitally, so that researchers can search the text.
-
-The letters are sent to the photography lab, where each letter is scanned and color corrected, followed by careful renaming and organization into folders. These files were then transferred to a digital asset
-management system for curation, and separately, submitted to a digital repository for long-term preservation. Each step in this example different systems, operating independently of one another. The result? A manual, time-consuming effort to link the
-digital representations back to their descriptions in ArchivesSpace.
-
--->
-
----
-
-## Scenario: Digitizing Handwritten Letters
-Imagine an institution selects a set of handwritten letters for digitization. The process unfolds like this:
-
-1️. **Description:** The letters are accessioned and described in ASpace.
-2. **Digitization Request:** A curator requests that the letters be digitized so researchers can search the text.
-3. **Scanning & Processing:** Letters are scanned.
-4. **Storage & Preservation:** Digital files are transferred separately to digital repository for long-term storage.
-5️. **Manual Linking:** ASpace links to photographs manually updated.
-
 ---
 
 # Challenges of Disconnected Systems
-❌ High Risk of Human Error: Manual updates encourage mistakes.
-❌ Difficult Maintenance: If one system updates, it may break connections with others.
-❌ Redundant Data Entry: The same information (e.g., box number) is entered multiple times across systems.
-❌ Inconsistent & Fragmented Metadata: Metadata stored in different systems may not align, reducing discoverability.
+❌ High risk of human error: Manual updates encourage mistakes.
+❌ Redundant data entry: The same information (e.g., box number, floppy label data, title) must be entered multiple times across systems.
+❌ Inconsistent & fragmented metadata: Metadata stored in different systems may not align because of varied data models, reducing discoverability.
 
 ---
 
@@ -595,7 +656,7 @@ Archivematica-ArchivesSpace-Dspace Integration
 
 <!--presenter notes
 
-In this week’s assigned reading, we learned how the Bentley Historical Library developed an integrated system using three of the four digital repository system types we just covered: **Digital Preservation System** (Archivematica), **Institutional Repository** (DSpace), and **Content Management System** (ArchivesSpace). The goal was to leverage each system’s strengths to fully support an “end-to-end digital archives workflow.”  
+The Bentley Historical Library developed an integrated system using three of the four digital repository system types we just covered: **Digital Preservation System** (Archivematica), **Institutional Repository** (DSpace), and **Content Management System** (ArchivesSpace). The goal was to leverage each system’s strengths to fully support an “end-to-end digital archives workflow.”  
 
 These types of integrative setups are quite common in digital archives. Such integrations are achieved using **application programming interfaces (APIs)**, which are essentially sets of instructions or protocols that allow one system to communicate with or update data in another.  
 
@@ -645,6 +706,12 @@ table {
 
 <img src="img/week_04_archivematica.png">
 
+<!--presenter notes
+
+This is a screenshot of the system Archivematica. You will be using the Archivematica sandbox next week during your weekly activity.
+
+-->
+
 ---
 
 ## 🏛️ Digital Preservation System
@@ -653,9 +720,11 @@ table {
 * Web browser-based (aka "SaaS")
 * Open source
 * Modeled after OAIS
-* Knits together various <a href="https://wiki.archivematica.org/Getting_started#Projects" target="_blank">services/projects</a> to get lots of small and large jobs done, usually in a specific order, and following specific rules set by the institution.
+* Knits together various <a href="https://wiki.archivematica.org/Getting_started#Projects" target="_blank">microservices</a> to get lots of small and large jobs done, usually in a specific order, and following specific rules set by the institution.
 
 <!--presenter notes
+
+Don't worry, "SaaS", "open source" and "microservice" are defined in the next slides!
 
 -->
 
@@ -664,15 +733,15 @@ table {
 ## Definition
 # Software as a Service (SaaS)
 
-__Software as a Service (SaaS)__ refers to any system that provides its services via the cloud. Rather than having to download software on your computer, you can access this software using a web browser. The software and all its data are hosted and maintained on remote servers by a third-party provider.
+**Software as a Service (SaaS)** refers to any system that provides its services via the cloud. Rather than having to download software on your computer, you can access this software using a web browser. The software and all its data are hosted and maintained on remote servers by a third-party provider.
 
 <!--presenter notes
 
-A popular archives-specific example of a SaaS platforms are Archivematica, ArchivesSpace. A SaaS service you might be Google Drive, Zoom.
+A popular archives-specific example of a SaaS platforms are Archivematica, ArchivesSpace. A SaaS service you might have encountered in your own work: Google Drive, Zoom.
 
 There are a lot of benefits to using a SaaS system. 
 1. Users can access SaaS applications through a web browser, from any device with an internet connection.
-2. Maintenance-Free: The service provider manages updates, patches, and security, so users don't need to worry about maintenance.
+2. Maintenance-free: The service provider manages updates, patches, and security, so users don't need to worry about maintenance.
 3. Scalability: Users can scale up or down based on their needs, adjusting usage or subscription plans easily.
 
 SaaS eliminates the need for users to install, manage, and maintain software, making it a convenient and cost-effective solution for many businesses and individuals.
@@ -686,7 +755,7 @@ SaaS eliminates the need for users to install, manage, and maintain software, ma
 
 **Open source** refers to software whose source code is made available to the public, allowing anyone to view, modify, distribute, and use it. The key idea behind open-source software is that it promotes collaboration and transparency, enabling developers and users to contribute to its improvement, adapt it to their needs, and share it freely.
 
-Example: <a href="https://github.com/artefactual/archivematica" target="_blank">https://github.com/artefactual/archivematica</a>
+See: <a href="https://github.com/artefactual/archivematica" target="_blank">https://github.com/artefactual/archivematica</a>
 
 ---
 
@@ -707,7 +776,7 @@ Instead, CDL proposed that “small, relatively simple utilities would pose fewe
 
 ---
 
-# Archivematica Projects Examples
+# Some Archivematica Microservices
 
 <style>
   table, th, td {
@@ -758,7 +827,7 @@ Analyze/report on file formats
 ArchivesSpace (aka ASpace) is an archival system primarily used throughout the accessioning, arrangement and description of archival collections. The data entered
 into ASpace can be used to produce finding aids in EAD XML format, so they may be viewed on the web.
 
-Collections, or bodies of work, are called “resources”. Within each resource, you will find various levels of hierachy that describe how a particular body of work is arranged, such as series or sub-series, which in ArchivesSpace are known as "archival objects". Archival objects can also be rolled up into what are known as "Top containers", which represent the physical containers/boxes that may be requested or circulated in a reading room or other special collection setting.
+Collections, or bodies of work, are called “resources”. Within each resource, you will find various levels of hierarchy that describe how a particular body of work is arranged, such as series or sub-series, which in ArchivesSpace are known as "archival objects". Archival objects can also be rolled up into what are known as "Top containers", which represent the physical containers/boxes that may be requested or circulated in a reading room or other special collection setting. So, ArchivesSpace also has a collection management side, as well as places to accession materials, and make connections between archival objects and digital objects.
 
 -->
 
@@ -808,7 +877,8 @@ This is a screencapture from the DSpace website using NYU's Faculty Digital Arch
 
 <!--presenter notes
 
-The article you read about the Bentley Archivematica - ASpace - DSpace integration maps out their integration with the Digital Curation Center or DCC Lifecycle Model.
+In the Bentley article you read about how they integrated Archivematica, ASpace and DSpace. The way they were integrated was modeled after the Digital Curation Center or DCC Lifecycle Model.
+
 Before we look at the Bentley Library example, we should understand what the DCC Model is, what it is for, and how it differs from the OAIS, specifically.
 
 -->
@@ -832,9 +902,11 @@ For more information, refer to the [DCC Curation Lifecycle Model PDF](https://ww
 ## Definition
 # Digital Curation
 
-__Digital curation__ encompasses the selection, preservation, maintenance, collection, and archiving of digital assets, including data, documents, multimedia, and other digital objects. It involves managing the entire lifecycle of digital content to ensure its usability, integrity, authenticity, and accessibility over time.
+**Digital curation** encompasses the selection, preservation, maintenance, collection, and archiving of digital assets, including data, documents, multimedia, and other digital objects. It involves managing the entire lifecycle of digital content to ensure its usability, integrity, authenticity, and accessibility over time.
 
 ---
+
+# Compare: DCC vs. OAIS
 
 <table>
 <tr>
@@ -855,9 +927,7 @@ Focuses specifically on digital preservation activities, processes, and technolo
 
 <!--presenter notes
 
-Here’s the cleaned-up version:
-
----
+Here’s my cleaned-up more accessible version of the Bentley Diagram.
 
 The Bentley Historical Library's integrated system achieved the following:
 
@@ -872,20 +942,73 @@ The Bentley Historical Library's integrated system achieved the following:
 ## Definition
 # Application Programming Interface (API)
 
+**Application Programming Interfaces**, or APIs, provide a way for disparate systems to request and exchange data from each other without needing to understand the internal workings of the other.
+
 <!--presenter notes
 
-APIs provide a way for different software applications to communicate and request services or data from each other without needing to understand the internal workings of the other system. They enable applications to interact and collaborate, simplifying the development of interoperability.  
+The interoperability of these systems at Bentley was achieved using APIs.
+
+Application Programming Interfaces, or APIs, provide a way for different software applications to communicate and request services or data from each other without needing to understand the internal workings of the other system. They enable applications to interact and collaborate, simplifying the development of interoperability.  
 
 While not always required, APIs often use web protocols—sets of instructions specific to computers or servers within a network—to execute requests, update data, and perform other tasks.
+
+APIs are very commonly used throughout digital repositories.
+
+-->
+
+---
+
+# You have likely used an API unknowingly. Examples:
+- The weather app you use likely pulls in data from centralized weather forecast databases using APIs.
+- An airline booking website pulls in data from airline fare databases and filters the results to show you lowest fares.
+
+<!--presenter notes
+
+Let’s unpack what we just said about APIs and the web. Why do they often go hand in hand?  
+
+A common way we send instructions to other computers around the world is by opening a web browser and typing in a URL to access a website. Here we are unknowingly prompting our web browser to send instructions to a server somewhere in the world.
+
+We are all very used to using HTTP for our own, human-centric purposes, especially for browsing the web. However, websites and the servers that host them contain parts or areas that enable them to speak to other computers, with or without a human prompting that communication.
 
 -->
 
 ---
 
 ## Definition
-# API Endpoint
+# Hypertext Transfer Protocol (HTTP)
 
-An API endpoint is a specific point of interaction between an API and the outside world. It is typically represented by a URL where the API can receive requests and send responses.
+**Hypertext Transfer Protocol (HTTP)** is the foundation of communication on the web. It is the protocol that allows computers to exchange data over the World Wide Web.
+- HTTP enables browsers to load web pages by requesting and receiving content from servers.
+- It also powers APIs, allowing applications to send and receive data over the web using URLs.
+
+---
+
+## Definition
+# JavaScript Object Notation (JSON)
+
+**JavaScript Object Notation (JSON)** (pronounced "jay-sohn") is a lightweight, structured data format used for exchanging information between systems.
+- Designed to be easy to read/write for humans and machines.
+- Many APIs return data in JSON format because it is widely supported.
+
+<!--presenter notes
+
+When we make an API request, the response we get back needs to be structured in a way that both humans and computers can understand. One of the most common formats for this is JSON, or JavaScript Object Notation.
+
+JSON is a lightweight, easy-to-read format used for exchanging data between systems. It’s widely used in APIs because it’s simple for machines to process while still being human-readable.
+
+When we requested data from the Library of Congress API, the response came back in JSON format—structured as key-value pairs that represent information. On the next slide, we’ll take a look at how JSON is structured and why it’s useful for APIs.
+-->
+
+---
+
+## Definition
+# Endpoint
+
+An API **endpoint** is a _specific URL_ where an API receives requests and sends back responses.
+
+Think of an endpoint as a doorway to an API.
+
+Each API has multiple endpoints, each designed for a specific task, like searching for weather data or retrieving digitized images.
 
 <!--presenter notes
 
@@ -903,39 +1026,6 @@ The documentation tells me that the specific endpoint is called `/repositories`.
 
 ---
 
-## Definition
-# Hypertext Transfer Protocol (HTTP)
-
-The underlying protocol used on the web to exchange data between computers using the world wide web.
-
----
-
-# https://thebestestwebsite.net/
-
-Translation: "Using the **Hypertext Transfer Protocol Secure (HTTPS)**, retrieve the contents of the resource specified after the Uniform Resource Identifier marker (`://`) (e.g., `thebestwebsite.net`) and render it on my screen."
-
-<!--presenter notes
-
-Let’s unpack what we just said about APIs and the web. Why do they often go hand in hand?  
-
-A common way we send instructions to other computers around the world is by opening a web browser and typing in a URL to access a website. Here we are unknowingly prompting our web browser to send instructions to a server somewhere in the world.
-
-We are all very used to using HTTP for our own, human-centric purposes, especially for browsing the web. However, websites and the servers that host them contain parts or areas that enable them to speak to other computers, with or without a human prompting that communication.
-
--->
-
----
-
-<img src="img/week_04_bentley_flow_02.png">
-
-<!--presenter notes
-
-In the Bentley integration system, we learned that Archivematica, a web-based system, can talk to ASpace, another web-based system, using an API. They do this
-using a combination of both the HTTP protocol, as well as another protocol known as REST.
-
--->
-
----
 
 ## Definition
 # REpresentational State Transfer (REST)
@@ -1022,29 +1112,15 @@ Common methods include GET, POST, PUT, and DELETE.
 
 <div class="activity-title">Mini Activity - API</div>
 
-_Try out the Library of Congress' API._
+_See the Library of Congress API in action._
 
 <ul class="activity-list">
 <li>Open any web browser.</li>
 <li>Copy and paste this URL in your search bar: <a href="https://www.loc.gov/search/?q=maps&fo=json" target="_blank">https://www.loc.gov/search/?q=maps&fo=json</a></li>
-<li>Check the "pretty-print" option (may not be available on your browser)
+<li>Check the "pretty-print" checkbox to format the text data so it's more human-readable. If you do not have this option, copy and paste the data into this online tool: <a href="https://jsonformatter.org/json-pretty-print" target="_blank">https://jsonformatter.org/json-pretty-print</a>
 </ul>
 
 ---
-
-## Definition
-# JavaScript Object Notation (JSON)
-
-**JavaScript Object Notation (JSON)** (pronounced "jay-sohn") is a data interchange format that is easy for both humans and machines to parse and use.
-
-<!--presenter notes
-
-JavaScript Object Notation (JSON) is a lightweight data-interchange format that is easy for humans to read and write and easy for machines to parse.
-
--->
-
----
-
 
 <div class="shapes">
   <div class="triangle"></div>
@@ -1053,10 +1129,63 @@ JavaScript Object Notation (JSON) is a lightweight data-interchange format that 
 </div>
 
 <ul class="activity-list">
-<li>Try changing the search term by replacing "maps" with "photographs" <a href="https://www.loc.gov/search/?q=photographs&fo=json" target="_blank">https://www.loc.gov/search/?q=photographs&fo=json</a>
-<li>Next, search for photographs from the 1900s: <a href="https://www.loc.gov/search/?q=photographs&fo=json&fa=partof:prints%20and%20photographs&dates=1900-1999
+
+<i><b>What just happened?</b> What you are seeing on your browser screen is information returned from the LOC API, that allows users and computers access to their special collections database.</i>
+
+<i>Using your browser, you sent an API request to the LOC API, using the **search  endpoint** (/search/ in the URL), which allows you to pass keyword search terms to the LOC API get matching results back. Within it, you asked it to find records matching "maps" (q=maps, q just means "query") and return it in JSON (fo=json, fo means "format").</i>
+
+---
+
+<div class="shapes">
+  <div class="triangle"></div>
+  <span class="circle"></span>
+  <span class="square"></span>
+</div>
+
+<ul class="activity-list">
+
+Optional steps:
+
+Although you cannot see this outright, your web browser is using the "GET" REST command to get these map records from the LOC API.
+
+You can see this by opening up the **Inspect** feature in your browser (how to open this up will vary by browser and whether or not you are using a Mac or Windows). Inspect allows you to see the underlying mechanics of what your web browser is doing while you browsing the web.
+
+</ul>
+
+---
+
+<div class="shapes">
+  <div class="triangle"></div>
+  <span class="circle"></span>
+  <span class="square"></span>
+</div>
+
+<ul class="activity-list">
+
+Click on the "Network" tab, then type in "search/" into the filter field. Click on the result that comes up and look at the Request Method: it will be listed as GET.
+
+So basically, your browser knocked on the LOC API's door, and asked it, "Can I GET maps records?" LOC then returned records in JSON.
+
+</ul>
+
+---
+
+<img src="img/week_04_inspect_get.png" alt="Screenshot of my browser screen with the inspect feature open, with a large green arrow pointing to the Request Method value in the Network tab.">
+
+
+---
+
+<div class="shapes">
+  <div class="triangle"></div>
+  <span class="circle"></span>
+  <span class="square"></span>
+</div>
+
+Example of a more complicated API URL: <a href="https://www.loc.gov/search/?q=photographs&fo=json&fa=partof:prints%20and%20photographs&dates=1900-1999
 " target="_blank">https://www.loc.gov/search/?q=photographs&fo=json&fa=partof:prints%20and%20photographs&dates=1900-1999
 </a>
+
+Looking at the URL, what are we asking the LOC API for?
 </ul>
 
 ---
@@ -1091,6 +1220,15 @@ A data structure that APIs commonly use to relay and output data.
 
 <img src="img/week_04_bentley_flow_02.png">
 
+<!--presenter notes
+
+Back to the Bentley!
+
+In the Bentley integration system, we learned that Archivematica, a web-based system, can talk to ASpace, another web-based system, using an API. They do this
+using a combination of both the HTTP protocol, as well as another protocol known as REST.
+
+-->
+
 ---
 
 # The ASpace/Archivematica API allows archivists to:  
@@ -1102,13 +1240,30 @@ A data structure that APIs commonly use to relay and output data.
 
 ---
 
-<center><img src="img/week_04_aspace_archivematica_api.png" style="width: 80%; height: auto;"></center>
+<center><img src="img/week_04_aspace_archivematica_api.png" style="width: 70%; height: auto;"></center>
+
+<!--presenter notes
+
+Here we are seeing Archivematica calling up the archival object tree for a single ArchivesSpace resource using the ASpace API, and presenting it to the user as a list of nested folders.
+
+-->
 
 ---
 
 ## Question
 
-What ArchivesSpace API endpoints do you think Archivematica is using within the “Appraisal” tab to bring back and update information in ArchivesSpace?
+What ArchivesSpace API endpoints do you think Archivematica is using within the "Appraisal" tab to bring back and update information in ArchivesSpace?
+
+Endpoints are listed here: <a href="https://archivesspace.github.io/archivesspace/api/#introduction" target="_blank">https://archivesspace.github.io/archivesspace/api/</a>
+
+Hint: Use the keyword search bar and search for "resource".
+
+<!--presenter notes
+
+Although I am not 100% sure of the answer, my best guess is:
+https://archivesspace.github.io/archivesspace/api/#generate-the-archival-object-tree-for-a-resource
+
+-->
 
 ---
 
