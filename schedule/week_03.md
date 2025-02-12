@@ -8,7 +8,7 @@ has_children: false
 
 # Week 3: Processing Born-Digital Archives
 
-<!-- <a href="{{ site.baseurl }}/slides/week_03_slide_deck.html" target="_blank">Slides</a> -->
+<a href="{{ site.baseurl }}/slides/week_03_slide_deck.html" target="_blank">Slides</a>
 
 {: .label .label-yellow }
 Due
