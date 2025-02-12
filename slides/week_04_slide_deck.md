@@ -1268,7 +1268,7 @@ https://archivesspace.github.io/archivesspace/api/#generate-the-archival-object-
 ---
 
 ## Weekly Activity
-# Tech Stack
+# Tech Stack 🥞
 
 Start: <a href="https://digital-archives.github.io/HISTGA1011/activities/tech_stack.html" target="_blank">https://digital-archives.github.io/HISTGA1011/activities/tech_stack.html</a>
 
