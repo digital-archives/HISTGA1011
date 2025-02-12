@@ -237,131 +237,131 @@
     
     "relUrl": "/activities/imaging"
   },"34": {
-    "doc": "Course Schedule & Readings",
-    "title": "Course Schedule",
-    "content": "| Week Number | Date of Class | Topic / Assignment Due | Weekly ActivityDue following Sunday | . | Week 1 | January 22 | Introduction to Digital Archives | Data Object | . | Week 2 | January 29 | OAIS Conceptual Model | Breaking BagIt | . | Week 3 | February 5 | Processing Born-Digital Archives | Corrupting a Bitstream | . | Week 4 | February 12 | Digital Repository Systems | Tech Stack | . | Week 5 | February 19 | Storage Infrastructures | Archivematica Sandbox | . | Week 6 | February 26 | Digital Preservation Metadata | Digital Preservation Metadata | . | Week 7 | March 5 | Digitization | Imaging and Conservation Group Activity | . | Week 8 | March 12 | Access and DiscoveryFinal Project Abstract due | The User’s Experience | . | Week 9 | March 19 | Automation and Scripting | Scripting Reflection | . | Week 10 | March 26 | No Class | Spring Break |   | . | Week 11 | April 2 | Moving Image and Audio Preservation | QCTools | . | Week 12 | April 9 | Web and Email Archiving | Podcast Archaeology | . | Week 13 | April 16 | Guest Speaker: Karly Wildenhaus, Interim Manager, Metadata Services at The New York Public Library |   | . | Week 14 | April 23 | No Class: Work on your final projects | Optional: Schedule a consult with me | . | Week 15 | April 30 | Last day of classFinal presentations due |   | . ",
-    "url": "/HISTGA1011/schedule/#course-schedule",
-    
-    "relUrl": "/schedule/#course-schedule"
-  },"35": {
-    "doc": "Course Schedule & Readings",
-    "title": "Course Schedule & Readings",
-    "content": " ",
-    "url": "/HISTGA1011/schedule/",
-    
-    "relUrl": "/schedule/"
-  },"36": {
-    "doc": "Weekly Activities",
-    "title": "Weekly Activities",
-    "content": "Most weeks, you will be assigned to work on an activity in-class. Each activity will be accompanied by a set of instructions, and in some cases, materials (such as a folder containing some files, a worksheet, or something else). ",
-    "url": "/HISTGA1011/activities/",
-    
-    "relUrl": "/activities/"
-  },"37": {
     "doc": "Course Details",
     "title": "Digital Archives [HIST-GA 1011]",
     "content": " ",
     "url": "/HISTGA1011/syllabus/#digital-archives-hist-ga-1011",
     
     "relUrl": "/syllabus/#digital-archives-hist-ga-1011"
-  },"38": {
+  },"35": {
     "doc": "Course Details",
     "title": "Spring 2025",
     "content": "New York University, Department of History . ",
     "url": "/HISTGA1011/syllabus/#spring-2025",
     
     "relUrl": "/syllabus/#spring-2025"
-  },"39": {
+  },"36": {
     "doc": "Course Details",
     "title": "Course Details",
     "content": "Meeting time: Wednesdays, 4:55-7:35pm Room: KJCC 717 Instructor: Mary Kidd (she/her) . Digital Archives explores the major stages of the digital curation life-cycle, and delves into the complexities surrounding the creation, appraisal, acquisition, processing/description, storage, digitization/reformatting, and making accessible, archives of all formats. Readings, lectures, discussions and in-class activities will shed light on the myriad challenges, best practices, risks/threats posed, and standards involved in successful digital preservation. Through the course, students will develop the ability to design foundational workflows for digitizing and handling both analog and born-digital materials and effectively managing digital objects. Additionally, the course emphasizes the significance of specialized preservation tools and techniques, including understanding essential technical skills. This course fulfills the “Digital Credit“ requirement. ",
     "url": "/HISTGA1011/syllabus/",
     
     "relUrl": "/syllabus/"
-  },"40": {
+  },"37": {
     "doc": "Course Details",
     "title": "Learning Objectives",
     "content": ". | Describe the role of archivists across the life cycle of digital archives. | Articulate challenges, best practices, and standards associated with the appraisal, acquisition, storage, creation, and provision of access to digital archives. | Explore basic workflows for the digitization of analog material to digital and for the accession and ingest of born-digital archives. | Identify risks and threats to the digital preservation life-cycle. | Enumerate considerations in institutional policies and plans related to collection development, intellectual property rights, digitization, preservation, and program sustainability. | Learn and practice technical skills and using common tools and softwares used in the field. | Understand the specialized work involved in handling and preservation of special formats such as audio visual and web archives. | . ",
     "url": "/HISTGA1011/syllabus/#learning-objectives",
     
     "relUrl": "/syllabus/#learning-objectives"
-  },"41": {
+  },"38": {
     "doc": "Course Details",
     "title": "Guidelines and Expectations",
     "content": ". | Students are expected to attend each weekly session for the full in-class time. Please email me as soon as you can to let me know you are unable to make a class, need to arrive late/leave early, or need to attend remotely. | Please write me as soon as you can if you require an extension or more time to finish an assignment or activity. | Class activities will be started on during class time. Any work that is not completed should be worked on and submitted by the end of the week Sunday. | Extensions must be approved ahead of time in writing by the instructor. | Papers should be in 12-point font, double-spaced, with 1-inch margins. I have no preference for how you cite sources, as long as you are consistent. | At a few points over the semester, we will be utilizing specific programs or applications that you will need to download or otherwise access to perform in-class or asynchronous activities. Ahead of those weeks when installing a program is required, I will provide the necessary information for how to obtain them based on your operating system. | . ",
     "url": "/HISTGA1011/syllabus/#guidelines-and-expectations",
     
     "relUrl": "/syllabus/#guidelines-and-expectations"
-  },"42": {
+  },"39": {
     "doc": "Course Details",
     "title": "Additional Assistance",
     "content": "Academic accommodations are available for students with disabilities. Please contact the Moses Center for Students with Disabilities (212-998-4980 or mosescsd@nyu.edu) for further information. Students who are requesting academic accommodations are advised to reach out to the Moses Center as early as possible in the semester for assistance. ",
     "url": "/HISTGA1011/syllabus/#additional-assistance",
     
     "relUrl": "/syllabus/#additional-assistance"
-  },"43": {
+  },"40": {
     "doc": "Course Details",
     "title": "Textbook",
     "content": "Owens, Trevor. The Theory and Craft of Digital Preservation. Baltimore: Johns Hopkins University Press, 2018. Accessed June 30, 2023. https://www.trevorowens.org/theory-and-craft-of-digital-preservation/ . This book is available through course reserves (electronic version) . ",
     "url": "/HISTGA1011/syllabus/#textbook",
     
     "relUrl": "/syllabus/#textbook"
-  },"44": {
-    "doc": "Grading - Points Breakdown",
-    "title": "Grading - Points Breakdown",
-    "content": "Students are evaluated using a points-based system totaling 100 across two main areas: Weekly Activities (70 points) and Final Project (30 points). ",
-    "url": "/HISTGA1011/grading/",
-    
-    "relUrl": "/grading/"
-  },"45": {
-    "doc": "Grading - Points Breakdown",
-    "title": "Weekly Activities (70 points)",
-    "content": "| Activity | Points | . | Weekly Assignments | 60 | . | Participation (includes activity discussions) | 10 | . | Total | 70 | . Notes on Weekly Assignments . The Imaging and Conservation Group Activity is worth 10 points, while all other assignments are worth 3 points each. ",
-    "url": "/HISTGA1011/grading/#weekly-activities-70-points",
-    
-    "relUrl": "/grading/#weekly-activities-70-points"
-  },"46": {
-    "doc": "Grading - Points Breakdown",
-    "title": "Final Project (30 points)",
-    "content": "| Item | Points | . | Abstract | 5 | . | Paper | 15 | . | Presentation | 10 | . | Total | 30 | . Extra Credit Opportunity . Students can earn up to 3 extra credit points by reaching out to a repository and setting up a time to talk with an archivist or a preservation/digital archives practitioner. To receive credit, students must, in their abstract, turn in a summary of their conversation with the project abstract (minimum 300 words) and reflect on how the discussion informs their final project. Extra credit will be applied to the Final Project score. ",
-    "url": "/HISTGA1011/grading/#final-project-30-points",
-    
-    "relUrl": "/grading/#final-project-30-points"
-  },"47": {
+  },"41": {
     "doc": "Final Project",
     "title": "Final Project",
     "content": " ",
     "url": "/HISTGA1011/final_project/",
     
     "relUrl": "/final_project/"
-  },"48": {
+  },"42": {
     "doc": "Final Project",
     "title": "Overview",
     "content": "For your final project, you will develop a Digitization and Access Plan for undigitized or currently inaccessible materials. This will take the form of a written paper and an accompanying presentation, which you will deliver on the last day of class. To guide your progress, you will submit an abstract mid-way through the semester as a check-in to ensure you have identified a suitable collection and are on track with your project. (See the class schedule for details.) . ",
     "url": "/HISTGA1011/final_project/#overview",
     
     "relUrl": "/final_project/#overview"
-  },"49": {
+  },"43": {
     "doc": "Final Project",
     "title": "Scenario",
     "content": "You are an archivist working in the special collections department of [organization/institution of your choice]. As part of an initiative to enhance digital access, you have identified one or more collections in the institution’s finding aids that contain undigitized or currently inaccessible materials, such as analog media, obsolete digital formats, or physical documents without existing digital surrogates. Recognizing your expertise in digital preservation workflow management, the Director of Special Collections has appointed you as Project Lead. Your task is to analyze how your institution currently handles digital access and preservation, identify gaps or areas for improvement, and propose enhancements. Your proposal may incorporate strategies from other institutions, emerging best practices, or new technologies to strengthen the institution’s digital preservation program.” . This project requires you to “start from scratch,” meaning you must choose materials that are not already digitized or available online. This ensures that you will critically analyze the challenges involved in digital preservation, including selection criteria, technical workflows, metadata creation, and access strategies. ",
     "url": "/HISTGA1011/final_project/#scenario",
     
     "relUrl": "/final_project/#scenario"
-  },"50": {
+  },"44": {
     "doc": "Final Project",
     "title": "📌 Selection Criteria",
     "content": "To ensure a well-rounded project, your chosen collection must meet the following criteria: . | Your collection must include materials beyond standard paper-based formats. | While some flat materials (e.g., photographs, maps, manuscripts) may be included, your project cannot focus exclusively on paper-based materials that only require scanning or photography. | Your project must engage with at least one other format, such as: . | Magnetic media (e.g., audiotapes, videotapes, floppy disks, hard drives) | Optical media (e.g., CDs, DVDs) | Born-digital files requiring file format migration or emulation | . | . ",
     "url": "/HISTGA1011/final_project/#-selection-criteria",
     
     "relUrl": "/final_project/#-selection-criteria"
-  },"51": {
+  },"45": {
     "doc": "Final Project",
     "title": "Project Goals",
     "content": "Your final paper and presentation should: . | Demonstrate the significance of the collection and why it should be prioritized for digitization. | Articulate the technical and logistical considerations of the digitization/transfer process. | Explain how the project aligns with institutional priorities and contributes to broader digital preservation efforts. | Persuade senior leadership to support and fund your proposal by presenting a compelling case for its impact. | . This project is an opportunity to apply digital preservation principles in a real-world context, critically engage with selection and access strategies, and develop skills in planning and advocacy within archival institutions. ",
     "url": "/HISTGA1011/final_project/#project-goals",
     
     "relUrl": "/final_project/#project-goals"
+  },"46": {
+    "doc": "Weekly Activities",
+    "title": "Weekly Activities",
+    "content": "Most weeks, you will be assigned to work on an activity in-class. Each activity will be accompanied by a set of instructions, and in some cases, materials (such as a folder containing some files, a worksheet, or something else). ",
+    "url": "/HISTGA1011/activities/",
+    
+    "relUrl": "/activities/"
+  },"47": {
+    "doc": "Course Schedule & Readings",
+    "title": "Course Schedule",
+    "content": "| Week Number | Date of Class | Topic / Assignment Due | Weekly ActivityDue following Sunday | . | Week 1 | January 22 | Introduction to Digital Archives | Data Object | . | Week 2 | January 29 | OAIS Conceptual Model | Breaking BagIt | . | Week 3 | February 5 | Processing Born-Digital Archives | Corrupting a Bitstream | . | Week 4 | February 12 | Digital Repository Systems | Tech Stack | . | Week 5 | February 19 | Storage Infrastructures | Archivematica Sandbox | . | Week 6 | February 26 | Digital Preservation Metadata | Digital Preservation Metadata | . | Week 7 | March 5 | Digitization | Imaging and Conservation Group Activity | . | Week 8 | March 12 | Access and DiscoveryFinal Project Abstract due | The User’s Experience | . | Week 9 | March 19 | Automation and Scripting | Scripting Reflection | . | Week 10 | March 26 | No Class | Spring Break |   | . | Week 11 | April 2 | Moving Image and Audio Preservation | QCTools | . | Week 12 | April 9 | Web and Email Archiving | Podcast Archaeology | . | Week 13 | April 16 | Guest Speaker: Karly Wildenhaus, Interim Manager, Metadata Services at The New York Public Library |   | . | Week 14 | April 23 | No Class: Work on your final projects | Optional: Schedule a consult with me | . | Week 15 | April 30 | Last day of classFinal presentations due |   | . ",
+    "url": "/HISTGA1011/schedule/#course-schedule",
+    
+    "relUrl": "/schedule/#course-schedule"
+  },"48": {
+    "doc": "Course Schedule & Readings",
+    "title": "Course Schedule & Readings",
+    "content": " ",
+    "url": "/HISTGA1011/schedule/",
+    
+    "relUrl": "/schedule/"
+  },"49": {
+    "doc": "Grading - Points Breakdown",
+    "title": "Grading - Points Breakdown",
+    "content": "Students are evaluated using a points-based system totaling 100 across two main areas: Weekly Activities (70 points) and Final Project (30 points). ",
+    "url": "/HISTGA1011/grading/",
+    
+    "relUrl": "/grading/"
+  },"50": {
+    "doc": "Grading - Points Breakdown",
+    "title": "Weekly Activities (70 points)",
+    "content": "| Activity | Points | . | Weekly Assignments | 60 | . | Participation (includes activity discussions) | 10 | . | Total | 70 | . Notes on Weekly Assignments . The Imaging and Conservation Group Activity is worth 10 points, while all other assignments are worth 3 points each. ",
+    "url": "/HISTGA1011/grading/#weekly-activities-70-points",
+    
+    "relUrl": "/grading/#weekly-activities-70-points"
+  },"51": {
+    "doc": "Grading - Points Breakdown",
+    "title": "Final Project (30 points)",
+    "content": "| Item | Points | . | Abstract | 5 | . | Paper | 15 | . | Presentation | 10 | . | Total | 30 | . Extra Credit Opportunity . Students can earn up to 3 extra credit points by reaching out to a repository and setting up a time to talk with an archivist or a preservation/digital archives practitioner. To receive credit, students must, in their abstract, turn in a summary of their conversation with the project abstract (minimum 300 words) and reflect on how the discussion informs their final project. Extra credit will be applied to the Final Project score. ",
+    "url": "/HISTGA1011/grading/#final-project-30-points",
+    
+    "relUrl": "/grading/#final-project-30-points"
   },"52": {
     "doc": "Home",
     "title": "Home",
