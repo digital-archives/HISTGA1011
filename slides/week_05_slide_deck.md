@@ -13,12 +13,43 @@ style: |
     margin: 0 auto;
   }
   .white-background-slide {
-  background-color: white !important; /* Override Gaia theme */
+  background-color: white !important;
   width: 100%;
   height: 100vh;
   margin: 0;
   padding: 0;
   }
+
+  .stack {
+  font-size: 10rem;
+  }
+
+  .pillars-container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: flex-end;
+  height: 250px;  
+  gap: 20px;
+  margin-top: 175px;
+  }
+
+  .pillar {
+  width: 30%;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 10px;
+  color: black;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+
+  }
+  .online { background-color: #E07A5F; }
+  .nearline { background-color: #8D8741; }
+  .offline { background-color: #E6E8FF; }
 
 
 ---
@@ -44,10 +75,16 @@ _Feel free to email me with any announcements you would like me to boost (upcomi
 
 ---
 
-# Lecture
-## Digital Preservation Storage Systems
+# Tech Stack
+
+<div class="stack">🥞</div>
+
+[Insert URL to Slide Deck]
 
 ---
+
+# Lecture
+## Storage Systems
 
 <!--presenter notes
 
@@ -63,9 +100,8 @@ We will discuss strategies to detect and mitigate failure, that can lead to loss
 
 ## Definition
 # Storage Architecture
-—
 
-__Storage architecture__  refers to the overall design and organization of a storage system. This usually includes the types of storage devices used, the way data is stored and organized, and the methods used to access and manage the stored data.
+**Storage architecture** refers to the overall design and organization of a storage system. This usually includes the types of storage devices/technologies used, the way data is stored and organized, and the methods used to access and manage the stored data.
 
 <!--presenter notes
 
@@ -77,8 +113,13 @@ The storage architecture of a system can have a significant impact on the overal
 
 ---
 
-# Storage Technology
-## Three Types
+## Storage Architectures: Three Types
+
+<div class="pillars-container">
+  <div class="pillar online">Online</div>
+  <div class="pillar nearline">Nearline</div>
+  <div class="pillar offline">Offline</div>
+</div>
 
 <!--presenter notes
 
@@ -87,13 +128,39 @@ There are three common types of storage infrastructures used in digital preserva
 
 -->
 
+<!--presenter notes
+
+Storage architectures
+
+-->
+
 ---
 
-# Online Storage
-* Networked
-* Rapid access
-* Always powered on
-* Production environment
+<style>
+.burnt-slide {
+  background-color: #E07A5F;
+  color: black;
+  padding: 50px;
+  text-align: center;
+}
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+</style>
+
+<div class="burnt-slide">
+  <h1>🔥 Online Storage 🔥</h1>
+  
+  <div class="content">
+    <ul>
+      <li>Data is always immediately accessible: real-time input/output (I/O)</li>
+      <li>Supports real-time reading and writing</li>
+      <li>Is always powered on and connected</li>
+      <li>Used for active, production environments</li>
+    </ul>
+  </div>
 
 <!--presenter notes
 
@@ -103,10 +170,30 @@ Online: Storage that is accessible through a network. The result is information 
 
 ---
 
-# Nearline Storage
-* Networked
-* Slower to access
-* Require less immediate access
+<style>
+.olive-slide {
+  background-color: #8D8741;
+  color: black;
+  padding: 50px;
+  text-align: center;
+}
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+</style>
+
+<div class="olive-slide">
+  <h1>⏳ Nearline Storage ⏳</h1>
+  
+  <div class="content">
+    <ul>
+      <li>Access to data requires additional steps (namely, mounting or spinning up storage device)</li>
+      <li>Requests for data may take a few seconds for delivery
+    </ul>
+  </div>
+</div>
 
 <!--presenter notes
 
@@ -116,11 +203,32 @@ Nearline: The term “nearline” is a portmanteau of “near” and “online�
 
 ---
 
-# Offline Storage
-* Not networked
-* Requires action to connect and access
-* Best for long-term
-* Passive
+<style>
+.periwinkle-slide {
+  background-color: #E6E8FF;
+  color: white;
+  padding: 50px;
+  text-align: center;
+  color: black;
+}
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+  color: black;
+}
+</style>
+
+<div class="periwinkle-slide">
+  <h1>⏳ Offline Storage ⏳</h1>
+  
+  <div class="content">
+    <ul>
+      <li>Non-networked, "passive"</li>
+      <li>Requires action to connect and access
+    </ul>
+  </div>
+</div>
 
 <!--presenter notes
 
@@ -228,6 +336,13 @@ Layers of charge trap flash memory cells arrays
 Each cell is filled with varying levels of electrons
 
 -->
+
+---
+
+## Definition
+# NAND (Not AND)
+
+Solid state drives use **NAND** (stands for "not AND", referring to a type of logic gate) storage technology, which uses **charge trap flash memory cells** to store varying levels of electrical charges.
 
 ---
 
@@ -664,41 +779,76 @@ This is a somewhat oversimplification of how parity works. However, it’s good 
 
 ---
 
-## Case Study
+## Real Life Storage Architectures
 # UC San Diego, Chronopolis
-
- _Updating storage systems_
+# Library of Congress
 
 <!--presenter notes
-
-In your assigned reading for this week, we read about how the Bentley Historical Library developed an integrated system using three of the four digital repository system types we just covered [Digital Preservation System: Archivematica; Institutional Repository: DSpace; and Content Management System: ArchivesSpace]. The purpose here was to play to each of the systems’ strengths to fully support an “end-to-end digital archives workflow”. These sorts of integrative setups are quite common in digital archives in general. These integrations are achieved using what are known as application programming interfaces or APIs. An API is basically just a set of instructions or protocols that allows one system to talk or update data in the other.
-
-Let’s explore each of these systems further.
 
 -->
 
 ---
 
 <table>
-<tr>
+<tr>Library of Congress</tr>
+<tr><td valign=top width=350>
+<h2>Past</h2>
+
+Oracle Hierarchical Storage Manager (OHSM)<br>
+Solaris system<br>
+</td>
 
 <td valign=top width=350>
+<h2>Current</h2>
 
+Versity Storage Manager on RedHat Linux<br>
+Two copies in two data centers<br>
+LTO Tape Libraries<br>
+</td>
+
+<td valign=top width=350>
+<h2>Future</h2>
+
+Upgrade to Versity 2.0 (RHEL8)<br>
+LTO-9 for expanded tape storage<br>
+Additional copies in the cloud<br>
+</td>
+</tr>
+</table>
+
+<!--presenter notes
+
+These details were derived from a 2023 LOC presentation: https://digitalpreservation.gov/meetings/DSA2023/loc_dsa2023_website_0102b_barr_DSA2023_OM_Preservation.pdf
+
+Past:
+In the past, the Library of Congress used the Oracle Hierarchical Storage Manager (OHSM), a system designed to manage large-scale archival storage by automatically moving files between different types of storage media based on access needs. OHSM functioned within a Solaris-based environment, which was once widely used for enterprise storage. This system relied on a hierarchical storage model, meaning frequently accessed data was stored on faster disks, while less frequently accessed files were migrated to tape storage. Over time, as digital collections grew and newer, more flexible storage solutions became available, OHSM became outdated and less efficient for modern preservation needs.
+
+Current:
+Today, LOC has transitioned to a more modern system—Versity Storage Manager (VSM), running on RedHat Linux. This upgrade provides better scalability and integrates more effectively with modern hardware. To ensure redundancy and long-term preservation, LOC maintains two copies of preservation data, stored in two separate data centers. In addition, they continue to use LTO Tape Libraries, which offer reliable, cost-effective long-term storage compared to disk-based solutions. Tape remains a key component of archival storage strategies due to its durability and low power requirements.
+
+Future:
+Looking ahead, LOC plans to upgrade to Versity 2.0, integrating with RedHat Enterprise Linux 8 (RHEL8) for improved performance and support for new storage features. They are also adopting LTO-9 tape technology, which significantly expands storage capacity per tape, reducing the overall physical footprint needed for long-term storage. To further enhance redundancy and ensure disaster recovery protection, LOC is also planning to replicate preservation data to the cloud, creating additional copies that can be accessed in case of failures in the on-premise infrastructure.
+
+-->
+
+
+---
+
+<table>
+<tr>UC San Diego, Chronopolis</tr>
+<tr><td valign=top width=350>
 <h2>Past</h2>
 
 2-TB drives running on RAID 10<br>
 Hard disk failure occurred<br>
-
 </td>
 
 <td valign=top width=350>
-
 <h2>Current</h2>
 
 Isilon NAS (1.6 Petabytes) on 5 nodes<br>
 Purchased another cluster 5 years later<br>
 Fixity every 45 days<br>
-
 </td>
 
 <td valign=top width=350>
@@ -707,7 +857,6 @@ Fixity every 45 days<br>
 
 Amazon cloud storage<br>
 Use a “snowball” SSD to transfer data<br>
-Eye towards clou<br>
 
 </td>
 </tr>
@@ -715,9 +864,8 @@ Eye towards clou<br>
 
 <!--presenter notes
 
-So how might all of what we covered, architectures, technologies, and solutions fit together? What is an example of their use in a digital preservation environment?
 
-One good example given to us is from the Module 13: Digital Preservation Case Studies SAA publication assigned to you this week. Here, they provide transcribed interviews with various digital preservation archivists and administrators, who describe what systems they have used, their experiences with them, and their plans for the future.
+This example is from the Module 13: Digital Preservation Case Studies SAA publication assigned to you this week. Here, they provide transcribed interviews with various digital preservation archivists and administrators, who describe what systems they have used, their experiences with them, and their plans for the future.
 
 In the UC San Diego example, we are looking at a fairly large institutional repository system that at first used a RAID 10 system. Here, they reflect on how the their RAID often failed, which spurred them to purchase a refurbished Isilon NAS. They remark how the Isilon system allowed them to better scale up their storage capacity, in light of the fact that they are seeing a storage growth rate of about 5TB year-over-year, and expect that rate to increase with the launch of their new DAMS and migrations of their born-digital holdings. Here, they talk about how appraisal may decrease how much of these holdings they actually end up ingesting into their repository.
 
