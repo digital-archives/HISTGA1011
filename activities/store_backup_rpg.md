@@ -1,7 +1,9 @@
 ---
-title: Store, Backup or Lose - The 3-2-1 Backup RPG
+title: Store, Backup or Lose
 layout: default
-nav_order: 10
+parent: Weekly Activities
+nav_order: 5
+has_children: false
 ---
 
 # **📂 Store, Backup or Lose: The 3-2-1 Backup RPG**
