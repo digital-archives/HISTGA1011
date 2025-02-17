@@ -48,13 +48,13 @@ Archivematica is an open-source digital preservation system that automates tasks
    - 🔧 **Along with adjusting the compression algorithm (as the guide suggests), I would like you to make one additional change.**
    - This change can be anything – it’s an opportunity to experiment with Archivematica’s settings.
 
-3. After making your change, step through **Tasks #1-#4 again** (or at least far enough to see the effect of your adjustment).
+3. After making your change, step through the tasks again (or at least far enough to see the effect of your adjustment).
 
 ---
 
 ## **Submit to Brightspace**
 
-After completing the tasks, submit a **one-paragraph reflection** addressing:  
+After completing the tasks, submit a one-paragraph reflection addressing:  
 - **Were any Archivematica steps confusing?** If so, explain why.
 - **Did any jobs fail?** If yes, which ones, and any guess why?
 - **What additional setting/step did you adjust?**

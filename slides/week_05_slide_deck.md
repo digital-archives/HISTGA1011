@@ -51,6 +51,47 @@ style: |
   .nearline { background-color: #8D8741; }
   .offline { background-color: #E6E8FF; }
 
+  .activity-title {
+  text-align: center;
+  color:rgb(144, 0, 255);  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  }
+  .shapes {
+  text-align: center;
+  margin-bottom: 30px;
+  }
+  .shapes span {
+  display: inline-block;
+  margin: 0 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  }
+  .triangle {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 30px solid #ffb347;  display: inline-block;
+  margin: 0 10px;
+  }
+  .circle {
+  background-color: #00c0ff; }
+  .square {
+  width: 30px;
+  height: 30px;
+  background-color: #ff6767; }
+  .activity-list {
+  font-size: 1.1rem;
+  line-height: 1.1;
+  color:rgb(81, 0, 168);  margin-left: 20px;
+  }
+  .activity-list li {
+  margin-bottom: 10px;
+  }
+  .activity-list li strong {
+  color:rgb(235, 133, 133); }
 
 ---
 
@@ -411,7 +452,6 @@ Magnetic tape, such as what you would find in a cassette tape cartridge or reel-
 | **SSD** | No moving parts, so fast and durable ([source](https://www.backblaze.com/blog/how-reliable-are-ssds/)), compact | Expensive, Limited write cycles affect longevity |
 | **Tape**   | Inexpensive ($4–$8/TB), energy-efficient, longer lifespan | Slower, requires proprietary hardware/software |
 
-
 <!--presenter notes
 
 Comparison chart (updated February 2023) showing cost per terabyte of various HDD/SSD devices:
@@ -426,7 +466,6 @@ An HDD is made up of moving parts, meaning, mechanical action must occur for it 
 Because HDDs are mechanical, they are less durable and more prone to physical damage.
 
 SSD
-
 Good overview written by Backblaze on SSD reliability: https://www.backblaze.com/blog/how-reliable-are-ssds/
 
 Pros
@@ -457,21 +496,10 @@ One big con of a tape library is its reliance on proprietary hardware and softwa
 
 ---
 
-# Storage Solutions
-
-<!--presenter notes
-
-Next, we are going to talk about storage solutions. Each of the storage solutions presented can utilize any of the three storage technologies and architectures we just stepped through, but you’ll see that some solutions are more specific to one or another technology.
-
--->
-
----
-
 ## Definition
 # Storage Solution
-—
 
-A __storage solution__ refers to specific devices or services that can be used for storage. Each solution may use one or more storage technologies we just covered.
+A **storage solution** refers to specific devices or services that can be used for storage. Each solution may use one or more storage technologies we just covered.
 
 <!--presenter notes
 
@@ -581,7 +609,7 @@ Scalability: NAS devices can be expanded with additional hard drives as needed, 
     </h1>
     <ul>
       <li>Near or offline storage</li>
-      <li>Examples: CUNY TV uses an LTO tape library for offline storage</li>
+      <li>Examples: CUNY TV uses an LTO tape library for nearline storage, located onsite</li>
     </ul>
   </div>
 
@@ -742,9 +770,8 @@ RAIDS use what is known as parity to restore and repair damaged bitstreams.
 
 ## Definition
 # Parity
-—
 
-__Parity__ describes the process that some storage systems use to identify and recover corrupted bits.
+**Parity** describes the process that some storage systems use to identify and recover corrupted bits.
 
 It can do this by storing additional information (parity bits) about two twin bits stored on different drives.
 
@@ -875,15 +902,15 @@ In the future, it sounds like they are considering cloud storage services. In pa
 
 ---
 
-# Storage Challenges
+<div class="shapes">
+  <div class="triangle"></div>
+  <span class="circle"></span>
+  <span class="square"></span>
+</div>
 
-* Hardware failure
-* Software failure
-* Economic volatility/budget cuts
-* Natural disasters / climate change
-* Power supply/electrical grid failures
-* Human error
-* Third-party attack
+<div class="activity-title">Mini Activity - Storage "RPG"</div>
+
+
 
 <!--presenter notes
 
@@ -929,7 +956,7 @@ Logging and auditing: Keeping a log of all changes made to the files in the digi
 
 # Question
 
-Frequently backing data up across multiple storage devices is considered a de facto strategy to prevent loss. However, we now know that bits can “flip”. How might an institution prevent accidentally backing up _corrupted_ data?
+## Frequently backing data up across multiple storage devices is considered a de facto strategy to prevent loss. However, we now know that bits can “flip”. How might an institution prevent accidentally backing up _corrupted_ data?
 
 ---
 

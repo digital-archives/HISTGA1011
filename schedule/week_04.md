@@ -8,7 +8,7 @@ has_children: false
 
 # Week 4: Digital Repository Systems
 
-<!-- <a href="{{ site.baseurl }}/slides/week_04_slide_deck.html" target="_blank">Slides</a> -->
+<a href="{{ site.baseurl }}/slides/week_04_slide_deck.html" target="_blank">Slides</a>
 
 {: .label .label-yellow }
 Due
