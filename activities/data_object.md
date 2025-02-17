@@ -2,7 +2,7 @@
 title: Data Object
 layout: default
 parent: Weekly Activities
-nav_order: 1
+nav_order: 3
 has_children: false
 ---
 

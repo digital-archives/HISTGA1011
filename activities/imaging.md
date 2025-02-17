@@ -2,7 +2,7 @@
 title: Imaging and Conservation Review
 layout: default
 parent: Weekly Activities
-nav_order: 7
+nav_order: 6
 has_children: false
 ---
 

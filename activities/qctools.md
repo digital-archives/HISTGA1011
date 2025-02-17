@@ -2,7 +2,7 @@
 title: QCTools
 layout: default
 parent: Weekly Activities
-nav_order: 12
+nav_order: 8
 has_children: true
 ---
 

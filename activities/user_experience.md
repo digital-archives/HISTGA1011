@@ -2,7 +2,7 @@
 title: The User's Experience
 layout: default
 parent: Weekly Activities
-nav_order: 8
+nav_order: 12
 has_children: false
 ---
 

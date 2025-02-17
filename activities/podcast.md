@@ -2,7 +2,7 @@
 title: Podcast Archaeology
 layout: default
 parent: Weekly Activities
-nav_order: 13
+nav_order: 8
 has_children: false
 ---
 

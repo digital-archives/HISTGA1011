@@ -2,7 +2,7 @@
 title: Digital Preservation Metadata
 layout: default
 parent: Weekly Activities
-nav_order: 6
+nav_order: 7
 has_children: false
 ---
 
