@@ -57,7 +57,7 @@
   },"8": {
     "doc": "Archivematica Sandbox",
     "title": "Perform the Tasks",
-    "content": ". | Complete Tasks #1-#5 (skip step #0, and any other tasks/steps listed that are specific to setting up or using a Virtual Machine or VM). | During Task #5, there is a step that says: “Review the different options and make changes as you like.” . | 🔧 Along with adjusting the compression algorithm (as the guide suggests), I would like you to make one additional change. | This change can be anything – it’s an opportunity to experiment with Archivematica’s settings. | . | After making your change, step through Tasks #1-#4 again (or at least far enough to see the effect of your adjustment). | . ",
+    "content": ". | Complete Tasks #1-#5 (skip step #0, and any other tasks/steps listed that are specific to setting up or using a Virtual Machine or VM). | During Task #5, there is a step that says: “Review the different options and make changes as you like.” . | 🔧 Along with adjusting the compression algorithm (as the guide suggests), I would like you to make one additional change. | This change can be anything – it’s an opportunity to experiment with Archivematica’s settings. | . | After making your change, step through the tasks again (or at least far enough to see the effect of your adjustment). | . ",
     "url": "/HISTGA1011/activities/archivematica#perform-the-tasks",
     
     "relUrl": "/activities/archivematica#perform-the-tasks"
@@ -573,307 +573,363 @@
     
     "relUrl": "/activities/scripting_reflection#steps"
   },"82": {
+    "doc": "Store, Backup or Lose - The 3-2-1 Backup RPG",
+    "title": "📂 Store, Backup or Lose: The 3-2-1 Backup RPG",
+    "content": "A Role-Playing Game About the Importance of Digital Preservation and Disaster Recovery . ",
+    "url": "/HISTGA1011/activities/store_backup_rpg#-store-backup-or-lose-the-3-2-1-backup-rpg",
+    
+    "relUrl": "/activities/store_backup_rpg#-store-backup-or-lose-the-3-2-1-backup-rpg"
+  },"83": {
+    "doc": "Store, Backup or Lose - The 3-2-1 Backup RPG",
+    "title": "📜 The Premise",
+    "content": "In this short role-playing game (RPG), you and your fellow classmates will take on the role of IT and digital archives professionals at various institutions. Your goal is to ensure your institution’s data survives given various constraints. To do this, you’ll rely on the 3-2-1 Backup Rule: ✅ 3 copies of data ✅ 2 different storage devices/types ✅ 1 copy stored in a geographically-distinct location . Following the theme of threes, the class will be divided into three teams/institutions. Each team should assign 1 “Driver” who will read the steps/narrative below to the group, 1 “Roller” who will roll the dice, and 1 “Recorder” who will record results and decisions made by the group. ",
+    "url": "/HISTGA1011/activities/store_backup_rpg#-the-premise",
+    
+    "relUrl": "/activities/store_backup_rpg#-the-premise"
+  },"84": {
+    "doc": "Store, Backup or Lose - The 3-2-1 Backup RPG",
+    "title": "🎲 Step 1: Roll for your backup setup",
+    "content": "Designated Roller rolls one six-sided die (1d6) to determine their backup preparedness. | Roll | Backup Setup | . | 1 | “One and Done” – Only one copy of your data | . | 2-3 | “Two-for-Two” – Two copies, both in the same location | . | 4-6 | “Three’s the Charm” – Three copies, with at least one off-site | . ",
+    "url": "/HISTGA1011/activities/store_backup_rpg#-step-1-roll-for-your-backup-setup",
+    
+    "relUrl": "/activities/store_backup_rpg#-step-1-roll-for-your-backup-setup"
+  },"85": {
+    "doc": "Store, Backup or Lose - The 3-2-1 Backup RPG",
+    "title": "🏛 Step 2: Roll for your institution type &amp; holdings",
+    "content": "Roll 1d6 to determine what type of institution you are and how much data you need to protect. | Roll | Institution Type | Your Digital Holdings | . | 1 | Small Museum Archive | 5 TB of digitized rare photographs | . | 2 | Public Library | 50 TB of scanned microfilm | . | 3 | Small Research Library | 50 TB of faculty research, dissertations, and special collections | . | 4 | Film Archive | 5 PBs of scanned film reels | . | 5 | National Archive | 10 PB of government records and multimedia | . | 6 | Historic Society | 10 TB of born-digital local oral history audio recordings | . Encourage students to imagine themselves as the IT lead or archivist responsible for this collection! . ",
+    "url": "/HISTGA1011/activities/store_backup_rpg#-step-2-roll-for-your-institution-type--holdings",
+    
+    "relUrl": "/activities/store_backup_rpg#-step-2-roll-for-your-institution-type--holdings"
+  },"86": {
+    "doc": "Store, Backup or Lose - The 3-2-1 Backup RPG",
+    "title": "** Step 3: Roll for your storage technology **",
+    "content": "Roll 1d6 as many times as matches your backup setup (One and Done’s would roll once; Two-for-Twos twice, and Three’s-the-Charm thrice). If you roll the same technology twice, roll again so you have a unique list of technologies. | Roll | Disaster Type | . | 1 | Cloud Backup Platform | . | 2 | On-site RAID | . | 3 | Off-site Isilon | . | 4 | Off-site NAS | . | 5 | Linear Tape Open Library | . | 6 | Random box of unlabeled hard drives | . ",
+    "url": "/HISTGA1011/activities/store_backup_rpg#-step-3-roll-for-your-storage-technology-",
+    
+    "relUrl": "/activities/store_backup_rpg#-step-3-roll-for-your-storage-technology-"
+  },"87": {
+    "doc": "Store, Backup or Lose - The 3-2-1 Backup RPG",
+    "title": "🔥 Step 4: Major event",
+    "content": "Roll 1d6 again to determine an event that befalls your institution. | Roll | Disaster Type | What Happens | . | 1 | Natural disaster | Your repository suffers major flooding/leaks, affecting original media. | . | 2 | Cyberattack | Repository software goes offline; IT investigating potential cyberattack. | . | 3 | Accidental backup corruption | Your second copy was accidentally overwritten with corrupted data. | . | 4 | Human error | A staff member accidentally deletes preservation files. | . | 5 | Hardware failure | One of your devices fails randomly. | . | 6 | Automation issue | Preservation files accidentally saved at a low resolution. | . ",
+    "url": "/HISTGA1011/activities/store_backup_rpg#-step-4-major-event",
+    
+    "relUrl": "/activities/store_backup_rpg#-step-4-major-event"
+  },"88": {
+    "doc": "Store, Backup or Lose - The 3-2-1 Backup RPG",
+    "title": "🍀 Bonus Roll",
+    "content": "For those unlucky to have been doled the “One and Done” fate, please roll 1d6 again to determine whether you get a bit lucky. | Roll | Stroke of luck | . | 1-3 | Staff member actually kept a copy of materials on a random desktop: Add this to your backup setup. | . | 4-6 | Better luck next time! | . ",
+    "url": "/HISTGA1011/activities/store_backup_rpg#-bonus-roll",
+    
+    "relUrl": "/activities/store_backup_rpg#-bonus-roll"
+  },"89": {
+    "doc": "Store, Backup or Lose - The 3-2-1 Backup RPG",
+    "title": "Store, Backup or Lose - The 3-2-1 Backup RPG",
+    "content": " ",
+    "url": "/HISTGA1011/activities/store_backup_rpg",
+    
+    "relUrl": "/activities/store_backup_rpg"
+  },"90": {
     "doc": "Course Assignment Details",
     "title": "Assignment Details",
     "content": "Participation: 30 points . Participation is graded across three areas: 1.) pre-class reading reactions, 2.) in-class participation and discussion, and 3.) in-class/asynchronous activities. Pre-class reading reactions: 10 points . Each week, you will receive a set of readings and additional materials that require your review and response in the Brightspace “Discussions” section. Locate the topic titled “Week [#] - Pre-Class Reading Reactions” corresponding to the current week. It is essential to submit your weekly post by 3:30 PM on Wednesdays. Your response should encompass all the assigned readings and materials collectively. Ensure that your post includes the following three parts: . | Aha! Share something new that you learned. | What? Mention something that you didn’t fully understand. | More! Highlight a topic you would like to further discuss in class. | . During our class sessions, we will allocate 10-15 minutes to discuss these reactions as a group. Regarding grading, I will evaluate the completion and quality of your posts each week, focusing on content rather than your writing style. In-class discussions: 10 points . To fully engage in the course, it is expected that you come to class having completed all assigned readings and actively participate in classroom discussions and activities. For weeks when we have guest speakers or field trips, please come prepared with at least one question to ask the speaker. If you are unable to attend class or need to participate remotely, please send an email to me by Wednesday 3:30 PM. You do not need to provide a detailed explanation or excuse, a simple “I cannot make class” will suffice. Although a Zoom link will be available on Brightspace for each class as an option, please note that class sessions are primarily conducted in-person by default. In-class activities: 10 points . Most weeks we will work on an in-class activity together as a group. The objective of these activities is to provide you with practical experience using the tools and processes employed in digital archiving and preservation. Activity instructions and supplementary files are kept in the Activities folder. If you are unable to complete the activity during class time, you will be responsible for completing it outside of class hours and submitting your results in Brightspace by the following Sunday. The format for submitting your results may vary each week, ranging from written documents, worksheets, spreadsheets, or something else. While individual submission is expected, you are encouraged to work together and collaborate with your classmates. ",
     "url": "/HISTGA1011/syllabus/syllabus_assignments#assignment-details",
     
     "relUrl": "/syllabus/syllabus_assignments#assignment-details"
-  },"83": {
+  },"91": {
     "doc": "Course Assignment Details",
     "title": "Assignments: 40 points",
     "content": "All assignments are due by the beginning of class on the due date indicated in the syllabus. Please submit assignment documents through the Brightspace Assignments section. Assignment files and descriptions can be found in the Assignments folder. Final Project: 30 points . Details about the Final Project can be found in the Final Project Description document. ",
     "url": "/HISTGA1011/syllabus/syllabus_assignments#assignments-40-points",
     
     "relUrl": "/syllabus/syllabus_assignments#assignments-40-points"
-  },"84": {
+  },"92": {
     "doc": "Course Assignment Details",
     "title": "Course Assignment Details",
     "content": " ",
     "url": "/HISTGA1011/syllabus/syllabus_assignments",
     
     "relUrl": "/syllabus/syllabus_assignments"
-  },"85": {
+  },"93": {
     "doc": "Tech Stack",
     "title": "Tech Stack 🥞",
     "content": " ",
     "url": "/HISTGA1011/activities/tech_stack#tech-stack-",
     
     "relUrl": "/activities/tech_stack#tech-stack-"
-  },"86": {
+  },"94": {
     "doc": "Tech Stack",
     "title": "Overview",
     "content": "In this activity, you will review the online documentation for an assigned collecting institution to identify the systems it uses to support digital preservation and archiving operations. This is sometimes referred to as a technical stack or “tech stack”, hence the name of the activity. The goal is to help you understand: . | the range of digital preservation systems | real life examples of their implementation | how these systems interact to support the stewardship life cycle of data objects. | . ",
     "url": "/HISTGA1011/activities/tech_stack#overview",
     
     "relUrl": "/activities/tech_stack#overview"
-  },"87": {
+  },"95": {
     "doc": "Tech Stack",
     "title": "Institution Selection",
     "content": "At the start of this activity in class, I will assign you an institution listed in the Tech Stack Airtable gallery (your name and your assigned institution will be displayed in the gallery card; click into the card for access to a link (or 2) to some online documentation to assist in your research.) . ",
     "url": "/HISTGA1011/activities/tech_stack#institution-selection",
     
     "relUrl": "/activities/tech_stack#institution-selection"
-  },"88": {
+  },"96": {
     "doc": "Tech Stack",
     "title": "Describe the Stack",
     "content": "You will create a 3-slide mini-presentation to share with the class next session. Please use the provided Google Slide template so the slide decks are all formatted the same. To use this template, open it, and select File &gt; Make a copy &gt; Entire presentation to make a local copy in your GDrive. Your slides should be structured as follows: . | Slide 1: Institution Name/Your Name: This is your introductory slide. Fill in: . | The name of your assigned institution | Your name | . | Slide 2: Systems List: List the name of each system the institution uses. | If applicable, hyperlink each system to its official website or documentation | If a particular system is unknown, simply list “Unknown” in its place. | Note: You will not be graded on completeness! Some institutions do not publicly share their full tech stack. Focus on what you can find using the documentation provided in Airtable. | . | . 3. Slide 3: System Demo . During your presentation, you will demonstrate one system from your institution’s tech stack. Your slide should serve as a guide for your demo and include: . | A URL to the system you will be showcasing. | A brief “tour” of the system, covering: . | What does it look like? Highlight key features and user interface (UI) elements. | What can a user do? (e.g., search, browse, view, play, interact). | Does it integrate with other systems? If so, how? | . | . Not all systems are publicly accessible. Choose a system that has an external-facing interface, such as: . | A digital collections website | A finding aid portal | A digitization request form | A catalog record | . 📌 Important: When selecting your system, try to focus on one that links to digitally preserved objects to help illustrate its role in the institution’s digital preservation workflow. ",
     "url": "/HISTGA1011/activities/tech_stack#describe-the-stack",
     
     "relUrl": "/activities/tech_stack#describe-the-stack"
-  },"89": {
+  },"97": {
     "doc": "Tech Stack",
     "title": "Submission",
     "content": "Submit your exported slide deck via the Assignments section of Brightspace. In addition, please: . | Share your Google Slides link with me, or copy/paste the slide deck URL in the Brightspace Assignment submission form. | Ensure your slides are fully visible (set permissions to allow viewing). | . 🔹 I will be compiling all individual slide decks into a single class presentation, so be sure to update your sharing settings accordingly. ",
     "url": "/HISTGA1011/activities/tech_stack#submission",
     
     "relUrl": "/activities/tech_stack#submission"
-  },"90": {
+  },"98": {
     "doc": "Tech Stack",
     "title": "Presentation",
     "content": "Be prepared to present next class! . | Each student will have ~5 minutes to demo their institution’s Tech Stack. | You will walk us through one system from your stack, showcasing its interface and key features. | . ",
     "url": "/HISTGA1011/activities/tech_stack#presentation",
     
     "relUrl": "/activities/tech_stack#presentation"
-  },"91": {
+  },"99": {
     "doc": "Tech Stack",
     "title": "Tech Stack",
     "content": " ",
     "url": "/HISTGA1011/activities/tech_stack",
     
     "relUrl": "/activities/tech_stack"
-  },"92": {
+  },"100": {
     "doc": "The User's Experience",
     "title": "The User’s Experience",
     "content": " ",
     "url": "/HISTGA1011/activities/user_experience#the-users-experience",
     
     "relUrl": "/activities/user_experience#the-users-experience"
-  },"93": {
+  },"101": {
     "doc": "The User's Experience",
     "title": "Overview:",
     "content": "In this activity, you will explore the “front end” of a digital repository. You will review the University of Puerto Rico, Mayaguez Campus LibGuide, which provides insights into digital preservation concepts and includes a dedicated section on Access. The goal of this assignment is to assess the user experience of one of the provided access portals, taking into consideration the principles of contextual metadata, information presentation, and other access considerations discussed in the week’s readings. ",
     "url": "/HISTGA1011/activities/user_experience#overview",
     
     "relUrl": "/activities/user_experience#overview"
-  },"94": {
+  },"102": {
     "doc": "The User's Experience",
     "title": "Instructions:",
     "content": "Step 1: Review the LibGuide . | Begin by accessing the University of Puerto Rico, Mayaguez Campus LibGuide on digital preservation concepts. | Familiarize yourself with the content in the “Access” section of the LibGuide. This section provides a general overview of digital repository access, as well as examples of various access portals. | . Step 2: Choose an Access Portal . | Select one of the following access portals to evaluate: . | The real face of White Australia | Rhizome ArtBase | Archivo Digital Comunitario de Culebra | Documenting Ferguson | Center for Brooklyn History, Oral History Collections | . | . Step 3: User Experience Evaluation . | Explore the chosen access portal thoroughly. Interact with its interface and access its content. | Consider the principles of contextual metadata, presentation of information, and other access-related concepts discussed in the week’s readings. | Evaluate the user experience provided by the chosen portal. Pay attention to the following aspects: . | Clarity and effectiveness of navigation. | Availability and quality of metadata. | Ease of discovering and accessing digital objects. | Opportunities for users to make connections between digital and physical counterparts. | Presentation of original order/fonds, or between interrelated objects. | Any additional access considerations that stand out. | . | . Step 4: Document Your Evaluation . | Write a detailed evaluation report that summarizes your findings. Include the following: . | An introduction to the chosen access portal. | A description of your user experience while navigating the portal. | Analysis of the portal’s strengths and weaknesses in terms of contextual metadata, information presentation, and other considerations discussed both within this week’s readings, and during the in-class lecture. | Recommendations for improvements. | A conclusion summarizing your overall assessment. | Submit your activity summary to Brightspace. | . | . Step 5: Submission . | Submit your evaluation report in Brightspace. | . ",
     "url": "/HISTGA1011/activities/user_experience#instructions",
     
     "relUrl": "/activities/user_experience#instructions"
-  },"95": {
+  },"103": {
     "doc": "The User's Experience",
     "title": "The User's Experience",
     "content": " ",
     "url": "/HISTGA1011/activities/user_experience",
     
     "relUrl": "/activities/user_experience"
-  },"96": {
+  },"104": {
     "doc": "Week 1",
     "title": "Week 1: Introduction to Digital Archives",
     "content": "Slides . Due . In class we will start the Week 1 activity, Data Object. Submit your completed activity summary in Brightspace by Sunday night. Read . | Nothing to read this week! | . ",
     "url": "/HISTGA1011/schedule/week_01#week-1-introduction-to-digital-archives",
     
     "relUrl": "/schedule/week_01#week-1-introduction-to-digital-archives"
-  },"97": {
+  },"105": {
     "doc": "Week 1",
     "title": "Week 1",
     "content": " ",
     "url": "/HISTGA1011/schedule/week_01",
     
     "relUrl": "/schedule/week_01"
-  },"98": {
+  },"106": {
     "doc": "Week 2",
     "title": "Week 2: Open Archival Information System (OAIS) Conceptual Model",
     "content": "Slides . Due . In class we will start the Week 2 activity, Breaking BagIt. Submit your completed activity summary in Brightspace by Sunday night. Read . | Owens, Trevor. The Theory and Craft of Digital Preservation. 2018. | . ",
     "url": "/HISTGA1011/schedule/week_02#week-2-open-archival-information-system-oais-conceptual-model",
     
     "relUrl": "/schedule/week_02#week-2-open-archival-information-system-oais-conceptual-model"
-  },"99": {
+  },"107": {
     "doc": "Week 2",
     "title": "Week 2",
     "content": " ",
     "url": "/HISTGA1011/schedule/week_02",
     
     "relUrl": "/schedule/week_02"
-  },"100": {
+  },"108": {
     "doc": "Week 3",
     "title": "Week 3: Processing Born-Digital Archives",
     "content": "Slides . Due . In class we will start the Week 3 activity, Corrupting a Bitstream. Submit your completed activity summary in Brightspace by Sunday night. Read . | National Best Practices for Archival Accessioning Working Group. Archival Accessioning Best Practices: ABP v.1.0.1. November 2024. GitBook, https://accessioning.gitbook.io/archival-accessioning-best-practices/accession-record-elements. Note: For this reading, use the search bar to locate and read just the sections addressing born-digital materials. | Faulder, Erin. “Module 16: Accessioning Digital Archives.” Appraisal and Acquisition Strategies, edited by Michael Shallcross and Christopher J. Prom, Trends in Archives Practice series, Society of American Archivists, 2016, https://www2.archivists.org/sites/all/files/Module_16_CaseStudy3_MaxEckard.pdf. | Arroyo, Elvia. “Invisible Defaults and Perceived Limitations: Processing the Juan Gelman Files.” On Archivy, Oct 30 2016, https://medium.com/on-archivy/invisible-defaults-and-perceived-limitations-processing-the-juan-gelman-files-4187fdd36759 | Arroyo-Ramírez, Elvia; Bolding, Kelly; Charlton, Faith; and Hughes, Allison (2018) “Tell Us about Your Digital Archives Workstation”: A Survey and Case Study,”Journal of Contemporary Archival Studies: Vol. 5 , Article 16. https://elischolar.library.yale.edu/jcas/vol5/iss1/16 | Jacquarie, C., Berdini, A., Peltzman, S., &amp; Tasker, K. (2018). Describing Digital: The Design and Creation of a Born-Digital Archival Description Standard at the University of California Libraries. Journal of Western Archives, 9(1), 1-24. Retrieved from https://digitalcommons.usu.edu/westernarchives/vol9/iss1/10/ | . ",
     "url": "/HISTGA1011/schedule/week_03#week-3-processing-born-digital-archives",
     
     "relUrl": "/schedule/week_03#week-3-processing-born-digital-archives"
-  },"101": {
+  },"109": {
     "doc": "Week 3",
     "title": "Week 3",
     "content": " ",
     "url": "/HISTGA1011/schedule/week_03",
     
     "relUrl": "/schedule/week_03"
-  },"102": {
+  },"110": {
     "doc": "Week 4",
     "title": "Week 4: Digital Repository Systems",
-    "content": "Due . In class we will start the Week 4 activity, Tech Stack 🥞. Submit your completed activity summary in Brightspace by Sunday night. Read . | Eckard, Max, Pillen, Dallas, Shallcross, Mike. “Bridging Technologies to Efficiently Arrange and Describe Digital Archives: the Bentley Historical Library’s ArchivesSpace-Archivematica-DSpace Workflow Integration Project.” Code4lib Journal: Issue 35, 2017-01-30. https://journal.code4lib.org/articles/12105 | Fritz, Angela. “So Many Options, So Little Time”: How to Evaluate a Digital Preservation System That Is Right for Your Institution. In Digital Preservation in Libraries: Preparing for a Sustainable Future, edited by Jeremy Myntti and Jessalyn Zoom, 77-92. 2019. https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/reader.action?docID=5732733&amp;ppg=5 | Jones, Sarah, Cory Lampert, Emily Lapworth, and Seth Shaw. “Islandora for Archival Access and Discovery.” code{4}lib journal 58 (2023-12-04). https://journal.code4lib.org/articles/17929 | Leigh, M., Gallinger, M., Zakuta, V., Barrera-Gomez, J., and Abrams, S. 2024. The Future of Preservation: Reinventing the Repository at Harvard. iPRES 2024 Papers - International Conference on Digital Preservation. https://ipres2024.pubpub.org/pub/qcch6erj/release/1. | . ",
+    "content": "Slides . Due . In class we will start the Week 4 activity, Tech Stack 🥞. Submit your completed activity summary in Brightspace by Sunday night. Read . | Eckard, Max, Pillen, Dallas, Shallcross, Mike. “Bridging Technologies to Efficiently Arrange and Describe Digital Archives: the Bentley Historical Library’s ArchivesSpace-Archivematica-DSpace Workflow Integration Project.” Code4lib Journal: Issue 35, 2017-01-30. https://journal.code4lib.org/articles/12105 | Fritz, Angela. “So Many Options, So Little Time”: How to Evaluate a Digital Preservation System That Is Right for Your Institution. In Digital Preservation in Libraries: Preparing for a Sustainable Future, edited by Jeremy Myntti and Jessalyn Zoom, 77-92. 2019. https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/reader.action?docID=5732733&amp;ppg=5 | Jones, Sarah, Cory Lampert, Emily Lapworth, and Seth Shaw. “Islandora for Archival Access and Discovery.” code{4}lib journal 58 (2023-12-04). https://journal.code4lib.org/articles/17929 | Leigh, M., Gallinger, M., Zakuta, V., Barrera-Gomez, J., and Abrams, S. 2024. The Future of Preservation: Reinventing the Repository at Harvard. iPRES 2024 Papers - International Conference on Digital Preservation. https://ipres2024.pubpub.org/pub/qcch6erj/release/1. | . ",
     "url": "/HISTGA1011/schedule/week_04#week-4-digital-repository-systems",
     
     "relUrl": "/schedule/week_04#week-4-digital-repository-systems"
-  },"103": {
+  },"111": {
     "doc": "Week 4",
     "title": "Week 4",
     "content": " ",
     "url": "/HISTGA1011/schedule/week_04",
     
     "relUrl": "/schedule/week_04"
-  },"104": {
+  },"112": {
     "doc": "Week 5",
     "title": "Week 5: Digital Preservation Storage Systems",
     "content": "Due . | In class we will start the Week 5 activity, Archivematica Sandbox. Submit your completed activity summary in Brightspace by Sunday night. | . Read . | Schaefer, S. K., McGovern, N. Y., Zierau, E. M. O., Goethals, A. L., &amp; Wu, C. C. M. (2022). Deciding how to decide: Using the Digital Preservation Storage Criteria. IFLA Journal, 48(2), 318-331. https://doi.org/10.1177/03400352211011490 | Gallinger, Michelle. “Trends in Digital Preservation Capacity and Practice: Results from the 2nd Bi-Annual National Digital Stewardship Alliance Storage Survey.” D-Lib Magazine 23, no. 7 (2017): n. pag. https://search.library.nyu.edu/permalink/01NYU_INST/1eeerc1/cdi_openaire_primary_doi_dedup_7366470215ed8dda67032281c131119a | Digital Preservation Coalition. (n.d.). Storage. Digital Preservation Handbook. https://www.dpconline.org/handbook/organisational-activities/storage | . ",
     "url": "/HISTGA1011/schedule/week_05#week-5-digital-preservation-storage-systems",
     
     "relUrl": "/schedule/week_05#week-5-digital-preservation-storage-systems"
-  },"105": {
+  },"113": {
     "doc": "Week 5",
     "title": "Week 5",
     "content": " ",
     "url": "/HISTGA1011/schedule/week_05",
     
     "relUrl": "/schedule/week_05"
-  },"106": {
+  },"114": {
     "doc": "Week 6",
     "title": "Week 6: Digital Preservation Metadata",
     "content": "Due . | In class we will start the Week 6 activity, Digital Preservation Metadata. Submit your completed activity summary in Brightspace by Sunday night. | . Read . | “Chapter 9 Digital Preservation for Archives.” In Digital Preservation Metadata for Practitioners: Implementing PREMIS, edited by Angela Dappert, et al., 115-132. Springer International Publishing AG, 2016. ProQuest Ebook Central. Accessed January 22, 2024., http://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4772462. | Guenther, Rebecca S. (2008) “Battle of the Buzzwords Flexibility vs. Interoperability When Implementing PREMIS in METS,” D‐Lib Magazine 14 (7/8). https://www.dlib.org/dlib/july08/guenther/07guenther.html | Dappert, Angela and Markus Enders. (2010) “Digital Preservation Metadata Standards.” Information Standards Quarterly (22:2) https://www.loc.gov/standards/premis/FE_Dappert_Enders_MetadataStds_isqv22no2.pdf | Priscilla Caplan, Understanding PREMIS, Library of Congress, 2009. https://www.loc.gov/standards/premis/understanding-premis.pdf | Brian Lavoie and Richard Garnter, Preservation Metadata, Digital Preservation Coalition Technology Watch Report 13-03. Digital Preservation Coalition (UK): May 2013 https://dx.doi.org/10.7207/twr13-03 | . ",
     "url": "/HISTGA1011/schedule/week_06#week-6-digital-preservation-metadata",
     
     "relUrl": "/schedule/week_06#week-6-digital-preservation-metadata"
-  },"107": {
+  },"115": {
     "doc": "Week 6",
     "title": "Week 6",
     "content": " ",
     "url": "/HISTGA1011/schedule/week_06",
     
     "relUrl": "/schedule/week_06"
-  },"108": {
+  },"116": {
     "doc": "Week 7",
     "title": "Week 7: Digitization",
     "content": "Due . | In class we will start the Week 7 activity, Imaging and Conservation Group Activity. Submit your completed activity summary in Brightspace by Sunday night. | . Read . | Koster, Lucas. “Persistent identifiers for heritage objects.” Code4lib Journal: Issue 47, 2020-02-17. https://journal.code4lib.org/articles/14978 | Prescott, Andrew and Hughs, Lorna. “Why Do We Digitize? The Case for Slow Digitization.” Archive Journal: September 2018. https://www.archivejournal.net/essays/why-do-we-digitize-the-case-for-slow-digitization/ | Thompson, Samantha, “Why don’t archivists digitize everything?” Archives @ PAMA blog: May 31, 2017. https://peelarchivesblog.com/2017/05/31/why-dont-archivists-digitize-everything/ | Yolkowski, John and Jamieson, Krista. “Access and Preservation in Archival Mass Digitization Projects.” Practical Technology for Archives: 2017, Vol. 1, No. 7. https://ecommons.cornell.edu/bitstream/handle/1813/76865/Access_and_Preservation_in_Archival_Mass_Digitization_Projects.pdf?sequence=1&amp;isAllowed=y | “Digitizing Entire Collections.” Archives of American Art. https://www.aaa.si.edu/documentation/digitizing-entire-collections | Total Cost of Stewardship: Responsible Collection Building in Archives and Special Collections https://www.oclc.org/content/dam/research/publications/2021/oclcresearch-total-cost-of-stewardship-a4.pdf | . Watch . | COPY BYTES: Digitization And Libraries, Part 1 | COPY BYTES: Digitization And Libraries, Part 2 | . ",
     "url": "/HISTGA1011/schedule/week_07#week-7-digitization",
     
     "relUrl": "/schedule/week_07#week-7-digitization"
-  },"109": {
+  },"117": {
     "doc": "Week 7",
     "title": "Week 7",
     "content": " ",
     "url": "/HISTGA1011/schedule/week_07",
     
     "relUrl": "/schedule/week_07"
-  },"110": {
+  },"118": {
     "doc": "Week 8",
     "title": "Week 8: Access and Discovery",
     "content": "Due . | In class we will start the Week 8 activity, The User’s Experience. Submit your completed activity summary in Brightspace by Sunday night. | . Read . | Wiedeman, G. (2023). Designing Digital Discovery and Access Systems for Archival Description. code{4}lib Journal, 55. https://journal.code4lib.org/articles/16963 | Stephanie Becker, Anne Kumer, and Naomi Langer, “Access is People: How Investing in Digital Collections Labor Improves Archival Discovery &amp; Delivery,” in The Lighting the Way Handbook: Case Studies, Guidelines, and Emergent Futures for Archival Discovery and Delivery, edited by Maria Matienzo and Dinah Handel, 29-38. Stanford, CA: Stanford University Libraries, October 2021. https://doi.org/10.25740/gg453cv6438 | Abumeeiz, Salma. “Collections over People: Critiquing Notions of Institutional Inclusion within Library Heritage Materials.” Presentation at the Item Not Found conference, moderated by Nina Schneider, University of California, Los Angeles, April 4, 2023. YouTube video, 38:07-59:14. Accessed July 2, 2023. https://www.youtube.com/watch?v=53M1UwyYPug | Berry, Dorothy. “Take Me into The Library and Show Me Myself: Towards Authentic Accessibility in Digital Libraries.” Proceedings of the American Philosophical Society (2022), pp. 111-126. https://www.jstor.org/stable/45420503 | Zhang, Jane. 2012. “Original Order in Digital Archives”. Archivaria 74 (November), 167-93. https://archivaria-ca.proxy.library.nyu.edu/index.php/archivaria/article/view/13410 | Alison Anderson; Kristin Bjork; Kyle DeCicco-Carey; Sylvia Welsh (2021). “Laying a Foundation for Digital Collections at the Property Information Resource Center,” The American Archivist (2021) 84 (2): 256–280. https://drive.google.com/file/d/1e6pwdBBlqX8W2b00EviDxvEY819JSIU5/view?usp=drivesdk | Schechter, Gayle. “Legal and Ethical Considerations for Providing Access to Born-Digital Collections: Copyright.” Digital Library Federation (DLF) Blog. January 13, 2023. Accessed January 22, 2024, https://www.diglib.org/legal-and-ethical-considerations-for-providing-access-to-born-digital-collections-copyright/. | Gentry, Steven. “SAA 2019 recap - Session 204: Demystifying the Digital: Providing User Access to Born-Digital Records in Varying Contexts”. bloggERS https://saaers.wordpress.com/2019/10/08/saa-2019-recap-session-204-demystifying-the-digital-providing-user-access-to-born-digital-records-in-varying-contexts/ | Valentine, Rebekah. “Why Piracy Fears are Keeping Some Researchers from Accessing the Games They Need.” IGN Entertainment, May 17, 2024. https://www.ign.com/articles/why-piracy-fears-are-keeping-some-researchers-from-accessing-the-games-they-need. | . ",
     "url": "/HISTGA1011/schedule/week_08#week-8-access-and-discovery",
     
     "relUrl": "/schedule/week_08#week-8-access-and-discovery"
-  },"111": {
+  },"119": {
     "doc": "Week 8",
     "title": "Week 8",
     "content": " ",
     "url": "/HISTGA1011/schedule/week_08",
     
     "relUrl": "/schedule/week_08"
-  },"112": {
+  },"120": {
     "doc": "Week 9",
     "title": "Week 9: Automation and Scripting",
     "content": "Due . | In class we will start the Week 9 activity, Scripting Reflection. Submit your completed activity summary in Brightspace by Sunday night. | . Read . | Cocciolo, Anthony. “Unix Commands and Batch Processing for the Reluctant Librarian or Archivist.” Code4Lib Journal: Issue 23, 2014-01-17. https://journal.code4lib.org/articles/9158 | Martin, Nicole. “Why Use The Command Line For Digital Archiving And Preservation?” twobit Digital Preservation. June 21, 2020. https://twobitpreservation.com/blog/2020/6/11/why-use-the-command-line-for-digital-archiving-and-preservation | Berish, Amy. “Learning Python as a Processing Archivist: A Reflection” Bits &amp; Bytes: The Rockefeller Archive Center Blog. April 6, 2016. https://blog.rockarch.org/learning-python-as-a-processing-archivist-a-reflection | Colloton, Eddy. “THAT DAM PROJECT”. June 14, 2019. http://eddycolloton.com/blog/2019/1/10/that-dam-project | Potter, Abbey. “Automating Digital Archival Processing at Johns Hopkins University” May 9, 2017. https://blogs.loc.gov/thesignal/2017/05/automating-digital-archival-processing-at-johns-hopkins-university/ | Libraries, University of California Systemwide. UC Guidelines for Born-Digital Archival Description. Oct. 2017. https://escholarship.org/uc/item/9cg222jc | Tammi Kim; Karla Irwin. “Learning from Las Vegas: Adapting Workflows for Managing Born-Digital Design Records.” The American Archivist (2021) 84 (2): 355–373. https://doi.org/10.17723/0360-9081-84.2.355 | . ",
     "url": "/HISTGA1011/schedule/week_09#week-9-automation-and-scripting",
     
     "relUrl": "/schedule/week_09#week-9-automation-and-scripting"
-  },"113": {
+  },"121": {
     "doc": "Week 9",
     "title": "Week 9",
     "content": " ",
     "url": "/HISTGA1011/schedule/week_09",
     
     "relUrl": "/schedule/week_09"
-  },"114": {
+  },"122": {
     "doc": "Week 10",
     "title": "Week 10: No Class - Spring Break!",
     "content": " ",
     "url": "/HISTGA1011/schedule/week_10#week-10-no-class---spring-break",
     
     "relUrl": "/schedule/week_10#week-10-no-class---spring-break"
-  },"115": {
+  },"123": {
     "doc": "Week 10",
     "title": "Week 10",
     "content": " ",
     "url": "/HISTGA1011/schedule/week_10",
     
     "relUrl": "/schedule/week_10"
-  },"116": {
+  },"124": {
     "doc": "Week 11",
     "title": "Week 11: TK",
     "content": "More details will be added here soon . ",
     "url": "/HISTGA1011/schedule/week_11#week-11-tk",
     
     "relUrl": "/schedule/week_11#week-11-tk"
-  },"117": {
+  },"125": {
     "doc": "Week 11",
     "title": "Week 11",
     "content": " ",
     "url": "/HISTGA1011/schedule/week_11",
     
     "relUrl": "/schedule/week_11"
-  },"118": {
+  },"126": {
     "doc": "Week 12",
     "title": "Week 12: Moving Image and Audio Preservation",
     "content": "Due . | In class we will start the Week 12 activity, QCTools. Submit your completed activity summary in Brightspace by Sunday night. | . Read . | Kim, Julia, Fraimow, Rebecca, Titkemeyer, Erika. “Never Best Practices: Born-Digital Audiovisual Preservation.” Code4lib Journal: Issue 43, 2019-02-14, https://journal.code4lib.org/articles/14244 | Pearman, Alice. “Teachers’ Tales Go Online: Digitizing Oral Histories on Cassettes.” The American Archivist: Spring/Summer 2019, Vol. 82, No. 1, pp. 124-136. https://doi.org/10.17723/0360-9081-82.1.124 | Galey, Alan. 2018. “Looking for a Place to Happen: Collective Memory, Digital Music Archiving, and the Tragically Hip”. Archivaria 86 (November), 6-43. https://archivaria-ca.proxy.library.nyu.edu/index.php/archivaria/article/view/13642 | Cook, Sarah. 2017. “Shrouded History: The Canadian Film and Photo Unit, Records Creation, Reuse, and the Recontextualizing of “Lost Audiovisual Heritage”. Archivaria 83 (June), 125-48. https://archivaria-ca.proxy.library.nyu.edu/index.php/archivaria/article/view/13603 | Ng, Y. (2024, May 6). Supporting Community-Based Video Archiving for Human Rights with WITNESS [Video]. YouTube. Archivists Round Table of Metropolitan New York Programming Webinars. https://www.youtube.com/watch?v=CCDbhnHugT0 | AVPreserve Guide to Codec: https://www.weareavp.com/wp-content/uploads/2017/07/AVPS_Codec_Primer.pdf | XFR Collective Dr. Tape-Love: https://xfrcollective.files.wordpress.com/2020/06/xfr-dr-tape-love_zine-2019.pdf | . ",
     "url": "/HISTGA1011/schedule/week_12#week-12-moving-image-and-audio-preservation",
     
     "relUrl": "/schedule/week_12#week-12-moving-image-and-audio-preservation"
-  },"119": {
+  },"127": {
     "doc": "Week 12",
     "title": "Week 12",
     "content": " ",
     "url": "/HISTGA1011/schedule/week_12",
     
     "relUrl": "/schedule/week_12"
-  },"120": {
+  },"128": {
     "doc": "Week 13",
     "title": "Week 13: Web and Email Archiving",
     "content": "Due . | In class we will start the Week 13 activity, Podcast Archaeology. Submit your completed activity summary in Brightspace by Sunday night. | . Read . | Drake, Tracy S., Aisha Conner-Gaten, and Steven D. Booth. “Archiving Black Movements: Shifting Power and Exploring a Community-Centered Approach,” in “Library and Information Studies and the Mattering of Black Lives,” eds. Safiya Umoja Noble, Michelle Caswell, Tonia Sutherland, and Sarah Roberts. Special issue, Journal of Critical Library and Information Studies 4. https://journals.litwinbooks.com/index.php/jclis/article/view/170 | Summers, Ed. 2020. “Appraisal Talk in Web Archives”. Archivaria 89 (May), 70-103. https://archivaria-ca.proxy.library.nyu.edu/index.php/archivaria/article/view/13733 | Lynch, Clifford. “Stewardship in the ‘Age of Algorithms.’” first monday: 2017-12-04, Volume 22, Number 12. https://firstmonday.org/ojs/index.php/fm/article/view/8097/6583 | Wickner, Amy (2019) “Recognizing Co-Creators in Four Configurations: Critical Questions for Web Archiving,” Journal of Contemporary Archival Studies: Vol. 6 , Article 23. https://elischolar.library.yale.edu/jcas/vol6/iss1/23 | Velte, Ashlyn. “Ethical Challenges and Current Practices in Activist Social Media Archives.” The American Archivist: Spring/Summer 2018, Vol. 81, No. 1, pp. 112-134. https://doi.org/10.17723/0360-9081-81.1.112 | Maemura, Erin, et. al. “If These Crawls Could Talk: Studying and Documenting Web Archives Provenance,” Journal of the Association for Information Science and Technology, 2018-05-20, https://tspace.library.utoronto.ca/bitstream/1807/82840/1/JASIST_IfTheseCrawls-Preprint-20180122.pdf | Acker, Amelia. (2020, June 26). Emulation Encounters: Software Preservation in Libraries, Archives, And Museums. Software Preservation Network. https://www.softwarepreservationnetwork.org/preprint-emulation-encounters-software-preservation-in-libraries-archives-and-museums/ | . ",
     "url": "/HISTGA1011/schedule/week_13#week-13-web-and-email-archiving",
     
     "relUrl": "/schedule/week_13#week-13-web-and-email-archiving"
-  },"121": {
+  },"129": {
     "doc": "Week 13",
     "title": "Week 13",
     "content": " ",
     "url": "/HISTGA1011/schedule/week_13",
     
     "relUrl": "/schedule/week_13"
-  },"122": {
+  },"130": {
     "doc": "Week 14",
     "title": "Week 14: No Class!",
     "content": "Use this time to work on your final papers and presentations. I will make myself available to book for consults, in case you have any questions or guidance. Booking form TK! . ",
     "url": "/HISTGA1011/schedule/week_14#week-14-no-class",
     
     "relUrl": "/schedule/week_14#week-14-no-class"
-  },"123": {
+  },"131": {
     "doc": "Week 14",
     "title": "Week 14",
     "content": " ",
     "url": "/HISTGA1011/schedule/week_14",
     
     "relUrl": "/schedule/week_14"
-  },"124": {
+  },"132": {
     "doc": "Week 15",
     "title": "Week 15: Last Day of Class",
     "content": "Due . Final presentations will take place today. [More details here TK, including the due date for your papers] . ",
     "url": "/HISTGA1011/schedule/week_15#week-15-last-day-of-class",
     
     "relUrl": "/schedule/week_15#week-15-last-day-of-class"
-  },"125": {
+  },"133": {
     "doc": "Week 15",
     "title": "Week 15",
     "content": " ",
