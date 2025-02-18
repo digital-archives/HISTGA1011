@@ -84,4 +84,7 @@ Roll **1d6 again** to determine an event that befalls your institution. Recorder
 
 _Review your Backup Setup, Institution Type/Holdings, and Event. Spend 5 minutes talking with your group: how will you respond to the Event to mitigate data loss? Have the Reporter report out to class with their approach._
 
----
+| **Roll** | **Stroke of luck** |
+|---------|-----------------|
+| **1-3** | Staff member actually kept a copy of materials on a random desktop: Add this to your backup setup. | 
+| **4-6** | Better luck next time! |
