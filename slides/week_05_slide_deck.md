@@ -93,6 +93,29 @@ style: |
   .activity-list li strong {
   color:rgb(235, 133, 133); }
 
+  .quote {
+  font-size: 1.2rem;
+  font-style: italic;
+  text-align: left;
+  line-height: 1;
+  color: #4a4a4a;
+  margin: 0 auto;
+  width: 100%;
+  }
+
+  .author {
+  font-size: 1.0rem;
+  text-align: right;
+  margin-top: 20px;
+  color: #6a6a6a;
+  }
+
+  .work {
+  font-size: 1rem;
+  text-align: right;
+  color: #8a8a8a;
+  }
+
 ---
 
 # Week 5
@@ -119,13 +142,15 @@ _Feel free to email me with any announcements you would like me to boost (upcomi
 # Tech Stack
 
 <div class="stack">🥞</div>
-
-[Insert URL to Slide Deck]
+<a href="https://docs.google.com/presentation/d/1JTUCy549KC-4XknKWcN8ZK-mN3wnkdX2gYhMnoG6Bx4/edit#slide=id.g337042ffefd_0_305" target="_blank">Slide deck</a>
 
 ---
 
 # Lecture
 ## Storage Systems
+- Architectures
+- Hardware
+- Solutions
 
 <!--presenter notes
 
@@ -383,7 +408,9 @@ Each cell is filled with varying levels of electrons
 ## Definition
 # NAND (Not AND)
 
-Solid state drives use **NAND** (stands for "not AND", referring to a type of logic gate) storage technology, which uses **charge trap flash memory cells** to store varying levels of electrical charges.
+A **Solid-State Drive (SSD)** is a high-speed storage device that uses NAND (stands for "Not AND") "flash" memory to store data.
+
+SSDs store data in **charge trap flash memory cells**, sometimes called wafers, which retain electrical charges to represent binary data (0s and 1s). Unlike mechanical HDDs, SSDs have no moving parts.
 
 ---
 
@@ -425,7 +452,7 @@ The cells trap or “save” the level of electrons, which is how SSD drives sto
   <h1 style="
       position: absolute; 
       top: 5%;
-      left: 30%; 
+      left: 40%; 
       transform: translateX(-50%); 
       font-weight: bold; 
       color: white; 
@@ -433,7 +460,7 @@ The cells trap or “save” the level of electrons, which is how SSD drives sto
       padding: 20px; 
       border-radius: 5px; 
       text-align: center;">
-    Tape
+    Linear Tape Open (LTO)
   </h1>
 </div>
 
@@ -446,6 +473,15 @@ Magnetic tape, such as what you would find in a cassette tape cartridge or reel-
 -->
 
 ---
+
+# Definition
+## Linear Tape Open (LTO)
+
+**Linear Tape-Open (LTO)** is a high-capacity, magnetic tape storage format designed for long-term data backup and archival storage. It is an open standard, meaning multiple manufacturers can produce compatible tapes and drives, ensuring widespread adoption and longevity.
+
+---
+
+
 | Technology | Pros                                                                 | Cons                                                                      |
 |------------|----------------------------------------------------------------------|---------------------------------------------------------------------------|
 | **HDD** | Inexpensive ($40/TB) ([source](https://edwardbetts.com/price_per_tb/)), widely available | Fragile, shorter life span, slower than SSDs, higher failure rate |
@@ -605,7 +641,7 @@ Scalability: NAS devices can be expanded with additional hard drives as needed, 
   <div style="flex: 1; padding: 20px; text-align: left;">
     <!-- Header Text -->
     <h1>
-      Linear-Tape Open (LTO)
+      Tape Library
     </h1>
     <ul>
       <li>Near or offline storage</li>
@@ -694,113 +730,6 @@ Cloud storage involves storing data on remote servers that are accessed over the
 Cloud storage solutions can use either Hard Disk Drives (HDD) or Solid State Drives (SSD) to store data. Some cloud storage providers offer the option to choose between HDD and SSD storage, while others only offer one or the other. The choice between the two technologies depends on the specific needs of the user, such as the amount of data being stored, the performance requirements, and the budget.
 
 If considering cloud storage services, one thing to keep in mind is that the costs are not just specific to the amount of data you intend to store in the cloud; you will likely also be charged by the amount of data being transferred from the cloud to you, or to your access platform, or somewhere else. Something to keep in mind when thinking about storage budgets. The Rosenthal article assigned to you this week talks specifically about the cloud and associated costs.
-
--->
-
----
-
-<div style="
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    position: relative; 
-    height: 100vh;
-    max-width: 100%; 
-    max-height: 100%;
-    margin: 0; 
-    overflow: hidden; 
-    background-color: rgb(255, 255, 255);">
-    
-  <!-- Image -->
-  <img src="img/week_05_raid.png" 
-       alt="Stock image of a RAID" 
-       style="width: 100%; height: auto; max-height: 100vh; object-fit: contain;">
-       
-  <!-- Header Text -->
-  <h1 style="
-    position: absolute; 
-    top: 0%; 
-    left: 40%; 
-    transform: translateX(-40%); 
-    font-weight: bold; 
-    color: black; 
-    background-color: rgba(255, 255, 255, 0.5); 
-    padding: 0px; 
-    border-radius: 0px; 
-    text-align: center; 
-    width: 100%;
-    max-width: 1000px;
-    font-size: 3rem;">
-  Redundant Array of Independent Disks (RAID)
-</h1>
-
-
-  <!-- Bullet List -->
-  <ul style="
-      position: absolute; 
-      top: 50%;
-      width: 70%;
-      left: 50%; 
-      transform: translateX(-50%); 
-      font-weight: bold; 
-      color: white; 
-      background-color: rgba(66, 170, 6, .75); 
-      padding: 20px; 
-      border-radius: 5px; 
-      list-style: none;
-      text-align: center;">
-    <li>Array of HDDs or SSDs</li>
-    <li>For production/live environments</li>
-    <li>Uses parity technology to repair corruption</li>
-  </ul>
-
-</div>
-
-<!--presenter notes
-
-RAID stands for “redundant array of independent disks”. A RAID is an array of hard disk or solid state drives, that work in concert with one another to ensure that if one drive fails, another can pick up where it left off.
-
-One thing to note about RAIDS is that they are not without their own faults. For one, RAIDS tend to use the same type of hardware across the array, which means that there is a risk of concurrent failures after a certain point.
-
-RAIDS use what is known as parity to restore and repair damaged bitstreams.
-
--->
-
----
-
-## Definition
-# Parity
-
-**Parity** describes the process that some storage systems use to identify and recover corrupted bits.
-
-It can do this by storing additional information (parity bits) about two twin bits stored on different drives.
-
-<!--presenter notes
-
-Along with storing bitstreams, RAIDs store what are known “parity bits” or “parity data”, which it uses to both identify when a bit has become corrupted, and restore the corrupted bits to their original form. Parity information is stored in its own spot in the RAID adjacent to the data it is storing.
-
--->
-
----
-
-| Date | Bit A Value | Bit B Value | Bit A + Bit B | Parity bit value |
-| :-: | :-: | :-: | :-: | :-: |
-| 1/1/2024 | 1 | 1 | 1 + 1 = 2 | 1 (Even) |
-| 1/2/2024 | 1 | 1 | 1 + 1 + 2 | 1 (Even) |
-| … | … | … | … | … |
-| 12/31/2024 | 0 | 1 | 0 + 1 = 1 | 0 (Odd) |
-
-<!--presenter notes
-
-Parity data stores information about whether or not the sum of the two identical bits over two or more hard drives adds up to an even number, or an odd number. For example, let’s pretend that we have a very simple RAID system with two hard drives. Each hard drive contains exactly 1 bit each, and are a copy of one another.
-
-The first day we hook up our RAID to our computer, we decide to store a bit of information on the RAID: the number 1. The RAID will copy this bit to each of the two drives, as well as record whether or not the sum of these two bits (1 + 1) is even or odd. The sum of 1+1 is 2, so it is even, so the RAID stores the fact that the sum of these two twin bits are even in the place where it stores parity information as a bit itself. In this system, a 1 means “parity bit is even” and a 0 means “parity bit is odd”.
-
-A day later, the RAID, through the course of its usual responsibilities, adds the two bits up together again, 1 and 1, and checks that the sum is even. It is. Great! This means the bit in both drives are the same.
-
-A week later, the RAID notices that one of hard drives has failed. It makes note of which hard drive has failed, and checks the parity, which now calculates to an odd number, because 1 plus nothing or 0 equals 1, which is an odd number. However, because it knows it expects an even number, it can surmise that the bit “flipped”, and additionally, know that the flipped bit is supposed to be a 1, because it knows the sum result must be even.
-
-This is a somewhat oversimplification of how parity works. However, it’s good to know that there are things like parity that devices and software can use to not just check for data corruption, but also restore data. I think this is an important thing to know because when it comes to digital technologies, we are often told that we never really know what’s going on inside of whatever device we are using, and as a result we are always just waiting for catastrophic failure. But just know that there are systems in place that are self-checking, and self-correcting.
 
 -->
 
@@ -908,7 +837,14 @@ In the future, it sounds like they are considering cloud storage services. In pa
   <span class="square"></span>
 </div>
 
-<div class="activity-title">Mini Activity - Storage "RPG"</div>
+<div class="activity-title">Mini Activity - Storage RPG</div>
+
+_Use the RPG format to learn about storage challenges._
+
+<ul class="activity-list">
+<li>I will divide the class into 3 teams.</li>
+<li>Open 
+</ul>
 
 
 
@@ -920,9 +856,183 @@ There are a considerable number of risks posed to digital storage, a few which I
 
 ---
 
-## Solution
-* Monitor the storage environment
-* Schedule and perform data audits
+# **Data Protection and Redundancy Methods**
+
+---
+
+# **LOCKSS (Lots of Copies Keep Stuff Safe)**
+
+Originally developed by Standard University, **LOCKSS (Lots of Copies Keep Stuff Safe)** is a distributed digital preservation system that focuses primarily on archives of electronic journals. Member institutions maintain redundant copies of each other's subscribed materials on dedicated computers (aka "nodes").
+
+<!--presenter notes
+
+LOCKSS, which stands for 'Lots of Copies Keep Stuff Safe,' is a distributed digital preservation system focused primarily on electronic journals and other types of digital content. The core idea is simple: institutional failure is inevitable at some point, whether due to financial challenges, cyberattacks, or technical issues. LOCKSS provides a safety net by ensuring that multiple institutions hold copies of the same materials—so if one archive goes down, another can provide access.
+
+Each participating institution runs LOCKSS software on its own servers, creating a network of redundant digital copies. This decentralization ensures that even if one or several institutions lose access to their data, the information is still available elsewhere.
+
+LOCKSS operates under the same logic as the 3-2-1 backup rule—but on a larger scale, at the level of libraries, universities, and other preservation institutions. It protects digital scholarship not just from localized data loss, but from broader systemic risks, ensuring that electronic journals and other critical publications remain accessible long-term.
+-->
+
+---
+
+# Case Study
+## How to recover from loss
+### North Carolina State Libraries
+
+<!--presenter notes
+
+See: https://aptrust.org/2025/01/21/lessons-from-the-frontlines-navigating-data-loss-and-recovery-in-digital-preservation/
+
+-->
+
+---
+
+<div class="quote">
+In June 2021, NC State Libraries experienced an incident that many in the digital preservation community dread: an accidental staff action deleted 35TB of locally hosted special collections storage, including its only backup. As Jill Sexton described it, <b>“That was a bad day.”</b>
+</div>
+
+---
+
+## A post-mortem revealed a combination of contributing factors:
+
+- **Incomplete Documentation:** Critical system dependencies and workflows were not thoroughly documented.
+- **Knowledge Silos:** Staff expertise was concentrated among individuals, creating bottlenecks during the crisis.
+- **Inadequate Testing:** Recovery processes were not practiced, leaving the team to rely on theoretical knowledge.
+
+---
+
+# **Delta differencing**
+
+**Delta differencing** is a data storage and transmission technique that saves space and bandwidth by storing only the differences (or "deltas") between two versions of a file, rather than saving the entire file each time it changes.
+
+<!--presenter notes
+
+Delta differencing: a backup strategy only backs up blocks that have changed after the first full backup. The differences are recorded in files called deltas. The process involves examining a backup file set and locating the blocks that have changed since the last backup period. Changed data, rather than the entire file set, can then be sent to the backup target. Because only those blocks that contain differences are extracted and backed up, it is possible to perform much faster and more frequent backup cycles without monopolizing bandwidth.
+
+-->
+
+---
+
+<div style="
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    position: relative; 
+    height: 100vh;
+    max-width: 100%; 
+    max-height: 100%;
+    margin: 0; 
+    overflow: hidden; 
+    background-color: rgb(255, 255, 255);">
+    
+  <!-- Image -->
+  <img src="img/week_05_raid.png" 
+       alt="Stock image of a RAID" 
+       style="width: 100%; height: auto; max-height: 100vh; object-fit: contain;">
+       
+  <!-- Header Text -->
+  <h1 style="
+    position: absolute; 
+    top: 0%; 
+    left: 40%; 
+    transform: translateX(-40%); 
+    font-weight: bold; 
+    color: black; 
+    background-color: rgba(255, 255, 255, 0.5); 
+    padding: 0px; 
+    border-radius: 0px; 
+    text-align: center; 
+    width: 100%;
+    max-width: 1000px;
+    font-size: 3rem;">
+  Redundant Array of Independent Disks (RAID)
+</h1>
+
+
+  <!-- Bullet List -->
+  <ul style="
+      position: absolute; 
+      top: 50%;
+      width: 70%;
+      left: 50%; 
+      transform: translateX(-50%); 
+      font-weight: bold; 
+      color: white; 
+      background-color: rgba(66, 170, 6, .75); 
+      padding: 20px; 
+      border-radius: 5px; 
+      list-style: none;
+      text-align: center;">
+    <li>Arrays of HDDs or SSDs</li>
+    <li>Uses different redundancy technologies to identify and repair corruption</li>
+  </ul>
+
+</div>
+
+<!--presenter notes
+
+RAID stands for “redundant array of independent disks”. A RAID is an array of hard disk or solid state drives, that work in concert with one another to ensure that if one drive fails, another can pick up where it left off.
+
+One thing to note about RAIDS is that they are not without their own faults. For one, RAIDS tend to use the same type of hardware across the array, which means that there is a risk of concurrent failures after a certain point.
+
+RAIDS use what is known as parity to restore and repair damaged bitstreams.
+
+-->
+
+---
+
+# **Parity**
+
+**Parity** describes the process that some storage systems use to identify and recover corrupted bits.
+
+It can do this by storing additional information (parity bits) about two twin bits stored on different drives.
+
+<!--presenter notes
+
+Along with storing bitstreams, RAIDs store what are known “parity bits” or “parity data”, which it uses to both identify when a bit has become corrupted, and restore the corrupted bits to their original form. Parity information is stored in its own spot in the RAID adjacent to the data it is storing.
+
+-->
+
+---
+
+| Date | Bit A Value | Bit B Value | Bit A + Bit B | Parity bit value |
+| :-: | :-: | :-: | :-: | :-: |
+| 1/1/2024 | 1 | 1 | 1 + 1 = 2 | 1 (Even) |
+| 1/2/2024 | 1 | 1 | 1 + 1 + 2 | 1 (Even) |
+| … | … | … | … | … |
+| 12/31/2024 | 0 | 1 | 0 + 1 = 1 | 0 (Odd) |
+
+<!--presenter notes
+
+Parity data stores information about whether or not the sum of the two identical bits over two or more hard drives adds up to an even number, or an odd number. For example, let’s pretend that we have a very simple RAID system with two hard drives. Each hard drive contains exactly 1 bit each, and are a copy of one another.
+
+The first day we hook up our RAID to our computer, we decide to store a bit of information on the RAID: the number 1. The RAID will copy this bit to each of the two drives, as well as record whether or not the sum of these two bits (1 + 1) is even or odd. The sum of 1+1 is 2, so it is even, so the RAID stores the fact that the sum of these two twin bits are even in the place where it stores parity information as a bit itself. In this system, a 1 means “parity bit is even” and a 0 means “parity bit is odd”.
+
+A day later, the RAID, through the course of its usual responsibilities, adds the two bits up together again, 1 and 1, and checks that the sum is even. It is. Great! This means the bit in both drives are the same.
+
+A week later, the RAID notices that one of hard drives has failed. It makes note of which hard drive has failed, and checks the parity, which now calculates to an odd number, because 1 plus nothing or 0 equals 1, which is an odd number. However, because it knows it expects an even number, it can surmise that the bit “flipped”, and additionally, know that the flipped bit is supposed to be a 1, because it knows the sum result must be even.
+
+This is a somewhat oversimplification of how parity works. However, it’s good to know that there are things like parity that devices and software can use to not just check for data corruption, but also restore data. I think this is an important thing to know because when it comes to digital technologies, we are often told that we never really know what’s going on inside of whatever device we are using, and as a result we are always just waiting for catastrophic failure. But just know that there are systems in place that are self-checking, and self-correcting.
+
+-->
+
+---
+
+# **Mirroring**
+
+**Mirroring** is the process of creating an exact copy of data, files, or systems in multiple locations to ensure redundancy, availability, and protection against data loss. Mirroring can occur locally (e.g., across two or more disks in a RAID) or geographically (across different locations or servers).
+
+<!--presenter notes
+
+Mirroring: Data is mirrored across multiple cloud storage locations to enhance accessibility and disaster recovery, ensuring data availability even if one cloud service experiences an outage.
+
+-->
+
+---
+
+# **Storage System Monitoring**
+
+<img src="img/week_05_storage_gui.png" alt="Screenshot of storage monitoring screen">
 
 <!--presenter notes
 
@@ -934,9 +1044,7 @@ This is a screenshot of a Synology NAS system monitoring dashboard. Here, there 
 
 ---
 
-![Screenshot of the control panel of a storage monitoring graphical user interface](img/week_05_storage_gui.png)
-
----
+# **Fixity Checks/Monitoring**
 
 ![Screenshot of a fictional fixity audit](img/week_05_fixity_audit.png)
 
@@ -954,35 +1062,18 @@ Logging and auditing: Keeping a log of all changes made to the files in the digi
 
 ---
 
-# Question
 
-## Frequently backing data up across multiple storage devices is considered a de facto strategy to prevent loss. However, we now know that bits can “flip”. How might an institution prevent accidentally backing up _corrupted_ data?
 
----
+# **Air-Gapped/Un-Synced Storage**
+- Prevents accidental syncing of corruption, ensuring an unaltered version remains safe by creating a "time capsule" of data
+- Defends against malware, cyber attacks
 
-# Redundancy Strategies
 
-__LOCKSS (Lots of Copies Keep Stuff Safe)__
-
-__Offline/non-networked storage__
-
-__Delta differencing__
-Minimizes storage needs by only saving changes made since the last backup, rather than duplicating the entire data set.
-
-__Cloud Storage Mirroring__
-Mirror (copy) across multiple cloud storage locations
-
-<!--presenter notes
-
-LOCKSS/3-2-1 strategy (at least): Keep 3 copies, where 2 copies are on separate storage devices, and one copy is stored in a geographically distinct location from the other two.
+<!--presenter notes 
 
 Offline storage: Consider using some sort of offline storage solution. Not only is it cheap compared to on- or nearline solutions, but by nature of being non-networked, provides added protection against network-specific threats. This includes obvious things like viruses and malware infecting networked devices.
 
 Offline storage also provides protection against accidentally backing up a mistake. For example, let’s say you get a fixity report that shows that some files have been compromised on your NAS. Your NAS is set up to be auto-synced to a cloud backup system, which means that whatever files have been compromised have now been backed up to your backup, which means 2 of your 3 backup devices contain incorrect data. However, your offline backup has not been altered, therefore, you can pull the unaltered copies from your tape library and restore these compromised files back to their original form.
-
-Delta differencing: a backup strategy only backs up blocks that have changed after the first full backup. The differences are recorded in files called deltas. The process involves examining a backup file set and locating the blocks that have changed since the last backup period. Changed data, rather than the entire file set, can then be sent to the backup target. Because only those blocks that contain differences are extracted and backed up, it is possible to perform much faster and more frequent backup cycles without monopolizing bandwidth.
-
-Cloud Storage Mirroring: Data is mirrored across multiple cloud storage locations to enhance accessibility and disaster recovery, ensuring data availability even if one cloud service experiences an outage.
 
 -->
 

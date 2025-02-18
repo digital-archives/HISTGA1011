@@ -1,37 +1,45 @@
 ---
-title: Store, Backup or Lose - The 3-2-1 Backup RPG
+title: Store, Backup or Lose
 layout: default
-nav_order: 10
+parent: Weekly Activities
+nav_order: 5
+has_children: false
 ---
 
 # **📂 Store, Backup or Lose: The 3-2-1 Backup RPG**
 *A Role-Playing Game About the Importance of Digital Preservation and Disaster Recovery*
 
-## **📜 The Premise**
-In this short role-playing game (RPG), you and your fellow classmates will take on the role of IT and digital archives professionals at various institutions. Your goal is to **ensure your institution’s data survives given various constraints.**
+## **Premise**
+In this short role-playing game (RPG), you and your fellow classmates will take on the role of digital archives professionals at various institutions. Your goal is to **ensure your institution’s data survives given various constraints.**
 
 To do this, you’ll rely on the **3-2-1 Backup Rule**:  
-✅ **3 copies of data**  
-✅ **2 different storage devices/types**  
-✅ **1 copy stored in a geographically-distinct location**
+- **3: Keep at least 3 copies of your data**  
+- **2: Use at least two separate devices**  
+- **1: Where one copy is stored in a geographically-distinct location**
 
-Following the theme of threes, the class will be divided into three teams/institutions. Each team should assign 1 "Driver" who will read the steps/narrative below to the group, 1 "Roller" who will roll the dice, and 1 "Recorder" who will record results and decisions made by the group.
+Following the theme of threes, the class will be divided into three teams, each representing a different institution.
+
+Once assembled, each team should assign out three roles:
+- **Roller**: Rolls the dice during each turn
+- **Recorder**: Records results and decisions made by the group.
+- **Reporter**: Reports results at the end of the RPG.
+
 
 ---
 
 ## **🎲 Step 1: Roll for your backup setup**
-Designated Roller rolls **one six-sided die (1d6)** to determine their backup preparedness.
+Roller rolls **one six-sided die (1d6)** to determine their backup preparedness. Recorder records the Roll and Backup Setup.
 
 | **Roll** | **Backup Setup** |
 |---------|----------------|
-| **1** | **"One and Done"** – Only one copy of your data |
-| **2-3** | **"Two-for-Two"** – Two copies, both in the same location |
-| **4-6** | **"Three's the Charm"** – Three copies, with at least one off-site |
+| **1** | **"One and Done"**: Only one copy of your data |
+| **2-3** | **"Two-for-Two"**: Two copies, both in the same location |
+| **4-6** | **"Three's the Charm"**: Three copies, with at least one off-site |
 
 ---
 
 ## **🏛 Step 2: Roll for your institution type & holdings**
-Roll **1d6** to determine what type of institution you are and how much data you need to protect.
+Roll **1d6** to determine what type of institution you are and how much data you need to protect. Recorder records the Roll and Institution Type/Holdings.
 
 | **Roll** | **Institution Type** | **Your Digital Holdings** |
 |---------|---------------------|---------------------------|
@@ -42,43 +50,38 @@ Roll **1d6** to determine what type of institution you are and how much data you
 | **5** | **National Archive** | 10 PB of government records and multimedia |
 | **6** | **Historic Society** | 10 TB of born-digital local oral history audio recordings |
 
-Encourage students to **imagine themselves as the IT lead or archivist** responsible for this collection!
-
 ---
 
-## ** Step 3: Roll for your storage technology **
+## ** Step 3: Roll for your storage solution **
 
-Roll **1d6** as many times as matches your backup setup (One and Done's would roll once; Two-for-Twos twice, and Three's-the-Charm thrice). If you roll the same technology twice, roll again so you have a unique list of technologies.
+Roll **1d6** as many times as matches your backup setup (e.g., One and Done's roll once; Two-for-Twos twice, and Three's-the-Charm thrice). If you roll the same technology type twice, roll again until you roll a unique. Recorder records the Roll and Storage Solution.
 
-| **Roll** | **Disaster Type**     |
+| **Roll** | **Storage Solution**     |
 |----------|-----------------------|
 | **1**    | Cloud Backup Platform |
 | **2**    | On-site RAID          |
-| **3**    | Off-site Isilon       |
-| **4**    | Off-site NAS          |
+| **3**    | Off-site Isilon NAS       |
 | **5**    | Linear Tape Open Library |
-| **6**    | Random box of unlabeled hard drives |
+| **6**    | Drawer of hard drives |
 
 ---
 
-## **🔥 Step 4: Major event**
-Roll **1d6 again** to determine an event that befalls your institution.
+## **🔥 Step 4: Event**
+Roll **1d6 again** to determine an event that befalls your institution. Recorder records the Roll and Event.
 
 | **Roll** | **Disaster Type** | **What Happens** |
 |---------|-----------------|------------------|
-| **1** | **Natural disaster** | Your repository suffers major flooding/leaks, affecting original media. |
-| **2** | **Cyberattack** | Repository software goes offline; IT investigating potential cyberattack. |
-| **3** | **Accidental backup corruption** | Your second copy was accidentally overwritten with corrupted data. |
-| **4** | **Human error** | A staff member accidentally deletes preservation files. |
+| **1** | **Fixity Failure** | Your morning fixity report warns you that the last day's-worth of preserved data has failed. |
+| **2** | **Cyberattack** | Repository software goes offline; IT investigating potential security breach. |
+| **3** | **Accidental backup corruption** | A portion of your backup was accidentally overwritten with corrupted data. |
+| **4** | **Human error** | A staff member accidentally deletes preservation files in a folder. |
 | **5** | **Hardware failure** | One of your devices fails randomly. |
-| **6** | **Automation issue** | Preservation files accidentally saved at a low resolution. |
+| **6** | **Automation issue** | Backed up files accidentally saved at a non-preservation level resolution. |
 
 ---
 
-## **🍀 Bonus Roll**
-For those unlucky to have been doled the "One and Done" fate, please roll **1d6 again** to determine whether you get a bit lucky.
+## **Confer with your group**
 
-| **Roll** | **Stroke of luck** |
-|---------|-----------------|
-| **1-3** | Staff member actually kept a copy of materials on a random desktop: Add this to your backup setup. | 
-| **4-6** | Better luck next time! |
+_Review your Backup Setup, Institution Type/Holdings, and Event. Spend 5 minutes talking with your group: how will you respond to the Event to mitigate data loss? Have the Reporter report out to class with their approach._
+
+---
