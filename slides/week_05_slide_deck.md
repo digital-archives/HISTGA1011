@@ -152,6 +152,7 @@ style: |
 - Architectures
 - Hardware
 - Solutions
+- Risks and Techniques to Prevent Loss
 
 <!--presenter notes
 
@@ -162,6 +163,24 @@ In addition to this, we will also discuss how storage systems are prone to failu
 We will discuss strategies to detect and mitigate failure, that can lead to loss on scales of incredible magnitude.
 
 -->
+
+---
+
+## Definition
+# Data Storage - 1/2
+
+**Data storage** (or just "storage" for short) refers to the process of saving, retaining, and accessing digital data on various media and devices. It enables computers and other electronic systems to store files, applications, and system information for immediate or future use.
+
+---
+
+## Definition
+# Data Storage - 2/2
+
+1. **Primary Storage** (Volatile memory) – Fast, temporary storage used by active processes. Example: RAM (Random Access Memory).
+
+2. **Secondary Storage** (Persistent Storage) – Long-term data storage that retains information even when powered off. Examples: HDD (Hard Disk Drive), SSD (Solid-State Drive).
+
+_Today's lecture will be focused on Secondary Storage._
 
 ---
 
