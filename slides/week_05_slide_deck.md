@@ -126,7 +126,7 @@ style: |
 # Today
 - **Settle in/Reminders/Announcements** (15 min)
 - **Discuss Last Week's Activity** (20 min)
-- **Lecture: Digital Preservation Storage Systems** (45 min)
+- **Lecture: Storage Systems** (45 min)
 - **Break** (10 min)
 - **Start Weekly Activity** (70 min)
 - **Wrap up** (10 min)
@@ -135,7 +135,8 @@ style: |
 
 # Announcements
 
-_Feel free to email me with any announcements you would like me to boost (upcoming conferences, webinars, trainings, or other events/topics of interest)._
+- March 19 class will be held virtually: I will be out of town that day.
+- Guest speaker confirmed: Karly Wildenhaus, Interim Manager, Metadata Services, NYPL
 
 ---
 
@@ -831,22 +832,14 @@ In the future, it sounds like they are considering cloud storage services. In pa
 
 ---
 
-<div class="shapes">
-  <div class="triangle"></div>
-  <span class="circle"></span>
-  <span class="square"></span>
-</div>
+# **Risks**
 
-<div class="activity-title">Mini Activity - Storage RPG</div>
-
-_Use the RPG format to learn about storage challenges._
-
-<ul class="activity-list">
-<li>I will divide the class into 3 teams.</li>
-<li>Open 
-</ul>
-
-
+- **Corrupt Backups:** Accidentally copying mistakes.
+- **Ransomware/Cyberattacks**
+- **Accidental Deletion or Overwriting**
+- **Media Degradation**: Physical components of storage devices fail.
+**Natural Disasters**: Fires, floods, earthquakes can destroy on- or off-site backups.
+**Vendor Lock-In**: Relying only on one provider risks data loss if they shut down.
 
 <!--presenter notes
 

@@ -17,7 +17,7 @@ has_children: true
 | [Week 6](week_06.html)  | February 26 | Digital Preservation Metadata | <a href="https://digital-archives.github.io/HISTGA1011/activities/metadata.html" target="_blank">Digital Preservation Metadata</a> |
 | [Week 7](week_07.html)  | March 5 | Digitization | <a href="https://digital-archives.github.io/HISTGA1011/activities/imaging.html" target="_blank">Imaging and Conservation Group Activity</a> |
 | [Week 8](week_08.html)  | March 12 | Access and Discovery<br>**_Final Project Abstract due_** | <a href="https://digital-archives.github.io/HISTGA1011/activities/user_experience.html" target="_blank">The User's Experience</a> |
-| [Week 9](week_09.html)  | March 19 | Automation and Scripting | <a href="https://digital-archives.github.io/HISTGA1011/activities/scripting_reflection.html">Scripting Reflection</a> |
+| [Week 9](week_09.html)  | March 19 | **I will be out of town: class will be held virtually**<br> Automation and Scripting | <a href="https://digital-archives.github.io/HISTGA1011/activities/scripting_reflection.html">Scripting Reflection</a> |
 | [Week 10](week_10.html) | March 26 | No Class \| Spring Break | 
 | [Week 11](week_11.html) | April 2 | Moving Image and Audio Preservation | <a href="https://digital-archives.github.io/HISTGA1011/activities/qctools.html" target="_blank">QCTools</a> |
 | [Week 12](week_12.html) | April 9 | Web and Email Archiving | <a href="https://digital-archives.github.io/HISTGA1011/activities/podcast.html" target="_blank">Podcast Archaeology</a> |
