@@ -287,7 +287,9 @@ Nearline: The term “nearline” is a portmanteau of “near” and “online�
 </style>
 
 <div class="periwinkle-slide">
-  <h1>⏳ Offline Storage ⏳</h1>
+  <h1>
+🐌 Offline Storage
+🐌</h1>
   
   <div class="content">
     <ul>
@@ -300,8 +302,6 @@ Nearline: The term “nearline” is a portmanteau of “near” and “online�
 <!--presenter notes
 
 Offline: Offline storage architecture refers to non-networked storage. Depending on your offline storage solution, as well as the size of file you are trying to access, delivering the file to you could take several hours. However, the purpose of offline storage is never for quick access and so is sometimes referred to as “cold storage”.
-
-Hybrid: These days, you will likely see institutions establishing so-called “hybrid” storage systems that are a combination 2 or all of these storage architecture types.
 
 The type of storage architecture established should take into consideration the types of data being stored, the expected growth of the data over time, the access patterns to the data, and the requirements for data protection and data availability. Each type of storage architecture has advantages and disadvantages which we will discuss later on in the lecture.
 
@@ -318,38 +318,9 @@ Next, we will discuss different types of technologies, which may be used in any 
 -->
 
 ---
-<div style="
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    position: relative; 
-    height: 100vh;
-    max-width: 100%;
-    max-height: 100%;
-    margin: 0; 
-    overflow: hidden; 
-    background-color:rgb(255, 255, 255);">
     
   <!-- Image -->
-  <img src="img/week_05_hdd.png" 
-       alt="Stock image of a hard disk drive (HDD) showing a metal disc, inside of a plastic cartridge, whose right side is nestled up against a metal 'arm'." 
-       style="width: 100%; height: auto; max-height: 100vh; object-fit: contain;">
-       
-  <!-- Header Text -->
-  <h1 style="
-      position: absolute; 
-      top: 5%;
-      left: 40%; 
-      transform: translateX(-50%); 
-      font-weight: bold; 
-      color: white; 
-      background-color: rgba(154, 1, 151, 0.5); 
-      padding: 10px; 
-      border-radius: 5px; 
-      text-align: center;">
-    Hard Disk Drive (HDD)
-  </h1>
-</div>
+  <img src="img/week_05_hdd.png">
 
 <!--presenter notes
 
@@ -359,38 +330,14 @@ Hard disk drive (HDD): Mechanical spinning disk; arm reads/writes bitstreams usi
 
 ---
 
-<div style="
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    position: relative; 
-    height: 100vh;
-    max-height: 100%;
-    max-width: 100%; 
-    margin: 0; 
-    overflow: hidden; 
-    background-color:rgb(255, 255, 255);">
-    
-  <!-- Image -->
-  <img src="img/week_05_ssd.png" 
-       alt="Stock image of a hard disk drive (HDD) showing a metal disc, inside of a plastic cartridge, whose right side is nestled up against a metal 'arm'." 
-       style="width: 100%; height: auto; max-height: 100vh; object-fit: contain;">
-       
-  <!-- Header Text -->
-  <h1 style="
-      position: absolute; 
-      top: 5%;
-      left: 40%; 
-      transform: translateX(-50%); 
-      font-weight: bold; 
-      color: white; 
-      background-color: rgba(154, 1, 151, 0.5); 
-      padding: 20px; 
-      border-radius: 5px; 
-      text-align: center;">
-    Solid State Drive (SSD)
-  </h1>
-</div>
+## Definition
+# Hard Disk Drive (HDD)
+
+A **hard disk drive (HDD)** is a data storage device that uses spinning magnetic disks (platters) to store and retrieve digital information. It consists of a rotating platter, a read/write head, and an actuator arm that moves across the disk to read or write data.
+
+---
+  
+<img src="img/week_05_ssd.png">
 
 <!--presenter notes
 
@@ -407,11 +354,9 @@ Each cell is filled with varying levels of electrons
 ---
 
 ## Definition
-# NAND (Not AND)
+# Solid State Drive (SSD)
 
-A **Solid-State Drive (SSD)** is a high-speed storage device that uses NAND (stands for "Not AND") "flash" memory to store data.
-
-SSDs store data in **charge trap flash memory cells**, sometimes called wafers, which retain electrical charges to represent binary data (0s and 1s). Unlike mechanical HDDs, SSDs have no moving parts.
+A **solid-state drive (SSD)** is a high-speed storage device that uses flash memory to store data, rather than spinning magnetic disks like a traditional hard disk drive (HDD). SSDs have no moving parts, which makes them faster, more durable, and energy-efficient compared to HDDs.
 
 ---
 
@@ -432,38 +377,7 @@ The cells trap or “save” the level of electrons, which is how SSD drives sto
 
 ---
 
-<div style="
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    position: relative; 
-    height: 100vh;
-    max-width: 100%; 
-    max-height: 100%;
-    margin: 0; 
-    overflow: hidden; 
-    background-color:rgb(255, 255, 255);">
-    
-  <!-- Image -->
-  <img src="img/week_05_tape.png" 
-       alt="Stock image of a hard disk drive (HDD) showing a metal disc, inside of a plastic cartridge, whose right side is nestled up against a metal 'arm'." 
-       style="width: 100%; height: auto; max-height: 100vh; object-fit: contain;">
-       
-  <!-- Header Text -->
-  <h1 style="
-      position: absolute; 
-      top: 5%;
-      left: 40%; 
-      transform: translateX(-50%); 
-      font-weight: bold; 
-      color: white; 
-      background-color: rgba(66, 170, 6, 0.5); 
-      padding: 20px; 
-      border-radius: 5px; 
-      text-align: center;">
-    Linear Tape Open (LTO)
-  </h1>
-</div>
+<img src="img/week_05_tape.png">
 
 <!--presenter notes
 
@@ -545,62 +459,18 @@ Next, we are going to talk about storage solutions. Each of the storage solution
 -->
 
 ---
+<img src="img/week_05_nas.png">
 
-<div style="
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    position: relative; 
-    height: 100vh;
-    max-width: 100%; 
-    max-height: 100%;
-    margin: 0; 
-    overflow: hidden; 
-    background-color: rgb(255, 255, 255);">
-    
-  <!-- Image -->
-  <img src="img/week_05_nas.png" 
-       alt="Stock image of a NAS" 
-       style="width: 100%; height: auto; max-height: 100vh; object-fit: contain;">
-       
-  <!-- Header Text -->
-  <h1 style="
-    position: absolute; 
-    top: 0%; 
-    left: 40%; 
-    transform: translateX(-50%); 
-    font-weight: bold; 
-    color: black; 
-    background-color: rgba(255, 255, 255, 0.5); 
-    padding: 0px; 
-    border-radius: 0px; 
-    text-align: center; 
-    width: 80%;
-    max-width: 1000px;
-    font-size: 3rem;">
-  Network Attached Storage (NAS)
-</h1>
+---
 
-  <!-- Bullet List -->
-  <ul style="
-      position: absolute; 
-      top: 50%;
-      width: 70%;
-      left: 50%; 
-      transform: translateX(-50%); 
-      font-weight: bold; 
-      color: white; 
-      background-color: rgba(66, 170, 6, .75); 
-      padding: 20px; 
-      border-radius: 5px; 
-      list-style: none;
-      text-align: center;">
-    <li>1 or more networked HDDs or SSDs</li>
-    <li>Online; quick</li>
-    <li>Examples: Isilon</li>
-  </ul>
+## Definition
+# Network-Attached Storage (NAS)
 
-</div>
+**Network-attached storage (NAS)** is a type of data storage device that is connected to a network, allowing users to access and share data over that network.
+
+NAS devices typically consist of multiple hard drives (SSD or HDD). NASs are often served out through a local data center.
+
+Example: Isilon
 
 <!--presenter notes
 
@@ -618,39 +488,22 @@ Scalability: NAS devices can be expanded with additional hard drives as needed, 
 
 ---
 
-<div style="
-    display: flex; 
-    justify-content: space-between; 
-    align-items: center; 
-    position: relative; 
-    height: 100vh; 
-    width: 100%; 
-    max-width: 100%;
-    max-height: 90%;
-    margin: 0; 
-    overflow: hidden; 
-    background-color: rgb(255, 255, 255);">
-    
-  <!-- Image -->
-  <div style="flex: 1; display: flex; justify-content: center; align-items: center;">
-    <img src="img/week_05_lto.png" 
-         alt="Stock image of linear tape open (LTO library)" 
-         style="width: 80%; height: auto; max-height: 90vh; object-fit: contain;">
-  </div>
-       
-  <!-- Text Section -->
-  <div style="flex: 1; padding: 20px; text-align: left;">
-    <!-- Header Text -->
-    <h1>
-      Tape Library
-    </h1>
-    <ul>
-      <li>Near or offline storage</li>
-      <li>Examples: CUNY TV uses an LTO tape library for nearline storage, located onsite</li>
-    </ul>
-  </div>
+<img src="img/week_05_lto_robot.gif" style="width: 1100px;">
 
-</div>
+<!--presenter notes
+
+Image credit: https://www.server-parts.eu/post/ibm-ts-tape-library-ts2900-ts3100-ts3200-ts3310-ts3500-ts4300-ts4500-lto-storage-tape-drive
+
+-->
+
+---
+
+## Definition
+# Tape Library
+
+A **tape library** (aka robotic tape library) is a data storage system that manages multiple tape drives and cartridges for efficient long-term data backup and archival.
+
+Example: <a href="https://blogs.loc.gov/thesignal/2016/03/data-migration-digital-asset-management-and-microservices-at-cuny-tv/" target="_blank">CUNY TV uses LTO tape storage</a> for their videotape archive
 
 <!--presenter notes
 
@@ -676,51 +529,16 @@ Tape storage is known for its reliability and longevity, and is less likely to e
 
 ---
 
-<div style="
-    position: relative; 
-    width: 100%; 
-    height: 80vh; 
-    margin: 0; 
-    overflow: hidden;">
-    
-  <!-- Background Image -->
-  <img src="img/week_05_cloud.png" 
-       alt="Image of an Amazon server farm" 
-       style="width: 100%; height: 100%; object-fit: cover;">
-       
-  <!-- Overlay with Title and Bulleted List -->
-  <div style="
-      position: absolute; 
-      top: 50%; 
-      left: 50%; 
-      transform: translate(-50%, -50%); 
-      background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
-      color: white; 
-      padding: 20px; 
-      border-radius: 10px; 
-      text-align: left; 
-      width: 80%; 
-      max-width: 800px;">
-    <h1 style="
-        margin: 0 0 20px 0;
-        font-size: 4rem; 
-        font-weight: bold; 
-        text-align: center;">
-      Cloud Storage
-    </h1>
-    <ul style="
-        list-style: disc; 
-        padding-left: 20px; 
-        margin: 0; 
-        font-size: 2rem;">
-      <li>Remotely located</li>
-      <li>Maintained by third-party vendor</li>
-      <li>Arrays of SSDs or HDDs</li>
-      <li>Near- or offline storage</li>
-      <li>Example: Amazon S3</li>
-    </ul>
-  </div>
-</div>
+<img src="img/week_05_cloud.png">
+
+---
+
+## Definition
+# Cloud Storage
+
+**Cloud storage** is a data storage model where digital information is stored on remote servers maintained by a cloud service provider, rather than on a local hard drive or on-premises server. These remote servers are accessed via the internet, allowing users to store, manage, and retrieve data from anywhere.
+
+Example: Amazon S3
 
 <!--presenter notes
 
