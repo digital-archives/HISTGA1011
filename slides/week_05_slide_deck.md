@@ -459,7 +459,7 @@ Next, we are going to talk about storage solutions. Each of the storage solution
 -->
 
 ---
-<img src="img/week_05_nas.png">
+<img src="img/week_05_nas.png" alt="Image of a network-attached storage or NAS device">
 
 ---
 
@@ -501,7 +501,7 @@ Image credit: https://www.server-parts.eu/post/ibm-ts-tape-library-ts2900-ts3100
 ## Definition
 # Tape Library
 
-A **tape library** (aka robotic tape library) is a data storage system that manages multiple tape drives and cartridges for efficient long-term data backup and archival.
+A **tape library** (aka robotic tape library) is a data storage system that manages multiple tape drives and cartridges for efficient long-term data backup.
 
 Example: <a href="https://blogs.loc.gov/thesignal/2016/03/data-migration-digital-asset-management-and-microservices-at-cuny-tv/" target="_blank">CUNY TV uses LTO tape storage</a> for their videotape archive
 
@@ -554,110 +554,14 @@ If considering cloud storage services, one thing to keep in mind is that the cos
 
 ---
 
-## Real Life Storage Architectures
-# UC San Diego, Chronopolis
-# Library of Congress
-
-<!--presenter notes
-
--->
-
----
-
-<table>
-<tr>Library of Congress</tr>
-<tr><td valign=top width=350>
-<h2>Past</h2>
-
-Oracle Hierarchical Storage Manager (OHSM)<br>
-Solaris system<br>
-</td>
-
-<td valign=top width=350>
-<h2>Current</h2>
-
-Versity Storage Manager on RedHat Linux<br>
-Two copies in two data centers<br>
-LTO Tape Libraries<br>
-</td>
-
-<td valign=top width=350>
-<h2>Future</h2>
-
-Upgrade to Versity 2.0 (RHEL8)<br>
-LTO-9 for expanded tape storage<br>
-Additional copies in the cloud<br>
-</td>
-</tr>
-</table>
-
-<!--presenter notes
-
-These details were derived from a 2023 LOC presentation: https://digitalpreservation.gov/meetings/DSA2023/loc_dsa2023_website_0102b_barr_DSA2023_OM_Preservation.pdf
-
-Past:
-In the past, the Library of Congress used the Oracle Hierarchical Storage Manager (OHSM), a system designed to manage large-scale archival storage by automatically moving files between different types of storage media based on access needs. OHSM functioned within a Solaris-based environment, which was once widely used for enterprise storage. This system relied on a hierarchical storage model, meaning frequently accessed data was stored on faster disks, while less frequently accessed files were migrated to tape storage. Over time, as digital collections grew and newer, more flexible storage solutions became available, OHSM became outdated and less efficient for modern preservation needs.
-
-Current:
-Today, LOC has transitioned to a more modern system—Versity Storage Manager (VSM), running on RedHat Linux. This upgrade provides better scalability and integrates more effectively with modern hardware. To ensure redundancy and long-term preservation, LOC maintains two copies of preservation data, stored in two separate data centers. In addition, they continue to use LTO Tape Libraries, which offer reliable, cost-effective long-term storage compared to disk-based solutions. Tape remains a key component of archival storage strategies due to its durability and low power requirements.
-
-Future:
-Looking ahead, LOC plans to upgrade to Versity 2.0, integrating with RedHat Enterprise Linux 8 (RHEL8) for improved performance and support for new storage features. They are also adopting LTO-9 tape technology, which significantly expands storage capacity per tape, reducing the overall physical footprint needed for long-term storage. To further enhance redundancy and ensure disaster recovery protection, LOC is also planning to replicate preservation data to the cloud, creating additional copies that can be accessed in case of failures in the on-premise infrastructure.
-
--->
-
-
----
-
-<table>
-<tr>UC San Diego, Chronopolis</tr>
-<tr><td valign=top width=350>
-<h2>Past</h2>
-
-2-TB drives running on RAID 10<br>
-Hard disk failure occurred<br>
-</td>
-
-<td valign=top width=350>
-<h2>Current</h2>
-
-Isilon NAS (1.6 Petabytes) on 5 nodes<br>
-Purchased another cluster 5 years later<br>
-Fixity every 45 days<br>
-</td>
-
-<td valign=top width=350>
-
-<h2>Future</h2>
-
-Amazon cloud storage<br>
-Use a “snowball” SSD to transfer data<br>
-
-</td>
-</tr>
-</table>
-
-<!--presenter notes
-
-
-This example is from the Module 13: Digital Preservation Case Studies SAA publication assigned to you this week. Here, they provide transcribed interviews with various digital preservation archivists and administrators, who describe what systems they have used, their experiences with them, and their plans for the future.
-
-In the UC San Diego example, we are looking at a fairly large institutional repository system that at first used a RAID 10 system. Here, they reflect on how the their RAID often failed, which spurred them to purchase a refurbished Isilon NAS. They remark how the Isilon system allowed them to better scale up their storage capacity, in light of the fact that they are seeing a storage growth rate of about 5TB year-over-year, and expect that rate to increase with the launch of their new DAMS and migrations of their born-digital holdings. Here, they talk about how appraisal may decrease how much of these holdings they actually end up ingesting into their repository.
-
-In the future, it sounds like they are considering cloud storage services. In particular, they talk about how Amazon, for large data transfers, prefer that they use something called a “Snow ball”. A snowball is basically a beefed up hard drive that Amazon sends to the transferring institution. The institution then moves a copy of their archive to the snowball, and then physically ships it back to the data center for processing. Snow balls are useful because transferring over networks means there are bandwidth limitations. Also, networks can be unstable, which could compromise the data.
-
--->
-
----
-
 # **Risks**
 
 - **Corrupt Backups:** Accidentally copying mistakes.
 - **Ransomware/Cyberattacks**
 - **Accidental Deletion or Overwriting**
 - **Media Degradation**: Physical components of storage devices fail.
-**Natural Disasters**: Fires, floods, earthquakes can destroy on- or off-site backups.
-**Vendor Lock-In**: Relying only on one provider risks data loss if they shut down.
+- **Natural Disasters**: Fires, floods, earthquakes can destroy on- or off-site backups.
+- **Vendor Lock-In**: Relying only on one provider risks data loss if they shut down.
 
 <!--presenter notes
 
@@ -668,21 +572,6 @@ There are a considerable number of risks posed to digital storage, a few which I
 ---
 
 # **Data Protection and Redundancy Methods**
-
----
-
-# **LOCKSS (Lots of Copies Keep Stuff Safe)**
-
-Originally developed by Standard University, **LOCKSS (Lots of Copies Keep Stuff Safe)** is a distributed digital preservation system that focuses primarily on archives of electronic journals. Member institutions maintain redundant copies of each other's subscribed materials on dedicated computers (aka "nodes").
-
-<!--presenter notes
-
-LOCKSS, which stands for 'Lots of Copies Keep Stuff Safe,' is a distributed digital preservation system focused primarily on electronic journals and other types of digital content. The core idea is simple: institutional failure is inevitable at some point, whether due to financial challenges, cyberattacks, or technical issues. LOCKSS provides a safety net by ensuring that multiple institutions hold copies of the same materials—so if one archive goes down, another can provide access.
-
-Each participating institution runs LOCKSS software on its own servers, creating a network of redundant digital copies. This decentralization ensures that even if one or several institutions lose access to their data, the information is still available elsewhere.
-
-LOCKSS operates under the same logic as the 3-2-1 backup rule—but on a larger scale, at the level of libraries, universities, and other preservation institutions. It protects digital scholarship not just from localized data loss, but from broader systemic risks, ensuring that electronic journals and other critical publications remain accessible long-term.
--->
 
 ---
 
@@ -709,6 +598,21 @@ In June 2021, NC State Libraries experienced an incident that many in the digita
 - **Incomplete Documentation:** Critical system dependencies and workflows were not thoroughly documented.
 - **Knowledge Silos:** Staff expertise was concentrated among individuals, creating bottlenecks during the crisis.
 - **Inadequate Testing:** Recovery processes were not practiced, leaving the team to rely on theoretical knowledge.
+
+---
+
+# **LOCKSS (Lots of Copies Keep Stuff Safe)**
+
+Originally developed by Standard University, **LOCKSS (Lots of Copies Keep Stuff Safe)** is a distributed digital preservation system that focuses primarily on archives of electronic journals. Member institutions maintain redundant copies of each other's subscribed materials on dedicated computers (aka "nodes").
+
+<!--presenter notes
+
+LOCKSS, which stands for 'Lots of Copies Keep Stuff Safe,' is a distributed digital preservation system focused primarily on electronic journals and other types of digital content. The core idea is simple: institutional failure is inevitable at some point, whether due to financial challenges, cyberattacks, or technical issues. LOCKSS provides a safety net by ensuring that multiple institutions hold copies of the same materials—so if one archive goes down, another can provide access.
+
+Each participating institution runs LOCKSS software on its own servers, creating a network of redundant digital copies. This decentralization ensures that even if one or several institutions lose access to their data, the information is still available elsewhere.
+
+LOCKSS operates under the same logic as the 3-2-1 backup rule—but on a larger scale, at the level of libraries, universities, and other preservation institutions. It protects digital scholarship not just from localized data loss, but from broader systemic risks, ensuring that electronic journals and other critical publications remain accessible long-term.
+-->
 
 ---
 
@@ -809,7 +713,7 @@ Along with storing bitstreams, RAIDs store what are known “parity bits” or �
 | Date | Bit A Value | Bit B Value | Bit A + Bit B | Parity bit value |
 | :-: | :-: | :-: | :-: | :-: |
 | 1/1/2024 | 1 | 1 | 1 + 1 = 2 | 1 (Even) |
-| 1/2/2024 | 1 | 1 | 1 + 1 + 2 | 1 (Even) |
+| 1/2/2024 | 1 | 1 | 1 + 1 = 2 | 1 (Even) |
 | … | … | … | … | … |
 | 12/31/2024 | 0 | 1 | 0 + 1 = 1 | 0 (Odd) |
 
@@ -890,26 +794,100 @@ Offline storage also provides protection against accidentally backing up a mista
 
 ---
 
-# Why You Need a Data Exit Strategy
 
-* Your repository will very likely move onto new services/solutions, or your current vendor may go insolvent. It happens all the time!
-
-Make sure you document and discuss with your service provider:
-* How do we get our data out of your database? (are there any software or hardware dependencies?)
-* Will they provide training or support?
-* What is their policy or steps they will take?
+## Storage Case Studies
+# Library of Congress
+# UC San Diego, Chronopolis
 
 <!--presenter notes
 
-https://sr.ithaka.org/publications/the-effectiveness-and-durability-of-digital-preservation-and-curation-systems/
+-->
 
-You will also need to plan for the possibility of organizational failure. For example, your digital preservation software service provider goes out of business unexpectedly. A more common scenario is your institution switching providers (there was at least one example of this given in the assigned readings of this happening.) Whatever the case may be, there will probably be a time where your organization will need to get the data out of the system and into another, and you should be prepared for it.
+---
 
-To meet this risk, you should also have a firm understanding of what steps both you and the vendor need to take, to ensure smooth migration of data from one system to another. If the vendor does not have clear documentation of what steps they or you should take, you should consider that as a red flag.
+<table>
+<tr>Library of Congress</tr>
+<tr><td valign=top width=350>
+<h2>Past</h2>
 
-You can and should expect that the vendor has a documented contingency plan. For example, in the event of insolvency, they will place your data into escrow. Understand what hardware or software dependencies there might be in place that may hinder or help data migration.
+Oracle Hierarchical Storage Manager (OHSM)<br>
+Solaris system<br>
+LTO Tape Library
+</td>
 
-Another good question to ask is if we do not uphold our end of the contract – let’s say we can’t pay for our license – is there a grace period? Will they just delete our stuff immediately or do we get some sort of grace period? What in general is their retention policy?
+<td valign=top width=350>
+<h2>Current</h2>
+
+Versity Storage Manager on RedHat Linux<br>
+Two copies in two data centers<br>
+LTO Tape Library<br>
+</td>
+
+<td valign=top width=350>
+<h2>Future</h2>
+
+Upgrade to Versity 2.0 (RHEL8)<br>
+LTO-9 for expanded tape storage<br>
+Additional copies in the cloud<br>
+</td>
+</tr>
+</table>
+
+<!--presenter notes
+
+These details were derived from a 2023 LOC presentation: https://digitalpreservation.gov/meetings/DSA2023/loc_dsa2023_website_0102b_barr_DSA2023_OM_Preservation.pdf
+
+Past:
+In the past, the Library of Congress used the Oracle Hierarchical Storage Manager (OHSM), a system designed to manage large-scale archival storage by automatically moving files between different types of storage media based on access needs. OHSM functioned within a Solaris-based environment, which was once widely used for enterprise storage. This system relied on a hierarchical storage model, meaning frequently accessed data was stored on faster disks, while less frequently accessed files were migrated to tape storage. Over time, as digital collections grew and newer, more flexible storage solutions became available, OHSM became outdated and less efficient for modern preservation needs.
+
+Current:
+Today, LOC has transitioned to a more modern system—Versity Storage Manager (VSM), running on RedHat Linux. This upgrade provides better scalability and integrates more effectively with modern hardware. To ensure redundancy and long-term preservation, LOC maintains two copies of preservation data, stored in two separate data centers. In addition, they continue to use LTO Tape Libraries, which offer reliable, cost-effective long-term storage compared to disk-based solutions. Tape remains a key component of archival storage strategies due to its durability and low power requirements.
+
+Future:
+Looking ahead, LOC plans to upgrade to Versity 2.0, integrating with RedHat Enterprise Linux 8 (RHEL8) for improved performance and support for new storage features. They are also adopting LTO-9 tape technology, which significantly expands storage capacity per tape, reducing the overall physical footprint needed for long-term storage. To further enhance redundancy and ensure disaster recovery protection, LOC is also planning to replicate preservation data to the cloud, creating additional copies that can be accessed in case of failures in the on-premise infrastructure.
+
+-->
+
+---
+
+<table>
+<tr>UC San Diego, Chronopolis</tr>
+<tr><td valign=top width=350>
+<h2>Past</h2>
+
+2-TB drives running on RAID 10<br>
+Hard disk failure occurred<br>
+</td>
+
+<td valign=top width=350>
+<h2>Current</h2>
+
+Isilon NAS (1.6 Petabytes) on 5 nodes<br>
+Purchased another cluster 5 years later<br>
+Fixity every 45 days<br>
+</td>
+
+<td valign=top width=350>
+
+<h2>Future</h2>
+
+Amazon cloud storage<br>
+Use a “snowball” SSD to transfer data<br>
+
+</td>
+</tr>
+</table>
+
+<!--presenter notes
+
+
+This example is from the Module 13: Digital Preservation Case Studies SAA publication assigned to you this week. Here, they provide transcribed interviews with various digital preservation archivists and administrators, who describe what systems they have used, their experiences with them, and their plans for the future.
+
+In the UC San Diego example, we are looking at a fairly large institutional repository system that at first used a RAID 10 system. Here, they reflect on how the their RAID often failed, which spurred them to purchase a refurbished Isilon NAS. They remark how the Isilon system allowed them to better scale up their storage capacity, in light of the fact that they are seeing a storage growth rate of about 5TB year-over-year, and expect that rate to increase with the launch of their new DAMS and migrations of their born-digital holdings. Here, they talk about how appraisal may decrease how much of these holdings they actually end up ingesting into their repository.
+
+In the future, it sounds like they are considering cloud storage services. In particular, they talk about how Amazon, for large data transfers, prefer that they use something called a “Snow ball”. A snowball is basically a beefed up hard drive that Amazon sends to the transferring institution. The institution then moves a copy of their archive to the snowball, and then physically ships it back to the data center for processing. Snow balls are useful because transferring over networks means there are bandwidth limitations. Also, networks can be unstable, which could compromise the data.
+
+-->
 
 -->
 
