@@ -13,7 +13,37 @@ style: |
     margin: 0 auto;
   }
 
-  /* Code block customization */
+  .quote {
+    font-size: 1.2rem;
+    font-style: italic;
+    text-align: left;
+    line-height: 1;
+    color: #4a4a4a;
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .author {
+    font-size: 1.0rem;
+    text-align: right;
+    margin-top: 20px;
+    color: #6a6a6a;
+  }
+
+  .work {
+    font-size: 1rem;
+    text-align: right;
+    color: #8a8a8a;
+  }
+
+  .slide-title {
+    text-align: center;
+    color: #2e7d32; /* Green color for the header */
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
   pre {
     background-color: #1e1e1e; /* Dark gray background */
     padding: 10px; /* Add spacing for readability */
@@ -47,6 +77,7 @@ style: |
 # Today
 - **Settle in/Reminders/Announcements** (15 min)
 - **Discuss Last Week's Activity** (20 min)
+- **Discuss The Final Project** (20 min)
 - **Lecture: Digital Preservation Metadata** (45 min)
 - **Break** (10 min)
 - **Start Weekly Activity** (70 min)
@@ -82,11 +113,15 @@ In summary, preservation metadata plays a fundamental role in the preservation, 
 
 -->
 
-## Definition
-# Metadata
-—
+---
 
-“... [A] means by which the complexity of an object is represented in a simpler form.” – Jeffrey Pomerantz (wrote the aptly-named book _Metadata_)
+<div class="quote">
+“... [**Metadata** is a] means by which the complexity of an object is represented in a simpler form.”
+</div>
+
+<div class="author">Jeffrey Pomerantz</div>
+
+<div class="work">Metadata</div>
 
 <!--presenter notes
 
@@ -100,7 +135,7 @@ In 2015, wrote a book titled Metadata. Here, he describes metadata as “a means
 
 ---
 
-![](img/week_06_slides0.png)
+![Scanned image of a hand-written card from a card catalog for Virginia Woolf's A Room of One's Own](img/week_06_slides0.png)
 
 <!--presenter notes
 
@@ -114,9 +149,10 @@ Image credit: https://www.themarginalian.org/2013/10/01/card-catalog-chronicle/
 
 ## Definition
 # Digital Preservation Metadata
-—
 
-__Preservation metadata__ refers to structured information that describes the long-term management and preservation of digital objects. It encompasses various attributes and characteristics necessary for maintaining the integrity, authenticity, and accessibility of digital materials over time.
+**Digital preservation metadata** refers to structured information that describes the long-term management and preservation of digital objects.
+
+It encompasses various attributes and characteristics necessary for maintaining the integrity, authenticity, and accessibility of digital materials over time.
 
 ---
 
@@ -161,9 +197,8 @@ Describes the intellectual entity through properties such as author and title, a
 
 ## Definition
 # Metadata standard
-—
 
-A metadata standard is a set of guidelines, rules, or best practices for describing data that has been established by a recognized organization or community.
+A **metadata standard** is a set of guidelines, rules, or best practices for describing data that has been established by a recognized organization or community.
 
 <!--presenter notes
 
@@ -175,9 +210,8 @@ A metadata standard is a set of guidelines, rules, or best practices for describ
 
 ## Definition
 # Metadata schema
-—
 
-A metadata schema is a structured framework for organizing and describing information about a specific type of resource, like a document, image, or video.
+A **metadata schema** is a structured framework for organizing and describing information about a specific type of resource, like a document, image, or video.
 
 <!--presenter notes
 
@@ -188,6 +222,7 @@ A metadata schema is a specific implementation of a metadata standard and provid
 ---
 
 # Some Metadata Standards
+## Specific to libraries and archives
 
 | Name | Acronym | Describes |
 | :-: | :-: | :-: |
@@ -206,7 +241,6 @@ These standards have enabled us to structure data about broad categories of thin
 
 ## Definition
 # Dublin Core
-—
 
 Dublin Core is a metadata standard made specific for digital resources that live on the web/networked environments.
 
@@ -274,9 +308,8 @@ A metadata element is a discrete piece of information that describes a digital o
 
 ## Definition
 # Machine-Readable Cataloging (MARC)
-—
 
-__Machine-Readable Cataloging__ is a standard for the representation and communication of bibliographic and related information in machine-readable form.
+**Machine-Readable Cataloging (MARC)** is a standard for the representation and communication of bibliographic and related information in machine-readable form.
 
 <!--presenter notes
 
@@ -318,7 +351,7 @@ This screen capture shows the “MODS Elements and Attributes” Guidelines page
 ## Definition
 # eXtensible Markup Language (XML) - 1/2
 
-Extensible Markup Language (XML) is a platform- and language-independent schema used for encoding and exchanging structured data the internet.
+**EXtensible Markup Language (XML)** is a platform- and language-independent schema used for encoding and exchanging structured data the internet.
 
 <!--presenter notes
 
@@ -337,7 +370,9 @@ Most metadata schemas are written in XML format, primarily because XML is platfo
 ## Definition
 # eXtensible Markup Language (XML) - 1/2
 
-XML “tags” (i.e. <originInfo>) are used to define a schema's elements. Tags can then be nested within one another to express certain attributes or relationship hierarchies.
+XML **tags** are used to define a schema's elements. Tags can then be nested within one another to express certain attributes or relationship hierarchies.
+
+Example of a tag pair: \<originInfo>\</originInfo>
 
 ---
 
@@ -376,9 +411,9 @@ https://www.loc.gov/standards/mods/userguide/origininfo.html
 ---
 
 - Every XML tag comes in pairs: a "start" tag and an "end" tag.
-- XML tag pairs contain either information, or other tags "nested" within, sometimes referred to as "sub-elements".
+- XML tag pairs contain either information, or other tags "nested" within, referred to as "sub-elements".
 - In this way, you can hierarchically relate tags to others.
-- Nested tags are indented for readability.
+- Nested tags can be indented for readability.
 
 ```
 <originInfo>
@@ -396,7 +431,7 @@ In the example on the slide, we are seeing the start of information to do with o
 
 --- 
 
-* __Attributes__ (i.e. type="code" or authority="marccountry") can be added to an element to provide additional information about it.
+**Attributes** (i.e. type="code" or authority="marccountry") can be added to an element to provide additional information about it.
 
 ```
 <placeTerm type="code" authority="marccountry">
@@ -422,9 +457,8 @@ For example, within the <placeTerm> element, we have two attributes listed: type
 
 ## Definition 
 # Metadata Encoding and Transmission Standard (METS)
-—
 
-The Metadata Encoding and Transmission Standard (METS) is a standard used for describing the structure and content of digital objects, such as digital collections, archives, and libraries.
+The **Metadata Encoding and Transmission Standard (METS)** is a standard used for describing the structure and content of digital objects, such as digital collections, archives, and libraries.
 
 <!--presenter notes
 
@@ -458,7 +492,7 @@ A METS file is typically composed of seven main sections: <metsHdr>, <dmdSec>, <
 ## METS
 # \<mets:mets>
 
-All METS files start off with a top-most <mets:mets> tag, sometimes referred to as the “root”, establishing the namespaces and metadata schemas referenced throughout the rest of the METS file  .
+All METS files start off with a top-most \<mets:mets> tag, sometimes referred to as the “root”, establishing the namespaces and metadata schemas referenced throughout the rest of the file.
 
 <!--presenter notes
 
@@ -474,9 +508,8 @@ Second mets: This is the local name of the element within the METS namespace.
 
 ## Definition
 # Namespace
-—
 
-A __namespace__ is a collection of names which are used in XML documents as element and attribute names.  Namespaces are denoted in XML by stating the name of the namespace (mets) followed by a colon i.e. <\mets:[element]>
+A **namespace** is a collection of names which are used in XML documents as element and attribute names.  Namespaces are denoted in XML by stating the name of the namespace (mets) followed by a colon i.e. \<mets:[element]>
 
 <!--presenter notes
 
@@ -827,9 +860,8 @@ In this example, the <behavior> element is used to create a behavior called "pla
 
 ## Definition
 # PREservation Metadata Implementation Strategies (PREMIS)
-—
 
-An implementation-neutral data dictionary that defines a core set of metadata elements for describing preservation objects and their associated metadata activities.
+**PREMIS** is an implementation-neutral data dictionary that defines a core set of metadata elements for describing preservation objects and their associated metadata activities.
 
 ---
 

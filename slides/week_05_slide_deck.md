@@ -137,6 +137,7 @@ style: |
 
 - March 19 class will be held virtually: I will be out of town that day.
 - Guest speaker confirmed: Karly Wildenhaus, Interim Manager, Metadata Services, NYPL
+- <a href="https://brightspace.nyu.edu/d2l/le/430363/discussions/topics/532801/View" target="_blank">Have a look at any announcements posted in in Brightspace</a>
 
 ---
 
