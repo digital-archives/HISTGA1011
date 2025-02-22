@@ -10,12 +10,11 @@ has_children: false
 
 ## Overview  
 
-During the final class, you will present your digitization project plan to your classmates and professor. This presentation is an opportunity to share your project’s goals, challenges, and proposed solutions while receiving feedback on your approach.  
+During the final class, you will present your digitization project plan to your classmates and professor. This presentation is an opportunity to share your Plan's goals, challenges, and proposed solutions while receiving feedback on your approach.  
 
-Your presentation should first describe how your chosen institution currently handles digital preservation and access. Then, highlight key limitations or challenges and propose improvements based on research into best practices at other institutions.
-
-Please also touch on:
-- The collection you selected and why  
+Though your slides do not need to use any particular template or format, please include, at minimum:
+- The institution you are working with
+- The collection materials you selected and why  
 - Your strategy in terms of getting your collection into the preservation repository, and providing access to it
 - Key technical, logistical, or ethical challenges  
 
@@ -54,5 +53,5 @@ This will be part of your participation grade.
 
 ## Submission Details  
 
-- Your slide deck must be submitted in PDF format before the final class session.  
+- Your slide deck must be submitted via the Assignments section in Brightspace.
 - See the [class schedule](https://digital-archives.github.io/HISTGA1011/schedule/) for the exact presentation date.  

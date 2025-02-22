@@ -9,19 +9,17 @@ has_children: true
 
 ## Overview
 
-For your final project, you will develop a **Digitization and Access Plan** for undigitized or currently inaccessible materials. This will take the form of a **written paper** and an **accompanying presentation**, which you will deliver on the last day of class.
+For your final project, you will develop a **Digitization and Access Plan** (referred to here on out as the "Plan") for a group of currently inaccessible materials of your choosing. This will take the form of a **written paper** and an **accompanying presentation**, which you will deliver on the last day of class.
 
-To guide your progress, you will submit an **abstract** mid-way through the semester as a check-in to ensure you have identified a suitable collection and are on track with your project. (See the <a href="https://digital-archives.github.io/HISTGA1011/schedule/" target="_blank">class schedule</a> for details.)
+To guide your progress, you will submit an **abstract** mid-way through the semester as a check-in to ensure you have identified a suitable group of materials to work with, and are on track with your project. (See the <a href="https://digital-archives.github.io/HISTGA1011/schedule/" target="_blank">class schedule</a> for details.)
 
 ---
 
 ## Scenario
 
-_You are an archivist working in the special collections department of [organization/institution of your choice]. As part of an initiative to enhance digital access, you have identified one or more collections in the institution’s finding aids that contain **undigitized or currently inaccessible materials**, such as analog media, obsolete digital formats, or physical documents without existing digital surrogates._
+_You are an archivist working in the special collections department of [organization/institution of your choice]. As part of an initiative to enhance digital access, you have identified a collection that contains **materials/records that are currently inaccessible to users online**. This might include undigitized analog media and/or born-digital media._
 
-_Recognizing your expertise in digital preservation workflow management, the Director of Special Collections has appointed you as **Project Lead**. Your task is to analyze how your institution currently handles digital access and preservation, identify gaps or areas for improvement, and propose enhancements. Your proposal may incorporate strategies from other institutions, emerging best practices, or new technologies to strengthen the institution’s digital preservation program."_
-
-_This project requires you to "start from scratch," meaning you must choose materials that **are not already digitized or available online**. This ensures that you will critically analyze the challenges involved in digital preservation, including selection criteria, technical workflows, metadata creation, and access strategies._
+_Recognizing your expertise in digital preservation workflow management, the Director of Special Collections has appointed you as **Project Lead**. Your task is to analyze how your institution currently handles digital access and preservation, write out a plan describing how these selected materials will be made accessible online, and present this plan to the Special Collections Committee (i.e. represented by your fellow classmates)._
 
 ---
 
@@ -29,21 +27,22 @@ _This project requires you to "start from scratch," meaning you must choose mate
 
 To ensure a well-rounded project, your chosen collection must meet the following criteria:
 
-- **Your collection must include materials beyond standard paper-based formats.**
+- **Your collection must be described by an existing online archival finding aid.**
+- Though you will be choosing collection materials already in an existing institution's holdings and described in an online finding aid, the materials themselves should have **not already been made available online**. This will require browsing finding aids and determining/making sure those materials are otherwise not available through a digital library/collection website.
+- You do not have to propose a plan for all components of a finding aid (unless you want to!). You will need to deliberately select groups of materials (e.g., one series, or one type of format.)
 - While some **flat materials** (e.g., photographs, maps, manuscripts) may be included, **your project cannot focus exclusively on paper-based materials that only require scanning or photography.**
-- Your project must engage with at least **one other format**, such as:
-  - **Magnetic media** (e.g., audiotapes, videotapes, floppy disks, hard drives)
+- Your project must engage with at least **one other non-paper based format**, such as:
+  - **Magnetic recorded media** (e.g., audiotapes, videotapes, floppy disks, hard drives)
   - **Optical media** (e.g., CDs, DVDs)
-  - **Born-digital files** requiring file format migration or emulation
+  - **Born-digital records** requiring file format migration or emulation (software, database records)
 
 ---
 
 ## Project Goals
 
 Your final paper and presentation should:
-- **Demonstrate the significance** of the collection and why it should be prioritized for digitization.
-- **Articulate the technical and logistical considerations** of the digitization/transfer process.
-- **Explain how the project aligns with institutional priorities** and contributes to broader digital preservation efforts.
-- **Persuade senior leadership** to support and fund your proposal by presenting a compelling case for its impact.
+- **Demonstrate the significance** of the materials you selected and why it should be prioritized for access.
+- **Articulate the technical, labor and logistical considerations** of the process of not only getting the materials online, but also promoting their discovery and access.
+- **Explain how the project aligns with institutional priorities** and contributes to broader digital preservation and archiving efforts.
 
-This project is an opportunity to apply **digital preservation principles** in a real-world context, critically engage with **selection and access strategies**, and develop skills in **planning and advocacy** within archival institutions.
+This project is an opportunity to apply digital archiving and preservation principles in a real-world context, critically engage with selection and access strategies, and develop skills in planning and advocacy within archival institutions.

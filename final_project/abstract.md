@@ -10,20 +10,20 @@ has_children: false
 
 ## Overview
 
-Your **abstract** serves as an early-stage check-in for your **Final Project paper and presentation**. It is an opportunity to begin defining the critical components of your final project and to ensure you have selected a suitable collection to work with.
+Your **abstract** serves as an early-stage check-in for your **Final Project paper and presentation**. It is an opportunity to begin defining the critical components of your final project and to ensure you have selected suitable collection materials to work with.
 
-Before writing your abstract, you must choose a collection from an existing institution that will serve as the foundation for your project. The collection must meet the following criteria:
+Before writing your abstract, you must choose a collection from an existing institution, and within it, either all or a sub-group of materials, that will serve as the foundation for your project. The collection must meet the following criteria:
 
-- It is **described online** by an archival **finding aid**.
-- It is **not yet digitized** (i.e., no digital surrogates are available online).
+- It is **described online** by an online archival **finding aid**.
+- It is **not yet made available online** (i.e., no digital surrogates are available online through a digital library/collection portal).
 - It **contains materials beyond paper-based formats**, such as:
-  - Email
   - Moving image materials
   - Born-digital materials
   - Datasets
   - Websites or social media archives
+  - ...or any other electronic records
 
-While not required, you are encouraged to schedule an on-site or virtual visit with your chosen repository, provided it is feasible for you and the archivist. This may help inform both your abstract and your final project approach.
+While not required, you are **highly encouraged** to schedule an on-site or virtual visit with an archivist or other staff at your chosen institution/repository, provided it is feasible for yours and the staff's schedule. This may help inform both your abstract and your final project approach, and also help you to clarify gaps in your understanding of the institution's existing processes, workflows, policies, and systems setup/stack.
 
 ---
 
@@ -34,7 +34,7 @@ You are encouraged to reach out to a repository and schedule a meeting (on-site 
 ### Guidelines for Extra Credit:
 - To qualify, you must:
   - **Contact a repository** and arrange a meeting to discuss topics relevant to your project.
-  - **Submit a summary** (minimum 300 words) reflecting on the discussion and its relevance to your final project.
+  - **Submit a summary** (minimum 300 words) reflecting on the discussion and its relevance to your final project, including the questions you asked.
 - Up to **3 extra credit points** will be added to your Final Project score.
 
 ---
@@ -50,19 +50,21 @@ Your abstract should be concise (1–2 sentences per checklist item is sufficien
 - [ ] **Research approach:** How will you gather details about your chosen institution and collection(s)?  
 
 ### 📂 **Collection selection & digitization plan**
-- [ ] **Collection(s) selected for digitization** *(include URL(s) to finding aid)*:  
-- [ ] **Content overview:** Describe the intellectual content of your collection.  
-- [ ] **Rationale:** Why is this collection a priority for processing and making materials accessible over others?  
-- [ ] **Inventory:** Provide a basic physical inventory *(you may copy/paste form and extent details from the finding aid if applicable)*.  
+- [ ] **Collection selected for digitization** *(include URL(s) to finding aid)*:
+- [ ] **Content overview:** Describe the intellectual content of your collection (you may copy/paste finding aid details here)
+- [ ] **Materials selected:** Describe which materials from your chosen collection you will be working with, including format(s), extents, series/subseries.
+- [ ] **Materials selected are not available online:** Double check this, please!
+- [ ] **Rationale:** Why should this collection/materials selected be a priority for processing and making materials accessible over others?  
+- [ ] **Inventory:** Provide a basic physical inventory *(you may copy/paste form and extent details from the finding aid if applicable, such as container lists, or extent summaries)*.  
 - [ ] **Born-digital processing:** If the collection contains born-digital materials, what media does it contain, and what techniques will be required to transfer contents of the media?
 - [ ] **Digitization requirements:** What types of digitization are needed based on physical formats present?  
-- [ ] **Estimated duration:** How long do you anticipate the digitization process will take (rough estimate)?  
 
 ### ⚠️ **Potential Constraints**
-- [ ] What resource, budget, technological, or physical condition challenges might impact your digitization project?
-- [ ] How does your institution currently provide access to digital collections? (Describe the platform(s) used, the level of access provided, the system(s) used for managing digital repository materials, front-end access, accessioning, appraisal, archival processing and arrangement, and any other function.)
+- [ ] What resource/capacity, budget, technological, or physical condition challenges might impact your digitization project?
+- [ ] What staff/staff skills might be required to do the work?
+- [ ] How does your chosen institution currently provide access to digital collections? (Describe the platform(s) used, the level of access provided, the system(s) used for managing digital repository materials, front-end access, accessioning, appraisal, archival processing and arrangement, and any other function.)
 - [ ] What are some limitations or challenges in the current setup? (Consider issues like usability, metadata quality, long-term storage, accessibility, rights and restrictions, or anything else.)
-- [ ] How will you research other institutions or best practices to inform your proposal?
+- [ ] Are there other institutions' setups you might look to for inspiration? (Feel free to link out to any relevant online documentation)
 
 ### 🌍 **Access & Discovery**
 - [ ] **Intended users:** Who will benefit from this  collection being made available online?

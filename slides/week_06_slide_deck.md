@@ -87,7 +87,12 @@ style: |
 
 # Announcements
 
-_Feel free to email me with any announcements you would like me to boost (upcoming conferences, webinars, trainings, or other events/topics of interest)._
+- ROMChip
+
+---
+
+# Final Project Walkthrough
+<a href="https://digital-archives.github.io/HISTGA1011/final_project/" target="_blank">https://digital-archives.github.io/HISTGA1011/final_project/</a>
 
 ---
 
