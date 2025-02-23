@@ -677,6 +677,8 @@ Pretend you are bringing Parichy's LightWorks data into an OAIS. Can you guess w
 
 A **Designated Community** is a special type of consumer describing the primary users using/accessing the information preserved within an OAIS.
 
+Example: NARA's <a href="https://www.archives.gov/preservation/digital-preservation/designated" target="_blank">Designated Community Statement</a>
+
 <!--presenter notes
 
 Now that we have a grasp on what the OAIS’ definition of content information is and what that consists of, let’s look at what the OAIS means by a designated community.

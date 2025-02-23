@@ -1025,9 +1025,153 @@ Next, we declare the event type (“format identification”), declare when the 
 
 ---
 
-# Challenge
+## Definition
+# Semantic Web
 
-The [Archivematica PREMIS metadata in Archivematica page](https://www.archivematica.org/en/docs/archivematica-1.11/user-manual/metadata/premis/) provides several examples of PREMIS and METs working together. Take a look at the first code block. Spend 5 minutes writing down what you think it is describing, and how you think the PREMIS and METS are working together.
+The **semantic web** is a concept that sees data on the internet as dynamic, meaningful and machine-readable. Unlike the standard web, which primarily focuses on linking documents through hyperlinks, the emantic web uses structured data, standardized ontologies, and metadata to create connections between individual pieces of information.
+
+---
+
+## Definition
+# Ontology
+
+An **ontology** is a structured framework that defines the relationships between concepts, terms, and data within a specific domain. It serves as a formal representation of knowledge by outlining categories, properties, and the connections between entities, enabling both humans and machines to understand and process complex information.
+
+---
+
+## Definition
+# Linked Open Data
+
+Sometimes referred to simply as "linked data", linked open data (LOD) is a framework that enables organizations and individuals to share information in a machine-readable format. By using standardized protocols, LOD allows for the seamless connection of related data across multiple websites, creating a vast, interconnected web of datasets known as Linked Open Data.
+
+<!--presenter notes
+
+This definition is gleaned from Digital Preservation Framework Linked Open Data page: https://www.archives.gov/preservation/digital-preservation/linked-data
+
+-->
+
+---
+
+## Case Study
+# PRiSMHA (Providing Rich Semantic Metadata for Historical Archives) Project
+
+**PRiSHHA** aims at providing a contribution in this direction by designing an ontology-driven platform that supports semantic metadata generation, needed to offer an effective access to archival documents.
+
+<!--presenter notes
+
+Definition derived from https://dl.acm.org/doi/full/10.1145/3484398
+
+-->
+
+---
+
+<img src="img/week_06_gramsci.png" alt="Portrait of Antonio Gramsci around 30 in the early 20s">
+
+<a href="https://en.wikipedia.org/wiki/Antonio_Gramsci#/media/File:Gramsci.png" target="_blank">Portrait of Antonio Gramsci</a> around 30 in the early 20s
+
+<!--presenter notes
+
+Taken directly from the Wiki article:
+
+Antonio Francesco Gramsci (1891-1937) was an Italian Marxist philosopher, linguist, journalist, writer, and politician. He wrote on philosophy, political theory, sociology, history, and linguistics. He was a founding member and one-time leader of the Italian Communist Party. A vocal critic of Benito Mussolini and fascism, he was imprisoned in 1926, where he remained until shortly before his death in 1937.
+
+-->
+
+---
+
+## Project focused on a small set of Gramsci's records (~200 documents, mainly typewritten leaflets often with annotations and drawings, some pictures, some newsprint) covering students' and workers' protests occurring between 1968-1969 in Italy.
+
+---
+
+<img src="img/week_06_gramsci_leaflet.jpg" style="width: 800px;">
+
+_A leaflet mentioning Italian journalist Guido Viale_
+
+<!--presenter notes
+
+A leaflet mentioning Guido Viale (copyright: Fondazione Istituto piemontese Antonio Gramsci Onlus).
+
+-->
+
+---
+
+### Consider Antonio, a schoolteacher who wants to enrich his lessons with information directly taken from original documents. He is talking to his students about protest actions that took place in Torino in 1968. In particular, he is searching a digital online archive system, looking for leaflets referring to strikes that both students and workers participated in. 
+
+---
+
+### Even with a (very) good OCR tool, if the system is based on a keyword search mechanism, the results of a query for “sciopero” (strike) would not include the document shown in Figure 1: the document, in fact, does not contain the world “sciopero/i” (strike/es), although it actually talks about a strike, using the very specific word “picchetti” (picketings).
+
+---
+
+### Antonio also looks for leaflets mentioning specific people (e.g., Guido Viale, a leader of the ‘68 Movement in Torino) involved in protest actions. The results for a query for “Guido Viale” in a keyword-based system would probably include the leaflet.
+
+---
+
+### However, that leaflet would not be retrieved if the query also contains (in AND) a keyword for the action (such as “sciopero”/strike, “manifestazione”/demonstration, and so on), since the protest action is not explicitly mentioned, although it is clear to a human reader that the document talks about a protest action.
+
+---
+
+### Moreover, Guido Viale, although mentioned in the document, is not an active participant; the leaflet indeed says that he has been arrested and the demonstration is organized to ask for his release (he could be considered the “topic” of the protest action, or a participant in his release from prison, i.e., in the event representing the goal of the protest action).
+
+---
+
+### This scenario demonstrates that, in order to both provide users with the possibility of posing such queries and be able to answer them, the system needs a semantic layer over archival documents, containing a formal machine-readable representation of their content, based on the conceptual vocabulary represented by computational ontologies.
+
+---
+
+<img src="img/week_06_gramsci_ontology.svg">
+
+<!--presenter notes
+
+ISA: "Is a" relationship. Indicates a hierarchical connection where one category is a specific type of another.
+
+Example: Protest March ISA Protest Action (A protest march is a type of protest action.)
+instance-of: Represents an instance relationship, showing that a specific event or object is an example of a broader class.
+
+Example: ev01 instance-of Demonstration (ev01 is a specific event categorized as a demonstration.)
+ev01, ev02, ev03, ev04: Event identifiers, representing specific, real-world instances of protest actions.
+
+Each "ev" label marks a distinct event within the ontology.
+hasParticipant: Shows the relationship between an event and the individual or group involved.
+
+Example: ev02 hasParticipant Guido Viale (Guido Viale participated in the event ev02.)
+isAbout: Indicates the subject or focus of the event or action.
+
+Example: ev03 isAbout Person (The event ev03 is about a particular person.)
+
+-->
+
+---
+
+## Resource
+# WikiData
+
+**Wikidata** is a free, collaborative, and structured knowledge base that acts as a central repository for data used by Wikimedia projects, including Wikipedia, as well as external applications and services. It was launched by the Wikimedia Foundation in 2012 with the goal of providing a machine-readable, linked open data platform that anyone can edit.
+
+See <a href="https://www.wikidata.org/wiki/Q83003" target="_blank">WikiData entry for Antonio Gramsci</a>
+
+---
+
+## Resource
+# SNAC (Social Networks and Archival Context) - 1/2
+
+**SNAC** (Social Networks and Archival Context) is an online resource that links archival collections to the people, organizations, and events they are associated with.
+
+---
+
+## Resource
+# SNAC (Social Networks and Archival Context) - 1/2
+
+- **Authority Control**: Helps standardize names of individuals and organizations across collections.
+- **Relationship Mapping**: Connects archival metadata to a network of related entities, offering richer context.
+- **Linked Data**: Uses EAC-CPF, aligning well with linked open data initiatives.
+
+---
+
+## Standard
+# EAC-CPF
+
+**EAC-CPF** (Encoded Archival Context – Corporate Bodies, Persons, and Families) is an XML-based standard used in archival metadata to describe entities such as people, organizations, and families that are associated with archival materials.
 
 ---
 
