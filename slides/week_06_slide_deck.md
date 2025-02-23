@@ -121,12 +121,12 @@ In summary, preservation metadata plays a fundamental role in the preservation, 
 ---
 
 <div class="quote">
-“... [**Metadata** is a] means by which the complexity of an object is represented in a simpler form.”
+“... [Metadata is a] means by which the complexity of an object is represented in a simpler form.”
 </div>
 
 <div class="author">Jeffrey Pomerantz</div>
 
-<div class="work">Metadata</div>
+<div class="work">Metadata (2015)</div>
 
 <!--presenter notes
 
@@ -356,7 +356,7 @@ This screen capture shows the “MODS Elements and Attributes” Guidelines page
 ## Definition
 # eXtensible Markup Language (XML) - 1/2
 
-**EXtensible Markup Language (XML)** is a platform- and language-independent schema used for encoding and exchanging structured data the internet.
+**EXtensible Markup Language (XML)** is a platform- and language-independent schema used for encoding and exchanging structured data on the internet.
 
 <!--presenter notes
 
@@ -373,7 +373,7 @@ Most metadata schemas are written in XML format, primarily because XML is platfo
 ---
 
 ## Definition
-# eXtensible Markup Language (XML) - 1/2
+# eXtensible Markup Language (XML) - 2/2
 
 XML **tags** are used to define a schema's elements. Tags can then be nested within one another to express certain attributes or relationship hierarchies.
 
@@ -1028,7 +1028,7 @@ Next, we declare the event type (“format identification”), declare when the 
 ## Definition
 # Semantic Web
 
-The **semantic web** is a concept that sees data on the internet as dynamic, meaningful and machine-readable. Unlike the standard web, which primarily focuses on linking documents through hyperlinks, the emantic web uses structured data, standardized ontologies, and metadata to create connections between individual pieces of information.
+The **semantic web** is a concept that sees data on the internet as dynamic, meaningful and machine-readable. Unlike the standard web, which primarily focuses on linking documents through hyperlinks, the semantic web uses structured data, standardized ontologies, and metadata to create connections between individual pieces of information.
 
 ---
 
@@ -1053,9 +1053,9 @@ This definition is gleaned from Digital Preservation Framework Linked Open Data 
 ---
 
 ## Case Study
-# PRiSMHA (Providing Rich Semantic Metadata for Historical Archives) Project
+# PRiSMHA (Providing Rich Semantic Metadata for Historical Archives)
 
-**PRiSHHA** aims at providing a contribution in this direction by designing an ontology-driven platform that supports semantic metadata generation, needed to offer an effective access to archival documents.
+The **PRiSHHA** Project is an ontology-driven platform that supports semantic metadata generation.
 
 <!--presenter notes
 
@@ -1083,6 +1083,27 @@ Antonio Francesco Gramsci (1891-1937) was an Italian Marxist philosopher, lingui
 
 ---
 
+<img src="img/week_06_gramsci_strike.jpg">
+
+_A leaflet about a strike at FIAT._
+
+<!--presenter notes
+
+A leaflet about a strike at FIAT (copyright: Fondazione Istituto piemontese Antonio Gramsci Onlus).
+
+-->
+
+
+---
+
+### Consider Antonio, a schoolteacher who wants to enrich his lessons with information directly taken from original documents. He is talking to his students about protest actions that took place in Torino in 1968. In particular, he is searching a digital online archive system, looking for leaflets referring to strikes that both students and workers participated in.
+
+---
+
+### Even with a (very) good OCR tool, if the system is based on a keyword search mechanism, the results of a query for “sciopero” (strike) would not include [the leaflet] ... [T]he document ... does not contain the world “sciopero/i” (strike/es), although it actually talks about a strike, using the very specific word “picchetti” (picketings).
+
+---
+
 <img src="img/week_06_gramsci_leaflet.jpg" style="width: 800px;">
 
 _A leaflet mentioning Italian journalist Guido Viale_
@@ -1092,14 +1113,6 @@ _A leaflet mentioning Italian journalist Guido Viale_
 A leaflet mentioning Guido Viale (copyright: Fondazione Istituto piemontese Antonio Gramsci Onlus).
 
 -->
-
----
-
-### Consider Antonio, a schoolteacher who wants to enrich his lessons with information directly taken from original documents. He is talking to his students about protest actions that took place in Torino in 1968. In particular, he is searching a digital online archive system, looking for leaflets referring to strikes that both students and workers participated in. 
-
----
-
-### Even with a (very) good OCR tool, if the system is based on a keyword search mechanism, the results of a query for “sciopero” (strike) would not include the document shown in Figure 1: the document, in fact, does not contain the world “sciopero/i” (strike/es), although it actually talks about a strike, using the very specific word “picchetti” (picketings).
 
 ---
 
