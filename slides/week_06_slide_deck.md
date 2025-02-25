@@ -96,6 +96,10 @@ style: |
 
 ---
 
+# Lecture: Digital Preservation Metadata
+
+---
+
 # Why is preservation metadata important?
 
 * Discovery and access
@@ -1055,7 +1059,7 @@ This definition is gleaned from Digital Preservation Framework Linked Open Data 
 ## Case Study
 # PRiSMHA (Providing Rich Semantic Metadata for Historical Archives)
 
-The **PRiSHHA** Project is an ontology-driven platform that supports semantic metadata generation.
+The **PRiSHHA** Project (2017-2020) was a digital curation/humanities project that explored how an ontology-driven platform could facilitate deeper research and access of digitized materials.
 
 <!--presenter notes
 
@@ -1065,21 +1069,7 @@ Definition derived from https://dl.acm.org/doi/full/10.1145/3484398
 
 ---
 
-<img src="img/week_06_gramsci.png" alt="Portrait of Antonio Gramsci around 30 in the early 20s">
-
-<a href="https://en.wikipedia.org/wiki/Antonio_Gramsci#/media/File:Gramsci.png" target="_blank">Portrait of Antonio Gramsci</a> around 30 in the early 20s
-
-<!--presenter notes
-
-Taken directly from the Wiki article:
-
-Antonio Francesco Gramsci (1891-1937) was an Italian Marxist philosopher, linguist, journalist, writer, and politician. He wrote on philosophy, political theory, sociology, history, and linguistics. He was a founding member and one-time leader of the Italian Communist Party. A vocal critic of Benito Mussolini and fascism, he was imprisoned in 1926, where he remained until shortly before his death in 1937.
-
--->
-
----
-
-## Project focused on a small set of Gramsci's records (~200 documents, mainly typewritten leaflets often with annotations and drawings, some pictures, some newsprint) covering students' and workers' protests occurring between 1968-1969 in Italy.
+## Project focused on a small digitized set of the Gramsci Institute's records (~200 documents, mainly typewritten leaflets often with annotations and drawings, some pictures, some newsprint) covering students' and workers' protests occurring between 1968-1969 in Italy.
 
 ---
 
@@ -1090,6 +1080,25 @@ _A leaflet about a strike at FIAT._
 <!--presenter notes
 
 A leaflet about a strike at FIAT (copyright: Fondazione Istituto piemontese Antonio Gramsci Onlus).
+
+Transcription/Translation:
+
+FIAT WORKERS
+
+Why do students participate in the workers' struggle?
+
+In these months of struggle in the schools, students have begun to fight against the power of the professors: they are tired of having their heads filled without being able to discuss or decide.
+
+But through this struggle, they also realized that fighting in the university and in school is not enough. Authoritarianism, meaning that a few command while many are oppressed, exists not only in school: it is present throughout society and especially in the factory.
+
+FIAT is the most typical example.
+
+For this reason, even if students manage to obtain a less tyrannical school, this is not enough: because after school, students enter the workforce, and this generally means becoming a teacher, a technician, or an office worker in a factory. In the first case, students do not want to become like those authoritarian professors they fought against for years. In the second case, they do not want to become the boss’s henchmen, who follow his orders and oppress the workers according to the management’s directives.
+
+Therefore, it is not enough to change things in the school; we must change them everywhere. For this reason, everyone who wants to change things, everyone who is tired of enduring impositions, must unite and fight together.
+
+Circled in red:
+For this reason, we are in front of the factories: our participation in the picket lines is a first step toward connecting students and workers, to discuss and decide future actions together.
 
 -->
 
@@ -1112,6 +1121,23 @@ _A leaflet mentioning Italian journalist Guido Viale_
 
 A leaflet mentioning Guido Viale (copyright: Fondazione Istituto piemontese Antonio Gramsci Onlus).
 
+Translation:
+
+Interfaculty circular, print run 6,000 copies
+
+THIS AFTERNOON AT 2:30 PM
+AT THE CHAMBER OF LABOR
+
+HIGH SCHOOL AND UNIVERSITY STUDENTS
+PARTICIPATE!!!
+NEW FORMS OF CITIZEN ACTION TO DEMAND THE RELEASE OF GUIDO VIALE
+
+TOWARD NEIGHBORHOOD WORK: OPEN DISCUSSION
+
+THE DELEGATION FROM ALLARA
+
+ORGANIZED BY A WORKING GROUP OF THE COMMITTEE OF AGITATION
+
 -->
 
 ---
@@ -1129,6 +1155,10 @@ A leaflet mentioning Guido Viale (copyright: Fondazione Istituto piemontese Anto
 ---
 
 ### This scenario demonstrates that, in order to both provide users with the possibility of posing such queries and be able to answer them, the system needs a semantic layer over archival documents, containing a formal machine-readable representation of their content, based on the conceptual vocabulary represented by computational ontologies.
+
+---
+
+### If Antonio was searching for the active involvement of Guido Viale in protest actions [...] he would need a tool enabling him to ask for all documents talking about any type of protest action that have a relation of type active participation with the person Guido Viale. 
 
 ---
 
@@ -1153,6 +1183,11 @@ isAbout: Indicates the subject or focus of the event or action.
 Example: ev03 isAbout Person (The event ev03 is about a particular person.)
 
 -->
+
+---
+
+# What does the labor of linked data look like?
+<a href="https://linkedjazz.org/" target="_blank">Linked Jazz</a>
 
 ---
 
