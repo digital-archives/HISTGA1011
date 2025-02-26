@@ -87,7 +87,7 @@ style: |
 
 # Announcements
 
-- ROMChip
+- Nicole Greenhouse, Web Archivist at NYU, will also be a guest speaker on April 16 along with Karly
 
 ---
 

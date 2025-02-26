@@ -17,10 +17,10 @@ has_children: true
 | [Week 6](week_06.html)  | February 26 | Digital Preservation Metadata | <a href="https://digital-archives.github.io/HISTGA1011/activities/metadata.html" target="_blank">Digital Preservation Metadata</a> |
 | [Week 7](week_07.html)  | March 5 | Digitization | <a href="https://digital-archives.github.io/HISTGA1011/activities/imaging.html" target="_blank">Imaging and Conservation Group Activity</a> |
 | [Week 8](week_08.html)  | March 12 | Access and Discovery<br>**_Final Project Abstract due_** | <a href="https://digital-archives.github.io/HISTGA1011/activities/user_experience.html" target="_blank">The User's Experience</a> |
-| [Week 9](week_09.html)  | March 19 | **I will be out of town: class will be held virtually**<br> Automation and Scripting | <a href="https://digital-archives.github.io/HISTGA1011/activities/scripting_reflection.html">Scripting Reflection</a> |
+| [Week 9](week_09.html)  | March 19 | Automation and Scripting<br>**Class will be held virtually** | <a href="https://digital-archives.github.io/HISTGA1011/activities/scripting_reflection.html">Scripting Reflection</a> |
 | [Week 10](week_10.html) | March 26 | No Class \| Spring Break | 
 | [Week 11](week_11.html) | April 2 | Moving Image and Audio Preservation | <a href="https://digital-archives.github.io/HISTGA1011/activities/qctools.html" target="_blank">QCTools</a> |
 | [Week 12](week_12.html) | April 9 | Web and Email Archiving | <a href="https://digital-archives.github.io/HISTGA1011/activities/podcast.html" target="_blank">Podcast Archaeology</a> |
-| [Week 13](week_13.html) | April 16 | Guest Speaker: Karly Wildenhaus, Interim Manager, Metadata Services at The New York Public Library | |
+| [Week 13](week_13.html) | April 16 | Guest Speaker Day<br>**Class will be held virtually** | |
 | [Week 14](week_14.html) | April 23 | No Class: Work on your final projects | Optional: Schedule a consult with me |
 | [Week 15](week_15.html) | April 30 | Last day of class<br>**_Final presentations due_** |  |
