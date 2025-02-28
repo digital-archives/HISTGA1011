@@ -881,6 +881,62 @@ _Watch me demo WebRecorder or try yourself._
 
 ---
 
+# Email Archiving
+
+---
+
+# Armstrong vs. Executive of the President
+
+<!--presenter notes
+
+See: https://www.jstor.org/stable/40293774 and https://law.justia.com/cases/federal/district-courts/FSupp/821/761/1510466/
+
+In 1989, Scott Armstrong, Executive Director of the National Security Archive, filed a Freedom of Information Act (FOIA) request to ensure that the contents of the White House electronic mail and records system, contained on magnetic backup tapes stored on the IBM PROFS system, would not be destroyed and subject to archival review before disposition. This FOIA led to a lawsuit known as Armstrong versus the Executive Office of the President implicating both the Reagan and Bush White Houses. This lawsuit resulted in the court ordering the transfer of 5,839 backup tapes to the National Archives.
+
+-->
+
+---
+
+<img src="img/week_13_ibm_profs.jpeg" alt="Vintage IBM diagram of the PROFS system's handling of Electronic Mail">
+
+<!--presenter notes
+
+"In 1984, IBM introduced a line of personal computer workstations that could send and receive email, share documents and control peripheral devices like printers via the PROFS network protocol" (from the IBM Heritage article, "The Networked Office": https://www.ibm.com/history/profs-networked-business)
+
+-->
+
+---
+
+<img src="img/week_13_ibm_profs_guy.jpeg" alt="Vintage IBM ad showing a suited white CEOish middle-aged male looking at a terminal console connected to a keyboard.">
+
+<!--presenter notes
+
+"PROFS became the backbone of IBM’s Federal Services Division, which provided administrative services to the US government in areas ranging from record keeping at the Department of Defense to instrument design for the Apollo program. PROFS Notes even figured prominently in the Iran-Contra affair: Colonel Oliver North deleted a large number of emails connecting him to the scandal in 1982, not realizing they were archived on magnetic tape backups that became evidence in congressional hearings over the next two years."
+
+-->
+
+---
+
+## Timeline
+**January 19, 1989**
+- On the final day of the Raegan administration, Executive Director of the National Security Archive Scott Armstrong and others filed an Freedom of Information Act (FOIA) request to ensure White House was subject to archival review before disposition.
+- A DC Judge filed a temporary restraining to prevent record destruction.
+
+---
+
+- **September 1989**: Government attempted to dismiss the case. Motion denied by the judge.
+
+---
+
+- Armstrong also filed a lawsuit alleging:
+  - Email qualifies as agency records.
+  - The Executive Office of the President failed to formulate and carry out guidelines and policies consistent with the law and regulation.
+  - Archivist of the United States failed to carry out his duties with respect to (electronic) records.
+  - The suit asked for guidelines for future email records.
+
+
+---
+
 ## Weekly Activity
 # Podcast Archaeology
 
