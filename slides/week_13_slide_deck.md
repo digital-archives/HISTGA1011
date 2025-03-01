@@ -257,7 +257,7 @@ style: |
 ---
 
 ## Week 13 
-# Web Archiving
+# Electronic Records and Archiving
 
 ---
 
@@ -277,6 +277,144 @@ _Feel free to email me with any announcements you would like me to boost (upcomi
 
 ---
 
+
+# Email Archiving
+
+---
+
+# Armstrong vs. Executive of the President
+
+<!--presenter notes
+
+See: https://www.jstor.org/stable/40293774 and https://law.justia.com/cases/federal/district-courts/FSupp/821/761/1510466/
+
+In 1989, Scott Armstrong, Executive Director of the National Security Archive, filed a Freedom of Information Act (FOIA) request to ensure that the contents of the White House electronic mail and records system, contained on magnetic backup tapes stored on the IBM PROFS system, would not be destroyed and subject to archival review before disposition. This FOIA led to a lawsuit known as Armstrong versus the Executive Office of the President implicating both the Reagan and Bush White Houses. This lawsuit resulted in the court ordering the transfer of 5,839 backup tapes to the National Archives.
+
+-->
+
+---
+
+<img src="img/week_13_ibm_profs.jpeg" alt="Vintage IBM diagram of the PROFS system's handling of Electronic Mail">
+
+<!--presenter notes
+
+"In 1984, IBM introduced a line of personal computer workstations that could send and receive email, share documents and control peripheral devices like printers via the PROFS network protocol" (from the IBM Heritage article, "The Networked Office": https://www.ibm.com/history/profs-networked-business)
+
+-->
+
+---
+
+<img src="img/week_13_ibm_profs_guy.jpeg" alt="Vintage IBM ad showing a suited white CEOish middle-aged male looking at a terminal console connected to a keyboard.">
+
+<!--presenter notes
+
+"PROFS became the backbone of IBM’s Federal Services Division, which provided administrative services to the US government in areas ranging from record keeping at the Department of Defense to instrument design for the Apollo program. PROFS Notes even figured prominently in the Iran-Contra affair: Colonel Oliver North deleted a large number of emails connecting him to the scandal in 1982, not realizing they were archived on magnetic tape backups that became evidence in congressional hearings over the next two years."
+
+-->
+
+---
+
+## Timeline
+**January 19, 1989**
+- On the final day of the Raegan administration, Executive Director of the National Security Archive Scott Armstrong and others filed an Freedom of Information Act (FOIA) request to ensure White House was subject to archival review before disposition.
+- A DC Judge filed a temporary restraining to prevent record destruction.
+
+---
+
+- **September 1989**: Government attempted to dismiss the case. Motion denied by Judge Charles R. Richey, which the government appealed.
+- **January 1993**:
+
+---
+
+- Armstrong also filed a lawsuit alleging:
+  - Email qualifies as agency records.
+  - The Executive Office of the President failed to formulate and carry out guidelines and policies consistent with the law and regulation.
+  - Archivist of the United States failed to carry out his duties with respect to (electronic) records.
+  - The suit asked for guidelines for future email records.
+
+---
+
+# Result:
+
+National Archives and Records Administration (NARA) staff attended the **Benton Foundation** meeting to establish a framework around archival management of electronic records.
+
+---
+
+# Email Archiving Challenges
+- **Scale:** Ubiquitous, voluminous
+- **Legal and ethical concerns**
+- **Technically complicated**: Different email clients, email formats; but also, the structure of an email can entail entire threads to multiple recipients; emails can have attachments of a variety of file formats
+
+<!--presenter notes
+
+- Scale: One person's inbox can contain 10000+ messages; imagine dealing with an entire organization's email, you may be dealing with millions of records.
+- Legal and ethical concerns: Blurred lines between professional and casual correspondence = High risk of revealing personal-identifying or sensitive information
+- Technically complex: There are many email clients (Outlook, Gmail, Hotmail, etc.), email file formats (MBOX), and email structures which need to be normalized to attempt to make available something that makes sense and is useful to a researcher
+
+
+-->
+
+---
+
+## System
+# ePADD - 1/3
+
+Software developed by Stanford University that enables the archivist to bulk screen and redact email archives for personally-identifying or sensitive information, and provides way to make processed email archives searchable, discoverable through a set of structure metadata that they can query and browse.
+
+---
+
+## System
+# ePADD - 2/3
+
+ePADD incorporates natural language processing and named entity recognition, meaning it can automatically extract persons, corporations, locations, government entities, political parties, universities, diseases, social security and credit card numbers, and other topics/information possibly associated with sensitive information.
+
+---
+
+## System
+# ePADD - 3/3
+
+Processing in ePADD occurs in four steps or **modules**:
+- 1. Appraisal
+- 2. Processing
+- 3. Discovery
+- 4. Delivery
+
+<!--presenter notes
+
+Appraisal: Allows for archivists and curators to review the email archive on a local server. Features include:
+- Merge duplicate identities (e.g., a person who has two email addresses)
+- Apply persistent URL to each message
+- The archivist or the researcher can input annotations
+
+Processing: Allows for namely archivists to process, arrange, identify PID using the Lexicon search feature and flag it for further review or apply a restriction, associate metadata with name authorities. Proprietary or rare email formats can be normalized to more standard formats like MBOX or EML.
+
+Discovery: Provides a user interface for researchers and other end-users to search through archive using keyword searching, that goes beyond what a catalog might otherwise provide.
+
+Delivery: Enables an archivist to mediate delivery of requested materials. This might look like a dedicated computer in a reading room.
+
+-->
+
+---
+
+<div class="shapes">
+  <div class="triangle"></div>
+  <span class="circle"></span>
+  <span class="square"></span>
+</div>
+
+<div class="activity-title">Email Archive</div>
+
+_Browse an email archive._
+
+<ul class="activity-list">
+<li>Open up <a href="https://epadd.stanford.edu/epadd/collections" target="_blank">Stanford email collections</a></li>
+<li>Select a collection (e.g. Robert Creeley); read the description and when you are ready, select "Enter ->"
+</li>
+<li>Click on the "Entities" facet, and then select any of the Entities that appear in the list.</li>
+<li>Scroll through an email or two. What do you notice? 
+
+---
+
 <div class="quote">
 
 “Websites have … become an essential component of cultural memory, and will inevitably be tomorrow’s historical documents. Yet websites are extremely unstable, fragile, and vulnerable to loss. Anyone with an interest in historical documentation should be concerned about the volume of significant content disappearing daily from the cultural record.”
@@ -293,6 +431,14 @@ Quote above was written by Howard Besser, Founding Director of the Moving Image 
 This quote captures both the importance of web archiving in terms of preserving the cultural record, as well as the various challenges to do with this medium in terms of scale, ephemerality, and dynamism.
 
 -->
+
+---
+
+# "The record"
+
+---
+
+
 
 ---
 
@@ -878,62 +1024,6 @@ _Watch me demo WebRecorder or try yourself._
 <li>Click in this order: 1.) Extension button, 2.) Create new archive, 3.) Start</li>
 <li>Navigate around the site for 10-20 seconds</li>
 <li>Stop recording and download the WACZ file</li>
-
----
-
-# Email Archiving
-
----
-
-# Armstrong vs. Executive of the President
-
-<!--presenter notes
-
-See: https://www.jstor.org/stable/40293774 and https://law.justia.com/cases/federal/district-courts/FSupp/821/761/1510466/
-
-In 1989, Scott Armstrong, Executive Director of the National Security Archive, filed a Freedom of Information Act (FOIA) request to ensure that the contents of the White House electronic mail and records system, contained on magnetic backup tapes stored on the IBM PROFS system, would not be destroyed and subject to archival review before disposition. This FOIA led to a lawsuit known as Armstrong versus the Executive Office of the President implicating both the Reagan and Bush White Houses. This lawsuit resulted in the court ordering the transfer of 5,839 backup tapes to the National Archives.
-
--->
-
----
-
-<img src="img/week_13_ibm_profs.jpeg" alt="Vintage IBM diagram of the PROFS system's handling of Electronic Mail">
-
-<!--presenter notes
-
-"In 1984, IBM introduced a line of personal computer workstations that could send and receive email, share documents and control peripheral devices like printers via the PROFS network protocol" (from the IBM Heritage article, "The Networked Office": https://www.ibm.com/history/profs-networked-business)
-
--->
-
----
-
-<img src="img/week_13_ibm_profs_guy.jpeg" alt="Vintage IBM ad showing a suited white CEOish middle-aged male looking at a terminal console connected to a keyboard.">
-
-<!--presenter notes
-
-"PROFS became the backbone of IBM’s Federal Services Division, which provided administrative services to the US government in areas ranging from record keeping at the Department of Defense to instrument design for the Apollo program. PROFS Notes even figured prominently in the Iran-Contra affair: Colonel Oliver North deleted a large number of emails connecting him to the scandal in 1982, not realizing they were archived on magnetic tape backups that became evidence in congressional hearings over the next two years."
-
--->
-
----
-
-## Timeline
-**January 19, 1989**
-- On the final day of the Raegan administration, Executive Director of the National Security Archive Scott Armstrong and others filed an Freedom of Information Act (FOIA) request to ensure White House was subject to archival review before disposition.
-- A DC Judge filed a temporary restraining to prevent record destruction.
-
----
-
-- **September 1989**: Government attempted to dismiss the case. Motion denied by the judge.
-
----
-
-- Armstrong also filed a lawsuit alleging:
-  - Email qualifies as agency records.
-  - The Executive Office of the President failed to formulate and carry out guidelines and policies consistent with the law and regulation.
-  - Archivist of the United States failed to carry out his duties with respect to (electronic) records.
-  - The suit asked for guidelines for future email records.
-
 
 ---
 
