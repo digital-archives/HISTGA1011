@@ -15,10 +15,11 @@ has_children: false
 - [Step 3: Write your group report](#step-3)
   - [Inventory Spreadsheet Guidance](#inventory)
   - [Group Report Guidance](#report)
-- [Step 4: Submit your reports to Brightspace](#step-5)
+  - [Harvard Category to DLF Mapping Table](#hlis-dlf-map)
+- [Step 4: Submit your Inventory and Group Report to Brightspace](#step-4)
 
 {: .highlight }
-**SCENARIO:** Your Archives Department at Harvard University is collaborating on a grant for a digitization project. Your task is to develop a high-level digitization plan for two collections, managed by two team (Group A and Group B). Your group will create a detailed report and inventory, including cost and production time estimates, and documentation of proposed schemas/standards. The collections mainly consist of paper, photographic and other 2D materials, with some exceptions.
+**SCENARIO:** Your Archives Department at Harvard University is collaborating on a grant for a digitization project. Your task is to develop a high-level digitization plan for two collections, each managed by two teams (Group A and Group B). Your group will create a detailed report and inventory, including cost and production time estimates, and documentation of proposed schemas/standards. The collections mainly consist of paper, photographic and other 2D materials, with some exceptions.
 
 ## Step 1: Perform in-class pre-imaging and conservation review {#step-1}
 **Prepare and share documents:** 
@@ -56,7 +57,7 @@ Once your group has completed the review, consult with me regarding and share yo
 #### **Fields to be completed by group (highlighted in yellow)**
 - **HLIS Service Category:** Use the <a href="https://wiki.harvard.edu/confluence/display/DigitalImaging/Imaging+Services+Project+Services+Categories" target="_blank">Harvard Library Imaging Services Categories (HLIS)</a>.
 - **Folder Name:** Enter each folder’s name based on the file-naming schema described in the Report.
-- **DLF Capture Device**: Using the _Harvard Category to DLF Mapping Table_ below, identify and list the _DLF Cost Calculator Capture Device_ that corresponds to the folder’s HLIS Service Category. 
+- **DLF Capture Device**: Using the [Harvard Category to DLF Mapping Table](#hlis-dlf-map) below, identify and list the _DLF Cost Calculator Capture Device_ that corresponds to the folder’s HLIS Service Category. 
 - **Capture Count:** Estimate the number of captures (e.g., scans, photographs) taken per folder. _Take into consideration the group's capture decisions, such as whether you will be digitizing blank pages, etc._
 - **Imaging Time (Minutes):** Use the <a href="https://dashboard.diglib.org/">DLF Digitization Cost Calculator</a> to estimate the imaging time. Rather than filling out a Cost Calculator form for each folder (which would be extremely time-consuming), my suggestion is to first, identify all folders that use the same DLF Capture Device, complete a Cost Calculator form per Device, and distribute the estimated time proportionally among the folders (feel free to use your own approach!). **How to complete the DLF Digitization Cost Calculator form**
   - **Number of scans**: Enter the Capture Count for all items within the same HLIS Category. If a folder contains materials from multiple categories, calculate each separately and add them up them later.
@@ -100,7 +101,7 @@ Once your group has completed the review, consult with me regarding and share yo
 - **Group Notes/Decisions:** Documentation of overarching digitization approach decisions made by the group.
 - **Conservation Notes:** Treatments required and impact that may have on production.
 
-### **Harvard Category to DLF Mapping Table**
+### **Harvard Category to DLF Mapping Table** {#hlis-dlf-map}
 
 | **Harvard Digitization Category** | **DLF Cost Calculator Capture Device** |
 |-----------------------------------|--------------------------------|
@@ -133,7 +134,7 @@ Once your group has completed the review, consult with me regarding and share yo
 
 _\* This equivalency chart is for the purposes of this assignment only. If you are unsure what DLF Device to go with, you may default to “Manual DSLR”._
 
-## Step 4: Submit Your Work in Brightspace {#step-4}
+## Step 4: Submit Your Inventory and Group Report to Brightspace {#step-4}
 Each group member must submit both an export of the Inventory and Report to Brightspace.
 
 The assignment is due by end of day Tuesday next week to allow time for group collaboration outside of class.
