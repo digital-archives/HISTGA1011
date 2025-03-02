@@ -61,30 +61,30 @@ Once your group has completed the review, let me know, and I will consult you on
 - **Folder Name:** Enter the folder’s name based on the folder-naming schema described in the Group Report.
 - **DLF Capture Device**: Using the [Harvard Category to DLF Mapping Table](#hlis-dlf-map) below, identify and list the _DLF Cost Calculator Capture Device_ that corresponds to the folder’s HLIS Service Category. 
 - **Capture Count:** Estimate the number of captures (e.g., scans, photographs) taken per folder. _Take into consideration the group's capture decisions, such as whether you will be digitizing blank pages, etc._
-- **Imaging Time (Minutes):** Use the <a href="https://dashboard.diglib.org/">DLF Digitization Cost Calculator</a> to estimate the imaging time. Rather than filling out a Cost Calculator form for each folder (which would be extremely time-consuming), my suggestion is to first, identify all folders that use the same DLF Capture Device, complete a Cost Calculator form per Device, and distribute the estimated time proportionally among the folders (feel free to use your own approach!). **How to complete the DLF Digitization Cost Calculator form**
-  - **Number of scans**: Enter the Capture Count for all items within the same HLIS Category. If a folder contains materials from multiple categories, calculate each separately and add them up them later.
+- **Imaging Time (Minutes):** Use the <a href="https://dashboard.diglib.org/">DLF Digitization Cost Calculator</a> to estimate the imaging time. Rather than filling out a Cost Calculator form for each folder (which would be extremely time-consuming), my suggestion is to first, identify all folders that use the same DLF Capture Device, complete a Cost Calculator form per Device, and distribute the estimated time proportionally among the folders (feel free to use your own approach!). **Guidance on filling out the DLF Digitization Cost Calculator form:**
+  - **Number of scans**: Enter the Capture Count subtotal for each HLIS Category/Device. If a folder contains materials from multiple categories, calculate each separately and add them up them later.
   - **Staffing**: Enter the following details:
-    - Name: Use the staff role (e.g., "Digitization Technician")
-    - Type: Select "Hourly" or "Salaried"
-    - Rate: Provide a reasonable rate or salary
-    - Benefits: Enter 20%
+    - Name: Enter the staff role (e.g., "Digitization Technician").
+    - Type: Select "Hourly" or "Salaried".
+    - Rate: Provide a reasonable rate or salary.
+    - Benefits: Enter 20%.
   - **Capture Device**: Select the DLF Capture Device listed in the Inventory.
-  - Preparation of Original Material: (_Ensure you select the staff performing each task._)
+  - **Preparation of Original Material**: (_Ensure you select the staff performing each task._)
     - Condition review: Enter 100.
     - Fastener removal, Sorting material into items, Rights review: Leave blank.
-  - Quality Control: (_Ensure you select the staff performing each task._)
+  - **Quality Control**: (_Ensure you select the staff performing each task._)
     - Level: Select Level 1.
     - Percentage of Material: Enter 10%.
-  - Post Processing, Post Preparation, Other: Leave blank.
-  - Metadata:
+  - **Post Processing, Post Preparation, Other**: Leave blank.
+  - **Metadata**:
     - Level: Select Level 3.
     - Percentage of Material: Enter 32%.
   - Click “Save and Continue”; this will output an estimated time in minutes. Record this in your Inventory under Imaging Time (Minutes).
-- **Output File Type(s):** Identify the resulting preservation file types for the digitized material using the [Library of Congress Recommended Formats](https://www.loc.gov/preservation/resources/rfs/TOC.html) as your guide (focus on the final output and assume any necessary conversion will occur during post-production).
+- **Output File Type(s):** Identify the resulting preservation file types for the digitized material using the [Library of Congress Recommended Formats](https://www.loc.gov/preservation/resources/rfs/TOC.html) as your guide.
 - **Resolution:** Express in DPI (dots per inch). General recommendations:
-  - 300 DPI: optimal for most material (good balance between detail capture and file size)
-  - 400 DPI: more detailed capture, consider for photography
-  - 600 DPI: small items, a lot of detail
+  - 300 DPI: optimal for most material (good balance between detail capture and file size).
+  - 400 DPI: more detailed capture, consider for photography.
+  - 600 DPI: small items, a lot of detail.
 - **OCR (Y/N):** Indicate whether optical character recognition (OCR) is needed.
 - **Cost:** Calculate the digitization cost per folder using the pricing guide listed beneath each <a href="https://wiki.harvard.edu/confluence/display/DigitalImaging/Imaging+Services+Project+Services+Categories" target="_blank">HLIS Project Service Category</a>.
 
