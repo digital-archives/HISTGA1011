@@ -8,129 +8,132 @@ has_children: false
 
 # Imaging and Conservation Group Activity
 
-## Group Report and Individual Reflection
+## Steps Overview
 
 - [Step 1: Perform in-class pre-imaging and conservation review](#step-1)
 - [Step 2: Consultation](#step-2)
 - [Step 3: Write your group report](#step-3)
   - [Inventory Spreadsheet Guidance](#inventory)
   - [Group Report Guidance](#report)
-- [Step 4: Write your individual reflection](#step-4)
-- [Step 5: Submit your reports to Brightspace](#step-5)
+- [Step 4: Submit your reports to Brightspace](#step-5)
 
 {: .highlight }
-**SCENARIO:** You are an archivist who works in the special collections department of a medium-sized university. Your department is planning on writing a grant to fund a digitization project. Your team has been tasked with devising a digitization plan, in the form of a report and inventory. Both documents will provide high-level details, cost and production time estimates, and document proposed schemas/standards. You will base your report on a collection from your institutional repository, containing mostly paper, photographic and other 2D materials (with some exceptions).
+**SCENARIO:** Your Archives Department at Harvard University is collaborating on a grant for a digitization project. Your task is to develop a high-level digitization plan for two collections, managed by two team (Group A and Group B). Your group will create a detailed report and inventory, including cost and production time estimates, and documentation of proposed schemas/standards. The collections mainly consist of paper, photographic and other 2D materials, with some exceptions.
 
 ## Step 1: Perform in-class pre-imaging and conservation review {#step-1}
-**Convene with your assigned group and prepare/share the assignment documents:** 
-- Have one group member open the shared <a href="https://drive.google.com/drive/folders/1e2OQoWaPbySWqyH2w8qbA95oBJB4BCKE?usp=drive_link" target="_blank">Imaging and Conservation Activity - Templates</a> folder and have them make copies of the <a href="https://docs.google.com/document/d/1ipJfplMvKjXaupTq8RHEfGvyS1h2pzOlvrU2jtRfZ7w/edit?usp=drive_link" target="_blank">Template - Imaging Review - Report</a> and <a href="https://docs.google.com/spreadsheets/d/1dEc1DEEJxvIa5UAxx6bgXsr3JC02RTxMh8xhcjg-Qes/edit?usp=sharing" target="_blank">Template - Imaging Review - Inventory</a> into their Google Drive.
-- Share the Google Drive folder with your group with read/edit permissions.
+**Prepare and share documents:** 
+- One group member should open the shared <a href="https://drive.google.com/drive/folders/1e2OQoWaPbySWqyH2w8qbA95oBJB4BCKE?usp=drive_link" target="_blank">Imaging and Conservation Activity - Templates</a> folder and make local copies of the following:
+  1. <a href="https://docs.google.com/document/d/1ipJfplMvKjXaupTq8RHEfGvyS1h2pzOlvrU2jtRfZ7w/edit?usp=drive_link" target="_blank">Template - Imaging Review - Report</a>
+  2. <a href="https://docs.google.com/spreadsheets/d/1dEc1DEEJxvIa5UAxx6bgXsr3JC02RTxMh8xhcjg-Qes/edit?usp=sharing" target="_blank">Template - Imaging Review - Inventory</a>
+- Share editing permissions with all group members.
 
-**Review the inventory, and start planning by discussing/taking notes about:**
+*📌 Important: The Inventory spreadsheet has two tabs, one for each group's collection. To avoid confusion, delete the  tab that does not belong to your group.*
 
-*Important note: There are two tabs in the Inventory spreadsheet. Please review them both!*
-
-- What are the general material types represented?
-- What digitization equipment/technologies might be needed to digitize each material type group?
-- Of the two collections represented, which collection should be digitized first? Why?
-- What is the general condition of the materials? Use the spreadsheet to flag any materials that you think should be assessed by a conservator before digitization.
-- How will digitization/scanning be done? Consider these factors:
-  - Should techs digitize recto and verso of every single item (including those that are blank?) Why or why not?
-  - Do you want double page or single page spreads for multi-page documents?
+**Discuss key aspects with your group (5-10 minutes):**
+- **Material types**: What types of materials are in the collection?
+- **Digitization equipment**: What devices might be needed to capture each material type?
+- **Condition**: Use the spreadsheet to flag any materials that require conservation assessment.
+- **Approach**:
+  - Should all recto and verso pages be digitized, including blank pages?
+  - Should multi-page documents be scanned as double or single-page spreads?
   - What order should book covers/spines be digitized?
-  - Is there anything that shouldn't be digitized at this time?
-- What questions do you have for me?
+  - Are there any materials that should **not** be digitized at this time?
+- **Outstanding questions**: What clarifications do you need from me?
 
 ## Step 2: Consultation {#step-2}
-Once your group has finished the initial review, approach me and let me know your plan. Use this time to ask me if you have any questions about these steps, digitization approach, or anything else.
+Once your group has completed the review, consult with me regarding and share your digitization approach, and any other project-related questions.
 
-## Step 3: Write your group report {#step-3}
-Once you have consulted with me, I will send you on your way to write up your group report. Use the Inventory and Report Guidance sections below which contain instructions and steps on how to fill out your Inventory, determine a cost estimate, and fill out your report.
+## Step 3: Write Report, fill out the Inventory {#step-3}
 
 ### Inventory Spreadsheet Guidance {#inventory}
+#### **Pre-populated field (do not edit)**
+- **Series:** Name of the finding aid series.
+- **Box number & folder number:** Since this is a folder-level list, for each folder, the box number may repeat themselves (e.g., the same box can contain multiple folders).
+- **Content estimate count & format:** Estimated count and material type of items in folder.
+- **Restrictions:** Access restriction statement.
+- **Condition:** Conservation issues.
 
-_Note: Any columns highlighted in yellow within the Inventory spreadsheet are the sections you will be filling out._
+#### **Fields to be completed by group (highlighted in yellow)**
+- **HLIS Service Category:** Use the <a href="https://wiki.harvard.edu/confluence/display/DigitalImaging/Imaging+Services+Project+Services+Categories" target="_blank">Harvard Library Imaging Services Categories (HLIS)</a>.
+- **Folder Name:** Enter each folder’s name based on the file-naming schema described in the Report.
+- **DLF Capture Device**: Using the _Harvard Category to DLF Mapping Table_ below, identify and list the _DLF Cost Calculator Capture Device_ that corresponds to the folder’s HLIS Service Category. 
+- **Capture Count:** Estimate the number of captures (e.g., scans, photographs) taken per folder. _Take into consideration the group's capture decisions, such as whether you will be digitizing blank pages, etc._
+- **Imaging Time (Minutes):** Use the <a href="https://dashboard.diglib.org/">DLF Digitization Cost Calculator</a> to estimate the imaging time. Rather than filling out a Cost Calculator form for each folder (which would be extremely time-consuming), my suggestion is to first, identify all folders that use the same DLF Capture Device, complete a Cost Calculator form per Device, and distribute the estimated time proportionally among the folders (feel free to use your own approach!). **How to complete the DLF Digitization Cost Calculator form**
+  - **Number of scans**: Enter the Capture Count for all items within the same HLIS Category. If a folder contains materials from multiple categories, calculate each separately and add them up them later.
+  - **Staffing**: Enter the following details:
+    - Name: Use the staff role (e.g., "Digitization Technician")
+    - Type: Select "Hourly" or "Salaried"
+    - Rate: Provide a reasonable rate or salary
+    - Benefits: Enter 20%
+  - **Capture Device**: Select the DLF Capture Device listed in the Inventory.
+  - Preparation of Original Material: (_Ensure you select the staff performing each task._)
+    - Condition review: Enter 100.
+    - Fastener removal, Sorting material into items, Rights review: Leave blank.
+  - Quality Control: (_Ensure you select the staff performing each task._)
+    - Level: Select Level 1.
+    - Percentage of Material: Enter 10%.
+  - Post Processing, Post Preparation, Other: Leave blank.
+  - Metadata:
+    - Level: Select Level 3.
+    - Percentage of Material: Enter 32%.
+  - Click “Save and Continue”; this will output an estimated time in minutes. Record this in your Inventory under Imaging Time (Minutes).
+- **Output File Type(s):** Identify the resulting preservation file types for the digitized material using the [Library of Congress Recommended Formats](https://www.loc.gov/preservation/resources/rfs/TOC.html) as your guide (focus on the final output and assume any necessary conversion will occur during post-production).
+- **Resolution:** Express in DPI (dots per inch). General recommendations:
+  - 300 DPI: optimal for most material (good balance between detail capture and file size)
+  - 400 DPI: more detailed capture, consider for photography
+  - 600 DPI: small items, a lot of detail
+- **OCR (Y/N):** Indicate whether optical character recognition (OCR) is needed.
+- **Cost:** Calculate the digitization cost per folder using the pricing guide listed beneath each <a href="https://wiki.harvard.edu/confluence/display/DigitalImaging/Imaging+Services+Project+Services+Categories" target="_blank">HLIS Project Service Category</a>.
 
-**Pre-populated field definitions:**
-- **Series:** Name of finding aid series containing the folder.
-- **Box number:** Box label number. Since this is a folder-level list, box numbers may repeat themselves.
-- **Folder number:** Folder label number
-- **Content Estimate Count:** Estimated total count of Content Estimate Format.
-- **Content Estimate Format:** Format of Content Estimate Count
-- **Restrictions:** Access restriction statement/dates.
-- **Condition:** Noted conservation issues.
+### Group Report Guidance {#report}
 
-**Fields (highlighted in yellow) to be filled for each folder:**
-- **Workflow Type(s)_:_** Use the <a href="https://wiki.harvard.edu/confluence/display/DigitalImaging/Imaging+Services+Project+Services+Categories" target="_blank">Harvard Library Imaging Services Project Services Categories (HLIS)</a> site to categorize workflow type(s) for each folder.
-- **Folder Name:** Enter each folder’s name based on the file-naming schema described in your Report.
-- **Capture Device**: Based on your workflow selections from the HLIS site, identify the capture device you will need to digitize each folder. Use the **Harvard to DLF Capture Device Table** below, which maps HLIS Workflow to DLF Calculator Device.
-- **Shot Count:** For each folder listed, enter in an estimated shot count based on the Content Estimate Count and Format.
-- **Imaging Time:** Using the <a href="https://dashboard.diglib.org/">DLF Digitization Cost Calculator</a>, calculate the time it will take per workflow type in minutes. To determine these estimates, open the Calculator and enter the following details:
-  - _Number of scans:_ Enter total number shots in the folder with the same workflow (sort the worksheet by Content Estimate). If you are using multiple workflows for 1 folder, you need to calculate time separately then add together.
-  - _Staffing:_ List each staff name (enter their role here, no need to make up a name), type (hourly or salaried is fine), rate (guess!), and benefits (enter 20%)
-  - _Capture Device:_ Select the capture device you listed in the Inventory (see the **Harvard to DLF Capture Device Table**).
-  - Preparation of Original Material
-    - Condition review: 100
-    - Fastener removal: \[leave blank]
-    - Sorting material into items: \[leave blank]
-    - Rights review: \[leave blank]
-    - Make sure for each, select the staff performing these tasks.
-  - _Quality Control_
-    - Select Level 1
-    - Percentage of Material: 10% (feel free to adjust this!)
-    - Make sure for each, select the staff performing these tasks.
-  - _Post Processing:_ \[skip]
-  - _Metadata:_ Select level 3 and input 32% for the percentage for material
-  - _Post Preparation_: \[skip]
-  - _Other_: \[skip]
-  - Select “Save and Continue”; input the total in minutes per Content Estimate Count/Format/Workflow type
+- **Group Name (A or B) & Members**
+- **Collection Name**
+- **Scope Summary:** Overview of materials to be digitized.
+- **Workflow:** Provide step-by-step instructions for scanning/photographing.
+- **Selection Criteria:** Rationale for what is/not being digitized.
+- **Folder- & File-naming Schema:** Describe naming convention for each folder and capture.
+- **Staff Roles:** Identify various staff roles necessary to complete the work.
+- **Output File Types & Resolution:** List preservation formats and standards.
+- **Estimated Capture Count and Imaging Time Total:** Grand total from the Inventory spreadsheet.
+- **Estimated Cost and Production Length:** Project total cost and duration.
+- **Group Notes/Decisions:** Documentation of overarching digitization approach decisions made by the group.
+- **Conservation Notes:** Treatments required and impact that may have on production.
 
-**Harvard to DLF Capture Device Table\***
+### **Harvard Category to DLF Mapping Table**
 
-| [**HL Imaging Services Capture Devices**] | [**Digitization Calculator Capture Devices**] |
-| ----------------------------------------- | ----------------------------------------------|
-| Film/negatives | Film or transparency scanner |
-| Studio cameras | Flatbed scanner |
-| Studio single shot cameras | Manual DSLR camera |
-| Book scanners | V-Cradle Scanner |
-| Loose document cameras | Overhead scanner |
-| Document sheet-fed scanners | Sheet feeding scanner |
-| Tabletop photography (3D items) | Manual DSLR camera |
-| Digital files | n/a \[Computer] (CDs = 75 min, DVD = 120 min, HD = rate of 100MB/second) |
+| **Harvard Digitization Category** | **DLF Cost Calculator Capture Device** |
+|-----------------------------------|--------------------------------|
+| **Bound Materials**               |                                |
+| B01 - Standard Photography (Book Scanners) | V-Cradle Scanner / Overhead Scanner |
+| B02 - Studio Photography (Special Handling) | Manual DSLR Camera |
+| B03 - Studio Photography (Batch Processing) | Overhead Scanner |
+| B04 - Large Bound, Studio Photography | Manual DSLR Camera |
+| B05 - Standard Photography (Discontinued) | V-Cradle Scanner / Overhead Scanner |
+| **Loose Materials**               |                                |
+| L01 - Loose Documents (Copy Stand Capture) | Manual DSLR Camera |
+| L02 - Sheet-fed Scanners (Bitonal or Color) | Sheet Feeding Scanner |
+| L03 - Studio, Item-Level Processing | Manual DSLR Camera |
+| L05 - Oversized Loose Materials, Studio | Manual DSLR Camera |
+| L06 - Sheet-fed Scanners, PDF Creation | Sheet Feeding Scanner |
+| **Visual Materials**              |                                |
+| R01 - Reflective Imagery, up to 19"x26" | Flatbed Scanner / Manual DSLR Camera |
+| R02 - Reflective Imagery, larger than 19"x26" | Manual DSLR Camera |
+| R03 - Cased Images (Daguerreotypes, etc.) | Manual DSLR Camera |
+| R04 - 3D Objects, Tabletop Photography | Manual DSLR Camera |
+| **Film & Transparency**           |                                |
+| T01 - Black & White Negative Film | Film or Transparency Scanner |
+| T02 - 35mm Color Slides | Film or Transparency Scanner |
+| T03 - Color Negative Film | Film or Transparency Scanner |
+| T04 - Medium/Large Format Transparency Film | Film or Transparency Scanner |
+| T05 - Glass Plate Negatives | Film or Transparency Scanner |
+| T06 - Lantern Slides | Film or Transparency Scanner |
+| **Computational Imaging**         |                                |
+| CI01 - Photogrammetry, 3D Rendering | Manual DSLR Camera + Computer Processing |
 
-_\*This equivalency chart is for the purposes of this assignment only. If you are unsure based on the HLIS info, select “Manual DSLR”._
+_\* This equivalency chart is for the purposes of this assignment only. If you are unsure what DLF Device to go with, you may default to “Manual DSLR”._
 
-- **Output File Type(s):** Identify the resulting preservation file types for the digitized material using the [Library of Congress Recommended Formats](https://www.loc.gov/preservation/resources/rfs/TOC.html) as your guide (ignore the output options from the HLIS site.) Don’t worry about what the output of particular cameras or scanners are, since some output raw images; instead, focus your decision-making on the final output and assume any necessary conversion will occur during post-production.
+## Step 4: Submit Your Work in Brightspace {#step-4}
+Each group member must submit both an export of the Inventory and Report to Brightspace.
 
-- **Resolution:** Express in DPI (dots per inch). General recommendations are:
-  - 300 dpi: optimal for most material (good balance between detail capture and file size)
-  - 400 dpi: more detailed capture, consider for photography
-  - 600 dpi: small items, a lot of detail
-
-- **OCR (Y/N):** Do you want optical character recognition? Make sure you include this in the cost.
-- **Cost:** Based on your selected workflows and shot counts, calculate the cost of digitization per folder using the costs per image listed in the <a href="https://wiki.harvard.edu/confluence/display/DigitalImaging/Imaging+Services+Project+Services+Categories" target="_blank">Harvard Library Imaging Services Project Services Categories</a> site.
-
-### Report Guidance {#report}
-
-- **Collection Name:**
-- **Group members:**
-- **Scope:** Using your Inventory, summarize what and how much you will be digitizing.
-- **Workflow:** Write out a step-by-step workflow that provides instructions for how collection items will be scanned/photographed (bullet point is fine). This workflow should be easily understood by the staff performing the digitization.
-- **Selection criteria:** Since there will be both overarching decisions and folder-specific decisions due to different item types, document why you selected or prioritized some or all folders, or excluded any material from digitization and why.
-- **File- and folder-naming schema:** Assume your imaging output will be grouped by folder for post-production processing. What is the folder naming schema you will give to the batch folders? What information do you want to capture in the folder name? Provide your reasoning.
-- **Staff:** List each staff and their role in your project.
-- **Output file type(s):** Summarize the file formats output as a result of digitization.
-- **Estimated shot count total:** Provide total across all folders in your Inventory’s “Shot Count” column.
-- **Estimated Imaging Time (minutes) total:** Provide total across all folders in your Inventory’s “Imaging Time” column.
-- **Estimated project cost:** __Provide total cost across all folders in your Inventory’s “Cost” column.
-- **Estimated production length:** Take the total amount of minutes listed in your inventory and convert into something more tangible, like days, weeks or months.
-- **Full project notes and approaches:** Document the project-wide decisions you make and why. Folder-specific decisions should be documented at the folder level, but so you don’t need to repeat information at the folder level, document it here: What file format(s) did you select and why? Are there blanket digitization decisions you made, such as no blank versos? Etc.
-- **Conservation Notes:** Detail what sort of conservation or stabilization treatments may be required for materials with condition issues, and comment on how this might affect production length or any other project details.
-
-## Step 4: Write your individual reflection {#step-4}
-Staff involved directly or indirectly on digitization projects all have different roles, responsibilities and perspectives. Write a 1 page reflection from the perspective of one of your staff members (each group member must select a different role). Highlight any decisions made and documented in the Report that implicate you, and how they may effect your day-to-day work: Try and pick one of these topics to reflect on:
-- Prioritization of your work: Digitization projects often must be balanced with other tasks and projects assigned to you and your staff. How would you prioritize this work with your other assignments? How might staff communicate with one another to ensure proper lead time?
-- Workplace conditions: Digitization activities can involve repetitive tasks in specific environments that can have an impact on workers’ health, physicality and well-being. For example, imaging technicians often work in dark, windowless rooms, multi-tasking between equipment and workstations. What might the Principal Investigator consider incorporating into the grant budget to accommodate for these workplace realities?
-
-## Step 5: Submit your reports to Brightspace {#step-5}
-When you are done, each group member should submit the group report in Brightspace, as well as their individual report.
+The assignment is due by end of day Tuesday next week to allow time for group collaboration outside of class.

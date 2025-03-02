@@ -257,7 +257,7 @@ style: |
 ---
 
 ## Week 13 
-# Electronic Records and Archiving
+# Archiving Web-Based Electronic Records
 
 ---
 
@@ -278,7 +278,7 @@ _Feel free to email me with any announcements you would like me to boost (upcomi
 ---
 
 
-# Email Archiving
+# Archiving Web-Based Electronic Records
 
 ---
 
@@ -412,6 +412,22 @@ _Browse an email archive._
 </li>
 <li>Click on the "Entities" facet, and then select any of the Entities that appear in the list.</li>
 <li>Scroll through an email or two. What do you notice? 
+
+---
+
+
+<div class="shapes">
+  <div class="triangle"></div>
+  <span class="circle"></span>
+  <span class="square"></span>
+</div>
+
+<div class="activity-title">Email Archive</div>
+
+<ul class="activity-list">
+<li>Next, locate the <u>finding aid</u> for the collection you selected.</li>
+<li>Once you have the finding aid open, locate the emails in the hierarchy (you may need to perform a search for "email" in the collection search to hone in on the series/subseries containing emails.)</li>
+<li>Read through the finding aid details regarding the emails (how to access, redactions, access restrictions, etc.)</li>
 
 ---
 
