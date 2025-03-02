@@ -40,6 +40,7 @@ has_children: false
   - Should multi-page documents be scanned as double or single-page spreads?
   - What order should book covers/spines be digitized?
   - Are there any materials that should **not** be digitized at this time?
+  - What is your folder-naming schema? What convention will each capture file within each folder follow?
 - **Outstanding questions**: What clarifications do you need from me?
 
 ## Step 2: Consultation {#step-2}
@@ -50,14 +51,14 @@ Once your group has completed the review, let me know, and I will consult you on
 ### Inventory Spreadsheet Guidance {#inventory}
 #### **Pre-populated fields (do not edit)**
 - **Series:** Name of the finding aid series.
-- **Box number & folder number:** Since this is a folder-level list, for each folder, the box number may repeat themselves (e.g., the same box can contain multiple folders).
-- **Content estimate count & format:** Estimated count and material type of items in folder.
+- **Box number & folder number:** Since this is a folder-level list, for each folder, the box numbers may repeat themselves (e.g., the same box can contain multiple folders).
+- **Content estimate count & format:** Estimated material type count of items.
 - **Restrictions:** Access restriction statement.
-- **Condition:** Conservation issues.
+- **Condition:** Any noted conservation issues.
 
 #### **Fields to be completed by group (highlighted in yellow)**
-- **HLIS Service Category:** Use the <a href="https://wiki.harvard.edu/confluence/display/DigitalImaging/Imaging+Services+Project+Services+Categories" target="_blank">Harvard Library Imaging Services Categories (HLIS)</a>.
-- **Folder Name:** Enter each folder’s name based on the file-naming schema described in the Report.
+- **HLIS Service Category:** Identify the appropriate <a href="https://wiki.harvard.edu/confluence/display/DigitalImaging/Imaging+Services+Project+Services+Categories" target="_blank">Harvard Library Imaging Services Category (HLIS)</a> for each folder (e.g., B01).
+- **Folder Name:** Enter the folder’s name based on the folder-naming schema described in the Group Report.
 - **DLF Capture Device**: Using the [Harvard Category to DLF Mapping Table](#hlis-dlf-map) below, identify and list the _DLF Cost Calculator Capture Device_ that corresponds to the folder’s HLIS Service Category. 
 - **Capture Count:** Estimate the number of captures (e.g., scans, photographs) taken per folder. _Take into consideration the group's capture decisions, such as whether you will be digitizing blank pages, etc._
 - **Imaging Time (Minutes):** Use the <a href="https://dashboard.diglib.org/">DLF Digitization Cost Calculator</a> to estimate the imaging time. Rather than filling out a Cost Calculator form for each folder (which would be extremely time-consuming), my suggestion is to first, identify all folders that use the same DLF Capture Device, complete a Cost Calculator form per Device, and distribute the estimated time proportionally among the folders (feel free to use your own approach!). **How to complete the DLF Digitization Cost Calculator form**
