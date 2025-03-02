@@ -10,9 +10,9 @@ has_children: false
 
 ## Steps Overview
 
-- [Step 1: Perform in-class pre-imaging and conservation review](#step-1)
+- [Step 1: Pre-Imaging Review](#step-1)
 - [Step 2: Consultation](#step-2)
-- [Step 3: Write your group report](#step-3)
+- [Step 3: Complete Report and Inventory](#step-3)
   - [Inventory Spreadsheet Guidance](#inventory)
   - [Group Report Guidance](#report)
   - [Harvard Category to DLF Mapping Table](#hlis-dlf-map)
@@ -21,7 +21,8 @@ has_children: false
 {: .highlight }
 **SCENARIO:** Your Archives Department at Harvard University is collaborating on a grant for a digitization project. Your task is to develop a high-level digitization plan for two collections, each managed by two teams (Group A and Group B). Your group will create a detailed report and inventory, including cost and production time estimates, and documentation of proposed schemas/standards. The collections mainly consist of paper, photographic and other 2D materials, with some exceptions.
 
-## Step 1: Perform in-class pre-imaging and conservation review {#step-1}
+## Step 1: Pre-Imaging Review {#step-1}
+
 **Prepare and share documents:** 
 - One group member should open the shared <a href="https://drive.google.com/drive/folders/1e2OQoWaPbySWqyH2w8qbA95oBJB4BCKE?usp=drive_link" target="_blank">Imaging and Conservation Activity - Templates</a> folder and make local copies of the following:
   1. <a href="https://docs.google.com/document/d/1ipJfplMvKjXaupTq8RHEfGvyS1h2pzOlvrU2jtRfZ7w/edit?usp=drive_link" target="_blank">Template - Imaging Review - Report</a>
@@ -42,12 +43,12 @@ has_children: false
 - **Outstanding questions**: What clarifications do you need from me?
 
 ## Step 2: Consultation {#step-2}
-Once your group has completed the review, consult with me regarding and share your digitization approach, and any other project-related questions.
+Once your group has completed the review, let me know, and I will consult you on your digitization approach, and answer any other project-related questions.
 
-## Step 3: Write Report, fill out the Inventory {#step-3}
+## Step 3: Complete Report and Inventory {#step-3}
 
 ### Inventory Spreadsheet Guidance {#inventory}
-#### **Pre-populated field (do not edit)**
+#### **Pre-populated fields (do not edit)**
 - **Series:** Name of the finding aid series.
 - **Box number & folder number:** Since this is a folder-level list, for each folder, the box number may repeat themselves (e.g., the same box can contain multiple folders).
 - **Content estimate count & format:** Estimated count and material type of items in folder.
