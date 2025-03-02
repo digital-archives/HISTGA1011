@@ -210,726 +210,719 @@
     "relUrl": "/activities/imaging#imaging-and-conservation-group-activity"
   },"30": {
     "doc": "Imaging and Conservation Review",
-    "title": "Group Report and Individual Reflection",
-    "content": ". | Step 1: Perform in-class pre-imaging and conservation review | Step 2: Consultation | Step 3: Write your group report . | Inventory Spreadsheet Guidance | Group Report Guidance | . | Step 4: Write your individual reflection | Step 5: Submit your reports to Brightspace | . SCENARIO: You are an archivist who works in the special collections department of a medium-sized university. Your department is planning on writing a grant to fund a digitization project. Your team has been tasked with devising a digitization plan, in the form of a report and inventory. Both documents will provide high-level details, cost and production time estimates, and document proposed schemas/standards. You will base your report on a collection from your institutional repository, containing mostly paper, photographic and other 2D materials (with some exceptions). ",
-    "url": "/HISTGA1011/activities/imaging#group-report-and-individual-reflection",
+    "title": "Steps Overview",
+    "content": ". | Step 1: Perform in-class pre-imaging and conservation review | Step 2: Consultation | Step 3: Write your group report . | Inventory Spreadsheet Guidance | Group Report Guidance | . | Step 4: Submit your reports to Brightspace | . SCENARIO: Your Archives Department at Harvard University is collaborating on a grant for a digitization project. Your task is to develop a high-level digitization plan for two collections, managed by two team (Group A and Group B). Your group will create a detailed report and inventory, including cost and production time estimates, and documentation of proposed schemas/standards. The collections mainly consist of paper, photographic and other 2D materials, with some exceptions. ",
+    "url": "/HISTGA1011/activities/imaging#steps-overview",
     
-    "relUrl": "/activities/imaging#group-report-and-individual-reflection"
+    "relUrl": "/activities/imaging#steps-overview"
   },"31": {
     "doc": "Imaging and Conservation Review",
     "title": "Step 1: Perform in-class pre-imaging and conservation review",
-    "content": "Convene with your assigned group and prepare/share the assignment documents:  . | Have one group member open the shared Imaging and Conservation Activity - Templates folder and have them make copies of the Template - Imaging Review - Report and Template - Imaging Review - Inventory into their Google Drive. | Share the Google Drive folder with your group with read/edit permissions. | . Review the inventory, and start planning by discussing/taking notes about: . Important note: There are two tabs in the Inventory spreadsheet. Please review them both! . | What are the general material types represented? | What digitization equipment/technologies might be needed to digitize each material type group? | Of the two collections represented, which collection should be digitized first? Why? | What is the general condition of the materials? Use the spreadsheet to flag any materials that you think should be assessed by a conservator before digitization. | How will digitization/scanning be done? Consider these factors: . | Should techs digitize recto and verso of every single item (including those that are blank?) Why or why not? | Do you want double page or single page spreads for multi-page documents? | What order should book covers/spines be digitized? | Is there anything that shouldn’t be digitized at this time? | . | What questions do you have for me? | . ",
+    "content": "Prepare and share documents:  . | One group member should open the shared Imaging and Conservation Activity - Templates folder and make local copies of the following: . | Template - Imaging Review - Report | Template - Imaging Review - Inventory | . | Share editing permissions with all group members. | . 📌 Important: The Inventory spreadsheet has two tabs, one for each group’s collection. To avoid confusion, delete the tab that does not belong to your group. Discuss key aspects with your group (5-10 minutes): . | Material types: What types of materials are in the collection? | Digitization equipment: What devices might be needed to capture each material type? | Condition: Use the spreadsheet to flag any materials that require conservation assessment. | Approach: . | Should all recto and verso pages be digitized, including blank pages? | Should multi-page documents be scanned as double or single-page spreads? | What order should book covers/spines be digitized? | Are there any materials that should not be digitized at this time? | . | Outstanding questions: What clarifications do you need from me? | . ",
     "url": "/HISTGA1011/activities/imaging#step-1",
     
     "relUrl": "/activities/imaging#step-1"
   },"32": {
     "doc": "Imaging and Conservation Review",
     "title": "Step 2: Consultation",
-    "content": "Once your group has finished the initial review, approach me and let me know your plan. Use this time to ask me if you have any questions about these steps, digitization approach, or anything else. ",
+    "content": "Once your group has completed the review, consult with me regarding and share your digitization approach, and any other project-related questions. ",
     "url": "/HISTGA1011/activities/imaging#step-2",
     
     "relUrl": "/activities/imaging#step-2"
   },"33": {
     "doc": "Imaging and Conservation Review",
-    "title": "Step 3: Write your group report",
-    "content": "Once you have consulted with me, I will send you on your way to write up your group report. Use the Inventory and Report Guidance sections below which contain instructions and steps on how to fill out your Inventory, determine a cost estimate, and fill out your report. Inventory Spreadsheet Guidance . Note: Any columns highlighted in yellow within the Inventory spreadsheet are the sections you will be filling out. Pre-populated field definitions: . | Series: Name of finding aid series containing the folder. | Box number: Box label number. Since this is a folder-level list, box numbers may repeat themselves. | Folder number: Folder label number | Content Estimate Count: Estimated total count of Content Estimate Format. | Content Estimate Format: Format of Content Estimate Count | Restrictions: Access restriction statement/dates. | Condition: Noted conservation issues. | . Fields (highlighted in yellow) to be filled for each folder: . | Workflow Type(s): Use the Harvard Library Imaging Services Project Services Categories (HLIS) site to categorize workflow type(s) for each folder. | Folder Name: Enter each folder’s name based on the file-naming schema described in your Report. | Capture Device: Based on your workflow selections from the HLIS site, identify the capture device you will need to digitize each folder. Use the Harvard to DLF Capture Device Table below, which maps HLIS Workflow to DLF Calculator Device. | Shot Count: For each folder listed, enter in an estimated shot count based on the Content Estimate Count and Format. | Imaging Time: Using the DLF Digitization Cost Calculator, calculate the time it will take per workflow type in minutes. To determine these estimates, open the Calculator and enter the following details: . | Number of scans: Enter total number shots in the folder with the same workflow (sort the worksheet by Content Estimate). If you are using multiple workflows for 1 folder, you need to calculate time separately then add together. | Staffing: List each staff name (enter their role here, no need to make up a name), type (hourly or salaried is fine), rate (guess!), and benefits (enter 20%) | Capture Device: Select the capture device you listed in the Inventory (see the Harvard to DLF Capture Device Table). | Preparation of Original Material . | Condition review: 100 | Fastener removal: [leave blank] | Sorting material into items: [leave blank] | Rights review: [leave blank] | Make sure for each, select the staff performing these tasks. | . | Quality Control . | Select Level 1 | Percentage of Material: 10% (feel free to adjust this!) | Make sure for each, select the staff performing these tasks. | . | Post Processing: [skip] | Metadata: Select level 3 and input 32% for the percentage for material | Post Preparation: [skip] | Other: [skip] | Select “Save and Continue”; input the total in minutes per Content Estimate Count/Format/Workflow type | . | . Harvard to DLF Capture Device Table* . | [HL Imaging Services Capture Devices] | [Digitization Calculator Capture Devices] | . | Film/negatives | Film or transparency scanner | . | Studio cameras | Flatbed scanner | . | Studio single shot cameras | Manual DSLR camera | . | Book scanners | V-Cradle Scanner | . | Loose document cameras | Overhead scanner | . | Document sheet-fed scanners | Sheet feeding scanner | . | Tabletop photography (3D items) | Manual DSLR camera | . | Digital files | n/a [Computer] (CDs = 75 min, DVD = 120 min, HD = rate of 100MB/second) | . *This equivalency chart is for the purposes of this assignment only. If you are unsure based on the HLIS info, select “Manual DSLR”. | Output File Type(s): Identify the resulting preservation file types for the digitized material using the Library of Congress Recommended Formats as your guide (ignore the output options from the HLIS site.) Don’t worry about what the output of particular cameras or scanners are, since some output raw images; instead, focus your decision-making on the final output and assume any necessary conversion will occur during post-production. | Resolution: Express in DPI (dots per inch). General recommendations are: . | 300 dpi: optimal for most material (good balance between detail capture and file size) | 400 dpi: more detailed capture, consider for photography | 600 dpi: small items, a lot of detail | . | OCR (Y/N): Do you want optical character recognition? Make sure you include this in the cost. | Cost: Based on your selected workflows and shot counts, calculate the cost of digitization per folder using the costs per image listed in the Harvard Library Imaging Services Project Services Categories site. | . Report Guidance . | Collection Name: | Group members: | Scope: Using your Inventory, summarize what and how much you will be digitizing. | Workflow: Write out a step-by-step workflow that provides instructions for how collection items will be scanned/photographed (bullet point is fine). This workflow should be easily understood by the staff performing the digitization. | Selection criteria: Since there will be both overarching decisions and folder-specific decisions due to different item types, document why you selected or prioritized some or all folders, or excluded any material from digitization and why. | File- and folder-naming schema: Assume your imaging output will be grouped by folder for post-production processing. What is the folder naming schema you will give to the batch folders? What information do you want to capture in the folder name? Provide your reasoning. | Staff: List each staff and their role in your project. | Output file type(s): Summarize the file formats output as a result of digitization. | Estimated shot count total: Provide total across all folders in your Inventory’s “Shot Count” column. | Estimated Imaging Time (minutes) total: Provide total across all folders in your Inventory’s “Imaging Time” column. | Estimated project cost: __Provide total cost across all folders in your Inventory’s “Cost” column. | Estimated production length: Take the total amount of minutes listed in your inventory and convert into something more tangible, like days, weeks or months. | Full project notes and approaches: Document the project-wide decisions you make and why. Folder-specific decisions should be documented at the folder level, but so you don’t need to repeat information at the folder level, document it here: What file format(s) did you select and why? Are there blanket digitization decisions you made, such as no blank versos? Etc. | Conservation Notes: Detail what sort of conservation or stabilization treatments may be required for materials with condition issues, and comment on how this might affect production length or any other project details. | . ",
+    "title": "Step 3: Write Report, fill out the Inventory",
+    "content": "Inventory Spreadsheet Guidance . Pre-populated field (do not edit) . | Series: Name of the finding aid series. | Box number &amp; folder number: Since this is a folder-level list, for each folder, the box number may repeat themselves (e.g., the same box can contain multiple folders). | Content estimate count &amp; format: Estimated count and material type of items in folder. | Restrictions: Access restriction statement. | Condition: Conservation issues. | . Fields to be completed by group (highlighted in yellow) . | HLIS Service Category: Use the Harvard Library Imaging Services Categories (HLIS). | Folder Name: Enter each folder’s name based on the file-naming schema described in the Report. | DLF Capture Device: Using the Harvard Category to DLF Mapping Table below, identify and list the DLF Cost Calculator Capture Device that corresponds to the folder’s HLIS Service Category. | Capture Count: Estimate the number of captures (e.g., scans, photographs) taken per folder. Take into consideration the group’s capture decisions, such as whether you will be digitizing blank pages, etc. | Imaging Time (Minutes): Use the DLF Digitization Cost Calculator to estimate the imaging time. Rather than filling out a Cost Calculator form for each folder (which would be extremely time-consuming), my suggestion is to first, identify all folders that use the same DLF Capture Device, complete a Cost Calculator form per Device, and distribute the estimated time proportionally among the folders (feel free to use your own approach!). How to complete the DLF Digitization Cost Calculator form . | Number of scans: Enter the Capture Count for all items within the same HLIS Category. If a folder contains materials from multiple categories, calculate each separately and add them up them later. | Staffing: Enter the following details: . | Name: Use the staff role (e.g., “Digitization Technician”) | Type: Select “Hourly” or “Salaried” | Rate: Provide a reasonable rate or salary | Benefits: Enter 20% | . | Capture Device: Select the DLF Capture Device listed in the Inventory. | Preparation of Original Material: (Ensure you select the staff performing each task.) . | Condition review: Enter 100. | Fastener removal, Sorting material into items, Rights review: Leave blank. | . | Quality Control: (Ensure you select the staff performing each task.) . | Level: Select Level 1. | Percentage of Material: Enter 10%. | . | Post Processing, Post Preparation, Other: Leave blank. | Metadata: . | Level: Select Level 3. | Percentage of Material: Enter 32%. | . | Click “Save and Continue”; this will output an estimated time in minutes. Record this in your Inventory under Imaging Time (Minutes). | . | Output File Type(s): Identify the resulting preservation file types for the digitized material using the Library of Congress Recommended Formats as your guide (focus on the final output and assume any necessary conversion will occur during post-production). | Resolution: Express in DPI (dots per inch). General recommendations: . | 300 DPI: optimal for most material (good balance between detail capture and file size) | 400 DPI: more detailed capture, consider for photography | 600 DPI: small items, a lot of detail | . | OCR (Y/N): Indicate whether optical character recognition (OCR) is needed. | Cost: Calculate the digitization cost per folder using the pricing guide listed beneath each HLIS Project Service Category. | . Group Report Guidance . | Group Name (A or B) &amp; Members | Collection Name | Scope Summary: Overview of materials to be digitized. | Workflow: Provide step-by-step instructions for scanning/photographing. | Selection Criteria: Rationale for what is/not being digitized. | Folder- &amp; File-naming Schema: Describe naming convention for each folder and capture. | Staff Roles: Identify various staff roles necessary to complete the work. | Output File Types &amp; Resolution: List preservation formats and standards. | Estimated Capture Count and Imaging Time Total: Grand total from the Inventory spreadsheet. | Estimated Cost and Production Length: Project total cost and duration. | Group Notes/Decisions: Documentation of overarching digitization approach decisions made by the group. | Conservation Notes: Treatments required and impact that may have on production. | . Harvard Category to DLF Mapping Table . | Harvard Digitization Category | DLF Cost Calculator Capture Device | . | Bound Materials |   | . | B01 - Standard Photography (Book Scanners) | V-Cradle Scanner / Overhead Scanner | . | B02 - Studio Photography (Special Handling) | Manual DSLR Camera | . | B03 - Studio Photography (Batch Processing) | Overhead Scanner | . | B04 - Large Bound, Studio Photography | Manual DSLR Camera | . | B05 - Standard Photography (Discontinued) | V-Cradle Scanner / Overhead Scanner | . | Loose Materials |   | . | L01 - Loose Documents (Copy Stand Capture) | Manual DSLR Camera | . | L02 - Sheet-fed Scanners (Bitonal or Color) | Sheet Feeding Scanner | . | L03 - Studio, Item-Level Processing | Manual DSLR Camera | . | L05 - Oversized Loose Materials, Studio | Manual DSLR Camera | . | L06 - Sheet-fed Scanners, PDF Creation | Sheet Feeding Scanner | . | Visual Materials |   | . | R01 - Reflective Imagery, up to 19”x26” | Flatbed Scanner / Manual DSLR Camera | . | R02 - Reflective Imagery, larger than 19”x26” | Manual DSLR Camera | . | R03 - Cased Images (Daguerreotypes, etc.) | Manual DSLR Camera | . | R04 - 3D Objects, Tabletop Photography | Manual DSLR Camera | . | Film &amp; Transparency |   | . | T01 - Black &amp; White Negative Film | Film or Transparency Scanner | . | T02 - 35mm Color Slides | Film or Transparency Scanner | . | T03 - Color Negative Film | Film or Transparency Scanner | . | T04 - Medium/Large Format Transparency Film | Film or Transparency Scanner | . | T05 - Glass Plate Negatives | Film or Transparency Scanner | . | T06 - Lantern Slides | Film or Transparency Scanner | . | Computational Imaging |   | . | CI01 - Photogrammetry, 3D Rendering | Manual DSLR Camera + Computer Processing | . * This equivalency chart is for the purposes of this assignment only. If you are unsure what DLF Device to go with, you may default to “Manual DSLR”. ",
     "url": "/HISTGA1011/activities/imaging#step-3",
     
     "relUrl": "/activities/imaging#step-3"
   },"34": {
     "doc": "Imaging and Conservation Review",
-    "title": "Step 4: Write your individual reflection",
-    "content": "Staff involved directly or indirectly on digitization projects all have different roles, responsibilities and perspectives. Write a 1 page reflection from the perspective of one of your staff members (each group member must select a different role). Highlight any decisions made and documented in the Report that implicate you, and how they may effect your day-to-day work: Try and pick one of these topics to reflect on: . | Prioritization of your work: Digitization projects often must be balanced with other tasks and projects assigned to you and your staff. How would you prioritize this work with your other assignments? How might staff communicate with one another to ensure proper lead time? | Workplace conditions: Digitization activities can involve repetitive tasks in specific environments that can have an impact on workers’ health, physicality and well-being. For example, imaging technicians often work in dark, windowless rooms, multi-tasking between equipment and workstations. What might the Principal Investigator consider incorporating into the grant budget to accommodate for these workplace realities? | . ",
+    "title": "Step 4: Submit Your Work in Brightspace",
+    "content": "Each group member must submit both an export of the Inventory and Report to Brightspace. The assignment is due by end of day Tuesday next week to allow time for group collaboration outside of class. ",
     "url": "/HISTGA1011/activities/imaging#step-4",
     
     "relUrl": "/activities/imaging#step-4"
   },"35": {
-    "doc": "Imaging and Conservation Review",
-    "title": "Step 5: Submit your reports to Brightspace",
-    "content": "When you are done, each group member should submit the group report in Brightspace, as well as their individual report. ",
-    "url": "/HISTGA1011/activities/imaging#step-5",
-    
-    "relUrl": "/activities/imaging#step-5"
-  },"36": {
     "doc": "Imaging and Conservation Review",
     "title": "Imaging and Conservation Review",
     "content": " ",
     "url": "/HISTGA1011/activities/imaging",
     
     "relUrl": "/activities/imaging"
-  },"37": {
+  },"36": {
     "doc": "Course Schedule & Readings",
     "title": "Course Schedule",
     "content": "| Week Number | Date of Class | Topic / Assignment Due | Weekly ActivityDue following Sunday | . | Week 1 | January 22 | Introduction to Digital Archives | Data Object | . | Week 2 | January 29 | OAIS Conceptual Model | Breaking BagIt | . | Week 3 | February 5 | Processing Born-Digital Archives | Corrupting a Bitstream | . | Week 4 | February 12 | Digital Repository Systems | Tech Stack | . | Week 5 | February 19 | Storage Infrastructures | Archivematica Sandbox | . | Week 6 | February 26 | Digital Preservation Metadata | Digital Preservation Metadata | . | Week 7 | March 5 | Digitization | Imaging and Conservation Group Activity | . | Week 8 | March 12 | Access and DiscoveryFinal Project Abstract due | The User’s Experience | . | Week 9 | March 19 | Automation and ScriptingClass will be held virtually | Scripting Reflection | . | Week 10 | March 26 | No Class | Spring Break |   | . | Week 11 | April 2 | Moving Image and Audio Preservation | QCTools | . | Week 12 | April 9 | Web and Email Archiving | Podcast Archaeology | . | Week 13 | April 16 | Guest Speaker DayClass will be held virtually |   | . | Week 14 | April 23 | No Class: Work on your final projects | Optional: Schedule a consult with me | . | Week 15 | April 30 | Last day of classFinal presentations due |   | . ",
     "url": "/HISTGA1011/schedule/#course-schedule",
     
     "relUrl": "/schedule/#course-schedule"
-  },"38": {
+  },"37": {
     "doc": "Course Schedule & Readings",
     "title": "Course Schedule & Readings",
     "content": " ",
     "url": "/HISTGA1011/schedule/",
     
     "relUrl": "/schedule/"
-  },"39": {
+  },"38": {
     "doc": "Grading - Points Breakdown",
     "title": "Grading - Points Breakdown",
     "content": "Students are evaluated using a points-based system totaling 100 across two main areas: Weekly Activities (70 points) and Final Project (30 points). ",
     "url": "/HISTGA1011/grading/",
     
     "relUrl": "/grading/"
-  },"40": {
+  },"39": {
     "doc": "Grading - Points Breakdown",
     "title": "Weekly Activities (70 points)",
     "content": "| Activity | Points | . | Weekly Assignments | 60 | . | Participation (includes activity discussions) | 10 | . | Total | 70 | . Notes on Weekly Assignments . The Imaging and Conservation Group Activity is worth 10 points, while all other assignments are worth 3 points each. ",
     "url": "/HISTGA1011/grading/#weekly-activities-70-points",
     
     "relUrl": "/grading/#weekly-activities-70-points"
-  },"41": {
+  },"40": {
     "doc": "Grading - Points Breakdown",
     "title": "Final Project (30 points)",
     "content": "| Item | Points | . | Abstract | 5 | . | Paper | 15 | . | Presentation | 10 | . | Total | 30 | . Extra Credit Opportunity . Students can earn up to 3 extra credit points by reaching out to a repository and setting up a time to talk with an archivist or a preservation/digital archives practitioner. To receive credit, students must, in their abstract, turn in a summary of their conversation with the project abstract (minimum 300 words) and reflect on how the discussion informs their final project. Extra credit will be applied to the Final Project score. ",
     "url": "/HISTGA1011/grading/#final-project-30-points",
     
     "relUrl": "/grading/#final-project-30-points"
-  },"42": {
+  },"41": {
     "doc": "Final Project",
     "title": "Final Project",
     "content": " ",
     "url": "/HISTGA1011/final_project/",
     
     "relUrl": "/final_project/"
-  },"43": {
+  },"42": {
     "doc": "Final Project",
     "title": "Overview",
     "content": "For your final project, you will develop a Digitization and Access Plan (hereafter the “Plan”) for a group of materials that are not currently available online—even though these materials may be accessible in person (e.g., in a reading room). This project will consist of a written paper and an accompanying presentation, which you will deliver on the last day of class. To guide your progress, you will submit an abstract mid-way through the semester as a check-in to ensure you have identified a suitable group of materials to work with, and are on track with your project. See the class schedule for due date details. ",
     "url": "/HISTGA1011/final_project/#overview",
     
     "relUrl": "/final_project/#overview"
-  },"44": {
+  },"43": {
     "doc": "Final Project",
     "title": "Scenario",
     "content": "You are an archivist working in the special collections department of [organization/institution of your choosing]. As part of an initiative to enhance digital access to the institution’s archives, your department has identified a candidate collection containing records that are currently inaccessible to users online that they wish to make available. Recognizing your expertise in digital archives workflow management, the Director of Special Collections has appointed you as Project Lead. Your task is to analyze how your institution currently handles digital access and preservation, write out a plan describing how these selected materials will be made accessible online, and present this plan to the Special Collections Committee. ",
     "url": "/HISTGA1011/final_project/#scenario",
     
     "relUrl": "/final_project/#scenario"
-  },"45": {
+  },"44": {
     "doc": "Final Project",
     "title": "📌 Selection Criteria",
     "content": "To ensure a well-rounded project, your candidate collection records must meet the following criteria: . | Existing online finding aid: Your chosen collection must be documented in an established online archival finding aid. | Materials not currently available online: Although the collection is held by an institution and described in an online finding aid, the materials themselves must not have been made accessible through a digital library or collection website. You will need to verify this by browsing available finding aids and confirming that the materials remain unavailable. | Selection scope: You are not required to propose a plan for every component of a finding aid. Instead, focus on a deliberate selection of materials (e.g., one series, or one specific type of format, or one intellectual grouping) to develop your plan. | Diverse media: While inclusion of some flat materials (e.g., photographs, maps, manuscripts) is acceptable, your project cannot focus exclusively on paper-based items that only require scanning or photography. Your project must incorporate at least one non-paper-based format, such as: . | Magnetic recorded media (e.g., audiotapes, videotapes, floppy disks, entire hard drives) | Optical Media (e.g., CDs, DVDs) | Born-digital records requiring file format migration or emulation (e.g., software, video games, database records, research datasets) | . | . ",
     "url": "/HISTGA1011/final_project/#-selection-criteria",
     
     "relUrl": "/final_project/#-selection-criteria"
-  },"46": {
+  },"45": {
     "doc": "Final Project",
     "title": "Project Goals",
     "content": "Your final paper and presentation should: . | Demonstrate the significance of the materials you selected and why they should be prioritized for access. | Articulate the technical, labor, and logistical considerations involved in not only getting the materials online, but also promoting their discovery and access. | Explain how the project aligns with institutional priorities and contributes to broader digital preservation and archiving efforts. | . This project is an opportunity to apply digital archiving and preservation principles in a real-world context, critically engage with selection and access strategies, and develop skills in planning and advocacy within archival institutions. ",
     "url": "/HISTGA1011/final_project/#project-goals",
     
     "relUrl": "/final_project/#project-goals"
-  },"47": {
+  },"46": {
     "doc": "Weekly Activities",
     "title": "Weekly Activities",
     "content": "Most weeks, you will be assigned to work on an activity in-class. Each activity will be accompanied by a set of instructions, and in some cases, materials (such as a folder containing some files, a worksheet, or something else). ",
     "url": "/HISTGA1011/activities/",
     
     "relUrl": "/activities/"
-  },"48": {
+  },"47": {
     "doc": "Course Details",
     "title": "Digital Archives [HIST-GA 1011]",
     "content": " ",
     "url": "/HISTGA1011/syllabus/#digital-archives-hist-ga-1011",
     
     "relUrl": "/syllabus/#digital-archives-hist-ga-1011"
-  },"49": {
+  },"48": {
     "doc": "Course Details",
     "title": "Spring 2025",
     "content": "New York University, Department of History . ",
     "url": "/HISTGA1011/syllabus/#spring-2025",
     
     "relUrl": "/syllabus/#spring-2025"
-  },"50": {
+  },"49": {
     "doc": "Course Details",
     "title": "Course Details",
     "content": "Meeting time: Wednesdays, 4:55-7:35pm Room: KJCC 717 Instructor: Mary Kidd (she/her) . Digital Archives explores the major stages of the digital curation life-cycle, and delves into the complexities surrounding the creation, appraisal, acquisition, processing/description, storage, digitization/reformatting, and making accessible, archives of all formats. Readings, lectures, discussions and in-class activities will shed light on the myriad challenges, best practices, risks/threats posed, and standards involved in successful digital preservation. Through the course, students will develop the ability to design foundational workflows for digitizing and handling both analog and born-digital materials and effectively managing digital objects. Additionally, the course emphasizes the significance of specialized preservation tools and techniques, including understanding essential technical skills. This course fulfills the “Digital Credit“ requirement. ",
     "url": "/HISTGA1011/syllabus/",
     
     "relUrl": "/syllabus/"
-  },"51": {
+  },"50": {
     "doc": "Course Details",
     "title": "Learning Objectives",
     "content": ". | Describe the role of archivists across the life cycle of digital archives. | Articulate challenges, best practices, and standards associated with the appraisal, acquisition, storage, creation, and provision of access to digital archives. | Explore basic workflows for the digitization of analog material to digital and for the accession and ingest of born-digital archives. | Identify risks and threats to the digital preservation life-cycle. | Enumerate considerations in institutional policies and plans related to collection development, intellectual property rights, digitization, preservation, and program sustainability. | Learn and practice technical skills and using common tools and softwares used in the field. | Understand the specialized work involved in handling and preservation of special formats such as audio visual and web archives. | . ",
     "url": "/HISTGA1011/syllabus/#learning-objectives",
     
     "relUrl": "/syllabus/#learning-objectives"
-  },"52": {
+  },"51": {
     "doc": "Course Details",
     "title": "Guidelines and Expectations",
     "content": ". | Students are expected to attend each weekly session for the full in-class time. Please email me as soon as you can to let me know you are unable to make a class, need to arrive late/leave early, or need to attend remotely. | Please write me as soon as you can if you require an extension or more time to finish an assignment or activity. | Class activities will be started on during class time. Any work that is not completed should be worked on and submitted by the end of the week Sunday. | Extensions must be approved ahead of time in writing by the instructor. | Papers should be in 12-point font, double-spaced, with 1-inch margins. I have no preference for how you cite sources, as long as you are consistent. | At a few points over the semester, we will be utilizing specific programs or applications that you will need to download or otherwise access to perform in-class or asynchronous activities. Ahead of those weeks when installing a program is required, I will provide the necessary information for how to obtain them based on your operating system. | . ",
     "url": "/HISTGA1011/syllabus/#guidelines-and-expectations",
     
     "relUrl": "/syllabus/#guidelines-and-expectations"
-  },"53": {
+  },"52": {
     "doc": "Course Details",
     "title": "Additional Assistance",
     "content": "Academic accommodations are available for students with disabilities. Please contact the Moses Center for Students with Disabilities (212-998-4980 or mosescsd@nyu.edu) for further information. Students who are requesting academic accommodations are advised to reach out to the Moses Center as early as possible in the semester for assistance. ",
     "url": "/HISTGA1011/syllabus/#additional-assistance",
     
     "relUrl": "/syllabus/#additional-assistance"
-  },"54": {
+  },"53": {
     "doc": "Course Details",
     "title": "Textbook",
     "content": "Owens, Trevor. The Theory and Craft of Digital Preservation. Baltimore: Johns Hopkins University Press, 2018. Accessed June 30, 2023. https://www.trevorowens.org/theory-and-craft-of-digital-preservation/ . This book is available through course reserves (electronic version) . ",
     "url": "/HISTGA1011/syllabus/#textbook",
     
     "relUrl": "/syllabus/#textbook"
-  },"55": {
+  },"54": {
     "doc": "Home",
     "title": "Home",
     "content": "Hello! Welcome to the Digital Archives (HIST-GA-1011) course site, containing all things related to the class. Here, you’ll find the course details, week-by-week schedule listing assigned readings, activities and assignment due dates, and descriptions for both assignments and weekly activities. We will use this site alongside Brightspace (used primarily for assignment submissions) throughout the semester. Why GitHub? This site is built using GitHub Pages, a platform that allows for writing, versioning and hosting documents, while also making it easy to publish a functional website for free. If GitHub is new to you, don’t worry! You won’t need to use it directly for this course. For now, just know that it helps keep class materials accessible and organized. Building this site on GitHub also reflects a conscious decision to reduce reliance on platforms like Google and Brightspace. This ensures that course content is is openly available and not tied to institutional accounts, and in a readable format (markdown) that would make it easier to transition this content to another platform if need be. You can view a history of updates to the site here (aka the commit log). ",
     "url": "/HISTGA1011/",
     
     "relUrl": "/"
-  },"56": {
+  },"55": {
     "doc": "Digital Preservation Metadata",
     "title": "Digital Preservation Metadata",
     "content": " ",
     "url": "/HISTGA1011/activities/metadata",
     
     "relUrl": "/activities/metadata"
-  },"57": {
+  },"56": {
     "doc": "Digital Preservation Metadata",
     "title": "Introduction",
     "content": "This activity entails annotating a Metadata Encoding and Transmission Standard (METS) record for one item. The purpose of the assignment is to learn how the elements of a simple METS record work together and how preservation metadata derived from the PREservation Metadata Implementation Strategies (PREMIS) can be used to document preservation activities and changes to the item over time. The activity involves saving a record containing rich METS records locally and annotating that METS record to describe the major components of the METS record, including PREMIS components. The net result of the activity is a demonstration of the capability to “read” METS and PREMIS records and explain what happened to the item. ",
     "url": "/HISTGA1011/activities/metadata#introduction",
     
     "relUrl": "/activities/metadata#introduction"
-  },"58": {
+  },"57": {
     "doc": "Digital Preservation Metadata",
     "title": "Preparation",
     "content": ". | To do this activity, you will need to use a text editing program or application to annotate the data. Suggested text editors that you may download are Notepad++ (Windows) or Sublime (Mac or Windows). | If you do not have a text editor, you can save the METS as an XML file to your computer, upload it to your Google Drive, and use Drive’s text editor to annotate. | Additionally, it will be good to have the METS and PREMIS standards documents up in a separate tab for reference during this activity. | . ",
     "url": "/HISTGA1011/activities/metadata#preparation",
     
     "relUrl": "/activities/metadata#preparation"
-  },"59": {
+  },"58": {
     "doc": "Digital Preservation Metadata",
     "title": "Steps to Take",
     "content": ". | Save this METS file locally by opening it in a separate web browser tab, right-clicking anywhere within the text, and selecting “Save As.” When saving, make sure that you are saving it as an XML file by selecting “XML” from the list of file formats available. | Open the METS XML file using the text editing program of your choice. | Within the text editor, compare the METS record for your item with the METS Schema 1.12.1 (current version), METS Primer, and other documentation on the METS website. The goal of this first step is to get comfortable with METS tags, to figure out which elements of the METS schema are included in the record and which might be missing. | Annotate the METS record by identifying all the major (and sub-) elements listed below and also commenting on the additional items I listed. Not all the elements are in the record, so make sure to comment on the missing ones. For repeating elements, you do not need to identify each, but add a single comment to explain. The syntax for inline comments in XML is: &lt;!-- Your Comment --&gt;. | . | METS . | Does the record include &lt;mdWrap&gt; or &lt;mdRef&gt;? | Header &lt;metsHdr&gt; . | Indicate version of METS | Indicate version of PREMIS | Indicate version of MODS | . | Descriptive metadata section &lt;dmdSec&gt; . | Indicate what descriptive standard the METS uses | . | Administrative &lt;amdSec&gt; . | Technical &lt;techMD&gt; | Digital Provenance &lt;digiprovMD&gt; | Source &lt;sourceMD&gt; | Rights &lt;rightsMD&gt; | . | File Section &lt;fileSec&gt; . | Indicate if the File section uses &lt;FLocat&gt; (pointer to resource) or &lt;FContent&gt; (content in XML). | . | Structural Map &lt;structMap&gt; . | Indicate if the &lt;div&gt; sections contain multiple METS pointers (&lt;mptr&gt;) and/or file pointer (&lt;fptr&gt;) | . | Structural links &lt;smLink&gt; | Behavior &lt;behavior&gt; | . | PREMIS . | Objects: What are the objects? . | Intellectual Entity | Representation | File | Bitstream | . | Environment | Agents: What is the agent? Person, organization, software | Events: Comment to indicate what the events are | Rights statement | . | . ",
     "url": "/HISTGA1011/activities/metadata#steps-to-take",
     
     "relUrl": "/activities/metadata#steps-to-take"
-  },"60": {
+  },"59": {
     "doc": "Digital Preservation Metadata",
     "title": "Reporting",
     "content": ". | Attach your annotated METS record as .xml in Brightspace. | . ",
     "url": "/HISTGA1011/activities/metadata#reporting",
     
     "relUrl": "/activities/metadata#reporting"
-  },"61": {
+  },"60": {
     "doc": "Digital Preservation Metadata",
     "title": "Resources",
     "content": "The following are links to websites with relevant documentation: . | METS: http://www.loc.gov/standards/mets/ | PREMIS: http://www.loc.gov/standards/premis/ | PREMIS in METS: http://www.loc.gov/standards/premis/premis-mets.html | . ",
     "url": "/HISTGA1011/activities/metadata#resources",
     
     "relUrl": "/activities/metadata#resources"
-  },"62": {
+  },"61": {
     "doc": "Paper Requirements and Structure",
     "title": "Paper Requirements and Structure",
     "content": " ",
     "url": "/HISTGA1011/final_project/paper_structure",
     
     "relUrl": "/final_project/paper_structure"
-  },"63": {
+  },"62": {
     "doc": "Paper Requirements and Structure",
     "title": "Overview",
     "content": "Your final paper is an opportunity to fully articulate your Project Plan and demonstrate how you have applied digital archiving/preservation principles learned throughout the semester to a “real-world” archive. This report should build on your abstract submission, expanding on the critical components of your project, including selection rationale, digitization workflows, access strategies, and long-term sustainability considerations. The final paper should also align with the structure of your presentation, ensuring that you can clearly communicate your project’s goals, challenges, and impact. ",
     "url": "/HISTGA1011/final_project/paper_structure#overview",
     
     "relUrl": "/final_project/paper_structure#overview"
-  },"64": {
+  },"63": {
     "doc": "Paper Requirements and Structure",
     "title": "General Requirements",
     "content": ". | Length: 10–12 pages of text (not including required appendices and bibliography) | Formatting: Double-spaced; maximum font size 12pt | Citations: Use any citation format, as long as you apply it consistently | . Additional Notes: ✅ Your paper should reference relevant readings and resources from the course, or from your own research. ✅ Use appropriate in-text citations and include a bibliography. ✅ Visuals are encouraged and may be embedded within the text or included in the appendix. ",
     "url": "/HISTGA1011/final_project/paper_structure#general-requirements",
     
     "relUrl": "/final_project/paper_structure#general-requirements"
-  },"65": {
+  },"64": {
     "doc": "Paper Requirements and Structure",
     "title": "🔖 Paper Structure",
     "content": "Your final report should follow this structured format to ensure consistency and clarity. 1. Introduction . This could include a high-level overview of: . | The problem or goal your Plan addresses | What collection/materials your Plan addresses | Brief summary of your proposed approach and expected outcomes | . 2. Rationale . Explain why your institution is prioritizing this collection over others. Consider: . | Long-term impact on research/researchers/patrons, teaching, public programming, social movements, or deliberately marginalized histories | Circulation and usage statistics and how your Plan may increase engagement | Physical fragility of materials and how digital surrogates may reduce wear and tear | Compliance with preservation standards | Alignment with institutional goals and priorities | . 3. Stakeholders and Labor . List staff, departments, or external partners involved in your project. For each, specify: . | Their role and responsibilities; how each staff will contributes to the project’s success and sustainability | Staff and skillsets required to do the work (this might include engaging with vendors to do specialized work) | Workspace and technical setup; what equipment/tools/programs are needed. | . 4. Scope &amp; Inventory . Provide a summary of your collection’s form and extent. | Describe the collection as a whole (formats, volume, content types) | Describe the materials within the collection that will be worked on and made accessible online | What might be out of scope (e.g., commercial recordings, duplicate materials) | Link to the online finding aid | . 5. Selection Criteria &amp; Prioritization . Describe why these materials are being chosen and prioritized for access. Consider: . | Format and condition | Copyright and legal restrictions | Dependence on specific and/or obsolete hardware/software | Institutional priorities or legal obligations | An upcoming event or milestone to which this work might speak to or support | Bolstering usage of materials; consider the users’ needs | . 6. Preservation Approach . Describe your methodology and cite national standards and best practices where applicable. If you depart from existing practices, explain why and how your approach remains interoperable. Consider: . | Your chosen institution’s setup: you can choose to go with their approach, which is fine, but I would like you to justify this. What about their setup/policy/practice aligns with your Plan? | You may, however, diverge from how your chosen institution does work. You may, in this case, look to other institutions’ policies and practices for inspiration. In this case, you should justify what your chosen institution might change or implement to support your Plan. | . 7. End-to-End Workflow . Outline the full workflow for your project, covering: . | Appraisal, acquisition and accessioning/transfer | Archival processing/description (though you will be working with already-processes materials, it is likely that the finding aid may require updating once materials are made available online) | Digitization (in-house and/or vendor-based) | Packaging materials for submission; Ingest and creation of AIPs and DIPs | Long-term storage systems, backups/redundancy | Additional processing (optical character recognition, auto-transcription/translation, normalization, quality control, rights clearance) | Long-term preservation strategies (fixity, disaster planning) | . 8. Discovery, Access &amp; Use . Explain how users currently access materials at your institution. Here you may identify successes of the current systems, and/or limitations (e.g., discoverability, user experience, metadata structure, interoperability across various online systems). Compare access models at other institutions and discuss how similar approaches could improve your institution’s access strategy, or suggest improvements to the user experience, features, and functionality. Ensure this section aligns with any visualizations/diagrams/workflows in the appendix and in your presentation. 9. Technical Specifications &amp; Standards . | Software and hardware: Identify tools used in your Plan’s workflow | File formats: Define submission, preservation, and access formats for your selected materials | Resolution and sample rates: Outline minimum standards for digitized files based on the institutions’ policies/practices (or suggest your own based on national standards) | Quality control: Describe how files will be assessed after transfer or digitization | Metadata: Identify schemas for descriptive, administrative, preservation, technical, and access/catalog metadata | Access platform: Explain how users will interact with the collection as far as platforms, viewers | Rights and restrictions: Discuss potential copyright or privacy concerns | . 10. Front-End Experience . Describe who your intended users are and how they will engage with the collection. Consider: . | User characteristics and needs | Features that will support discovery and access | Format-specific requirements (e.g., viewers/playback platforms for specific formats) | How the digital experience will replicate or enhance the physical experience | . This section should align with your mockup in the appendix. 11. Anticipated Challenges &amp; Risk Mitigation . Identify potential obstacles and how you plan to address them, including: . | Material-specific challenges | Workflow or policy gaps | Budget and resource constraints | Technical limitations | Sustainability concerns | Resourcing/staffing up/skilling up | Legal or rights-based risks | Gaps in policy or practice | . ",
     "url": "/HISTGA1011/final_project/paper_structure#-paper-structure",
     
     "relUrl": "/final_project/paper_structure#-paper-structure"
-  },"66": {
+  },"65": {
     "doc": "Paper Requirements and Structure",
     "title": "Appendices",
     "content": "Include the following supporting documents: . End-User Experience Mockup . | Your mockup should serve as a visual guide to how users will search for, discover, and otherwise view/interact with your selected materials. Suggested structure: . | Initial search: Show how users will first initiate a search for your materials. Will this be through the finding aid portal itself, through some other discovery layer, or something else? | Filtering/sorting Results: What do your search results look like? How will users narrow down results to find your collection materials? Show any dropdown menus, checkboxes, sidebars/facets, or filters. | Individual Page: Provide an example of a page that displays the digitized material in detail. What features does the viewer give you, and how can the user interact with the materials. | . | Suggestion: Use screenshots, and then Google Slides or an image editing program to annotate. | . This Mockup will be central to your Presentation, where you will discuss features and functionalities of your access portal . Workflow Diagram . | A diagram mapping out your workflow from digitization to access | Ensure it visually aligns with your workflow narrative | . ",
     "url": "/HISTGA1011/final_project/paper_structure#appendices",
     
     "relUrl": "/final_project/paper_structure#appendices"
-  },"67": {
+  },"66": {
     "doc": "Paper Requirements and Structure",
     "title": "Submission Details",
     "content": "Your final paper is due [TK 1 week before grade submission deadline] (date to be confirmed based on the academic calendar). Please submit your paper via the Assignments section in Brightspace. ",
     "url": "/HISTGA1011/final_project/paper_structure#submission-details",
     
     "relUrl": "/final_project/paper_structure#submission-details"
-  },"68": {
+  },"67": {
     "doc": "Podcast Archaeology",
     "title": "Podcast Archaeology",
     "content": " ",
     "url": "/HISTGA1011/activities/podcast",
     
     "relUrl": "/activities/podcast"
-  },"69": {
+  },"68": {
     "doc": "Podcast Archaeology",
     "title": "Introduction",
     "content": "The “Podcast Archaeology” activity provides a way for you to explore some of the earliest media files ever uploaded to the web in the early 2000s. ",
     "url": "/HISTGA1011/activities/podcast#introduction",
     
     "relUrl": "/activities/podcast#introduction"
-  },"70": {
+  },"69": {
     "doc": "Podcast Archaeology",
     "title": "Steps",
     "content": ". | Read the 2019 Radio Survivor article [Preserving Podcast History] (https://www.radiosurvivor.com/2016/03/preserving-podcast-history/) | Listen to Jason Scott’s [The Podsucker Episode](https://www.radiosurvivor.com/2019/01/podcast-prowler-history-archiving-with-jason-scott-talks-his-way-out-of-it (25 min) | Open the 2005 Podcast Core Core Sample Internet Archive Collection in a browser | Choose 1 podcast from this collection that captures your interest. | Get to know your podcast: . | Look over the podcast’s descriptive metadata | Play any available MP3 files (no need to listen to any episode all the way through. Sometimes podcasters have standardized introductions where they say their name, and a little bit about the podcast, which will be helpful for next steps in this activity) | Under “Download Options” click “Show All”. Here, you will find a list of all podcast files that the podcast crawler could find, including images, audio files and xml metadata | Time to become an internet sleuth: Research and see whether this podcast still exists, in any way, on the web. Note: Your search will sometimes depend on your operating system, so I have generalized the following instructions: . | If you have a podcast app installed on your phone (i.e. Apple Podcasts, Google Podcasts, Spotify, PocketCast, etc.), open it and do a keyword search for your podcast to see if it’s listed in any major podcast catalog | Use a podcast search engine such as List Notes, PodSearch, or Podchaser | Use a classic search engine like Google (Google started including podcasts in its search engine index a few years ago, so is a good place to start – but feel free to use non-Google search engines too) | Try and see if you can find your podcast’s original URL. Some approaches: . | Click the “Show All” portion of the podcast’s Internet Archive page. In the list of files that appear, look for any metadata files (XML files are a good place to start). Sometimes within the XML files you will find a legacy URL. For example, the Ongline Podcast has an XML file listed (https://ia800208.us.archive.org/11/items/pcs_Ongline_Podcast/Ongline-2005-07-12_djvu.xml). Here, I was able to figure out its original URL was http://OnqlinePodcast.com | Download an mp3 file from the file list (to do this, right or option-click and select “Save link as”). Right click on the file and click Properties (Windows) or Get Info (Mac) to look at the file’s metadata. Sometimes clues are left there. | Listen to the first 30 seconds of a podcast episode. If you’re lucky, the narrator may announce details (including maybe a URL) with clues. | Perform a cold search using a web search engine using your podcast’s name, creator’s name, or any other details. | . | . | If you are able to find your podcast’s original URL, try visiting it. Note whether or not the URL resolves. If it does not resolve, search for it using the Wayback Machine. Note whether or not you can find any website captures. Click around some of the captures made on different dates, and note any discernible differences between 2-3 captures. Also, try clicking around the captured websites. Are you able to click into other related sites? Did you notice any broken links or functionality? | If you are unable to find your podcast’s original URL, note any traces/remnants of the podcast come up for you at all. For example, the podcast or podcast creator may be mentioned, written about or referenced by someone else in an article, blog, Tweet, or website. | . | . | . ",
     "url": "/HISTGA1011/activities/podcast#steps",
     
     "relUrl": "/activities/podcast#steps"
-  },"71": {
+  },"70": {
     "doc": "Podcast Archaeology",
     "title": "Activity Submission Instructions",
     "content": "Submit your findings in Brightspace with the following details: . Podcast details: . | Name of the podcast you chose | Name of the podcast creator | Approximate dates the podcast was up and running | Brief description of the podcast subject matter | Write an overview of your results. Were you able to find this podcast listed in any contemporaneous platforms such as Apple Podcasts? Were you able to find the podcast’s URL, or any “traces” of the podcast throughout your web searches? If you were able to find its URL, did the URL resolve? What traces or remnants were you able to find? | Reflect on your overall experience and on web crawling in general. How did Jason Scott’s “podsucker’’ do in terms of capturing some of the oldest podcasts made? If you were to rebuild this podcast crawler from scratch, what changes would you make to its approach? | . ",
     "url": "/HISTGA1011/activities/podcast#activity-submission-instructions",
     
     "relUrl": "/activities/podcast#activity-submission-instructions"
-  },"72": {
+  },"71": {
     "doc": "Presentation",
     "title": "Final Project Presentation",
     "content": " ",
     "url": "/HISTGA1011/final_project/presentation#final-project-presentation",
     
     "relUrl": "/final_project/presentation#final-project-presentation"
-  },"73": {
+  },"72": {
     "doc": "Presentation",
     "title": "Overview",
     "content": "During the final class, you will present your digitization project plan to your classmates and professor. This presentation is an opportunity to share your Plan’s goals, challenges, and proposed solutions while receiving feedback on your approach. Though your slides do not need to use any particular template or format, please include, at minimum: . | The institution you are working with | The collection materials you selected and why | Your strategy in terms of getting your collection into the preservation repository, and providing access to it | Key technical, logistical, or ethical challenges | . Presentations will be followed by a Q&amp;A session, where classmates and faculty will ask questions about your decisions and workflow. ",
     "url": "/HISTGA1011/final_project/presentation#overview",
     
     "relUrl": "/final_project/presentation#overview"
-  },"74": {
+  },"73": {
     "doc": "Presentation",
     "title": "Presentation Requirements",
     "content": "Length . | 15 minutes total . | 10-minute presentation | 5-minute Q&amp;A session | . | . Slide Deck . | There is no required slide count, but your deck should be structured and visually clear. | Your slides must include: . | A title slide with your project title and name | A visualization or mock-up of your proposed digital collection site | . | . Mock Up . Your slides must include a visualization or mock-up that illustrates either how the institution currently provides digital access or how your proposed improvements could enhance the user experience. ",
     "url": "/HISTGA1011/final_project/presentation#presentation-requirements",
     
     "relUrl": "/final_project/presentation#presentation-requirements"
-  },"75": {
+  },"74": {
     "doc": "Presentation",
     "title": "Participation as a Panel Member",
     "content": "As an audience member, you will serve as part of the digital preservation project proposal panel. Your role is to: . | Ask thoughtful questions that encourage discussion | Provide constructive feedback on the feasibility and clarity of the project | Engage with the presenter’s approach, identifying areas for further consideration | . This will be part of your participation grade. ",
     "url": "/HISTGA1011/final_project/presentation#participation-as-a-panel-member",
     
     "relUrl": "/final_project/presentation#participation-as-a-panel-member"
-  },"76": {
+  },"75": {
     "doc": "Presentation",
     "title": "Submission Details",
     "content": ". | Your slide deck must be submitted via the Assignments section in Brightspace. | See the class schedule for the exact presentation date. | . ",
     "url": "/HISTGA1011/final_project/presentation#submission-details",
     
     "relUrl": "/final_project/presentation#submission-details"
-  },"77": {
+  },"76": {
     "doc": "Presentation",
     "title": "Presentation",
     "content": " ",
     "url": "/HISTGA1011/final_project/presentation",
     
     "relUrl": "/final_project/presentation"
-  },"78": {
+  },"77": {
     "doc": "QCTools",
     "title": "QCTools",
     "content": " ",
     "url": "/HISTGA1011/activities/qctools",
     
     "relUrl": "/activities/qctools"
-  },"79": {
+  },"78": {
     "doc": "QCTools",
     "title": "Introduction",
     "content": "In this activity you will be downloading, installing and using QCTools, a program that provides a way to analyze audio/visual transfer “artifacts”. Setup steps . | Install the QCTools program (GUI): https://bavc.org/programs/preservation/preservation-tools/ | Download the video clip in the A/V Preservation shared folder locally. Note: this video was transcoded from a VHS tape. | Open the Moving Image Preservation of Puget Sound (MIPoPS) QCTools Manual. | Open the terminal/command line and QCTools in another. | . Activity steps . Analyze the video file in QCTools using graphs . | Open the QCTools program and drag/drop the video file you downloaded. This may take a few seconds to import. | Play the file back by pressing your Space bar. | Click the Filters layout button. | . | Read Ashley Blewer’s slides on filters starting from page #14 to 31 (https://training.ashleyblewer.com/presentations/qctools.html#14) (use your right arrow key to navigate). Keep this information handy as you apply more filters to the video file. | On the left-hand side of the Filters layout, click the filters drop-down and select “Broadcast Range Pixels”. Play the video back and notice what the filter does to the video. | . | Apply other filters to your video, such as the Histogram, Oscilloscope, Vectorscope and Waveform (hint: you can check off multiple filters and view them side-by-side, including the original video by selecting “Normal” in the drop-down). | Notice how the clip has some issues, especially to do with tracking near the beginning. | . Look up a transfer artifact: tracking . | Open the A/V Artifact Atlas (http://www.avartifactatlas.com/tags.html) and click “Browse by format”. Select VHS. | Click and read through the page about tracking errors, and how to use the QCTools graphs to detect tracking issues (Click the Setup Filters button in the top-left of the graphs screen to make sure the appropriate graphs are showing). | Apply other filters and replay the video. Pay special attention to the parts of the clip with tracking issues. What do the other filters show you when tracking issues occur? . | . Review the file’s metadata . | In QCTools, click the File list button to open up a table of data results for your file. | . | Open the QCTools cheat sheet: https://github.com/bavc/qctools-documentation/blob/master/qctools/QCToolsWorkshopCheatSheet.pdf . | Review the results. Note whether your QCTools report counts were way under, over or average, as far as the QCTools cheat sheet indicates are ideal limits/ranges for certain aspects of the video signal. | . Submit your reflection in Brightspace . Create a text document and share it with me in Brightspace. In it, include this information: . | Aside from tracking, describe one other a/v “artifact” or any other issues you noticed with the picture or sound, noticed either by watching the video, and/or applying filters and/or looking over the metadata results alongside the QCTools Cheat Sheet. | If you were performing this transfer yourself, how would you go about correcting or adjusting the video signal, and/or correcting the video post-transfer? . | . ",
     "url": "/HISTGA1011/activities/qctools#introduction",
     
     "relUrl": "/activities/qctools#introduction"
-  },"80": {
+  },"79": {
     "doc": "Scripting Reflection",
     "title": "Scripting Reflection",
     "content": "Why scripting? . With the pace at which institutions are acquiring born-digital materials, or digitizing analog materials, archivists often encounter tasks that are otherwise very time-consuming or ultra tedious to perform manually. Scripting is sometimes turned to as a way to do things quickly and accurately, at scale. Scripts have been written by archivists, some who are seasoned developers, others who are not. While you don’t need to be a full-fledged programmer to work in a modern repository, having a basic understanding of what scripting can do can help you to at least imagine ways to better automate and manage repetitive processes. For this activity, you’ll explore a real-life example of code used by a repository and translate it into pseudocode. Think of pseudocode as plain, conversational language that explains the steps a script takes to accomplish its task. ",
     "url": "/HISTGA1011/activities/scripting_reflection",
     
     "relUrl": "/activities/scripting_reflection"
-  },"81": {
+  },"80": {
     "doc": "Scripting Reflection",
     "title": "Steps",
     "content": "1. Select a script . | In class, you’ll choose one Python* script from Ruth Tillman’s ArchivesSnake GitHub repository to work with. Each script performs a small job using the Python programming language and the ArchivesSnake Library. Try to choose one that is no more than 50 lines. | A Python script file will end with .py (e.g., download-subjects.py). | . 2. Get to know the script . | Open your chosen script by clicking its name. | Read the script from top to bottom. Don’t worry at this point about understanding exactly what it’s doing. This is just a way to get acquainted with its length, any comments made by the author, and see if there’s anything that initially makes sense. One of Python’s strengths is that it is written to be more human readable that other scripting languages. Try to find those things! | Ruth conveniently wrote these scripts in “chunks”, in the same way written stories are broken up into paragraphs (with a line break in between each chunk). Try first to hash out what you think the chunk is doing. Note: lines starting with # denote what are known as “comments”. They’re there to explain what the code is doing! Please pay special attention to them. There are also descriptions for (some) of the scripts in her main ASpaceASnake page that might also be helpful for you (just please note, not all scripts have a description). | Once you’ve tried out describing what each chunk does, go back and look up terms/script parts that are unfamiliar and fill out your pseudocode. | . 3. Use scripting resources . You are encouraged to use any resource to help you understand the code: . | Documentation (e.g., ArchivesSnake, ArchivesSpace) | Online Communities (e.g., Stack Overflow) | Video Tutorials (e.g., YouTube) | Generative AI (e.g., chatbots) | Cold browser search (e.g. typing in and searching for “what does [this term/script step] mean?” in a browser application) | . You don’t need to cite your sources. The goal is to understand what the script is doing, not to write a formal paper. 4. Write your pseudocode . | Follow the structure from this week’s slide deck: code on one side, pseudocode on the other. | Example pseudocode: “This line checks if a folder exists. If it doesn’t, it creates a folder.” | . 5. If you’re confused, pseudo-note it! . If you’re unsure about any part of the script, it’s okay! Feel free to note it in your pseudocode: . “I think this line initializes a connection to a server, but I’m not entirely sure.” . Uncertainty is part of learning, and you’re not expected to deeply dissect every detail. When we discuss your findings next week, we can go over parts that confused you. Please note: I will not be grading you on whether or not your pseudocode is correct. Instead, I want to see you made an effort to figure out, on a high-level, what the script was trying to accomplish. 6. Submit your pseudocode . | Spend 1-2 hours tops on this activity. Don’t overthink it! The point is to try and warm up to what Python code looks like, and learn a little bit more about its syntax and how archivists have used it to do their work. | Submit your pseudocode to Brightspace by Sunday night. | Use clear formatting to separate code from pseudocode for easy readability. Suggestion: Use a two-column “table” using a word processing or slide deck application. | . 7. Prepare to share . Be ready to discuss your pseudocode in class next week. Each student will take 2-3 minutes to discuss: . | What Ruth was trying to accomplish. | What they used to figure out its behavior (web browser search? A #Comment? ArchivesSnake documentation? Asked a student/friend/colleague?). | What was confusing or unclear and why. | Any other takeaways you would like to share. | . ",
     "url": "/HISTGA1011/activities/scripting_reflection#steps",
     
     "relUrl": "/activities/scripting_reflection#steps"
-  },"82": {
+  },"81": {
     "doc": "Store, Backup or Lose",
     "title": "📂 Store, Backup or Lose: The 3-2-1 Backup RPG",
     "content": "A Role-Playing Game About the Importance of Digital Preservation and Disaster Recovery . ",
     "url": "/HISTGA1011/activities/store_backup_rpg#-store-backup-or-lose-the-3-2-1-backup-rpg",
     
     "relUrl": "/activities/store_backup_rpg#-store-backup-or-lose-the-3-2-1-backup-rpg"
-  },"83": {
+  },"82": {
     "doc": "Store, Backup or Lose",
     "title": "Premise",
     "content": "In this short role-playing game (RPG), you and your fellow classmates will take on the role of digital archives professionals at various institutions. Your goal is to ensure your institution’s data survives given various constraints. To do this, you’ll rely on the 3-2-1 Backup Rule: . | 3: Keep at least 3 copies of your data | 2: Use at least two separate devices | 1: Where one copy is stored in a geographically-distinct location | . Following the theme of threes, the class will be divided into three teams, each representing a different institution. Once assembled, each team should assign out three roles: . | Roller: Rolls the dice during each turn | Recorder: Records results and decisions made by the group. | Reporter: Reports results at the end of the RPG. | . ",
     "url": "/HISTGA1011/activities/store_backup_rpg#premise",
     
     "relUrl": "/activities/store_backup_rpg#premise"
-  },"84": {
+  },"83": {
     "doc": "Store, Backup or Lose",
     "title": "🎲 Step 1: Roll for your backup setup",
     "content": "Roller rolls one six-sided die (1d6) to determine their backup preparedness. Recorder records the Roll and Backup Setup. | Roll | Backup Setup | . | 1 | “One and Done”: Only one copy of your data | . | 2-3 | “Two-for-Two”: Two copies, both in the same location | . | 4-6 | “Three’s the Charm”: Three copies, with at least one off-site | . ",
     "url": "/HISTGA1011/activities/store_backup_rpg#-step-1-roll-for-your-backup-setup",
     
     "relUrl": "/activities/store_backup_rpg#-step-1-roll-for-your-backup-setup"
-  },"85": {
+  },"84": {
     "doc": "Store, Backup or Lose",
     "title": "🏛 Step 2: Roll for your institution type &amp; holdings",
     "content": "Roll 1d6 to determine what type of institution you are and how much data you need to protect. Recorder records the Roll and Institution Type/Holdings. | Roll | Institution Type | Your Digital Holdings | . | 1 | Small Museum Archive | 5 TB of digitized rare photographs | . | 2 | Public Library | 50 TB of scanned microfilm | . | 3 | Small Research Library | 50 TB of faculty research, dissertations, and special collections | . | 4 | Film Archive | 5 PBs of scanned film reels | . | 5 | National Archive | 10 PB of government records and multimedia | . | 6 | Historic Society | 10 TB of born-digital local oral history audio recordings | . ",
     "url": "/HISTGA1011/activities/store_backup_rpg#-step-2-roll-for-your-institution-type--holdings",
     
     "relUrl": "/activities/store_backup_rpg#-step-2-roll-for-your-institution-type--holdings"
-  },"86": {
+  },"85": {
     "doc": "Store, Backup or Lose",
     "title": "** Step 3: Roll for your storage solution **",
     "content": "Roll 1d6 as many times as matches your backup setup (e.g., One and Done’s roll once; Two-for-Twos twice, and Three’s-the-Charm thrice). If you roll the same technology type twice, roll again until you roll a unique. Recorder records the Roll and Storage Solution. | Roll | Storage Solution | . | 1 | Cloud Backup Platform | . | 2 | On-site RAID | . | 3 | Off-site Isilon NAS | . | 5 | Linear Tape Open Library | . | 6 | Drawer of hard drives | . ",
     "url": "/HISTGA1011/activities/store_backup_rpg#-step-3-roll-for-your-storage-solution-",
     
     "relUrl": "/activities/store_backup_rpg#-step-3-roll-for-your-storage-solution-"
-  },"87": {
+  },"86": {
     "doc": "Store, Backup or Lose",
     "title": "🔥 Step 4: Event",
     "content": "Roll 1d6 again to determine an event that befalls your institution. Recorder records the Roll and Event. | Roll | Disaster Type | What Happens | . | 1 | Fixity Failure | Your morning fixity report warns you that the last day’s-worth of preserved data has failed. | . | 2 | Cyberattack | Repository software goes offline; IT investigating potential security breach. | . | 3 | Accidental backup corruption | A portion of your backup was accidentally overwritten with corrupted data. | . | 4 | Human error | A staff member accidentally deletes preservation files in a folder. | . | 5 | Hardware failure | One of your devices fails randomly. | . | 6 | Automation issue | Backed up files accidentally saved at a non-preservation level resolution. | . ",
     "url": "/HISTGA1011/activities/store_backup_rpg#-step-4-event",
     
     "relUrl": "/activities/store_backup_rpg#-step-4-event"
-  },"88": {
+  },"87": {
     "doc": "Store, Backup or Lose",
     "title": "Confer with your group",
     "content": "Review your Backup Setup, Institution Type/Holdings, and Event. Spend 5 minutes talking with your group: how will you respond to the Event to mitigate data loss? Have the Reporter report out to class with their approach. | Roll | Stroke of luck | . | 1-3 | Staff member actually kept a copy of materials on a random desktop: Add this to your backup setup. | . | 4-6 | Better luck next time! | . ",
     "url": "/HISTGA1011/activities/store_backup_rpg#confer-with-your-group",
     
     "relUrl": "/activities/store_backup_rpg#confer-with-your-group"
-  },"89": {
+  },"88": {
     "doc": "Store, Backup or Lose",
     "title": "Store, Backup or Lose",
     "content": " ",
     "url": "/HISTGA1011/activities/store_backup_rpg",
     
     "relUrl": "/activities/store_backup_rpg"
-  },"90": {
+  },"89": {
     "doc": "Course Assignment Details",
     "title": "Assignment Details",
     "content": "Participation: 30 points . Participation is graded across three areas: 1.) pre-class reading reactions, 2.) in-class participation and discussion, and 3.) in-class/asynchronous activities. Pre-class reading reactions: 10 points . Each week, you will receive a set of readings and additional materials that require your review and response in the Brightspace “Discussions” section. Locate the topic titled “Week [#] - Pre-Class Reading Reactions” corresponding to the current week. It is essential to submit your weekly post by 3:30 PM on Wednesdays. Your response should encompass all the assigned readings and materials collectively. Ensure that your post includes the following three parts: . | Aha! Share something new that you learned. | What? Mention something that you didn’t fully understand. | More! Highlight a topic you would like to further discuss in class. | . During our class sessions, we will allocate 10-15 minutes to discuss these reactions as a group. Regarding grading, I will evaluate the completion and quality of your posts each week, focusing on content rather than your writing style. In-class discussions: 10 points . To fully engage in the course, it is expected that you come to class having completed all assigned readings and actively participate in classroom discussions and activities. For weeks when we have guest speakers or field trips, please come prepared with at least one question to ask the speaker. If you are unable to attend class or need to participate remotely, please send an email to me by Wednesday 3:30 PM. You do not need to provide a detailed explanation or excuse, a simple “I cannot make class” will suffice. Although a Zoom link will be available on Brightspace for each class as an option, please note that class sessions are primarily conducted in-person by default. In-class activities: 10 points . Most weeks we will work on an in-class activity together as a group. The objective of these activities is to provide you with practical experience using the tools and processes employed in digital archiving and preservation. Activity instructions and supplementary files are kept in the Activities folder. If you are unable to complete the activity during class time, you will be responsible for completing it outside of class hours and submitting your results in Brightspace by the following Sunday. The format for submitting your results may vary each week, ranging from written documents, worksheets, spreadsheets, or something else. While individual submission is expected, you are encouraged to work together and collaborate with your classmates. ",
     "url": "/HISTGA1011/syllabus/syllabus_assignments#assignment-details",
     
     "relUrl": "/syllabus/syllabus_assignments#assignment-details"
-  },"91": {
+  },"90": {
     "doc": "Course Assignment Details",
     "title": "Assignments: 40 points",
     "content": "All assignments are due by the beginning of class on the due date indicated in the syllabus. Please submit assignment documents through the Brightspace Assignments section. Assignment files and descriptions can be found in the Assignments folder. Final Project: 30 points . Details about the Final Project can be found in the Final Project Description document. ",
     "url": "/HISTGA1011/syllabus/syllabus_assignments#assignments-40-points",
     
     "relUrl": "/syllabus/syllabus_assignments#assignments-40-points"
-  },"92": {
+  },"91": {
     "doc": "Course Assignment Details",
     "title": "Course Assignment Details",
     "content": " ",
     "url": "/HISTGA1011/syllabus/syllabus_assignments",
     
     "relUrl": "/syllabus/syllabus_assignments"
-  },"93": {
+  },"92": {
     "doc": "Tech Stack",
     "title": "Tech Stack 🥞",
     "content": " ",
     "url": "/HISTGA1011/activities/tech_stack#tech-stack-",
     
     "relUrl": "/activities/tech_stack#tech-stack-"
-  },"94": {
+  },"93": {
     "doc": "Tech Stack",
     "title": "Overview",
     "content": "In this activity, you will review the online documentation for an assigned collecting institution to identify the systems it uses to support digital preservation and archiving operations. This is sometimes referred to as a technical stack or “tech stack”, hence the name of the activity. The goal is to help you understand: . | the range of digital preservation systems | real life examples of their implementation | how these systems interact to support the stewardship life cycle of data objects. | . ",
     "url": "/HISTGA1011/activities/tech_stack#overview",
     
     "relUrl": "/activities/tech_stack#overview"
-  },"95": {
+  },"94": {
     "doc": "Tech Stack",
     "title": "Institution Selection",
     "content": "At the start of this activity in class, I will assign you an institution listed in the Tech Stack Airtable gallery (your name and your assigned institution will be displayed in the gallery card; click into the card for access to a link (or 2) to some online documentation to assist in your research.) . ",
     "url": "/HISTGA1011/activities/tech_stack#institution-selection",
     
     "relUrl": "/activities/tech_stack#institution-selection"
-  },"96": {
+  },"95": {
     "doc": "Tech Stack",
     "title": "Describe the Stack",
     "content": "You will create a 3-slide mini-presentation to share with the class next session. Please use the provided Google Slide template so the slide decks are all formatted the same. To use this template, open it, and select File &gt; Make a copy &gt; Entire presentation to make a local copy in your GDrive. Your slides should be structured as follows: . | Slide 1: Institution Name/Your Name: This is your introductory slide. Fill in: . | The name of your assigned institution | Your name | . | Slide 2: Systems List: List the name of each system the institution uses. | If applicable, hyperlink each system to its official website or documentation | If a particular system is unknown, simply list “Unknown” in its place. | Note: You will not be graded on completeness! Some institutions do not publicly share their full tech stack. Focus on what you can find using the documentation provided in Airtable. | . | . 3. Slide 3: System Demo . During your presentation, you will demonstrate one system from your institution’s tech stack. Your slide should serve as a guide for your demo and include: . | A URL to the system you will be showcasing. | A brief “tour” of the system, covering: . | What does it look like? Highlight key features and user interface (UI) elements. | What can a user do? (e.g., search, browse, view, play, interact). | Does it integrate with other systems? If so, how? | . | . Not all systems are publicly accessible. Choose a system that has an external-facing interface, such as: . | A digital collections website | A finding aid portal | A digitization request form | A catalog record | . 📌 Important: When selecting your system, try to focus on one that links to digitally preserved objects to help illustrate its role in the institution’s digital preservation workflow. ",
     "url": "/HISTGA1011/activities/tech_stack#describe-the-stack",
     
     "relUrl": "/activities/tech_stack#describe-the-stack"
-  },"97": {
+  },"96": {
     "doc": "Tech Stack",
     "title": "Submission",
     "content": "Submit your exported slide deck via the Assignments section of Brightspace. In addition, please: . | Share your Google Slides link with me, or copy/paste the slide deck URL in the Brightspace Assignment submission form. | Ensure your slides are fully visible (set permissions to allow viewing). | . 🔹 I will be compiling all individual slide decks into a single class presentation, so be sure to update your sharing settings accordingly. ",
     "url": "/HISTGA1011/activities/tech_stack#submission",
     
     "relUrl": "/activities/tech_stack#submission"
-  },"98": {
+  },"97": {
     "doc": "Tech Stack",
     "title": "Presentation",
     "content": "Be prepared to present next class! . | Each student will have ~5 minutes to demo their institution’s Tech Stack. | You will walk us through one system from your stack, showcasing its interface and key features. | . ",
     "url": "/HISTGA1011/activities/tech_stack#presentation",
     
     "relUrl": "/activities/tech_stack#presentation"
-  },"99": {
+  },"98": {
     "doc": "Tech Stack",
     "title": "Tech Stack",
     "content": " ",
     "url": "/HISTGA1011/activities/tech_stack",
     
     "relUrl": "/activities/tech_stack"
-  },"100": {
+  },"99": {
     "doc": "The User's Experience",
     "title": "The User’s Experience",
     "content": " ",
     "url": "/HISTGA1011/activities/user_experience#the-users-experience",
     
     "relUrl": "/activities/user_experience#the-users-experience"
-  },"101": {
+  },"100": {
     "doc": "The User's Experience",
     "title": "Overview:",
     "content": "In this activity, you will explore the “front end” of a digital repository. You will review the University of Puerto Rico, Mayaguez Campus LibGuide, which provides insights into digital preservation concepts and includes a dedicated section on Access. The goal of this assignment is to assess the user experience of one of the provided access portals, taking into consideration the principles of contextual metadata, information presentation, and other access considerations discussed in the week’s readings. ",
     "url": "/HISTGA1011/activities/user_experience#overview",
     
     "relUrl": "/activities/user_experience#overview"
-  },"102": {
+  },"101": {
     "doc": "The User's Experience",
     "title": "Instructions:",
     "content": "Step 1: Review the LibGuide . | Begin by accessing the University of Puerto Rico, Mayaguez Campus LibGuide on digital preservation concepts. | Familiarize yourself with the content in the “Access” section of the LibGuide. This section provides a general overview of digital repository access, as well as examples of various access portals. | . Step 2: Choose an Access Portal . | Select one of the following access portals to evaluate: . | The real face of White Australia | Rhizome ArtBase | Archivo Digital Comunitario de Culebra | Documenting Ferguson | Center for Brooklyn History, Oral History Collections | . | . Step 3: User Experience Evaluation . | Explore the chosen access portal thoroughly. Interact with its interface and access its content. | Consider the principles of contextual metadata, presentation of information, and other access-related concepts discussed in the week’s readings. | Evaluate the user experience provided by the chosen portal. Pay attention to the following aspects: . | Clarity and effectiveness of navigation. | Availability and quality of metadata. | Ease of discovering and accessing digital objects. | Opportunities for users to make connections between digital and physical counterparts. | Presentation of original order/fonds, or between interrelated objects. | Any additional access considerations that stand out. | . | . Step 4: Document Your Evaluation . | Write a detailed evaluation report that summarizes your findings. Include the following: . | An introduction to the chosen access portal. | A description of your user experience while navigating the portal. | Analysis of the portal’s strengths and weaknesses in terms of contextual metadata, information presentation, and other considerations discussed both within this week’s readings, and during the in-class lecture. | Recommendations for improvements. | A conclusion summarizing your overall assessment. | Submit your activity summary to Brightspace. | . | . Step 5: Submission . | Submit your evaluation report in Brightspace. | . ",
     "url": "/HISTGA1011/activities/user_experience#instructions",
     
     "relUrl": "/activities/user_experience#instructions"
-  },"103": {
+  },"102": {
     "doc": "The User's Experience",
     "title": "The User's Experience",
     "content": " ",
     "url": "/HISTGA1011/activities/user_experience",
     
     "relUrl": "/activities/user_experience"
-  },"104": {
+  },"103": {
     "doc": "Week 1",
     "title": "Week 1: Introduction to Digital Archives",
     "content": "Slides . Due . In class we will start the Week 1 activity, Data Object. Submit your completed activity summary in Brightspace by Sunday night. Read . | Nothing to read this week! | . ",
     "url": "/HISTGA1011/schedule/week_01#week-1-introduction-to-digital-archives",
     
     "relUrl": "/schedule/week_01#week-1-introduction-to-digital-archives"
-  },"105": {
+  },"104": {
     "doc": "Week 1",
     "title": "Week 1",
     "content": " ",
     "url": "/HISTGA1011/schedule/week_01",
     
     "relUrl": "/schedule/week_01"
-  },"106": {
+  },"105": {
     "doc": "Week 2",
     "title": "Week 2: Open Archival Information System (OAIS) Conceptual Model",
     "content": "Slides . Due . In class we will start the Week 2 activity, Breaking BagIt. Submit your completed activity summary in Brightspace by Sunday night. Read . | Owens, Trevor. The Theory and Craft of Digital Preservation. 2018. | . ",
     "url": "/HISTGA1011/schedule/week_02#week-2-open-archival-information-system-oais-conceptual-model",
     
     "relUrl": "/schedule/week_02#week-2-open-archival-information-system-oais-conceptual-model"
-  },"107": {
+  },"106": {
     "doc": "Week 2",
     "title": "Week 2",
     "content": " ",
     "url": "/HISTGA1011/schedule/week_02",
     
     "relUrl": "/schedule/week_02"
-  },"108": {
+  },"107": {
     "doc": "Week 3",
     "title": "Week 3: Processing Born-Digital Archives",
     "content": "Slides . Due . In class we will start the Week 3 activity, Corrupting a Bitstream. Submit your completed activity summary in Brightspace by Sunday night. Read . | National Best Practices for Archival Accessioning Working Group. Archival Accessioning Best Practices: ABP v.1.0.1. November 2024. GitBook, https://accessioning.gitbook.io/archival-accessioning-best-practices/accession-record-elements. Note: For this reading, use the search bar to locate and read just the sections addressing born-digital materials. | Faulder, Erin. “Module 16: Accessioning Digital Archives.” Appraisal and Acquisition Strategies, edited by Michael Shallcross and Christopher J. Prom, Trends in Archives Practice series, Society of American Archivists, 2016, https://www2.archivists.org/sites/all/files/Module_16_CaseStudy3_MaxEckard.pdf. | Arroyo, Elvia. “Invisible Defaults and Perceived Limitations: Processing the Juan Gelman Files.” On Archivy, Oct 30 2016, https://medium.com/on-archivy/invisible-defaults-and-perceived-limitations-processing-the-juan-gelman-files-4187fdd36759 | Arroyo-Ramírez, Elvia; Bolding, Kelly; Charlton, Faith; and Hughes, Allison (2018) “Tell Us about Your Digital Archives Workstation”: A Survey and Case Study,”Journal of Contemporary Archival Studies: Vol. 5 , Article 16. https://elischolar.library.yale.edu/jcas/vol5/iss1/16 | Jacquarie, C., Berdini, A., Peltzman, S., &amp; Tasker, K. (2018). Describing Digital: The Design and Creation of a Born-Digital Archival Description Standard at the University of California Libraries. Journal of Western Archives, 9(1), 1-24. Retrieved from https://digitalcommons.usu.edu/westernarchives/vol9/iss1/10/ | . ",
     "url": "/HISTGA1011/schedule/week_03#week-3-processing-born-digital-archives",
     
     "relUrl": "/schedule/week_03#week-3-processing-born-digital-archives"
-  },"109": {
+  },"108": {
     "doc": "Week 3",
     "title": "Week 3",
     "content": " ",
     "url": "/HISTGA1011/schedule/week_03",
     
     "relUrl": "/schedule/week_03"
-  },"110": {
+  },"109": {
     "doc": "Week 4",
     "title": "Week 4: Digital Repository Systems",
     "content": "Slides . Due . In class we will start the Week 4 activity, Tech Stack 🥞. Submit your completed activity summary in Brightspace by Sunday night. Read . | Eckard, Max, Pillen, Dallas, Shallcross, Mike. “Bridging Technologies to Efficiently Arrange and Describe Digital Archives: the Bentley Historical Library’s ArchivesSpace-Archivematica-DSpace Workflow Integration Project.” Code4lib Journal: Issue 35, 2017-01-30. https://journal.code4lib.org/articles/12105 | Fritz, Angela. “So Many Options, So Little Time”: How to Evaluate a Digital Preservation System That Is Right for Your Institution. In Digital Preservation in Libraries: Preparing for a Sustainable Future, edited by Jeremy Myntti and Jessalyn Zoom, 77-92. 2019. https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/reader.action?docID=5732733&amp;ppg=5 | Jones, Sarah, Cory Lampert, Emily Lapworth, and Seth Shaw. “Islandora for Archival Access and Discovery.” code{4}lib journal 58 (2023-12-04). https://journal.code4lib.org/articles/17929 | Leigh, M., Gallinger, M., Zakuta, V., Barrera-Gomez, J., and Abrams, S. 2024. The Future of Preservation: Reinventing the Repository at Harvard. iPRES 2024 Papers - International Conference on Digital Preservation. https://ipres2024.pubpub.org/pub/qcch6erj/release/1. | . ",
     "url": "/HISTGA1011/schedule/week_04#week-4-digital-repository-systems",
     
     "relUrl": "/schedule/week_04#week-4-digital-repository-systems"
-  },"111": {
+  },"110": {
     "doc": "Week 4",
     "title": "Week 4",
     "content": " ",
     "url": "/HISTGA1011/schedule/week_04",
     
     "relUrl": "/schedule/week_04"
-  },"112": {
+  },"111": {
     "doc": "Week 5",
     "title": "Week 5: Digital Preservation Storage Systems",
     "content": "Slides . Due . | In class we will start the Week 5 activity, Archivematica Sandbox. Submit your completed activity summary in Brightspace by Sunday night. | . Read . | Schaefer, S. K., McGovern, N. Y., Zierau, E. M. O., Goethals, A. L., &amp; Wu, C. C. M. (2022). Deciding how to decide: Using the Digital Preservation Storage Criteria. IFLA Journal, 48(2), 318-331. https://doi.org/10.1177/03400352211011490 | Gallinger, Michelle. “Trends in Digital Preservation Capacity and Practice: Results from the 2nd Bi-Annual National Digital Stewardship Alliance Storage Survey.” D-Lib Magazine 23, no. 7 (2017): n. pag. https://search.library.nyu.edu/permalink/01NYU_INST/1eeerc1/cdi_openaire_primary_doi_dedup_7366470215ed8dda67032281c131119a | Digital Preservation Coalition. (n.d.). Storage. Digital Preservation Handbook. https://www.dpconline.org/handbook/organisational-activities/storage | . ",
     "url": "/HISTGA1011/schedule/week_05#week-5-digital-preservation-storage-systems",
     
     "relUrl": "/schedule/week_05#week-5-digital-preservation-storage-systems"
-  },"113": {
+  },"112": {
     "doc": "Week 5",
     "title": "Week 5",
     "content": " ",
     "url": "/HISTGA1011/schedule/week_05",
     
     "relUrl": "/schedule/week_05"
-  },"114": {
+  },"113": {
     "doc": "Week 6",
     "title": "Week 6: Digital Preservation Metadata",
     "content": "Slides . Due . | In class we will start the Week 6 activity, Digital Preservation Metadata. Submit your completed activity summary in Brightspace by Sunday night. | . Read . | “Chapter 9 Digital Preservation for Archives.” In Digital Preservation Metadata for Practitioners: Implementing PREMIS, edited by Angela Dappert, et al., 115-132. Springer International Publishing AG, 2016. ProQuest Ebook Central. Accessed January 22, 2024., http://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4772462. | Guenther, Rebecca S. (2008) “Battle of the Buzzwords Flexibility vs. Interoperability When Implementing PREMIS in METS,” D‐Lib Magazine 14 (7/8). https://www.dlib.org/dlib/july08/guenther/07guenther.html | Dappert, Angela and Markus Enders. (2010) “Digital Preservation Metadata Standards.” Information Standards Quarterly (22:2) https://www.loc.gov/standards/premis/FE_Dappert_Enders_MetadataStds_isqv22no2.pdf | Priscilla Caplan, Understanding PREMIS, Library of Congress, 2009. https://www.loc.gov/standards/premis/understanding-premis.pdf | Brian Lavoie and Richard Garnter, Preservation Metadata, Digital Preservation Coalition Technology Watch Report 13-03. Digital Preservation Coalition (UK): May 2013 https://dx.doi.org/10.7207/twr13-03 | . ",
     "url": "/HISTGA1011/schedule/week_06#week-6-digital-preservation-metadata",
     
     "relUrl": "/schedule/week_06#week-6-digital-preservation-metadata"
-  },"115": {
+  },"114": {
     "doc": "Week 6",
     "title": "Week 6",
     "content": " ",
     "url": "/HISTGA1011/schedule/week_06",
     
     "relUrl": "/schedule/week_06"
-  },"116": {
+  },"115": {
     "doc": "Week 7",
     "title": "Week 7: Digitization",
     "content": "Due . | In class we will start the Week 7 activity, Imaging and Conservation Group Activity. Submit your completed activity summary in Brightspace by Sunday night. | . Read . | Koster, Lucas. “Persistent identifiers for heritage objects.” Code4lib Journal: Issue 47, 2020-02-17. https://journal.code4lib.org/articles/14978 | Prescott, Andrew and Hughs, Lorna. “Why Do We Digitize? The Case for Slow Digitization.” Archive Journal: September 2018. https://www.archivejournal.net/essays/why-do-we-digitize-the-case-for-slow-digitization/ | Thompson, Samantha, “Why don’t archivists digitize everything?” Archives @ PAMA blog: May 31, 2017. https://peelarchivesblog.com/2017/05/31/why-dont-archivists-digitize-everything/ | Yolkowski, John and Jamieson, Krista. “Access and Preservation in Archival Mass Digitization Projects.” Practical Technology for Archives: 2017, Vol. 1, No. 7. https://ecommons.cornell.edu/bitstream/handle/1813/76865/Access_and_Preservation_in_Archival_Mass_Digitization_Projects.pdf?sequence=1&amp;isAllowed=y | “Digitizing Entire Collections.” Archives of American Art. https://www.aaa.si.edu/documentation/digitizing-entire-collections | Total Cost of Stewardship: Responsible Collection Building in Archives and Special Collections https://www.oclc.org/content/dam/research/publications/2021/oclcresearch-total-cost-of-stewardship-a4.pdf | . Watch . | COPY BYTES: Digitization And Libraries, Part 1 | COPY BYTES: Digitization And Libraries, Part 2 | . ",
     "url": "/HISTGA1011/schedule/week_07#week-7-digitization",
     
     "relUrl": "/schedule/week_07#week-7-digitization"
-  },"117": {
+  },"116": {
     "doc": "Week 7",
     "title": "Week 7",
     "content": " ",
     "url": "/HISTGA1011/schedule/week_07",
     
     "relUrl": "/schedule/week_07"
-  },"118": {
+  },"117": {
     "doc": "Week 8",
     "title": "Week 8: Access and Discovery",
     "content": "Due . | In class we will start the Week 8 activity, The User’s Experience. Submit your completed activity summary in Brightspace by Sunday night. | . Read . | Wiedeman, G. (2023). Designing Digital Discovery and Access Systems for Archival Description. code{4}lib Journal, 55. https://journal.code4lib.org/articles/16963 | Stephanie Becker, Anne Kumer, and Naomi Langer, “Access is People: How Investing in Digital Collections Labor Improves Archival Discovery &amp; Delivery,” in The Lighting the Way Handbook: Case Studies, Guidelines, and Emergent Futures for Archival Discovery and Delivery, edited by Maria Matienzo and Dinah Handel, 29-38. Stanford, CA: Stanford University Libraries, October 2021. https://doi.org/10.25740/gg453cv6438 | Abumeeiz, Salma. “Collections over People: Critiquing Notions of Institutional Inclusion within Library Heritage Materials.” Presentation at the Item Not Found conference, moderated by Nina Schneider, University of California, Los Angeles, April 4, 2023. YouTube video, 38:07-59:14. Accessed July 2, 2023. https://www.youtube.com/watch?v=53M1UwyYPug | Berry, Dorothy. “Take Me into The Library and Show Me Myself: Towards Authentic Accessibility in Digital Libraries.” Proceedings of the American Philosophical Society (2022), pp. 111-126. https://www.jstor.org/stable/45420503 | Zhang, Jane. 2012. “Original Order in Digital Archives”. Archivaria 74 (November), 167-93. https://archivaria-ca.proxy.library.nyu.edu/index.php/archivaria/article/view/13410 | Alison Anderson; Kristin Bjork; Kyle DeCicco-Carey; Sylvia Welsh (2021). “Laying a Foundation for Digital Collections at the Property Information Resource Center,” The American Archivist (2021) 84 (2): 256–280. https://drive.google.com/file/d/1e6pwdBBlqX8W2b00EviDxvEY819JSIU5/view?usp=drivesdk | Schechter, Gayle. “Legal and Ethical Considerations for Providing Access to Born-Digital Collections: Copyright.” Digital Library Federation (DLF) Blog. January 13, 2023. Accessed January 22, 2024, https://www.diglib.org/legal-and-ethical-considerations-for-providing-access-to-born-digital-collections-copyright/. | Gentry, Steven. “SAA 2019 recap - Session 204: Demystifying the Digital: Providing User Access to Born-Digital Records in Varying Contexts”. bloggERS https://saaers.wordpress.com/2019/10/08/saa-2019-recap-session-204-demystifying-the-digital-providing-user-access-to-born-digital-records-in-varying-contexts/ | Valentine, Rebekah. “Why Piracy Fears are Keeping Some Researchers from Accessing the Games They Need.” IGN Entertainment, May 17, 2024. https://www.ign.com/articles/why-piracy-fears-are-keeping-some-researchers-from-accessing-the-games-they-need. | . ",
     "url": "/HISTGA1011/schedule/week_08#week-8-access-and-discovery",
     
     "relUrl": "/schedule/week_08#week-8-access-and-discovery"
-  },"119": {
+  },"118": {
     "doc": "Week 8",
     "title": "Week 8",
     "content": " ",
     "url": "/HISTGA1011/schedule/week_08",
     
     "relUrl": "/schedule/week_08"
-  },"120": {
+  },"119": {
     "doc": "Week 9",
     "title": "Week 9: Automation and Scripting",
     "content": "Due . | In class we will start the Week 9 activity, Scripting Reflection. Submit your completed activity summary in Brightspace by Sunday night. | . Read . | Cocciolo, Anthony. “Unix Commands and Batch Processing for the Reluctant Librarian or Archivist.” Code4Lib Journal: Issue 23, 2014-01-17. https://journal.code4lib.org/articles/9158 | Martin, Nicole. “Why Use The Command Line For Digital Archiving And Preservation?” twobit Digital Preservation. June 21, 2020. https://twobitpreservation.com/blog/2020/6/11/why-use-the-command-line-for-digital-archiving-and-preservation | Berish, Amy. “Learning Python as a Processing Archivist: A Reflection” Bits &amp; Bytes: The Rockefeller Archive Center Blog. April 6, 2016. https://blog.rockarch.org/learning-python-as-a-processing-archivist-a-reflection | Colloton, Eddy. “THAT DAM PROJECT”. June 14, 2019. http://eddycolloton.com/blog/2019/1/10/that-dam-project | Potter, Abbey. “Automating Digital Archival Processing at Johns Hopkins University” May 9, 2017. https://blogs.loc.gov/thesignal/2017/05/automating-digital-archival-processing-at-johns-hopkins-university/ | Libraries, University of California Systemwide. UC Guidelines for Born-Digital Archival Description. Oct. 2017. https://escholarship.org/uc/item/9cg222jc | Tammi Kim; Karla Irwin. “Learning from Las Vegas: Adapting Workflows for Managing Born-Digital Design Records.” The American Archivist (2021) 84 (2): 355–373. https://doi.org/10.17723/0360-9081-84.2.355 | . ",
     "url": "/HISTGA1011/schedule/week_09#week-9-automation-and-scripting",
     
     "relUrl": "/schedule/week_09#week-9-automation-and-scripting"
-  },"121": {
+  },"120": {
     "doc": "Week 9",
     "title": "Week 9",
     "content": " ",
     "url": "/HISTGA1011/schedule/week_09",
     
     "relUrl": "/schedule/week_09"
-  },"122": {
+  },"121": {
     "doc": "Week 10",
     "title": "Week 10: No Class - Spring Break!",
     "content": " ",
     "url": "/HISTGA1011/schedule/week_10#week-10-no-class---spring-break",
     
     "relUrl": "/schedule/week_10#week-10-no-class---spring-break"
-  },"123": {
+  },"122": {
     "doc": "Week 10",
     "title": "Week 10",
     "content": " ",
     "url": "/HISTGA1011/schedule/week_10",
     
     "relUrl": "/schedule/week_10"
-  },"124": {
+  },"123": {
     "doc": "Week 11",
     "title": "Week 11: TK",
     "content": "More details will be added here soon . ",
     "url": "/HISTGA1011/schedule/week_11#week-11-tk",
     
     "relUrl": "/schedule/week_11#week-11-tk"
-  },"125": {
+  },"124": {
     "doc": "Week 11",
     "title": "Week 11",
     "content": " ",
     "url": "/HISTGA1011/schedule/week_11",
     
     "relUrl": "/schedule/week_11"
-  },"126": {
+  },"125": {
     "doc": "Week 12",
     "title": "Week 12: Moving Image and Audio Preservation",
     "content": "Due . | In class we will start the Week 12 activity, QCTools. Submit your completed activity summary in Brightspace by Sunday night. | . Read . | Kim, Julia, Fraimow, Rebecca, Titkemeyer, Erika. “Never Best Practices: Born-Digital Audiovisual Preservation.” Code4lib Journal: Issue 43, 2019-02-14, https://journal.code4lib.org/articles/14244 | Pearman, Alice. “Teachers’ Tales Go Online: Digitizing Oral Histories on Cassettes.” The American Archivist: Spring/Summer 2019, Vol. 82, No. 1, pp. 124-136. https://doi.org/10.17723/0360-9081-82.1.124 | Galey, Alan. 2018. “Looking for a Place to Happen: Collective Memory, Digital Music Archiving, and the Tragically Hip”. Archivaria 86 (November), 6-43. https://archivaria-ca.proxy.library.nyu.edu/index.php/archivaria/article/view/13642 | Cook, Sarah. 2017. “Shrouded History: The Canadian Film and Photo Unit, Records Creation, Reuse, and the Recontextualizing of “Lost Audiovisual Heritage”. Archivaria 83 (June), 125-48. https://archivaria-ca.proxy.library.nyu.edu/index.php/archivaria/article/view/13603 | Ng, Y. (2024, May 6). Supporting Community-Based Video Archiving for Human Rights with WITNESS [Video]. YouTube. Archivists Round Table of Metropolitan New York Programming Webinars. https://www.youtube.com/watch?v=CCDbhnHugT0 | AVPreserve Guide to Codec: https://www.weareavp.com/wp-content/uploads/2017/07/AVPS_Codec_Primer.pdf | XFR Collective Dr. Tape-Love: https://xfrcollective.files.wordpress.com/2020/06/xfr-dr-tape-love_zine-2019.pdf | . ",
     "url": "/HISTGA1011/schedule/week_12#week-12-moving-image-and-audio-preservation",
     
     "relUrl": "/schedule/week_12#week-12-moving-image-and-audio-preservation"
-  },"127": {
+  },"126": {
     "doc": "Week 12",
     "title": "Week 12",
     "content": " ",
     "url": "/HISTGA1011/schedule/week_12",
     
     "relUrl": "/schedule/week_12"
-  },"128": {
+  },"127": {
     "doc": "Week 13",
     "title": "Week 13: Web and Email Archiving",
     "content": "Due . | In class we will start the Week 13 activity, Podcast Archaeology. Submit your completed activity summary in Brightspace by Sunday night. | . Read . | Drake, Tracy S., Aisha Conner-Gaten, and Steven D. Booth. “Archiving Black Movements: Shifting Power and Exploring a Community-Centered Approach,” in “Library and Information Studies and the Mattering of Black Lives,” eds. Safiya Umoja Noble, Michelle Caswell, Tonia Sutherland, and Sarah Roberts. Special issue, Journal of Critical Library and Information Studies 4. https://journals.litwinbooks.com/index.php/jclis/article/view/170 | Summers, Ed. 2020. “Appraisal Talk in Web Archives”. Archivaria 89 (May), 70-103. https://archivaria-ca.proxy.library.nyu.edu/index.php/archivaria/article/view/13733 | Lynch, Clifford. “Stewardship in the ‘Age of Algorithms.’” first monday: 2017-12-04, Volume 22, Number 12. https://firstmonday.org/ojs/index.php/fm/article/view/8097/6583 | Wickner, Amy (2019) “Recognizing Co-Creators in Four Configurations: Critical Questions for Web Archiving,” Journal of Contemporary Archival Studies: Vol. 6 , Article 23. https://elischolar.library.yale.edu/jcas/vol6/iss1/23 | Velte, Ashlyn. “Ethical Challenges and Current Practices in Activist Social Media Archives.” The American Archivist: Spring/Summer 2018, Vol. 81, No. 1, pp. 112-134. https://doi.org/10.17723/0360-9081-81.1.112 | Maemura, Erin, et. al. “If These Crawls Could Talk: Studying and Documenting Web Archives Provenance,” Journal of the Association for Information Science and Technology, 2018-05-20, https://tspace.library.utoronto.ca/bitstream/1807/82840/1/JASIST_IfTheseCrawls-Preprint-20180122.pdf | Acker, Amelia. (2020, June 26). Emulation Encounters: Software Preservation in Libraries, Archives, And Museums. Software Preservation Network. https://www.softwarepreservationnetwork.org/preprint-emulation-encounters-software-preservation-in-libraries-archives-and-museums/ | . ",
     "url": "/HISTGA1011/schedule/week_13#week-13-web-and-email-archiving",
     
     "relUrl": "/schedule/week_13#week-13-web-and-email-archiving"
-  },"129": {
+  },"128": {
     "doc": "Week 13",
     "title": "Week 13",
     "content": " ",
     "url": "/HISTGA1011/schedule/week_13",
     
     "relUrl": "/schedule/week_13"
-  },"130": {
+  },"129": {
     "doc": "Week 14",
     "title": "Week 14: No Class!",
     "content": "Use this time to work on your final papers and presentations. I will make myself available to book for consults, in case you have any questions or guidance. Booking form TK! . ",
     "url": "/HISTGA1011/schedule/week_14#week-14-no-class",
     
     "relUrl": "/schedule/week_14#week-14-no-class"
-  },"131": {
+  },"130": {
     "doc": "Week 14",
     "title": "Week 14",
     "content": " ",
     "url": "/HISTGA1011/schedule/week_14",
     
     "relUrl": "/schedule/week_14"
-  },"132": {
+  },"131": {
     "doc": "Week 15",
     "title": "Week 15: Last Day of Class",
     "content": "Due . Final presentations will take place today. [More details here TK, including the due date for your papers] . ",
     "url": "/HISTGA1011/schedule/week_15#week-15-last-day-of-class",
     
     "relUrl": "/schedule/week_15#week-15-last-day-of-class"
-  },"133": {
+  },"132": {
     "doc": "Week 15",
     "title": "Week 15",
     "content": " ",
