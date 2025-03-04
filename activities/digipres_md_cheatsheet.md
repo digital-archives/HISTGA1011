@@ -1,5 +1,5 @@
 ---
-title: Digital Preservation Metadata
+title: Digital Preservation Metadata Cheat Sheet
 layout: default
 parent: Weekly Activities
 nav_order: 7.5
