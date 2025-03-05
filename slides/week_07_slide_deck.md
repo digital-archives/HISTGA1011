@@ -389,8 +389,6 @@ FADGI was established to develop common guidelines and technical specifications 
 
 https://www.digitizationguidelines.gov/guidelines/FADGITechnicalGuidelinesforDigitizingCulturalHeritageMaterials_ThirdEdition_05092023.pdf
 
----
-
 <!--presenter notes
 
 The FADGI Technical Guidelines for Digitizing Cultural Heritage Materials document, last updated  a couple of years ago, covers a wide range of topics related to digitization, such as ideal image capture, color management, file formats, metadata, and quality assurance. The guidelines are based on best practices from the fields of library science, archival science, and digital imaging, among others.
@@ -441,7 +439,7 @@ Lossless compression, like **Discrete Wavelet Transformation (DWT)**, identifies
 
 | Guideline | Description |
 |-----------|------------|
-| **File extension** | Include **3-character file extension** (e.g., `.jpg`) |
+| **File extension** | Include **file extension** (e.g., `.jpg`, `.tiff`) |
 | **Max items** | Consider the **total number of files**. |
 | **Leading zeros** | Ensures files **sort in proper sequence**. |
 | **Keep it simple** | Avoid **complex/long filenames**. |
