@@ -13,7 +13,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-        - name: Remove Old Cache Manually & Clear `_site/`
+      - name: Remove Old Cache Manually & Clear `_site/`
         run: |
           rm -rf vendor/bundle
           rm -rf ~/.bundle
