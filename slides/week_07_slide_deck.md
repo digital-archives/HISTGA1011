@@ -108,10 +108,9 @@ style: |
 
 # Today
 - **Settle in/Reminders/Announcements** (15 min)
-- **Discuss Last Week's Activity** (20 min)
 - **Lecture: Digitization** (45 min)
 - **Break** (10 min)
-- **Start Weekly Activity** (70 min)
+- **Start Weekly Activity: Imaging and Conservation** (70 min)
 - **Wrap up** (10 min)
 
 ---
@@ -119,6 +118,8 @@ style: |
 # Announcements
 
 - <a href="https://drive.google.com/drive/folders/118J38a-pgbk0-RqhJXE4OLZB4xQ8lp2t" target="_blank">Examples</a> of past Final Project slide decks (1 so far, will add others soon!)
+- I posted a <a href="https://digital-archives.github.io/HISTGA1011/activities/digipres_md_cheatsheet" target="_blank">Digital Preservation Metadata Cheat Sheet</a>, if you'd like to double-check your work.
+- Did you know about the <a href="https://www2.archivists.org/news/2025/37-earn-digital-archivist-specialist-certificate-from-saa" target="_blank">DAS (Digital Archives Certificate)</a> offered through SAA?
 
 ---
 

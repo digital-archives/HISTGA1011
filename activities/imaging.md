@@ -32,15 +32,14 @@ has_children: false
 *📌 Important: The Inventory spreadsheet has two tabs, one for each group's collection. To avoid confusion, delete the  tab that does not belong to your group.*
 
 **Discuss key aspects with your group (5-10 minutes):**
-- **Material types**: What types of materials are in the collection?
+- **Material types**: What types of materials are in the collection? What collection is represented?
 - **Digitization equipment**: What devices might be needed to capture each material type?
 - **Condition**: Use the spreadsheet to flag any materials that require conservation assessment.
 - **Approach**:
   - Should all recto and verso pages be digitized, including blank pages?
   - Should multi-page documents be scanned as double or single-page spreads?
-  - What order should book covers/spines be digitized?
   - Are there any materials that should **not** be digitized at this time?
-  - What is your folder-naming schema? What convention will each capture file within each folder follow?
+  - What is your file-naming schema? What convention will each capture file within each folder follow?
 - **Outstanding questions**: What clarifications do you need from me?
 
 ## Step 2: Consultation {#step-2}
@@ -52,6 +51,7 @@ Once your group has completed the review, let me know, and I will consult you on
 #### **Pre-populated fields (do not edit)**
 - **Series:** Name of the finding aid series.
 - **Box number & folder number:** Since this is a folder-level list, for each folder, the box numbers may repeat themselves (e.g., the same box can contain multiple folders).
+- **Description**: Descriptive metadata.
 - **Content estimate count & format:** Estimated material type count of items.
 - **Restrictions:** Access restriction statement.
 - **Condition:** Any noted conservation issues.
@@ -80,7 +80,7 @@ Once your group has completed the review, let me know, and I will consult you on
     - Level: Select Level 3.
     - Percentage of Material: Enter 32%.
   - Click “Save and Continue”; this will output an estimated time in minutes. Record this in your Inventory under Imaging Time (Minutes).
-- **Output File Type(s):** Identify the resulting preservation file types for the digitized material using the [Library of Congress Recommended Formats](https://www.loc.gov/preservation/resources/rfs/TOC.html) as your guide.
+- **Output File Type(s):** Identify the resulting preservation file types for the digitized material using the <a href="https://www.loc.gov/preservation/resources/rfs/TOC.html" target="_blank">Library of Congress Recommended Formats</a> and/or <a href="https://www.digitizationguidelines.gov/guidelines/FADGITechnicalGuidelinesforDigitizingCulturalHeritageMaterials_ThirdEdition_05092023.pdf" target="_blank">FADGI</a> as your guide.
 - **Resolution:** Express in DPI (dots per inch). General recommendations:
   - 300 DPI: optimal for most material (good balance between detail capture and file size).
   - 400 DPI: more detailed capture, consider for photography.
