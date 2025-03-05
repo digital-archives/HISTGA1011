@@ -13,7 +13,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Remove Old Cache Manually
+        - name: Remove Old Cache Manually & Clear `_site/`
         run: |
           rm -rf vendor/bundle
           rm -rf ~/.bundle
@@ -21,7 +21,8 @@ jobs:
           rm -rf .jekyll-cache
           rm -rf .sass-cache
           rm -rf Gemfile.lock  # Force fresh install
-          echo "cache-bust=$(date +%s)" >> $GITHUB_ENV
+          rm -rf _site  # This ensures a clean rebuild
+          echo "cache-bust=$(date +%s)" >> $GITHUB_ENV      
 
       - name: Setup Ruby (Force 3.2.2)
         uses: ruby/setup-ruby@v1
