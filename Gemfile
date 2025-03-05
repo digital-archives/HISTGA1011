@@ -1,4 +1,4 @@
 source "https://rubygems.org"
 
-# Use the official GitHub Pages gem, which includes Jekyll and necessary dependencies
+# Use GitHub Pages' supported Jekyll version
 gem "github-pages", group: :jekyll_plugins
