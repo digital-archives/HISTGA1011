@@ -84,8 +84,8 @@ style: |
     gap: 15px;
   }
 
-  .circle {
-    background-color: #2e7d32; /* Green background */
+  .numcircle {
+    background-color: #2e7d32;
     color: white;
     font-size: 1.5rem;
     font-weight: bold;
@@ -182,41 +182,13 @@ _Feel free to email me with any announcements you would like me to boost (upcomi
 
 ---
 
-# Recap: Digitization
-
-_Metadata-driven digital preservation workflow_
-
-1. Catalog record or finding aid serves as basis for digitization work.
-
-2. Digitization staff create preservation files and derivatives.
-
-3. Files are packaged and ingested into archival storage.
-
-4. Finding aid, catalog or other access endpoints, like a digital library, are updated.
+# Access and Discovery
 
 <!--presenter notes
 
-Digital preservation metadata workflows vary a lot from one institution to another. The bulleted list here represents a very generalized, high-level description of how metadata informs digitization workflows. Just know that the order which these events occur may differ.
+Today, we'll look at what happens after last week's Imaging and Conservation Activity. At this point, an imaging technician, archivist, or vendor has created a set of digital images. These files might be sitting on a hard drive, a production server, or somewhere else at the institution. They've been named, likely organized into folders, but they’re not accessible to users yet.
 
-Digitization work usually starts with gathering existing descriptive metadata. Although most descriptive metadata, like through a finding aid, will likely be at a collection or series level, it is still is useful because it contains data that can be used to give the project a name, populate digitization work orders or requests, and structure the work performed by digitization staff, such as putting forth the proper order in which to create captures.
-
-With existing metadata in hand, digitization staff will create image captures, which will serve as the basis for derivatives such as a preservation master and access copies. These captures will result in the creation of additional technical metadata describing the systems and environments in which captures were created and manipulated.
-
-Since these additional files are in relationship with one another, we need to capture this metadata through structural metadata. One basic way to do this is through filenaming or foldering files in a uniform and sequential manner. You might also use some sort of system, like a digital asset or metadata management system, to import or point to these files, enter information about their relationships, and maybe even use them to create preservation metadata files, like a METS file.
-
-Lastly, you will need to update your digital library in some way that brings the project full circle, syncing the digitized files back to the finding aid component, a catalog record, or an exhibition site. This can be accomplished through descriptive metadata systems like ASpace, an institutional repository or other access system.
-
--->
-
----
-
-
-# Post-Digitization Workflows
-Driven largely by reconciling digital preservation (managing of SIPs, AIPs and DIPs) with archival and access-driven metadata application.
-
-<!--presenter notes
-
-After a capture is taken, we cross a particular digitization threshold, where many workflows are informed primarily by metadata. We will look at a particular case study to tie together all that we have learned so far about metadata and digitization.
+So, what happens next? How do we move from having digital files to preparing these for discovery and access?
 
 -->
 
@@ -226,9 +198,9 @@ After a capture is taken, we cross a particular digitization threshold, where ma
 
 <!--presenter notes
 
-Case study: University of Houston (UH) Libraries made an institutional commitment in late 2015 to migrate the data for its digitized cultural heritage collections to open source systems for preservation and access: Hydra-in-a-Box, Archivematica, and ArchivesSpace.
+We will be looking at a particular example, the Bayou City Digital Asset Management System (BCDAMS), used by the University of Houston (UH) Libraries. In late 2015, UH made an institutional commitment to migrate the data for its digitized cultural heritage collections to a group of interoperable open source systems.
 
-Let’s move from the abstract into a real life scenario. Here, we have a workflow diagram created by the University of Houston, representing their digital preservation workflow that we are going to break down into something more digestible and understandable.
+Here, we have a workflow diagram created by the University of Houston, representing their digital preservation workflow that we are going to break down into something more digestible and understandable.
 
 A code4lib article provides additional details: https://journal.code4lib.org/articles/12342#unit5
 
@@ -273,7 +245,7 @@ A code4lib article provides additional details: https://journal.code4lib.org/art
 The University of Houston uses a preservation systems “ecosystem” of both open-source and homegrown applications and tools, each working in concert with one another to fully or partially automate the entire digital preservation-to-access workflow.
 
 UH uses three open-source tools:
-- ArchivesSpace: Used by archivists to describe collections and produce finding aids
+- ArchivesSpace: Used by archivists to describe collections and produce finding aids.
 - Archivematica: Used to automate workflows into and from the digital repository.
 - Hydra-in-a-Box (aka Hyku): open-source digital repository software platform that allows institutions to manage, preserve, and provide access to digital collections.
 
@@ -288,10 +260,10 @@ UH also uses a number of homegrown tools:
 
 ---
 
-### **Selection and Preparation Workflow**
+### **Phase 1: Selection and Capture**
 
 1. **Archivist** creates finding aid in **ArchivesSpace**.
-2. **Archivist** opens **Carpenters**, navigates to the “Selection” tab, and imports the finding aid hierarchy.
+2. **Archivist** opens **Carpenters**, navigates to the “Selection” tab, and imports the finding aid.
 3. **Archivist** checks boxes next to the folders/items to be digitized.
 4. **Carpenters** populates the shot list in the “Files” tab.
 5. **Digitization Unit Tech** opens **Carpenters** and navigates to the “Files” tab, and photographs images in the sequence specified by the shot list.
@@ -310,38 +282,40 @@ As you can see, Carpenters allows preservation administrators to organize digiti
 
 ---
 
-### **Digitization and File Management Workflow**
+### **Phase 2: File Management and Association**
 1. **Digitization Unit Tech** creates a **preservation file** along with **derivative files** such as **mezzanine and access copies** for each archival object, storing them on the local file system.
-2. **Digitization Unit Tech** opens **Carpenters**, navigates to the “Files” tab, and associates each file created with its corresponding archival object.
-3. **Carpenters** links the **ArchivesSpace URI** for each archival object to its digital surrogate during the association process.
+2. **Digitization Unit Tech** opens **Carpenters**, navigates to the “Files” tab, and associates each file created with its corresponding archival object **ArchivesSpace URI**.
 
 ---
 
 ## Definition
 # Preservation File
 
-A preservation file is a high-quality, minimally processed digital file created to serve as the authoritative source for long-term preservation. It is typically produced during digitization and retains the maximum amount of detail, accuracy, and integrity from the original material.
+A **preservation file** is a high-quality, minimally processed digital file created to serve as the authoritative source for long-term preservation. It is typically produced during digitization and retains the maximum amount of detail, accuracy, and integrity from the original material.
 
 ---
 
 ## Definition
 # Mezzanine File
 
-A mezzanine file is an intermediate-quality digital file derived from a preservation file. It is used for specific workflows, such as editing, while still maintaining a high level of fidelity. Mezzanine files strike a balance between the size and usability of the file and the quality of the original preservation file.
+A **mezzanine file** is an intermediate-quality digital file derived from a preservation file. It is used for specific workflows, such as editing, while still maintaining a high level of fidelity. Mezzanine files strike a balance between the size and usability of the file and the quality of the original preservation file.
 
 ---
 
 ## Definition
 # Access File
 
-An access file is a derivative digital file used for providing convenient, user-friendly access to the content. Access copies are optimized for distribution, sharing, and everyday use, often with reduced file size and quality compared to the original preservation file.
+An **access file** (sometimes also "service file") is a derivative digital file used for providing convenient, user-friendly access to the content. Access copies are optimized for distribution, sharing, and everyday use, often with reduced file size and quality compared to the original preservation file.
 
 ---
 
 ## Definition
-# Uniform Resources identifier
+# Uniform Resource identifier
 
-A Uniform Resource Identifier (URI) in the context of ArchivesSpace is a persistent and unique identifier that represents a specific resource or object within the ArchivesSpace system. It serves as a stable reference to digital or physical items, collections, or metadata records, enabling interoperability, linkage, and retrieval across systems.
+A **Uniform Resource Identifier (URI)** is a persistent and unique identifier that represents a specific resource or object within a system.
+
+Example:
+https://archives.yale.edu/<b>repositories/11/resources/13623</b>
 
 ---
 
@@ -355,165 +329,123 @@ In this screenshot, we are looking at the Carpenters interface “Files” tab, 
 
 ---
 
-### **File Transfer and Packaging Checklist**
+### **Phase 3: Create SIP**
 
-1. **Carpenters** automatically moves **preservation files** from the local file system to a set of nested directories.
-2. These directories are organized into an **Archivematica-compatible Submission Information Package (SIP)**.
+1. **Carpenters** automatically moves **preservation files** from the local file system to a set of nested directories,organized into an Archivematica-compatible **Submission Information Package (SIP)**.
 3. The SIP structure replicates the **intellectual arrangement** of the original collection.
 
 ---
 
-<img src="img/week_07_carpenters_folders.png" alt="SIP folders" style="width: 100%; height: auto;">
+<img src="img/week_07_carpenters_folders.png" alt="A screenshot of a SIP containing nested folders, which mimic the hierarchy of a finding aid." style="width: 100%; height: auto;">
 
 ---
 
-### **Persistent Identifier and Access Package Checklist**
+### **Phase 4: Mint Persistent Identifier; Export DIPs**
 
-1. **Carpenters** requests an **Archival Resource Key (ARK)** for each preservation package, creating a persistent identifier to link preservation master files to access objects in Hyku.
+1. **Greens** mints an **Archival Resource Key (ARK)** persistent identifier for each SIP.
 2. **Carpenters** outputs a **Dissemination Information Package (DIP)** containing access files and a metadata CSV file.
-3. The metadata CSV is used as input for the **Brays descriptive metadata application**.
-
----
-
-## Definition
-# Persistent Identifier (PID)
-
-An identifier that is unique, universal, and persistent.
-- Identifier: a string used to refer to an object
-- Unique: identifier is only used for one object
-- Persistent: remains available independently of individual institutions, systems or system implementations.
-- Universal: unique within a specific context
-
----
-
-### Definition  
-## Persistent Identifier (PID)
-
-**Oersistent identifiers (PIDs)** are **unique**, **universal** and **persistent**.
-
-- **Identifier**: Group of characters that names or references an object.  
-- **Unique**: Ensures the identifier is used only for one object.  
-- **Persistent**: Guarantees continued accessibility, even as systems or institutions change.  
-- **Universal**: Ensures uniqueness within a specific context, such as an institution, repository, or domain.
-
-<!--presenter notes
-A persistant identifier or "PID" is defined as an identifier that is unique, universal, and persistent.
-
-Break this down:
-- Identifier: a group of characters (a-z 0-9) used to refer to an object.
-- Unique: only used for one object and not repeated.
-- Persistent: remains available independently of individual institutions, systems or system implementations. Persistent also implies that the ID will be usable for the long term. However, as Koster acknowledges in the Persistent Identifiers for Heritage Objects article, this isn’t totally possible and requires maintenance by and continued existence of the institutions supporting the PIDs.
-- Universal: implies that the identifier is unique within a specific context. For example, a single identifier like "12345" might be used to identify different objects in different domains, such as a book in a library catalog, or an image in a separate online museum. Without knowing the specific context in which the identifier was produced or is being used, it may not be possible to ensure that it is globally unique. PIDs are assigned within a defined context to guarantee its uniqueness and distinguish it from other identifiers.
-
--->
 
 ---
 
 ## Definition  
 # Unique Resource Identifier (URI) - 1/2
 
-A **Unique Resource Identifier (URI)** is a string of characters that uniquely identifies and, in some cases, locates a resource on the internet. **Persistent Identifiers (PIDs)** often use URIs to ensure resources can be consistently referenced and accessed over time.
+**Unique Resource Identifiers (URIs)** is an identifier for a resource.
+
+There are 2 types of URIs: **Uniform Resource Locators (URLs)** and **Uniform Resource Names (URNs)**.
 
 ---
 
-### Definition
-## Unique Resource Identifier (URI) - 2/2
+## Definition
+# Uniform Resource Locators (URL)
 
-There are two main types of URIs:
+**Uniform Resource Locators (URLs)** are a type of URI that "resolve" to a specific location on the web. Uses protocols like `http://` or `https://`.
 
-1. **Uniform Resource Locators (URLs):** Identify and locate a resource by specifying its address.  
-Example: `http://purl.org/dc/elements/1.1/`
+---
 
-2. **Uniform Resource Names (URNs):** Identify a resource by name within a specific namespace, without implying its location.  
-Example: `urn:nbn:nl:ui:29-8f66e0a8-b7c9-40a4-be28-54a7c01770`
+## Definition
+# Uniform Resource Name (URN)
+
+**Uniform Resource Names (URNs)** are a type of URI that gives a resource a name, but doesn't point to a specific location.
+
+---
+
+
+### Definition  
+## Persistent Identifier (PID)
+
+**Persistent identifiers (PIDs)** are a special kind of universal resource identifier (URI) that are designed to be unique, persistent and universal, even as systems or locations change over the long-term.
+
+PIDs may utilize URNs and URLs in their structure, depending on the system used to make or "mint" them.
 
 <!--presenter notes
 
-Persistent identifiers are composed of one or more Unique Resource Identifiers, or URIs.
+A persistant identifier or "PID" is defined as an identifier that is unique, universal, and persistent.
 
-A Unique Resource Identifier or URI is a string of characters that identifies and locates a unique resource (such as a web page, image, video, etc.) on the internet. There are 2 types of URIs:
-- Uniform Resource Locators (URLs): resolvable on the web (uses protocols like http:// or https://) and points to a website
-- Uniform Resource Names (URNs): specific to a particular namespace, not a locator (not a web address on their own.)
-
-The composition or syntax of a PID is determined by the institution administering it.
+Break this down:
+- Unique: only used for one object and not repeated.
+- Persistent: remains available independently of individual institutions, systems or system implementations.
+- Universal: implies that the identifier is unique within a specific context. For example, a single identifier like "12345" is a non-unique identifier. Without knowing the specific context in which the identifier was produced or is being used, it may not be possible to ensure that it is globally unique. PIDs are assigned within a defined context to guarantee its uniqueness and distinguish it from other identifiers.
 
 -->
 
 ---
 
 ## Definition  
-# Web Namespace
+# Namespace
 
-A **web namespace** is a structured and standardized space on the internet used to assign and manage unique identifiers for resources. It provides a way to ensure that every resource has a globally unique and resolvable identifier, allowing for consistent referencing, discovery, and access.
-
-<!--presenter notes
-
-A web namespace is a logical grouping of resources or digital objects that share a common context, such as a particular domain or subject area. Various institutions administer identifiers and guarantees their uniqueness within a unique namespace on the web.
--->
-
----
-
-<style>
-  table {
-    width: 100%;
-    margin: auto;
-    font-size: 22px;
-  }
-  th, td {
-    padding: 4px;
-    line-height: 2;
-  }
-</style>
-
-| **System**  | **Type**           | **Registry**      | **Mint**  | **Persistence** | **Resolve**       |
-|-------------|--------------------|-------------------|-----------|------------------|-------------------|
-| **NBN**     | PID (+ PID-URI)    | National          | Local     | National         | National          |
-| **Handle**  | PID (+ PID-URI)    | Central           | Local     | Central          | Central/Local     |
-| **DOI**     | PID/PID-URI        | Central/Nodes     | Nodes     | Central          | Central           |
-| **ARK**     | PID                | Central           | Local     | Local            | Local             |
-| **Purl**    | PID-URI/URL        | Central           | Local     | Central/Local    | Central/Local     |
-| **Private** | PID/PID-URI        | Local             | Local     | Local            | Local             |
+In the context of persistent identifiers, a **namespace** is a domain that further helps clarify a resource. It’s a way to avoid confusion by ensuring that identifiers (like URIs, URLs, or PIDs) are disambiguated across different systems or contexts.
 
 <!--presenter notes
-
-Let’s look at one example: Digital Object Identifiers, or DOIs, are a type of persistent identifier. You have probably seen DOIs listed in electronic journal articles you’ve read. In the slide is a table of PIDs, including DOI, and their characteristics. Digital Object Identifiers are managed and administered by the International DOI Foundation. Here, the publisher The American Archivist registered with the DOI Foundation. Once registering with the DOI, they are assigned their own namespace and given a registration agency code, highlighted in the example as 17723. This code is then used in the DOI id naming convention. If another publisher by some change had the same suffix, even though there would be a slim chance of that, you could still disambiguate it using the registrant code.
 
 -->
 
 ---
 
-**NBN (National Bibliographic Number)**
-Syntax: urn:nbn:[country code]:[institutional code]-[pid-suffix]
-Example: urn:nbn:nl:ui:29-8f66e0a8-b7c9-40a4-be28-54a7c01770
-Resolving: National: PID-URI = [national resolver URL]/[NBN]
+## Archival Resource Key (ARK) Structure
+Syntax: `ark:/[namespace]/[pid-suffix]`
+Example: `ark:/84475/do2730bw52x`
 
-**Handle**
-Syntax: [naming authority code].[sublevel(s)]/[pid-suffix]
-Example: 11245.1/8f66e0a8-b7c9-40a4-be28-54a7c0177061
-Resolving: Central/Local: PID-URI = https://hdl.handle.net/[handle]
-
-**ARK**
-Syntax: ark:/[name assigning authority number]/[pid-suffix]
-Example: ark:/84475/do53246r617
-Resolving: Central: PID-URI = [local resolver URL]/[ARK]
+Resolving:
+Syntax: Central: PID-URI = [local resolver URL]/[ARK]
+Example: `https://id.lib.uh.du/ark:/84475/do2730bw52x`
 
 <!--presenter notes
 
-Here are examples of various administering organizations and their persistent identifier syntaxes. The last example, ARK, is the PID system used by the University of Houston.
+(Yes, this is a real ARK!)
+
+- ark:/ – This is the namespace for the ARK system. It designates that this identifier is part of the ARK system and serves as the prefix to distinguish it from other types of identifiers. It ensures that the identifier is understood as belonging to a specific naming scheme.
+- 84475 – This is the name assigning authority number that indicates which institution or organization is responsible for managing the identifier (in this case, the University of Houston).
+- do2730bw52x – This is the PID-suffix, which uniquely identifies a specific resource within that authority’s system.
+
+-->
+
+---
+
+## Handle Structure
+Syntax: `hdl.handle.net/[namespace]/[pid-suffix]`
+Example: `hdl.handle.net/10079/fa/beinecke.bookstore`
+
+Resolving:
+Syntax: Central: PID-URI = [resolver URL]/[Handle]
+Example: https://hdl.handle.net/10079/fa/beinecke.bookstore
+
+<!--presenter notes
+
+Yale uses Handle, another kind of persistent identifier. It's pretty similar to ARK, but notice that the URL uses handle.net to resolve, rather than a Yale-hosted domain.
 
 -->
 
 ---
 
 
-### **Access - Editing Metadata Checklist**
+### **Phase 5: Metadata Management**
 
 1. **Metadata Unit Staff** loads the **Carpenters-generated DIP** into the **Brays descriptive metadata editor**.
-2. **Metadata Unit Staff** creates descriptive metadata for all objects.
-3. During editing, **Brays**:
-   - Suggests controlled vocabulary terms from **Cedar**.
-   - Dynamically reads and writes to the **metadata CSV file** in the DIP.
-   - Color-codes fields as **required**, **recommended**, or **optional**.
+2. **Metadata Unit Staff** create descriptive metadata for all objects. During editing, **Brays**:
+- Suggests controlled vocabulary terms from **Cedar**.
+- Updates the **metadata CSV file** in the DIP.
+- Color-codes fields as **required**, **recommended**, or **optional**.
 
 ---
 
@@ -623,12 +555,12 @@ Read more here: https://blog.digitizedmedievalmanuscripts.org/iiif-international
 
 ---
 
-## Definition
-# Discovery and delivery
+<div class="quote">
+“[Discovery and delivery] [d]escribes what people, processes, and systems do to support finding accessing and using material from archives and special collections.”
+</div>
 
-“[Discovery and delivery] [d]escribes what people,processes, and systems do to support finding accessing and using material from archives and special collections.”
-
-Maria Matienzo and Dinah Handel, _Lighting the Way_ White Paper 2021
+<div class="author">Maria Matienzo and Dinah Handel</div>
+<div class="work">Lighting the Way White Paper (2021)</div>
 
 ---
 
@@ -709,7 +641,7 @@ Here is the XML describing the Correspondence series of the James Baldwin collec
 - Repository
   - Resource Record (i.e. "Arthur Russell papers")
     - Component Records: Describe logical or physical parts of a resource that make up an aggregation of archival materials
-    - Instances: Embodiments of the same content in different media (example, a hand-written letter: ink on paper, microfilm image, digital object)
+    - Instances: Embodiments of the same content in different media (example, a hand-written letter: ink on paper, microfilm image, digital object); can also refer to a top container (circulating unit)
     - Digital Objects
 
 ---
@@ -740,7 +672,7 @@ The title of a digital object, in the case of Yale, uses the name of the SIP fol
 ---
 
 <div class="takeaway">
-  <div class="circle">1</div>
+  <div class="numcircle">1</div>
   <div class="content">
     <h2>Need for dynamic navigation</h2>
     <p>Archival description requires sophisticated navigation options.</p>
@@ -748,7 +680,7 @@ The title of a digital object, in the case of Yale, uses the name of the SIP fol
 </div>
 
 <div class="takeaway">
-  <div class="circle">2</div>
+  <div class="numcircle">2</div>
   <div class="content">
     <h2>It’s easy to get lost</h2>
     <p>Users, especially those new to navigating finding aids, report feeling lost, confused, or unsure over where they are within the collection.</p>
@@ -756,7 +688,7 @@ The title of a digital object, in the case of Yale, uses the name of the SIP fol
 </div>
 
 <div class="takeaway">
-  <div class="circle">3</div>
+  <div class="numcircle">3</div>
   <div class="content">
     <h2>Online availability is difficult to determine</h2>
     <p>Users assume all components listed are available online and feel frustrated when they realize some or all parts are not available.</p>
@@ -766,7 +698,7 @@ The title of a digital object, in the case of Yale, uses the name of the SIP fol
 ---
 
 <div class="takeaway">
-  <div class="circle">4</div>
+  <div class="numcircle">4</div>
   <div class="content">
     <h2>Training and guidance needed</h2>
     <p>Users would appreciate more training beyond a “Help” page.</p>
@@ -774,7 +706,7 @@ The title of a digital object, in the case of Yale, uses the name of the SIP fol
 </div>
 
 <div class="takeaway">
-  <div class="circle">5</div>
+  <div class="numcircle">5</div>
   <div class="content">
     <h2>Too much jargon</h2>
     <p>Certain words displayed in finding aids can lead to further confusion if required later on to successfully navigate the site.</p>
@@ -782,7 +714,7 @@ The title of a digital object, in the case of Yale, uses the name of the SIP fol
 </div>
 
 <div class="takeaway">
-  <div class="circle">6</div>
+  <div class="numcircle">6</div>
   <div class="content">
     <h2>Want quick results</h2>
     <p>Rather than navigating a table of contents, users would rather a finding aid be navigable in the same way a modern search engine works.</p>
@@ -792,7 +724,7 @@ The title of a digital object, in the case of Yale, uses the name of the SIP fol
 ---
 
 <div class="takeaway">
-  <div class="circle">7</div>
+  <div class="numcircle">7</div>
   <div class="content">
     <h2>Less texts, more lists</h2>
     <p>Large blocks of text are distracting; users prefer hyperlinked, easy-to-read bulleted lists.</p>
@@ -800,7 +732,7 @@ The title of a digital object, in the case of Yale, uses the name of the SIP fol
 </div>
 
 <div class="takeaway">
-  <div class="circle">8</div>
+  <div class="numcircle">8</div>
   <div class="content">
     <h2>Finding aid savvy can be developed</h2>
     <p>Though not always immediately attainable, studies show users can quickly learn to navigate finding aids through 1+ sessions.</p>
@@ -817,8 +749,8 @@ These takeaways were derived from Joyce Celeste Chapman’s article “Observing
 
 <div class="shapes">
   <div class="triangle"></div>
-  </span>
-  </span>
+  <span class="circle"></span>
+  <span class="square"></span>
 </div>
 
 <div class="activity-title">Mini Activity - Part 1</div>
@@ -833,10 +765,10 @@ These takeaways were derived from Joyce Celeste Chapman’s article “Observing
 
 ---
 
-<div class="shapes">
+<<div class="shapes">
   <div class="triangle"></div>
-  </span>
-  </span>
+  <span class="circle"></span>
+  <span class="square"></span>
 </div>
 
 <div class="activity-title">Mini Activity - Part 2</div>
@@ -851,8 +783,8 @@ These takeaways were derived from Joyce Celeste Chapman’s article “Observing
 
 <div class="shapes">
   <div class="triangle"></div>
-  </span>
-  </span>
+  <span class="circle"></span>
+  <span class="square"></span>
 </div>
 
 <div class="activity-title">Mini Activity - Part 3</div>
@@ -868,20 +800,18 @@ These takeaways were derived from Joyce Celeste Chapman’s article “Observing
 
 ---
 
-# Accessibility
-
----
-
 ## Definition
 # Accessibility
 
-Within digital archives, __accessibility__ commonly refers to the general discoverability and ease of use of online archival collection, enabling equal or equivalent access to archival facilities and services for people with disabilities, and minimizing or eliminating barriers. Accessibility should be integral to institutional cultures, workflows, and services.
+In the context of digital archives, **accessibility** commonly refers to the general discoverability and ease of use of online archival collection, enabling equal or equivalent access to archival facilities and services for people with disabilities, and minimizing or eliminating barriers. Accessibility should be integral to institutional cultures, workflows, and services.
 
----
+<!--presenter notes 
 
-# Accessibility is essential to building access platforms
+Accessibility is essential to building access platforms
 
 Most institutions’ accessibility expectations will be informed by federal law, state law, and/or institutional best practices. Section 508 Standards for Accessible Electronic and Information Technology, the World Wide Web Consortium’s Web Content Accessibility Guidelines (WCAG), and PDF-UA (ISO 14289-1) are the most common tools used to build digital accessibility policies.
+
+-->
 
 ---
 
@@ -890,7 +820,7 @@ Most institutions’ accessibility expectations will be informed by federal law,
 ---
 
 <div class="takeaway">
-  <div class="circle">1</div>
+  <div class="numcircle">1</div>
   <div class="content">
     <h2>General Recommendations</h2>
     <ul>
@@ -911,7 +841,7 @@ Most institutions’ accessibility expectations will be informed by federal law,
 ---
 
 <div class="takeaway">
-  <div class="circle">2</div>
+  <div class="numcircle">2</div>
   <div class="content">
     <h2>Website Recommendations</h2>
     <ul>
@@ -931,7 +861,7 @@ Most institutions’ accessibility expectations will be informed by federal law,
 ---
 
 <div class="takeaway">
-  <div class="circle">3</div>
+  <div class="numcircle">3</div>
   <div class="content">
     <h2>Repository Recommendations</h2>
     <ul>
@@ -947,7 +877,7 @@ Most institutions’ accessibility expectations will be informed by federal law,
 ---
 
 <div class="takeaway">
-  <div class="circle">4</div>
+  <div class="numcircle">4</div>
   <div class="content">
     <h2>Social Media Recommendations</h2>
     <ul>
@@ -966,8 +896,8 @@ Most institutions’ accessibility expectations will be informed by federal law,
 
 <div class="shapes">
   <div class="triangle"></div>
-  </span>
-  </span>
+  <span class="circle"></span>
+  <span class="square"></span>
 </div>
 
 <div class="activity-title">Activity - Accessibility Review</div>

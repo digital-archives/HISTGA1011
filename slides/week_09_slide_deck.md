@@ -21,6 +21,41 @@ style: |
   border-bottom: 2px solid black;
   }
 
+  .code-block {
+    border-radius: 5px;
+    padding: 10px;
+    font-family: monospace;
+    display: inline-block;
+  }
+  .highlight {
+    font-weight: bold;
+    padding: 2px 4px;
+    border-radius: 3px;
+  }
+  .purple { background-color: #d8ccff; }
+  .green { background-color: #ccffd8; }
+  .orange { background-color: #ffd8a8; }
+  .red { background-color: #ffcccc; }
+  .cyan { background-color: #cceeff; }
+
+  .explanation-table {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  .explanation-item {
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 22px;
+  }
+  .purple-bg { background-color: #d8ccff; }
+  .green-bg { background-color: #ccffd8; }
+  .orange-bg { background-color: #ffd8a8; }
+  .red-bg { background-color: #ffcccc; }
+  .cyan-bg { background-color: #cceeff; }
+
   .pink-box {
     background-color: #d184c2;
     color: white;
@@ -665,68 +700,32 @@ Take a minute or two to look at the chunk of code on screen, and write out what 
 
 # <code>rsync</code> Syntax Breakdown
 
-<style>
-  .code-block {
-    border-radius: 5px;
-    padding: 10px;
-    font-family: monospace;
-    display: inline-block;
-  }
-  .highlight {
-    font-weight: bold;
-    padding: 2px 4px;
-    border-radius: 3px;
-  }
-  .purple { background-color: #d8ccff; }
-  .green { background-color: #ccffd8; }
-  .orange { background-color: #ffd8a8; }
-  .red { background-color: #ffcccc; }
-  .cyan { background-color: #cceeff; }
-
-  .explanation-table {
-    margin-top: 20px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-  }
-  .explanation-item {
-    text-align: center;
-    padding: 10px;
-    border-radius: 5px;
-    font-size: 22px;
-  }
-  .purple-bg { background-color: #d8ccff; }
-  .green-bg { background-color: #ccffd8; }
-  .orange-bg { background-color: #ffd8a8; }
-  .red-bg { background-color: #ffcccc; }
-  .cyan-bg { background-color: #cceeff; }
-</style>
-
 <!-- Syntax Highlighting -->
 <div class="code-block">
-  <br>$ rsync</span> 
-  -av</span> 
-  --progress</span> 
-  12345-bag.tar</span> 
-  /mnt/sam/archiveimages/electronic-records/</span>
+  <br>$ <span class="highlight purple">rsync</span></span> 
+  <span class="highlight green">-av</span> 
+  <span class="highlight orange">--progress</span> 
+  <span class="highlight red">12345-bag.tar</span> 
+  <span class="highlight cyan">/mnt/sam/archiveimages/electronic-records/</span>
 </div>
 
 <!-- Explanation Table -->
 <div class="explanation-table">
   <div class="explanation-item purple-bg">
-    <b>Using rsync</b><br> The program to run.
+    <b>Using the rsync program</b>
   </div>
   <div class="explanation-item green-bg">
-    <b>Preserve metadata</b><br> Use archive mode and show verbose output.
+    <b>Make an exact copy (-a)<br></b>
+    <b>Output a verbose log of actions (-v)</b>
   </div>
   <div class="explanation-item orange-bg">
-    <b>Show me progress</b><br> Display a progress bar during transfer.
+    <b>Display a progress bar</b>
   </div>
   <div class="explanation-item red-bg">
-    <b>Transfer this file</b><br> The file being copied.
+    <b>Transfer this folder</b>
   </div>
   <div class="explanation-item cyan-bg">
-    <b>To this directory</b><br> The destination folder.
+    <b>To this destination folder</b>
   </div>
 </div>
 
@@ -740,7 +739,80 @@ Take a minute or two to look at the chunk of code on screen, and write out what 
 
 # Question
 
-Now that you’ve seen demos of how terminals work—both on a modern Mac computer and on a 1990s computer using COMMAND.COM—why do you think programmers, archivists, and other professionals might choose to use the terminal instead of a proprietary software program like Adobe Photoshop?
+### Now that you’ve seen demos of how terminals work—both on a modern Mac computer and on a 1990s computer using COMMAND.COM—why do you think programmers, archivists, and other professionals might choose to use the terminal instead of a proprietary software program like Adobe Photoshop?
+
+---
+
+# ffmpeg
+
+---
+
+## Tool
+# ffmpeg
+
+Short for "Fast Forward MPEG" (but works with more than just MPEGs), ffmpeg is a multi-functional command line tool that allows you to quickly and efficiently work with media files.
+
+---
+
+# <code>ffmpeg</code> Syntax Breakdown
+
+<!-- Syntax Highlighting -->
+<div class="code-block">
+  <br>% <span class="highlight purple">ffmpeg</span></span> 
+  <span class="highlight green">-i</span> 
+  <span class="highlight orange">Mushroom_forest_video.webm</span> 
+  <span class="highlight red">Mushroom_forest_video-output.gif</span>
+</div>
+
+<!-- Explanation Table -->
+<div class="explanation-table">
+  <div class="explanation-item purple-bg">
+    <b>Using the ffmpeg program</b>
+  </div>
+  <div class="explanation-item green-bg">
+    ???
+  </div>
+  <div class="explanation-item orange-bg">
+    <b>Take this video</b>
+  </div>
+  <div class="explanation-item red-bg">
+    <b>And output it as a GIF</b>
+  </div>
+</div>
+
+<!--presenter notes
+
+Notice I've included ???. I don't want you to guess this time. Instead, I'd like for you to open up the <a href="https://www.ffmpeg.org/" target="_blank">ffmpeg</a>, click on the  "Documentation" section, click the "Command Line Tools Documentation > ffmpeg section (so you ultimately end up at https://ffmpeg.org/ffmpeg.html) and search for the meaning of the -i option.
+
+-->
+
+---
+
+# <code>ffmpeg</code> Syntax Breakdown
+
+<!-- Syntax Highlighting -->
+<div class="code-block">
+  <br>% <span class="highlight purple">ffmpeg</span></span> 
+  <span class="highlight green">-i</span> 
+  <span class="highlight orange">Mushroom_forest_video.webm</span> 
+  <span class="highlight red">Mushroom_forest_video-output.gif</span>
+</div>
+
+<!-- Explanation Table -->
+<div class="explanation-table">
+  <div class="explanation-item purple-bg">
+    <b>Using the ffmpeg program</b>
+  </div>
+  <div class="explanation-item green-bg">
+    Take this input file
+  </div>
+  <div class="explanation-item orange-bg">
+    <b>Take this video</b>
+  </div>
+  <div class="explanation-item red-bg">
+    <b>And output it as a GIF</b>
+  </div>
+</div>
 
 ---
 
