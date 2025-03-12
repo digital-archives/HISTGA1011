@@ -310,12 +310,14 @@ An **access file** (sometimes also "service file") is a derivative digital file 
 ---
 
 ## Definition
-# Uniform Resource identifier
+# Uniform Resource Identifier (URI)
 
-A **Uniform Resource Identifier (URI)** is a persistent and unique identifier that represents a specific resource or object within a system.
+A **Uniform Resource Identifier (URI)** (in the context of ASpace) is a sequence of characters that represents a specific resource record, an archival object, digital object, or other record.
 
 Example:
-https://archives.yale.edu/<b>repositories/11/resources/13623</b>
+<a href="https://archives.yale.edu/repositories/11/resources/13623"
+ target="_blank">https://archives.yale.edu/repositories/11/resources/13623</a>
+ <b>repositories/11/resources/13623</b> is the URI
 
 ---
 
@@ -347,88 +349,37 @@ In this screenshot, we are looking at the Carpenters interface “Files” tab, 
 
 ---
 
-## Definition  
-# Unique Resource Identifier (URI) - 1/2
-
-**Unique Resource Identifiers (URIs)** is an identifier for a resource.
-
-There are 2 types of URIs: **Uniform Resource Locators (URLs)** and **Uniform Resource Names (URNs)**.
-
----
-
-## Definition
-# Uniform Resource Locators (URL)
-
-**Uniform Resource Locators (URLs)** are a type of URI that "resolve" to a specific location on the web. Uses protocols like `http://` or `https://`.
-
----
-
-## Definition
-# Uniform Resource Name (URN)
-
-**Uniform Resource Names (URNs)** are a type of URI that gives a resource a name, but doesn't point to a specific location.
-
----
-
-
 ### Definition  
-## Persistent Identifier (PID)
+## Persistent Identifier (PID) - 1/2
 
-**Persistent identifiers (PIDs)** are a special kind of universal resource identifier (URI) that are designed to be unique, persistent and universal, even as systems or locations change over the long-term.
+**Persistent identifiers (PIDs)** are a type of Uniform Resource Identifier (URI) designed to provide a stable, long-term reference to a resource, ensuring it remains identifiable even if its location or system infrastructure changes.
 
-PIDs may utilize URNs and URLs in their structure, depending on the system used to make or "mint" them.
-
-<!--presenter notes
-
-A persistant identifier or "PID" is defined as an identifier that is unique, universal, and persistent.
-
-Break this down:
-- Unique: only used for one object and not repeated.
-- Persistent: remains available independently of individual institutions, systems or system implementations.
-- Universal: implies that the identifier is unique within a specific context. For example, a single identifier like "12345" is a non-unique identifier. Without knowing the specific context in which the identifier was produced or is being used, it may not be possible to ensure that it is globally unique. PIDs are assigned within a defined context to guarantee its uniqueness and distinguish it from other identifiers.
-
--->
+PIDs use **resolution systems** that translate the PID to actionable locations or data.
 
 ---
 
-## Definition  
-# Namespace
+## **Archival Resource Key (ARK) Syntax**
 
-In the context of persistent identifiers, a **namespace** is a domain that further helps clarify a resource. It’s a way to avoid confusion by ensuring that identifiers (like URIs, URLs, or PIDs) are disambiguated across different systems or contexts.
+`ark:/[Name Assigning Authority Number]/[Qualifier]` 
 
-<!--presenter notes
+Example: <a href="https://id.lib.uh.edu/ark:/84475/do2730bw52x" target="_blank">https://id.lib.uh.edu/ark:/84475/do2730bw52x</a><br><br>
 
--->
-
----
-
-## Archival Resource Key (ARK) Structure
-Syntax: `ark:/[namespace]/[pid-suffix]`
-Example: `ark:/84475/do2730bw52x`
-
-Resolving:
-Syntax: Central: PID-URI = [local resolver URL]/[ARK]
-Example: `https://id.lib.uh.du/ark:/84475/do2730bw52x`
-
-<!--presenter notes
-
-(Yes, this is a real ARK!)
-
-- ark:/ – This is the namespace for the ARK system. It designates that this identifier is part of the ARK system and serves as the prefix to distinguish it from other types of identifiers. It ensures that the identifier is understood as belonging to a specific naming scheme.
-- 84475 – This is the name assigning authority number that indicates which institution or organization is responsible for managing the identifier (in this case, the University of Houston).
-- do2730bw52x – This is the PID-suffix, which uniquely identifies a specific resource within that authority’s system.
-
--->
+#### **Resolution**  
+University of Houston's **local resolver** (`id.lib.uh.edu`) redirects to a digital collection resource URL.  
+<a href="https://digitalcollections.lib.uh.edu/concern/texts/0v838095w" target="_blank">https://digitalcollections.lib.uh.edu/concern/texts/0v838095w</a>
 
 ---
 
-## Handle Structure
-Syntax: `hdl.handle.net/[namespace]/[pid-suffix]`
-Example: `hdl.handle.net/10079/fa/beinecke.bookstore`
+## **Handle Syntax**  
 
-Resolving:
-Syntax: Central: PID-URI = [resolver URL]/[Handle]
-Example: https://hdl.handle.net/10079/fa/beinecke.bookstore
+`hdl.handle.net/[Namespace]/[PID-Suffix]`  
+
+Example: <a href="https://hdl.handle.net/10079/fa/beinecke.bookstore" target="_blank">https://hdl.handle.net/10079/fa/beinecke.bookstore</a><br><br>
+
+#### **Resolution**
+Handles are resolved through `hdl.handle.net`, directing users to the Yale finding aid resource.  
+
+<a href="https://archives.yale.edu/repositories/11/resources/13623" target="_blank">https://archives.yale.edu/repositories/11/resources/13623</a>  
 
 <!--presenter notes
 
@@ -441,11 +392,12 @@ Yale uses Handle, another kind of persistent identifier. It's pretty similar to 
 
 ### **Phase 5: Metadata Management**
 
-1. **Metadata Unit Staff** loads the **Carpenters-generated DIP** into the **Brays descriptive metadata editor**.
-2. **Metadata Unit Staff** create descriptive metadata for all objects. During editing, **Brays**:
-- Suggests controlled vocabulary terms from **Cedar**.
-- Updates the **metadata CSV file** in the DIP.
-- Color-codes fields as **required**, **recommended**, or **optional**.
+**Metadata Unit Staff**:
+- Loads the **Carpenters-generated Dissemination Information Package (DIP)** into the **Brays** descriptive metadata editor.
+- Create descriptive metadata for all objects. During editing, **Brays**:
+  - Suggests controlled vocabulary terms from **Cedar**.
+  - Updates the **metadata CSV file** in the DIP.
+  - Color-codes fields as **required**, **recommended**, or **optional**.
 
 ---
 
@@ -478,35 +430,24 @@ You can also use BRAYS to view a copy of the preservation file in full screen mo
 
 ---
 
-### **Access - HALLS End-User Interface Checklist**
+### **Phase 6: Access through HALLS End-User Interface**
 
-1. **HALLS** displays search results that convey:
-   - The **intellectual arrangement** of archival objects, including series, sub-series, and file-level titles and descriptions.
-   - The **physical instance** information, such as box and folder details.
+**HALLS** displays search results that convey the **intellectual arrangement** of archival objects, including series, sub-series, and file-level titles and descriptions., and the physical instance information, such as box and folder details.
 
-2. **HALLS** presents digital objects in two ways:
-   - Integrated within the **structure of the finding aid**.
-   - As a **standalone record** for direct access.
+ **HALLS** presents digital objects in two ways:
+   - Integrated within the structure of the finding aid.
+   - As a standalone record for direct access.
 
 ---
 
-# Try it out - UH Digital Collections - 1/3
+# Try it out - UH Digital Collections
 
 - Visit https://digitalcollections.lib.uh.edu/
 - Search for "Galveston 1915 Hurricane Photographs"
 - Click on any image that appears in results
 - Scroll and find the ARK, rights statement, and descriptive metadata
 - Click "View item in finding aid"
-- Locate your photograph in the context of the archival hierarchy (note: you can widen the "Collection organization" section using your mouse pointer)
-
----
-
-# Try it out - New-York Historial Society Museum & Library - 2/3
-
-- Visit https://findingaids.library.nyu.edu/nyhs/ms3216_rebuild_by_design/all/
-- Browse finding aid's contents. Focus specifically on: Extent, Abstract, Arrangement, Genres, and Conditions Governing Use, Processing Information
-- On the left-hand side of the screen, click "View Inventory". Find "Digital-Folder: 14"; read the Technical Requirements section.
-
+- Locate your photograph in the context of the finding aid hierarchy (note: you can widen the "Collection organization" section using your mouse pointer).
 
 ---
 
@@ -555,64 +496,11 @@ Read more here: https://blog.digitizedmedievalmanuscripts.org/iiif-international
 
 ---
 
-<div class="quote">
-“[Discovery and delivery] [d]escribes what people, processes, and systems do to support finding accessing and using material from archives and special collections.”
-</div>
-
-<div class="author">Maria Matienzo and Dinah Handel</div>
-<div class="work">Lighting the Way White Paper (2021)</div>
-
----
-
-## Question
+## **Question**
 
 Wiedeman discusses the challenge that current archival access and discovery platforms face in accommodating the hierarchical nature of archival description. He suggests that this difficulty may stem from users' preference for bibliographic-based systems which they find less confusing and more intuitive compared to the complex and specialized nature of archival description.
 
 __Should the design of these systems prioritize “traditional” finding aid structures or should they lean towards the formats that are more widely understood and accepted by users?__
-
----
-
-![Entry for Safiya Noble's Alogithms of Oppression book in a typical library catalog](img/week_08_slides6.png)
-
-<!--presenter notes
-
-This is an example of bibliographic description. Most library items (books, CDs, DVDs, whatever) use a 1-to-1 relationship between thing (book) and description (record).
-
--->
-
----
-
-![Entry for Records of the Forest Service archival collection in NARA's catalog](img/week_08_slides7.png)
-
-<!--presenter notes
-
-https://www.archives.gov/research/guide-fed-records/groups/095.html](https://www.archives.gov/research/guide-fed-records/groups/095.html
-
-Archival collections, on the other hand, do not have the same 1-to-1 relationship between a single item, and its description. Instead, we have different levels of description: collection, series, box, folder. Rarely, do you ever go beyond folder (at least, in terms of a “traditional” finding aid. However, we are seeing more systems emerging that connect digital items to finding aids).
-
--->
-
----
-
-![Screenshot of James Baldwin papers collection on NYPL's Archives & Manuscripts Portal](img/week_08_slides8.png)
-
-<!--presenter notes
-
-In this NYPL example, we are looking at the James Baldwin finding aid; specifically, the Correspondence series.
-
-Let’s flip this example over and look at the underlying XML.
-
--->
-
----
-
-![Underlying XML data for the James Baldwin papers finding aid](img/week_08_slides9.png)
-
-<!--presenter notes
-
-Here is the XML describing the Correspondence series of the James Baldwin collection. As you can see here (and as you saw within several examples presented during last week’s lecture on preservation metadata), XML is expressed hierarchically. You can see that plainly here: wherever there are indentations. What is powerful about this is that this allows for lower-level components, like folders, to inherit the metadata of higher-level components, like box, or series.
-
--->
 
 ---
 
@@ -630,43 +518,6 @@ Here is the XML describing the Correspondence series of the James Baldwin collec
 
 ---
 
-# Descriptive Practices
-
----
-
-# General Overview: ArchivesSpace Record Types
-
----
-
-- Repository
-  - Resource Record (i.e. "Arthur Russell papers")
-    - Component Records: Describe logical or physical parts of a resource that make up an aggregation of archival materials
-    - Instances: Embodiments of the same content in different media (example, a hand-written letter: ink on paper, microfilm image, digital object); can also refer to a top container (circulating unit)
-    - Digital Objects
-
----
-
-## Use Case: Archives @ Yale
-# Digital Object Record
-
-The **digital object record** holds technical and administrative metadata about digital objects. This type of record can be multi-layered (meaning, it can say something about a metadata record and its associated scanned pages)
-
----
-
-## Use Case: Archives @ Yale
-# Digital Object Record
-
-Though **digital object records** can be manually created by staff, most digital object records are created automatically by Preservica, which "talks" to ArchivesSpace via an API.
-
----
-
-## Use Case: Archives @ Yale
-# Digital Object Record
-
-The title of a digital object, in the case of Yale, uses the name of the SIP folder, and the Preservica-generated identifier.
-
----
-
 <div class="slide-title">Online Finding Aid Usability: 8 Takeaways</div>
 
 ---
@@ -674,7 +525,7 @@ The title of a digital object, in the case of Yale, uses the name of the SIP fol
 <div class="takeaway">
   <div class="numcircle">1</div>
   <div class="content">
-    <h2>Need for dynamic navigation</h2>
+    <h2>Dynamic navigation</h2>
     <p>Archival description requires sophisticated navigation options.</p>
   </div>
 </div>
@@ -682,16 +533,16 @@ The title of a digital object, in the case of Yale, uses the name of the SIP fol
 <div class="takeaway">
   <div class="numcircle">2</div>
   <div class="content">
-    <h2>It’s easy to get lost</h2>
-    <p>Users, especially those new to navigating finding aids, report feeling lost, confused, or unsure over where they are within the collection.</p>
+    <h2>Easy to get lost</h2>
+    <p>Users new to finding aids report feeling lost within hierarchy.</p>
   </div>
 </div>
 
 <div class="takeaway">
   <div class="numcircle">3</div>
   <div class="content">
-    <h2>Online availability is difficult to determine</h2>
-    <p>Users assume all components listed are available online and feel frustrated when they realize some or all parts are not available.</p>
+    <h2>Online availability difficult to determine</h2>
+    <p>Users incorrectly assume all components listed are digitized.</p>
   </div>
 </div>
 
@@ -700,7 +551,7 @@ The title of a digital object, in the case of Yale, uses the name of the SIP fol
 <div class="takeaway">
   <div class="numcircle">4</div>
   <div class="content">
-    <h2>Training and guidance needed</h2>
+    <h2>Training / guidance needed</h2>
     <p>Users would appreciate more training beyond a “Help” page.</p>
   </div>
 </div>
@@ -709,15 +560,15 @@ The title of a digital object, in the case of Yale, uses the name of the SIP fol
   <div class="numcircle">5</div>
   <div class="content">
     <h2>Too much jargon</h2>
-    <p>Certain words displayed in finding aids can lead to further confusion if required later on to successfully navigate the site.</p>
+    <p>Certain words are too domain-specific.</p>
   </div>
 </div>
 
 <div class="takeaway">
   <div class="numcircle">6</div>
   <div class="content">
-    <h2>Want quick results</h2>
-    <p>Rather than navigating a table of contents, users would rather a finding aid be navigable in the same way a modern search engine works.</p>
+    <h2>Need quick results</h2>
+    <p>Users prefer a UI similar to a modern search engine.</p>
   </div>
 </div>
 
@@ -727,7 +578,7 @@ The title of a digital object, in the case of Yale, uses the name of the SIP fol
   <div class="numcircle">7</div>
   <div class="content">
     <h2>Less texts, more lists</h2>
-    <p>Large blocks of text are distracting; users prefer hyperlinked, easy-to-read bulleted lists.</p>
+    <p>Large blocks of text are distracting; prefer lists.</p>
   </div>
 </div>
 
