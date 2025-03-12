@@ -433,7 +433,7 @@ You can also use BRAYS to view a copy of the preservation file in full screen mo
 
 ### **Phase 6: Access through HALLS End-User Interface**
 
-**HALLS** displays search results that convey the **intellectual arrangement** of archival objects, including series, sub-series, and file-level titles and descriptions., and the physical instance information, such as box and folder details.
+**HALLS** displays search results that convey the **intellectual arrangement** of archival objects, including series, sub-series, and file-level titles and descriptions, and the physical instance information, such as box and folder details.
 
  **HALLS** presents digital objects in two ways:
    - Integrated within the structure of the finding aid.
@@ -520,6 +520,9 @@ __Should the design of these systems prioritize “traditional” finding aid st
 ---
 
 <div class="slide-title">Online Finding Aid Usability: 8 Takeaways</div>
+
+These takeaways were derived from Joyce Celeste Chapman’s article “Observing Users: An Empirical Analysis of User Interaction with Online Finding Aids” in the Journal of Archival Organization (JAO), 8:4–30, 2010 (<a href="https://www.tandfonline.com/doi/abs/10.1080/15332748.2010.484361" target="_blank">DOI: 10.1080/15332748.2010.484361</a>)
+
 
 ---
 
@@ -655,7 +658,7 @@ These takeaways were derived from Joyce Celeste Chapman’s article “Observing
 ## Definition
 # Accessibility
 
-In the context of digital archives, **accessibility** commonly refers to the general discoverability and ease of use of online archival collection, enabling equal or equivalent access to archival facilities and services for people with disabilities, and minimizing or eliminating barriers. Accessibility should be integral to institutional cultures, workflows, and services.
+In the context of digital archives, **accessibility** commonly refers to the general discoverability and ease of use of online special collection, enabling equal or equivalent access to archival facilities and services for people with disabilities, and minimizing or eliminating barriers. Accessibility should be integral to institutional cultures, workflows, and services.
 
 <!--presenter notes 
 
