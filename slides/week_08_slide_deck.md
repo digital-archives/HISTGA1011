@@ -168,7 +168,6 @@ style: |
 
 # Today
 - **Settle in/Reminders/Announcements** (15 min)
-- **Discuss Last Week's Activity** (20 min)
 - **Lecture: Access and Discovery** (45 min)
 - **Break** (10 min)
 - **Start Weekly Activity** (70 min)
@@ -178,7 +177,9 @@ style: |
 
 # Announcements
 
-_Feel free to email me with any announcements you would like me to boost (upcoming conferences, webinars, trainings, or other events/topics of interest)._
+- Next week's class will be virtual
+- Next week's class will start a little bit later (5:30pm)
+- I will send each of you feedback on your Abstract. Feel free to schedule a time with me if you'd like to discuss your Final Project is more detail (or go over my feedback).
 
 ---
 
@@ -333,7 +334,7 @@ In this screenshot, we are looking at the Carpenters interface “Files” tab, 
 
 ### **Phase 3: Create SIP**
 
-1. **Carpenters** automatically moves **preservation files** from the local file system to a set of nested directories,organized into an Archivematica-compatible **Submission Information Package (SIP)**.
+1. **Carpenters** automatically moves **preservation files** from the local file system to a set of nested directories, organized into an Archivematica-compatible **Submission Information Package (SIP)**.
 3. The SIP structure replicates the **intellectual arrangement** of the original collection.
 
 ---
