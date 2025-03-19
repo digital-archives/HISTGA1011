@@ -245,7 +245,7 @@ Can you think of anything from your current work, or a past job, that was highly
 
 <!--presenter notes
 
-So why learn to code in the first place? There are a number of reasons, some more specific to just work, in general, and how to make it easier, and some more specific to digital preservation environments.
+So why learn to scripting in the first place? There are a number of reasons, some more specific to just work, in general, and how to make it easier, and some more specific to digital preservation environments.
 
 Some of the reasons I have listed here are
 Automate yours and other’s work: Reduce repetitive clicking, mousing, typing
@@ -266,14 +266,14 @@ Allow systems to “talk” to each other
 - Classes, workshops and webinars.
 - Conferences like code4lib, Bitcurator forum, Associate for Moving Image Archivists.
 - YouTube, TikTok, LinkedIn Learning.
-- Experimenting with your own computer.
+- Experimenting with your own projects.
 
 ---
 
 ## Definition
 # Terminal (1/2)
 
-A **terminal** is an application that provides a space for users to interact with their computer by typing commands. It acts as a bridge between you and the system, allowing you to perform tasks like navigating files, running programs, or managing processes.
+**Terminal** is an application that provides a way for users to interact with their computer by typing in commands. In response to commands, terminal returns outputs and messages.
 
 <!--presenter notes
 
@@ -286,26 +286,26 @@ Most operating systems, like Windows or Mac machines, come with some sort of ter
 ---
 
 ## Definition
-# Terminal (1/2)
+# Terminal (2/2)
 
-You can think of the terminal as a software application, like Adobe Photoshop. Just as Photoshop’s purpose is to provide a space for creating and editing image files, the terminal’s purpose is to provide a space for interacting with your computer’s command line (definition on the next slide!). It’s the program that opens the door to working with your system through text-based commands.
+You can think of terminal like a piece of software, like Adobe Photoshop. Just as Photoshop’s purpose is to provide a workspace for creating and editing images, the terminal’s purpose is to provide a space for interacting with your computer’s command line (definition in the next slide).
 
 ---
 
 ## Definition
-# Command Line (1/2)
+# Command Line
 
-The **command line** provides the user a text-based interface where users type instructions for the computer to execute. Each command you type tells the system what to do, such as opening up a file, navigating to a folder, or changing a file.
+The **command line** provides the user a text-based interface where users type instructions for the computer to execute. Each command you type tells the system what to do, like "Go to this folder".
 
 <!--presenter notes
 
 A really good introduction to automation is through what is known as the Command Line Interface or CLI (I prefer and often refer to it as just “the command line”).
 
-The command line is a pretty powerful tool, both in general, but also throughout the digital preservation and archives field. Why is that?
+The command line is a pretty powerful tool, and is used heavily by professionals in the digital archiving and preservation field.
 
-If you have a computer, you most likely have a way to access the command line for no cost at all. For example, all Mac and Windows machines come with a simple user interface into the command line. Meaning, there isn’t anything that you have to install to use the CLI. You can pretty much open up the CLI from your computer, and start using it today, if you wanted.This, I think, is one of the most important reasons why the command line is so great: it tends to not share the same fate as software applications, that often become unusable over time. Though this is anecdotal, I have been using the command line since I was a kid (I started using the computers in the late 1980s) and the command line has basically looked and operated in the same way since.
-Another reason why the command line is great is because it can do a lot, and is not specific to one type of kind of thing to do. Its non-specificity makes it universal.
-It is also easy to learn, in part because it has been around for so long, and has generally behaved the same way over time, therefore it is well documented. Basically, once you get the syntax down, and see a few examples, it’s fairly easy to turn around and just start using it.
+If you have a computer, you likely have a way to access the command line now.
+
+All Mac and Windows machines come with a terminal program. Meaning, there isn’t anything that you have to install to use the command line.
 
 -->
 
@@ -314,7 +314,18 @@ It is also easy to learn, in part because it has been around for so long, and ha
 ## Definition
 # Command Line (2/2)
 
-You can think of the command line as the terminal’s palette. For example, in an image editing program like Photoshop, you have tools to select a paintbrush color, texture, or size. Similarly, the command line provides a set of tools and actions you can use to interact with your computer, whether it’s navigating files,  running programs, or something else.
+You can think of the command line as the terminal’s palette. For example, in Photoshop, you have tools to apply a color, texture, or filter. Similarly, the command line provides a set of tools and actions you can use to interact with your computer in specific ways.
+
+And better yet, the majority of these tools are **open-source** and **free to use**.
+
+<!--presenter notes
+
+This, I think, is one of the most important reasons why the command line is great: it tends to not share the same fate as software applications, that often become obsolete over time. Though this is anecdotal, I have been using the command line since I was a kid (I started using the computers in the late 1980s) and the command line has basically looked and operated in the same way since.
+
+Another reason why the command line is great is because it can do a lot, and is not specific to one type of kind of thing to do. Its non-specificity makes it universal.
+It is also easy to learn, in part because it has been around for so long, and has generally behaved the same way over time, therefore it is well documented. Basically, once you get the syntax down, and see a few examples, it’s fairly easy to turn around and just start using it.
+
+-->
 
 ---
 
@@ -364,7 +375,7 @@ In the early days of computing, large mainframe computers were used to process a
 
 ---
 
-<img src="img/week_09_slides1.png" alt="An Informatics General computer programmer working in a cubicle at the company's New York City office. She is looking at Pascal language code for the TAPS product on an IBM 3270 terminal. Date: October 1, 1983" style="width: 75%; height: auto;">
+<img src="img/week_09_slides1.png" alt="An Informatics General computer programmer working in a cubicle at the company's New York City office. The programmer is looking at Pascal language code for the TAPS product on an IBM 3270 terminal. Date: October 1, 1983" style="width: 75%; height: auto;">
 
 <!--presenter notes
 
@@ -381,7 +392,6 @@ Most terminals on modern-day computers have a similar look and feel to that of t
 ---
 
 <img src="img/week_09_slides2.png" alt="An Informatics General computer programmer working in a cubicle at the company's New York City office. She is looking at Pascal language code for the TAPS product on an IBM 3270 terminal. Date: October 1, 1983" style="width: 100%; height: auto;">
-
 
 <!--presenter notes
 
@@ -743,14 +753,10 @@ Take a minute or two to look at the chunk of code on screen, and write out what 
 
 ---
 
-# ffmpeg
-
----
-
 ## Tool
 # ffmpeg
 
-Short for "Fast Forward MPEG" (but works with more than just MPEGs), ffmpeg is a multi-functional command line tool that allows you to quickly and efficiently work with media files.
+Short for "Fast Forward MPEG" (but works with more than just MPEGs), **ffmpeg** is a multi-functional command line tool that allows you to quickly and efficiently work with media files.
 
 ---
 
@@ -767,16 +773,16 @@ Short for "Fast Forward MPEG" (but works with more than just MPEGs), ffmpeg is a
 <!-- Explanation Table -->
 <div class="explanation-table">
   <div class="explanation-item purple-bg">
-    <b>Using the ffmpeg program</b>
+    <b>???</b>
   </div>
   <div class="explanation-item green-bg">
     ???
   </div>
   <div class="explanation-item orange-bg">
-    <b>Take this video</b>
+    <b>???</b>
   </div>
   <div class="explanation-item red-bg">
-    <b>And output it as a GIF</b>
+    <b>???</b>
   </div>
 </div>
 
@@ -813,6 +819,13 @@ Notice I've included ???. I don't want you to guess this time. Instead, I'd like
     <b>And output it as a GIF</b>
   </div>
 </div>
+
+---
+
+# ffmprovisr
+## <a href="https://amiaopensource.github.io/ffmprovisr/" target="_blank">https://amiaopensource.github.io/ffmprovisr/</a>
+
+_This app helps users through the command generation process so that more people can reap the benefits of FFmpeg._
 
 ---
 
