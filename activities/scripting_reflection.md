@@ -36,10 +36,10 @@ For this activity, you’ll explore a real-life example of code used by a reposi
 
 ### **3. Use scripting resources**
 You are encouraged to use any resource to help you understand the code:
-- **Documentation** (e.g., ArchivesSnake, ArchivesSpace)
+- **Preferred**: Official Python documentation such as the Python <a href="https://docs.python.org/3/library/functions.html" target="_blank">Built-in Functions document</a> (this will only contain details for information that comes with a standard Python install. For more specific libraries, you will need to consult other documentation such as <a href="https://github.com/archivesspace-labs/ArchivesSnake" target="_blank">ArchivesSnake</a>).
 - **Online Communities** (e.g., Stack Overflow)
 - **Video Tutorials** (e.g., YouTube)
-- **Generative AI** (e.g., chatbots)
+- **Generative AI** (e.g., chatbots - I don't exactly encourage this but it's inevitable that generative AI information will appear, even if you do a basic web browser search.)
 - **Cold browser search** (e.g. typing in and searching for "what does [this term/script step] mean?" in a browser application)
 
 **You don’t need to cite your sources**. The goal is to understand what the script is doing, not to write a formal paper.
