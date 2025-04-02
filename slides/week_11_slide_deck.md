@@ -242,7 +242,8 @@ style: |
 
 # Announcements
 
-Feel free to email me with any announcements you would like me to boost (upcoming conferences, webinars, trainings, or other events/topics of interest).
+* Job: <a href="https://nypl.pinpointhq.com/postings/9c777bd1-2968-414f-b429-f6ad5f8046bd" target="_blank">Archivist (Specialist II) - Schomburg Center</a>
+* 
 
 ---
 
@@ -270,7 +271,6 @@ An **analog signal** is a continuous wave that represents information through va
 ---
 
 <img src="img/week_12_ripple.webp" style="width: 50%; height: auto;">
-
 Analog = smooth wave
 
 <!--presenter notes
@@ -289,9 +289,9 @@ What do we mean by "analog signal"? When you hear "analog", imagine the waves an
 
 <!--presenter notes
 
-When sound is made, similar to waves on a pond, it ripples through particles in the air in a particular shape, form and frequency.
+When sound is made, similar to waves on a pond, it ripples through a medium of particles in the air in a particular shape, form and frequency.
 
-This is a diagram of a waveform, showing its characteristics likes peaks and troughs, and cycles through time. The combination of characteristics is what produces a specific type, quality and tone, like high- or low-pitch, loud or quiet, a certain or combination of notes.
+This is a diagram of a waveform, showing its characteristics likes peaks and troughs, and cycles through time. The combination of characteristics is what produces a specific sound type, quality and tone, like high- or low-pitch, loud or quiet, a certain or combination of notes.
 
 -->
 
@@ -306,7 +306,7 @@ This is a diagram of a waveform, showing its characteristics likes peaks and tro
 
 <!--presenter notes
 
-When a vinyl record, made of plastic, is made, its surface is etched into, in the shape and form of the sound waves that it captured from a recording. This physical imprint is analagous to the waves produced by the instruments and voices.
+When a vinyl record, made of plastic, is made, its surface is etched into, in the shape and form of the sound waves that it captured from a recording. This physical imprint is analagous to the waves produced by the instruments and voices (hence why analog is called "analog".)
 
 -->
 
@@ -326,7 +326,9 @@ Record grooves being analagous to "real life" sound waves make tools like IRENE 
 
 <!--
 
-Analog signals look different from digital signals. Compared to an analog signal, which is a continuous wave, digital information looks more like buildings on a city block, or a staircase.
+Analog signals "look" different from digital signals. Compared to an analog signal, which is a continuous wave, digital information looks more like buildings on a city block, or a staircase. Note, this is an abstraction of how signals actually look!
+
+This is because when you record something using a digital recording device, it takes samples at intervals, and each sample is represented by a binary digit (1 or 0). The higher the sample rate, the more binary data.
 
 Keep this in mind as we go through how analog recording works. We are going to use the example of a 1940s analog video camera.
 

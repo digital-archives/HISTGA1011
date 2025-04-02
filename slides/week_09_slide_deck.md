@@ -893,7 +893,6 @@ Extracting file signature information from unknown files
 
 ## Definition
 # Python
-—
 
 **Python** is a high-level, interpreted programming language that was first released in 1991 by Guido van Rossum. It is designed to be easy to read and write, with a simple syntax and minimalistic approach to coding, making it a popular language for beginners and experts alike.
 
@@ -911,7 +910,6 @@ Python's popularity has grown rapidly over the years, and it is now one of the m
 
 ## Definition
 # Programming Library
-—
 
 A **programming library** (aka "library") is a collection of pre-built functions that can be imported and used in your own Python code, rather than having to write everything from scratch.
 
@@ -994,7 +992,7 @@ for root, dir_list, file_list in os.walk(top):
 | **Code** | **Pseudocode** |
 | :-: | :-: |
 | `import os` | Import the **operating system module** to work with files and folders. |
-| `top = "D:\\example_folder_01\\collection"` | Define **path** to the folder you want to analyze; store in variable called `top`. |
+| `top = "D:\\example_folder_01\\collection"` | Let the value "top" equal the folder path. |
 | `for root, dir_list, file_list in os.walk(top):` | For each **folder (`root`)**, its **subdirectories (`dir_list`)**, and its **files (`file_list`)** starting from the top folder... |
 
 ---

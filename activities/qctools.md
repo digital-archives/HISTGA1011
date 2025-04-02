@@ -10,10 +10,14 @@ has_children: true
 
 ## Introduction
 
+_This Activity involves downloading and installing a software tool, QCTools, to your computer. If you do not wish to install a software program, please scroll to the bottom of the Activity description to find an alternative Activity to follow. Either Activity works!_
+
+---
+
 In this activity you will be downloading, installing and using QCTools, a program that provides a way to analyze audio/visual transfer “artifacts”.
 
 **Setup steps**
-- Install the QCTools program (GUI): <https://bavc.org/programs/preservation/preservation-tools/>
+- Install the QCTools program (GUI): <https://bavc.org/programs/preservation/preservation-tools/ target="_blank">
 - Download the video clip in the [A/V Preservation shared folder](https://drive.google.com/drive/folders/1im0K8WUMlUDFHWGxE3jDFQ113O6NOtvt) locally. Note: this video was transcoded from a VHS tape.
 - Open the <a href="https://sustainableheritagenetwork.org/system/files/atoms/file/QCTools%20Manual%20(Printable%20Version).pdf" target="_blank">Moving Image Preservation of Puget Sound (MIPoPS) QCTools Manual</a>.
 - Open the terminal/command line and QCTools in another.
@@ -58,10 +62,15 @@ _Review the file’s metadata_
 
 - Review the results. Note whether your QCTools report counts were way under, over or average, as far as the QCTools cheat sheet indicates are ideal limits/ranges for certain aspects of the video signal.
 
-**Submit your reflection in Brightspace**
+**Activity Steps - Alternative**
 
-Create a text document and share it with me in Brightspace. In it, include this information:
+If you prefer, you can perform an alternative activity that does not involve installing QCTools.
 
-- Aside from tracking, describe one other a/v “artifact” or any other issues you noticed with the picture or sound, noticed either by watching the video, and/or applying filters and/or looking over the metadata results alongside the QCTools Cheat Sheet.
+- Download the video clip in the [A/V Preservation shared folder](https://drive.google.com/drive/folders/1im0K8WUMlUDFHWGxE3jDFQ113O6NOtvt) locally. Note: this video was transcoded from a VHS tape.
+- Using a video player, watch the video. You will notice immediately that there are some issues with the tape. Note what you observe.
+- Open the A/V Artifact Atlas (<http://www.avartifactatlas.com/tags.html>) and click “Browse by Formats”. Select VHS.
+- In the list of artifacts that appear, try and find at least 2 artifacts listed that appear in the video. Make note of each.
+- Next, visit the <a href="https://archive.org/details/xfrcollective" target="_blank">XFR Collective collection on the Internet Archive</a>. Click around and try and find a digital video transferred from VHS that contains at least one additional artifact. Make note of that as well.
 
-- If you were performing this transfer yourself, how would you go about correcting or adjusting the video signal, and/or correcting the video post-transfer?
+**Prepare to share your findings**
+Next class, we will speak together as a group about your experience either using QCTools and/or the A/V Artifact Atlas. In Brightspace, please submit a brief reflection on your experience with this Activity.
