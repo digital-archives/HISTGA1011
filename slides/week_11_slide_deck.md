@@ -225,7 +225,7 @@ style: |
 
 ---
 
-## Week 12
+## Week 11
 # Moving Image and Audio Preservation
 
 ---
@@ -244,6 +244,10 @@ style: |
 
 * Job: <a href="https://nypl.pinpointhq.com/postings/9c777bd1-2968-414f-b429-f6ad5f8046bd" target="_blank">Archivist (Specialist II) - Schomburg Center</a>
 * 
+
+---
+
+# Lecture: Moving Image and Audio Preservation
 
 ---
 
@@ -766,7 +770,7 @@ Lossy compression could be appropriate for service copies, while lossless compre
 ## Definition
 # MPEG-1 Audio Layer 3 (MP3)
 
-**MPEG-1 Audio Layer 3 (MP3)** is a type of _lossy_ codec, and uses perceptual audio coding comrpession technology.
+**MPEG-1 Audio Layer 3 (MP3)** is a type of _lossy_ codec, and uses perceptual audio coding compression technology.
 
 <!--presenter notes
 
