@@ -8,7 +8,7 @@ has_children: false
 
 # Week 11: Moving Image and Audio Preservation
 
-<!-- <a href="https://digital-archives.github.io/HISTGA1011/slides/week_11_slide_deck.html" target="_blank">Slides</a> -->
+<a href="https://digital-archives.github.io/HISTGA1011/slides/week_11_slide_deck.html" target="_blank">Slides</a>
 
 {: .label .label-yellow }
 Due
