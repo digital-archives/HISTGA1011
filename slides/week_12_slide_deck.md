@@ -274,7 +274,7 @@ style: |
 # Announcements
 
 * Final paper due: May 8 (Thursday)
-* Next week is Guest Speaker Day (Karly Wildenhaus and Nicole Greenhouse). Please come prepared with questions!
+* Next week is Guest Speaker Day (Karly Wildenhaus and Nicole Greenhouse). Please come prepared with questions, and please fill out this form: <a href="https://forms.gle/F3F7AZrRgU2KUXY9A" target="_blank">https://forms.gle/F3F7AZrRgU2KUXY9A</a>
 ---
 
 # Archiving Web-Based Electronic Records
