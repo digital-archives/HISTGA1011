@@ -496,7 +496,7 @@ _Browse an email archive._
 </div>
 
 <div class="author">Howard Besser</div>
-<div class="work">Archiving Websites Containing Streaming Media”, 2017</work>
+<div class="work">Archiving Websites Containing Streaming Media”, 2017</div>
 
 <!--presenter notes
 
