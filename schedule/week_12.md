@@ -8,7 +8,7 @@ has_children: false
 
 # Week 12: Web and Email Archiving
 
-<!-- <a href="https://digital-archives.github.io/HISTGA1011/slides/week_13_slide_deck.html" target="_blank">Slides</a> -->
+<a href="https://digital-archives.github.io/HISTGA1011/slides/week_12_slide_deck.html" target="_blank">Slides</a>
 
 {: .label .label-yellow }
 Due
