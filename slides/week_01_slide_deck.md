@@ -1,18 +1,8 @@
 ---
 marp: true
-theme: gaia
 size: 16:9
+theme: rose-pine-dawn
 paginate: true
-style: |
-  img {
-  max-width: 100%;
-  max-height: 90%;
-  height: auto;
-  width: auto;
-  display: block;
-  margin: 0 auto;
-  }
-
 ---
 
 ## Week 1 
@@ -40,19 +30,15 @@ _Feel free to email me with any announcements you would like me to boost (upcomi
 
 # Ground Rules
 
-This class is intended to be a welcoming and productive space.
-
-All questions, including repeat questions, or questions with “obvious” answers, are welcome and encouraged.
+This class is intended to be a welcoming and productive space. All questions, including repeat questions, or questions with “obvious” answers, are welcome and encouraged.
 
 ---
 
 # About Me
 
-My name is Mary Kidd. My pronouns are she/her. You can call me Mary in class, over email, or anywhere else.
+My name is Mary Kidd (`she/her`). You can call me Mary in class, over email, or anywhere else.
 
-I work at Yale University in their Information Technology (IT) Department, as their Technical Lead for Archival Systems. I just started 2 months ago!
-
-I also consult on and have led various digital preservation projects.
+I work at Yale University in the Library Information Technology (LIT) Department. My role: Technical Lead for Archival Systems.
 
 My email: [mary.kidd@nyu.edu](mailto:mary.kidd@nyu.edu)
 
@@ -60,8 +46,8 @@ My email: [mary.kidd@nyu.edu](mailto:mary.kidd@nyu.edu)
 
 # Introduce yourself
 
-* What program are you in and how far along are you?
-* What do you hope to learn in this course?
+- What program are you in and how far along are you?
+- What do you hope to learn in this course?
 
 ---
 
@@ -89,11 +75,11 @@ I want to step you through basic concepts to do with what digital information is
 
 ---
 
-# Question
+# Questions
 
-What does the concept of "digital archives" mean to you?
+What does digital archives...
 
-* What does it bring to mind?
+* ...bring to mind?
 * Where have you encountered a "digital archive"?
 
 ---
@@ -142,7 +128,7 @@ Lyons, Bertram. "Digital Preservation." In The Digital Archives Handbook: A Guid
 ## Definition
 # Data Object
 
-A **data object** is anything encoded by a sequence of binary digits (bits or bitstreams), whose meaningful interpretation depends on a combination of decoding processes and contextual factors.
+A **data object** is anything that encodes and/or decodes information encoded in binary format.
 
 Examples: a computer file, a software application, a hard disk, a floppy disk, a thumb drive, a flip phone
 
@@ -155,15 +141,13 @@ Let's unpack this definition by thinking a bit about Data Objects we encounter t
 
 # Data Object: Relationships & Layers
 
-**Data Object**
+**Data Objects** require → **Other Data Objects**
 ↓ Requires
-**Other Data Objects**
-↓ Requires
-**Specialized Knowledge** (documentation, training, user communities)
+**Specialized Knowledge** (documentation, training, users)
 ↓ Maintains
-**Accessibility, Preservation**
+**Accessibility, Preservation, Stewardship**
 
-If these relationships are not maintained, the result is obsolescence, inaccessibility, data loss.
+If these relationships are not maintained, the result is obsolescence, inaccessibility, data loss, meaning loss.
 
 <!-- 
 
@@ -176,15 +160,13 @@ All Data Objects, whether it's a single file, or an entire application, will req
 
 # Data Object Example
 
-**Data Object: Lotus file (.123)**
-↓ Requires
-**Lotus software**
+**Data Object:** Lotus file (.123)** requires → **Lotus software**
 ↓ Requires
 **DOS operating system**
 ↓ Requires
 **DOS emulator**
 ↓ Requires
-**Specialized Knowledge: Lotus manual, DOS OS manual
+**Specialized Knowledge: How to work Lotus, how to use OS
 
 <!-- presenter notes
 
@@ -198,9 +180,9 @@ All Data Objects, whether it's a single file, or an entire application, will req
 
 # Question
 
-Can you think of an example from your life or work where you use a sequence of numbers to encode something?
+Can you think of an example from your life or work where you use a sequence of numbers to mean something else?
 
-Example: A US zip code encodes geographic areas using 5 numbers.
+Examples: A US zip code encodes geographic areas using 5 numbers; A barcode encodes the price of a product
 
 <!-- presenter notes
 
@@ -217,9 +199,8 @@ These encodings are akin to how computers encode information into binary. Basica
 ## Definition
 # Binary
 
- Binary is an encoding scheme that uses:
-- A "base-2" system consisting of **binary digits** or **bits** (0 and 1)
-- Place value
+Binary is a counting system that uses two **binary digits** (aka **"bits"**, 0 and 1) and place values to represent values.
+
 
 <!-- presenter notes
 
@@ -234,7 +215,7 @@ Along with bit values, binary also uses place values to represent information. P
 # Base-10
 ## 0 1 2 3 4 5 6 7 8 9
 
-10 possible decimal representations
+The number system we know is known as "Base-10" because it uses 10 digits (0-9) and place values to represent numeric values.
 
 <!-- presenter notes
 
@@ -258,34 +239,244 @@ By combining decimals and using place values, we can represent any number.
 
 | Digit | 1 | 2 |
 | :-:   | :-: | :-: |
-| Place | 10^1 (Tens) | 10^0 (Ones) |
+| Place | Tens | Ones |
+| Weight | 10¹ | 10⁰ |
 
-- The digit `1` is in the **tens place** ( 10^1 ) and represents \( 1 × 10 = 10 \).
-- The digit `2` is in the **ones place** ( 10^0 ) and represents ( 2 × 1 = 2 ).
+Each digit has a **place** and each place has a **weight** based on "powers" of 10 (possible values 0-9).
+ 
+So:
+`1 × 10¹` + `2 × 10⁰` → `10 + 2 = 12`
 
-**Decimal Value**: (1 × 10^1 ) + (2 × 10^0) = 12
+We start at the **right** (10⁰) and move left, increasing the exponent by 1 each time.
 
 ---
 
 | Digit | 6 | 4 | 7 | 8 | 3 | 4 | 1 |
 | :-:   | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| Place | 10^6 | 10^5 | 10^4 | 10^3 | 10^2 | 10^1 | 10^0 |
+| Weight | 10⁶ | 10⁵ | 10⁴ | 10³ | 10² | 10¹ | 10⁰ |
 
-- `6` in the **millions place** (6 × 1,000,000 = 6,000,000)
-- `4` in the **hundred thousands place** (4 × 100,000 = 400,000)
-- `7` in the **ten thousands place** (7 × 10,000 = 70,000)
-- `8` in the **thousands place** (8 × 1,000 = 8,000)
-- `3` in the **hundreds place** (3 × 100 = 300)
-- `4` in the **tens place** (4 × 10 = 40)
-- `1` in the **ones place** (1 × 1 = 1)
-
----
-
-1010100110110001110100010111010110100001111010101101000010111101011001110101011001011011101010111001101010010101100101010110101001011010101011100101110110110100101110101010100110110001110100010111010110100001111010101101000010111101011001110101011001011011101010111001101010010101100101010110101001011010101011100101110110110100101110101010100110110001110100010111010110100001111010101101000010111101011001110101011001011011101010111001101010010101100101010110101001011010101011100101110110110100101110101010100110110001110100010111010110100001111010101101000010111101011001110101011001011011101010111001101010010101100101010110101001011010101011100101110110110100101110101010
+`6` → millions → 6 × 10⁶ = 6,000,000  
+`4` → hundred-thousands → 4 × 10⁵ = 400,000  
+`7` → ten-thousands → 7 × 10⁴ = 70,000  
+`8` → thousands → 8 × 10³ = 8,000  
+`3` → hundreds → 3 × 10² = 300  
+`4` → tens → 4 × 10¹ = 40  
+`1` → ones → 1 × 10⁰ = 1
 
 <!--presenter notes
 
-If you were to encounter a bunch of binary values, this is what it would look like: a giant stream of bits, with little rhyme or reason at least from the perspective of a human. This is sometimes called a "bitstream".
+As in our "12" example, for 6,478,341, each digit’s **place** has a **weight**, a power of 10, that we subconsciously add together. We may even insert a nice comma in there to separate chunks of 3 places to make large numbers like this easier to read.
+
+-->
+
+---
+
+| Bit | 1 | 
+| :-: | :-: |
+| Weight | 2⁰ |
+
+Like base-10, binary uses **place value**, read from right to left, starting from 0.
+
+Each bit is multiplied by its **weight** (2 to the power of the placement).
+
+---
+
+# Question: Why do you suppose computers prefer a Base-2 as opposed to a Base-10 system?
+
+---
+
+<img src="img/week_01_chip.jpg" alt="NMOS Hybrid Integrated Circuit">
+
+#### Caption: NMOS Hybrid Integrated Circuit.
+
+<!--presenter notes
+
+https://commons.wikimedia.org/wiki/File:HP_1813-0091_top_case_removed.jpg#Summary
+
+-->
+
+---
+
+# Answer: Computers use electricity, and electrical signals naturally fall into two states: ON or OFF, which makes Base-2/binary a perfect fit.
+
+---
+
+| Bit | 0 | 1 |
+| :-: | :-: | :-: |
+| Weight | 2² | 2¹ | 2⁰ |
+
+Like base-10, decimal values can represented by stringing together multiple bits. Discrete-length groups of bits are known as **bytes**.
+
+_The example above is a 2-bit byte._
+
+---
+
+## The Simplest Computer: 1-Bit
+
+■ = ON  □ = OFF
+
+[ □ ] or [ ■ ]
+
+### Possible states: 2¹ (2 possible bits, to the power of 1 bit)
+
+<!--presenter notes
+
+The simplest computer would be a 1-bit system—it can only be in one of two states: ON or OFF, just like a light switch. So here, we have two possible states.
+
+-->
+
+---
+
+
+## The Simplest Computer: 2-bit
+
+| Bits     | Visual  | Binary | Decimal | Lightbulb Setting |
+| -------- | ------- | ------ | ------- | ----------------- |
+| \[ □ □ ] | OFF     | `00`   | 0       | No light          |
+| \[ □ ■ ] | DIM     | `01`   | 1       | Low brightness    |
+| \[ ■ □ ] | REGULAR | `10`   | 2       | Medium brightness |
+| \[ ■ ■ ] | BRIGHT  | `11`   | 3       | High brightness   |
+
+### Possible States: 2² = 4 combinations
+
+<!--presenter notes
+
+A slightly more sophisticated computer—one that is 2-bit—can represent up to four unique values. In this example, let’s imagine it controls a lightbulb. The bulb can be off (00), dim (01), medium (10), or bright (11). Note: the assignment of these byte values is arbitrary. So, Dim could be 11, bright can be 00. It doesn't matter, and at least at this moment we just need to pretend the computer knows how to interpret the byte as a particular sort of instruction.
+
+This illustrates a key idea: the more bits a system has, the more states it can represent. These states could correspond to anything—brightness levels, directions (up, down, left, right), actions (jump, skip, hop, walk), whatever the system is designed to interpret. The bits don’t “know” what they mean; we give them meaning.
+
+-->
+
+---
+
+# Question: If a bit is just voltage a lot (1) or a little (0) voltage, how does the computer "know" if a bit equals a specific state (on or off, green or blue, up or down, or whatever?)
+
+---
+
+# Answer: Circuits!
+
+---
+
+# Binary -> Decimal
+
+| Binary value | Decimal value | | Binary value | Decimal value |
+| :-: | :-: | :-: | :-: | :-: |
+| 0000 0000 | 0 | | 0000 0110 | 6 |
+| 0000 0001 | 1 | | 0000 0111 | 7 |
+| 0000 0010 | 2 | | 0000 1000 | 8 |
+| 0000 0011 | 3 | | 0000 1001 | 9 |
+| 0000 0100 | 4 | |  |
+| 0000 0101 | 5 | |  |
+
+
+<!--presenter notes
+
+Here is a sample list of binary values, corresponding to decimal values, in an 8-bit system. In the right-most column, we have 10 decimals, 0 through 9, and their corresponding binary values. In an 8-bit system, the complete list would show 256 possible values.
+
+You may have noticed that, there seems to be a pattern in the placement of 1s and 0s for each decimal going up in succession. Bytes are not arbitrarily assigned to decimals: there is a mathematical system behind that make it so, if you take a binary value, you can reverse-engineer it to determine, in a few steps, the decimal value it represents.
+
+-->
+
+---
+
+| Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+
+
+ This byte represents the decimal number 7.
+How do we get from 0000 0111 to 7?
+
+---
+
+| Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+
+ First question to ask : How many ones (1s) are there?
+
+<!--presenter notes 
+
+Each bit has its own place or position, which is mapped out on the slide. In an 8-bit system, we have 8 possible place values, starting from place 0, up to place 7. Places are read from right to left.
+
+-->
+
+---
+
+| Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+
+ Answer : 3
+
+---
+
+| Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
+
+ Second question to ask : For each 1 we've found, what are their place values?
+
+---
+
+| Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
+
+ Answer:  0, 1 and 2
+
+---
+
+| Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
+| Weight | 2^7 | 2^6 | 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0 |
+
+ Third question to ask : For each 1 we've found, what is their weight ?
+
+---
+
+| Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
+| Weight | 2^7 | 2^6 | 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0 |
+
+ Answer : 4, 2 and 1, which add up to 7
+
+<!-- presenter notes
+
+What do we mean by weight?
+
+A good example comes from the base-10 decimal system we are most familiar with.
+
+-->
+
+---
+
+| Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
+| Weight | 2^7 | 2^6 | 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0 |
+| Value | 0 | 0 | 0 | 0 | 0 | 4 | 2 | 1 |
+
+The last step is to add the weight values together:
+4 + 2 + 1 = 7
+
+Byte value 00000111 = Decimal number 7
+
+<!--presenter notes
+
+- The 1 in Place 0 carries a weight of 2^0 or 1. We multiply by 1 to get a Value of 1
+- The 1 in Place 1 carries a weight of 2^1 or 2. We multiply by 1 to get a Value of 2.
+- The 1 in Place 2 carries a weight of 2^2 or 4. We multiply 4 by 1 to get a Value of 4.
+- Add together all values: 4 + 2 + 1 = 7
+
+-->
+
+---
+
+101010011011000111010001011101011010000111101010110100001011110101100111010101100101101110101011100110101001010110010101011010100101101010101110010111011011010010111010101010011011000111010001011101011010000111101010110100001011110101100111010101100101101110101011100110101001010110010101011010100101101010101110010
+
+<!--presenter notes
+
+If you were to encounter a bunch of binary digits or "bits", this is what it would look like: a giant nonsensical wall of 0s and 1s, with little rhyme or reason at least from the perspective of a human. A bunch of 1s and 0s is sometimes called a "bitstream".
 
 -->
 
@@ -459,121 +650,6 @@ Let’s pretend that the particular system we are using to render Pikachu is an 
 Each of these three values from 0 to 255 can be translated further into what are known as hexadecimal values. Hexadecimal values come in two alphanumeric character pairs, each which represent 4 bits. Since we are using an 8-bit system, each of the red, green and blue values corresponds to a 2-character hex value.
 
 Hex values can then be broken down into bits. In this case, F stands for 1111, so two Fs equals 11111111.
-
--->
-
----
-
-# Binary -> Decimal
-
-| Binary value | Decimal value | | Binary value | Decimal value |
-| :-: | :-: | :-: | :-: | :-: |
-| 0000 0000 | 0 | | 0000 0110 | 6 |
-| 0000 0001 | 1 | | 0000 0111 | 7 |
-| 0000 0010 | 2 | | 0000 1000 | 8 |
-| 0000 0011 | 3 | | 0000 1001 | 9 |
-| 0000 0100 | 4 | |  |
-| 0000 0101 | 5 | |  |
-
-
-<!--presenter notes
-
-Here is a sample list of binary values, corresponding to decimal values, in an 8-bit system. In the right-most column, we have 10 decimals, 0 through 9, and their corresponding binary values. In an 8-bit system, the complete list would show 256 possible values.
-
-You may have noticed that, there seems to be a pattern in the placement of 1s and 0s for each decimal going up in succession. Bytes are not arbitrarily assigned to decimals: there is a mathematical system behind that make it so, if you take a binary value, you can reverse-engineer it to determine, in a few steps, the decimal value it represents.
-
--->
-
----
-
-| Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-
-
- This byte represents the decimal number 7.
-How do we get from 0000 0111 to 7?
-
----
-
-| Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-
- First question to ask : How many ones (1s) are there?
-
-<!--presenter notes 
-
-Each bit has its own place or position, which is mapped out on the slide. In an 8-bit system, we have 8 possible place values, starting from place 0, up to place 7. Places are read from right to left.
-
--->
-
----
-
-| Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-
- Answer : 3
-
----
-
-| Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
-
- Second question to ask : For each 1 we've found, what are their place values?
-
----
-
-| Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
-
- Answer:  0, 1 and 2
-
----
-
-| Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
-| Weight | 2^7 | 2^6 | 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0 |
-
- Third question to ask : For each 1 we've found, what is their weight ?
-
----
-
-| Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
-| Weight | 2^7 | 2^6 | 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0 |
-
- Answer : 4, 2 and 1, which add up to 7
-
-<!-- presenter notes
-
-What do we mean by weight?
-
-A good example comes from the base-10 decimal system we are most familiar with.
-
--->
-
----
-
-| Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
-| Weight | 2^7 | 2^6 | 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0 |
-| Value | 0 | 0 | 0 | 0 | 0 | 4 | 2 | 1 |
-
-The last step is to add the weight values together:
-4 + 2 + 1 = 7
-
-Byte value 00000111 = Decimal number 7
-
-<!--presenter notes
-
-- The 1 in Place 0 carries a weight of 2^0 or 1. We multiply by 1 to get a Value of 1
-- The 1 in Place 1 carries a weight of 2^1 or 2. We multiply by 1 to get a Value of 2.
-- The 1 in Place 2 carries a weight of 2^2 or 4. We multiply 4 by 1 to get a Value of 4.
-- Add together all values: 4 + 2 + 1 = 7
 
 -->
 
