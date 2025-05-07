@@ -353,7 +353,16 @@ This illustrates a key idea: the more bits a system has, the more states it can 
 
 ---
 
-# Answer: Circuits!
+## Definition
+# Logic Gate
+
+A **logic gate** is an electric circuit with two inputs and an output. It receives two incoming electric currents, compares them, and sends on a new, outgoing electric current depending on what it finds.
+
+<!--presenter notes
+
+https://www.explainthatstuff.com/logicgates.html
+
+-->
 
 ---
 
