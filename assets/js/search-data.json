@@ -141,14 +141,14 @@
   },"20": {
     "doc": "Data Object",
     "title": "Activity Overview",
-    "content": "For this assignment, you will select a data object (see the week’s slides for a definition, if you’re unsure what this means) and conduct a detailed analysis of its background, development, and usage. Your goal is to explore and articulate the “layers of complexity” required to make the object accessible and understandable, both for humans and machines. You will present your findings to the class next week during a 3-5 minute lightning talk, addressing this question: . “In 40 years, when this data object has become obsolete, what will a future archivist need to extract and preserve the information it contains?” . By “layers of complexity,” consider the components that support access to the object, such as: . | File formats: What is the data object’s file format, and how does it influence usability and preservation? | Software: What tools or programs are needed to open or interact with the object? | Hardware: Are specific devices or environments required for its use or emulation? | Knowledge: What specialized expertise or context would a future archivist need to interpret and preserve its contents? | . ",
+    "content": "For this assignment, you will select a data object (review definition of data object in this week’s slides) and conduct a detailed analysis of its background, development, and usage. Your goal is to explore and articulate the “layers of complexity” required to make the object accessible and understandable, both for humans and machines. You will present your findings to the class next week during a 3-5 minute lightning talk, addressing this question: “In 40 years, when this data object has become obsolete, what will a future archivist need to extract and preserve the information it contains?” . By “layers of complexity,” consider the components that support access to the object, such as: . | File formats: What is the data object’s file format, and how does it influence usability and preservation? | Software: What tools or programs are needed to open or interact with the object? | Hardware: Are specific devices or environments required for its use or emulation? | Knowledge: What specialized expertise or context would a future archivist need to interpret and preserve its contents? | . ",
     "url": "/HISTGA1011/activities/data_object#activity-overview",
     
     "relUrl": "/activities/data_object#activity-overview"
   },"21": {
     "doc": "Data Object",
     "title": "Steps",
-    "content": ". | Choose a data object Examples of a data object include a 3D model file, an old software application, a video file extracted from an early 2000s flip phone, a video game contained on a series of CDs, a thumb drive containing a copy of your dissertation… really anything in the world that is encoded digitally works for this activity. | Document your findings in Airtable Open and complete the Data Object Airtable Form. This will generate a visual “card” in the shared Airtable gallery (please note, this will be visible to both me, and the rest of the class). Use this card to summarize key details about your chosen data object. | Submit your activity summary to Brightspace Since the majority of your activity work will be in Airtable, please just submit the URL to your Airtable gallery card (to get the URL, simply click on the card and copy/paste the URL) to the Assignments section of Brightspace. | Prepare to share for our next class Be ready to deliver a brief 3-5 minute overview of your data object, using your Airtable card as your “slide”. In your overview, address the following: . | Obsolescence: In 40 years, do you think this object will still be more or less accessible and understandable in the same way it is today or when it was originally created and used? Why or why not? | Future users: What additional context or resources (e.g., documentation, software, emulators) would a future archivist, scholar, or casual user, need or require to make sense of your data object? | . | . ",
+    "content": ". | Choose a data object Examples of a data object include a 3D model file, an old software application, a video file extracted from an early 2000s flip phone, a video game contained on a series of CDs, a thumb drive containing a copy of your dissertation… really anything in the world that is encoded digitally works for this activity. | Document your findings in Airtable Open and complete the Data Object Airtable Form. This will generate a visual “card” in the shared Airtable gallery (please note, this will be visible to both me, and the rest of the class). Use this card to summarize key details about your chosen data object. | Submit your activity summary to Brightspace Since the majority of your activity work will be in Airtable, please just submit the URL to your Airtable gallery card (to get the URL, simply click on the card and copy/paste the URL that appears in the browser bars) to the Assignments section of Brightspace. | Prepare to share for our next class Be ready to deliver a brief 3-5 minute overview of your data object, using your Airtable card as your “slide”. In your overview, address the following: . | Obsolescence: In 40 years, do you think this object will still be more or less accessible and understandable in the same way it is today or when it was originally created and used? Why or why not? | Future users: What additional context or resources (e.g., documentation, software, emulators) would a future archivist, scholar, or casual user, need or require to make sense of your data object? | . | . ",
     "url": "/HISTGA1011/activities/data_object#steps",
     
     "relUrl": "/activities/data_object#steps"
@@ -314,82 +314,82 @@
     
     "relUrl": "/syllabus/#textbook"
   },"45": {
-    "doc": "Weekly Activities",
-    "title": "Weekly Activities",
-    "content": "Most weeks, you will be assigned to work on an activity in-class. Each activity will be accompanied by a set of instructions, and in some cases, materials (such as a folder containing some files, a worksheet, or something else). ",
-    "url": "/HISTGA1011/activities/",
-    
-    "relUrl": "/activities/"
-  },"46": {
-    "doc": "Course Schedule & Readings",
-    "title": "Course Schedule",
-    "content": "| Week Number | Date of Class | Topic / Assignment Due | Weekly ActivityDue following Sunday | . | Week 1 | January 22 | Introduction to Digital Archives | Data Object | . | Week 2 | January 29 | OAIS Conceptual Model | Breaking BagIt | . | Week 3 | February 5 | Processing Born-Digital Archives | Corrupting a Bitstream | . | Week 4 | February 12 | Digital Repository Systems | Tech Stack | . | Week 5 | February 19 | Storage Infrastructures | Archivematica Sandbox | . | Week 6 | February 26 | Digital Preservation Metadata | Digital Preservation Metadata | . | Week 7 | March 5 | Digitization | Imaging and Conservation Group Activity | . | Week 8 | March 12 | Access and DiscoveryFinal Project Abstract due | The User’s Experience | . | Week 9 | March 19 | Automation and ScriptingClass will be held virtually | Scripting Reflection | . | Week 10 | March 26 | No Class | Spring Break |   | . | Week 11 | April 2 | Moving Image and Audio Preservation | QCTools | . | Week 12 | April 9 | Web and Email Archiving | Podcast Archaeology | . | Week 13 | April 16 | Guest Speaker DayClass will be held virtually |   | . | Week 14 | April 23 | No Class: Work on your final projects | Optional: Schedule a consult with me | . | Week 15 | April 30 | Last day of classFinal presentations due | Final paper due Thursday, May 8 | . ",
-    "url": "/HISTGA1011/schedule/#course-schedule",
-    
-    "relUrl": "/schedule/#course-schedule"
-  },"47": {
-    "doc": "Course Schedule & Readings",
-    "title": "Course Schedule & Readings",
-    "content": " ",
-    "url": "/HISTGA1011/schedule/",
-    
-    "relUrl": "/schedule/"
-  },"48": {
-    "doc": "Grading - Points Breakdown",
-    "title": "Grading - Points Breakdown",
-    "content": "Students are evaluated using a points-based system totaling 100 across two main areas: Weekly Activities (70 points) and Final Project (30 points). ",
-    "url": "/HISTGA1011/grading/",
-    
-    "relUrl": "/grading/"
-  },"49": {
-    "doc": "Grading - Points Breakdown",
-    "title": "Weekly Activities (70 points)",
-    "content": "| Activity | Points | . | Weekly Assignments | 60 | . | Participation (includes activity discussions) | 10 | . | Total | 70 | . Notes on Weekly Assignments . The Imaging and Conservation Group Activity is worth 10 points, while all other assignments are worth 3 points each. ",
-    "url": "/HISTGA1011/grading/#weekly-activities-70-points",
-    
-    "relUrl": "/grading/#weekly-activities-70-points"
-  },"50": {
-    "doc": "Grading - Points Breakdown",
-    "title": "Final Project (30 points)",
-    "content": "| Item | Points | . | Abstract | 5 | . | Paper | 15 | . | Presentation | 10 | . | Total | 30 | . Extra Credit Opportunity . Students can earn up to 3 extra credit points by reaching out to a repository and setting up a time to talk with an archivist or a preservation/digital archives practitioner. To receive credit, students must, in their abstract, turn in a summary of their conversation with the project abstract (minimum 300 words) and reflect on how the discussion informs their final project. Extra credit will be applied to the Final Project score. ",
-    "url": "/HISTGA1011/grading/#final-project-30-points",
-    
-    "relUrl": "/grading/#final-project-30-points"
-  },"51": {
     "doc": "Final Project",
     "title": "Final Project",
     "content": " ",
     "url": "/HISTGA1011/final_project/",
     
     "relUrl": "/final_project/"
-  },"52": {
+  },"46": {
     "doc": "Final Project",
     "title": "Overview",
     "content": "For your final project, you will develop a Digitization and Access Plan (hereafter the “Plan”) for a group of materials that are not currently available online—even though these materials may be accessible in person (e.g., in a reading room). This project will consist of a written paper and an accompanying presentation, which you will deliver on the last day of class. To guide your progress, you will submit an abstract mid-way through the semester as a check-in to ensure you have identified a suitable group of materials to work with, and are on track with your project. See the class schedule for due date details. ",
     "url": "/HISTGA1011/final_project/#overview",
     
     "relUrl": "/final_project/#overview"
-  },"53": {
+  },"47": {
     "doc": "Final Project",
     "title": "Scenario",
     "content": "You are an archivist working in the special collections department of [organization/institution of your choosing]. As part of an initiative to enhance digital access to the institution’s archives, your department has identified a candidate collection containing records that are currently inaccessible to users online that they wish to make available. Recognizing your expertise in digital archives workflow management, the Director of Special Collections has appointed you as Project Lead. Your task is to analyze how your institution currently handles digital access and preservation, write out a plan describing how these selected materials will be made accessible online, and present this plan to the Special Collections Committee. ",
     "url": "/HISTGA1011/final_project/#scenario",
     
     "relUrl": "/final_project/#scenario"
-  },"54": {
+  },"48": {
     "doc": "Final Project",
     "title": "📌 Selection Criteria",
     "content": "To ensure a well-rounded project, your candidate collection records must meet the following criteria: . | Existing online finding aid: Your chosen collection must be documented in an established online archival finding aid. | Materials not currently available online: Although the collection is held by an institution and described in an online finding aid, the materials themselves must not have been made accessible through a digital library or collection website. You will need to verify this by browsing available finding aids and confirming that the materials remain unavailable. | Selection scope: You are not required to propose a plan for every component of a finding aid. Instead, focus on a deliberate selection of materials (e.g., one series, or one specific type of format, or one intellectual grouping) to develop your plan. | Diverse media: While inclusion of some flat materials (e.g., photographs, maps, manuscripts) is acceptable, your project cannot focus exclusively on paper-based items that only require scanning or photography. Your project must incorporate at least one non-paper-based format, such as: . | Magnetic recorded media (e.g., audiotapes, videotapes, floppy disks, entire hard drives) | Optical Media (e.g., CDs, DVDs) | Born-digital records requiring file format migration or emulation (e.g., software, video games, database records, research datasets) | . | . ",
     "url": "/HISTGA1011/final_project/#-selection-criteria",
     
     "relUrl": "/final_project/#-selection-criteria"
-  },"55": {
+  },"49": {
     "doc": "Final Project",
     "title": "Project Goals",
     "content": "Your final paper and presentation should: . | Demonstrate the significance of the materials you selected and why they should be prioritized for access. | Articulate the technical, labor, and logistical considerations involved in not only getting the materials online, but also promoting their discovery and access. | Explain how the project aligns with institutional priorities and contributes to broader digital preservation and archiving efforts. | . This project is an opportunity to apply digital archiving and preservation principles in a real-world context, critically engage with selection and access strategies, and develop skills in planning and advocacy within archival institutions. ",
     "url": "/HISTGA1011/final_project/#project-goals",
     
     "relUrl": "/final_project/#project-goals"
+  },"50": {
+    "doc": "Grading - Points Breakdown",
+    "title": "Grading - Points Breakdown",
+    "content": "Students are evaluated using a points-based system totaling 100 across two main areas: Weekly Activities (70 points) and Final Project (30 points). ",
+    "url": "/HISTGA1011/grading/",
+    
+    "relUrl": "/grading/"
+  },"51": {
+    "doc": "Grading - Points Breakdown",
+    "title": "Weekly Activities (70 points)",
+    "content": "| Activity | Points | . | Weekly Assignments | 60 | . | Participation (includes activity discussions) | 10 | . | Total | 70 | . Notes on Weekly Assignments . The Imaging and Conservation Group Activity is worth 10 points, while all other assignments are worth 3 points each. ",
+    "url": "/HISTGA1011/grading/#weekly-activities-70-points",
+    
+    "relUrl": "/grading/#weekly-activities-70-points"
+  },"52": {
+    "doc": "Grading - Points Breakdown",
+    "title": "Final Project (30 points)",
+    "content": "| Item | Points | . | Abstract | 5 | . | Paper | 15 | . | Presentation | 10 | . | Total | 30 | . Extra Credit Opportunity . Students can earn up to 3 extra credit points by reaching out to a repository and setting up a time to talk with an archivist or a preservation/digital archives practitioner. To receive credit, students must, in their abstract, turn in a summary of their conversation with the project abstract (minimum 300 words) and reflect on how the discussion informs their final project. Extra credit will be applied to the Final Project score. ",
+    "url": "/HISTGA1011/grading/#final-project-30-points",
+    
+    "relUrl": "/grading/#final-project-30-points"
+  },"53": {
+    "doc": "Course Schedule & Readings",
+    "title": "Course Schedule",
+    "content": "| Week Number | Date of Class | Topic / Assignment Due | Weekly ActivityDue following Sunday | . | Week 1 | January 22 | Introduction to Digital Archives | Data Object | . | Week 2 | January 29 | OAIS Conceptual Model | Breaking BagIt | . | Week 3 | February 5 | Processing Born-Digital Archives | Corrupting a Bitstream | . | Week 4 | February 12 | Digital Repository Systems | Tech Stack | . | Week 5 | February 19 | Storage Infrastructures | Archivematica Sandbox | . | Week 6 | February 26 | Digital Preservation Metadata | Digital Preservation Metadata | . | Week 7 | March 5 | Digitization | Imaging and Conservation Group Activity | . | Week 8 | March 12 | Access and DiscoveryFinal Project Abstract due | The User’s Experience | . | Week 9 | March 19 | Automation and ScriptingClass will be held virtually | Scripting Reflection | . | Week 10 | March 26 | No Class | Spring Break |   | . | Week 11 | April 2 | Moving Image and Audio Preservation | QCTools | . | Week 12 | April 9 | Web and Email Archiving | Podcast Archaeology | . | Week 13 | April 16 | Guest Speaker DayClass will be held virtually |   | . | Week 14 | April 23 | No Class: Work on your final projects | Optional: Schedule a consult with me | . | Week 15 | April 30 | Last day of classFinal presentations due | Final paper due Thursday, May 8 | . ",
+    "url": "/HISTGA1011/schedule/#course-schedule",
+    
+    "relUrl": "/schedule/#course-schedule"
+  },"54": {
+    "doc": "Course Schedule & Readings",
+    "title": "Course Schedule & Readings",
+    "content": " ",
+    "url": "/HISTGA1011/schedule/",
+    
+    "relUrl": "/schedule/"
+  },"55": {
+    "doc": "Weekly Activities",
+    "title": "Weekly Activities",
+    "content": "Most weeks, you will be assigned to work on an activity in-class. Each activity will be accompanied by a set of instructions, and in some cases, materials (such as a folder containing some files, a worksheet, or something else). ",
+    "url": "/HISTGA1011/activities/",
+    
+    "relUrl": "/activities/"
   },"56": {
     "doc": "Home",
     "title": "Home",

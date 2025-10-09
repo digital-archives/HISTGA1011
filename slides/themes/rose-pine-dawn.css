@@ -147,3 +147,8 @@ img {
     display: block;
     margin: 0 auto;
   }
+
+  pre code,
+  .hljs {
+    font-size: 28pt !important;
+  }
