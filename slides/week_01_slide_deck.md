@@ -75,7 +75,7 @@ I want to step you through basic concepts to do with what digital information is
 
 ---
 
-# Questions (with no wrong answers)
+# **Question (with no wrong answers)**
 
 What does digital archives bring to mind for you?
 
@@ -90,14 +90,16 @@ Where have you encountered a digital archive?
 ## Definition
 # Digital Archiving
 
-**Digital archiving** can refer to the specific archival processing practice of accessioning, appraising, arranging, and describing **born-digital** archival materials. The people who do this work are sometimes referred to as **digital archivists** (but sometimes they are also called just "archivists" or something else entirely).
+**Digital archiving** can refer to the specific archival processing practice of accessioning, appraising, arranging, and describing **born-digital** archival materials.
+
+The people who do this work are sometimes referred to as **digital archivists** (but sometimes they are also called just "archivists" or something else entirely).
 
 ---
 
 ## Definition
 # Digital Archive
 
-A **digital archive** can refer to an archive, usually with an online access platform, consisting of some or all born-digital _or_ digital surrogates (digital representations of physical materials). This is also sometimes referred to as a **digital library** or **digital collections**.
+A **digital archive** or **digital repository** can refer to an archive consisting of some or all born-digital _or_ digital surrogates (digital representations of "born-physical" materials). Digital archives are often presented on online platforms called **digital libraries** or **digital collections**.
 
 ---
 
@@ -140,11 +142,11 @@ Let's unpack this definition by thinking a bit about Data Objects we encounter t
 
 # Data Object: Relationships & Layers
 
-**Data Objects** require → **Other Data Objects**
-↓ Requires
+**A Data Object** requires → **Data Objects**
+↓ requires
 **Specialized knowledge** (documentation, training, users)
-↓ Maintains
-**Accessibility, Preservation, Stewardship**
+↓ maintained by
+**Accessibility, preservation, stewardship**
 
 If these relationships are not maintained, the result is obsolescence, inaccessibility, data loss, meaning loss.
 
@@ -159,13 +161,9 @@ All Data Objects, whether it's a single file, or an entire application, will req
 
 # Data Object Example
 
-**Data Object:** Lotus file (.123)** requires → **Lotus software**
+**Data Objects:** Lotus file requires → Lotus software  → requires DOS operating system → requires DOS emulator
 ↓ Requires
-**DOS operating system**
-↓ Requires
-**DOS emulator**
-↓ Requires
-**Specialized Knowledge: How to work Lotus, how to use OS
+**Specialized Knowledge:** How to use Lotus to lay out designs; How to use DOS; Historical context of layout software
 
 <!-- presenter notes
 
@@ -179,9 +177,9 @@ All Data Objects, whether it's a single file, or an entire application, will req
 
 # Question
 
-Can you think of an example from your life or work where you use a sequence of numbers to mean something else?
+Can you think of an example from your life or work where you used a standardized sequence of numbers to represent something?
 
-Examples: A US ZIP code encodes geographic areas using 5 numbers; A barcode encodes the price of a product
+_Examples:_ A US ZIP code represents geographic areas using 5 numbers; A barcode represents the SKU of a product
 
 <!-- presenter notes
 
@@ -202,7 +200,7 @@ This is where zip codes come in handy. They're not random groups of five letters
 ## Definition
 # Binary
 
-Binary is a counting system that uses two **binary digits** (aka **"bits"**, 0 and 1) and place values to represent values.
+Binary is a counting system that uses two **binary digits** (1 and 0) also known as **"bits"** and place values to represent values.
 
 
 <!-- presenter notes
@@ -284,7 +282,8 @@ Each bit is multiplied by its **weight** (2 to the power of the placement).
 
 ---
 
-# Question: Why do you suppose computers prefer a Base-2 as opposed to a Base-10 system?
+# **Question**
+# Why do you suppose computers prefer a Base-2 as opposed to a Base-10 system?
 
 ---
 
@@ -308,7 +307,9 @@ https://commons.wikimedia.org/wiki/File:HP_1813-0091_top_case_removed.jpg#Summar
 | :-: | :-: | :-: |
 | Weight | 2² | 2¹ | 2⁰ |
 
-Like base-10, decimal values can represented by stringing together multiple bits. Discrete-length groups of bits are known as **bytes**.
+Like base-10, decimal values can represented by stringing together multiple bits.
+
+Discrete-length groups of bits are known as **bytes**.
 
 _The example above is a 2-bit byte._
 
@@ -352,7 +353,8 @@ This illustrates a key idea: the more bits a system has, the more states it can 
 
 ---
 
-# Question: If a bit represents a lot (1) or a little (0) voltage, how does the computer "know" if a bit equals a specific state (on or off, green or blue, up or down, or whatever?)
+# **Question**
+# If a bit represents a lot (1) or a little (0) voltage, how does the computer "know" if a bit equals high or low?
 
 ---
 
@@ -376,7 +378,7 @@ A **transistor** is a tiny switch that uses voltage to control the flow of elect
 
 ---
 
-# Transistors are the building blocks of logic gates, each acting like a checkpoint that checks a certain condition, and produces a specific electrical output depending on the combination of input signals it receives and how the circuit is wired.
+# **Transistors** are the building blocks of logic gates, each acting like a checkpoint that checks a certain condition, and produces a specific electrical output depending on the combination of input signals it receives and how the circuit is wired.
 
 ---
 `AND` Logic Gate
@@ -429,7 +431,7 @@ _The `XOR` gate outputs `1` only if **one** input is `1` and the other is `0`.  
 
 ---
 
-# This is to show you that logic (if this than that) is physical.
+# This is to show you that logic (if this than that) is based in the physical world of electricity.
 
 ---
 
@@ -601,10 +603,6 @@ Similar to how we insert commas every three places into decimal numbers to make 
 <!--presenter notes
 Here is what our very random bitstream looks like, when translating binary 8-bit bytes to decimal, using the method we just followed.
 -->
-
----
-
-WORLD'S TINIEST COMPUTER
 
 ---
 
