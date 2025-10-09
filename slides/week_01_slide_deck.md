@@ -30,7 +30,7 @@ _Feel free to email me with any announcements you would like me to boost (upcomi
 
 # Ground Rules
 
-This class is intended to be a welcoming and productive space. All questions, including repeat questions, or questions with “obvious” answers, are welcome and encouraged.
+This class is intended to be a welcoming and productive space. All questions, including repeat questions, or questions with obvious answers, are welcome and encouraged. Repetition = learning.
 
 ---
 
@@ -75,23 +75,22 @@ I want to step you through basic concepts to do with what digital information is
 
 ---
 
-# Questions
+# Questions (with no wrong answers)
 
-What does digital archives...
+What does digital archives bring to mind for you?
 
-* ...bring to mind?
-* Where have you encountered a "digital archive"?
+Where have you encountered a digital archive?
 
 ---
 
-# Digital archives/archiving has many meanings, influenced by the context in which they are discussed.
+# ~Digital archives/archiving can have many meanings~
 
 ---
 
 ## Definition
 # Digital Archiving
 
-**Digital archiving** can refer to the specific archival processing practice of accessioning, appraising, arranging, and describing exclusively **born-digital** archival materials. The workers who do this work are sometimes referred to as **digital archivists**.
+**Digital archiving** can refer to the specific archival processing practice of accessioning, appraising, arranging, and describing **born-digital** archival materials. The people who do this work are sometimes referred to as **digital archivists** (but sometimes they are also called just "archivists" or something else entirely).
 
 ---
 
@@ -143,7 +142,7 @@ Let's unpack this definition by thinking a bit about Data Objects we encounter t
 
 **Data Objects** require → **Other Data Objects**
 ↓ Requires
-**Specialized Knowledge** (documentation, training, users)
+**Specialized knowledge** (documentation, training, users)
 ↓ Maintains
 **Accessibility, Preservation, Stewardship**
 
@@ -182,15 +181,19 @@ All Data Objects, whether it's a single file, or an entire application, will req
 
 Can you think of an example from your life or work where you use a sequence of numbers to mean something else?
 
-Examples: A US zip code encodes geographic areas using 5 numbers; A barcode encodes the price of a product
+Examples: A US ZIP code encodes geographic areas using 5 numbers; A barcode encodes the price of a product
 
 <!-- presenter notes
 
-Other examples:
-- Area code of a telephone number
-- DD/MM/YYYY format date
+In this next section, we will talk about how binary digits are used by digital objects to encode digital information. Before we do so, it's good to take a pause and think broadly about how we generally use numbers to represent things in the world.
 
-These encodings are akin to how computers encode information into binary. Basically, binary is made up of numbers, in a specific sequence, that represent things in the world.
+My favorite example of this is a zip code. In the United States at least, a zip code is composed of five numbers that enables the postal service to quickly identify where a piece of mail is bound or returning.
+
+Take a second here to think through why a zip code might be more efficient than a non-numeric system to represent a place in the world: that is, writing out the specific location where a piece of mail is heading.
+
+A good example might be disambiguation between street addresses. Let's say I'm sending a letter to 11 91st Street. Though I haven't counted, there are likely many, many 11 91st Streets throughout the United States. Now, you can further clarify where the mail is going by writing out the city and state, which we commonly do when we prepare mail to be sent. However, this still might not be enough information to clarify where this mail is bound. For example, in New York City, where we live, there are several 11 91st Streets, depending on the borough: there's one in Queens and another in Brooklyn and an 11 East 91st Street in Manhattan. And, maybe this is a very New York-y thing, but I've received letters to me where the city and state is listed as New York, New York rather than Brooklyn: technically, both are true, since Brooklyn is a part of New York City.
+
+This is where zip codes come in handy. They're not random groups of five letters; instead, they are structured in a way that indicates with increasing granularity where something is going. The first digit represents a certain group of U.S. states, the second and third digits together represent a region in that group (or perhaps a large city), and the fourth and fifth digits represent a group of delivery addresses within that region.
 
 -->
 
@@ -204,9 +207,9 @@ Binary is a counting system that uses two **binary digits** (aka **"bits"**, 0 a
 
 <!-- presenter notes
 
-Binary is an encoding scheme that represents things with binary digits, aka "bits", represented by 1 or 0. Because there are only two possible values, binary is considered a base-2 system.
+Binary is an encoding scheme that, instead of using the decimal digits (0-9) we are used to using to represent information, uses binary digits (1 and 0), known more commonly as "bits". So, a 1 is a bit, and a 0 is a bit, and that's all there is in a binary system. 1 or 0. Since there are only two possible values used, binary is considered what's known as a base-2 system.
 
-Along with bit values, binary also uses place values to represent information. Place values are a term we were all probably introduced to in elementary or middle school. So, let's switch gears and look at the encoding scheme we are most used to: The base-10 decimal system.
+Along with bits, binary also uses place values to represent information. Place values are a term we were all probably introduced to in elementary or middle school. So, let's switch gears and look at the encoding scheme we are most used to: The base-10 decimal digit system.
 
 -->
 
@@ -349,7 +352,7 @@ This illustrates a key idea: the more bits a system has, the more states it can 
 
 ---
 
-# Question: If a bit is just voltage a lot (1) or a little (0) voltage, how does the computer "know" if a bit equals a specific state (on or off, green or blue, up or down, or whatever?)
+# Question: If a bit represents a lot (1) or a little (0) voltage, how does the computer "know" if a bit equals a specific state (on or off, green or blue, up or down, or whatever?)
 
 ---
 
@@ -363,6 +366,89 @@ A **logic gate** is an electric circuit with two inputs and an output. It receiv
 https://www.explainthatstuff.com/logicgates.html
 
 -->
+
+---
+
+## Definition
+# Transistor
+
+A **transistor** is a tiny switch that uses voltage to control the flow of electricity.
+
+---
+
+# Transistors are the building blocks of logic gates, each acting like a checkpoint that checks a certain condition, and produces a specific electrical output depending on the combination of input signals it receives and how the circuit is wired.
+
+---
+`AND` Logic Gate
+
+```
+INPUT A:  [ ]---+
+               |
+             [AND] ---> OUTPUT
+               |
+INPUT B:  [ ]---+
+```
+_If Input A is (`1`) AND Input B is (`1`) then output a voltage (`1`) otherwise do not output a voltage (`0`)_.
+
+---
+`OR` Logic Gate
+
+```
+INPUT A:  [ ]---+
+               |
+             [AND] ---> OUTPUT
+               |
+INPUT B:  [ ]---+
+```
+_If Input A is (`1`) OR Input B is (`1`) then output a voltage (`1`) otherwise do not output a voltage (`0`)_.
+
+---
+`NOT` Logic Gate
+
+```
+INPUT:   [ ] ---> [NOT] ---> OUTPUT
+
+```
+_The `NOT` gate flips the output.
+If the input is `1` output a `0`.
+If the input is `0` output a `1`._
+
+---
+
+`XOR` ("Exclusive Or") Logic Gate
+
+```
+INPUT A: [ ]──┐
+│
+INPUT B: [ ]──┘
+↓
+[XOR] ---> OUTPUT
+```
+
+_The `XOR` gate outputs `1` only if **one** input is `1` and the other is `0`.  If both inputs are the **same**, the output is `0`. "One or the other but not both"_
+
+---
+
+# This is to show you that logic (if this than that) is physical.
+
+---
+
+# Simplest Calculator
+
+## Let's pretend we have a very simple calculator that can only add 2 binary digits together at a time and will output their sum on a screen. This calculator *could* be built using an XOR logic gate.
+
+---
+
+| Input A | Input B | SUM (A XOR B) | CARRY (A AND B) |
+|---------|---------|---------------|-----------------|
+|    0    |    0    |       0       |        0        |
+|    0    |    1    |       1       |        0        |
+|    1    |    0    |       1       |        0        |
+|    1    |    1    |       0       |        1        |
+
+---
+
+# Multiple logic gates can be used to store and represent higher and higher decimal numbers.
 
 ---
 
@@ -382,7 +468,7 @@ https://www.explainthatstuff.com/logicgates.html
 
 Here is a sample list of binary values, corresponding to decimal values, in an 8-bit system. In the right-most column, we have 10 decimals, 0 through 9, and their corresponding binary values. In an 8-bit system, the complete list would show 256 possible values.
 
-You may have noticed that, there seems to be a pattern in the placement of 1s and 0s for each decimal going up in succession. Bytes are not arbitrarily assigned to decimals: there is a mathematical system behind that make it so, if you take a binary value, you can reverse-engineer it to determine, in a few steps, the decimal value it represents.
+You may have noticed that, there seems to be a pattern in the placement of 1s and 0s for each decimal going up in succession. Bytes are not arbitrarily assigned to decimals: there is a mathematical system, corresponding to chains of logic gates that are the physical manifestation of math (adding, subtracting, etc.) behind that make it so, if you take a binary value, you can reverse-engineer it to determine, in a few steps, the decimal value it represents.
 
 -->
 
@@ -393,14 +479,15 @@ You may have noticed that, there seems to be a pattern in the placement of 1s an
 
 
  This byte represents the decimal number 7.
-How do we get from 0000 0111 to 7?
+
+*Let's step through how we get from 0000 0111 to 7.*
 
 ---
 
 | Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 
- First question to ask : How many ones (1s) are there?
+ First question to ask: How many *ones* (1s) are there?
 
 <!--presenter notes 
 
@@ -413,7 +500,7 @@ Each bit has its own place or position, which is mapped out on the slide. In an 
 | Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 
- Answer : 3
+ Answer: There are three 1s.
 
 ---
 
@@ -421,7 +508,7 @@ Each bit has its own place or position, which is mapped out on the slide. In an 
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
 
- Second question to ask : For each 1 we've found, what are their place values?
+ Second question to ask: For each 1 we've found, *what are their place values*?
 
 ---
 
@@ -429,16 +516,7 @@ Each bit has its own place or position, which is mapped out on the slide. In an 
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
 
- Answer:  0, 1 and 2
-
----
-
-| Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
-| Weight | 2^7 | 2^6 | 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0 |
-
- Third question to ask : For each 1 we've found, what is their weight ?
+ Answer: Their place values are 0, 1 and 2.
 
 ---
 
@@ -447,7 +525,18 @@ Each bit has its own place or position, which is mapped out on the slide. In an 
 | Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
 | Weight | 2^7 | 2^6 | 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0 |
 
- Answer : 4, 2 and 1, which add up to 7
+ Third question to ask: For each 1 we've found, what is their *weight*? (Weight = 2, raised to the power of the place value)
+
+---
+
+| Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
+| Weight | 2^7 | 2^6 | 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0 |
+| Weight (calculated) | NA | NA | NA | NA | NA | 4 | 2 | 1 |
+
+
+ Answer: Each 1's weight is 4, 2 and 1.
 
 <!-- presenter notes
 
@@ -463,9 +552,9 @@ A good example comes from the base-10 decimal system we are most familiar with.
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
 | Weight | 2^7 | 2^6 | 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0 |
-| Value | 0 | 0 | 0 | 0 | 0 | 4 | 2 | 1 |
+| Weight (calculated) | NA | NA | NA | NA | NA | 4 | 2 | 1 |
 
-The last step is to add the weight values together:
+What is the sum of all weight values added together?
 4 + 2 + 1 = 7
 
 Byte value 00000111 = Decimal number 7
@@ -491,21 +580,31 @@ If you were to encounter a bunch of binary digits or "bits", this is what it wou
 
 ---
 
-10101001 10110001 11010001 01110101  
-10100001 11101010 11010000 10111101  
-01100111 01010110 01011011 10101011  
-10011010 10010101 10010101 10101010  
-10101001 10110001 11010001 01110101  
-10100001 11101010 11010000 10111101  
-01100111 01010110 01011011 10101011  
-10011010 10010101 10010101 10101010  
-10101001 10110001 11010001 01110101  
-10100001 11101010 11010000 10111101  
+01010111 01001111 01010010 01001100
+01000100 00100111 01010011 00100000
+01010100 01001001 01001110 01001001
+01000101 01010011 01010100 00100000
+01000011 01001111 01001101 01010000
+01010101 01010100 01000101 01010010
 
 <!--presenter notes
 
 Similar to how we insert commas every three places into decimal numbers to make them easier to read, computers can be programmed to read bitstreams in chunks.
 -->
+
+---
+
+87 79 82 76 68 39 83 32
+84 73 78 73 69 83 84 32
+67 79 77 80 85 84 69 82
+
+<!--presenter notes
+Here is what our very random bitstream looks like, when translating binary 8-bit bytes to decimal, using the method we just followed.
+-->
+
+---
+
+WORLD'S TINIEST COMPUTER
 
 ---
 
@@ -580,9 +679,7 @@ A 16-bit system can be calculated by raising the number of possible values (2) t
 2 * 2 * 2 * 2 *  
 2 * 2 * 2 * 2 *  
 2 * 2 * 2 * 2
-
 =
-
 65,536
 ```
 ---
@@ -603,7 +700,7 @@ Comparing an 8-bit Nintendo Entertainment System to a 16-bit one side-by-side. T
 <div style="transform: scale(0.9); transform-origin: top;">
     <table>
       <tr>
-        <td style="width: 300px; text-align: center;">
+        <td style="width: 400px; text-align: center;">
           <img src="img/week_01_pikachu.png" alt="Pikachu" style="max-width: 100%; max-height: 150px;">
         </td>
         <td style="text-align: center;">
@@ -620,7 +717,7 @@ Comparing an 8-bit Nintendo Entertainment System to a 16-bit one side-by-side. T
       </tr>
       <tr>
         <td style="text-align: center;">
-          255 [red]<br>0 [green]<br>0 [blue]
+          255 [red], 0 [green], 0 [blue]
         </td>
         <td style="text-align: center;">
           Pixel decimal value (3 color intensities indicated by a number between 0-255)
@@ -628,7 +725,7 @@ Comparing an 8-bit Nintendo Entertainment System to a 16-bit one side-by-side. T
       </tr>
       <tr>
         <td style="text-align: center;">
-          FF [red]<br>00 [green]<br>00 [blue]
+          FF [red], 00 [green], 00 [blue]
         </td>
         <td style="text-align: center;">
           Hexadecimal value (binary value shorthand)
