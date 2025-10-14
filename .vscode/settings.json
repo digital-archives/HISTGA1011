@@ -1,0 +1,5 @@
+{
+  "markdown.marp.themes": [
+    "./slides/themes/rose-pine-dawn.css"
+  ]
+}

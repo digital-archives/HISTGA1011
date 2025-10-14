@@ -1,265 +1,13 @@
 ---
 marp: true
-theme: gaia
 size: 16:9
+theme: rose-pine-dawn
 paginate: true
-style: |
-  img {
-  max-width: 100%;
-  max-height: 100%;
-  height: auto;
-  width: auto;
-  display: block;
-  margin: 0 auto;
-  }
-
-  th {
-  font-weight: bold;
-  font-size: 1.2em;
-  color: black !important;
-  background-color: #f4f4f4 !important;
-  border-bottom: 2px solid black;
-  }
-
-  .browser-window {
-    width: 600px;
-    height: 350px;
-    background: white;
-    border-radius: 12px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-    border: 2px solid #ccc;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .browser-header {
-    background: #ddd;
-    padding: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .browser-controls {
-    display: flex;
-    gap: 5px;
-  }
-
-  .control {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-  }
-
-  .red { background: #ff5f57; }
-  .yellow { background: #ffbd2e; }
-  .green { background: #27c93f; }
-
-  .address-bar {
-    flex-grow: 1;
-    background: white;
-    border-radius: 6px;
-    padding: 5px 10px;
-    border: 1px solid #bbb;
-    font-family: monospace;
-    font-size: 14px;
-  }
-
-  .browser-content {
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 18px;
-    color: #666;
-    padding: 20px;
-  }
-
-  /* Styles for action button */
-  .action-button {
-    background-color: #007bff;
-    color: white;
-    padding: 8px 16px;
-    border-radius: 5px;
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
-    margin-top: 10px;
-  }
-  /* Make the table completely transparent */
-  table {
-    border-collapse: collapse !important;
-    border: none !important;
-    background: transparent !important;
-    width: 100% !important;
-  }
-
-  table td, table th {
-    border: none !important;
-    background: transparent !important;
-    padding: 16px !important;
-    text-align: left !important;
-    box-shadow: none !important;
-  }
-
-  table img, table a {
-    border: none !important;
-    background: transparent !important;
-  }
-
-  .pink-box {
-    background-color: #d184c2;
-    color: white;
-    padding: 20px;
-    border-radius: 5px;
-    font-weight: bold;
-    text-align: center;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-  }
-
-  .green-box {
-    background-color: #a2c9a5;
-    padding: 20px;
-    border-radius: 5px;
-    font-weight: bold;
-    text-align: center;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    margin: 10px;
-  }
-
-  .description {
-    padding: 20px;
-    text-align: left;
-    font-size: 18px;
-    margin-top: 10px;
-  }
-
-  .row {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 20px;
-  }
-
-  .quote {
-    font-size: 1.2rem;
-    font-style: italic;
-    text-align: left;
-    line-height: 1;
-    color: #4a4a4a;
-    margin: 0 auto;
-    width: 90%;
-  }
-
-  .author {
-    font-size: 1.0rem;
-    text-align: right;
-    margin-top: 20px;
-    color: #6a6a6a;
-  }
-
-  .work {
-    font-size: 1rem;
-    text-align: right;
-    color: #8a8a8a;
-  }
-
-  .slide-title {
-    text-align: center;
-    color: #2e7d32; /* Green color for the header */
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 30px;
-  }
-  
-  .takeaway {
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: 20px;
-    gap: 15px;
-  }
-
-  .circle {
-    background-color: #2e7d32; /* Green background */
-    color: white;
-    font-size: 1.5rem;
-    font-weight: bold;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    flex-shrink: 0;
-  }
-  .content {
-    flex-grow: 1;
-  }
-  .content h2 {
-    margin: 0;
-    color: #2e7d32; /* Green color for subheadings */
-    font-size: 1.2rem;
-  }
-  .content p {
-    margin: 5px 0 0;
-    font-size: 1rem;
-    color: #4a4a4a; /* Gray for body text */
-  }
-
-  .activity-title {
-    text-align: center;
-    color:rgb(144, 0, 255); /* Soft purple */
-    font-size: 2rem;
-    margin-bottom: 20px;
-    font-weight: bold;
-  }
-
-  .shapes {
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  .shapes span {
-    display: inline-block;
-    margin: 0 10px;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-  }
-  .triangle {
-    width: 0;
-    height: 0;
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
-    border-bottom: 30px solid #ffb347; /* Orange */
-    display: inline-block;
-    margin: 0 10px;
-  }
-  .circle {
-    background-color: #00c0ff; /* Blue */
-  }
-  .square {
-    width: 30px;
-    height: 30px;
-    background-color: #ff6767; /* Red */
-  }
-  .activity-list {
-    font-size: 1.1rem;
-    line-height: 1.1;
-    color:rgb(81, 0, 168); /* Light lavender */
-    margin-left: 20px;
-  }
-  .activity-list li {
-    margin-bottom: 10px;
-  }
-  .activity-list li strong {
-    color:rgb(235, 133, 133); /* Highlighted lavender */
-  }
 
 ---
 
-# Week 2
-## Open Archival Information System (OAIS)
+## Week 2
+# Open Archival Information System (OAIS)
 
 ---
 
@@ -268,28 +16,24 @@ style: |
 - **Lightning Talks: Data Object** (20 min)
 - **Lecture: Open Archival Information System (OAIS)** (1 hr)
 - **Break** (10 min)
-- **Start Weekly Activity**: Breaking BagIt (50 min)
+- **Start Weekly Activity**: Breaking BagIt (rest of time)
 
 ---
 
 # Announcements
 
-* **Syllabus update:** Week 2's activity has been changed from Format Encounters RPG to Breaking BagIt. 
+* TK
 
 ---
 
 # Lightning Talks: Data Object
 
-Spend ~2 minutes talking your your data object (<a href="https://airtable.com/appX8QYrNyTDJDGmg/shrcCl043DAEFMjQe/tblFNKDulPFQ629VV" target="_blank">Data Object Gallery</a>)
-
-_In 40 years, do you think this object will still be more or less accessible and understandable in the same way it is today or when it was originally created and used? Why or why not?_
-
-_What additional context or resources (e.g., documentation, software, emulators) would a future archivist, scholar, or casual user, need or require to make sense of your data object?_
+Spend ~2 minutes talking your your data object while we look at your entry in the <a href="https://airtable.com/appX8QYrNyTDJDGmg/shrcCl043DAEFMjQe/tblFNKDulPFQ629VV" target="_blank">Data Object Gallery</a>.
 
 ---
 
-# Lecture
-## Open Archival Information System (OAIS)
+## Lecture
+# Open Archival Information System (OAIS)
 
 ---
 
@@ -311,9 +55,8 @@ The Reference Model for an Open Archival Information System (OAIS) document was 
 ---
 
 # OAIS Model Background
-- ISO Standard: The OAIS Reference Model became an international standard in 2003 as **ISO 14721:2003**. It has since been updated, with the most recent version being **ISO 14721:2012**.
-- The Consultative Committee for Space Data Systems (CCSDS), a multinational group of space agencies (including NASA and others), initiated the development of the OAIS model.
-- Timeline: The development began in the late 1990s, with the first version of the OAIS Reference Model published in 1999.
+- The OAIS Reference Model became an international standard in 2003 as **ISO 14721:2003**.
+- Consultative Committee for Space Data Systems (CCSDS) initiated its development in the late 1990s.
 
 ---
 
@@ -332,11 +75,11 @@ Notice that there are two "tracks": One for the OAIS, and another for TRAC for �
 
 ---
 
-# Why know about OAIS?
+# Why is the OAIS Model important?
 
-- **Widely accepted:** lots of policies, systems, practice, informed by it
-- **Comprehensive:** covers ingest to end-user access
-- **Flexible:** can be applied to a variety of environments and systems
+- **Widely accepted:** Policies, systems, and practice are modeled after it.
+- **Comprehensive:** Covers deposit to end-user access.
+- **Flexible:** Can be applied to a variety of environments.
 
 <!--presenter notes
 
@@ -349,9 +92,9 @@ Source: These bullets are derived from a SERI Educational Webinar, which you can
 ---
 
 # OAIS Reference Model Limitations
-- **Non-specific**: Written at a high level of abstraction
-- **Narrow scope**: Does not address core archival functions such as advocacy and outreach, deaccessioning, reference and user support services, or selection, appraisal, and disposition
-- **Non-prescriptive**: Does not detail how to collaborate, coordinate or implement the model
+- **Non-specific**: Written at a high level of abstraction.
+- **Narrow scope**: Does not address core archival functions such as advocacy and outreach, deaccessioning, reference and user support services, or selection, appraisal, and disposition.
+- **Non-prescriptive**: Does not detail how to collaborate, coordinate or implement the model.
 
 <!--presenter notes
 
@@ -391,7 +134,7 @@ Now that we have a definition for OAIS, we will first define what the Reference 
 ## Definition
 # Functional Model
 
-A **functional model**  is a diagram that represents a system's functions, illustrating the actions the system can perform and how these actions flow within the system.
+A **functional model**  is a diagram that represents a system's functions, illustrating the actions the system can perform and how these actions operate/flow/behave within the system.
 
 ---
 
@@ -428,7 +171,7 @@ We are going to focus first on what are known as information packages. They are 
 ## Definition
 # Information Package (1/3)
 
-The OAIS information model is built around the concept of an **information package**, which consists of 4 sub-information packages: Content Information, Preservation Description Information, Packaging Information, and Description Information.
+The OAIS information model is built around the concept of an **information package**, which consists of 4 sub-information packages: 1.) Content Information, 2.) Preservation Description Information, 3.) Packaging Information, and 4.) Description Information.
 
 <!--presenter notes
 
@@ -516,7 +259,7 @@ Let’s talk more about representation information.
 
 The **Representation Information** is information necessary to render and understand the bit sequences constituting the Content Data Object.
 
-Example: Description of the hardware and software needed
+_Example: Description of the hardware and software needed._
 
 <!--presenter notes
 
@@ -529,9 +272,9 @@ Representation Information is the information that makes sense of the bitstream.
 
 ---
 
-# There are two types of Representation Information:
-## 1. Structure Information
-## 2. Semantic Information
+# Representation Information
+# 1. Structure Information
+# 2. Semantic Information
 
 <!--presenter notes
 
@@ -625,7 +368,7 @@ Billy Rose Theatre Division, The New York Public Library. "Publicity photo of li
 ---
 
 ![width:600px](img/week_02_parichy_02.png)
-Performance still of Don't Tell Me I Can't Fly.
+Performance still of _Don't Tell Me I Can't Fly_.
 
 <!--presenter notes
 
@@ -636,7 +379,7 @@ Pollard, Collette. "Set Design for DON’T TELL ME I CAN’T FLY." 2011. Digital
 
 ---
 
-## In 2013, the New York Public Library (NYPL) acquired the works of **Dennis Parichy**, a New York City-based lighting designer. Parichy designed stage lighting for 25 Broadway productions since 1976. He has been nominated three times for a Tony Award for his work.
+# In 2013, the New York Public Library (NYPL) acquired the works of **Dennis Parichy**, a New York City-based lighting designer. Parichy designed stage lighting for 25 Broadway productions since 1976. He has been nominated three times for a Tony Award for his work.
 
 ---
 
@@ -658,10 +401,11 @@ The Parichy acquisition contained both physical files as well as born-digital ma
 
 <div class="activity-title">Mini Activity - LightWright</div>
 
-Pretend you are bringing Parichy's LightWorks data into an OAIS. Can you guess what might be the:
+Consider Parichy LightWright database. What might be the:
 - Content Data Information?
-- Representation Information (Structure Information, Semantic Information)?
-- **Bonus question:** How much representation information should we include?
+- Representation Information:
+  - Structure Information
+  - Semantic Information
 
 ---
 
@@ -677,7 +421,7 @@ Pretend you are bringing Parichy's LightWorks data into an OAIS. Can you guess w
 
 A **Designated Community** is a special type of consumer describing the primary users using/accessing the information preserved within an OAIS.
 
-Example: NARA's <a href="https://www.archives.gov/preservation/digital-preservation/designated" target="_blank">Designated Community Statement</a>
+_Example: NARA's <a href="https://www.archives.gov/preservation/digital-preservation/designated" target="_blank">Designated Community Statement</a>_
 
 <!--presenter notes
 
@@ -691,17 +435,18 @@ A Designated Community is a specified class of users expected to consume and und
 
 ---
 
-## The Theatre Division of the New York Public Library (which acquired the Dennis Parishy collection) may be __theater/performing arts researchers__.
-
-## NASA’s Planetary Data Systems Archive’s designated community may be the __planetary science community__.
+# The Theatre Division of the New York Public Library (which acquired the Dennis Parishy collection) may be __theater/performing arts researchers__.
 
 ---
 
-# Definition: Knowledge base
+# NASA’s Planetary Data Systems Archive’s designated community may be the __planetary science community__.
 
-A **Knowledge Base** is a set of information, incorporated by a person or system, that allows that person or system to understand the information preserved in the OAIS.
+---
 
-The OAIS must understand the knowledge base of its designated community to understand the minimum representation information that must be maintained.
+## Definition
+# Knowledge base
+
+A **Knowledge Base** is a set of information that allows that person or system to understand the information preserved in the OAIS. The OAIS must understand the knowledge base of its designated community to understand the minimum representation information that must be maintained.
 
 <!--presenter notes
 
@@ -712,23 +457,28 @@ Designated communities have what’s known as a specific knowledge base. A knowl
 
 <table>
 <tr>
+
 <td valign=top>
+
 <div class="shapes">
   <div class="triangle"></div>
   <span class="circle"></span>
   <span class="square"></span>
 </div>
-<div class="activity-title">
-Mini Activity<br>
-Forme of Cury</div>
 
-<center>
-<a href="https://luna.manchester.ac.uk/luna/servlet/detail/Man4MedievalVC~4~4~994591~289805:Drepe?sort=reference_number%2Cimage_sequence_number%2Cparent_work_title%2Cdate_created&qvq=q:forme%20of%20cury;sort:reference_number%2Cimage_sequence_number%2Cparent_work_title%2Cdate_created;lc:Man4MedievalVC~4~4&mi=37&trs=191" target="_blank">Digital Collections Link</a>
-</center>
+<div class="activity-title">Mini Activity Forme of Cury</div>
+
 </td>
-<td>
 
-![height:500px](img/week_02_forme_of_cury.jpg)
+<td valign=top>
+
+- Filename: Forme of Cury-MS 7-18v.jpg<br>
+- Late Middle Ages cookbook.<br>
+- Hand-written in Middle English.
+
+</td>
+<td valign="top">
+<a href="https://luna.manchester.ac.uk/luna/servlet/detail/Man4MedievalVC~4~4~994591~289805:Drepe?sort=reference_number%2Cimage_sequence_number%2Cparent_work_title%2Cdate_created&qvq=q:forme%20of%20cury;sort:reference_number%2Cimage_sequence_number%2Cparent_work_title%2Cdate_created;lc:Man4MedievalVC~4~4&mi=37&trs=191" target="_blank"><img src="img/week_02_forme_of_cury.jpg" alt="Page from Forme of Cury, a cookbook from the Late Middle Ages. Part of the Rylands Medieval Collection. It was written in Middle English."></a>
 
 </td>
 </tr>
@@ -736,25 +486,17 @@ Forme of Cury</div>
 
 ---
 
+For the digitized manuscript, what might be the: 
 <table>
   <tr>
     <td valign="top">
       <img src="img/week_02_forme_of_cury.jpg" alt="Page from Forme of Cury, a cookbook from the Late Middle Ages. Part of the Rylands Medieval Collection. It was written in Middle English.">
-      <a href="https://luna.manchester.ac.uk/luna/servlet/detail/Man4MedievalVC~4~4~994591~289805:Drepe?sort=reference_number%2Cimage_sequence_number%2Cparent_work_title%2Cdate_created&qvq=q:forme%20of%20cury;sort:reference_number%2Cimage_sequence_number%2Cparent_work_title%2Cdate_created;lc:Man4MedievalVC~4~4&mi=37&trs=191" target="_blank">Digital Collections Link</a>
     </td>
-    <td valign="top">
-      <strong>Details</strong><br><br>
-      Filename: Forme of Cury-MS 7-18v.jpg<br><br>
-      Late Middle Ages cookbook.<br><br>
-      Hand-written in Middle English.
-      </td>
       <td valign="top">
-      <strong>Question</strong><br><br>
-      For the entire digitized manuscript, what might be the: 
       <ul>
         <li>Content Data Object?</li>
         <li>Representation information (Structure, Semantic?)</li>
-        <li>Designated communities/Knowledge bases?</li>
+        <li>Designated communities and respective knowledge bases?</li>
       </ul>
     </td>
   </tr>
@@ -819,7 +561,7 @@ Fixity: Refers to information that can be used to check the integrity of a prese
 ## Definition
 # Fixity Information
 
-**Fixity Information** describes the action of checking the integrity of Data Object Content (bitstream) at regular intervals.
+**Fixity Information** (more commonly just "fixity") describes the action of checking the integrity of Data Object Content (bitstream) at regular intervals.
 
 <!--presenter notes
 
@@ -832,9 +574,9 @@ Fixity is the process of verifying that a data object’s bitstream has not been
 ## Definition
 # Checksum
 
-A **checksum** is a unique alphanumeric group of characters generated by processing a bitstream through a specialized algorithm.
+A **checksum** is a unique alphanumeric (0-9, A-Z) group of characters generated by processing a bitstream through a specialized algorithm.
 
-So long as the bitstream remains the same, the checksum should match each time it is generated.
+_So long as the bitstream remains the same_, the checksum should match each time it is generated.
 
 <!--presenter notes
 
@@ -854,9 +596,9 @@ If a checksum is run at one point does not match a checksum run against the same
 
 <div class="activity-title">Mini Activity - #hash</div>
 
-- Go to [https://emn178.github.io/online-tools/md5 checksum.html](https://emn178.github.io/online-tools/md5_checksum.html)
-- Create a text file on your desktop and type some text into it.
-- In the MD5 Checksum Tool, drag and drop the text file into the Drop File Here box. Make sure “Auto Update” is selected.
+- Open the [MD5 File Checksum Tool](https://emn178.github.io/online-tools/md5_checksum.html).
+- Create a text file on your desktop; type any text and save.
+- In the Checksum Tool, drag and drop the text file into the `Drop File Here` box. Make sure “Auto Update” is selected.
 - Make a change to your text file and drag and drop again; click on different checksum types to see what happens.
 </h2>
 
@@ -865,8 +607,7 @@ If a checksum is run at one point does not match a checksum run against the same
 ## Definition
 # Provenance Information
 
-**Provenance Information** documents the history of the Content Information, including its creation, any alterations to its content or format over time, its chain of custody, any actions taken to preserve
-the Content Information (such as normalization or format migration), and the outcome of these actions.
+**Provenance Information** documents the history of the Content Information, including its creation, any alterations to its content or format over time, its chain of custody, any actions taken to preserve the Content Information (such as normalization or format migration), and the outcome of these actions.
 
 <!--presenter notes 
 
@@ -984,9 +725,9 @@ So now that we know about all 4 parts of an Information Package...
 
 The Information Package takes on three distinct manifestations depending on how it interacts with the OAIS:
 
-1. **Submission Information Package (SIP):** When it is first submitted.
-2. **Archival Information Package (AIP):** When it is ingested and placed into long-term management.
-3. **Dissemination Information Package (DIP):** When it is delivered to a user.
+1. **Submission Information Package (SIP):**
+2. **Archival Information Package (AIP):**
+3. **Dissemination Information Package (DIP):**
 
 
 <!--presenter notes
@@ -1001,7 +742,7 @@ The Information Package takes on three distinct manifestations depending on how 
 ## Definition  
 # Submission Information Package (SIP)
 
-A **Submission Information Package (SIP)** is formed **outside of the OAIS**, and delivered by a producer for ingest.
+A **Submission Information Package (SIP)** is a package first formed outside of the OAIS, and submitted by a _producer_ to the OAIS for _ingest_.
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 20px; margin-top: 20px;">
   <!-- Miniature Package -->
@@ -1046,14 +787,14 @@ Source for producer definition: Lee, Christopher A., and Tibbo, Helen. “Where�
 ## Definition
 # Producer
 
-A **producer** is a person or system that prepares the submitted SIP. An example of a producer might be a digital preservation technician, archivist, or someone else.
+A **producer** is a person or system that prepares the SIP. An example of a producer might be an archivist, a system like Archivematica, or a donor.
 
 ---
 
 ## Definition
 # Ingest
 
-**Ingest** is the set of processes responsible for accepting a SIP and prepping it to live in the OAIS. Actions include validation, transformation, metadata extraction, and transfer to storage.
+**Ingest** is the set of processes responsible for accepting a SIP and prepping it to live in the OAIS in perpetuity. Actions include validation, transformation, metadata extraction, and transfer to long-term storage.
 
 <!--presenter notes
 
@@ -1081,7 +822,7 @@ So now, we are at the point where the OAIS has created an Archival Information P
 
 ---
 
-# Note: SIPs and AIPs
+# Note on SIPs and AIPs
 
 SIPs and AIPs do not necessarily have a 1-to-1 relationship.
 
@@ -1101,7 +842,7 @@ Management is the entity that sets the policy objectives of the OAIS. This may i
 ## Definition
 # Dissemination Information Package (DIP)
 
-The **Dissemination Information Package (DIP)** is derived from one or more AIPs, and is received by the Consumer (i.e. end-user) in response to a request (e.g. searching an online catalog or finding aid).
+The **Dissemination Information Package (DIP)** is derived from one or more AIPs, and is received by the Consumer (more commonly known as an "end-user") in response to a request from an online catalog, or through other means.
 
 <!--presenter notes
 
@@ -1117,7 +858,7 @@ An example of a Consumer is a researcher using an online finding aid that has be
 
 ---
 
-<img src="img/week_02_oais_figure_4_18.png">
+<img src="img/week_02_oais_figure_4_18.png" alt="Diagram from the OAIS Magenta Book that delves into the structure and inner workings of an archival information package.">
 
 <!--presenter notes
 
@@ -1192,8 +933,6 @@ A **bag** is a folder or directory structured after the BagIt standard, containi
 
 ---
 
-# What a bag looks like:
-
 - Top-level folder
   - `bagit.txt`
   - `bag-info.txt`
@@ -1211,10 +950,8 @@ The OAIS describes information packages in a conceptual manner, but does not go 
 
 ---
 
-# Why BagIt?
-
 <div class="quote">
-"[BagIt] outlines file naming structures that are optimized to work as data moves across operating systems and file systems; it provides a manifest of all the files included in a delivery and provides a correct checksum value for each; it allows the senders and recipients to include additional provenance information so that anyone viewing the package can identify immediately what the package contains and who the contacts for it are."
+[BagIt] outlines file naming structures that are optimized to work as data moves across operating systems and file systems; it provides a manifest of all the files included in a delivery and provides a correct checksum value for each; it allows the senders and recipients to include additional provenance information so that anyone viewing the package can identify immediately what the package contains and who the contacts for it are.
 </div>
 
 <div class="author">Meghan Ferriter</div>

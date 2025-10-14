@@ -18,7 +18,6 @@ paginate: true
 - **Lecture: Introduction to Digital Archives** (60 minutes)
 - **Break** (10 minutes)
 - **Start weekly activity** (35 minutes)
-- **Wrap up** (10 minutes)
 
 ---
 
