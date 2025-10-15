@@ -189,14 +189,30 @@ An information package is the data submitted, managed and distributed by an OAIS
 
 ``` 
 +---------------------+---------------------+
-| ░░░░░░░░░░░░░░░░░░░░|                     |
-| ░░░░░ Content ░░░░░░| Preservation        |
-| ░░░ Information ░░░░| Description         |
-| ░░░░░░░░░░░░░░░░░░░░|                     |
+|          1          |          2          |
+|       Content       |     Preservation    |
+|     Information     |     Description     |
+|                     |                     |
++---------------------+---------------------+
+|          3          |          4          |
+|      Packaging      |     Description     |
+|     Information     |     Information     |
+|                     |                     |
++---------------------+---------------------+
+```
+
+---
+
+``` 
++---------------------+---------------------+
+|░░░░░░░░░ 1 ░░░░░░░░░|                     |
+|░░░░░░ Content ░░░░░░|     Preservation    |
+|░░░░ Information ░░░░|     Description     |
+|░░░░░░░░░░░░░░░░░░░░░|                     |
 +---------------------+---------------------+
 |                     |                     |
-| Packaging           | Description         |
-| Information         | Information         |
+|      Packaging      |     Description     |
+|     Information     |     Information     |
 |                     |                     |
 +---------------------+---------------------+
 ```
@@ -319,18 +335,10 @@ https://wiki.dpconline.org/index.php?title=4.2.1.3.1_Representation_Information_
 
 ---
 
-<table>
-<tr>
-<td valign=top>
-<h1>Case Study</h1>
-<h2>Dennis Parichy Lighting Designs</h2>
-<p>
-Right: Image of the lighting designer, Dennis Parichy, on set.
-</p>
-</td>
-<td valign=top>
+## Case Study
+# Dennis Parichy Lighting Designs
 
-![width:600px](img/week_02_parichy_01.png)
+![height:400px](img/week_02_parichy_01.png)
 
 </td>
 </tr>
@@ -435,30 +443,22 @@ Designated communities have what’s known as a specific knowledge base. A knowl
 -->
 ---
 
-<table>
-<tr>
-
-<td valign=top>
-
 <div class="shapes">
   <div class="triangle"></div>
   <span class="circle"></span>
   <span class="square"></span>
 </div>
 
-<div class="activity-title">Mini Activity Forme of Cury</div>
+<div class="activity-title">Mini Activity: Forme of Cury</div>
 
 </td>
 
 <td valign=top>
 
-- Filename: Forme of Cury-MS 7-18v.jpg<br>
-- Late Middle Ages cookbook.<br>
-- Hand-written in Middle English.
+For this activity, we will look at a <a href="https://luna.manchester.ac.uk/luna/servlet/detail/Man4MedievalVC~4~4~994591~289805:Drepe?sort=reference_number%2Cimage_sequence_number%2Cparent_work_title%2Cdate_created&qvq=q:forme%20of%20cury;sort:reference_number%2Cimage_sequence_number%2Cparent_work_title%2Cdate_created;lc:Man4MedievalVC~4~4&mi=37&trs=191" target="_blank">digitized manuscript</a> for the _Forme of Cury_ hosted on The University of Manchester's digital library.
 
 </td>
-<td valign="top">
-<a href="https://luna.manchester.ac.uk/luna/servlet/detail/Man4MedievalVC~4~4~994591~289805:Drepe?sort=reference_number%2Cimage_sequence_number%2Cparent_work_title%2Cdate_created&qvq=q:forme%20of%20cury;sort:reference_number%2Cimage_sequence_number%2Cparent_work_title%2Cdate_created;lc:Man4MedievalVC~4~4&mi=37&trs=191" target="_blank"><img src="img/week_02_forme_of_cury.jpg" alt="Page from Forme of Cury, a cookbook from the Late Middle Ages. Part of the Rylands Medieval Collection. It was written in Middle English."></a>
+
 
 </td>
 </tr>
@@ -466,21 +466,14 @@ Designated communities have what’s known as a specific knowledge base. A knowl
 
 ---
 
+<div class="activity-title">Mini Activity: Forme of Cury</div>
+
 For the digitized manuscript, what might be the: 
-<table>
-  <tr>
-    <td valign="top">
-      <img src="img/week_02_forme_of_cury.jpg" alt="Page from Forme of Cury, a cookbook from the Late Middle Ages. Part of the Rylands Medieval Collection. It was written in Middle English.">
-    </td>
-      <td valign="top">
-      <ul>
-        <li>Content Data Object?</li>
-        <li>Representation information (Structure, Semantic?)</li>
-        <li>Designated communities and respective knowledge bases?</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<ul>
+  <li>Content Data Object?</li>
+  <li>Representation information (Structure, Semantic?)</li>
+  <li>Designated communities and respective knowledge bases?</li>
+</ul>
 
 <!--presenter notes
 
@@ -501,27 +494,23 @@ Suggested answers:
 
 ---
 
-<center>
-  <div style="display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; width: 600px; height: 600px;">
-    <div style="background-color: lightgray; color: gray; border: 2px solid lightgray; display: flex; justify-content: center; align-items: center;">
-      💾 Content Information
-    </div>
-    <div style="background-color: lightgreen; color: black; border: 2px solid black; display: flex; justify-content: center; align-items: center;">
-      🛡️ Preservation Description Information
-    </div>
-    <div style="background-color: lightgray; color: gray; border: 2px solid lightgray; display: flex; justify-content: center; align-items: center;">
-      📦 Packaging Information
-    </div>
-    <div style="background-color: lightgray; color: gray; border: 2px solid lightgray; display: flex; justify-content: center; align-items: center;">
-      🔍 Description Information
-    </div>
-  </div>
-</center>
-
-
+``` 
++---------------------+---------------------+
+|                     |░░░░░░░░░ 2 ░░░░░░░░░|
+|       Content       |░░░░ Preservation ░░░|
+|     Information     |░░░░ Description ░░░░|
+|                     |░░░░░░░░░░░░░░░░░░░░░|
++---------------------+---------------------+
+|                     |                     |
+|      Packaging      |     Description     |
+|     Information     |     Information     |
+|                     |                     |
++---------------------+---------------------+
+```
 ---
 
-# Definition: Preservation Description Information
+## Definition
+# Preservation Description Information
 
 **Preservation Description Information** is any information that can be used to appraise the package, especially in terms of:
 1. Fixity Information
@@ -597,43 +586,19 @@ Definition taken from https://www.dpconline.org/docs/technology-watch-reports/13
 
 ---
 
-<center>
-  <div style="display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; width: 600px; height: 600px;">
-    <div style="background-color: lightgray; color: gray; border: 2px solid lightgray; display: flex; justify-content: center; align-items: center;">
-      💾 Content Information
-    </div>
-    <div style="background-color: lightgray; color: gray; border: 2px solid lightgray; display: flex; justify-content: center; align-items: center;">
-      🛡️ Preservation Description Information
-    </div>
-    <div style="background-color: lightcoral; color: black; border: 2px solid black; display: flex; justify-content: center; align-items: center;">
-      📦 Packaging Information
-    </div>
-    <div style="background-color: lightgray; color: gray; border: 2px solid lightgray; display: flex; justify-content: center; align-items: center;">
-      🔍 Description Information
-    </div>
-  </div>
-</center>
-
----
-
-<center>
-  <div style="display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; width: 600px; height: 600px;">
-    <div style="background-color: lightgray; color: gray; border: 2px solid lightgray; display: flex; justify-content: center; align-items: center;">
-      💾 Content Information
-    </div>
-    <div style="background-color: lightgray; color: gray; border: 2px solid lightgray; display: flex; justify-content: center; align-items: center;">
-      🛡️ Preservation Description Information
-    </div>
-    <div style="background-color: lightgray; color: gray; border: 2px solid lightgray; display: flex; justify-content: center; align-items: center;">
-      📦 Packaging Information
-    </div>
-    <div style="background-color: goldenrod; color: black; border: 2px solid black; display: flex; justify-content: center; align-items: center;">
-      🔍 Description Information
-    </div>
-  </div>
-</center>
-
-
+``` 
++---------------------+---------------------+
+|                     |                     |
+|       Content       |     Preservation    |
+|     Information     |     Description     |
+|                     |                     |
++---------------------+---------------------+
+|░░░░░░░░░ 3 ░░░░░░░░░|░░░░░░░░░ 4 ░░░░░░░░░|
+|░░░░░ Packaging ░░░░░|░░░░ Description ░░░░|
+|░░░░ Information ░░░░|░░░░ Information ░░░░|
+|░░░░░░░░░░░░░░░░░░░░░|░░░░░░░░░░░░░░░░░░░░░|
++---------------------+---------------------+
+```
 ---
 
 ## Definition
@@ -644,6 +609,19 @@ Definition taken from https://www.dpconline.org/docs/technology-watch-reports/13
 <!--presenter notes
 
 Descriptive Information: Metadata that allows the object to be located at a later time using search or retrieval functions.
+
+-->
+
+---
+
+## Definition
+# Packaging Information
+
+Packaging Information binds Content Information and Preservation Description Information into a single logical package.
+
+<!--presenter notes
+
+See page 2: https://www.dpconline.org/docs/technology-watch-reports/1359-dpctw14-02/file
 
 -->
 
@@ -662,59 +640,18 @@ Descriptive information rests outside of and points to the package: descriptive 
 -->
 
 ---
+```
++-----+-----+ Information Packages can take 
+|░░░░░|░░░░░| on three manifestations
+|░ 1 ░|░ 2 ░| depending on how it interacts
+|░░░░░|░░░░░| with the OAIS:
++-----+-----+ 
+|░░░░░|░░░░░| 1. Submission Information Package (SIP)
+|░ 3 ░|░ 4 ░| 2. Archivial Information Package (AIP) 
+|░░░░░|░░░░░| 3. Dissemination Information Package (DIP)
++-----+-----+
 
-<center>
-  <div style="display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; width: 600px; height: 600px;">
-    <div style="background-color: lightblue; display: flex; justify-content: center; align-items: center;">
-      💾 Content Information
-    </div>
-    <div style="background-color: lightgreen; display: flex; justify-content: center; align-items: center;">
-      🛡️ Preservation Description Information
-    </div>
-    <div style="background-color: lightcoral; display: flex; justify-content: center; align-items: center;">
-      📦 Packaging Information
-    </div>
-    <div style="background-color: goldenrod; display: flex; justify-content: center; align-items: center;">
-      🔍 Description Information
-    </div>
-  </div>
-</center>
-
-<!--presenter notes
-
-So now that we know about all 4 parts of an Information Package...
-
--->
-
----
-
-<div style="display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; width: 200px; height: 200px; margin: 0 auto;">
-  <div style="background-color: lightblue; display: flex; justify-content: center; align-items: center;">
-    💾
-  </div>
-  <div style="background-color: lightgreen; display: flex; justify-content: center; align-items: center;">
-    🛡️
-  </div>
-  <div style="background-color: lightcoral; display: flex; justify-content: center; align-items: center;">
-    📦
-  </div>
-  <div style="background-color: goldenrod; display: flex; justify-content: center; align-items: center;">
-    🔍
-  </div>
-</div>
-
-The Information Package takes on three distinct manifestations depending on how it interacts with the OAIS:
-
-1. **Submission Information Package (SIP):**
-2. **Archival Information Package (AIP):**
-3. **Dissemination Information Package (DIP):**
-
-
-<!--presenter notes
-
-...and shrink it down.
-
--->
+```
 
 ---
 
@@ -723,34 +660,6 @@ The Information Package takes on three distinct manifestations depending on how 
 # Submission Information Package (SIP)
 
 A **Submission Information Package (SIP)** is a package first formed outside of the OAIS, and submitted by a _producer_ to the OAIS for _ingest_.
-
-<div style="display: flex; justify-content: center; align-items: center; gap: 20px; margin-top: 20px;">
-  <!-- Miniature Package -->
-  <div style="display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; width: 80px; height: 80px;">
-    <div style="background-color: lightblue; display: flex; justify-content: center; align-items: center;">
-      💾
-    </div>
-    <div style="background-color: lightgreen; display: flex; justify-content: center; align-items: center;">
-      🛡️
-    </div>
-    <div style="background-color: lightcoral; display: flex; justify-content: center; align-items: center;">
-      📦
-    </div>
-    <div style="background-color: goldenrod; display: flex; justify-content: center; align-items: center;">
-      🔍
-    </div>
-  </div>
-
-  <div style="font-size: 150px; color: black;">
-  ➡︎
-  </div>
-
-  <div style="font-size: 150px;">
-    🚪
-  </div>
-  <div style"font-size: 24px;">OAIS</div>
-  </div>
-</div>
 
 <!--presenter notes
 
