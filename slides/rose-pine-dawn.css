@@ -136,3 +136,14 @@ marp-pre {
 .hljs-meta {
     color: var(--subtle);
 }
+
+/* Scoped “lecture highlight” list */
+section .focus-list li {
+  color: #999;             /* light gray for others */
+  font-weight: 400;
+}
+
+section .focus-list li strong {
+  color: #000;             /* black for current item */
+  font-weight: 700;
+}
