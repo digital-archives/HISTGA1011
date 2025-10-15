@@ -444,14 +444,34 @@ table img, table a {
     color: #4a4a4a; /* Gray for body text */
   }
 
-table,
-table thead,
-table tbody,
-table tr,
-table td,
-table th {
-  background-color: transparent !important;
-  border: none !important;
-  box-shadow: none !important;
+section table {
+  border-collapse: collapse !important;
+  margin: 0 auto !important;
+  table-layout: fixed !important;   /* equal-width columns */
+  width: 600px !important;          /* total table width */
 }
+
+section table th,
+section table td {
+  width: 50% !important;
+  height: 260px !important;
+  text-align: center !important;
+  vertical-align: middle !important;
+  font-size: 24pt !important;
+  font-weight: 600 !important;
+  border: 3px solid #555 !important;
+  background-color: #e0e0e0 !important;
+  color: #444 !important;
+}
+
+/* highlight any cell with .highlight class */
+section table td.highlight {
+  background-color: #add8e6 !important;
+  color: #000 !important;
+  border-color: #333 !important;
+}
+
+
+
+
 

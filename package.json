@@ -1,0 +1,19 @@
+{
+  "name": "histga1011",
+  "version": "1.0.0",
+  "description": "This is the \"back-end\" of the Digital Archives Github Pages site. For a less Github-y, more organized and eye-pleaseing front-end that includes a table of contents, see the [Digital Archives (HIST-GA-1011) Github Pages site](https://digital-archives.github.io/HISTGA1011/).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github-nyu:digital-archives/HISTGA1011.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "markdown-it-attrs": "^4.3.1"
+  }
+}

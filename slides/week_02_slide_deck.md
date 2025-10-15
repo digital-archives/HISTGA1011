@@ -2,6 +2,7 @@
 marp: true
 size: 16:9
 theme: rose-pine-dawn
+html: true
 paginate: true
 
 ---
@@ -150,6 +151,8 @@ Here we have a diagram showing a visualization of the OAIS functional model, whi
 
 Take a moment to look at the “flow” of information in/outof an OAIS. The various OAIS functions - preservation planning, ingest, data management, archival storage, administration and access - are labeled in brown. Entities that interact with the OAIS - producers, consumers and management - are labeled in plain black text. Various information packages handled by the OAIS - SIPs, AIPs, and DIPs - are labeled in the white circles. The OAIS itself is delineated by the dotted rectangle.
 
+In defining what each information package is, we will also learn more about the entities who interact with or receive data from an OAIS: Producers, Consumers, and Management. I’ve underlined these entities in yellow.
+
 Source: Figure 1 diagram from https://www.oclc.org/research/publications/2000/lavoie-oais.html
 
 -->
@@ -179,47 +182,24 @@ The OAIS information model is built around the concept of an information package
 
 An information package is the data submitted, managed and distributed by an OAIS. There are three different types of information packages: Submission Information packages, or “SIPs”, Archival Information Packages, or “AIPs”, and Dissemination Information Packages, or “DIPs”. So SIPs, AIPs and DIPs. These are all highlighted in the slide in yellow.
 
-In defining what each information package is, we will also learn more about the entities who interact with or receive data from an OAIS: Producers, Consumers, and Management. I’ve underlined these entities in yellow.
 
 -->
 
 ---
 
-<center>
-  <div style="display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; width: 600px; height: 600px;">
-    <div style="background-color: lightgray; color: gray; border: 2px solid lightgray; display: flex; justify-content: center; align-items: center;">
-      💾 Content Information
-    </div>
-    <div style="background-color: lightgray; color: gray; border: 2px solid lightgray; display: flex; justify-content: center; align-items: center;">
-      🛡️ Preservation Description Information
-    </div>
-    <div style="background-color: lightgray; color: gray; border: 2px solid lightgray; display: flex; justify-content: center; align-items: center;">
-      📦 Packaging Information
-    </div>
-    <div style="background-color: lightgray; color: gray; border: 2px solid lightgray; display: flex; justify-content: center; align-items: center;">
-      🔍 Description Information
-    </div>
-  </div>
-</center>
-
----
-
-<center>
-  <div style="display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; width: 600px; height: 600px;">
-    <div style="background-color: lightblue; color: black; border: 2px solid black; display: flex; justify-content: center; align-items: center;">
-      💾 Content Information
-    </div>
-    <div style="background-color: lightgray; color: gray; border: 2px solid lightgray; display: flex; justify-content: center; align-items: center;">
-      🛡️ Preservation Description Information
-    </div>
-    <div style="background-color: lightgray; color: gray; border: 2px solid lightgray; display: flex; justify-content: center; align-items: center;">
-      📦 Packaging Information
-    </div>
-    <div style="background-color: lightgray; color: gray; border: 2px solid lightgray; display: flex; justify-content: center; align-items: center;">
-      🔍 Description Information
-    </div>
-  </div>
-</center>
+``` 
++---------------------+---------------------+
+| ░░░░░░░░░░░░░░░░░░░░|                     |
+| ░░░░░ Content ░░░░░░| Preservation        |
+| ░░░ Information ░░░░| Description         |
+| ░░░░░░░░░░░░░░░░░░░░|                     |
++---------------------+---------------------+
+|                     |                     |
+| Packaging           | Description         |
+| Information         | Information         |
+|                     |                     |
++---------------------+---------------------+
+```
 
 ---
 
@@ -951,7 +931,7 @@ The OAIS describes information packages in a conceptual manner, but does not go 
 ---
 
 <div class="quote">
-[BagIt] outlines file naming structures that are optimized to work as data moves across operating systems and file systems; it provides a manifest of all the files included in a delivery and provides a correct checksum value for each; it allows the senders and recipients to include additional provenance information so that anyone viewing the package can identify immediately what the package contains and who the contacts for it are.
+[BagIt] outlines file naming structures that are optimized to work as data moves across operating systems and file systems; it provides a manifest of all the files included in a delivery and provides a correct checksum value for each.
 </div>
 
 <div class="author">Meghan Ferriter</div>
