@@ -10,17 +10,17 @@ has_children: false
 
 ## Overview
 
-Your **abstract** serves as an early-stage check-in for your Final Project <a href="https://digital-archives.github.io/HISTGA1011/final_project/paper_structure" target="_blank">paper</a> and <a href="https://digital-archives.github.io/HISTGA1011/final_project/presentation" target="_blank">presentation</a>. It is an opportunity to begin defining the critical components of your final project and to ensure you have selected suitable collection materials to work with.
+Your abstract serves as an early-stage check-in for your Final Project <a href="https://digital-archives.github.io/HISTGA1011/final_project/paper_structure" target="_blank">paper</a> and <a href="https://digital-archives.github.io/HISTGA1011/final_project/presentation" target="_blank">presentation</a>. It is an opportunity to begin defining the critical components of your final project, identify any potential constraints, and to ensure you have selected suitable collection materials to work with.
 
-Before writing your abstract, you must choose a collection from an existing institution, and within it, either all or a sub-group of materials, that will serve as the foundation for your project. Please see the 📌 <a href="https://digital-archives.github.io/HISTGA1011/final_project/" target="_blank">Selection Criteria</a> section in the Final Project overview for more details.
+Before writing your abstract, you must choose a collection from an existing institution, and within it, either all or a sub-group of materials, that will serve as the foundation for your project. Please see the <a href="https://digital-archives.github.io/HISTGA1011/final_project/" target="_blank">Selection Criteria</a> section in the Final Project overview for more details.
 
-While not required, you are _highly encouraged_ to schedule an on-site or virtual visit with an archivist or other staff at your chosen institution/repository, provided it is feasible for yours and the staff's schedule (you could even ask to have a conversation over email, if that's more doable). This can help inform both your abstract and your final project approach, and also help you to clarify gaps in your understanding of the institution's existing processes, workflows, policies, and systems setup/stack.
+While not required, you are _highly encouraged_ to schedule an on-site or virtual visit with an archivist or other staff at your chosen institution/repository, provided it is feasible for yours and the staff's schedule. These kinds of conversations should happen early on in the process. This kind of conversation can help inform both your abstract and your final project approach, and also help you to clarify gaps in your understanding of the institution's existing processes, workflows, policies, and setup.
 
 ---
 
-## 💡 **Extra Credit Opportunity**
+## **Extra Credit Opportunity**
 
-You are encouraged to reach out to a repository and schedule a meeting (on-site or virtual) with an archivist or preservation/digital archives practitioner. This conversation can provide invaluable insights into your project and serve as a basis for real-world understanding of archival challenges and solutions.
+You are encouraged to reach out to a repository and schedule a meeting (on-site or virtual) with an archivist, preservation, digital archives or other staff that can speak to your chosen materials. This conversation can provide invaluable insights into your project and serve as a basis for real-world understanding of archival challenges and solutions.
 
 - To qualify, you must:
   - **Contact a repository** and arrange a meeting to discuss topics relevant to your project.
@@ -29,7 +29,7 @@ You are encouraged to reach out to a repository and schedule a meeting (on-site 
 
 ---
 
-## 📝 Abstract Submission Guidelines
+## Abstract Submission Guidelines
 
 You are welcome to write a traditional abstract or simply copy and paste the checklist below into a document, adding brief (1–2 sentence) responses beneath each item. The goal is to provide a clear, concise snapshot of your project proposal.
 
@@ -37,7 +37,7 @@ You are welcome to write a traditional abstract or simply copy and paste the che
 
 ---
 
-### 📌 **General Details**
+### **General Details**
 - [ ] **Chosen institution name:**
 - [ ] **Institution type and size:** (e.g., academic library, small historical society, large national archive)
 - [ ] **Archives department staffing:** Estimated size of the archives department (e.g., number of full-time, part-time, and hourly staff)
@@ -47,7 +47,7 @@ You are welcome to write a traditional abstract or simply copy and paste the che
 
 ---
 
-### 📂 **Collection Selection & Digitization Plan**
+### **Selection and Digitization**
 - [ ] **Collection/collection materials selected for access:** Specify which materials within the collection you will focus on, including format(s), extents, series/subseries, or an inventory.
 - [ ] **Availability check:** Confirm that the selected materials are **not currently available online.** *(Double-check this to avoid selecting materials already available online!)*
 - [ ] **Rationale for selection:** Explain why these collection materials should be prioritized for access over others held by the institution.
@@ -56,19 +56,19 @@ You are welcome to write a traditional abstract or simply copy and paste the che
 
 ---
 
-### ⚠️ **Potential Constraints**
+### **Potential Constraints**
 - [ ] **Challenges to consider:** Identify resource, capacity, budget, technological, or physical condition challenges that might impact the project's immediate timeline, or over the long-term.
 - [ ] **Staffing & skillsets:** What staff roles or specific skills are needed to complete the work?
 
 ### 🥞 **Tech Stack**
-- [ ] **Current Access Systems:** Describe how the institution currently provides access to digital collections, including:
-- [ ] **Systems/platform(s) used and how they interact** to manage front-end access, accessioning, appraisal, archival processing/description, and other functions
-- [ ] **Limitations & Challenges:** What are the potential drawbacks of the current setup? (e.g., usability, metadata quality, storage, accessibility, rights and restrictions, user experience)  
-- [ ] **Other models:** Are there examples of other institutions with digital access systems or strategies that could inspire improvements to your project? *(Include links to relevant documentation or examples, if available)*
+- [ ] **Current access systems:** Describe how the institution currently provides access to digital collections, including:
+  - [ ] **Systems/platform(s)** used and how they interact with each other to manage front-end access, accessioning, appraisal, archival processing/description, and other functions
+  - [ ] **Limitations & challenges:** What are the potential drawbacks of the current setup? (e.g., usability, metadata quality including minimal processing, storage, accessibility, rights and restrictions, user experience)  
+  - [ ] **Other models:** Are there examples of other institutions with digital access systems or strategies that could inspire improvements to your project? *(Include links to relevant documentation or examples, if available online)*
 
 ---
 
-### 🌍 **Access & Discovery**
+### **Access and Discovery**
 - [ ] **Designated communities/users:** Who will benefit from this collection being made available online? (e.g., researchers, scholars, educators, the casual browser)  
 - [ ] **Rights & restrictions:** Are there any legal, ethical, or institutional barriers that could affect access to the materials?  
 - [ ] **Discovery methods:** How might users search for and locate specific materials? Consider how they might also explore relationships between search results and other components of the collection or related collections.  
@@ -77,6 +77,6 @@ You are welcome to write a traditional abstract or simply copy and paste the che
 
 ---
 
-## 🔗 Submission Details
+## Submission Details
 
-Your abstract is **due mid-way through the semester** (see the [class schedule](https://digital-archives.github.io/HISTGA1011/schedule/) for the exact due date). This submission will serve as a check-in to ensure that your project plan is on track.
+Your abstract will be **due mid-way through the semester** (see the [class schedule](https://digital-archives.github.io/HISTGA1011/schedule/) for the exact due date). This submission will serve as a check-in to ensure that your project plan is on track.

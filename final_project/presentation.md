@@ -10,7 +10,7 @@ has_children: false
 
 ## Overview  
 
-During the final class, you will present your digitization project plan to your classmates and professor. This presentation is an opportunity to share your Plan's goals, challenges, and proposed solutions while receiving feedback on your approach.  
+During the final class, you will present your digitization project plan to your classmates and professor who will act as your Special Collections Committee. This presentation is an opportunity to share your Plan's goals, challenges, and proposed solutions while receiving feedback on your approach.  
 
 Though your slides do not need to use any particular template or format, please include, at minimum:
 - The institution you are working with
@@ -31,7 +31,7 @@ Presentations will be followed by a Q&A session, where classmates and faculty wi
 
 ### Slide Deck  
 - There is no required slide count, but your deck should be structured and visually clear.  
-- Your slides must include:  
+- Your slides must include at minimum:  
   - A title slide with your project title and name  
   - A visualization or mock-up of your proposed digital collection site  
 
@@ -43,9 +43,8 @@ Your slides must include a visualization or mock-up that illustrates either how 
 ## Participation as a Panel Member  
 
 As an audience member, you will serve as part of the digital preservation project proposal panel. Your role is to:  
-- Ask thoughtful questions that encourage discussion  
-- Provide constructive feedback on the feasibility and clarity of the project  
-- Engage with the presenter’s approach, identifying areas for further consideration  
+- Ask thoughtful questions that encourage discussion
+- Provide constructive feedback on the feasibility and clarity of the project
 
 This will be part of your participation grade.  
 
