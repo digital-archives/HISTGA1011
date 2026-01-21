@@ -476,7 +476,7 @@ section.big-table td.highlight {
 /* Default markdown table behavior (for regular content tables) */
 section table {
   width: auto !important;
-  max-width: 85% !important;
+  max-width: 100% !important;
   margin: 0.4em auto !important;
   font-size: 18pt !important;
   table-layout: auto !important;
