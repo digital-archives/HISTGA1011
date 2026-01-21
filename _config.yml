@@ -113,7 +113,7 @@ heading_anchors: false
 # Aux links for the upper right navigation
 aux_links:
   "Course Site on Brightspace":
-    - "https://brightspace.nyu.edu/d2l/home/430363"
+    - "https://brightspace.nyu.edu/d2l/home/553114"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
