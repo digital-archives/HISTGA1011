@@ -161,9 +161,9 @@ All Data Objects, whether it's a single file, or an entire application, will req
 
 # Data Object Example
 
-**Data Objects:** Lotus file requires → Lotus software  → requires DOS operating system → requires DOS emulator
+**Data Objects:** DOC file stored on 3.5 floppy disk → Floppy disk drive and USB cable → Requires Microsoft Word
 ↓ Requires
-**Specialized Knowledge:** How to use Lotus to lay out designs; How to use DOS; Historical context of layout software
+**Specialized Knowledge:** General knowledge of word processing software
 
 <!-- presenter notes
 
@@ -326,7 +326,7 @@ Each bit is multiplied by its **weight** (2 to the power of the bit's place inde
 
 A byte is a discrete-length group of bits.
 
- Example: 00000111 
+ Example: 0000 0111 
 
 This byte has a discrete length of 8 bits.
 
@@ -347,7 +347,7 @@ Computers are built to handle specific byte lengths. Some handle 8-bit bytes, ot
 
 Byte length determines total number of values a byte can represent.
 
-A 1-bit byte can hold up to two values (1 and 0). A 2-bit byte can hold up to 4 (00, 11, 01, 10). An 8-bit byte can represent up to 256 values.
+A 1-bit byte can hold up to two values (1 and 0). A 2-bit byte can hold up to 4 (00, 11, 01, 10) values. An 8-bit byte can represent up to 256 values.
 
 ---
 
