@@ -7,9 +7,9 @@ has_children: false
 
 # Grading - Points Breakdown
 
-Students are evaluated using a points-based system totaling 100 across two main areas: Weekly Activities (70 points) and Final Project (30 points).
+Students are evaluated using a points-based system totaling 100 across three main areas: Weekly Activities (60 points), Participation (10 points) and Final Project (30 points).
 
-## Weekly Activities (70 points)
+## Weekly Activities + Participation (70 points)
 
 | Activity                          | Points  |
 |-----------------------------------|--------|
