@@ -23,7 +23,7 @@ paginate: true
 
 # Announcements
 
-_Feel free to email me with any announcements you would like me to boost (upcoming conferences, webinars, trainings, or other events/topics of interest)._
+_Feel free to email me with any announcements you would like me to boost (upcoming conferences, webinars, trainings, or other events/topics of interest). Alternatively you can post them in the <a href="https://brightspace.nyu.edu/d2l/le/553114/discussions/List" target="_blank">Discussions</a> section of Brightspace._
 
 ---
 
