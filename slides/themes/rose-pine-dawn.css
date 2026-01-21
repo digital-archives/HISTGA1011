@@ -444,15 +444,17 @@ table img, table a {
     color: #4a4a4a; /* Gray for body text */
   }
 
-section table {
+
+/* Only apply the big “grid” look to tables you explicitly mark */
+section.big-table table {
   border-collapse: collapse !important;
   margin: 0 auto !important;
-  table-layout: fixed !important;   /* equal-width columns */
-  width: 600px !important;          /* total table width */
+  table-layout: fixed !important;
+  width: 600px !important;
 }
 
-section table th,
-section table td {
+section.big-table th,
+section.big-table td {
   width: 50% !important;
   height: 260px !important;
   text-align: center !important;
@@ -465,13 +467,26 @@ section table td {
 }
 
 /* highlight any cell with .highlight class */
-section table td.highlight {
+section.big-table td.highlight {
   background-color: #add8e6 !important;
   color: #000 !important;
   border-color: #333 !important;
 }
 
+/* Default markdown table behavior (for regular content tables) */
+section table {
+  width: auto !important;
+  max-width: 85% !important;
+  margin: 0.4em auto !important;
+  font-size: 18pt !important;
+  table-layout: auto !important;
+}
 
-
-
+section th,
+section td {
+  height: auto !important;
+  padding: 6px 10px !important;
+  text-align: center !important;
+  white-space: nowrap !important;
+}
 
