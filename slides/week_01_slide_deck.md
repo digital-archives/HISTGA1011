@@ -430,25 +430,6 @@ _The `XOR` gate outputs `1` only if **one** input is `1` and the other is `0`.  
 
 ---
 
-# Simplest Calculator
-
-## Let's pretend we have a very simple calculator that can only add 2 binary digits together at a time and will output their sum on a screen. This calculator *could* be built using an XOR logic gate.
-
----
-
-| Input A | Input B | SUM (A XOR B) | CARRY (A AND B) |
-|---------|---------|---------------|-----------------|
-|    0    |    0    |       0       |        0        |
-|    0    |    1    |       1       |        0        |
-|    1    |    0    |       1       |        0        |
-|    1    |    1    |       0       |        1        |
-
----
-
-# Multiple logic gates can be used to store and represent higher and higher decimal numbers.
-
----
-
 # Binary -> Decimal
 
 | Binary value | Decimal value | | Binary value | Decimal value |
