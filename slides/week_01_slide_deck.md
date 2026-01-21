@@ -45,6 +45,7 @@ My email: [mary.kidd@nyu.edu](mailto:mary.kidd@nyu.edu)
 
 # Introduce yourself
 
+- Your name
 - What program are you in and how far along are you?
 - What do you hope to learn in this course?
 
@@ -76,7 +77,7 @@ I want to step you through basic concepts to do with what digital information is
 
 # **Question (with no wrong answers)**
 
-What does digital archives bring to mind for you?
+What does the term "digital archives" bring to mind for you?
 
 Where have you encountered a digital archive?
 
