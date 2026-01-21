@@ -177,13 +177,13 @@ All Data Objects, whether it's a single file, or an entire application, will req
 
 # Question
 
-Can you think of an example from your life or work where you used a standardized sequence of numbers to represent something?
+Can you think of an example from your life or work where you used or encountered a standardized sequence of numbers to represent something?
 
 _Examples:_ A US ZIP code represents geographic areas using 5 numbers; A barcode represents the SKU of a product
 
 <!-- presenter notes
 
-In this next section, we will talk about how binary digits are used by digital objects to encode digital information. Before we do so, it's good to take a pause and think broadly about how we generally use numbers to represent things in the world.
+In this next section, we will talk about how binary digits are used by data objects to encode digital information, and that information is in turn used by computers to render information. Before we do so, it's good to take a pause and think broadly about how we generally use numbers to represent things in the world.
 
 My favorite example of this is a zip code. In the United States at least, a zip code is composed of five numbers that enables the postal service to quickly identify where a piece of mail is bound or returning.
 
@@ -197,11 +197,29 @@ This is where zip codes come in handy. They're not random groups of five letters
 
 ---
 
+Graphical User Interface (what we see on screen)
+Programming language
+Assembly
+Machine Language
+Binary
+Electricity/circuitry
+
+<!--presenter notes
+
+Over these next slides, I will be talking about the binary or base-2 counting system. Why should we care about this?
+
+This is because binary is as close as you can get to the underlying physicality of any computer. In our day-to-day we are actually several layers removed from what goes on underneath our computers: we are likely only really interfacing with a GUI (graphical user interface, so the buttons, windows, words, etc. that are displayed on your screen), or programming something using a specific language. But all of this is abstracted up from what are essentially just billions of transistors and logic gates.
+
+-->
+
+---
+
 ## Definition
 # Binary
 
 Binary is a counting system that uses two **binary digits** (1 and 0) also known as **"bits"** and place values to represent values.
 
+Most computers use binary to encode information.
 
 <!-- presenter notes
 
@@ -210,6 +228,27 @@ Binary is an encoding scheme that, instead of using the decimal digits (0-9) we 
 Along with bits, binary also uses place values to represent information. Place values are a term we were all probably introduced to in elementary or middle school. So, let's switch gears and look at the encoding scheme we are most used to: The base-10 decimal digit system.
 
 -->
+
+---
+
+# **Question**
+# Why do you suppose computers best use a binary/base-2 system for encoding, storing and reading information?
+
+---
+
+<img src="img/week_01_chip.jpg" alt="NMOS Hybrid Integrated Circuit">
+
+#### Caption: NMOS Hybrid Integrated Circuit.
+
+<!--presenter notes
+
+https://commons.wikimedia.org/wiki/File:HP_1813-0091_top_case_removed.jpg#Summary
+
+-->
+
+---
+
+# Answer: Computers use electricity, and electrical signals naturally fall into two states: ON (electricity is flowing) or OFF (electricity is not flowing). This makes a binary/base-2 system perfect, because it can easily represent these two states.
 
 ---
 
@@ -240,15 +279,14 @@ By combining decimals and using place values, we can represent any number.
 
 | Digit | 1 | 2 |
 | :-:   | :-: | :-: |
-| Place | Tens | Ones |
+| Place Index | 1 | 0 |
 | Weight | 10¹ | 10⁰ |
 
-Each digit has a **place** and each place has a **weight** based on "powers" of 10 (possible values 0-9).
+
+Each digit has a **place index starting from 0** and a weight **weight** calculated by raising 10 to the power of the place index. To calculate the value, for each digit multiply the **weight x digit**, then add all sums together.
  
 So:
-`1 × 10¹` + `2 × 10⁰` → `10 + 2 = 12`
-
-We start at the **right** (10⁰) and move left, increasing the exponent by 1 each time.
+`2 × 10⁰` + `1 × 10¹` → `2 + 10 = 12`
 
 ---
 
@@ -272,324 +310,25 @@ As in our "12" example, for 6,478,341, each digit’s **place** has a **weight**
 
 ---
 
-| Bit | 1 | 
-| :-: | :-: |
-| Weight | 2⁰ |
-
-Like base-10, binary uses **place value**, read from right to left, starting from 0.
-
-Each bit is multiplied by its **weight** (2 to the power of the placement).
-
----
-
-# **Question**
-# Why do you suppose computers prefer a Base-2 as opposed to a Base-10 system?
-
----
-
-<img src="img/week_01_chip.jpg" alt="NMOS Hybrid Integrated Circuit">
-
-#### Caption: NMOS Hybrid Integrated Circuit.
-
-<!--presenter notes
-
-https://commons.wikimedia.org/wiki/File:HP_1813-0091_top_case_removed.jpg#Summary
-
--->
-
----
-
-# Answer: Computers use electricity, and electrical signals naturally fall into two states: ON or OFF, which makes Base-2/binary a perfect fit.
-
----
-
-| Bit | 0 | 1 |
+| Bit | 0 | 1 | 
 | :-: | :-: | :-: |
-| Weight | 2² | 2¹ | 2⁰ |
+| Place Index | 1 | 0 |
+| Weight | 2¹ | 2⁰ |
 
-Like base-10, number values can represented by stringing together multiple bits.
+Like base-10, binary uses **place index**, read from right to left, starting from 0.
 
-Discrete-length groups of bits are known as **bytes**.
-
-_The example above is a 2-bit byte._
-
----
-
-## The Simplest Computer: 1-Bit
-
-■ = ON  □ = OFF
-
-[ □ ] or [ ■ ]
-
-### Possible states: 2¹ (2 possible bits, to the power of 1 bit)
-
-<!--presenter notes
-
-The simplest computer would be a 1-bit system—it can only be in one of two states: ON or OFF, just like a light switch. So here, we have two possible states.
-
--->
-
----
-
-
-## The Simplest Computer: 2-bit
-
-| Bits     | Visual  | Binary | Decimal | Lightbulb Setting |
-| -------- | ------- | ------ | ------- | ----------------- |
-| \[ □ □ ] | OFF     | `00`   | 0       | No light          |
-| \[ □ ■ ] | DIM     | `01`   | 1       | Low brightness    |
-| \[ ■ □ ] | REGULAR | `10`   | 2       | Medium brightness |
-| \[ ■ ■ ] | BRIGHT  | `11`   | 3       | High brightness   |
-
-### Possible States: 2² = 4 combinations
-
-<!--presenter notes
-
-A slightly more sophisticated computer—one that is 2-bit—can represent up to four unique values. In this example, let’s imagine it controls a lightbulb. The bulb can be off (00), dim (01), medium (10), or bright (11). Note: the assignment of these byte values is arbitrary. So, Dim could be 11, bright can be 00. It doesn't matter, and at least at this moment we just need to pretend the computer knows how to interpret the byte as a particular sort of instruction.
-
-This illustrates a key idea: the more bits a system has, the more states it can represent. These states could correspond to anything—brightness levels, directions (up, down, left, right), actions (jump, skip, hop, walk), whatever the system is designed to interpret. The bits don’t “know” what they mean; we give them meaning.
-
--->
-
----
-
-## Definition
-# Logic Gate
-
-A **logic gate** is an electric circuit with two inputs and an output. It receives two incoming electric currents, compares them, and sends on a new, outgoing electric current depending on what it finds.
-
-<!--presenter notes
-
-https://www.explainthatstuff.com/logicgates.html
-
--->
-
----
-
-## Definition
-# Transistor
-
-A **transistor** is a tiny switch that uses voltage to control the flow of electricity.
-
----
-
-# **Transistors** are the building blocks of logic gates, each acting like a checkpoint that checks a certain condition, and produces a specific electrical output depending on the combination of input signals it receives and how the circuit is wired.
-
----
-`AND` Logic Gate
-
-```
-INPUT A:  [ ]---+
-               |
-             [AND] ---> OUTPUT
-               |
-INPUT B:  [ ]---+
-```
-_If Input A is (`1`) AND Input B is (`1`) then output a voltage (`1`) otherwise do not output a voltage (`0`)_.
-
----
-`OR` Logic Gate
-
-```
-INPUT A:  [ ]---+
-               |
-             [AND] ---> OUTPUT
-               |
-INPUT B:  [ ]---+
-```
-_If Input A is (`1`) OR Input B is (`1`) then output a voltage (`1`) otherwise do not output a voltage (`0`)_.
-
----
-`NOT` Logic Gate
-
-```
-INPUT:   [ ] ---> [NOT] ---> OUTPUT
-
-```
-_The `NOT` gate flips the output.
-If the input is `1` output a `0`.
-If the input is `0` output a `1`._
-
----
-
-`XOR` ("Exclusive Or") Logic Gate
-
-```
-INPUT A: [ ]──┐
-│
-INPUT B: [ ]──┘
-↓
-[XOR] ---> OUTPUT
-```
-
-_The `XOR` gate outputs `1` only if **one** input is `1` and the other is `0`.  If both inputs are the **same**, the output is `0`. "One or the other but not both"_
-
----
-
-# This is to show you that logic (if this than that) is based in the physical world of electricity.
-
----
-
-# Binary -> Decimal
-
-| Binary value | Decimal value | | Binary value | Decimal value |
-| :-: | :-: | :-: | :-: | :-: |
-| 0000 0000 | 0 | | 0000 0110 | 6 |
-| 0000 0001 | 1 | | 0000 0111 | 7 |
-| 0000 0010 | 2 | | 0000 1000 | 8 |
-| 0000 0011 | 3 | | 0000 1001 | 9 |
-| 0000 0100 | 4 | |  |
-| 0000 0101 | 5 | |  |
-
-
-<!--presenter notes
-
-Here is a sample list of binary values, corresponding to decimal values, in an 8-bit system. In the right-most column, we have 10 decimals, 0 through 9, and their corresponding binary values. In an 8-bit system, the complete list would show 256 possible values.
-
-You may have noticed that, there seems to be a pattern in the placement of 1s and 0s for each decimal going up in succession. Bytes are not arbitrarily assigned to decimals: there is a mathematical system, corresponding to chains of logic gates that are the physical manifestation of math (adding, subtracting, etc.) behind that make it so, if you take a binary value, you can reverse-engineer it to determine, in a few steps, the decimal value it represents.
-
--->
-
----
-
-| Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-
-
- This byte represents the decimal number 7.
-
-*Let's step through how we get from 0000 0111 to 7.*
-
----
-
-| Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-
- First question to ask: How many *ones* (1s) are there?
-
-<!--presenter notes 
-
-Each bit has its own place or position, which is mapped out on the slide. In an 8-bit system, we have 8 possible place values, starting from place 0, up to place 7. Places are read from right to left.
-
--->
-
----
-
-| Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-
- Answer: There are three 1s.
-
----
-
-| Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
-
- Second question to ask: For each 1 we've found, *what are their place values*?
-
----
-
-| Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
-
- Answer: Their place values are 0, 1 and 2.
-
----
-
-| Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
-| Weight | 2^7 | 2^6 | 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0 |
-
- Third question to ask: For each 1 we've found, what is their *weight*? (Weight = 2, raised to the power of the place value)
-
----
-
-| Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
-| Weight | 2^7 | 2^6 | 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0 |
-| Weight (calculated) | NA | NA | NA | NA | NA | 4 | 2 | 1 |
-
-
- Answer: Each 1's weight is 4, 2 and 1.
-
-<!-- presenter notes
-
-What do we mean by weight?
-
-A good example comes from the base-10 decimal system we are most familiar with.
-
--->
-
----
-
-| Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
-| Weight | 2^7 | 2^6 | 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0 |
-| Weight (calculated) | NA | NA | NA | NA | NA | 4 | 2 | 1 |
-
-What is the sum of all weight values added together?
-4 + 2 + 1 = 7
-
-Byte value 00000111 = Decimal number 7
-
-<!--presenter notes
-
-- The 1 in Place 0 carries a weight of 2^0 or 1. We multiply by 1 to get a Value of 1
-- The 1 in Place 1 carries a weight of 2^1 or 2. We multiply by 1 to get a Value of 2.
-- The 1 in Place 2 carries a weight of 2^2 or 4. We multiply 4 by 1 to get a Value of 4.
-- Add together all values: 4 + 2 + 1 = 7
-
--->
-
----
-
-101010011011000111010001011101011010000111101010110100001011110101100111010101100101101110101011100110101001010110010101011010100101101010101110010111011011010010111010101010011011000111010001011101011010000111101010110100001011110101100111010101100101101110101011100110101001010110010101011010100101101010101110010
-
-<!--presenter notes
-
-If you were to encounter a bunch of binary digits or "bits", this is what it would look like: a giant nonsensical wall of 0s and 1s, with little rhyme or reason at least from the perspective of a human. A bunch of 1s and 0s is sometimes called a "bitstream".
-
--->
-
----
-
-01010111 01001111 01010010 01001100
-01000100 00100111 01010011 00100000
-01010100 01001001 01001110 01001001
-01000101 01010011 01010100 00100000
-01000011 01001111 01001101 01010000
-01010101 01010100 01000101 01010010
-
-<!--presenter notes
-
-Similar to how we insert commas every three places into decimal numbers to make them easier to read, computers can be programmed to read bitstreams in chunks.
--->
-
----
-
-87 79 82 76 68 39 83 32
-84 73 78 73 69 83 84 32
-67 79 77 80 85 84 69 82
-
-<!--presenter notes
-Here is what our very random bitstream looks like, when translating binary 8-bit bytes to decimal, using the method we just followed.
--->
+Each bit is multiplied by its **weight** (2 to the power of the bit's place index).
 
 ---
 
 ## Definition
 # Byte (1/3)
 
-A byte is a distinct-length group of bits.
+A byte is a discrete-length group of bits.
 
  Example: 00000111 
 
-This byte has a distinct length of 8 bits.
+This byte has a discrete length of 8 bits.
 
 <!-- presenter notes
 
@@ -597,7 +336,7 @@ A byte is a discrete-length grouping of bits. In the slide, we have an example o
 
 You can think of a byte as a container that holds a certain amount of bits.
 
-Computers are built to handle specific byte lengths. Some handle 8-bit bytes, others 16, or 32. For simplicity's sake, for the rest of the lesson, we will work with a fictional 8-bit system.
+Computers are built to handle specific byte lengths. Some handle 8-bit bytes, others 16, or 32.
 
 -->
 
@@ -608,14 +347,14 @@ Computers are built to handle specific byte lengths. Some handle 8-bit bytes, ot
 
 Byte length determines total number of values a byte can represent.
 
-An 8-bit byte can represent up to 256 values.
+A 1-bit byte can hold up to two values (1 and 0). A 2-bit byte can hold up to 4 (00, 11, 01, 10). An 8-bit byte can represent up to 256 values.
 
 ---
 
 ## Definition
 # Byte (3/3)
 
-To determine the maximum values a byte can represent, you can "raise" the 2 possible bit values (1 or 0) to the "power" of the byte length (8), notated as 2^8.
+To determine the maximum values a byte can represent, you raise the 2 possible bit values (1 or 0) to the power of the byte length (8), notated as 2^8.
 
 ```
 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 
@@ -638,8 +377,8 @@ To calculate how many different combinations of 8 1s and 0s, we raise the number
 # How many possible values are there in a 16-bit system?
 
 To determine this:
-* Determine number of possible bit values: 2
-* Determine length of byte: 16
+* Take the number of possible bit values: 2
+* Take the length of byte: 16
 * Raise 2 to the power of the byte length (2^16)
 
 ---
@@ -843,6 +582,125 @@ For example, a 1 might be represented by a magnetic field pointing in one direct
 So, whether you're reading a word, watching a video, or listening to music, it's all fundamentally encoded in binary and stored physically as on/off signals or magnetic impressions. This entire process—from the word "OK" you see on the screen down to the magnetic signals on a storage device—is how modern computing translates information into a format both humans and machines can understand.
 
 -->
+
+---
+
+# Binary -> Decimal
+
+| Binary value | Decimal value | | Binary value | Decimal value |
+| :-: | :-: | :-: | :-: | :-: |
+| 0000 0000 | 0 | | 0000 0110 | 6 |
+| 0000 0001 | 1 | | 0000 0111 | 7 |
+| 0000 0010 | 2 | | 0000 1000 | 8 |
+| 0000 0011 | 3 | | 0000 1001 | 9 |
+| 0000 0100 | 4 | |  |
+| 0000 0101 | 5 | |  |
+
+
+<!--presenter notes
+
+Here is a sample list of binary values, corresponding to decimal values, in an 8-bit system. In the right-most column, we have 10 decimals, 0 through 9, and their corresponding binary values. In an 8-bit system, the complete list would show 256 possible values.
+
+You may have noticed that, there seems to be a pattern in the placement of 1s and 0s for each decimal going up in succession. Bytes are not arbitrarily assigned to decimals: there is a mathematical system, corresponding to chains of logic gates that are the physical manifestation of math (adding, subtracting, etc.) behind that make it so, if you take a binary value, you can reverse-engineer it to determine, in a few steps, the decimal value it represents.
+
+-->
+
+---
+
+| Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+
+
+ This byte represents the decimal number 7.
+
+*Let's step through how we get from 0000 0111 to 7.*
+
+---
+
+| Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+
+ First question to ask: How many *ones* (1s) are there?
+
+<!--presenter notes 
+
+Each bit has its own place or position, which is mapped out on the slide. In an 8-bit system, we have 8 possible place values, starting from place 0, up to place 7. Places are read from right to left.
+
+-->
+
+---
+
+| Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+
+ Answer: There are three 1s.
+
+---
+
+| Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
+
+ Second question to ask: For each 1 we've found, *what are their place values*?
+
+---
+
+| Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
+
+ Answer: Their place values are 0, 1 and 2.
+
+---
+
+| Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
+| Weight | 2^7 | 2^6 | 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0 |
+
+ Third question to ask: For each 1 we've found, what is their *weight*? (Weight = 2, raised to the power of the place value)
+
+---
+
+| Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
+| Weight | 2^7 | 2^6 | 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0 |
+| Weight (calculated) | NA | NA | NA | NA | NA | 4 | 2 | 1 |
+
+
+ Answer: Each 1's weight is 4, 2 and 1.
+
+<!-- presenter notes
+
+What do we mean by weight?
+
+A good example comes from the base-10 decimal system we are most familiar with.
+
+-->
+
+---
+
+| Bit | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| Place | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
+| Weight | 2^7 | 2^6 | 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0 |
+| Weight (calculated) | NA | NA | NA | NA | NA | 4 | 2 | 1 |
+
+What is the sum of all weight values added together?
+4 + 2 + 1 = 7
+
+Byte value 00000111 = Decimal number 7
+
+<!--presenter notes
+
+- The 1 in Place 0 carries a weight of 2^0 or 1. We multiply by 1 to get a Value of 1
+- The 1 in Place 1 carries a weight of 2^1 or 2. We multiply by 1 to get a Value of 2.
+- The 1 in Place 2 carries a weight of 2^2 or 4. We multiply 4 by 1 to get a Value of 4.
+- Add together all values: 4 + 2 + 1 = 7
+
+-->
+
 
 ---
 
