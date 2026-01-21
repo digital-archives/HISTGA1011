@@ -477,7 +477,7 @@ section.big-table td.highlight {
 section table {
   width: auto !important;
   max-width: 100% !important;
-  margin: 0.4em auto !important;
+  margin: 0.10em auto !important;
   font-size: 18pt !important;
   table-layout: auto !important;
 }
