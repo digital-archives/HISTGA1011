@@ -147,3 +147,7 @@ section .focus-list li strong {
   color: #000;             /* black for current item */
   font-weight: 700;
 }
+
+section {
+  outline: 6px solid hotpink !important;
+}
