@@ -353,11 +353,6 @@ This illustrates a key idea: the more bits a system has, the more states it can 
 
 ---
 
-# **Question**
-# If a bit represents a lot (1) or a little (0) voltage, how does the computer "know" if a bit equals high or low?
-
----
-
 ## Definition
 # Logic Gate
 
