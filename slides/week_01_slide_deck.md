@@ -307,7 +307,7 @@ https://commons.wikimedia.org/wiki/File:HP_1813-0091_top_case_removed.jpg#Summar
 | :-: | :-: | :-: |
 | Weight | 2² | 2¹ | 2⁰ |
 
-Like base-10, decimal values can represented by stringing together multiple bits.
+Like base-10, number values can represented by stringing together multiple bits.
 
 Discrete-length groups of bits are known as **bytes**.
 
