@@ -351,17 +351,17 @@
   },"50": {
     "doc": "Grading - Points Breakdown",
     "title": "Grading - Points Breakdown",
-    "content": "Students are evaluated using a points-based system totaling 100 across two main areas: Weekly Activities (70 points) and Final Project (30 points). ",
+    "content": "Students are evaluated using a points-based system totaling 100 across three main areas: Weekly Activities (60 points), Participation (10 points) and Final Project (30 points). ",
     "url": "/HISTGA1011/grading/",
     
     "relUrl": "/grading/"
   },"51": {
     "doc": "Grading - Points Breakdown",
-    "title": "Weekly Activities (70 points)",
+    "title": "Weekly Activities + Participation (70 points)",
     "content": "| Activity | Points | . | Weekly Assignments | 60 | . | Participation (includes activity discussions) | 10 | . | Total | 70 | . Notes on Weekly Assignments . The Imaging and Conservation Group Activity is worth 10 points, while all other assignments are worth 3 points each. ",
-    "url": "/HISTGA1011/grading/#weekly-activities-70-points",
+    "url": "/HISTGA1011/grading/#weekly-activities--participation-70-points",
     
-    "relUrl": "/grading/#weekly-activities-70-points"
+    "relUrl": "/grading/#weekly-activities--participation-70-points"
   },"52": {
     "doc": "Grading - Points Breakdown",
     "title": "Final Project (30 points)",
