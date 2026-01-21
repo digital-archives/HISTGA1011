@@ -6,6 +6,6 @@ nav_order: 14
 has_children: false
 ---
 
-# Week 14: No Class!
+# Week 14: No Class - Work/Consultation Day
 
 Use this time to work on your final papers and presentations. I will make myself available to book for consults, in case you have any questions or guidance. Booking form TK!

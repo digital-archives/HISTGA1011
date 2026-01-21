@@ -34,35 +34,35 @@ This is your introductory slide. Fill in:
 
 2. **Slide 2: Systems List:**
 List the **name of each system** the institution uses.
-- If applicable, **hyperlink each system** to its official website or documentation
+- If applicable, link each system to its official website or documentation
 - If a particular system is unknown, simply list **"Unknown"** in its place.
-- _Note: You will not be graded on completeness!_ Some institutions do not publicly share their full tech stack. Focus on what you can find using the documentation provided in Airtable.
+- _Note: You will not be graded on completeness and getting the names of all systems used_ Some institutions do not publicly share this information. Focus on what you can find using the documentation provided in Airtable.
 
 ### **3. Slide 3: System Demo**  
 
-During your presentation, you will **demonstrate one system** from your institution’s tech stack. Your slide should serve as a guide for your demo and include:  
+During your presentation, you will demonstrate one system from your institution’s tech stack. Your slide should serve as a guide for your demo and include:  
 
 - A **URL** to the system you will be showcasing.  
 - A brief **"tour" of the system**, covering:  
-  - **What does it look like?** Highlight key features and user interface (UI) elements.  
-  - **What can a user do?** (e.g., search, browse, view, play, interact).  
-  - **Does it integrate with other systems?** If so, how?  
+  - What it looks like to an end-user** Highlight key features and user interface (UI) elements.  
+  - What can a user do? (e.g., search, browse, view, play, interact).  
+  - Does it integrate with other systems? If so, how?  
 
-Not all systems are publicly accessible. Choose a system that has an **external-facing interface**, such as:  
+Not all systems are publicly accessible. Choose a system that has an external-facing interface, such as:  
 - A **digital collections website**  
 - A **finding aid portal**  
 - A **digitization request form**  
 - A **catalog record**  
 
-📌 **Important:** When selecting your system, try to focus on one that **links to digitally preserved objects** to help illustrate its role in the institution’s digital preservation workflow.  
+**Please note:** When selecting your system, try to focus on one that links to digitally preserved objects to help illustrate its role in the institution’s digital preservation workflow.  
 
-## Submission
+## Submission Details
 
 **Submit your exported slide deck** via the Assignments section of Brightspace. In addition, please:
 - Share your Google Slides link with me, or copy/paste the slide deck URL in the Brightspace Assignment submission form.
 - Ensure your slides are fully visible (set permissions to allow viewing).
 
-🔹 I will be compiling all individual slide decks into a single class presentation, so be sure to update your sharing settings accordingly.
+*I will be compiling all individual slide decks into a single class presentation, so be sure to update your sharing settings accordingly.*
 
 ## Presentation
 

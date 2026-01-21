@@ -8,7 +8,9 @@ has_children: false
 
 # Week 8: Access and Discovery
 
+<!--
 <a href="https://digital-archives.github.io/HISTGA1011/slides/week_08_slide_deck.html" target="_blank">Slides</a>
+-->
 
 {: .label .label-yellow }
 Due
