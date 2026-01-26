@@ -14,9 +14,9 @@ paginate: true
 
 # Today
 - **Settle in/Reminders/Announcements** (15 min)
-- **Lightning Talks: Data Object** (20 min)
-- **Lecture: Open Archival Information System (OAIS)** (1 hr)
+- **Lightning Talks: Data Object** (50 min)
 - **Break** (10 min)
+- **Lecture: Open Archival Information System (OAIS)** (1 hr)
 - **Start Weekly Activity**: Breaking BagIt (rest of time)
 
 ---
@@ -29,7 +29,7 @@ paginate: true
 
 # Lightning Talks: Data Object
 
-Spend ~2 minutes talking your your data object while we look at your entry in the <a href="https://airtable.com/appX8QYrNyTDJDGmg/shrcCl043DAEFMjQe/tblFNKDulPFQ629VV" target="_blank">Data Object Gallery</a>.
+Spend 5 minutes talking your your data object while we look at your entry in the <a href="https://airtable.com/app7qqjN2nnglfPfD/shrG93LaV2ZbOWPKE" target="_blank">Data Object Gallery</a>.
 
 ---
 

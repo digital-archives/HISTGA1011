@@ -1,10 +1,10 @@
-/* @theme rose-pine-dawn */
-/*
+/- @theme rose-pine-dawn -/
+/-
 Rosé Pine theme create by RAINBOWFLESH
 > www.rosepinetheme.com
 
 palette in :root
-*/
+-/
 
 @import "default";
 @import "schema";
@@ -35,7 +35,7 @@ palette in :root
 
     background-color: var(--base);
 }
-/* Common style */
+/- Common style -/
 
 section {
   background: var(--base) !important;
@@ -102,7 +102,7 @@ marp-pre {
     border-color: var(--highlight-high);
 }
 
-/* Code blok */
+/- Code blok -/
 .hljs-comment {
     color: var(--muted);
 }
@@ -176,39 +176,39 @@ img {
     height: 0;
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
-    border-bottom: 30px solid #ffb347; /* Orange */
+    border-bottom: 30px solid #ffb347; /- Orange -/
     display: inline-block;
     margin: 0 10px;
   }
   .circle {
-    background-color: #00c0ff; /* Blue */
+    background-color: #00c0ff; /- Blue -/
   }
   .square {
     width: 30px;
     height: 30px;
-    background-color: #ff6767; /* Red */
+    background-color: #ff6767; /- Red -/
   }
   .activity-list {
     font-size: 1.1rem;
     line-height: 1.1;
-    color:rgb(81, 0, 168); /* Light lavender */
+    color:rgb(81, 0, 168); /- Light lavender -/
     margin-left: 20px;
   }
   .activity-list li {
     margin-bottom: 10px;
   }
   .activity-list li strong {
-    color:rgb(235, 133, 133); /* Highlighted lavender */
+    color:rgb(235, 133, 133); /- Highlighted lavender -/
   }
 
 .activity-title {
-    color:rgb(144, 0, 255); /* Soft purple */
+    color:rgb(144, 0, 255); /- Soft purple -/
     font-size: 2rem;
     margin-bottom: 20px;
     font-weight: bold;
   }
 
-/* Make the table completely transparent */
+/- Make the table completely transparent -/
 table {
     border-collapse: collapse !important;
     border: none !important;
@@ -302,7 +302,7 @@ table img, table a {
     padding: 20px;
   }
 
-  /* Styles for action button */
+  /- Styles for action button -/
   .action-button {
     background-color: #007bff;
     color: white;
@@ -348,7 +348,7 @@ table img, table a {
     margin-bottom: 20px;
   }
 
-/* Quotation block — Rosé Pine Dawn aesthetic */
+/- Quotation block — Rosé Pine Dawn aesthetic -/
 .quote {
   background: var(--surface);
   color: var(--text);
@@ -404,7 +404,7 @@ table img, table a {
 
   .slide-title {
     text-align: center;
-    color: #2e7d32; /* Green color for the header */
+    color: #2e7d32; /- Green color for the header -/
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 30px;
@@ -418,7 +418,7 @@ table img, table a {
   }
 
   .circle {
-    background-color: #2e7d32; /* Green background */
+    background-color: #2e7d32; /- Green background -/
     color: white;
     font-size: 1.5rem;
     font-weight: bold;
@@ -435,17 +435,17 @@ table img, table a {
   }
   .content h2 {
     margin: 0;
-    color: #2e7d32; /* Green color for subheadings */
+    color: #2e7d32; /- Green color for subheadings -/
     font-size: 1.2rem;
   }
   .content p {
     margin: 5px 0 0;
     font-size: 1rem;
-    color: #4a4a4a; /* Gray for body text */
+    color: #4a4a4a; /- Gray for body text -/
   }
 
 
-/* Only apply the big “grid” look to tables you explicitly mark */
+/- Only apply the big “grid” look to tables you explicitly mark -/
 section.big-table table {
   border-collapse: collapse !important;
   margin: 0 auto !important;
@@ -466,18 +466,18 @@ section.big-table td {
   color: #444 !important;
 }
 
-/* highlight any cell with .highlight class */
+/- highlight any cell with .highlight class -/
 section.big-table td.highlight {
   background-color: #add8e6 !important;
   color: #000 !important;
   border-color: #333 !important;
 }
 
-/* Default markdown table behavior (for regular content tables) */
+/- Default markdown table behavior (for regular content tables) -/
 section table {
   width: auto !important;
   max-width: 100% !important;
-  margin: 0.10em auto !important;
+  margin: 0.4em auto !important;
   font-size: 18pt !important;
   table-layout: auto !important;
 }
