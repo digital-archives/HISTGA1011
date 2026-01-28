@@ -70,7 +70,7 @@ Diagram from: https://muse.jhu.edu/article/223247
 
 This diagram provides a timeline for some of the earliest developed digital preservation standards. 
 
-Notice that there are two "tracks": One for the OAIS, and another for TRAC for “Trustworthy Repositories Audit & Certification”. Though we will not be focusing specifically on TRAC today (I'll share why in a bit), you can see that TRAC and OAIS influenced one another over the course of time.
+Notice that there are two "tracks": One for the OAIS, and another for TRAC for “Trustworthy Repositories Audit & Certification”. Though we will not be focusing specifically on TRAC today, you can see that TRAC and OAIS influenced one another over the course of time. If you are ever curious about TRAC, I set aside a resource in the Course Reserves that details the audit process, checklist, and examples of institutions seeking TRAC certification.
 
 -->
 
@@ -149,9 +149,7 @@ Diagram credit: By Mathieualexhache (original work); Mess (SVG conversion; Engli
 
 Here we have a diagram showing a visualization of the OAIS functional model, which describes how information enters into, is stored in, and flows out of an OAIS and the various functional entities that interact with the OAIS.
 
-Take a moment to look at the “flow” of information in/outof an OAIS. The various OAIS functions - preservation planning, ingest, data management, archival storage, administration and access - are labeled in brown. Entities that interact with the OAIS - producers, consumers and management - are labeled in plain black text. Various information packages handled by the OAIS - SIPs, AIPs, and DIPs - are labeled in the white circles. The OAIS itself is delineated by the dotted rectangle.
-
-In defining what each information package is, we will also learn more about the entities who interact with or receive data from an OAIS: Producers, Consumers, and Management. I’ve underlined these entities in yellow.
+Take a moment to look at the “flow” of information in/outof an OAIS. The various OAIS functions - preservation planning, ingest, data management, archival storage, administration and access - are are found throughout the diagram. Entities that interact with the OAIS - producers, consumers and management - can be found interacting with the OAIS from the outside. Various information packages handled by the OAIS - SIPs, AIPs, and DIPs - are labeled in the white circles, and are found both outside and inside the OAIS. The OAIS itself is delineated by the dotted rectangle.
 
 Source: Figure 1 diagram from https://www.oclc.org/research/publications/2000/lavoie-oais.html
 
@@ -205,12 +203,12 @@ An information package is the data submitted, managed and distributed by an OAIS
 
 ``` 
 +---------------------+---------------------+
-|░░░░░░░░░ 1 ░░░░░░░░░|                     |
+|░░░░░░░░░ 1 ░░░░░░░░░|          2          |
 |░░░░░░ Content ░░░░░░|     Preservation    |
 |░░░░ Information ░░░░|     Description     |
 |░░░░░░░░░░░░░░░░░░░░░|                     |
 +---------------------+---------------------+
-|                     |                     |
+|          3          |          4          |
 |      Packaging      |     Description     |
 |     Information     |     Information     |
 |                     |                     |
@@ -496,12 +494,12 @@ Suggested answers:
 
 ``` 
 +---------------------+---------------------+
-|                     |░░░░░░░░░ 2 ░░░░░░░░░|
+|          1          |░░░░░░░░░ 2 ░░░░░░░░░|
 |       Content       |░░░░ Preservation ░░░|
 |     Information     |░░░░ Description ░░░░|
 |                     |░░░░░░░░░░░░░░░░░░░░░|
 +---------------------+---------------------+
-|                     |                     |
+|          3          |          4          |
 |      Packaging      |     Description     |
 |     Information     |     Information     |
 |                     |                     |
@@ -588,7 +586,7 @@ Definition taken from https://www.dpconline.org/docs/technology-watch-reports/13
 
 ``` 
 +---------------------+---------------------+
-|                     |                     |
+|          1          |          2          |
 |       Content       |     Preservation    |
 |     Information     |     Description     |
 |                     |                     |
