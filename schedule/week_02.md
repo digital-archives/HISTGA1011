@@ -14,6 +14,8 @@ has_children: false
 {: .label .label-yellow }
 Due
 
+Today we'll spend the first hour of class talking through out data objects. Be prepared to speak up to 5 minutes about your submitted Data Object.
+
 In class we will start the Week 2 activity, <a href="https://digital-archives.github.io/HISTGA1011/activities/fixity_bagger.html" target="_blank">Breaking BagIt</a>. Submit your completed activity summary in Brightspace by Sunday night.
 
 {: .label .label-green }
