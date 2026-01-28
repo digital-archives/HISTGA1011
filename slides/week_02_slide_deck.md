@@ -23,13 +23,14 @@ paginate: true
 
 # Announcements
 
-* TK
+* April 15: Site visit to Museum of Modern Art (MoMA) with archivist Ana Marie.
+* <a href="https://2026.code4lib.org/" target="_blank">code4lib conference</a> (both online and virtual) in Philadelphia
 
 ---
 
 # Lightning Talks: Data Object
 
-Spend 5 minutes talking your your data object while we look at your entry in the <a href="https://airtable.com/app7qqjN2nnglfPfD/shrG93LaV2ZbOWPKE" target="_blank">Data Object Gallery</a>.
+Spend 5 minutes each talking your your data object while we look at your entry in the <a href="https://airtable.com/app7qqjN2nnglfPfD/shrG93LaV2ZbOWPKE" target="_blank">Data Object Gallery</a>.
 
 ---
 
