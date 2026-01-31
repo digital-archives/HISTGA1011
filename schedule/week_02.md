@@ -7,9 +7,7 @@ has_children: false
 ---
 # Week 2: Open Archival Information System (OAIS) Conceptual Model
 
-<!--
 <a href="{{ site.baseurl }}/slides/week_02_slide_deck.html" target="_blank">Slides</a>
--->
 
 {: .label .label-yellow }
 Due
