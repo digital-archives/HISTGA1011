@@ -14,7 +14,7 @@ has_children: false
 
 {: .label .label-yellow }
 Due
-* In class we will start the Week 8 activity, <a href="https://digital-archives.github.io/HISTGA1011/activities/user_experience.html" target="_blank">The User's Experience</a>. Submit your completed activity summary in Brightspace by Sunday night.
+* In class we will start the Week 7 activity, <a href="https://digital-archives.github.io/HISTGA1011/activities/user_experience.html" target="_blank">The User's Experience</a>. Submit your completed activity summary in Brightspace by Sunday night.
 
 {: .label .label-green }
 Read
