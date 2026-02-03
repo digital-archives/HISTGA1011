@@ -1,0 +1,224 @@
+---
+marp: true
+theme: gaia
+size: 16:9
+paginate: true
+mermaid: true
+
+style: |
+ img {
+ max-width: 100%;
+ max-height: 100%;
+ height: auto;
+ width: auto;
+ display: block;
+ margin: 0 auto;
+ }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        font-size: 28px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    .box {
+        padding: 15px 25px;
+        border-radius: 8px;
+        font-weight: bold;
+        text-align: center;
+        min-width: 200px;
+        position: relative;
+        font-size: 30px;
+    }
+    .file { background-color: #e67e22; color: white; }
+    .container-box { background-color: #27ae60; color: white; min-width: 260px; }
+    .codec { background-color: #e57373; color: white; min-width: 280px; }
+
+    /* Symbols */
+    .equals, .plus { font-size: 36px; }
+
+    /* Descriptions */
+    .description {
+        font-size: 22px;
+        font-weight: normal;
+        text-align: center;
+        color: black;
+        margin-top: 8px;
+        background: rgba(255, 255, 255, 0.6);
+        padding: 6px;
+        border-radius: 5px;
+    }
+
+    /* File name under Media File */
+    .filename {
+        margin-top: 10px;
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    /* Bullet Lists Inside Boxes */
+    .container-box ul, .codec ul {
+        list-style-type: disc;
+        text-align: left;
+        font-size: 24px;
+        margin-top: 10px;
+        padding-left: 20px;
+    }
+
+ th {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: black !important;
+  background-color: #f4f4f4 !important;
+  border-bottom: 2px solid black;
+ }
+
+ .mermaid {
+ max-width: 100%;
+ overflow: hidden;
+ }
+
+ .custom-title {
+ text-align: center;
+ font-size: 2rem;
+ color: #0044cc;
+ font-weight: bold;
+ }
+ 
+ table, td, th, ul {
+ background: rgba(0, 0, 0, 0) !important;
+ border: none !important;
+ }
+
+ .pink-box {
+ background-color: #d184c2;
+ color: white;
+ padding: 20px;
+ border-radius: 5px;
+ font-weight: bold;
+ text-align: center;
+ box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+ }
+
+ .green-box {
+ background-color: #a2c9a5;
+ padding: 20px;
+ border-radius: 5px;
+ font-weight: bold;
+ text-align: center;
+ box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+ margin: 10px;
+ }
+
+ .row {
+ display: flex;
+ justify-content: space-around;
+ margin-bottom: 20px;
+ }
+
+ .quote {
+ font-size: 1.5rem;
+ font-style: italic;
+ text-align: left;
+ line-height: 1;
+ color: #4a4a4a;
+ margin: 0 auto;
+ width: 100%;
+ }
+
+ .author {
+ font-size: 1.0rem;
+ text-align: right;
+ margin-top: 20px;
+ color: #6a6a6a;
+ }
+
+ .work {
+ font-size: 1rem;
+ text-align: right;
+ color: #8a8a8a;
+ }
+
+ .slide-title {
+ text-align: center;
+ color: #2e7d32;  font-size: 2rem;
+ font-weight: bold;
+ margin-bottom: 30px;
+ }
+ 
+ .takeaway {
+ display: flex;
+ align-items: flex-start;
+ margin-bottom: 20px;
+ gap: 15px;
+ }
+
+ .circle {
+ background-color: #2e7d32;  color: white;
+ font-size: 1.5rem;
+ font-weight: bold;
+ width: 50px;
+ height: 50px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-radius: 50%;
+ flex-shrink: 0;
+ }
+ .content {
+ flex-grow: 1;
+ }
+ .content h2 {
+ margin: 0;
+ color: #2e7d32;  font-size: 1.2rem;
+ }
+ .content p {
+ margin: 5px 0 0;
+ font-size: 1rem;
+ color: #4a4a4a; }
+
+ .activity-title {
+ text-align: center;
+ color:rgb(144, 0, 255);  font-size: 2rem;
+ margin-bottom: 20px;
+ font-weight: bold;
+ }
+ .shapes {
+ text-align: center;
+ margin-bottom: 30px;
+ }
+ .shapes span {
+ display: inline-block;
+ margin: 0 10px;
+ width: 30px;
+ height: 30px;
+ border-radius: 50%;
+ }
+ .triangle {
+ width: 0;
+ height: 0;
+ border-left: 15px solid transparent;
+ border-right: 15px solid transparent;
+ border-bottom: 30px solid #ffb347;  display: inline-block;
+ margin: 0 10px;
+ }
+ .circle {
+ background-color: #00c0ff; }
+ .square {
+ width: 30px;
+ height: 30px;
+ background-color: #ff6767; }
+ .activity-list {
+ font-size: 1.1rem;
+ line-height: 1.1;
+ color:rgb(81, 0, 168);  margin-left: 20px;
+ }
+ .activity-list li {
+ margin-bottom: 10px;
+ }
+ .activity-list li strong {
+ color:rgb(235, 133, 133); }

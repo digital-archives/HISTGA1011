@@ -1,227 +1,9 @@
 ---
 marp: true
-theme: gaia
 size: 16:9
+theme: rose-pine-dawn
+html: true
 paginate: true
-mermaid: true
-
-style: |
- img {
- max-width: 100%;
- max-height: 100%;
- height: auto;
- width: auto;
- display: block;
- margin: 0 auto;
- }
-
-    .container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-        font-size: 28px;
-        font-weight: bold;
-        margin-top: 20px;
-    }
-    .box {
-        padding: 15px 25px;
-        border-radius: 8px;
-        font-weight: bold;
-        text-align: center;
-        min-width: 200px;
-        position: relative;
-        font-size: 30px;
-    }
-    .file { background-color: #e67e22; color: white; }
-    .container-box { background-color: #27ae60; color: white; min-width: 260px; }
-    .codec { background-color: #e57373; color: white; min-width: 280px; }
-
-    /* Symbols */
-    .equals, .plus { font-size: 36px; }
-
-    /* Descriptions */
-    .description {
-        font-size: 22px;
-        font-weight: normal;
-        text-align: center;
-        color: black;
-        margin-top: 8px;
-        background: rgba(255, 255, 255, 0.6);
-        padding: 6px;
-        border-radius: 5px;
-    }
-
-    /* File name under Media File */
-    .filename {
-        margin-top: 10px;
-        font-size: 24px;
-        font-weight: bold;
-        text-align: center;
-    }
-
-    /* Bullet Lists Inside Boxes */
-    .container-box ul, .codec ul {
-        list-style-type: disc;
-        text-align: left;
-        font-size: 24px;
-        margin-top: 10px;
-        padding-left: 20px;
-    }
-
- th {
-  font-weight: bold;
-  font-size: 1.2em;
-  color: black !important;
-  background-color: #f4f4f4 !important;
-  border-bottom: 2px solid black;
- }
-
- .mermaid {
- max-width: 100%;
- overflow: hidden;
- }
-
- .custom-title {
- text-align: center;
- font-size: 2rem;
- color: #0044cc;
- font-weight: bold;
- }
- 
- table, td, th, ul {
- background: rgba(0, 0, 0, 0) !important;
- border: none !important;
- }
-
- .pink-box {
- background-color: #d184c2;
- color: white;
- padding: 20px;
- border-radius: 5px;
- font-weight: bold;
- text-align: center;
- box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
- }
-
- .green-box {
- background-color: #a2c9a5;
- padding: 20px;
- border-radius: 5px;
- font-weight: bold;
- text-align: center;
- box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
- margin: 10px;
- }
-
- .row {
- display: flex;
- justify-content: space-around;
- margin-bottom: 20px;
- }
-
- .quote {
- font-size: 1.5rem;
- font-style: italic;
- text-align: left;
- line-height: 1;
- color: #4a4a4a;
- margin: 0 auto;
- width: 100%;
- }
-
- .author {
- font-size: 1.0rem;
- text-align: right;
- margin-top: 20px;
- color: #6a6a6a;
- }
-
- .work {
- font-size: 1rem;
- text-align: right;
- color: #8a8a8a;
- }
-
- .slide-title {
- text-align: center;
- color: #2e7d32;  font-size: 2rem;
- font-weight: bold;
- margin-bottom: 30px;
- }
- 
- .takeaway {
- display: flex;
- align-items: flex-start;
- margin-bottom: 20px;
- gap: 15px;
- }
-
- .circle {
- background-color: #2e7d32;  color: white;
- font-size: 1.5rem;
- font-weight: bold;
- width: 50px;
- height: 50px;
- display: flex;
- justify-content: center;
- align-items: center;
- border-radius: 50%;
- flex-shrink: 0;
- }
- .content {
- flex-grow: 1;
- }
- .content h2 {
- margin: 0;
- color: #2e7d32;  font-size: 1.2rem;
- }
- .content p {
- margin: 5px 0 0;
- font-size: 1rem;
- color: #4a4a4a; }
-
- .activity-title {
- text-align: center;
- color:rgb(144, 0, 255);  font-size: 2rem;
- margin-bottom: 20px;
- font-weight: bold;
- }
- .shapes {
- text-align: center;
- margin-bottom: 30px;
- }
- .shapes span {
- display: inline-block;
- margin: 0 10px;
- width: 30px;
- height: 30px;
- border-radius: 50%;
- }
- .triangle {
- width: 0;
- height: 0;
- border-left: 15px solid transparent;
- border-right: 15px solid transparent;
- border-bottom: 30px solid #ffb347;  display: inline-block;
- margin: 0 10px;
- }
- .circle {
- background-color: #00c0ff; }
- .square {
- width: 30px;
- height: 30px;
- background-color: #ff6767; }
- .activity-list {
- font-size: 1.1rem;
- line-height: 1.1;
- color:rgb(81, 0, 168);  margin-left: 20px;
- }
- .activity-list li {
- margin-bottom: 10px;
- }
- .activity-list li strong {
- color:rgb(235, 133, 133); }
 
 ---
 
@@ -242,23 +24,20 @@ style: |
 
 # Announcements
 
-Job announcements:
-* <a href="https://www.rfcuny.org/careers/postings?pvnID=VA-2501-006680" target="_blank">Newmark CUNY Wikimedia Documentarian (apply by March 28)</a>
-* <a href="https://www.archivingtheblackweb.org/warc-school/apply/" target="_blank">Archiving the Black Web Web Archiving (WARC) School Fellow and Teaching Assistant</a> (apply by January 31)
+* March 4/Week 7 class will be held virtually
+* Archiving the Black Web - Web Archiving School/Fellowships <a href="https://www.archivingtheblackweb.org/apply/" target="_blank">https://www.archivingtheblackweb.org/apply/</a>
 * <a href="https://memoryrising.us21.list-manage.com/subscribe?u=33964c505212f62c031cc170e&id=866da7c133" target="_blank">Memory Rising</a> Newsletter, No Time For Fear (podcast on the New Deal) by Eira Tansey</a>
 
 ---
 
 # Activity Discussion: Breaking BagIt
-
-- Top-level folder
-  - `bagit.txt`
-  - `bag-info.txt`
-  - `manifest-md5.txt`
-  - `tagmanifest-md5.txt`
+Top-level folder
+- `bagit.txt`
+- `bag-info.txt`
+- `manifest-md5.txt`
+- `tagmanifest-md5.txt`
   - `data`
-    - `file1.txt`
-    - etc.
+  - `file1.txt`
 
 <!--presenter notes
 
@@ -268,7 +47,7 @@ https://datatracker.ietf.org/doc/html/rfc8493
 
 ---
 
-## Processing Born-Digital Archives
+# Processing Born-Digital Archives
 - Acquisitions
 - Accessioning
 - Processing (arrangement and description)
@@ -280,7 +59,7 @@ https://datatracker.ietf.org/doc/html/rfc8493
 
 **Born-digital** refers to items or materials whose contents were captured using binary encoding.
 
-Born-digital items are distinct from contents created using analog recording tools and subsequently digitized.
+Born-digital items are distinct from contents created using analog recording devices and subsequently digitized.
 
 <!--presenter notes
 
@@ -341,9 +120,9 @@ _Archival Accessioning Best Practices (2024)_
 ## Definition
 # Accessioning - 2/2
 
-"Accessioning is the process of transferring and documenting the transfer of collections material into the Libraries' care. For **born-digital materials**, that means safely copying them into the Libraries' temporary storage system and documentating the process. Digital files should be accessioned within four months of receipt."
+"Accessioning is the process of transferring and documenting the transfer of collections material into the Libraries' care. For **born-digital materials**, that means safely copying them into the Libraries' temporary storage system and documentating the process."
 
-<a href="https://github.com/uga-libraries/born-digital-accessioning?tab=readme-ov-file" target="_blank">University of Georgia Libraries Github documentation on born-digital accessioning</a>
+<a href="https://github.com/uga-libraries/born-digital-accessioning?tab=readme-ov-file" target="_blank">University of Georgia Libraries Github documentation</a>
 
 <!--presenter notes
 
@@ -354,13 +133,9 @@ This definition comes from University of Georgia Libraries Github documentation 
 ---
 
 ## Definition
-# Appraisal
+# Appraisal - 1/2
 
-**Appraisal** is the process of determining whether records and other materials have permanent (archival) value.
-
-It may be done at the collection, creator, series, file, or item level.
-
-Born-digital materials may be appraised at different points of the process. This largely depends on the type(s) of media received, and whether the repository has the necessary equipment to extract contents.
+**Appraisal** is the process of determining whether records and other materials have permanent (archival) value. It may be done at the collection, creator, series, file, or item level.
 
 <!--presenter notes
 
@@ -373,13 +148,27 @@ The basis of appraisal decisions may include a number of factors, including the 
 
 ---
 
+## Definition
+# Appraisal - 2/2
+
+Born-digital materials may be appraised at **different points throughout its lifecycle**. When this happens largely depends on the type(s) of media received, and whether the repository has the necessary equipment to extract contents at the point at which appraisal is done.
+
+---
+
 ### Workflow: Acquisition -> Processing
 
 - Acquisition proposed
 - Deliver raw materials (secure file transfer, or ship temporary and/or original physical media)
-- Accession, stabilize (virus scan, create bit-level copies, or "images")
+- Accession, stabilize (virus scan, create bit-level copies via imaging, or transfer select files from media)
 - Pre-processing analysis
 - Arranagement and description
+
+---
+
+## Definition
+# Transfer
+
+A **transfer** refers to moving select data from one device to another.
 
 ---
 
@@ -405,9 +194,9 @@ https://www.youtube.com/watch?v=1-oH2T3W-q4
 ---
 
 ## Floppy disks use magnetism to encode binary data.
-- A flexible piece of plastic is coated in a magnetic substrate made up of microscopic particles.
+- A flexible piece of plastic is coated in a substrate consisting of magnetic-sensitive particles.
 - The computer:
-  - **Writes** data by applying an electromagnetic field to particles. Direction "Up" = 1 and Direction "Down" = 0
+  - **Writes** data to disk by applying an electromagnetic field to particles. Direction "Up" = 1 and Direction "Down" = 0
   - **Reads** data using a sensitive electromagnetic head that detects variance in directions amd translates to binary information.
 
 ---
@@ -434,9 +223,9 @@ When a file is saved to a hard drive, the file system assigns it to a series of 
 ---
 
 ## Definition
-# Imaging
+# Imaging - 1/2
 
-**Imaging** describes the process of creating a bit-identical copy of some sort of physical source media. The imaging process copies data _sector-by-sector_ from the disk. The result is an image file.
+**Imaging** describes the process of creating a bit-identical copy of some sort of physical source media such as a floppy disk or hard drive.
 
 <!--presenter notes
 
@@ -447,9 +236,35 @@ Disk imaging describes the process of creating a bit-identical copy of the sourc
 ---
 
 ## Definition
-# Transfer
+# Imaging - 2/2
 
-A **transfer** refers to moving select data from one device to another.
+The **imaging process** copies data _sector-by-sector_ from the disk. The result is an image file or just image, containing not just files, but also things like the file system structure and deleted files.
+
+---
+
+## Definition
+# File System
+
+**File system** is metadata that describes where files start (in terms of sectors), what they're called, what sectors have been used versus are empty, and folder hierarchies.
+
+<!--presenter notes
+
+As a result of imaging you end up copying not just a bunch of files, but entire file systems. A file system is essentially the interpretive layer between the computer/user and the file locations written to disk. Meaning, you as the user, as well as the computer system itself uses file systems to make sense of where files live, how to interact with them, how and where they are organized.
+
+-->
+
+---
+
+## Definition
+# Emulation
+
+An **emulator** is software that imitates a specific computer's hardware so that programs written for that original machine can run unchanged on a different, modern system.
+
+<!--presenter notes
+
+Once you have an image, then what? The answer usually is using some sort of emulator. An emulator is software that imitates a specific computer's hardware so that programs written for that original machine can run unchanged on a different, modern system. An emulator can, in this way, take an image, and treat it as if it were a real physical disk. Instead of inserting a floppy into a drive, you point the emulator at the disk image file, instead. The emulator then reads that file sector-by-sector, just like real hardware would read on a disk. So the image provides the data, the emulator provides the virtual machine and together they recreate the original computing environment.
+
+-->
 
 ---
 
@@ -486,6 +301,16 @@ Canadian Center for Architecture (CCA)
 Disk imaging liberates bitstreams from digital storage media, which can otherwise be subject to all the inherent risks associated with born-digital items. Disk images can be migrated into modern computing environments where they can be analyzed. The analysis may be for appraisal purposes, or throughout the course of archival processing in arranging and describing the contents.
 
 -->
+
+---
+
+## **Question - 1/2**
+We now know of two ways to get born-digital contents from the source media: transfer specific contents directly off the media, or create a sector-by-sector image.
+
+---
+
+## **Question - 2/2**
+Is disk imaging appropriate for every piece of born-digital media transferred to and accessioned by a collecting institution? Why or why not? 
 
 ---
 
@@ -583,17 +408,13 @@ A write blocker is piece of hardware or even physical component on a storage dev
 
 ---
 
-<table>
-  <tr>
-    <td style="vertical-align: top; width: 60%;">
-      <h1>Question</h1>
-      <h2>Can you guess what might happen if you attempt to image a disk without applying a write-blocker?</h2>
-    </td>
-    <td style="vertical-align: top; width: 40%;">
-      <img src="img/week_04_file_properties.png" style="max-width: 100%; height: auto;" />
-    </td>
-  </tr>
-</table>
+<img src="img/week_04_file_properties.png">
+
+---
+
+## **Question**
+
+Can you guess what might happen if you attempt to image a disk without applying a write-blocker?
 
 <!--presenter notes
 
@@ -620,8 +441,6 @@ What happens when you don’t toggle a write blocker? A good example of this are
 **Guymager**: Imaging utility; part of the BitCurator suite of born-digital processing tools.
 **Forensic Toolkit (FTK)**: Suite of born-digital processing tools; Windows-based
 **ISO Buster**: Imaging specific to optical media (CDs, DVDs, etc.)
-
-...and many more
 
 ---
 
@@ -656,14 +475,14 @@ Digital forensics techniques are often deployed because storage media can contai
 
 # Forensics can give insight into:
 - **File formats**: What file format signatures are present?
-- **Encrypted or password-protected data**: Unless the decryption key is available, these files can be considered inaccessible.
+- **Encrypted or password-protected data**
 - **Duplicate, temporary or binned files**: These often don’t hold any long-term value and can be safely discarded.
 - **Personal identifying information (PID)**: Pattern recognition can root out social security numbers, credit cards numbers, etc.
 
 ---
 
-## Question
-### Why might an archivist need to identify the file formats present in a specific accession?
+## **Question**
+Why might an archivist need to identify the file formats present in a specific accession?
 
 ---
 
@@ -711,19 +530,43 @@ And another tool! Siegfried also does bulk identifying, but is known to be nimbl
 -->
 
 ---
+## Definition
+# Normalization
+**Normalization** refers to the process of converting a digital object into a persistent file format.
 
-# Born-Digital Appraisal Considerations Raised by File Format Analysis
-__Question 1:__ Do we have the tools to extract the record off the media?
-__Question 2:__ Can we preserve/maintain the various file formats, as-is, or through normalization (**Normalization** refers to the process of converting a digital object into a persistent file format.)
+<!--presenter notes
+
+**Normalization** refers to the process of converting a digital object into a persistent file format. Normalization practices can vary from institution to institution. That said, institutions like the Library of Congress have put forth normalization recommendations. 
+
+-->
+
+---
+
+## Resource
+# Library of Congress Recommended Formats
+
+<a href="https://www.loc.gov/preservation/resources/rfs/" target="_blank">https://www.loc.gov/preservation/resources/rfs/</a>
+
+---
+
+# Appraisal Considerations Raised by File Format Analysis
+__Question 1:__ Do we have the tools to extract records?
+__Question 2:__ Can we preserve/maintain the various file formats as-is or through normalization?
 __Question 3:__ Can we provide access to the record?
-__Question 4:__ Do these records speak to our collection development policy, or its overall goals?
+__Question 4:__ Do the contents of records support institution's collection development policy?
 
 ---
 
 ## Tool
 # PRONOM
 
-**<a href="https://www.nationalarchives.gov.uk/pronom/" target="_blank">PRONOM</a>** is an on-line registry of data file formats, signatures, and their supporting software products. Originally developed to support the accession and long-term preservation of electronic records held by the National Archives, PRONOM is now being made available as a resource for anyone requiring access to this type of information, and is integrated in a variety of file format identification tools and systems.
+**<a href="https://www.nationalarchives.gov.uk/pronom/" target="_blank">PRONOM</a>** is an on-line registry of data file formats, signatures, and their supporting software products.
+
+<!--presenter notes
+
+<a href="https://www.nationalarchives.gov.uk/pronom/" target="_blank">PRONOM</a> is an on-line registry of data file formats, signatures, and their supporting software products. Originally developed to support the accession and long-term preservation of electronic records held by the National Archives, PRONOM is now being made available as a resource for anyone requiring access to this type of information, and is integrated in a variety of file format identification tools and systems.
+
+-->
 
 ---
 
@@ -759,7 +602,7 @@ _Use PRONOM to look up a registered file format._
 - Identifiers (LOC, PUID, MIME)
 - Description
 - Source date
-- "Has lower priority than": Refers to format identification precedence when multiple related file formats could apply to a given file.
+- "Has lower priority than": Refers to format identification precedence when multiple related file formats could apply.
 
 ---
 
