@@ -22,7 +22,7 @@ The goal of the "Corrupting a Bitstream" exercise is to introduce you to using a
 #### Identify format types
 1. In your HexEd.it tab, click the **Open File** button at the top of the window and select IMG_3782.jpg from wherever you downloaded it.
 2. In your PRONOM tab, use the **Search** feature to look up the format registry profile for the JPG file format; look up and note the characteristics of a JPG internal file format signature.
-3. Back in HexEd.it, find the file signature in the positions indicated by PRONOM. Please consult the <a href="https://digital-archives.github.io/HISTGA1011/slides/week_03_slide_deck.html#48" target="_blank">format signature key slide</a> for position acronyms.
+3. Back in HexEd.it, find the file signature in the positions indicated by PRONOM. Please consult the <a href="https://digital-archives.github.io/HISTGA1011/slides/week_03_slide_deck.html#57" target="_blank">format signature key slide</a> for position acronyms.
 4. Repeat steps 1-3 for PRPR19.docx: Load it into HexEd.it, look up information DOCX in PRONOM, and use the file signature details to locate its file signature within the hex data. Hint: You will see this will not be as easy as looking up the signature of a JPG. You will need to read up on DOCX files on Wikipedia, or somewhere else, to figure out what a DOCX is really made of, to figure out its proper signature.
 
 ## Task 2
