@@ -6,66 +6,79 @@ nav_order: 11
 has_children: false
 ---
 
-# Tech Stack 🥞
+---
+title: Tech Stack
+parent: Weekly Activities
+layout: default
+nav_order: 11
+has_children: false
+---
+
+# Short Stack 🥞
 
 ## Overview
 
-In this activity, you will review the online documentation for an assigned collecting institution to identify the systems it uses to support digital preservation and archiving operations. This is sometimes referred to as a technical stack or "tech stack", hence the name of the activity.
+In this activity, you will review documentation from Yale University Library to identify and describe a **“short stack”**: a small group of digital systems that are interoperable with one another.
 
-The goal is to help you understand:
-- the range of digital preservation systems
-- real life examples of their implementation
-- how these systems interact to support the stewardship life cycle of data objects.
+Similar to the Bentley example discussed in class, Yale uses multiple systems that work together to support the intake, stewardship, delivery, and discovery of digital collections. Rather than trying to understand Yale’s entire systems ecosystem at once, this activity asks you to focus narrowly on one small, concrete integration.
 
-## Institution Selection
+The goal of this assignment is to help you better understand:
+- the range of digital repository systems in use today
+- how those systems are implemented in real institutional settings
+- how systems interact to support the digital stewardship lifecycle
 
-At the start of this activity in class, I will assign you an institution listed in the <a href="https://airtable.com/app90l0hAVV99Yym6/shrNexpZL58DjSgPO" target="_blank">Tech Stack Airtable gallery</a> (your name and your assigned institution will be displayed in the gallery card; click into the card for access to a link (or 2) to some online documentation to assist in your research.)
+---
 
-## Describe the Stack
+## Step 1: Review documentation and resources
 
-You will create a **3-slide mini-presentation** to share with the class next session. Please use the provided <a href="https://docs.google.com/presentation/d/1mPmi7bpo2wfwvYki0GFOJDFe_mdD3YLpvbHIpS9o_5U/edit#slide=id.g32f99f3c5ab_0_530" target="_blank">Google Slide template</a> so the slide decks are all formatted the same. To use this template, open it, and select File > Make a copy > Entire presentation to make a local copy in your GDrive.
+Review the following documentation to identify possible system integrations at Yale:
 
-Your slides should be structured as follows:
+- [Informative diagram shared during my first week at Yale](https://github.com/digital-archives/HISTGA1011/blob/main/slides/img/week_04_yale_diagram.png)  
+- [Slide deck by the Director of Digital Special Collections and Access](https://www.iaml.info/sites/default/files/pdf/manton_prioritizing_preservation_through_access_iaml2024.pdf)  
+- [Born Digital @ Yale LibGuide](https://guides.library.yale.edu/c.php?g=300384&p=3593184)  
+- [“Before and After: Digital Media Accessioning Service”](https://campuspress.yale.edu/borndigital/2024/06/03/before-and-after-digital-media-accessioning-service/) (blog post by Alice Prael)
 
-1. **Slide 1: Institution Name/Your Name:**
-This is your introductory slide. Fill in:
-- The name of your assigned institution
-- Your name
+You do **not** need to read every document closely. Skim with the following questions in mind:
 
-2. **Slide 2: Systems List:**
-List the **name of each system** the institution uses.
-- If applicable, link each system to its official website or documentation
-- If a particular system is unknown, simply list **"Unknown"** in its place.
-- _Note: You will not be graded on completeness and getting the names of all systems used_ Some institutions do not publicly share this information. Focus on what you can find using the documentation provided in Airtable.
+- What systems are mentioned?
+- Where do those systems appear to exchange data or depend on one another?
 
-### **3. Slide 3: System Demo**  
+---
 
-During your presentation, you will demonstrate one system from your institution’s tech stack. Your slide should serve as a guide for your demo and include:  
+## Step 2: Describe a short stack
 
-- A **URL** to the system you will be showcasing.  
-- A brief **"tour" of the system**, covering:  
-  - What it looks like to an end-user** Highlight key features and user interface (UI) elements.  
-  - What can a user do? (e.g., search, browse, view, play, interact).  
-  - Does it integrate with other systems? If so, how?  
+Choose **one short stack** that includes:
+- at least two systems
+- no more than three systems
+- one to three points of integration
 
-Not all systems are publicly accessible. Choose a system that has an external-facing interface, such as:  
-- A **digital collections website**  
-- A **finding aid portal**  
-- A **digitization request form**  
-- A **catalog record**  
+This constraint is intentional. As we saw in class with the Bentley example, even a three-system integration can become complex very quickly.
 
-**Please note:** When selecting your system, try to focus on one that links to digitally preserved objects to help illustrate its role in the institution’s digital preservation workflow.  
+### Your write-up should include:
 
-## Submission Details
+### 1. System identification
+List each system in your short stack by name.
 
-**Submit your exported slide deck** via the Assignments section of Brightspace. In addition, please:
-- Share your Google Slides link with me, or copy/paste the slide deck URL in the Brightspace Assignment submission form.
-- Ensure your slides are fully visible (set permissions to allow viewing).
+### 2. System functions
+Using the list of digital repository functions discussed in class, identify **at least one function** that each system in your stack performs.
 
-*I will be compiling all individual slide decks into a single class presentation, so be sure to update your sharing settings accordingly.*
+> Note: A single system may cover more than one function. That is normal and expected.
 
-## Presentation
+### 3. Integration purpose
+Describe the purpose of the integration between the systems.
 
-Be prepared to present next class!
-- Each student will have ~5 minutes to demo their institution’s Tech Stack.
-- You will walk us through one system from your stack, showcasing its interface and key features.
+- What information is being shared between systems?
+- Why does one system need access to another system’s data?
+- What problem does this integration help solve?
+
+If the documentation does not explicitly explain the purpose of an integration, make a reasonable guess based on what you learned in class.
+
+Think back to the Bentley example, where integrations helped to reduce duplicate data entry, connect descriptive records with preserved digital files, support access and discovery and maintain relationships between systems.
+
+---
+
+## Step 3: Submit your findings
+
+Submit a short written document (max 1–2 pages) to the Assignments section of Brightspace.
+
+There is no required format and bullet points are welcome.

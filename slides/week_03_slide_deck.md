@@ -7,8 +7,8 @@ paginate: true
 
 ---
 
-# Week 3 
-## Processing Born-Digital Archives
+## Week 3 
+# Processing Born-Digital Archives
 
 ---
 
@@ -667,14 +667,23 @@ Here I am taking queues from the Canadian Centre for Architecture's "Arrangement
 
 ---
 
-# **How did the records arrive?**
-  - **A creator's entire hard drive is...
-    - More likely to reflect **original order**  
-    - May have **dependencies** between files  
-    - Less manual arrangement needed  
-  - **Small (as in capacity) storage media** (e.g., floppies, CDs)  
-    - Less likely to reflect **original order**
-    - More likely to have a relationship with a physical item (i.e. a CD in a folder of correspondence)
+# **How did the records arrive? 1/2**
+**A creator's entire hard drive is...
+- More likely to reflect **original order**
+- May contain dependencies between files 
+- Less manual arrangement needed
+
+_These are not rules, just broad generalizations._
+
+---
+
+# **How did the records arrive? 2/2**
+
+**A creator's small storage media** (e.g., floppies, CDs) is...
+- Perhaps less likely to reflect original order
+- More likely to have a relationship with a physical item (i.e. a CD in a folder of correspondence)
+
+_These are not rules, just broad generalizations._
 
 ---
 
