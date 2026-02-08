@@ -490,3 +490,45 @@ section td {
   white-space: nowrap !important;
 }
 
+/* Inline highlight */
+span.hl {
+  padding: 0.08em 0.25em;
+  border-radius: 0.25em;
+  background: rgba(255, 230, 150, 0.9);
+  color: inherit;
+}
+
+/* Systems overview tables */
+table.systems-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 85%;
+  border: 2px solid black;
+}
+
+table.systems-table td,
+table.systems-table th {
+  padding: 10px 15px;
+  text-align: left;
+  border: 1px solid black;
+}
+
+table.systems-table th {
+  background-color: #f4f4f4;
+  border-bottom: 2px solid black;
+  font-weight: 700;
+}
+
+/* First column visual anchor */
+table.systems-table td:first-child {
+  width: 45%;
+  font-weight: 600;
+}
+
+.pancake {
+  font-size: 160pt;
+  text-align: center;
+}
+
+
