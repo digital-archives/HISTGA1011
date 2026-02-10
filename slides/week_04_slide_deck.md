@@ -842,7 +842,7 @@ Here we are seeing Archivematica calling up the archival object tree for a singl
 ---
 
 ## Weekly Activity
-# Tech Stack 🥞
+# Short Stack 🥞
 
 Start: <a href="https://digital-archives.github.io/HISTGA1011/activities/tech_stack.html" target="_blank">https://digital-archives.github.io/HISTGA1011/activities/tech_stack.html</a>
 

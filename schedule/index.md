@@ -12,7 +12,7 @@ has_children: true
 | [Week 1](week_01.html)  | January 21 | Introduction to Digital Archives | <a href="https://digital-archives.github.io/HISTGA1011/activities/data_object.html" target="_blank">Data Object</a> |
 | [Week 2](week_02.html)  | January 28 | OAIS Conceptual Model | <a href="https://digital-archives.github.io/HISTGA1011/activities/fixity_bagger.html" target="_blank">Breaking BagIt</a> |
 | [Week 3](week_03.html)  | February 4 | Processing Born-Digital Archives | <a href="https://digital-archives.github.io/HISTGA1011/activities/corrupting_a_bitstream.html" target="_blank">Corrupting a Bitstream</a> |
-| [Week 4](week_04.html)  | February 11 | Digital Repository Systems | <a href="https://digital-archives.github.io/HISTGA1011/activities/tech_stack.html" target="_blank">Tech Stack</a> |
+| [Week 4](week_04.html)  | February 11 | Digital Repository Systems | <a href="https://digital-archives.github.io/HISTGA1011/activities/tech_stack.html" target="_blank">Short Stack 🥞</a> |
 | [Week 5](week_05.html)  | February 18 | Storage Infrastructures | <a href="https://digital-archives.github.io/HISTGA1011/activities/archivematica.html" target="_blank">Archivematica Sandbox</a> |
 | [Week 6](week_06.html)  | February 25 | Digital Preservation Metadata | <a href="https://digital-archives.github.io/HISTGA1011/activities/metadata.html" target="_blank">Digital Preservation Metadata</a> |
 | [Week 7](week_07.html)  | March 4 | Access and Discovery<br>**_Class will be held virtually_** | <a href="https://digital-archives.github.io/HISTGA1011/activities/user_experience.html" target="_blank">The User's Experience</a> |

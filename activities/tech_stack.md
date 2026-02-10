@@ -6,14 +6,6 @@ nav_order: 11
 has_children: false
 ---
 
----
-title: Tech Stack
-parent: Weekly Activities
-layout: default
-nav_order: 11
-has_children: false
----
-
 # Short Stack 🥞
 
 ## Overview
