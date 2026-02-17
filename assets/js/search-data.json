@@ -43,35 +43,35 @@
   },"6": {
     "doc": "Archivematica Sandbox",
     "title": "Introduction",
-    "content": "A sandbox environment allows users to experiment with an application without affecting live data. In this exercise, you’ll use Archivematica’s sandbox to explore how digital archivists process and ingest Information Packages using a digital preservation system. What is Archivematica? . Archivematica is an open-source digital preservation system that automates tasks through “microservices” to streamline SIP transfers, ingestion, and the creation of Archival Information Packages (AIPs) and Dissemination Information Packages (DIPs). Important Notes: . | The sandbox clears data daily around midnight, so any session data, logs, or work in progress will be lost. | If a job fails, don’t worry: note it and move on. Failed jobs won’t halt the entire process (this is the beauty of a microservice!) | You must run through the Tasks at least twice. Please set aside 1-2 hours max for this activity. | . ",
+    "content": "A sandbox environment allows users to experiment with an application without affecting live data. In this exercise, you’ll use Archivematica’s sandbox to explore how digital archivists process and ingest Information Packages using a digital preservation system. What is Archivematica? . Archivematica is an open-source digital preservation system that automates tasks through “microservices” (see week 4 slides for a definition of a microservice) to streamline Submission Information Package (SIP) transfers, ingest, and the creation of Archival Information Packages (AIPs) and Dissemination Information Packages (DIPs). Important Notes: . | The sandbox clears data daily around midnight, so any session data, logs, or work in progress will be lost by the next calendar day. Please keep this in mind and try, if possible, to do this assignment in one session (preferably before the clock strikes midnight!) | If a job fails, don’t worry: note it and move on. Failed jobs won’t halt the entire process (this is the beauty of a microservice!) | You must run through the Tasks at least twice. Please set aside 1-2 hours max for this activity. | . ",
     "url": "/HISTGA1011/activities/archivematica#introduction",
     
     "relUrl": "/activities/archivematica#introduction"
   },"7": {
     "doc": "Archivematica Sandbox",
     "title": "Steps to Take",
-    "content": "Open the Sandbox . | Open the Archivematica Website in a new browser tab. | Click the Demo menu item. | In the “Try our sandbox” menu, click the Launch button. | Log in using these credentials: . | Username: demo@example.com | Password: demodemo | If you see a data breach warning, click OK – this is expected. | . | . Open the Archivematica Documentation . | In another browser tab, open the Archivematica Website again. | Hover over the Documentation menu item and select the version labeled “stable-current.” | Read through the Getting Started section to familiarize yourself with Archivematica’s user interface and workflow. | Open the Archivematica Quick-Start Guide (found under “Overview”) and read the intro paragraph. | . ",
+    "content": "Open the Sandbox . | Open the Archivematica Website in a new browser tab. | Click the Demo menu item. | In the “Try our sandbox” menu, click the Launch button. | Log in using these credentials: . | Username: demo@example.com | Password: demodemo | If you see a data breach or change your password warning from your browser, click OK – this is expected for a publicly-exposed generic username/password. | . | . Open the Archivematica Documentation . | In another browser tab, open the Archivematica Website again. | Click on the Documentation menu item and select the version labeled “stable-current.” | Read through the entire Getting Started section to familiarize yourself with Archivematica’s user interface and workflow. There will be links out to other documents: you can optionally drill down into these pages, but no need to click and read each and every one of them (but it’s a good idea to peak at things you are curious to learn more about.) | Open the Archivematica Quick-Start Guide and read the intro paragraph. I also recommend you skim through the steps at least once, just to get a sense for the order and outcome of the next steps. | . ",
     "url": "/HISTGA1011/activities/archivematica#steps-to-take",
     
     "relUrl": "/activities/archivematica#steps-to-take"
   },"8": {
     "doc": "Archivematica Sandbox",
     "title": "Perform the Tasks",
-    "content": ". | Complete Tasks #1-#5 (skip step #0, and any other tasks/steps listed that are specific to setting up or using a Virtual Machine or VM). | During Task #5, there is a step that says: “Review the different options and make changes as you like.” . | 🔧 Along with adjusting the compression algorithm (as the guide suggests), I would like you to make one additional change. | This change can be anything – it’s an opportunity to experiment with Archivematica’s settings. | . | After making your change, step through the tasks again (or at least far enough to see the effect of your adjustment). | . ",
+    "content": ". | Complete Tasks #1-#5 (skip step #0, and any other tasks/steps listed that are specific to setting up or using a Virtual Machine or VM). | During Task #5, there is a step that says: “Review the different options and make changes as you like.” . | Along with adjusting the compression algorithm (as the guide suggests), I would like you to make one additional change. | This change can be anything – it’s an opportunity to experiment with Archivematica’s settings. | . | After making your change, first, hypothesize what the outcome of your change will be. Step through the tasks again (or at least far enough to see the effect of your adjustment). | . Please note: The sandbox is a shared environment. This means that if you make a change to the environment, it may have an effect on another person’s session. Or, you may be subjected to another person’s session changes. This can get a bit tricky and may lead to some frustration or collision courses. If that’s the case, and your change is not yielding your hypothesized result, note it, and move on. No need to struggle with the system too much. ",
     "url": "/HISTGA1011/activities/archivematica#perform-the-tasks",
     
     "relUrl": "/activities/archivematica#perform-the-tasks"
   },"9": {
     "doc": "Archivematica Sandbox",
     "title": "Submit to Brightspace",
-    "content": "After completing the tasks, submit a one-paragraph reflection addressing: . | Were any Archivematica steps confusing? If so, explain why. | Did any jobs fail? If yes, which ones, and any guess why? | What additional setting/step did you adjust? . | Describe the change, whether it worked, and any issues you encountered. | (Optional) Include screenshots of any errors or successes. | . | . ",
+    "content": "After completing the tasks, submit a one-paragraph reflection addressing: . | Were any Archivematica steps confusing? If so, explain why. | Did any jobs fail? If yes, which ones, and any guess why? | What additional setting/step did you adjust? . | Describe the change, what your hypothesis was in terms of outcome, whether it worked. Describe any issues or odd behaviors you may have encountered. You can optionally include screenshots of any errors or successes. | . | . ",
     "url": "/HISTGA1011/activities/archivematica#submit-to-brightspace",
     
     "relUrl": "/activities/archivematica#submit-to-brightspace"
   },"10": {
     "doc": "Archivematica Sandbox",
-    "title": "Come Prepared to Discuss Your Adjustment",
-    "content": "In class, we will go around the room, and each student will have 3-5 minutes to discuss: . | The adjustment they made in Task #5 | The results they observed when running through Tasks 1-4 again. | . No need to prepare slides. This will be an informal discussion. ",
+    "title": "Come prepared to discuss your adjustment",
+    "content": "In class, we will go around the room, and each student will have 3-5 minutes to discuss: . | The adjustment they made in Task #5 | The results they observed when running through Tasks 1-4 again. | . No need to prepare slides. This will be an informal discussion at the beginning of class. ",
     "url": "/HISTGA1011/activities/archivematica#come-prepared-to-discuss-your-adjustment",
     
     "relUrl": "/activities/archivematica#come-prepared-to-discuss-your-adjustment"
@@ -265,131 +265,131 @@
     
     "relUrl": "/activities/imaging"
   },"38": {
-    "doc": "Course Details",
-    "title": "Digital Archives [HIST-GA 1011]",
-    "content": " ",
-    "url": "/HISTGA1011/syllabus/#digital-archives-hist-ga-1011",
-    
-    "relUrl": "/syllabus/#digital-archives-hist-ga-1011"
-  },"39": {
-    "doc": "Course Details",
-    "title": "Spring 2026",
-    "content": "New York University, Department of History . ",
-    "url": "/HISTGA1011/syllabus/#spring-2026",
-    
-    "relUrl": "/syllabus/#spring-2026"
-  },"40": {
-    "doc": "Course Details",
-    "title": "Course Details",
-    "content": "Meeting time: Wednesdays, 4:55-7:35pm Room: KJCC 717 Instructor: Mary Kidd (she/her) . Digital Archives explores the major stages of the digital curation life-cycle, and delves into the complexities surrounding the creation, appraisal, acquisition, processing/description, storage, digitization/reformatting, and making accessible, archives of all formats. Readings, lectures, discussions and in-class activities will shed light on the myriad challenges, best practices, risks/threats posed, and standards involved in successful digital preservation. Through the course, students will develop the ability to design foundational workflows for digitizing and handling both analog and born-digital materials and effectively managing digital objects. Additionally, the course emphasizes the significance of specialized preservation tools and techniques, including understanding essential technical skills. This course fulfills the “Digital Credit“ requirement. ",
-    "url": "/HISTGA1011/syllabus/",
-    
-    "relUrl": "/syllabus/"
-  },"41": {
-    "doc": "Course Details",
-    "title": "Learning Objectives",
-    "content": ". | Describe the role of archivists across the life cycle of digital archives. | Articulate challenges, best practices, and standards associated with the appraisal, acquisition, storage, creation, and provision of access to digital archives. | Explore basic workflows for the digitization of analog material to digital and for the accession and ingest of born-digital archives. | Identify risks and threats to the digital preservation life-cycle. | Enumerate considerations in institutional policies and plans related to collection development, intellectual property rights, digitization, preservation, and program sustainability. | Learn and practice technical skills and using common tools and softwares used in the field. | Understand the specialized work involved in handling and preservation of special formats such as audio visual and web archives. | . ",
-    "url": "/HISTGA1011/syllabus/#learning-objectives",
-    
-    "relUrl": "/syllabus/#learning-objectives"
-  },"42": {
-    "doc": "Course Details",
-    "title": "Guidelines and Expectations",
-    "content": ". | Students are expected to attend each weekly session for the full in-class time. Please email me as soon as you can to let me know you are unable to make a class, need to arrive late/leave early, or need to attend remotely. | Please write me as soon as you can if you require an extension or more time to finish an assignment or activity. | Class activities will be started on during class time. Any work that is not completed should be worked on and submitted by the end of the week Sunday. | Extensions must be approved ahead of time in writing by the instructor. | Papers should be in 12-point font, double-spaced, with 1-inch margins. I have no preference for how you cite sources, as long as you are consistent. | At a few points over the semester, we will be utilizing specific programs or applications that you will need to download or otherwise access to perform in-class or asynchronous activities. Ahead of those weeks when installing a program is required, I will provide the necessary information for how to obtain them based on your operating system. | . ",
-    "url": "/HISTGA1011/syllabus/#guidelines-and-expectations",
-    
-    "relUrl": "/syllabus/#guidelines-and-expectations"
-  },"43": {
-    "doc": "Course Details",
-    "title": "Additional Assistance",
-    "content": "Academic accommodations are available for students with disabilities. Please contact the Moses Center for Students with Disabilities (212-998-4980 or mosescsd@nyu.edu) for further information. Students who are requesting academic accommodations are advised to reach out to the Moses Center as early as possible in the semester for assistance. ",
-    "url": "/HISTGA1011/syllabus/#additional-assistance",
-    
-    "relUrl": "/syllabus/#additional-assistance"
-  },"44": {
-    "doc": "Course Details",
-    "title": "Textbook",
-    "content": "Owens, Trevor. The Theory and Craft of Digital Preservation. Baltimore: Johns Hopkins University Press, 2018. Accessed June 30, 2023. https://www.trevorowens.org/theory-and-craft-of-digital-preservation/ . This book is available through course reserves (electronic version) . ",
-    "url": "/HISTGA1011/syllabus/#textbook",
-    
-    "relUrl": "/syllabus/#textbook"
-  },"45": {
-    "doc": "Final Project",
-    "title": "Final Project",
-    "content": " ",
-    "url": "/HISTGA1011/final_project/",
-    
-    "relUrl": "/final_project/"
-  },"46": {
-    "doc": "Final Project",
-    "title": "Overview",
-    "content": "For your final project, you will develop a Digitization and Access Plan (hereafter known as the “Plan”) for a group of materials that are not currently available online—even though these materials may be accessible in person (e.g., in a reading room). This project will consist of a written paper and an accompanying presentation, which you will deliver on the last day of class. To guide your progress, you will submit an abstract mid-way through the semester as a check-in to ensure you have identified a suitable group of materials to work with, and are on track with your project. See the class schedule for due date details. ",
-    "url": "/HISTGA1011/final_project/#overview",
-    
-    "relUrl": "/final_project/#overview"
-  },"47": {
-    "doc": "Final Project",
-    "title": "Scenario",
-    "content": "You are an archivist working in the special collections department of [organization/institution of your choosing]. As part of an initiative to enhance digital access to the institution’s archives, your department has identified a candidate collection containing records that are currently inaccessible to users that they wish to make available online. Recognizing your expertise in digital archives workflow management, the Director of Special Collections has appointed you as Project Lead. Your task is to analyze how your institution currently handles digital access and preservation, write out a plan describing how these selected materials will be made accessible online, and present this plan to the Special Collections Committee. ",
-    "url": "/HISTGA1011/final_project/#scenario",
-    
-    "relUrl": "/final_project/#scenario"
-  },"48": {
-    "doc": "Final Project",
-    "title": "Selection Criteria",
-    "content": "To ensure a well-rounded project, your candidate collection records must meet the following criteria: . | Existing online finding aid: Your chosen collection must be documented in an archival finding aid. | Materials not currently available online: Although the collection is held by an institution and described in an online finding aid, the materials themselves must not have been made accessible through a digital library or collection website. You will need to verify this by browsing available finding aids and confirming that the materials, while described, are not available remotely. | Selection scope: You are not required to propose a plan for every component of a finding aid. Instead, focus on a deliberate selection of materials (e.g., one series, or one specific type of format, or one intellectual grouping) to develop your plan | Media: While inclusion of some flat materials (e.g., photographs, maps, manuscripts) is acceptable, your project should not focus exclusively on paper-based items that require scanning or photography. Your project must incorporate at least one non-paper-based format, such as: . | Magnetic recorded media (e.g., audiotapes, videotapes, floppy disks, hard drives) | Optical Media (e.g., CDs, DVDs) | Born-digital records requiring file format migration or emulation (e.g., software, video games, database records, research datasets) | …or something else! | . | . ",
-    "url": "/HISTGA1011/final_project/#selection-criteria",
-    
-    "relUrl": "/final_project/#selection-criteria"
-  },"49": {
-    "doc": "Final Project",
-    "title": "Project Goals",
-    "content": "Your final paper and presentation should: . | Demonstrate the significance of the materials you selected and why they should be prioritized for access. | Articulate the technical, labor, and logistical considerations involved in not only getting the materials online, but also promoting their discovery and access. | Explain how the project aligns with institutional priorities and contributes to broader digital preservation and archiving efforts. | . This project is an opportunity to apply digital archiving and preservation principles in a real-world context, critically engage with selection and access strategies, working under specific funding, labor, environmental, technical or other constraints, connect you with practicioners, and develop skills in planning and advocacy within archival institutions. ",
-    "url": "/HISTGA1011/final_project/#project-goals",
-    
-    "relUrl": "/final_project/#project-goals"
-  },"50": {
     "doc": "Grading - Points Breakdown",
     "title": "Grading - Points Breakdown",
     "content": "Students are evaluated using a points-based system totaling 100 across three main areas: Weekly Activities (60 points), Participation (10 points) and Final Project (30 points). ",
     "url": "/HISTGA1011/grading/",
     
     "relUrl": "/grading/"
-  },"51": {
+  },"39": {
     "doc": "Grading - Points Breakdown",
     "title": "Weekly Activities + Participation (70 points)",
     "content": "| Activity | Points | . | Weekly Assignments | 60 | . | Participation (includes activity discussions) | 10 | . | Total | 70 | . Notes on Weekly Assignments . The Imaging and Conservation Group Activity is worth 10 points, while all other assignments are worth 3 points each. ",
     "url": "/HISTGA1011/grading/#weekly-activities--participation-70-points",
     
     "relUrl": "/grading/#weekly-activities--participation-70-points"
-  },"52": {
+  },"40": {
     "doc": "Grading - Points Breakdown",
     "title": "Final Project (30 points)",
     "content": "| Item | Points | . | Abstract | 5 | . | Paper | 15 | . | Presentation | 10 | . | Total | 30 | . Extra Credit Opportunity . Students can earn up to 3 extra credit points by reaching out to a repository and setting up a time to talk with an archivist or a preservation/digital archives practitioner. To receive credit, students must, in their abstract, turn in a summary of their conversation with the project abstract (minimum 300 words) and reflect on how the discussion informs their final project. Extra credit will be applied to the Final Project score. ",
     "url": "/HISTGA1011/grading/#final-project-30-points",
     
     "relUrl": "/grading/#final-project-30-points"
-  },"53": {
+  },"41": {
+    "doc": "Course Details",
+    "title": "Digital Archives [HIST-GA 1011]",
+    "content": " ",
+    "url": "/HISTGA1011/syllabus/#digital-archives-hist-ga-1011",
+    
+    "relUrl": "/syllabus/#digital-archives-hist-ga-1011"
+  },"42": {
+    "doc": "Course Details",
+    "title": "Spring 2026",
+    "content": "New York University, Department of History . ",
+    "url": "/HISTGA1011/syllabus/#spring-2026",
+    
+    "relUrl": "/syllabus/#spring-2026"
+  },"43": {
+    "doc": "Course Details",
+    "title": "Course Details",
+    "content": "Meeting time: Wednesdays, 4:55-7:35pm Room: KJCC 717 Instructor: Mary Kidd (she/her) . Digital Archives explores the major stages of the digital curation life-cycle, and delves into the complexities surrounding the creation, appraisal, acquisition, processing/description, storage, digitization/reformatting, and making accessible, archives of all formats. Readings, lectures, discussions and in-class activities will shed light on the myriad challenges, best practices, risks/threats posed, and standards involved in successful digital preservation. Through the course, students will develop the ability to design foundational workflows for digitizing and handling both analog and born-digital materials and effectively managing digital objects. Additionally, the course emphasizes the significance of specialized preservation tools and techniques, including understanding essential technical skills. This course fulfills the “Digital Credit“ requirement. ",
+    "url": "/HISTGA1011/syllabus/",
+    
+    "relUrl": "/syllabus/"
+  },"44": {
+    "doc": "Course Details",
+    "title": "Learning Objectives",
+    "content": ". | Describe the role of archivists across the life cycle of digital archives. | Articulate challenges, best practices, and standards associated with the appraisal, acquisition, storage, creation, and provision of access to digital archives. | Explore basic workflows for the digitization of analog material to digital and for the accession and ingest of born-digital archives. | Identify risks and threats to the digital preservation life-cycle. | Enumerate considerations in institutional policies and plans related to collection development, intellectual property rights, digitization, preservation, and program sustainability. | Learn and practice technical skills and using common tools and softwares used in the field. | Understand the specialized work involved in handling and preservation of special formats such as audio visual and web archives. | . ",
+    "url": "/HISTGA1011/syllabus/#learning-objectives",
+    
+    "relUrl": "/syllabus/#learning-objectives"
+  },"45": {
+    "doc": "Course Details",
+    "title": "Guidelines and Expectations",
+    "content": ". | Students are expected to attend each weekly session for the full in-class time. Please email me as soon as you can to let me know you are unable to make a class, need to arrive late/leave early, or need to attend remotely. | Please write me as soon as you can if you require an extension or more time to finish an assignment or activity. | Class activities will be started on during class time. Any work that is not completed should be worked on and submitted by the end of the week Sunday. | Extensions must be approved ahead of time in writing by the instructor. | Papers should be in 12-point font, double-spaced, with 1-inch margins. I have no preference for how you cite sources, as long as you are consistent. | At a few points over the semester, we will be utilizing specific programs or applications that you will need to download or otherwise access to perform in-class or asynchronous activities. Ahead of those weeks when installing a program is required, I will provide the necessary information for how to obtain them based on your operating system. | . ",
+    "url": "/HISTGA1011/syllabus/#guidelines-and-expectations",
+    
+    "relUrl": "/syllabus/#guidelines-and-expectations"
+  },"46": {
+    "doc": "Course Details",
+    "title": "Additional Assistance",
+    "content": "Academic accommodations are available for students with disabilities. Please contact the Moses Center for Students with Disabilities (212-998-4980 or mosescsd@nyu.edu) for further information. Students who are requesting academic accommodations are advised to reach out to the Moses Center as early as possible in the semester for assistance. ",
+    "url": "/HISTGA1011/syllabus/#additional-assistance",
+    
+    "relUrl": "/syllabus/#additional-assistance"
+  },"47": {
+    "doc": "Course Details",
+    "title": "Textbook",
+    "content": "Owens, Trevor. The Theory and Craft of Digital Preservation. Baltimore: Johns Hopkins University Press, 2018. Accessed June 30, 2023. https://www.trevorowens.org/theory-and-craft-of-digital-preservation/ . This book is available through course reserves (electronic version) . ",
+    "url": "/HISTGA1011/syllabus/#textbook",
+    
+    "relUrl": "/syllabus/#textbook"
+  },"48": {
     "doc": "Course Schedule & Readings",
     "title": "Course Schedule",
     "content": "| Week Number | Date of Class | Topic / Assignment Due | Weekly ActivityDue following Sunday | . | Week 1 | January 21 | Introduction to Digital Archives | Data Object | . | Week 2 | January 28 | OAIS Conceptual Model | Breaking BagIt | . | Week 3 | February 4 | Processing Born-Digital Archives | Corrupting a Bitstream | . | Week 4 | February 11 | Digital Repository Systems | Short Stack 🥞 | . | Week 5 | February 18 | Storage Infrastructures | Archivematica Sandbox | . | Week 6 | February 25 | Digital Preservation Metadata | Digital Preservation Metadata | . | Week 7 | March 4 | Access and DiscoveryClass will be held virtually | The User’s Experience | . | Week 8 | March 11 | Automation and ScriptingFinal Project Abstract due | Scripting Reflection | . | Week 9 | March 18 | No Class | Spring Break |   | . | Week 10 | March 25 | Digitization | Imaging and Conservation Group Activity | . | Week 11 | April 1 | Moving Image and Audio Preservation | QCTools | . | Week 12 | April 8 | Web and Email Archiving | Podcast Archaeology | . | Week 13 | April 15 | Guest Speaker DayClass will be held virtually |   | . | Week 14 | April 22 | No Class: Work on your final projects | Optional: Schedule a consult with me | . | Week 15 | April 29 | Last day of classFinal presentations due | Final paper due date TK | . ",
     "url": "/HISTGA1011/schedule/#course-schedule",
     
     "relUrl": "/schedule/#course-schedule"
-  },"54": {
+  },"49": {
     "doc": "Course Schedule & Readings",
     "title": "Course Schedule & Readings",
     "content": " ",
     "url": "/HISTGA1011/schedule/",
     
     "relUrl": "/schedule/"
-  },"55": {
+  },"50": {
     "doc": "Weekly Activities",
     "title": "Weekly Activities",
     "content": "Most weeks, you will be assigned to work on an activity in-class. Each activity will be accompanied by a set of instructions, and in some cases, materials (such as a folder containing some files, a worksheet, or something else). ",
     "url": "/HISTGA1011/activities/",
     
     "relUrl": "/activities/"
+  },"51": {
+    "doc": "Final Project",
+    "title": "Final Project",
+    "content": " ",
+    "url": "/HISTGA1011/final_project/",
+    
+    "relUrl": "/final_project/"
+  },"52": {
+    "doc": "Final Project",
+    "title": "Overview",
+    "content": "For your final project, you will develop a Digitization and Access Plan (hereafter known as the “Plan”) for a group of materials that are not currently available online—even though these materials may be accessible in person (e.g., in a reading room). This project will consist of a written paper and an accompanying presentation, which you will deliver on the last day of class. To guide your progress, you will submit an abstract mid-way through the semester as a check-in to ensure you have identified a suitable group of materials to work with, and are on track with your project. See the class schedule for due date details. ",
+    "url": "/HISTGA1011/final_project/#overview",
+    
+    "relUrl": "/final_project/#overview"
+  },"53": {
+    "doc": "Final Project",
+    "title": "Scenario",
+    "content": "You are an archivist working in the special collections department of [organization/institution of your choosing]. As part of an initiative to enhance digital access to the institution’s archives, your department has identified a candidate collection containing records that are currently inaccessible to users that they wish to make available online. Recognizing your expertise in digital archives workflow management, the Director of Special Collections has appointed you as Project Lead. Your task is to analyze how your institution currently handles digital access and preservation, write out a plan describing how these selected materials will be made accessible online, and present this plan to the Special Collections Committee. ",
+    "url": "/HISTGA1011/final_project/#scenario",
+    
+    "relUrl": "/final_project/#scenario"
+  },"54": {
+    "doc": "Final Project",
+    "title": "Selection Criteria",
+    "content": "To ensure a well-rounded project, your candidate collection records must meet the following criteria: . | Existing online finding aid: Your chosen collection must be documented in an archival finding aid. | Materials not currently available online: Although the collection is held by an institution and described in an online finding aid, the materials themselves must not have been made accessible through a digital library or collection website. You will need to verify this by browsing available finding aids and confirming that the materials, while described, are not available remotely. | Selection scope: You are not required to propose a plan for every component of a finding aid. Instead, focus on a deliberate selection of materials (e.g., one series, or one specific type of format, or one intellectual grouping) to develop your plan | Media: While inclusion of some flat materials (e.g., photographs, maps, manuscripts) is acceptable, your project should not focus exclusively on paper-based items that require scanning or photography. Your project must incorporate at least one non-paper-based format, such as: . | Magnetic recorded media (e.g., audiotapes, videotapes, floppy disks, hard drives) | Optical Media (e.g., CDs, DVDs) | Born-digital records requiring file format migration or emulation (e.g., software, video games, database records, research datasets) | …or something else! | . | . ",
+    "url": "/HISTGA1011/final_project/#selection-criteria",
+    
+    "relUrl": "/final_project/#selection-criteria"
+  },"55": {
+    "doc": "Final Project",
+    "title": "Project Goals",
+    "content": "Your final paper and presentation should: . | Demonstrate the significance of the materials you selected and why they should be prioritized for access. | Articulate the technical, labor, and logistical considerations involved in not only getting the materials online, but also promoting their discovery and access. | Explain how the project aligns with institutional priorities and contributes to broader digital preservation and archiving efforts. | . This project is an opportunity to apply digital archiving and preservation principles in a real-world context, critically engage with selection and access strategies, working under specific funding, labor, environmental, technical or other constraints, connect you with practicioners, and develop skills in planning and advocacy within archival institutions. ",
+    "url": "/HISTGA1011/final_project/#project-goals",
+    
+    "relUrl": "/final_project/#project-goals"
   },"56": {
     "doc": "Home",
     "title": "Home",
