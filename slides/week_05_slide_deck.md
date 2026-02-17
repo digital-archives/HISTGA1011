@@ -1,131 +1,20 @@
 ---
 marp: true
-theme: gaia
 size: 16:9
+theme: rose-pine-dawn
+html: true
 paginate: true
-style: |
-  img {
-    max-width: 100%;
-    max-height: 90%;
-    height: auto;
-    width: auto;
-    display: block;
-    margin: 0 auto;
-  }
-  .white-background-slide {
-  background-color: white !important;
-  width: 100%;
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-  }
-
-  .stack {
-  font-size: 10rem;
-  }
-
-  .pillars-container {
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
-  align-items: flex-end;
-  height: 250px;  
-  gap: 20px;
-  margin-top: 175px;
-  }
-
-  .pillar {
-  width: 30%;
-  font-weight: bold;
-  padding: 20px;
-  border-radius: 10px;
-  color: black;
-  height: 350px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 10px;
-
-  }
-  .online { background-color: #E07A5F; }
-  .nearline { background-color: #8D8741; }
-  .offline { background-color: #E6E8FF; }
-
-  .activity-title {
-  text-align: center;
-  color:rgb(144, 0, 255);  font-size: 2rem;
-  margin-bottom: 20px;
-  font-weight: bold;
-  }
-  .shapes {
-  text-align: center;
-  margin-bottom: 30px;
-  }
-  .shapes span {
-  display: inline-block;
-  margin: 0 10px;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  }
-  .triangle {
-  width: 0;
-  height: 0;
-  border-left: 15px solid transparent;
-  border-right: 15px solid transparent;
-  border-bottom: 30px solid #ffb347;  display: inline-block;
-  margin: 0 10px;
-  }
-  .circle {
-  background-color: #00c0ff; }
-  .square {
-  width: 30px;
-  height: 30px;
-  background-color: #ff6767; }
-  .activity-list {
-  font-size: 1.1rem;
-  line-height: 1.1;
-  color:rgb(81, 0, 168);  margin-left: 20px;
-  }
-  .activity-list li {
-  margin-bottom: 10px;
-  }
-  .activity-list li strong {
-  color:rgb(235, 133, 133); }
-
-  .quote {
-  font-size: 1.2rem;
-  font-style: italic;
-  text-align: left;
-  line-height: 1;
-  color: #4a4a4a;
-  margin: 0 auto;
-  width: 100%;
-  }
-
-  .author {
-  font-size: 1.0rem;
-  text-align: right;
-  margin-top: 20px;
-  color: #6a6a6a;
-  }
-
-  .work {
-  font-size: 1rem;
-  text-align: right;
-  color: #8a8a8a;
-  }
 
 ---
 
-# Week 5
-## Digital Preservation Storage Systems
+## Week 5
+# Digital Preservation Storage Systems
 
 ---
 
 # Today
 - **Settle in/Reminders/Announcements** (15 min)
-- **Discuss Last Week's Activity** (20 min)
+- **Discuss Final Project** (20 min)
 - **Lecture: Storage Systems** (45 min)
 - **Break** (10 min)
 - **Start Weekly Activity** (70 min)
@@ -135,21 +24,22 @@ style: |
 
 # Announcements
 
-- March 19 class will be held virtually: I will be out of town that day.
-- Guest speaker confirmed: Karly Wildenhaus, Interim Manager, Metadata Services, NYPL
-- <a href="https://brightspace.nyu.edu/d2l/le/430363/discussions/topics/532801/View" target="_blank">Have a look at any announcements posted in in Brightspace</a>
+
 
 ---
 
-# Tech Stack
+# Final Project
 
-<div class="stack">🥞</div>
-<a href="https://docs.google.com/presentation/d/1JTUCy549KC-4XknKWcN8ZK-mN3wnkdX2gYhMnoG6Bx4/edit#slide=id.g337042ffefd_0_305" target="_blank">Slide deck</a>
+https://digital-archives.github.io/HISTGA1011/final_project/
 
 ---
 
-# Lecture
-## Storage Systems
+# 1. Decide on a collection
+# 2. Reach out to a repository
+# You will thank yourself later!
+---
+
+# Storage Systems
 - Architectures
 - Hardware
 - Solutions
@@ -157,9 +47,11 @@ style: |
 
 <!--presenter notes
 
-Digital repositories rely on redundant storage to function. By storage, I am referring to the hardware and software components that are used to store digital content and ensure its long-term accessibility, integrity and usability. Because storage is so fundamental to digital repositories, we are going to spend some time specifically focusing on how storage is set up, and go over various storage architectures, technologies, hardware, and solutions.
+This week we are going to focus on storage systems.
 
-In addition to this, we will also discuss how storage systems are prone to failure: much like a physical space is prone to leaks, mold, and pests, storage media vulnerable to these same threats, but also to threats that happen on a microscopic scale in terms of the site or sites of failure, that cannot be discerned by the naked eye, as well as threats on an economic scale, tied to the cost of maintaining and powering storage devices.
+Digital repositories rely on redundant storage to function. By redundant, I mean setting up a system that does not rely on a single solution - like one hard drive or one cloud storage account.
+
+By "storage", we are going to spend some time specifically focusing on how storage is set up by going over various storage architectures, then hardware where I'll show you pictures of how storage devices are constructed and how they work, then solutions (how institutions implement storage in practice) and finally risks: much like a physical space is prone to leaks, mold, and pests, storage environments vulnerable to these same threats, but also to threats that happen on a microscopic scale in terms of the site or sites of failure, that cannot be discerned by the naked eye, as well as threats on an economic scale, tied to the cost of maintaining and powering storage devices.
 
 We will discuss strategies to detect and mitigate failure, that can lead to loss on scales of incredible magnitude.
 
@@ -172,16 +64,34 @@ We will discuss strategies to detect and mitigate failure, that can lead to loss
 
 **Data storage** (or just "storage" for short) refers to the process of saving, retaining, and accessing digital data on various media and devices. It enables computers and other electronic systems to store files, applications, and system information for immediate or future use.
 
+<!--presenter notes
+
+Beginning with a basic definition, data storage refers to the process of saving, retaining, and accessing digital data on various media and devices.
+
+It’s what allows computers to store files, applications, and system information so that they can be used again and again.
+
+-->
+
 ---
 
 ## Definition
 # Data Storage - 2/2
 
-1. **Primary Storage** (Volatile memory) – Fast, temporary storage used by active processes. Example: RAM (Random Access Memory).
+1. **Primary Storage** – Fast, temporary storage used by active processes. Example: RAM (Random Access Memory).
 
-2. **Secondary Storage** (Persistent Storage) – Long-term data storage that retains information even when powered off. Examples: HDD (Hard Disk Drive), SSD (Solid-State Drive).
+2. **Secondary Storage** (Persistent Storage) – Long-term data storage that retains information even when powered off. Example: HDD (Hard Disk Drive)
 
-_Today's lecture will be focused on Secondary Storage._
+_Today we will focus on Secondary Storage._
+
+<!--presenter notes
+
+There are two main categories of storage.
+
+First, primary storage. This is fast and temporary. It’s used by active processes — things happening right now. Random Access Memory (aka RAM) is session-specific. It holds memory for as long as you need it; as soon as you power down your laptop or device, that information is forgotten. An example of this is, typing into a document where you haven't turned on autosave. If your power goes out before you've saved it, the next time you power up your laptop, whatever you written will have been lost.
+
+Second, secondary storage — also called persistent storage. This is long-term storage. It retains data even when the system is powered off. Hard disk drives and solid-state drives (we'll go into how these work in a second) are an example of this.
+
+-->
 
 ---
 
@@ -200,130 +110,78 @@ The storage architecture of a system can have a significant impact on the overal
 
 ---
 
-## Storage Architectures: Three Types
+# Storage Architectures: Three Types
 
-<div class="pillars-container">
-  <div class="pillar online">Online</div>
-  <div class="pillar nearline">Nearline</div>
-  <div class="pillar offline">Offline</div>
-</div>
+# **1. Online**
+# **2. Nearline**
+# **3. Offline**
 
 <!--presenter notes
 
 Source: https://www.nedcc.org/fundamentals-of-av-preservation-textbook/chapter-4-introduction/chapter-4-section-3
 There are three common types of storage infrastructures used in digital preservation.
 
--->
-
-<!--presenter notes
-
-Storage architectures
+These categories describe how accessible the data is and how the system is designed to retrieve it.
 
 -->
 
 ---
 
-<style>
-.burnt-slide {
-  background-color: #E07A5F;
-  color: black;
-  padding: 50px;
-  text-align: center;
-}
-.content {
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: left;
-}
-</style>
-
-<div class="burnt-slide">
-  <h1>🔥 Online Storage 🔥</h1>
+# 🔥 Online Storage
   
-  <div class="content">
-    <ul>
-      <li>Data is always immediately accessible: real-time input/output (I/O)</li>
-      <li>Supports real-time reading and writing</li>
-      <li>Is always powered on and connected</li>
-      <li>Used for active, production environments</li>
-    </ul>
-  </div>
+- Data is always immediately accessible: real-time input/output (I/O)
+- Supports real-time reading and writing
+- Is always powered on and connected
+- Usually used in active production environments
 
 <!--presenter notes
 
-Online: Storage that is accessible through a network. The result is information sharing that is quick and nearly instantaneous, so it is sometimes referred to as “hot” storage. Online storage is best suited for a production environment. For example, when I worked in New York Public Radio’s archive, reporters, producers and other staff had ready access to online storage containing recently used news clips, audio and video.
+Online: Let’s start with online storage sometimes called ‘hot’ storage, hence the fire emoji. Online storage means the data is immediately accessible. It supports real-time reading and writing, so the system can retrieve or modify files without delay.
+
+This storage is always powered on and connected. It’s designed for speed and responsiveness.
+
+For example, when I worked at New York Public Radio, reporters and producers needed immediate access to recently used audio and video clips. That content lived in online storage because any delay would interrupt production.
 
 -->
 
 ---
 
-<style>
-.olive-slide {
-  background-color: #8D8741;
-  color: black;
-  padding: 50px;
-  text-align: center;
-}
-.content {
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: left;
-}
-</style>
-
-<div class="olive-slide">
-  <h1>⏳ Nearline Storage ⏳</h1>
-  
-  <div class="content">
-    <ul>
-      <li>Access to data requires additional steps (namely, mounting or spinning up storage device)</li>
-      <li>Requests for data may take a few seconds for delivery
-    </ul>
-  </div>
-</div>
-
-<!--presenter notes
-
-Nearline: The term “nearline” is a portmanteau of “near” and “online”. Like online storage, it is also accessible via a network. However, you may need to wait several seconds or minutes to request and retrieve data. This storage may be more suitable for less used archival data. Following my radio station example, this may be more appropriate for a reporter working on a long investigative journalism piece requiring weeks or months or research.
-
--->
+## **Question**
+Based on what we just discussed about online storage (immediate access, real-time input and output, always powered on) which types of information packages (SIPs, AIPs, DIPs) do you think are most appropriate for this environment?
 
 ---
 
-<style>
-.periwinkle-slide {
-  background-color: #E6E8FF;
-  color: white;
-  padding: 50px;
-  text-align: center;
-  color: black;
-}
-.content {
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: left;
-  color: black;
-}
-</style>
 
-<div class="periwinkle-slide">
-  <h1>
-🐌 Offline Storage
-🐌</h1>
-  
-  <div class="content">
-    <ul>
-      <li>Non-networked, "passive"</li>
-      <li>Requires action to connect and access
-    </ul>
-  </div>
-</div>
+# 🐌 Offline Storage
+- Passive, non-networked or detached media
+- Requires action to connect and access
 
 <!--presenter notes
 
 Offline: Offline storage architecture refers to non-networked storage. Depending on your offline storage solution, as well as the size of file you are trying to access, delivering the file to you could take several hours. However, the purpose of offline storage is never for quick access and so is sometimes referred to as “cold storage”.
 
 The type of storage architecture established should take into consideration the types of data being stored, the expected growth of the data over time, the access patterns to the data, and the requirements for data protection and data availability. Each type of storage architecture has advantages and disadvantages which we will discuss later on in the lecture.
+
+-->
+
+---
+
+# ⏳ Nearline Storage
+Storage generally designed to provide retrieval performance between online and offline storage. Typically, nearline storage is designed in a way that file retrieval is not instantaneous but is available to the user in the same session.
+
+<!--presenter notes
+
+Nearline: The term “nearline” is a portmanteau of “near” and “online”. Like online storage, it is also accessible via a network. However, it is not instantly accessible. This storage may be more suitable for less used archival data.
+
+Definition comes from: 
+
+Trends in Digital Preservation Capacity and Practice: Results from the 2nd Bi-annual National Digital Stewardship Alliance Storage Survey
+
+D-Lib Magazine
+July/August 2017
+Volume 23, Number 7/8
+
+https://doi.org/10.1045/july2017-gallinger
 
 -->
 
@@ -416,12 +274,15 @@ Magnetic tape, such as what you would find in a cassette tape cartridge or reel-
 
 ---
 
+# Comparison: Storage Hardware
 
-| Technology | Pros                                                                 | Cons                                                                      |
-|------------|----------------------------------------------------------------------|---------------------------------------------------------------------------|
-| **HDD** | Inexpensive ($40/TB) ([source](https://edwardbetts.com/price_per_tb/)), widely available | Fragile, shorter life span, slower than SSDs, higher failure rate |
-| **SSD** | No moving parts, so fast and durable ([source](https://www.backblaze.com/blog/how-reliable-are-ssds/)), compact | Expensive, Limited write cycles affect longevity |
-| **Tape**   | Inexpensive ($4–$8/TB), energy-efficient, longer lifespan | Slower, requires proprietary hardware/software |
+| **HDD**        | **SSD**         | **Tape**            |
+| -------------- | --------------- | ------------------- |
+| 💲 ~$40/TB     | ⚡ Fast          | 💲 $4–8/TB          |
+| Mechanical     | No moving parts | Energy efficient    |
+| Slower         | Expensive       | Slow access         |
+| Higher failure | Limited writes  | Proprietary systems |
+
 
 <!--presenter notes
 
@@ -556,9 +417,7 @@ Tape storage is known for its reliability and longevity, and is less likely to e
 ## Definition
 # Cloud Storage
 
-**Cloud storage** is a data storage model where digital information is stored on remote servers maintained by a cloud service provider, rather than on a local hard drive or on-premises server. These remote servers are accessed via the internet, allowing users to store, manage, and retrieve data from anywhere.
-
-Example: Amazon S3
+**Cloud storage** is a data storage model where digital information is stored on remote servers maintained by a cloud service provider, rather than on a local hard drive or on-premises server. These remote servers are accessed via the internet, allowing users to store, manage, and retrieve data from anywhere. Ex: Amazon S3
 
 <!--presenter notes
 
@@ -579,9 +438,9 @@ If considering cloud storage services, one thing to keep in mind is that the cos
 - **Corrupt Backups:** Accidentally copying mistakes.
 - **Ransomware/Cyberattacks**
 - **Accidental Deletion or Overwriting**
-- **Media Degradation**: Physical components of storage devices fail.
-- **Natural Disasters**: Fires, floods, earthquakes can destroy on- or off-site backups.
-- **Vendor Lock-In**: Relying only on one provider risks data loss if they shut down.
+- **Media Degradation**: Physical components fail.
+- **Natural Disasters**
+- **Vendor Lock-In**: Relying only on one provider risks data loss if they become insolvent.
 
 <!--presenter notes
 
@@ -595,9 +454,9 @@ There are a considerable number of risks posed to digital storage, a few which I
 
 ---
 
-# Case Study
-## How to recover from loss
-### North Carolina State Libraries
+## Case Study
+# How to recover from loss
+# **North Carolina State Libraries**
 
 <!--presenter notes
 
@@ -608,7 +467,7 @@ See: https://aptrust.org/2025/01/21/lessons-from-the-frontlines-navigating-data-
 ---
 
 <div class="quote">
-In June 2021, NC State Libraries experienced an incident that many in the digital preservation community dread: an accidental staff action deleted 35TB of locally hosted special collections storage, including its only backup. As Jill Sexton described it, <b>“That was a bad day.”</b>
+In June 2021, NC State Libraries experienced an incident that many in the digital preservation community dread: an accidental staff action deleted 35TB of locally hosted special collections storage, including its only backup. As Jill Sexton described it, <b>'That was a bad day.'</b>
 </div>
 
 ---
@@ -647,62 +506,19 @@ Delta differencing: a backup strategy only backs up blocks that have changed aft
 -->
 
 ---
-
-<div style="
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    position: relative; 
-    height: 100vh;
-    max-width: 100%; 
-    max-height: 100%;
-    margin: 0; 
-    overflow: hidden; 
-    background-color: rgb(255, 255, 255);">
-    
-  <!-- Image -->
-  <img src="img/week_05_raid.png" 
+<img src="img/week_05_raid.png" 
        alt="Stock image of a RAID" 
        style="width: 100%; height: auto; max-height: 100vh; object-fit: contain;">
        
-  <!-- Header Text -->
-  <h1 style="
-    position: absolute; 
-    top: 0%; 
-    left: 40%; 
-    transform: translateX(-40%); 
-    font-weight: bold; 
-    color: black; 
-    background-color: rgba(255, 255, 255, 0.5); 
-    padding: 0px; 
-    border-radius: 0px; 
-    text-align: center; 
-    width: 100%;
-    max-width: 1000px;
-    font-size: 3rem;">
-  Redundant Array of Independent Disks (RAID)
-</h1>
 
+Redundant Array of Independent Disks (RAID)
 
-  <!-- Bullet List -->
-  <ul style="
-      position: absolute; 
-      top: 50%;
-      width: 70%;
-      left: 50%; 
-      transform: translateX(-50%); 
-      font-weight: bold; 
-      color: white; 
-      background-color: rgba(66, 170, 6, .75); 
-      padding: 20px; 
-      border-radius: 5px; 
-      list-style: none;
-      text-align: center;">
-    <li>Arrays of HDDs or SSDs</li>
-    <li>Uses different redundancy technologies to identify and repair corruption</li>
-  </ul>
+---
 
-</div>
+## Definition
+# Redundant Array of Independent Disks (RAID)
+
+A RAID is an array of hard disk or solid state drives, that work in concert with one another to ensure that if one drive fails, another can pick up where it left off.
 
 <!--presenter notes
 
@@ -825,33 +641,14 @@ Offline storage also provides protection against accidentally backing up a mista
 
 ---
 
-<table>
-<tr>Library of Congress</tr>
-<tr><td valign=top width=350>
-<h2>Past</h2>
+# Library of Congress Storage Evolution
 
-Oracle Hierarchical Storage Manager (OHSM)<br>
-Solaris system<br>
-LTO Tape Library
-</td>
+| **Past**                 | **Current**                    | **Future**              |
+| ------------------------ | ------------------------------ | ----------------------- |
+| Oracle HSM (Solaris)     | Versity Storage Manager (RHEL) | Versity 2.0 (RHEL8)     |
+| Hierarchical disk → tape | Two copies, two data centers   | LTO-9 (higher capacity) |
+| LTO Tape Library         | LTO Tape Library               | Additional cloud copies |
 
-<td valign=top width=350>
-<h2>Current</h2>
-
-Versity Storage Manager on RedHat Linux<br>
-Two copies in two data centers<br>
-LTO Tape Library<br>
-</td>
-
-<td valign=top width=350>
-<h2>Future</h2>
-
-Upgrade to Versity 2.0 (RHEL8)<br>
-LTO-9 for expanded tape storage<br>
-Additional copies in the cloud<br>
-</td>
-</tr>
-</table>
 
 <!--presenter notes
 
@@ -870,33 +667,14 @@ Looking ahead, LOC plans to upgrade to Versity 2.0, integrating with RedHat Ente
 
 ---
 
-<table>
-<tr>UC San Diego, Chronopolis</tr>
-<tr><td valign=top width=350>
-<h2>Past</h2>
+# UC San Diego, Chronopolis Storage Evolution
 
-2-TB drives running on RAID 10<br>
-Hard disk failure occurred<br>
-</td>
+| **Past**               | **Current**                        | **Future**                     |
+| ---------------------- | ---------------------------------- | ------------------------------ |
+| 2-TB drives on RAID 10 | Isilon NAS (1.6 PB) on 5 nodes     | Amazon cloud storage           |
+| Hard disk failures     | Added second cluster (5 yrs later) | AWS Snowball for data transfer |
+|                        | Fixity every 45 days               |                                |
 
-<td valign=top width=350>
-<h2>Current</h2>
-
-Isilon NAS (1.6 Petabytes) on 5 nodes<br>
-Purchased another cluster 5 years later<br>
-Fixity every 45 days<br>
-</td>
-
-<td valign=top width=350>
-
-<h2>Future</h2>
-
-Amazon cloud storage<br>
-Use a “snowball” SSD to transfer data<br>
-
-</td>
-</tr>
-</table>
 
 <!--presenter notes
 
@@ -906,8 +684,6 @@ This example is from the Module 13: Digital Preservation Case Studies SAA public
 In the UC San Diego example, we are looking at a fairly large institutional repository system that at first used a RAID 10 system. Here, they reflect on how the their RAID often failed, which spurred them to purchase a refurbished Isilon NAS. They remark how the Isilon system allowed them to better scale up their storage capacity, in light of the fact that they are seeing a storage growth rate of about 5TB year-over-year, and expect that rate to increase with the launch of their new DAMS and migrations of their born-digital holdings. Here, they talk about how appraisal may decrease how much of these holdings they actually end up ingesting into their repository.
 
 In the future, it sounds like they are considering cloud storage services. In particular, they talk about how Amazon, for large data transfers, prefer that they use something called a “Snow ball”. A snowball is basically a beefed up hard drive that Amazon sends to the transferring institution. The institution then moves a copy of their archive to the snowball, and then physically ships it back to the data center for processing. Snow balls are useful because transferring over networks means there are bandwidth limitations. Also, networks can be unstable, which could compromise the data.
-
--->
 
 -->
 
