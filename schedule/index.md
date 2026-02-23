@@ -19,8 +19,8 @@ has_children: true
 | [Week 8](week_08.html)  | March 11 | Digitization<br>**_Final Project Abstract due_** | <a href="https://digital-archives.github.io/HISTGA1011/activities/imaging.html" target="_blank">Imaging and Conservation Group Activity</a> |
 | [Week 9](week_09.html) | March 18 | No Class \| Spring Break | 
 | [Week 10](week_10.html)  | March 25 | Automation and Scripting<br> | <a href="https://digital-archives.github.io/HISTGA1011/activities/scripting_reflection.html">Scripting Reflection</a> |
-| [Week 11](week_11.html) | April 1 | Moving Image and Audio Preservation | <a href="https://digital-archives.github.io/HISTGA1011/activities/qctools.html" target="_blank">QCTools</a> |
+| [Week 11](week_11.html) | April 1 | Moving Image and Audio Preservation<br>**_Class will be held virtually_** | <a href="https://digital-archives.github.io/HISTGA1011/activities/qctools.html" target="_blank">QCTools</a> |
 | [Week 12](week_12.html) | April 8 | Web and Email Archiving | <a href="https://digital-archives.github.io/HISTGA1011/activities/podcast.html" target="_blank">Podcast Archaeology</a> |
-| [Week 13](week_13.html) | April 15 | Guest Speaker Day<br>**Class will be held virtually** | |
+| [Week 13](week_13.html) | April 15 | Guest Speaker Day: MoMA Archives (details TK)<br> | |
 | [Week 14](week_14.html) | April 22 | No Class: Work on your final projects | Optional: Schedule a consult with me |
 | [Week 15](week_15.html) | April 29 | Last day of class<br>**_Final presentations due_** | Final paper due date TK |
