@@ -7,7 +7,6 @@ paginate: true
 
 ---
 
-## Week 4
 # Digital Archives Systems
 
 ---
