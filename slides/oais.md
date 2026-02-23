@@ -7,7 +7,6 @@ paginate: true
 
 ---
 
-## Week 2
 # Open Archival Information System (OAIS)
 
 ---
