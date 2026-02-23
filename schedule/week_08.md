@@ -8,9 +8,7 @@ has_children: false
 
 # Week 8: Digitization
 
-<!--
-<a href="https://digital-archives.github.io/HISTGA1011/slides/week_07_slide_deck.html" target="_blank">Slides</a>
--->
+<a href="https://digital-archives.github.io/HISTGA1011/slides/digitization.html" target="_blank">Slides</a>
 
 {: .label .label-yellow }
 Due
