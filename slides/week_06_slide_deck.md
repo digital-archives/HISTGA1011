@@ -1,73 +1,11 @@
 ---
 marp: true
-theme: gaia
 size: 16:9
+theme: rose-pine-dawn
+html: true
 paginate: true
-style: |
-  img {
-    max-width: 100%;
-    max-height: 90%;
-    height: auto;
-    width: auto;
-    display: block;
-    margin: 0 auto;
-  }
 
-  .quote {
-    font-size: 1.2rem;
-    font-style: italic;
-    text-align: left;
-    line-height: 1;
-    color: #4a4a4a;
-    margin: 0 auto;
-    width: 90%;
-  }
-
-  .author {
-    font-size: 1.0rem;
-    text-align: right;
-    margin-top: 20px;
-    color: #6a6a6a;
-  }
-
-  .work {
-    font-size: 1rem;
-    text-align: right;
-    color: #8a8a8a;
-  }
-
-  .slide-title {
-    text-align: center;
-    color: #2e7d32; /* Green color for the header */
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 30px;
-  }
-
-  pre {
-    background-color: #1e1e1e; /* Dark gray background */
-    padding: 10px; /* Add spacing for readability */
-    border-radius: 5px; /* Rounded corners */
-    overflow-x: auto; /* Horizontal scrolling for long lines */
-  }
-
-  pre code {
-    color: #f5f5f5; /* Light text */
-    font-family: "Courier New", monospace; /* Monospace font for code */
-    font-size: 1.2rem; /* Adjusted font size for code blocks only */
-  }
-
-  /* Inline code customization */
-  code {
-    font-size: 1.2rem; /* Adjusted font size for inline code */
-    font-family: "Courier New", monospace; /* Consistent font for inline code */
-    background-color: #1e1e1e; /* Match the block code background */
-    color: #f5f5f5; /* Match the block code text color */
-    padding: 2px 4px; /* Add padding for inline code */
-    border-radius: 3px; /* Rounded corners for inline code */
-  }
 ---
-
 
 ## Week 6
 # Digital Preservation Metadata
@@ -77,22 +15,15 @@ style: |
 # Today
 - **Settle in/Reminders/Announcements** (15 min)
 - **Discuss Last Week's Activity** (20 min)
-- **Discuss The Final Project** (20 min)
 - **Lecture: Digital Preservation Metadata** (45 min)
 - **Break** (10 min)
 - **Start Weekly Activity** (70 min)
-- **Wrap up** (10 min)
 
 ---
 
-# Announcements
+# Announcements/Reminders
 
-- Nicole Greenhouse, Web Archivist at NYU, will also be a guest speaker on April 16 along with Karly
-
----
-
-# Final Project Walkthrough
-<a href="https://digital-archives.github.io/HISTGA1011/final_project/" target="_blank">https://digital-archives.github.io/HISTGA1011/final_project/</a>
+Next class will be held virtually (I will remind you all again next week)
 
 ---
 
@@ -125,7 +56,7 @@ In summary, preservation metadata plays a fundamental role in the preservation, 
 ---
 
 <div class="quote">
-“... [Metadata is a] means by which the complexity of an object is represented in a simpler form.”
+... [Metadata is a] means by which the complexity of an object is represented in a simpler form.
 </div>
 
 <div class="author">Jeffrey Pomerantz</div>
@@ -303,9 +234,16 @@ For those very specific things, we have developed metadata schemas. For example,
 ---
 
 ## Definition
-# Metadata element
+# Metadata element - 1/2
 
-A __metadata element__ is a discrete piece of information that describes a digital or physical object. It provides descriptive, administrative, technical, or structural information about the object to facilitate its management, discovery, access, and preservation. Metadata elements are typically organized into a standardized schema or framework to ensure consistency and interoperability across different systems, domains, and communities.
+A __metadata element__ is a discrete piece of information that describes a digital or physical object. It provides descriptive, administrative, technical, or structural information about the object to facilitate its management, discovery, access, and preservation. 
+
+---
+
+## Definition
+# Metadata element - 2/2
+
+Metadata elements are typically organized into a standardized schema or framework to ensure consistency and interoperability across different systems, domains, and communities.
 
 <!--presenter notes
 
@@ -331,9 +269,16 @@ Each MARC record contains bibliographic data in a structured format that compute
 ---
 
 ## Definition
-# Metadata Object Description Schema (MODS)
+# Metadata Object Description Schema (MODS) - 1/2
 
-__Metadata Object Description Schema (MODS)__ was developed as a simpler, more flexible, and more semantically rich alternative to MARC specifically for describing digital resources. While MODS shares some similarities with MARC in terms of descriptive elements and data structure, it offers greater flexibility, extensibility, and compatibility with XML-based technologies.
+__Metadata Object Description Schema (MODS)__ was developed as a simpler, more flexible, and more semantically rich alternative to MARC specifically for describing digital resources.
+
+---
+
+## Definition
+# Metadata Object Description Schema (MODS) - 2/2
+
+While MODS shares some similarities with MARC in terms of descriptive elements and data structure, it offers greater flexibility, extensibility, and compatibility with XML-based technologies.
 
 <!--presenter notes
 
@@ -381,7 +326,7 @@ Most metadata schemas are written in XML format, primarily because XML is platfo
 
 XML **tags** are used to define a schema's elements. Tags can then be nested within one another to express certain attributes or relationship hierarchies.
 
-Example of a tag pair: \<originInfo>\</originInfo>
+Example of a tag pair: `<originInfo>Something goes here</originInfo>`
 
 ---
 
@@ -413,7 +358,7 @@ In the context of XML, an "element" is a fundamental building block of an XML do
 
 For each element or tag, you can look up the definition of each, including its proper use, attributes, and see sample applications.
 
-For example, if you were curious about the \<originInfo> element, you could read more about it here:
+For example, if you were curious about the `<originInfo>` element, you could read more about it here:
 
 https://www.loc.gov/standards/mods/userguide/origininfo.html
 
@@ -988,9 +933,9 @@ In this case, a person–Mary Kidd–performed a file format identification step
 
 # How METS and PREMIS work together
 
-* METS describes the digital objects themselves
-* PREMIS describes/logs events that happen to digital objects
-* METS typically will contain PREMIS data
+- METS describes the digital objects themselves
+- PREMIS describes/logs events that happen/ed to digital objects
+* METS _typically_ will contain PREMIS data
 
 ---
 ```
