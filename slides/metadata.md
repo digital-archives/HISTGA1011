@@ -7,7 +7,6 @@ paginate: true
 
 ---
 
-## Week 6
 # Digital Preservation Metadata
 
 ---
