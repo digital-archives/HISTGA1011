@@ -7,9 +7,7 @@ has_children: false
 ---
 # Week 6: Digital Preservation Metadata
 
-<!--
 <a href="https://digital-archives.github.io/HISTGA1011/slides/metadata.html" target="_blank">Slides</a>
--->
 
 {: .label .label-yellow }
 Due

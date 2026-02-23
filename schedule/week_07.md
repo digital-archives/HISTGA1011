@@ -10,9 +10,7 @@ has_children: false
 
 ##### Reminder: Class will be held virtually today. Please join class using the Zoom link in Brightspace.
 
-<!--
 <a href="https://digital-archives.github.io/HISTGA1011/slides/access.html" target="_blank">Slides</a>
--->
 
 {: .label .label-yellow }
 Due
