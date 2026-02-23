@@ -5,7 +5,6 @@ theme: rose-pine-dawn
 paginate: true
 ---
 
-## Week 1 
 # Introduction to Digital Archives
 
 ---
