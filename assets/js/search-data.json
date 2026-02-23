@@ -265,131 +265,131 @@
     
     "relUrl": "/activities/imaging"
   },"38": {
-    "doc": "Grading - Points Breakdown",
-    "title": "Grading - Points Breakdown",
-    "content": "Students are evaluated using a points-based system totaling 100 across three main areas: Weekly Activities (60 points), Participation (10 points) and Final Project (30 points). ",
-    "url": "/HISTGA1011/grading/",
-    
-    "relUrl": "/grading/"
-  },"39": {
-    "doc": "Grading - Points Breakdown",
-    "title": "Weekly Activities + Participation (70 points)",
-    "content": "| Activity | Points | . | Weekly Assignments | 60 | . | Participation (includes activity discussions) | 10 | . | Total | 70 | . Notes on Weekly Assignments . The Imaging and Conservation Group Activity is worth 10 points, while all other assignments are worth 3 points each. ",
-    "url": "/HISTGA1011/grading/#weekly-activities--participation-70-points",
-    
-    "relUrl": "/grading/#weekly-activities--participation-70-points"
-  },"40": {
-    "doc": "Grading - Points Breakdown",
-    "title": "Final Project (30 points)",
-    "content": "| Item | Points | . | Abstract | 5 | . | Paper | 15 | . | Presentation | 10 | . | Total | 30 | . Extra Credit Opportunity . Students can earn up to 3 extra credit points by reaching out to a repository and setting up a time to talk with an archivist or a preservation/digital archives practitioner. To receive credit, students must, in their abstract, turn in a summary of their conversation with the project abstract (minimum 300 words) and reflect on how the discussion informs their final project. Extra credit will be applied to the Final Project score. ",
-    "url": "/HISTGA1011/grading/#final-project-30-points",
-    
-    "relUrl": "/grading/#final-project-30-points"
-  },"41": {
     "doc": "Course Details",
     "title": "Digital Archives [HIST-GA 1011]",
     "content": " ",
     "url": "/HISTGA1011/syllabus/#digital-archives-hist-ga-1011",
     
     "relUrl": "/syllabus/#digital-archives-hist-ga-1011"
-  },"42": {
+  },"39": {
     "doc": "Course Details",
     "title": "Spring 2026",
     "content": "New York University, Department of History . ",
     "url": "/HISTGA1011/syllabus/#spring-2026",
     
     "relUrl": "/syllabus/#spring-2026"
-  },"43": {
+  },"40": {
     "doc": "Course Details",
     "title": "Course Details",
     "content": "Meeting time: Wednesdays, 4:55-7:35pm Room: KJCC 717 Instructor: Mary Kidd (she/her) . Digital Archives explores the major stages of the digital curation life-cycle, and delves into the complexities surrounding the creation, appraisal, acquisition, processing/description, storage, digitization/reformatting, and making accessible, archives of all formats. Readings, lectures, discussions and in-class activities will shed light on the myriad challenges, best practices, risks/threats posed, and standards involved in successful digital preservation. Through the course, students will develop the ability to design foundational workflows for digitizing and handling both analog and born-digital materials and effectively managing digital objects. Additionally, the course emphasizes the significance of specialized preservation tools and techniques, including understanding essential technical skills. This course fulfills the “Digital Credit“ requirement. ",
     "url": "/HISTGA1011/syllabus/",
     
     "relUrl": "/syllabus/"
-  },"44": {
+  },"41": {
     "doc": "Course Details",
     "title": "Learning Objectives",
     "content": ". | Describe the role of archivists across the life cycle of digital archives. | Articulate challenges, best practices, and standards associated with the appraisal, acquisition, storage, creation, and provision of access to digital archives. | Explore basic workflows for the digitization of analog material to digital and for the accession and ingest of born-digital archives. | Identify risks and threats to the digital preservation life-cycle. | Enumerate considerations in institutional policies and plans related to collection development, intellectual property rights, digitization, preservation, and program sustainability. | Learn and practice technical skills and using common tools and softwares used in the field. | Understand the specialized work involved in handling and preservation of special formats such as audio visual and web archives. | . ",
     "url": "/HISTGA1011/syllabus/#learning-objectives",
     
     "relUrl": "/syllabus/#learning-objectives"
-  },"45": {
+  },"42": {
     "doc": "Course Details",
     "title": "Guidelines and Expectations",
     "content": ". | Students are expected to attend each weekly session for the full in-class time. Please email me as soon as you can to let me know you are unable to make a class, need to arrive late/leave early, or need to attend remotely. | Please write me as soon as you can if you require an extension or more time to finish an assignment or activity. | Class activities will be started on during class time. Any work that is not completed should be worked on and submitted by the end of the week Sunday. | Extensions must be approved ahead of time in writing by the instructor. | Papers should be in 12-point font, double-spaced, with 1-inch margins. I have no preference for how you cite sources, as long as you are consistent. | At a few points over the semester, we will be utilizing specific programs or applications that you will need to download or otherwise access to perform in-class or asynchronous activities. Ahead of those weeks when installing a program is required, I will provide the necessary information for how to obtain them based on your operating system. | . ",
     "url": "/HISTGA1011/syllabus/#guidelines-and-expectations",
     
     "relUrl": "/syllabus/#guidelines-and-expectations"
-  },"46": {
+  },"43": {
     "doc": "Course Details",
     "title": "Additional Assistance",
     "content": "Academic accommodations are available for students with disabilities. Please contact the Moses Center for Students with Disabilities (212-998-4980 or mosescsd@nyu.edu) for further information. Students who are requesting academic accommodations are advised to reach out to the Moses Center as early as possible in the semester for assistance. ",
     "url": "/HISTGA1011/syllabus/#additional-assistance",
     
     "relUrl": "/syllabus/#additional-assistance"
-  },"47": {
+  },"44": {
     "doc": "Course Details",
     "title": "Textbook",
     "content": "Owens, Trevor. The Theory and Craft of Digital Preservation. Baltimore: Johns Hopkins University Press, 2018. Accessed June 30, 2023. https://www.trevorowens.org/theory-and-craft-of-digital-preservation/ . This book is available through course reserves (electronic version) . ",
     "url": "/HISTGA1011/syllabus/#textbook",
     
     "relUrl": "/syllabus/#textbook"
-  },"48": {
-    "doc": "Course Schedule & Readings",
-    "title": "Course Schedule",
-    "content": "| Week Number | Date of Class | Topic / Assignment Due | Weekly ActivityDue following Sunday | . | Week 1 | January 21 | Introduction to Digital Archives | Data Object | . | Week 2 | January 28 | OAIS Conceptual Model | Breaking BagIt | . | Week 3 | February 4 | Processing Born-Digital Archives | Corrupting a Bitstream | . | Week 4 | February 11 | Digital Repository Systems | Short Stack 🥞 | . | Week 5 | February 18 | Storage Infrastructures | Archivematica Sandbox | . | Week 6 | February 25 | Digital Preservation Metadata | Digital Preservation Metadata | . | Week 7 | March 4 | Access and DiscoveryClass will be held virtually | The User’s Experience | . | Week 8 | March 11 | Automation and ScriptingFinal Project Abstract due | Scripting Reflection | . | Week 9 | March 18 | No Class | Spring Break |   | . | Week 10 | March 25 | Digitization | Imaging and Conservation Group Activity | . | Week 11 | April 1 | Moving Image and Audio Preservation | QCTools | . | Week 12 | April 8 | Web and Email Archiving | Podcast Archaeology | . | Week 13 | April 15 | Guest Speaker DayClass will be held virtually |   | . | Week 14 | April 22 | No Class: Work on your final projects | Optional: Schedule a consult with me | . | Week 15 | April 29 | Last day of classFinal presentations due | Final paper due date TK | . ",
-    "url": "/HISTGA1011/schedule/#course-schedule",
-    
-    "relUrl": "/schedule/#course-schedule"
-  },"49": {
-    "doc": "Course Schedule & Readings",
-    "title": "Course Schedule & Readings",
-    "content": " ",
-    "url": "/HISTGA1011/schedule/",
-    
-    "relUrl": "/schedule/"
-  },"50": {
-    "doc": "Weekly Activities",
-    "title": "Weekly Activities",
-    "content": "Most weeks, you will be assigned to work on an activity in-class. Each activity will be accompanied by a set of instructions, and in some cases, materials (such as a folder containing some files, a worksheet, or something else). ",
-    "url": "/HISTGA1011/activities/",
-    
-    "relUrl": "/activities/"
-  },"51": {
+  },"45": {
     "doc": "Final Project",
     "title": "Final Project",
     "content": " ",
     "url": "/HISTGA1011/final_project/",
     
     "relUrl": "/final_project/"
-  },"52": {
+  },"46": {
     "doc": "Final Project",
     "title": "Overview",
     "content": "For your final project, you will develop a Digitization and Access Plan (hereafter known as the “Plan”) for a group of materials that are not currently available online—even though these materials may be accessible in person (e.g., in a reading room). This project will consist of a written paper and an accompanying presentation, which you will deliver on the last day of class. To guide your progress, you will submit an abstract mid-way through the semester as a check-in to ensure you have identified a suitable group of materials to work with, and are on track with your project. See the class schedule for due date details. ",
     "url": "/HISTGA1011/final_project/#overview",
     
     "relUrl": "/final_project/#overview"
-  },"53": {
+  },"47": {
     "doc": "Final Project",
     "title": "Scenario",
     "content": "You are an archivist working in the special collections department of [organization/institution of your choosing]. As part of an initiative to enhance digital access to the institution’s archives, your department has identified a candidate collection containing records that are currently inaccessible to users that they wish to make available online. Recognizing your expertise in digital archives workflow management, the Director of Special Collections has appointed you as Project Lead. Your task is to analyze how your institution currently handles digital access and preservation, write out a plan describing how these selected materials will be made accessible online, and present this plan to the Special Collections Committee. ",
     "url": "/HISTGA1011/final_project/#scenario",
     
     "relUrl": "/final_project/#scenario"
-  },"54": {
+  },"48": {
     "doc": "Final Project",
     "title": "Selection Criteria",
     "content": "To ensure a well-rounded project, your candidate collection records must meet the following criteria: . | Existing online finding aid: Your chosen collection must be documented in an archival finding aid. | Materials not currently available online: Although the collection is held by an institution and described in an online finding aid, the materials themselves must not have been made accessible through a digital library or collection website. You will need to verify this by browsing available finding aids and confirming that the materials, while described, are not available remotely. | Selection scope: You are not required to propose a plan for every component of a finding aid. Instead, focus on a deliberate selection of materials (e.g., one series, or one specific type of format, or one intellectual grouping) to develop your plan | Media: While inclusion of some flat materials (e.g., photographs, maps, manuscripts) is acceptable, your project should not focus exclusively on paper-based items that require scanning or photography. Your project must incorporate at least one non-paper-based format, such as: . | Magnetic recorded media (e.g., audiotapes, videotapes, floppy disks, hard drives) | Optical Media (e.g., CDs, DVDs) | Born-digital records requiring file format migration or emulation (e.g., software, video games, database records, research datasets) | …or something else! | . | . ",
     "url": "/HISTGA1011/final_project/#selection-criteria",
     
     "relUrl": "/final_project/#selection-criteria"
-  },"55": {
+  },"49": {
     "doc": "Final Project",
     "title": "Project Goals",
     "content": "Your final paper and presentation should: . | Demonstrate the significance of the materials you selected and why they should be prioritized for access. | Articulate the technical, labor, and logistical considerations involved in not only getting the materials online, but also promoting their discovery and access. | Explain how the project aligns with institutional priorities and contributes to broader digital preservation and archiving efforts. | . This project is an opportunity to apply digital archiving and preservation principles in a real-world context, critically engage with selection and access strategies, working under specific funding, labor, environmental, technical or other constraints, connect you with practicioners, and develop skills in planning and advocacy within archival institutions. ",
     "url": "/HISTGA1011/final_project/#project-goals",
     
     "relUrl": "/final_project/#project-goals"
+  },"50": {
+    "doc": "Grading - Points Breakdown",
+    "title": "Grading - Points Breakdown",
+    "content": "Students are evaluated using a points-based system totaling 100 across three main areas: Weekly Activities (60 points), Participation (10 points) and Final Project (30 points). ",
+    "url": "/HISTGA1011/grading/",
+    
+    "relUrl": "/grading/"
+  },"51": {
+    "doc": "Grading - Points Breakdown",
+    "title": "Weekly Activities + Participation (70 points)",
+    "content": "| Activity | Points | . | Weekly Assignments | 60 | . | Participation (includes activity discussions) | 10 | . | Total | 70 | . Notes on Weekly Assignments . The Imaging and Conservation Group Activity is worth 10 points, while all other assignments are worth 3 points each. ",
+    "url": "/HISTGA1011/grading/#weekly-activities--participation-70-points",
+    
+    "relUrl": "/grading/#weekly-activities--participation-70-points"
+  },"52": {
+    "doc": "Grading - Points Breakdown",
+    "title": "Final Project (30 points)",
+    "content": "| Item | Points | . | Abstract | 5 | . | Paper | 15 | . | Presentation | 10 | . | Total | 30 | . Extra Credit Opportunity . Students can earn up to 3 extra credit points by reaching out to a repository and setting up a time to talk with an archivist or a preservation/digital archives practitioner. To receive credit, students must, in their abstract, turn in a summary of their conversation with the project abstract (minimum 300 words) and reflect on how the discussion informs their final project. Extra credit will be applied to the Final Project score. ",
+    "url": "/HISTGA1011/grading/#final-project-30-points",
+    
+    "relUrl": "/grading/#final-project-30-points"
+  },"53": {
+    "doc": "Course Schedule & Readings",
+    "title": "Course Schedule",
+    "content": "| Week Number | Date of Class | Topic / Assignment Due | Weekly ActivityDue following Sunday | . | Week 1 | January 21 | Introduction to Digital Archives | Data Object | . | Week 2 | January 28 | OAIS Conceptual Model | Breaking BagIt | . | Week 3 | February 4 | Processing Born-Digital Archives | Corrupting a Bitstream | . | Week 4 | February 11 | Digital Repository Systems | Short Stack 🥞 | . | Week 5 | February 18 | Storage Infrastructures | Archivematica Sandbox | . | Week 6 | February 25 | Digital Preservation Metadata | Digital Preservation Metadata | . | Week 7 | March 4 | Access and DiscoveryClass will be held virtually | The User’s Experience | . | Week 8 | March 11 | Automation and ScriptingFinal Project Abstract due | Scripting Reflection | . | Week 9 | March 18 | No Class | Spring Break |   | . | Week 10 | March 25 | Digitization | Imaging and Conservation Group Activity | . | Week 11 | April 1 | Moving Image and Audio Preservation | QCTools | . | Week 12 | April 8 | Web and Email Archiving | Podcast Archaeology | . | Week 13 | April 15 | Guest Speaker DayClass will be held virtually |   | . | Week 14 | April 22 | No Class: Work on your final projects | Optional: Schedule a consult with me | . | Week 15 | April 29 | Last day of classFinal presentations due | Final paper due date TK | . ",
+    "url": "/HISTGA1011/schedule/#course-schedule",
+    
+    "relUrl": "/schedule/#course-schedule"
+  },"54": {
+    "doc": "Course Schedule & Readings",
+    "title": "Course Schedule & Readings",
+    "content": " ",
+    "url": "/HISTGA1011/schedule/",
+    
+    "relUrl": "/schedule/"
+  },"55": {
+    "doc": "Weekly Activities",
+    "title": "Weekly Activities",
+    "content": "Most weeks, you will be assigned to work on an activity in-class. Each activity will be accompanied by a set of instructions, and in some cases, materials (such as a folder containing some files, a worksheet, or something else). ",
+    "url": "/HISTGA1011/activities/",
+    
+    "relUrl": "/activities/"
   },"56": {
     "doc": "Home",
     "title": "Home",
@@ -407,31 +407,31 @@
   },"58": {
     "doc": "Digital Preservation Metadata",
     "title": "Introduction",
-    "content": "This activity entails annotating a Metadata Encoding and Transmission Standard (METS) record for one item. The purpose of the assignment is to learn how the elements of a simple METS record work together and how preservation metadata derived from the PREservation Metadata Implementation Strategies (PREMIS) can be used to document preservation activities and changes to the item over time. The activity involves saving a record containing rich METS records locally and annotating that METS record to describe the major components of the METS record, including PREMIS components. The net result of the activity is a demonstration of the capability to “read” METS and PREMIS records and explain what happened to the item. ",
+    "content": "This activity entails annotating a Metadata Encoding and Transmission Standard (METS) record for one item. The purpose of the assignment is to learn how the elements of a METS record work together, how preservation metadata derived from the PREservation Metadata Implementation Strategies (PREMIS) can be used to document preservation activities and changes to the item over time, and how METS and PREMIS work together. To do this activity, you will save a Library of Congress sample METS record locally and annotate it to describe its structure. The net result of the activity is a demonstration of the capability to “read” METS and PREMIS records and explain what the digital preservation is and what has happened to it over time. ",
     "url": "/HISTGA1011/activities/metadata#introduction",
     
     "relUrl": "/activities/metadata#introduction"
   },"59": {
     "doc": "Digital Preservation Metadata",
     "title": "Preparation",
-    "content": ". | To do this activity, you will need to use a text editing program or application to annotate the data. Suggested text editors that you may download are Notepad++ (Windows) or Sublime (Mac or Windows). | If you do not have a text editor, you can save the METS as an XML file to your computer, upload it to your Google Drive, and use Drive’s text editor to annotate. | Additionally, it will be good to have the METS and PREMIS standards documents up in a separate tab for reference during this activity. | . ",
+    "content": ". | You will need to use some sort of text editing program or application to annotate the data. Suggested text editors that you may download are Notepad++ (Windows) or Sublime (Mac or Windows). It doesn’t have to be fancy, but should be capable of displaying structured data in a way that isn’t too chaotic. | If you do not have a text editor or are not comfortable downloading one of the previously mentioned text editor programs, you can save the METS as an XML file to your computer, upload it to your Google Drive, and open it within Drive to edit. | Additionally, it will be good to have the METS and PREMIS standards documents up your browser to reference when performing this activity. | . ",
     "url": "/HISTGA1011/activities/metadata#preparation",
     
     "relUrl": "/activities/metadata#preparation"
   },"60": {
     "doc": "Digital Preservation Metadata",
     "title": "Steps to Take",
-    "content": ". | Save this METS file locally by opening it in a separate web browser tab, right-clicking anywhere within the text, and selecting “Save As.” When saving, make sure that you are saving it as an XML file by selecting “XML” from the list of file formats available. | Open the METS XML file using the text editing program of your choice. | Within the text editor, compare the METS record for your item with the METS Schema 1.12.1 (current version), METS Primer, and other documentation on the METS website. The goal of this first step is to get comfortable with METS tags, to figure out which elements of the METS schema are included in the record and which might be missing. | Annotate the METS record by identifying all the major (and sub-) elements listed below and also commenting on the additional items I listed. Not all the elements are in the record, so make sure to comment on the missing ones. For repeating elements, you do not need to identify each, but add a single comment to explain. The syntax for inline comments in XML is: &lt;!-- Your Comment --&gt;. | . | METS . | Does the record include &lt;mdWrap&gt; or &lt;mdRef&gt;? | Header &lt;metsHdr&gt; . | Indicate version of METS | Indicate version of PREMIS | Indicate version of MODS | . | Descriptive metadata section &lt;dmdSec&gt; . | Indicate what descriptive standard the METS uses | . | Administrative &lt;amdSec&gt; . | Technical &lt;techMD&gt; | Digital Provenance &lt;digiprovMD&gt; | Source &lt;sourceMD&gt; | Rights &lt;rightsMD&gt; | . | File Section &lt;fileSec&gt; . | Indicate if the File section uses &lt;FLocat&gt; (pointer to resource) or &lt;FContent&gt; (content in XML). | . | Structural Map &lt;structMap&gt; . | Indicate if the &lt;div&gt; sections contain multiple METS pointers (&lt;mptr&gt;) and/or file pointer (&lt;fptr&gt;) | . | Structural links &lt;smLink&gt; | Behavior &lt;behavior&gt; | . | PREMIS . | Objects: What are the objects? . | Intellectual Entity | Representation | File | Bitstream | . | Environment | Agents: What is the agent? Person, organization, software | Events: Comment to indicate what the events are | Rights statement | . | . ",
+    "content": ". | Save this METS file locally by opening it in a separate web browser tab, right-clicking anywhere within the text, and selecting “Save As.” When saving, make sure that you are saving it as an XML file by selecting “XML” from the list of file formats available. | Open the METS XML file using the text editing program of your choice. | Within the text editor, compare the METS record for your item with the METS Schema 1.12.1 (current version), METS Primer, and other documentation on the METS website. The goal of this first step is to get comfortable with METS tags, to figure out which elements of the METS schema are included in the record and which might be missing. | Annotate the METS record by identifying all the major (and sub-) elements listed below and also commenting on the additional items I listed. Not all the elements are in the record, so make sure to comment on the missing ones. For repeating elements, you do not need to identify each, but add a single comment to explain. The syntax for inline annotations in XML is: &lt;!-- Your Comment Goes here --&gt;. | A lot of this work is best done by doing an in-document search. For most text editors this can be initiated by the “Find” command and inputting a keyword (shortcuts are typically Command + F on a Mac, Ctrl + F on Windows). | . Find and annotate the following . | Within the header (very top) of the file, indicate which version of 1.) METS, 2.) PREMIS and 3.) MODS used throughout the file. | Descriptive metadata section &lt;dmdSec&gt; . | Indicate what descriptive standard the METS uses. | Using the descriptive metadata found within this section, tell me more about the thing being preserved and described. Based on this metadata, try and find a link out to the public-facing LOC record. | . | Does the record include any &lt;mdWrap&gt; sections? (To answer this question in the XML, add your answer to the first &lt;mdWrap&gt; element found. If you cannot find any &lt;mdWrap&gt; elements, leave your annotation at the very top of the document). | If you find any &lt;mdWrap&gt; elements, comment out one and tell me morea bout what you think this element is “wrapping”. | . | Locate the administrative metadata section &lt;amdSec&gt;. Locate and annotate the beginning of this section, and then locate and annotate the end of this section. Within &lt;amdSec&gt;, locate and annotate: . | All &lt;techMD&gt; opening tags. | Locate at least three &lt;digiprovMD&gt; tags and nested within each, their corresponding PREMIS event. For each, tell me what happened. | . | Locate &lt;fileSec&gt;. Investigate the structure of this section. How many and what type of files does it list here? . | Within the &lt;fileSec&gt; section, find the nested &lt;mets:file&gt; tag and within it, the AMDID attribute. Choose one of the attributes listed here and describe its connection between other sections of this file. | . | Locate and annotate the beginning of the &lt;structMap&gt; section. | Describe the relationship here between the &lt;structMap&gt; and &lt;fileSec&gt; sections (hint: look at the attributes of nested elements). | . | . ",
     "url": "/HISTGA1011/activities/metadata#steps-to-take",
     
     "relUrl": "/activities/metadata#steps-to-take"
   },"61": {
     "doc": "Digital Preservation Metadata",
-    "title": "Reporting",
-    "content": ". | Attach your annotated METS record as .xml in Brightspace. | . ",
-    "url": "/HISTGA1011/activities/metadata#reporting",
+    "title": "Submit Assignment",
+    "content": "Attach your annotated METS record as .xml in Brightspace. ",
+    "url": "/HISTGA1011/activities/metadata#submit-assignment",
     
-    "relUrl": "/activities/metadata#reporting"
+    "relUrl": "/activities/metadata#submit-assignment"
   },"62": {
     "doc": "Digital Preservation Metadata",
     "title": "Resources",
@@ -785,7 +785,7 @@
   },"112": {
     "doc": "Week 5",
     "title": "Week 5: Digital Preservation Storage Systems",
-    "content": "Due . | In class we will start the Week 5 activity, Archivematica Sandbox. Submit your completed activity summary in Brightspace by Sunday night. | . Read . | Schaefer, S. K., McGovern, N. Y., Zierau, E. M. O., Goethals, A. L., &amp; Wu, C. C. M. (2022). Deciding how to decide: Using the Digital Preservation Storage Criteria. IFLA Journal, 48(2), 318-331. https://doi.org/10.1177/03400352211011490 | Gallinger, Michelle. “Trends in Digital Preservation Capacity and Practice: Results from the 2nd Bi-Annual National Digital Stewardship Alliance Storage Survey.” D-Lib Magazine 23, no. 7 (2017): n. pag. https://search.library.nyu.edu/permalink/01NYU_INST/1eeerc1/cdi_openaire_primary_doi_dedup_7366470215ed8dda67032281c131119a | Digital Preservation Coalition. (n.d.). Storage. Digital Preservation Handbook. https://www.dpconline.org/handbook/organisational-activities/storage | . ",
+    "content": "Slides . Due . | In class we will start the Week 5 activity, Archivematica Sandbox. Submit your completed activity summary in Brightspace by Sunday night. | . Read . | Schaefer, S. K., McGovern, N. Y., Zierau, E. M. O., Goethals, A. L., &amp; Wu, C. C. M. (2022). Deciding how to decide: Using the Digital Preservation Storage Criteria. IFLA Journal, 48(2), 318-331. https://doi.org/10.1177/03400352211011490 | Gallinger, Michelle. “Trends in Digital Preservation Capacity and Practice: Results from the 2nd Bi-Annual National Digital Stewardship Alliance Storage Survey.” D-Lib Magazine 23, no. 7 (2017): n. pag. https://search.library.nyu.edu/permalink/01NYU_INST/1eeerc1/cdi_openaire_primary_doi_dedup_7366470215ed8dda67032281c131119a | Digital Preservation Coalition. (n.d.). Storage. Digital Preservation Handbook. https://www.dpconline.org/handbook/organisational-activities/storage | . ",
     "url": "/HISTGA1011/schedule/week_05#week-5-digital-preservation-storage-systems",
     
     "relUrl": "/schedule/week_05#week-5-digital-preservation-storage-systems"
