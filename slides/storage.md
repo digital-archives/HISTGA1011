@@ -7,7 +7,6 @@ paginate: true
 
 ---
 
-## Week 5
 # Digital Preservation Storage Systems
 
 ---
