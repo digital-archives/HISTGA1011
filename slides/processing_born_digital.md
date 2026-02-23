@@ -7,7 +7,6 @@ paginate: true
 
 ---
 
-## Week 3 
 # Processing Born-Digital Archives
 
 ---
