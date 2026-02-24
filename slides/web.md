@@ -14,7 +14,7 @@ paginate: true
 # Today
 - **Settle in/Reminders/Announcements** (15 min)
 - **Discuss Last Week's Activity** (20 min)
-- **Lecture: Automation and Scripting** (45 min)
+- **Lecture: Archiving Web-Based Electronic Records** (45 min)
 - **Break** (10 min)
 - **Start Weekly Activity** (70 min)
 - **Wrap up** (10 min)
@@ -23,8 +23,6 @@ paginate: true
 
 # Announcements
 
-* Final paper due: May 8 (Thursday)
-* Next week is Guest Speaker Day (Karly Wildenhaus and Nicole Greenhouse). Please come prepared with questions, and please fill out this form: <a href="https://forms.gle/F3F7AZrRgU2KUXY9A" target="_blank">https://forms.gle/F3F7AZrRgU2KUXY9A</a>
 ---
 
 # Archiving Web-Based Electronic Records

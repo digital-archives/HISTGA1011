@@ -617,6 +617,201 @@ Most institutions’ accessibility expectations will be informed by federal law,
 
 ---
 
+
+## Definition
+# Semantic Web
+
+The **semantic web** is a concept that sees data on the internet as dynamic, meaningful and machine-readable. Unlike the standard web, which primarily focuses on linking documents through hyperlinks, the semantic web uses structured data, standardized ontologies, and metadata to create connections between individual pieces of information.
+
+---
+
+## Definition
+# Ontology
+
+An **ontology** is a structured framework that defines the relationships between concepts, terms, and data within a specific domain. It serves as a formal representation of knowledge by outlining categories, properties, and the connections between entities, enabling both humans and machines to understand and process complex information.
+
+---
+
+## Definition
+# Linked Open Data
+
+Sometimes referred to simply as "linked data", linked open data (LOD) is a framework that enables organizations and individuals to share information in a machine-readable format. By using standardized protocols, LOD allows for the seamless connection of related data across multiple websites, creating a vast, interconnected web of datasets known as Linked Open Data.
+
+<!--presenter notes
+
+This definition is gleaned from Digital Preservation Framework Linked Open Data page: https://www.archives.gov/preservation/digital-preservation/linked-data
+
+-->
+
+---
+
+## Case Study
+# PRiSMHA (Providing Rich Semantic Metadata for Historical Archives)
+
+The **PRiSHHA** Project (2017-2020) was a digital curation/humanities project that explored how an ontology-driven platform could facilitate deeper research and access of digitized materials.
+
+<!--presenter notes
+
+Definition derived from https://dl.acm.org/doi/full/10.1145/3484398
+
+-->
+
+---
+
+## Project focused on a small digitized set of the Gramsci Institute's records (~200 documents, mainly typewritten leaflets often with annotations and drawings, some pictures, some newsprint) covering students' and workers' protests occurring between 1968-1969 in Italy.
+
+---
+
+<img src="img/week_06_gramsci_strike.jpg">
+
+_A leaflet about a strike at FIAT._
+
+<!--presenter notes
+
+A leaflet about a strike at FIAT (copyright: Fondazione Istituto piemontese Antonio Gramsci Onlus).
+
+Transcription/Translation:
+
+FIAT WORKERS
+
+Why do students participate in the workers' struggle?
+
+In these months of struggle in the schools, students have begun to fight against the power of the professors: they are tired of having their heads filled without being able to discuss or decide.
+
+But through this struggle, they also realized that fighting in the university and in school is not enough. Authoritarianism, meaning that a few command while many are oppressed, exists not only in school: it is present throughout society and especially in the factory.
+
+FIAT is the most typical example.
+
+For this reason, even if students manage to obtain a less tyrannical school, this is not enough: because after school, students enter the workforce, and this generally means becoming a teacher, a technician, or an office worker in a factory. In the first case, students do not want to become like those authoritarian professors they fought against for years. In the second case, they do not want to become the boss’s henchmen, who follow his orders and oppress the workers according to the management’s directives.
+
+Therefore, it is not enough to change things in the school; we must change them everywhere. For this reason, everyone who wants to change things, everyone who is tired of enduring impositions, must unite and fight together.
+
+Circled in red:
+For this reason, we are in front of the factories: our participation in the picket lines is a first step toward connecting students and workers, to discuss and decide future actions together.
+
+-->
+
+
+---
+
+### Consider Antonio, a schoolteacher who wants to enrich his lessons with information directly taken from original documents. He is talking to his students about protest actions that took place in Torino in 1968. In particular, he is searching a digital online archive system, looking for leaflets referring to strikes that both students and workers participated in.
+
+---
+
+### Even with a (very) good OCR tool, if the system is based on a keyword search mechanism, the results of a query for “sciopero” (strike) would not include [the leaflet] ... [T]he document ... does not contain the world “sciopero/i” (strike/es), although it actually talks about a strike, using the very specific word “picchetti” (picketings).
+
+---
+
+<img src="img/week_06_gramsci_leaflet.jpg" style="width: 800px;">
+
+_A leaflet mentioning Italian journalist Guido Viale_
+
+<!--presenter notes
+
+A leaflet mentioning Guido Viale (copyright: Fondazione Istituto piemontese Antonio Gramsci Onlus).
+
+Translation:
+
+Interfaculty circular, print run 6,000 copies
+
+THIS AFTERNOON AT 2:30 PM
+AT THE CHAMBER OF LABOR
+
+HIGH SCHOOL AND UNIVERSITY STUDENTS
+PARTICIPATE!!!
+NEW FORMS OF CITIZEN ACTION TO DEMAND THE RELEASE OF GUIDO VIALE
+
+TOWARD NEIGHBORHOOD WORK: OPEN DISCUSSION
+
+THE DELEGATION FROM ALLARA
+
+ORGANIZED BY A WORKING GROUP OF THE COMMITTEE OF AGITATION
+
+-->
+
+---
+
+### Antonio also looks for leaflets mentioning specific people (e.g., Guido Viale, a leader of the ‘68 Movement in Torino) involved in protest actions. The results for a query for “Guido Viale” in a keyword-based system would probably include the leaflet.
+
+---
+
+### However, that leaflet would not be retrieved if the query also contains (in AND) a keyword for the action (such as “sciopero”/strike, “manifestazione”/demonstration, and so on), since the protest action is not explicitly mentioned, although it is clear to a human reader that the document talks about a protest action.
+
+---
+
+### Moreover, Guido Viale, although mentioned in the document, is not an active participant; the leaflet indeed says that he has been arrested and the demonstration is organized to ask for his release (he could be considered the “topic” of the protest action, or a participant in his release from prison, i.e., in the event representing the goal of the protest action).
+
+---
+
+### This scenario demonstrates that, in order to both provide users with the possibility of posing such queries and be able to answer them, the system needs a semantic layer over archival documents, containing a formal machine-readable representation of their content, based on the conceptual vocabulary represented by computational ontologies.
+
+---
+
+### If Antonio was searching for the active involvement of Guido Viale in protest actions [...] he would need a tool enabling him to ask for all documents talking about any type of protest action that have a relation of type active participation with the person Guido Viale. 
+
+---
+
+<img src="img/week_06_gramsci_ontology.svg">
+
+<!--presenter notes
+
+ISA: "Is a" relationship. Indicates a hierarchical connection where one category is a specific type of another.
+
+Example: Protest March ISA Protest Action (A protest march is a type of protest action.)
+instance-of: Represents an instance relationship, showing that a specific event or object is an example of a broader class.
+
+Example: ev01 instance-of Demonstration (ev01 is a specific event categorized as a demonstration.)
+ev01, ev02, ev03, ev04: Event identifiers, representing specific, real-world instances of protest actions.
+
+Each "ev" label marks a distinct event within the ontology.
+hasParticipant: Shows the relationship between an event and the individual or group involved.
+
+Example: ev02 hasParticipant Guido Viale (Guido Viale participated in the event ev02.)
+isAbout: Indicates the subject or focus of the event or action.
+
+Example: ev03 isAbout Person (The event ev03 is about a particular person.)
+
+-->
+
+---
+
+# What does the labor of linked data look like?
+<a href="https://linkedjazz.org/" target="_blank">Linked Jazz</a>
+
+---
+
+## Resource
+# WikiData
+
+**Wikidata** is a free, collaborative, and structured knowledge base that acts as a central repository for data used by Wikimedia projects, including Wikipedia, as well as external applications and services. It was launched by the Wikimedia Foundation in 2012 with the goal of providing a machine-readable, linked open data platform that anyone can edit.
+
+See <a href="https://www.wikidata.org/wiki/Q83003" target="_blank">WikiData entry for Antonio Gramsci</a>
+
+---
+
+## Resource
+# SNAC (Social Networks and Archival Context) - 1/2
+
+**SNAC** (Social Networks and Archival Context) is an online resource that links archival collections to the people, organizations, and events they are associated with.
+
+---
+
+## Resource
+# SNAC (Social Networks and Archival Context) - 1/2
+
+- **Authority Control**: Helps standardize names of individuals and organizations across collections.
+- **Relationship Mapping**: Connects archival metadata to a network of related entities, offering richer context.
+- **Linked Data**: Uses EAC-CPF, aligning well with linked open data initiatives.
+
+---
+
+## Standard
+# EAC-CPF
+
+**EAC-CPF** (Encoded Archival Context – Corporate Bodies, Persons, and Families) is an XML-based standard used in archival metadata to describe entities such as people, organizations, and families that are associated with archival materials.
+
+---
+
 ## Weekly Activity
 # The User's Experience
 

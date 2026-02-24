@@ -13,7 +13,7 @@ has_children: false
 {: .label .label-yellow }
 Due
 
-In class we will start the Week 3 activity, <a href="https://digital-archives.github.io/HISTGA1011/activities/corrupting_a_bitstream.html" target="_blank">Corrupting a Bitstream</a>. Submit your completed activity summary in Brightspace by Sunday night.
+In class we will start the weekly activity, <a href="https://digital-archives.github.io/HISTGA1011/activities/corrupting_a_bitstream.html" target="_blank">Corrupting a Bitstream</a>. Submit your completed activity summary in Brightspace by Sunday night.
 
 {: .label .label-green }
 Read

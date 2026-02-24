@@ -13,7 +13,7 @@ has_children: false
 {: .label .label-yellow }
 Due
 
-In class we will start the Week 4 activity, <a href="https://digital-archives.github.io/HISTGA1011/activities/tech_stack.html" target="_blank">Short Stack 🥞</a>. Submit your completed activity summary in Brightspace by Sunday night.
+In class we will start the weekly activity, <a href="https://digital-archives.github.io/HISTGA1011/activities/tech_stack.html" target="_blank">Short Stack 🥞</a>. Submit your completed activity summary in Brightspace by Sunday night.
 
 {: .label .label-green }
 Read
