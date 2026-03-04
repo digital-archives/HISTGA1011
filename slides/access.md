@@ -115,7 +115,7 @@ UH also uses a number of homegrown tools:
 
 ---
 
-<img src="img/week_07_carpenters_shot_list.png" alt="Image of a planetary scanner" style="width: 100%; height: auto;">
+<img src="img/week_07_carpenters_shot_list.png" alt="Image of a planetary scanner">
 
 <!--presenter notes
 
@@ -166,7 +166,7 @@ Ex:
 
 ---
 
-<img src="img/week_07_carpenters_files_tab.png" alt="Image of a planetary scanner" style="width: 100%; height: auto;">
+<img src="img/week_07_carpenters_files_tab.png" alt="Image of a planetary scanner">
 
 <!--presenter notes
 
@@ -246,7 +246,7 @@ Yale uses Handle, another kind of persistent identifier. It's pretty similar to 
 
 ---
 
-<img src="img/week_07_brays_01.png" alt="SIP folders" style="width: 100%; height: auto;">
+<img src="img/week_07_brays_01.png" alt="SIP folders">
 
 <!--presenter notes
 
@@ -265,7 +265,7 @@ Additionally, once the record contains all required fields, the object name in t
 
 ---
 
-<img src="img/week_07_brays_02.png" alt="SIP folders" style="width: 100%; height: auto;">
+<img src="img/week_07_brays_02.png" alt="SIP folders">
 
 <!--presenter notes
 
@@ -414,7 +414,7 @@ These takeaways were derived from Joyce Celeste Chapman’s article “Observing
   <span class="square"></span>
 </div>
 
-<div class="activity-title">Mini Activity - Part 1</div>
+<div class="activity-title">Mini Activity - Finding Aid UX - 1/3</div>
 
 <ul class="activity-list">
   <li>Go to <a href="archives.nypl.org." target="_blank">archives.nypl.org</a></li>
@@ -426,13 +426,13 @@ These takeaways were derived from Joyce Celeste Chapman’s article “Observing
 
 ---
 
-<<div class="shapes">
+<div class="shapes">
   <div class="triangle"></div>
   <span class="circle"></span>
   <span class="square"></span>
 </div>
 
-<div class="activity-title">Mini Activity - Part 2</div>
+<div class="activity-title">Mini Activity - Finding Aid UX - 2/3</div>
 
 <ul class="activity-list">
   <li>Go to <strong><a href="https://digitalcollections.nypl.org" target="_blank">digitalcollections.nypl.org</a></strong></li>
@@ -448,7 +448,7 @@ These takeaways were derived from Joyce Celeste Chapman’s article “Observing
   <span class="square"></span>
 </div>
 
-<div class="activity-title">Mini Activity - Part 3</div>
+<div class="activity-title">Mini Activity - Finding Aid UX - 3/3</div>
 
 <strong>Discuss:</strong> How was your experience?
 
