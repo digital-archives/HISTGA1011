@@ -8,12 +8,11 @@ has_children: false
 
 # Week 7: Access and Discovery
 
-##### Reminder: Class will be held virtually today. Please join class using the Zoom link in Brightspace.
-<br>
 <a href="https://digital-archives.github.io/HISTGA1011/slides/access.html" target="_blank">Slides</a>
 
 {: .label .label-yellow }
 Due
+
 In class we will start the weekly activity, <a href="https://digital-archives.github.io/HISTGA1011/activities/user_experience.html" target="_blank">The User's Experience</a>. Submit your completed activity summary in Brightspace by Sunday night.
 
 {: .label .label-green }
