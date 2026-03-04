@@ -22,9 +22,8 @@ paginate: true
 
 # Announcements
 
-- Next week's class will be virtual
-- Next week's class will start a little bit later (5:30pm)
-- I will send each of you feedback on your Abstract. Feel free to schedule a time with me if you'd like to discuss your Final Project is more detail (or go over my feedback).
+- Next week's class will be in-person/group activity
+- Next week, your Project Abstract is due. I will send each of you feedback on your Abstract after I review. Feel free to schedule a time with me if you'd like to discuss your Final Project in more detail (or go over my feedback).
 
 ---
 
@@ -112,7 +111,7 @@ UH also uses a number of homegrown tools:
 2. **Archivist** opens **Carpenters**, navigates to the “Selection” tab, and imports the finding aid.
 3. **Archivist** checks boxes next to the folders/items to be digitized.
 4. **Carpenters** populates the shot list in the “Files” tab.
-5. **Digitization Unit Tech** opens **Carpenters** and navigates to the “Files” tab, and photographs images in the sequence specified by the shot list.
+5. **Digitization Unit Tech** opens **Carpenters** “Files” tab, and photographs images in the sequence specified in shot list.
 
 ---
 
@@ -130,7 +129,7 @@ As you can see, Carpenters allows preservation administrators to organize digiti
 
 ### **Phase 2: File Management and Association**
 1. **Digitization Unit Tech** creates a **preservation file** along with **derivative files** such as **mezzanine and access copies** for each archival object, storing them on the local file system.
-2. **Digitization Unit Tech** opens **Carpenters**, navigates to the “Files” tab, and associates each file created with its corresponding archival object **ArchivesSpace URI**.
+2. **Digitization Unit Tech** opens **Carpenters**, navigates to the “Files” tab, and associates each file created with its corresponding archival object's **ArchivesSpace URI**.
 
 ---
 
@@ -158,9 +157,9 @@ An **access file** (sometimes also "service file") is a derivative digital file 
 ## Definition
 # Uniform Resource Identifier (URI)
 
-A **Uniform Resource Identifier (URI)** (in the context of ASpace) is a sequence of characters that represents a specific resource record, an archival object, digital object, or other record.
+A **Uniform Resource Identifier (URI)** is a sequence of characters that represents a unique record.
 
-Example:
+Ex:
 <a href="https://archives.yale.edu/repositories/11/resources/13623"
  target="_blank">https://archives.yale.edu/repositories/11/resources/13623</a>
  <b>repositories/11/resources/13623</b> is the URI
@@ -240,10 +239,10 @@ Yale uses Handle, another kind of persistent identifier. It's pretty similar to 
 
 **Metadata Unit Staff**:
 - Loads the **Carpenters-generated Dissemination Information Package (DIP)** into the **Brays** descriptive metadata editor.
-- Create descriptive metadata for all objects. During editing, **Brays**:
+- Input descriptive metadata for all objects. **Brays**:
   - Suggests controlled vocabulary terms from **Cedar**.
   - Updates the **metadata CSV file** in the DIP.
-  - Color-codes fields as **required**, **recommended**, or **optional**.
+  - Color-codes fields as **required** or **optional**.
 
 ---
 
@@ -291,9 +290,9 @@ You can also use BRAYS to view a copy of the preservation file in full screen mo
 - Visit https://digitalcollections.lib.uh.edu/
 - Search for "Galveston 1915 Hurricane Photographs"
 - Click on any image that appears in results
-- Scroll and find the ARK, rights statement, and descriptive metadata
+- Find the ARK and rights statement
 - Click "View item in finding aid"
-- Locate your photograph in the context of the finding aid hierarchy (note: you can widen the "Collection organization" section using your mouse pointer).
+- Locate your photograph in the context of the finding aid hierarchy.
 
 ---
 
@@ -323,35 +322,40 @@ Read more here: https://blog.digitizedmedievalmanuscripts.org/iiif-international
 
 ---
 
-# Try it out - IIIF - 1/2
+# Try out IIIF - 1/3
 
 - Return to the results page for "Galveston 1915 Hurricane Photographs"; click on a different image.
-- Notice the IIIF logo beneath the photo: that indicates that the viewer is IIIF-compliant. <img src="img/week_07_iiif.png" style="width: 10%; height: auto;">
+- Notice the IIIF logo beneath the photo: that indicates that the viewer is IIIF-compliant.
 - Click on the IIIF logo to generate a JSON manifest; click on the "Pretty-print" checkbox to make the data more readable.
-- Copy the URL for the manifest.
+- Copy the URL for the manifest to your clipboard.
 
 ---
 
-# Try it out - IIIF - 2/2
+# Try out IIIF - 2/3
 
-- Visit [https://projectmirador.org/](https://projectmirador.org/); click `DEMO` at the top of the page.
-- Click `Add Resource` button (blue circle with +) in the upper left-hand corner.
+- Visit [https://projectmirador.org/](https://projectmirador.org/); click `DEMO` at top of page.
+- Click `Add Resource` button (blue circle with +).
 - Click `+ ADD RESOURCE` (lower right-hand corner)
-- In the Resource location field, paste the IIIF manifest URL; Click `ADD
-- Your selected image should now appear at the top: click on it to open within the viewer. Notice how the image, title, etc. were auto-imported.
+- In the Resource location field, paste the IIIF manifest URL; Click `ADD`. Your selected image should now appear listed.
+- Click on the listed image to open within the Mirador viewer.
 
 ---
 
-## **Question**
+# Try out IIIF - 3/3
+- Take the same steps again in the previous slide for a different photograph in the Galveston 1915 Hurricane Photographs.
+- Click on the listed image to open within the Mirador viewer.
+- Notice how for both images, the title, and other details have been auto-imported.
 
-Wiedeman discusses the challenge that current archival access and discovery platforms face in accommodating the hierarchical nature of archival description. He suggests that this difficulty may stem from users' preference for bibliographic-based systems which they find less confusing and more intuitive compared to the complex and specialized nature of archival description.
+---
 
-__Should the design of these systems prioritize “traditional” finding aid structures or should they lean towards the formats that are more widely understood and accepted by users?__
+## **Activity + Question**
+
+Take a few minutes to locate another Digital Object record in the UH catalog, and then click on its linked archival object record. Compare and contrast the two records. Is there anything you like or dislike about one of the other? What would you keep or change?
 
 ---
 
 <div class="quote">
-  “...The approaches used by archivists are useful primarily because of the scale of the materials they manage. Got a large but manageable amount of stuff? Use bibliographic description. Got a seemingly never-ending vast mountain of materials? Use archival description.”
+  ...The approaches used by archivists are useful primarily because of the scale of the materials they manage. Got a large but manageable amount of stuff? Use bibliographic description. Got a seemingly never-ending vast mountain of materials? Use archival description.
 </div>
 
 <div class="author">
@@ -371,73 +375,30 @@ These takeaways were derived from Joyce Celeste Chapman’s article “Observing
 
 ---
 
-<div class="takeaway">
-  <div class="numcircle">1</div>
-  <div class="content">
-    <h2>Dynamic navigation</h2>
-    <p>Archival description requires sophisticated navigation options.</p>
-  </div>
-</div>
+## **Unique navigation**
+Archival description requires sophisticated navigation options.
+<br>
+## **Easy to get lost**
+Users new to finding aids report feeling lost within hierarchy.
+<br>
 
-<div class="takeaway">
-  <div class="numcircle">2</div>
-  <div class="content">
-    <h2>Easy to get lost</h2>
-    <p>Users new to finding aids report feeling lost within hierarchy.</p>
-  </div>
-</div>
-
-<div class="takeaway">
-  <div class="numcircle">3</div>
-  <div class="content">
-    <h2>Online availability difficult to determine</h2>
-    <p>Users incorrectly assume all components listed are digitized.</p>
-  </div>
-</div>
+## **Online availability difficult to determine**
+Users assume all components listed are digitized.
 
 ---
 
-<div class="takeaway">
-  <div class="numcircle">4</div>
-  <div class="content">
-    <h2>Training / guidance needed</h2>
-    <p>Users would appreciate more training beyond a “Help” page.</p>
-  </div>
-</div>
-
-<div class="takeaway">
-  <div class="numcircle">5</div>
-  <div class="content">
-    <h2>Too much jargon</h2>
-    <p>Certain words are too domain-specific.</p>
-  </div>
-</div>
-
-<div class="takeaway">
-  <div class="numcircle">6</div>
-  <div class="content">
-    <h2>Need quick results</h2>
-    <p>Users prefer a UI similar to a modern search engine.</p>
-  </div>
-</div>
+## **Guidance needed**
+Users would appreciate more training beyond a “Help” page.
+<br>
+## **Too much jargon**
+Certain words are too domain-specific.
+<br>
+## **Need quick results**
+Users seek an experience akin to a modern search engine.
 
 ---
-
-<div class="takeaway">
-  <div class="numcircle">7</div>
-  <div class="content">
-    <h2>Less texts, more lists</h2>
-    <p>Large blocks of text are distracting; prefer lists.</p>
-  </div>
-</div>
-
-<div class="takeaway">
-  <div class="numcircle">8</div>
-  <div class="content">
-    <h2>Finding aid savvy can be developed</h2>
-    <p>Though not always immediately attainable, studies show users can quickly learn to navigate finding aids through 1+ sessions.</p>
-  </div>
-</div>
+## **Less texts, more lists**
+Large blocks of text are distracting
 
 <!--presenter notes
 
@@ -456,7 +417,7 @@ These takeaways were derived from Joyce Celeste Chapman’s article “Observing
 <div class="activity-title">Mini Activity - Part 1</div>
 
 <ul class="activity-list">
-  <li>Go to <strong>archives.nypl.org</strong></li>
+  <li>Go to <a href="archives.nypl.org." target="_blank">archives.nypl.org</a></li>
   <li>Search for the <strong>James Baldwin Papers finding aid</strong>.</li>
   <li>This collection has been partially digitized. Knowing that, find and open a digitized item. Make a note of its name to use in Part 2 of this activity.</li>
   </li>
@@ -474,7 +435,7 @@ These takeaways were derived from Joyce Celeste Chapman’s article “Observing
 <div class="activity-title">Mini Activity - Part 2</div>
 
 <ul class="activity-list">
-  <li>Go to <strong>digitalcollections.nypl.org</strong></li>
+  <li>Go to <strong><a href="https://digitalcollections.nypl.org" target="_blank">digitalcollections.nypl.org</a></strong></li>
   <li>Try to find the digital item you noted earlier.</li>
   <li>Look at the record, not just in terms of the digitized item, but other metadata made available.</li>
 </ul>
@@ -489,12 +450,12 @@ These takeaways were derived from Joyce Celeste Chapman’s article “Observing
 
 <div class="activity-title">Mini Activity - Part 3</div>
 
+<strong>Discuss:</strong> How was your experience?
+
 <ul class="activity-list">
-  <li><strong>Discuss:</strong> How was your experience navigating the Archives Portal and Digital Collections?</li>
   <li>How easy/hard were the sites to search, browse, filter?</li>
-  <li>What metadata is displayed?</li>
+  <li>What metadata was displayed?</li>
   <li>How are media files (audio, video) files displayed?</li>
-  <li>What do you not like/does not work as well?</li>
   <li>What sites do you think a scholar would find useful? Student? General public?</li>
 </ul>
 
@@ -515,85 +476,6 @@ Most institutions’ accessibility expectations will be informed by federal law,
 
 ---
 
-<div class="slide-title">Accessibility Recommendations</div>
-
----
-
-<div class="takeaway">
-  <div class="numcircle">1</div>
-  <div class="content">
-    <h2>General Recommendations</h2>
-    <ul>
-<li>Font size can be changed without impacting navigability</li>
-<li>Sufficient foreground and background contrast 
-<li>Avoid color combos problematic for people who are color-blind</li>
-<li>Ensure content is navigable when:</li>
-<ul>
-<li>Using a screen reader/magnification program
-<li>Keyboard without a mouse</li>
-<li>Do not rely solely on color, font to convey meaning</li>
-<li>Use responsive design, adaptable for mobile/desktop views</li>
-<li>Test accessibility of digital content frequently</li>
-</li>
-  </div>
-</div>
-
----
-
-<div class="takeaway">
-  <div class="numcircle">2</div>
-  <div class="content">
-    <h2>Website Recommendations</h2>
-    <ul>
-      <li>Include an accessibility information and feedback section.</li>
-      <li>Proper HTML markup with correct nesting of elements.</li>
-      <li>ARIA landmark roles to indicate navigable regions of the page.</li>
-      <li>Use meaningful page titles and document file names.</li>
-      <li>Indicate the document language in markup.</li>
-      <li>Ensure proper use of heading tags.</li>
-      <li>Use descriptive text for hyperlinks (e.g., not "click here").</li>
-      <li>Follow Plain Language Guidelines when generating content.</li>
-      <li>Provide alternative text for visual content.</li>
-    </ul>
-  </div>
-</div>
-
----
-
-<div class="takeaway">
-  <div class="numcircle">3</div>
-  <div class="content">
-    <h2>Repository Recommendations</h2>
-    <ul>
-      <li>Advocate for accessibility provisions in contracts for vendor solutions.</li>
-      <li>Scan text documents as text (not as images) or convert scanned documents from image files to text, and use OCR to improve accessibility.</li>
-      <li>Include transcripts for materials that cannot be OCRed, such as handwritten manuscripts, media (audio and video).</li>
-      <li>Use audio description for video content</li>
-      <li>Avoid content with flashing, flickering, or strobing or provide warnings</li>
-    </ul>
-  </div>
-</div>
-
----
-
-<div class="takeaway">
-  <div class="numcircle">4</div>
-  <div class="content">
-    <h2>Social Media Recommendations</h2>
-    <ul>
-      <li>Use alt-text where possible.</li>
-      <li>Avoid special characters (e.g., 𝕭𝖆𝖉 𝕱𝖔𝖓𝖙).</li>
-      <li>Avoid using emojis in succession or in excess.</li>
-      <li>Use alternating capitalization for hashtags (e.g., #HashTag).</li>
-      <li>Research the culture of the platform before posting.</li>
-      <li>Include contact and physical site details.</li>
-      <li>Use automated messaging for DMs.</li>
-    </ul>
-  </div>
-</div>
-
----
-
 <div class="shapes">
   <div class="triangle"></div>
   <span class="circle"></span>
@@ -611,17 +493,111 @@ Most institutions’ accessibility expectations will be informed by federal law,
     </ul>
       </li>
   <li>Use the TopTal Color Blind Filter (to start) to analyze the contrast and visibility of a site.</li>
-  <li><strong>Report back</strong>: Identify the most common issues you observed.</li>
+  <li><strong>Report back</strong>: Identify issues observed to the class.</li>
     </ul>
 </ul>
 
 ---
 
-
 ## Definition
 # Semantic Web
 
 The **semantic web** is a concept that sees data on the internet as dynamic, meaningful and machine-readable. Unlike the standard web, which primarily focuses on linking documents through hyperlinks, the semantic web uses structured data, standardized ontologies, and metadata to create connections between individual pieces of information.
+
+---
+
+# Standard Web
+
+Hi! I am a website, and I contain **<a href="https://digital-archives.github.io/HISTGA1011/grading/" target="_blank">links to other parts of the website</a>**, or other **<a href="brightspace.nyu.edu/d2l/home/553114" target="_blank">websites</a>**.
+
+---
+
+# Standard Web - Under the Hood - 1/2
+
+Hi! I am a website, and I contain `<a href="https://digital-archives.github.io/HISTGA1011/grading/" target="_blank">links to other parts of the website</a>`, or other `<a href="brightspace.nyu.edu/d2l/home/553114" target="_blank">websites</a>`.
+
+<!--presenter notes
+
+"a href" broken down is the <anchor> tag (represented by "a") and its attribute "href" which stands for "hypertext reference". See https://www.w3schools.com/html/html_links.asp as well as https://www.reddit.com/r/learnprogramming/comments/ftpqlo/a_anchor_tag_etymology/ (regarding the origin of the "a" in "a href")
+
+You can read it like "anchor this URL to this particular text".
+
+In the early days of the web, this was kind of it. Before the days of hyperlinked text documents, what might you have had to call up other associated resources? One example would be an index at the back of a book, or the chapter page at the front (the book referencing itself).
+
+Another example would be a bibliography; but that would just give you a citation, that you would then need to physically find (and sometimes your library might not have it!)
+
+When you think about it, the web really set the tracks for making information immediately accessible, and started to, through the use of hyperlinking, structure relationships between documents on the web in the form of a link.
+
+-->
+
+---
+
+# Standard Web - Under the Hood - 2/2
+
+Standard URLs just tell the computer: "this text is associated with this link."
+
+---
+
+## Resource
+# WikiData
+
+**Wikidata** is a free, collaborative, and structured knowledge base that acts as a central repository for data used by Wikimedia projects, including Wikipedia, as well as external applications and services. It was launched by the Wikimedia Foundation in 2012 with the goal of providing a machine-readable, linked open data platform that anyone can edit.
+
+---
+
+<div class="shapes">
+  <div class="triangle"></div>
+  <span class="circle"></span>
+  <span class="square"></span>
+</div>
+
+<div class="activity-title">Peek at WikiData and SPARQL - 1/3</div>
+
+<ul class="activity-list">
+  <li>Open a Wikipedia article for a musician of your choice e.g. <strong><a href="https://en.wikipedia.org/wiki/Alice_Coltrane" target="_blank">Alice Coltrane</a></strong>.</li>
+  <li>Find and unfurl the <strong>Tools</strong> drop-down menu; click <strong>Wikidata item</strong>.
+  <li>Browse the information in the Wikidata entry.</li>
+  <li>Next, open <strong><a href="https://query.wikidata.org/" target="_blank">https://query.wikidata.org/</a></strong></li>
+
+---
+
+## Tool
+# SPARQL (SPARQL Protocol and RDF Query Language)
+
+A structured query language that can be used to query linked data databases (like WikiData).
+
+---
+
+<div class="shapes">
+  <div class="triangle"></div>
+  <span class="circle"></span>
+  <span class="square"></span>
+</div>
+
+<div class="activity-title">Peek at WikiData and SPARQL - 2/3</div>
+
+## Copy and Paste Sample SPARQL Query
+
+```
+SELECT ?musician ?musicianLabel WHERE {
+  ?musician wdt:P106 wd:Q15981151 ;
+            wdt:P1303 wd:Q47369 .
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+}
+```
+_Hover over the WikiData parts (e.g. `wdt:P106`) and read the mouseover descriptions._
+
+---
+
+<div class="shapes">
+  <div class="triangle"></div>
+  <span class="circle"></span>
+  <span class="square"></span>
+</div>
+
+<div class="activity-title">Peek at WikiData and SPARQL - 3/3</div>
+
+With your musician's WikiData record open, use the available data to write the query down first in a human-readable sentence. Ex. "What other jazz musicians played the harp like Alice Coltrane?". Use that to determine the WikiData IDs to plug into your query. <strong>Press the blue Play button to run the query</strong>.
 
 ---
 
@@ -635,13 +611,17 @@ An **ontology** is a structured framework that defines the relationships between
 ## Definition
 # Linked Open Data
 
-Sometimes referred to simply as "linked data", linked open data (LOD) is a framework that enables organizations and individuals to share information in a machine-readable format. By using standardized protocols, LOD allows for the seamless connection of related data across multiple websites, creating a vast, interconnected web of datasets known as Linked Open Data.
+Sometimes referred to simply as "linked data", linked open data (LOD) is a framework that enables organizations and individuals to share information in a machine-readable format. By using standardized protocols, LOD allows for the seamless connection of related data across multiple websites, creating a vast, interconnected web of datasets.
 
 <!--presenter notes
 
 This definition is gleaned from Digital Preservation Framework Linked Open Data page: https://www.archives.gov/preservation/digital-preservation/linked-data
 
 -->
+
+---
+
+# Linked Open Data Storytime :)
 
 ---
 
@@ -658,7 +638,7 @@ Definition derived from https://dl.acm.org/doi/full/10.1145/3484398
 
 ---
 
-## Project focused on a small digitized set of the Gramsci Institute's records (~200 documents, mainly typewritten leaflets often with annotations and drawings, some pictures, some newsprint) covering students' and workers' protests occurring between 1968-1969 in Italy.
+# Project focused on a small digitized set of the Gramsci Institute's records (~200 documents, mainly typewritten leaflets often with annotations and drawings, some pictures, some newsprint) covering students' and workers' protests occurring between 1968-1969 in Italy.
 
 ---
 
@@ -691,124 +671,63 @@ For this reason, we are in front of the factories: our participation in the pick
 
 -->
 
+---
+
+# A schoolteacher wants to enrich his lessons with information directly taken from original documents. He is talking to his students about protest actions that took place in Torino in 1968.
 
 ---
 
-### Consider Antonio, a schoolteacher who wants to enrich his lessons with information directly taken from original documents. He is talking to his students about protest actions that took place in Torino in 1968. In particular, he is searching a digital online archive system, looking for leaflets referring to strikes that both students and workers participated in.
+# In particular, he is searching a digital online archive system, looking for leaflets referring to strikes that both students and workers participated in.
 
 ---
 
-### Even with a (very) good OCR tool, if the system is based on a keyword search mechanism, the results of a query for “sciopero” (strike) would not include [the leaflet] ... [T]he document ... does not contain the world “sciopero/i” (strike/es), although it actually talks about a strike, using the very specific word “picchetti” (picketings).
+# Even with a (very) good OCR tool, if the system is based on a keyword search mechanism, the results of for “sciopero” (strike) - the obvious keyword - would yield 0 results. However,  the leaflets do mention “picchetti” (picketings).
 
 ---
 
-<img src="img/week_06_gramsci_leaflet.jpg" style="width: 800px;">
-
-_A leaflet mentioning Italian journalist Guido Viale_
-
-<!--presenter notes
-
-A leaflet mentioning Guido Viale (copyright: Fondazione Istituto piemontese Antonio Gramsci Onlus).
-
-Translation:
-
-Interfaculty circular, print run 6,000 copies
-
-THIS AFTERNOON AT 2:30 PM
-AT THE CHAMBER OF LABOR
-
-HIGH SCHOOL AND UNIVERSITY STUDENTS
-PARTICIPATE!!!
-NEW FORMS OF CITIZEN ACTION TO DEMAND THE RELEASE OF GUIDO VIALE
-
-TOWARD NEIGHBORHOOD WORK: OPEN DISCUSSION
-
-THE DELEGATION FROM ALLARA
-
-ORGANIZED BY A WORKING GROUP OF THE COMMITTEE OF AGITATION
-
--->
+# The teacher also looks for leaflets mentioning specific people (e.g., Guido Viale, a leader of the ‘68 Movement in Torino) involved in protest actions. The results for a query for “Guido Viale” in a keyword-based system would probably include the leaflet.
 
 ---
 
-### Antonio also looks for leaflets mentioning specific people (e.g., Guido Viale, a leader of the ‘68 Movement in Torino) involved in protest actions. The results for a query for “Guido Viale” in a keyword-based system would probably include the leaflet.
+# However, that leaflet would not be retrieved if the query also contains (in AND) a keyword for the action (such as “sciopero” (strike), “manifestazione” (demonstration), and so on).
 
 ---
 
-### However, that leaflet would not be retrieved if the query also contains (in AND) a keyword for the action (such as “sciopero”/strike, “manifestazione”/demonstration, and so on), since the protest action is not explicitly mentioned, although it is clear to a human reader that the document talks about a protest action.
+# A semantic layer, connected to archival documents, could lead the user to richer search results.
+
+See WikiData entry for <a href="https://www.wikidata.org/wiki/Q273120" target="_blank">protest</a>
 
 ---
 
-### Moreover, Guido Viale, although mentioned in the document, is not an active participant; the leaflet indeed says that he has been arrested and the demonstration is organized to ask for his release (he could be considered the “topic” of the protest action, or a participant in his release from prison, i.e., in the event representing the goal of the protest action).
+## Sample SPARQL query for "protests over the last year".
 
----
-
-### This scenario demonstrates that, in order to both provide users with the possibility of posing such queries and be able to answer them, the system needs a semantic layer over archival documents, containing a formal machine-readable representation of their content, based on the conceptual vocabulary represented by computational ontologies.
-
----
-
-### If Antonio was searching for the active involvement of Guido Viale in protest actions [...] he would need a tool enabling him to ask for all documents talking about any type of protest action that have a relation of type active participation with the person Guido Viale. 
-
----
-
-<img src="img/week_06_gramsci_ontology.svg">
-
-<!--presenter notes
-
-ISA: "Is a" relationship. Indicates a hierarchical connection where one category is a specific type of another.
-
-Example: Protest March ISA Protest Action (A protest march is a type of protest action.)
-instance-of: Represents an instance relationship, showing that a specific event or object is an example of a broader class.
-
-Example: ev01 instance-of Demonstration (ev01 is a specific event categorized as a demonstration.)
-ev01, ev02, ev03, ev04: Event identifiers, representing specific, real-world instances of protest actions.
-
-Each "ev" label marks a distinct event within the ontology.
-hasParticipant: Shows the relationship between an event and the individual or group involved.
-
-Example: ev02 hasParticipant Guido Viale (Guido Viale participated in the event ev02.)
-isAbout: Indicates the subject or focus of the event or action.
-
-Example: ev03 isAbout Person (The event ev03 is about a particular person.)
-
--->
-
----
-
-# What does the labor of linked data look like?
-<a href="https://linkedjazz.org/" target="_blank">Linked Jazz</a>
+```
+SELECT ?event ?eventLabel ?date ?locationLabel WHERE {
+  ?event wdt:P31 wd:Q273120 .
+  
+  OPTIONAL { ?event wdt:P585 ?date. }
+  OPTIONAL { ?event wdt:P580 ?date. }
+  
+  OPTIONAL { ?event wdt:P276 ?location. }
+  
+  FILTER(?date >= "2025-03-04T00:00:00Z"^^xsd:dateTime)
+  
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+}
+ORDER BY DESC(?date)
+```
 
 ---
 
 ## Resource
-# WikiData
+# LUX (Yale)
 
-**Wikidata** is a free, collaborative, and structured knowledge base that acts as a central repository for data used by Wikimedia projects, including Wikipedia, as well as external applications and services. It was launched by the Wikimedia Foundation in 2012 with the goal of providing a machine-readable, linked open data platform that anyone can edit.
-
-See <a href="https://www.wikidata.org/wiki/Q83003" target="_blank">WikiData entry for Antonio Gramsci</a>
+<a href="https://lux.collections.yale.edu/" target="_blank">LUX</a> provides a unified gateway to the holdings of Yale’s museums, archives, and libraries. This transformative service enables users to identify, access, and engage with items of interest within Yale’s physical and digital collections. It also uncovers relationships among items, inviting users to explore additional materials across collections.
 
 ---
 
-## Resource
-# SNAC (Social Networks and Archival Context) - 1/2
-
-**SNAC** (Social Networks and Archival Context) is an online resource that links archival collections to the people, organizations, and events they are associated with.
-
----
-
-## Resource
-# SNAC (Social Networks and Archival Context) - 1/2
-
-- **Authority Control**: Helps standardize names of individuals and organizations across collections.
-- **Relationship Mapping**: Connects archival metadata to a network of related entities, offering richer context.
-- **Linked Data**: Uses EAC-CPF, aligning well with linked open data initiatives.
-
----
-
-## Standard
-# EAC-CPF
-
-**EAC-CPF** (Encoded Archival Context – Corporate Bodies, Persons, and Families) is an XML-based standard used in archival metadata to describe entities such as people, organizations, and families that are associated with archival materials.
+# NYPL Wikidata Projects
+<a href="https://www.wikidata.org/wiki/Wikidata:WikiProject_New_York_Public_Library/Projects" target="_blank">https://www.wikidata.org/wiki/Wikidata:WikiProject_New_York_Public_Library/Projects</a>
 
 ---
 
