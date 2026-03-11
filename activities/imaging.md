@@ -93,7 +93,6 @@ Once your group has completed the review, let me know, and I will consult you on
 - **Group Name (A or B) & Members**
 - **Collection Name**
 - **Scope Summary:** Overview of materials to be digitized.
-- **Workflow:** Provide step-by-step instructions for scanning/photographing.
 - **Selection Criteria:** Rationale for what is/not being digitized.
 - **Folder- & File-naming Schema:** Describe naming convention for each folder and capture.
 - **Staff Roles:** Identify various staff roles necessary to complete the work.
@@ -136,5 +135,23 @@ Once your group has completed the review, let me know, and I will consult you on
 
 _\* This equivalency chart is for the purposes of this assignment only. If you are unsure what DLF Device to go with, you may default to “Manual DSLR”._
 
-## Step 4: Submit Your Inventory and Group Report to Brightspace {#step-4}
-Each group member must submit both an export of the Inventory and Report to Brightspace.
+## Step 4: Submit Your Inventory, Group Report and Individual Reflection to Brightspace {#step-4}
+Each group member must submit a copy of both the export of the Inventory and Report to Brightspace.
+
+Individual Workflow Reflection
+
+Each group member should also submit a short 1-page workflow reflection (bullet points or a brief narrative is fine).
+
+This does not need to be a detailed technical diagram. Instead, think at a high level about the practical steps required to move materials through a digitization workflow.
+
+Consider questions such as:
+
+- Who is involved?
+- What kinds of staff roles might participate in this process (ex: archivists, conservators, digitization technicians, student assistants, project managers)?
+- How do materials move through the process? Imagine the "path" materials take from the stacks to the digitization station and back again.
+- What systems might help coordinate the work? For example: a request system, tracking spreadsheet, project management tool, or internal database. You can name specific systems if you want, including those covered in previous classes, but you can also just keep things general.
+- What steps help keep materials safe and organized?
+- How might non-archival staff (like a photographer) make sure folders return to the correct boxes and remain in the same order?
+- How do staff communicate with one another? Ex: email, shared documents, ticketing systems, or project trackers.
+
+The goal of this reflection is to think about the people, coordination, and care involved in digitization work.
