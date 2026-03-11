@@ -12,6 +12,7 @@ has_children: false
 
 {: .label .label-yellow }
 Due
+
 In class we will start the weekly activity, <a href="https://digital-archives.github.io/HISTGA1011/activities/imaging.html" target="_blank">Imaging and Conservation Group Activity</a>.
 
 {: .label .label-green }

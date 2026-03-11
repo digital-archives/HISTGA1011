@@ -138,5 +138,3 @@ _\* This equivalency chart is for the purposes of this assignment only. If you a
 
 ## Step 4: Submit Your Inventory and Group Report to Brightspace {#step-4}
 Each group member must submit both an export of the Inventory and Report to Brightspace.
-
-The assignment is due by end of day Tuesday next week to allow time for group collaboration outside of class.

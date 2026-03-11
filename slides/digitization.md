@@ -22,10 +22,6 @@ paginate: true
 
 # Announcements
 
-- <a href="https://drive.google.com/drive/folders/118J38a-pgbk0-RqhJXE4OLZB4xQ8lp2t" target="_blank">Examples</a> of past Final Project slide decks (1 so far, will add others soon!)
-- I posted a <a href="https://digital-archives.github.io/HISTGA1011/activities/digipres_md_cheatsheet" target="_blank">Digital Preservation Metadata Cheat Sheet</a>, if you'd like to double-check your work.
-- Did you know about the <a href="https://www2.archivists.org/news/2025/37-earn-digital-archivist-specialist-certificate-from-saa" target="_blank">DAS (Digital Archives Certificate)</a> offered through SAA?
-
 ---
 
 # Digitization Selection
@@ -133,58 +129,11 @@ https://www2.archivists.org/publications/brochures/deeds-of-gift
 
 ---
 
-<div class="shapes">
-  <div class="triangle"></div>
-  <span class="circle"></span>
-  <span class="square"></span>
-</div>
-
-<div class="activity-title">Should, May, Can</div>
-
-<div class="activity-text">
-  <b>Scenario:</b>  
-  You have been selected to serve on your institution’s <b>Digitization Selection Committee</b>. Your role is to help develop a structured approach to prioritizing digitization projects based on institutional needs, resources, and impact.  
-
-  A curator has proposed acquiring a **collection of an early jazz pioneer’s papers and master recordings**, which would require future digitization planning. Meanwhile, another curator has requested urgent digitization of **fragile lacquer discs** that are deteriorating rapidly.  
-
-</div>
-
----
-
-<div class="shapes">
-  <div class="triangle"></div>
-  <span class="circle"></span>
-  <span class="square"></span>
-</div>
-
-<div class="activity-text">
-Your task is to determine <b>which project should be prioritized first</b> and what key questions should be asked to support that decision.
-</div>
-
-<ul class="activity-list">
-  <li><b>Should</b> this item be digitized? (Institutional significance, demand, access needs)</li>  
-  <li><b>May</b> this item be digitized? (Copyright, donor agreements, legal concerns)</li>
-  <li><b>Can</b> this item be digitized? (Technical feasibility, fragility, cost, time)</li>
-</ul>
-
----
-
-<div class="activity-text">
-  Using the <a href="https://airtable.com/appCwXm06oZ7Pae3Q/shrwaqKRGMC5v8sPm" target="_blank">Airtable form</a>, I will go around the room and ask students to contribute a question.
-
-  _Example question:_ What is the current condition of the lacquer discs, and how much time do we have before they become unreadable?
-</div>
-
-
----
-
 # Equipment for Digitization  
 
 ## Scanners & Cameras  
 
 ---
-
-# Contained Scanners
 
 ![Flatbed scanner, used for digitizing loose documents and flat materials.](img/week_07_slides2.png)
 
@@ -199,8 +148,6 @@ Your task is to determine <b>which project should be prioritized first</b> and w
 
 ---
 
-# Copy Stand  
-
 ![Copy stand setup with DSLR camera, used for digitizing books and fragile materials.](img/week_07_slides3.png)
 
 ---
@@ -213,8 +160,6 @@ Your task is to determine <b>which project should be prioritized first</b> and w
 - Faster for batch processing than flatbed scanners  
 
 ---
-
-# Overhead Scanners (Book Scanners)  
 
 ![Book scanner with V-shaped cradle to minimize strain on book bindings.](img/week_07_Bookeye.jpg)
 
@@ -234,9 +179,7 @@ Image credit: University Library Media Commons: Scanning https://www.library.ill
 
 ---
 
-# Document Sheet-Fed Scanners  
-
-![High-speed sheet-fed scanner for bulk digitization of loose documents.](img/week_07_EpsonSheetFeed.jpg)
+<img src="img/week_07_EpsonSheetFeed.jpg">
 
 <!--presenter notes
 
@@ -256,7 +199,6 @@ Image credit: University Library Media Commons: Scanning https://www.library.ill
 
 # 3D & Computational Imaging  
 
-- Includes **photogrammetry and object scanning**  
 - Used for **artifacts, sculptures, and scientific specimens**  
 - Requires specialized software to build **3D models**  
 
@@ -276,9 +218,7 @@ When digitizing flat or paper-based materials, precision matters. Every detail, 
 ## Standard
 # Federal Agencies Digital Guidelines Initiative (FADGI)
 
-The **Federal Agencies Digital Guidelines Initiative (FADGI)** is a collaborative effort started in 2007 by federal agencies to articulate common sustainable practices and guidelines for digitized and born digital historical, archival and cultural content.
-
-https://www.digitizationguidelines.gov/
+The **Federal Agencies Digital Guidelines Initiative (FADGI)** is a collaborative effort started in 2007 by federal agencies to articulate common sustainable practices and guidelines for digitized and born digital historical, archival and cultural content. https://www.digitizationguidelines.gov/
 
 <!--presenter notes
 
@@ -330,10 +270,15 @@ Data is discarded for smaller file sizes (JPEG sacrifices quality for file size)
 
 ---
 
-## Concept
-# Lossless Compression
+## Definition
+# Lossless Compression - 1/2
 
 In standard image storage, every pixel is stored individually, even if one pixel is exactly the same as another.
+
+---
+
+## Definition
+# Lossless Compression - 2/2
 
 Lossless compression, like **Discrete Wavelet Transformation (DWT)**, identifies these redundancies and stores them in a way that avoids repeating the same pixel information multiple times. This allows the image to be reconstructed exactly as it was, with no loss of quality, while reducing file size.
 

@@ -354,3 +354,54 @@ After the imaging attempt with FTK was not totally successful, Emory archivists 
 Again, an external 3.5” floppy disk drive was connected to the Mac with a Tableau Ultrablock USB write blocker. Like FTK Imager, Apple’s Disk Utility can be used to capture bitstream images of digital media. Unlike FTK Imager, however, it generates no metadata during that process and also only outputs DMG (stands for “disk image”) image files, which is an Apple proprietary disk image format. This approach to imaging the thirty-seven floppy disks was only marginally more successful than earlier attempts using FTK Imager on a Windows workstation. Having worked through the entire set of disks using Disk Utility, only two additional images were captured.
 
 -->
+
+
+---
+
+<div class="shapes">
+  <div class="triangle"></div>
+  <span class="circle"></span>
+  <span class="square"></span>
+</div>
+
+<div class="activity-title">Mini Activity: Should, May, Can</div>
+
+You have been selected to serve on your institution’s <b>Digitization Selection Committee</b>. Your role is to help develop a structured approach to prioritizing digitization projects based on institutional needs, resources, and impact.
+
+---
+
+<div class="shapes">
+  <div class="triangle"></div>
+  <span class="circle"></span>
+  <span class="square"></span>
+</div>
+
+<div class="activity-title">Mini Activity: Should, May, Can</div>
+
+A curator has proposed acquiring a **collection of an early jazz pioneer’s papers and master recordings**, which would require future digitization planning. Meanwhile, another curator has requested urgent digitization of **fragile lacquer discs** that are deteriorating rapidly.
+
+---
+
+<div class="shapes">
+  <div class="triangle"></div>
+  <span class="circle"></span>
+  <span class="square"></span>
+</div>
+
+<div class="activity-title">Mini Activity: Should, May, Can</div>
+
+Your task is to determine <b>which project should be prioritized first</b> and what key questions should be asked to support that decision.
+
+<ul class="activity-list">
+  <li><b>Should</b> this item be digitized? (Institutional significance, demand, access needs)</li>  
+  <li><b>May</b> this item be digitized? (Copyright, donor agreements, legal concerns)</li>
+  <li><b>Can</b> this item be digitized? (Technical feasibility, fragility, cost, time)</li>
+</ul>
+
+---
+
+<div class="activity-text">
+  Using the <a href="https://airtable.com/appCwXm06oZ7Pae3Q/shrwaqKRGMC5v8sPm" target="_blank">Airtable form</a>, I will go around the room and ask students to contribute a question.
+
+  _Example question:_ What is the current condition of the lacquer discs, and how much time do we have before they become unreadable?
+</div>
