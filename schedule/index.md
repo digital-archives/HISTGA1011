@@ -18,7 +18,7 @@ has_children: true
 | [Week 7](week_07.html)  | March 4 | Access and Discovery<br>**_Class will be held virtually_** | <a href="https://digital-archives.github.io/HISTGA1011/activities/user_experience.html" target="_blank">The User's Experience</a> |
 | [Week 8](week_08.html)  | March 11 | Digitization<br>**_Final Project Abstract due_** | <a href="https://digital-archives.github.io/HISTGA1011/activities/imaging.html" target="_blank">Imaging and Conservation Group Activity</a> |
 | [Week 9](week_09.html) | March 18 | No Class \| Spring Break | 
-| [Week 10](week_10.html)  | March 25 | Automation and Scripting<br> | <a href="https://digital-archives.github.io/HISTGA1011/activities/scripting_reflection.html">Scripting Reflection</a> |
+| [Week 10](week_10.html)  | March 25 | Automation and Scripting<br>**_Class will be held virtually_**| <a href="https://digital-archives.github.io/HISTGA1011/activities/scripting_reflection.html">Scripting Reflection</a> |
 | [Week 11](week_11.html) | April 1 | Moving Image and Audio Preservation<br>**_Class will be held virtually_** | <a href="https://digital-archives.github.io/HISTGA1011/activities/qctools.html" target="_blank">QCTools</a> |
 | [Week 12](week_12.html) | April 8 | Web and Email Archiving | <a href="https://digital-archives.github.io/HISTGA1011/activities/podcast.html" target="_blank">Podcast Archaeology</a> |
 | [Week 13](week_13.html) | April 15 | On-site Field Trip: MoMA Archives (details TK)<br> | |
