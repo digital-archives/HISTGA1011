@@ -33,15 +33,15 @@ Can you think of anything from your current work, or a past job, that was highly
 
 ---
 
-# Scripting is helpful
+# Scripting is helpful for...
 
-**Interoperability**: Systems can exchange info or make each other do things
+**Interoperability**: Systems exchanging data with one another
 
-**Scale**: Allows users to handle large quantities of records/data
+**Scale**: Handle large quantities of data
 
-**Automate work**: Reduce repetitive clicking, mousing, typing
+**Automate rote work**: Reduce clicking, mousing, typing
 
-**Error reduction**: Less manual data entry can reduce mistakes
+**Error reduction**: Reduce errors, inconsistencies or mistakes
 
 **Maintain standards**: Fosters conformance to accepted preservation standards
 
@@ -63,12 +63,11 @@ Allow systems to “talk” to each other
 # How do I learn scripting?
 
 - Other people's code repositories.
-- Formal training through universities or "bootcamps".
-- Blogs and websites.
+- Formal training through programs or "bootcamps".
+- Websites, blogs
 - Classes, workshops and webinars.
-- Conferences like code4lib, Bitcurator forum, Associate for Moving Image Archivists.
-- YouTube, TikTok, LinkedIn Learning.
-- Experimenting with your own projects.
+- YouTube, TikTok, LinkedIn Learning
+- Experimenting on your own
 
 ---
 
@@ -90,12 +89,12 @@ Most operating systems, like Windows or Mac machines, come with some sort of ter
 ## Definition
 # Terminal (2/2)
 
-You can think of terminal like a piece of software, like Adobe Photoshop. Just as Photoshop’s purpose is to provide a workspace for creating and editing images, the terminal’s purpose is to provide a space for interacting with your computer’s command line (definition in the next slide).
+You can think of terminal like a piece of software, like Adobe Photoshop. Just as Photoshop’s purpose is to provide a workspace for creating and editing images, the terminal’s purpose is to provide a space for interacting with your computer’s **command line** (definition in the next slide).
 
 ---
 
 ## Definition
-# Command Line
+# Command Line (1/2)
 
 The **command line** provides the user a text-based interface where users type instructions for the computer to execute. Each command you type tells the system what to do, like "Go to this folder".
 
@@ -116,9 +115,7 @@ All Mac and Windows machines come with a terminal program. Meaning, there isn’
 ## Definition
 # Command Line (2/2)
 
-You can think of the command line as the terminal’s palette. For example, in Photoshop, you have tools to apply a color, texture, or filter. Similarly, the command line provides a set of tools and actions you can use to interact with your computer in specific ways.
-
-And better yet, the majority of these tools are **open-source** and **free to use**.
+You can think of the command line as the terminal’s palette. For example, in Photoshop, you have tools to apply a color, texture, or filter. Similarly, the command line provides a set of tools and actions you can use to interact with your computer in specific ways. And better yet, the majority of these tools are **open-source** and **free to use**.
 
 <!--presenter notes
 
@@ -147,7 +144,7 @@ A shell is a specific command-line interpreter that takes input from the user, i
 ## Definition
 # Shell (2/2)
 
-There are many different types of shells such as PowerShell (windows), bash (Mac), zsh (Mac). You can think of the shell as a specific type of engine that interprets your commands into actions.
+There are many different types of shells such as PowerShell (windows), bash (Mac), zsh (Mac). You can think of the shell as a specific type of engine that interprets the commands input into it, into specific actions your computer will do for you.
 
 ---
 
@@ -193,7 +190,7 @@ Most terminals on modern-day computers have a similar look and feel to that of t
 
 ---
 
-<img src="img/week_09_slides2.png" alt="An Informatics General computer programmer working in a cubicle at the company's New York City office. She is looking at Pascal language code for the TAPS product on an IBM 3270 terminal. Date: October 1, 1983" style="width: 100%; height: auto;">
+<img src="img/week_09_slides2.png" alt="An Informatics General computer programmer working in a cubicle at the company's New York City office. She is looking at Pascal language code for the TAPS product on an IBM 3270 terminal. Date: October 1, 1983" style="width: 100%; height: 100%;">
 
 <!--presenter notes
 
@@ -213,7 +210,7 @@ This can look a little bit different in a Mac.
 
 ---
 
-<img src="img/week_09_slides3.png" alt="An Informatics General computer programmer working in a cubicle at the company's New York City office. She is looking at Pascal language code for the TAPS product on an IBM 3270 terminal. Date: October 1, 1983" style="width: 100%; height: auto;">
+<img src="img/week_09_slides3.png" alt="An Informatics General computer programmer working in a cubicle at the company's New York City office. She is looking at Pascal language code for the TAPS product on an IBM 3270 terminal. Date: October 1, 1983">
 
 <!--presenter notes
 
@@ -235,7 +232,7 @@ Let’s go back to the % sign here. On a Mac, the particular symbol used is actu
 
 ---
 
-<img src="img/week_09_slides4.png" alt="Mac terminal using zsh shell, with the command ls (list)" style="width: 100%; height: auto;">
+<img src="img/week_09_slides4.png" alt="Mac terminal using zsh shell, with the command ls (list)">
 
 <!--presenter notes
 
@@ -267,13 +264,13 @@ That said, commands that appear similar from one shell to another may actually b
 
 <div class="shapes">
   <div class="triangle"></div>
-  </span>
-  </span>
+  <span class="circle"></span>
+  <span class="square"></span>
 </div>
 
 <div class="activity-title">Mini Activity - Shell Switch</div>
 
-_Using your Terminal program, you will identify and switch shells._
+_Using your Terminal program, you will switch shells._
 
 <ul class="activity-list">
   <li>Open your terminal program and enter    <code>echo $0 [Mac]</code> or <code>echo %COMSPEC%</code> [Windows]; Press [return].
@@ -307,9 +304,9 @@ _Think of variables as shelves with labels that hold a piece of information. So 
 
 ---
 
-# Question 
+## Question 
 
-### Imagine you need to quickly find out what version of your operating system you’re using.
+# Imagine you need to quickly find out what version of your operating system you’re using.
 
 What steps would you take to find the same information using your mouse and keyboard? Which method do you think is faster, and why?
 
@@ -330,7 +327,7 @@ So far, we have used the command line to run fairly simple commands using comman
 ---
 
 ## Definition
-# Package manager - 1/2
+# Package manager
 
 A type of command line tool that is used to automate the process of installing, updating, configuring, and removing software packages on a computer system.
 
@@ -397,6 +394,8 @@ Installing a program using a package manager makes installation a cinch, and is 
 > rsync [Optional Modifiers] [SRC] [DEST]
 ```
 
+We will always call the tool first. This tells the shell: "Hey, I want to use `rsync` to do something."
+
 ---
 
 # **Basic `rsync` Command Syntax**
@@ -450,7 +449,7 @@ The rsync program is a powerful tool that is used in a variety of digital preser
 ---
 
 <div class="quote">
-“I would set up a Finder drag-and-drop transfer to run overnight, and four mornings out of five, I’d arrive at my workstation to discover the entire operation had failed because of a network drop or corrupted file. A colleague who was familiar with BASH [shell] suggested I use the <code>rsync</code> utility.”
+I would set up a Finder drag-and-drop transfer to run overnight, and four mornings out of five, I’d arrive at my workstation to discover the entire operation had failed because of a network drop or corrupted file. A colleague who was familiar with BASH [shell] suggested I use the <code>rsync</code> utility.
 </div>
 
 <div class="author">
@@ -484,8 +483,8 @@ Let’s look at a real rsync command used by the Johns Hopkins University Archiv
 
 <div class="shapes">
   <div class="triangle"></div>
-  </span>
-  </span>
+  <span class="circle"></span>
+  <span class="square"></span>
 </div>
 
 <div class="activity-title">Mini Activity - Pseudocode</div>
@@ -493,10 +492,9 @@ Let’s look at a real rsync command used by the Johns Hopkins University Archiv
 ```bash
 $ rsync -av --progress 12345-bag.tar /mnt/sam/archiveimages/electronic-records/
 ```
-<ul class="activity-list">
-  <li>Using a text editor or pen/paper, spend 5 minutes writing out what you think this command is doing.</li>
-  <li>For the not-so-obvious parts of the code (i.e. -av or --progress), you may need to consult <code>rsync</code> documentation (search for "rsync documentation" in your web browser).
-</ul>
+Using a text editor or pen/paper, spend 5 minutes writing out what you think this command is doing.
+
+For the not-so-obvious parts of the code (i.e. `-av` or `--progress`), consult rsync documentation online (search for "rsync documentation" in your web browser).
 
 <!--presenter notes
 
@@ -512,32 +510,33 @@ Take a minute or two to look at the chunk of code on screen, and write out what 
 
 # <code>rsync</code> Syntax Breakdown
 
-<!-- Syntax Highlighting -->
-<div class="code-block">
-  <br>$ <span class="highlight purple">rsync</span></span> 
-  <span class="highlight green">-av</span> 
-  <span class="highlight orange">--progress</span> 
-  <span class="highlight red">12345-bag.tar</span> 
+<div class="code-block syntax-key">
+  $ <span class="highlight purple">rsync</span>
+  <span class="highlight green">-av</span>
+  <span class="highlight orange">--progress</span>
+  <span class="highlight red">12345-bag.tar</span>
   <span class="highlight cyan">/mnt/sam/archiveimages/electronic-records/</span>
 </div>
 
-<!-- Explanation Table -->
-<div class="explanation-table">
+<div class="explanation-table syntax-legend">
   <div class="explanation-item purple-bg">
-    <b>Using the rsync program</b>
+    Using <code>rsync</code>
   </div>
+
   <div class="explanation-item green-bg">
-    <b>Make an exact copy (-a)<br></b>
-    <b>Output a verbose log of actions (-v)</b>
+    Make an exact copy <span class="token-key highlight green">(-a)</span> and output a verbose log <span class="token-key highlight green">(-v)</span>
   </div>
+
   <div class="explanation-item orange-bg">
-    <b>Display a progress bar</b>
+    Display a <span class="token-key highlight orange">--progress</span> bar
   </div>
+
   <div class="explanation-item red-bg">
-    <b>Transfer this folder</b>
+  Transfer the file <span class="token-key highlight red">12345-bag.tar</span>
   </div>
+
   <div class="explanation-item cyan-bg">
-    <b>To this destination folder</b>
+  To the destination <span class="token-key highlight cyan">/mnt/sam/archiveimages/electronic-records/</span><br>
   </div>
 </div>
 
@@ -549,9 +548,9 @@ Take a minute or two to look at the chunk of code on screen, and write out what 
 
 ---
 
-# Question
+## Question
 
-### Now that you’ve seen demos of how terminals work—both on a modern Mac computer and on a 1990s computer using COMMAND.COM—why do you think programmers, archivists, and other professionals might choose to use the terminal instead of a proprietary software program like Adobe Photoshop?
+# Why do you think programmers, archivists, and other people might choose to use text commands to do their work?
 
 ---
 
@@ -640,35 +639,32 @@ _This app helps users through the command generation process so that more people
 
 ---
 
-<style>
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-  }
-  th, td {
-    padding: 10px;
-    text-align: left;
-    vertical-align: top;
-    border: 1px solid #ddd;
-  }
-  th {
-    background-color: #f4f4f4;
-    font-weight: bold;
-  }
-  h2 {
-    font-size: 1.2rem;
-    margin: 0 0 5px;
-  }
-  ul {
-    padding-left: 20px;
-    margin: 0;
-  }
-</style>
-
-| **Transfer**                              | **Appraisal**                           | **Analysis**                                |
-|-------------------------------------------|------------------------------------------|---------------------------------------------|
-| Generate file manifests<br><br>Transfer files off the original digital media to storage servers | Identify duplicates<br><br>Add file extensions so material opens in the correct software<br><br>Flatten complex folder structures to support easy assessment | Sort files into groups based on file extension to isolate unknown files<br><br>Extract file signature information from unknown files |
+<table class="phase-table">
+  <thead>
+    <tr>
+      <th>Transfer</th>
+      <th>Appraisal</th>
+      <th>Processing</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        Generate file manifests<br><br>
+        Transfer files off the original digital media to storage servers
+      </td>
+      <td>
+        Identify duplicates<br><br>
+        Add file extensions so material opens in the correct software<br><br>
+        Flatten complex folder structures to support easy assessment
+      </td>
+      <td>
+        Sort files into groups based on file extension to isolate unknown files<br><br>
+        Extract file signature information from unknown files
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 <!--presenter notes
 
@@ -745,7 +741,7 @@ https://saaers.wordpress.com/2018/07/31/small-scale-scripts-for-large-scale-anal
 
 <div class="quote">
 
-“Recently, we received a Mac-formatted 1TB hard drive from a local composer and performer. When [our Safe Mover] script stopped in the middle of transferring files, we wondered if there was a file path clash... [continued]
+Recently, we received a Mac-formatted 1TB hard drive from a local composer and performer. When [our Safe Mover] script stopped in the middle of transferring files, we wondered if there was a file path clash... [continued]
 
 </div>
 
@@ -753,9 +749,7 @@ https://saaers.wordpress.com/2018/07/31/small-scale-scripts-for-large-scale-anal
 
 <div class="quote">
 
-"...Generally speaking, in a Windows formatted file system there’s a limit of 255 characters to a file path. Some older Mac systems have no limit on the number of file path characters so, if they’re really long, there can be a conflict when you’re transferring material to a Windows environment. To troubleshoot this problem we wrote a [Python] script.”
-
-</div>
+Generally speaking, in a Windows formatted file system there’s a limit of 255 characters to a file path. Some older Mac systems have no limit on the number of file path characters so, if they’re really long, there can be a conflict when you’re transferring material to a Windows environment. To troubleshoot this problem we wrote a [...] script.</div>
 
 ---
 
@@ -791,13 +785,20 @@ for root, dir_list, file_list in os.walk(top):
 
 ---
 
+<!-- Wrap in a container -->
+<div class="wrap-table">
+
 | **Code** | **Pseudocode** |
 | :-: | :-: |
 | `import os` | Import the **operating system module** to work with files and folders. |
 | `top = "D:\\example_folder_01\\collection"` | Let the value "top" equal the folder path. |
 | `for root, dir_list, file_list in os.walk(top):` | For each **folder (`root`)**, its **subdirectories (`dir_list`)**, and its **files (`file_list`)** starting from the top folder... |
 
+</div>
+
 ---
+
+<div class="wrap-table">
 
 | **Code** | **Pseudocode** |
 | :-: | :-: |
@@ -805,6 +806,7 @@ for root, dir_list, file_list in os.walk(top):
 | `file_path = os.path.join(root, item)` | Combine the folder path and file name into a **complete file path**. |
 | `if len(file_path) > 255:` | Check if the total path length (folder + filename) is **greater than 255 characters**... |
 | `print(file_path)` | ...and if it is, print the long file path to the **command line** so I can locate and fix it. |
+</div>
 
 ---
 
