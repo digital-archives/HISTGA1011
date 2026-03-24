@@ -531,4 +531,242 @@ table.systems-table td:first-child {
   text-align: center;
 }
 
+/* ===== Command syntax highlighting ===== */
 
+.highlight {
+  font-weight: 700;
+}
+
+/* Token colors (using your Rosé Pine variables!) */
+.highlight.purple {
+  color: var(--iris);
+}
+
+.highlight.green {
+  color: var(--foam);
+}
+
+.highlight.orange {
+  color: var(--gold);
+}
+
+.highlight.red {
+  color: var(--love);
+}
+
+.highlight.cyan {
+  color: var(--pine);
+}
+
+/* ===== Explanation table backgrounds ===== */
+
+.purple-bg {
+  background-color: #f2e9f9;
+  color: var(--iris);
+}
+
+.green-bg {
+  background-color: #e3f1ef;
+  color: var(--pine);
+}
+
+.orange-bg {
+  background-color: #fbe7c6;
+  color: #b4631a;
+}
+
+.red-bg {
+  background-color: #f8d9d7;
+  color: var(--love);
+}
+
+.cyan-bg {
+  background-color: #dceff2;
+  color: var(--pine);
+}
+
+/* ===== rsync syntax breakdown layout ===== */
+
+.syntax-key {
+  font-family: monospace;
+  font-size: 24pt;
+  line-height: 1.5;
+  margin-top: 18px;
+  margin-bottom: 28px;
+  word-break: break-word;
+}
+
+.syntax-legend {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  width: 100%;
+}
+
+.syntax-legend .explanation-item {
+  padding: 14px 18px;
+  border-radius: 10px;
+  font-size: 20pt;
+  line-height: 1.35;
+}
+
+.syntax-legend .explanation-item code {
+  background: transparent;
+  font-size: 0.95em;
+}
+
+/* Make the syntax breakdown slide fit better */
+.syntax-key {
+  font-family: monospace;
+  font-size: 20pt;
+  line-height: 1.35;
+  margin-top: 12px;
+  margin-bottom: 18px;
+  word-break: break-word;
+}
+
+.syntax-legend {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+  width: 100%;
+}
+
+.syntax-legend .explanation-item {
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-size: 15pt;
+  line-height: 1.2;
+}
+
+.syntax-legend .explanation-item code {
+  background: transparent;
+  font-size: 0.95em;
+}
+
+/* Make the little token labels look like the command tokens */
+.token-key {
+  display: inline-block;
+  font-family: monospace;
+  font-size: 0.95em;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+/* Optional: keep the long path from exploding the layout */
+.syntax-legend .token-key.cyan {
+  word-break: break-all;
+}
+
+/* Make the syntax breakdown slide fit better */
+.syntax-key {
+  font-family: monospace;
+  font-size: 20pt;
+  line-height: 1.35;
+  margin-top: 12px;
+  margin-bottom: 18px;
+  word-break: break-word;
+}
+
+.syntax-legend {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+  width: 100%;
+}
+
+.syntax-legend .explanation-item {
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-size: 15pt;
+  line-height: 1.2;
+}
+
+.syntax-legend .explanation-item code {
+  background: transparent;
+  font-size: 0.95em;
+}
+
+/* Make the little token labels look like the command tokens */
+.token-key {
+  display: inline-block;
+  font-family: monospace;
+  font-size: 0.95em;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+/* Optional: keep the long path from exploding the layout */
+.syntax-legend .token-key.cyan {
+  word-break: break-all;
+}
+
+/* ===== Calm down the syntax legend colors ===== */
+
+/* Make all legend text normal (not bright colored) */
+.purple-bg,
+.green-bg,
+.orange-bg,
+.red-bg,
+.cyan-bg {
+  color: var(--text) !important;
+}
+
+/* Keep only the small token label colored */
+.token-key.highlight.purple { color: var(--iris); }
+.token-key.highlight.green  { color: var(--foam); }
+.token-key.highlight.orange { color: var(--gold); }
+.token-key.highlight.red    { color: var(--love); }
+.token-key.highlight.cyan   { color: var(--pine); }
+
+/* Make sure highlight doesn't add extra visual noise */
+.highlight {
+  background: transparent !important;
+  padding: 0;
+}
+
+/* ===== Phase mapping table ===== */
+
+table.phase-table {
+  width: 100% !important;
+  border-collapse: collapse !important;
+  margin: 20px 0 !important;
+  table-layout: fixed !important;
+  font-size: 20pt !important;
+  background: transparent !important;
+}
+
+table.phase-table th,
+table.phase-table td {
+  padding: 14px !important;
+  text-align: left !important;
+  vertical-align: top !important;
+  border: 1px solid #ddd !important;
+  white-space: normal !important;
+  height: auto !important;
+  color: var(--text) !important;
+}
+
+table.phase-table th {
+  background-color: #f4f4f4 !important;
+  font-weight: 700 !important;
+}
+
+table.phase-table td {
+  background-color: transparent !important;
+}
+
+/* ===== Fix tables that need wrapping ===== */
+
+.wrap-table table {
+  table-layout: auto !important;
+  width: 100% !important;
+}
+
+.wrap-table th,
+.wrap-table td {
+  white-space: normal !important;
+  word-break: break-word !important;
+  overflow-wrap: anywhere !important;
+  text-align: left !important;
+}
