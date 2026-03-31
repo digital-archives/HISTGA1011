@@ -770,3 +770,73 @@ table.phase-table td {
   overflow-wrap: anywhere !important;
   text-align: left !important;
 }
+
+.media-diagram {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 0.35rem;
+  width: 92%;
+  max-width: 92%;
+  margin: 1rem auto 0;
+  box-sizing: border-box;
+}
+
+.media-box {
+  border: 2px solid #333;
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding: 0.6rem 0.75rem;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.media-file {
+  width: 24%;
+  background: #e8f1ff;
+}
+
+.media-container-box {
+  width: 30%;
+  background: #fff4d6;
+}
+
+.media-codec {
+  width: 24%;
+  background: #e8f7e8;
+}
+
+.media-symbol {
+  width: 3%;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.media-box ul {
+  margin: 0.4rem 0 0 0;
+  padding-left: 1rem;
+  font-size: 0.72rem;
+  font-weight: 400;
+  line-height: 1.25;
+  text-align: left;
+}
+
+.media-box li {
+  margin-bottom: 0.12rem;
+}
+
+.media-description {
+  margin-top: 0.3rem;
+  font-size: 0.58rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.media-box {
+  font-size: 0.82rem;
+  font-weight: 700;
+}

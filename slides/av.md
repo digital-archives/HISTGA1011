@@ -24,23 +24,21 @@ paginate: true
 
 # Announcements
 
-* Job: <a href="https://nypl.pinpointhq.com/postings/9c777bd1-2968-414f-b429-f6ad5f8046bd" target="_blank">Archivist (Specialist II) - Schomburg Center</a>
-* 
-
 ---
 
-# Lecture: Moving Image and Audio Preservation
+# Moving Image and Audio Preservation
+Sometimes also known as "time-based media"
 
 ---
 
 # Analog Recording Technology
 
-In order to fully understand audio-visual preservation reformatting techniques and tools, it’s important to know a little bit about how analog recording technology works.
+In order to fully understand audio-visual preservation reformatting techniques and tools, it’s important to know a little bit about how **analog** recording technology works.
 
 ---
 
 <div class="quote">
-“All audiovisual signal/information is ultimately just electricity passed along on wires, whether that signal is interpreted as analog (a continuous wave) or digital (a string of binary on/off data points). So at some level measuring a signal quantitatively (rather than how it looks or sounds) always means getting down and interpreting the voltage: the fluctuations in electric charge passed along a cable or wire.”
+All audiovisual signal/information is ultimately just electricity passed along on wires, whether that signal is interpreted as analog (a continuous wave) or digital (a string of binary on/off data points). So at some level measuring a signal quantitatively (rather than how it looks or sounds) always means getting down and interpreting the voltage: the fluctuations in electric charge passed along a cable or wire.
 </div>
 
 <div class="author">Ethan Gates</div>
@@ -52,34 +50,56 @@ In order to fully understand audio-visual preservation reformatting techniques a
 # Analog signal
 —
 
-An **analog signal** is a continuous wave that represents information through varying properties such as amplitude, frequency, or phase.
+An **analog signal** is a continuous wave that represents information through varying properties such as _amplitude_, _frequency_, or _phase_.
 
 ---
 
 <img src="img/week_12_ripple.webp" style="width: 50%; height: auto;">
-Analog = smooth wave
 
 <!--presenter notes
 
 Image credit: Mary Kidd
 
-Before the rise of digital technologies, both professionals and everyday consumers relied on analog recording and playback devices. These devices operated by capturing information using what we call analog signals.
+Before the rise of digital technologies, both professionals and everyday consumers relied on analog recording and playback devices. These worked by capturing information using what we call analog signals.
 
-What do we mean by "analog signal"? When you hear "analog", imagine the waves and ripples made by a pebble or a flower dropped into a lake. The resulting waves rise up and down in a smooth, continuous pattern. The water's undulations are a direct, physical result of the rock displacing water, and therefore, the water is reacting in an "analogous" fashion.
+What do we mean by "analog signal"? When you hear "analog", imagine the waves and ripples made by a pebble or a flower dropped into a lake. The resulting waves rise up and down in a smooth, continuous pattern. The water's undulations are a the physical result of the force of the rock hitting the water, and displacing the water by forcing it outward. The water is therefore reacting in an "analogous" fashion. Meaning, if we were to throw a larger rock into the water, you'd get larger waves, and if you were to throw smaller rocks you would get smaller waves.
 
 -->
 
 ---
 
-<img src="img/week_12_analog_wave.png" style="width: 100%; height: auto;">
+<img src="img/av-rock.gif" alt="Animated GIF of rocks of varying sizes tumbling down a green hill. The caption reads: Below Mt. Avalanche">
 
 <!--presenter notes
 
-When sound is made, similar to waves on a pond, it ripples through a medium of particles in the air in a particular shape, form and frequency.
-
-This is a diagram of a waveform, showing its characteristics likes peaks and troughs, and cycles through time. The combination of characteristics is what produces a specific sound type, quality and tone, like high- or low-pitch, loud or quiet, a certain or combination of notes.
+Now let's pretend we've taken a rock, and instead, throw it at the ground instead of in the water. If you do this, the rock will make a sound. Similar to waves on a pond, the sound the rock makes is a result of waves traveling invisibly through the air. Your inner ear anatomy pick up these waves in the form of vibrations, and those vibrations are translated by your brain into discernible sound.
 
 -->
+
+---
+
+<img src="img/av-prism.gif" alt="Animated gif of rainbow prism reflecting on a wall.">
+
+<!--presenter notes 
+
+Similar to sound, light also travels in the form of waves. Different colors have different wave forms. For example, red light waves have long, infrequent waveforms, where violet light is short and frequent. Your eyes pick up on and react to these waves, and translate them into your vision.
+
+-->
+
+---
+
+<img src="img/week_12_analog_wave.png" alt="Diagram of the properties of a wave, showing an XY access and a sine wave with various characteristics such as amplitude, time, cycle width, etc.">
+
+<!-- Presenter notes
+
+Different sounds and images form different shaped waves. The wave's characteristics dictate what you hear.
+
+On screen is a diagram of a waveform, showing various characteristics like peaks and troughs, and cycles through time. The combination of characteristics is what produces a specific sound type, quality and tone, like high- or low-pitch, loud or quiet, a certain or combination of notes -->
+
+---
+
+<img src="img/av-tinfoil.png" alt="Screenshot of a Smithsonian curator demoing Thomas Edison's 1877 Tinfoil Phonograph">
+<a href="https://thekidshouldseethis.com/post/edisons-1877-tinfoil-phonograph-a-nmah-demonstration" target="_blank">NMAH Demo of a Tinfoil Phonograph</a>
 
 ---
 
@@ -92,7 +112,11 @@ This is a diagram of a waveform, showing its characteristics likes peaks and tro
 
 <!--presenter notes
 
-When a vinyl record, made of plastic, is made, its surface is etched into, in the shape and form of the sound waves that it captured from a recording. This physical imprint is analagous to the waves produced by the instruments and voices (hence why analog is called "analog".)
+The tinfoil phonograph was one of the first devices ever made that allowed for both recording AND playback. You may have noticed that this used no electricity: just hand-cranking.
+
+Fast-forward nearly 100 years later, and you get more advanced recording and playback devices, including the vinyl record. Here, we can see a microscopic image of the surface of a vinyl LP. Here, you can see the sound waves literally etched into the plastic.
+
+The physical imprint made by Edison's needle onto tinfoil, or onto plastic, are both analagous to the waves produced by the things making the sound, whether you're shouting into a mouthpiece or a band playng music in a recording studio. This is why we call recording devices "analog": it is because the way they record information about the world, whether that's sound or light or color, is analagous to the waves occurring (or occurred) in the world.
 
 -->
 
@@ -465,43 +489,50 @@ What does a media file consist of? In Ashley’s tutorial, she explains a video 
 
 ---
 
-<div class="container">
-    <div class="box file">Media File
-        <div class="description">Example: MyMovie.mp4</div>
+<div class="media-diagram">
+    <div class="media-box media-file">Media File
+        <div class="media-description">Example: MyMovie.mp4</div>
     </div>
-    <div class="equals">=</div>
-    <div class="box container-box">Container
-        <div class="description">AKA "wrapper": holds streams</div>
-        <ul>
-            <li><a href="https://en.wikipedia.org/wiki/MP4_file_format" target="_blank">MP4</a></li>
-            <li>AVI</li>
-            <li>MKV</li>
-            <li>MOV</li>
-            <li>WAV</li>
-            <li>FLAC</li>
-            <li>MP3</li>
-            <li>OGG</li>
-        </ul>
+
+<div class="media-symbol">=</div>
+
+<div class="media-box media-container-box">Container
+
+<div class="media-description">AKA "wrapper": holds streams</div>
+    <ul>
+        <li><a href="https://en.wikipedia.org/wiki/MP4_file_format" target="_blank">MP4</a></li>
+        <li>AVI</li>
+        <li>MKV</li>
+        <li>MOV</li>
+        <li>WAV</li>
+        <li>FLAC</li>
+        <li>MP3</li>
+        <li>OGG</li>
+    </ul>
     </div>
-    <div class="plus">+</div>
-    <div class="box codec">Streams
-    <div class="description">Encoded/decoded using codecs</div>
-        <ul>
-            <li>Video</li>
-            <li>Audio</li>
-            <li>Subtitles/Text</li>
-            <li>Chapters</li>
-        </ul>
-    </div>
+
+<div class="media-symbol">+</div>
+
+<div class="media-box media-codec">Streams
+<div class="media-description">Encoded/decoded using codecs</div>
+    <ul>
+        <li>Video</li>
+        <li>Audio</li>
+        <li>Subtitles/Text</li>
+        <li>Chapters</li>
+    </ul>
+</div>
 </div>
 
 <!--presenter notes
 
 Media files at first may just seem like any file. However, they're slightly complex, in the sense that they are multi-layered.
 
-A good way to think about a media file is a kind of bucket that holds things. The technical term for this is a "container" or a "wrapper". In order to tell the type of container, all you need to do is look at the file extension at the end of the file: .mp4 means we are looking at an MP4 container.
+A good way to think about a media file is a kind of bucket that holds things. The technical term for this is a "container" or a "wrapper". In order to tell what type of container a media file is, all you need to do is look at the file extension at the end of the file: .mp4 means we are looking at an MP4 container, for example.
 
-The media container contains what are known as "streams", which are the files that live within the container. A simple way to look up what streams can live within a container, you can look at its Wiki. For MP4:
+The media container contains what are known as "streams", which are the files that live within the container. Depending on the container, you can have multiple different streams.
+
+A simple way to look up what streams can live within a container, you can look at its Wiki. For example, for MP4s:
 
 https://en.wikipedia.org/wiki/MP4_file_format
 
@@ -528,7 +559,7 @@ Within the data streams section of a media container you'll notice it mentions "
 
 A codec refers to how a data stream may be encoded, or decoded (the word codec is a portmanteau of the words "encoded" and "decoded").
 
- compresses or decompresses a media file. Codecs are used to make files more manageable, in terms of the amount of storage space they use on servers, the amount of bandwidth required to transmit them over networks, all the while retaining a certain quality that can either be discernable or not, which depends in part on whether the codec applied uses a lossy or lossless compression algorithm.
+The purpose of a codec is to make files more manageable, in terms of the amount of storage space they use on servers, the amount of bandwidth required to transmit them over networks, all the while retaining a certain quality that can either be discernable or not, which depends in part on whether the codec applied uses a lossy or lossless compression algorithm.
 
 -->
 
