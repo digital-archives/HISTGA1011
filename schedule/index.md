@@ -23,4 +23,4 @@ has_children: true
 | [Week 12](week_12.html) | April 8 | Web and Email Archiving | <a href="https://digital-archives.github.io/HISTGA1011/activities/podcast.html" target="_blank">Podcast Archaeology</a> |
 | [Week 13](week_13.html) | April 15 | On-site Field Trip: MoMA Archives (details TK)<br> | |
 | [Week 14](week_14.html) | April 22 | No Class: Work on your final projects | Optional: Schedule a consult with me |
-| [Week 15](week_15.html) | April 29 | Last day of class<br>**_Final presentations due_** | Final paper due date TK |
+| [Week 15](week_15.html) | April 29 | Last day of class<br>**_Final presentations due_** | Final paper due date due May 16 |
