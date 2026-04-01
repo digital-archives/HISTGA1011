@@ -23,6 +23,11 @@ paginate: true
 ---
 
 # Announcements
+- METRO <a href="https://metro.org/grants/continuing-education/?mc_cid=f06ae42383&mc_eid=05e310c106" target="blank">Continuing Education</a> and <a href="https://metro.org/grants/digitization-project-grants/?mc_cid=f06ae42383&mc_eid=05e310c106" target="_blank">Digitization Grants</a>.
+- <a href="https://www.wordsofmouth.org/" target="_blank">Words of Mouth</a> Newsletter (sends weekly jobs, fellowships in cultural heritage/arts)
+- NYU School of Professional Studies: <a href="https://www.sps.nyu.edu/courses/INFO1-CE9990-introduction-to-python-programming.html" target="_blank">Introduction to Python Programming</a>
+- Due date for paper: May 15, 2026
+
 
 ---
 
