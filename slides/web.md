@@ -22,6 +22,8 @@ paginate: true
 ---
 
 # Announcements
+* Next week **April 15**: Field trip to MoMA (our host will be archivist Ana Marie). Please arrive at the **Cullman Building lobby (4 West 54th Street) between 5:15-5:30**.
+* Next next week **April 22** there is **no class**. Please take this time to work on your final project presentation and paper. Feel free to schedule a consultation with me between now and then: office hours to be posted.
 
 ---
 
@@ -38,7 +40,7 @@ CC BY-SA 4.0
 File:Arpanet in the 1970s.png
 Created: 4 January 2022
 
-The late 1960s heralded the first networked computers. Advanced Research Projects Agency Network or ARPANET - a precursor to the modern internet - was the first wide-area packet-switched network. Packet-switched networks transmitted data from one node to another in a more efficient manner, and this model is essentially the backbone for how for data communications in computer networks worldwide today work.
+The late 1960s heralded the first networked computers. Advanced Research Projects Agency Network or ARPANET - a precursor to the modern internet - was the first wide-area "packet-switched" network. Packet-switched networks transmitted data from one node to another in a more efficient manner, and this model is essentially the backbone for how for data communications in computer networks worldwide today work.
 
 In the chart above, you can see a map of ARPANET node map from the early 1970s.
 
@@ -50,9 +52,9 @@ In the chart above, you can see a map of ARPANET node map from the early 1970s.
 
 <!--presenter notes
 
-Packet switching allows information to be transmitted quickly over networks. In a more traditional set up, you have one payload (e.g. an email message), transmitted over one line. However, if you wanted to transfer 2 messages at the same time, you'd create a traffic jam.
+Packet switching allows information to be transmitted quickly over networks. In a more traditional set up, you have one payload (e.g. an email message), transmitted over one line. However, if you wanted to transfer 2 messages at the same time, you'd create a traffic jam, since you're working with essentially a one-way, one-lane street.
 
-In a packet switching system, you take your payload, and break it up into packages, and number them in order. Once broken up, you can send the pieces of the package through multiple lines, so incase there's a traffic jam on one line, it can be routed or switched to another. Upon delivery, the packages are assembled in order.
+In a packet switching system, you take your payload, and break it up into packages, and number them in order. Once broken up, you can send the pieces of the package through multiple lines, so incase there's a traffic jam on one line, it can be routed or switched to another line. Upon delivery, the packages are assembled in order by the receiving computer.
 
 -->
 
@@ -67,13 +69,15 @@ https://www.multicians.org/thvv/ah-9-05.pdf
 See also The History of Electronic Mail
 by Tom Van Vleck https://www.multicians.org/thvv/mail-history.html
 
-This document is an excerpt from the CTSS (Compatible Time-Sharing System) Programmer’s Guide, specifically describing the MAIL command—one of the earliest examples of electronic mail functionality.
+Along with packet switching technology, you also had home computer hobbyists who were taking to phone lines to transmit information. Like most nascent communication technologies you had just everyday people trying to talk to one another and sending the equivilant of a scrap of paper in an envelope with no return address. As networked communication methods picked up, you start to see more structure put into place.
+
+This document you see on the slide is an excerpt from the CTSS (Compatible Time-Sharing System) Programmer’s Guide, specifically describing the MAIL command—one of the earliest examples of electronic mail functionality.
 
 -->
 
 ---
 
-<img src="img/week_12_email_headers.png">
+<img src="img/email_headers.png">
 
 <!--presenter notes
 
@@ -121,8 +125,7 @@ White house emails were transmitted using the IBM "PROFS" system. PROFS stands f
 
 ---
 
-## Timeline
-- **January 19, 1989**: At the end of Raegan presidency, Executive Director of the National Security Archive Scott Armstrong filed an Freedom of Information Act (FOIA) request to ensure White House was subject to archival review before disposition.
+- **January 19, 1989**: End of Raegan's presidency, Executive Director of the National Security Archive Scott Armstrong filed an Freedom of Information Act (FOIA) request to ensure White House was subject to archival review before disposition.
 - DC Judge filed a temporary restraining to prevent record destruction.
 - **September 1989**: Government attempted to dismiss the case. Motion denied by Judge Charles R. Richey, which the government appealed.
 
@@ -133,9 +136,9 @@ White house emails were transmitted using the IBM "PROFS" system. PROFS stands f
 
 ---
 
-# Question
+## Question
 
-## What’s missing when email records are preserved only as printed copies, and why did the court find that approach insufficient under federal records laws?
+# What’s missing when email records are preserved only as printed copies?
 
 <!--presenter notes
 
@@ -163,9 +166,7 @@ Why? Because email has metadata, attachments, headers, and other contextual info
 ## System
 # ePADD - 1/3
 
-**ePadd** is an email archiving application developed by Stanford University.
-
-Its features include bulk screening/redaction tool for personally-identifying/sensitive information, and provides a way to make processed email archives searchable, discoverable through a set of structured metadata that can be queried/browsed.
+**ePadd** is an email archiving application developed by Stanford University. Its features include bulk screening/redaction tool for personally-identifying/sensitive information, and provides a way to make processed email archives **searchable and discoverable** through a set of structured metadata that can be queried/browsed.
 
 ---
 
@@ -239,7 +240,7 @@ _Browse an email archive._
 
 <div class="quote">
 
-“Websites have … become an essential component of cultural memory, and will inevitably be tomorrow’s historical documents. Yet websites are extremely unstable, fragile, and vulnerable to loss. Anyone with an interest in historical documentation should be concerned about the volume of significant content disappearing daily from the cultural record.”
+Websites have … become an essential component of cultural memory, and will inevitably be tomorrow’s historical documents. Yet websites are extremely unstable, fragile, and vulnerable to loss. Anyone with an interest in historical documentation should be concerned about the volume of significant content disappearing daily from the cultural record.
 
 </div>
 
@@ -726,9 +727,9 @@ _Look at how a WARC file works._
 
 <ul class="activity-list">
 
-<li>Click <b>Choose File</b>; locate and select the WARC just downloaded</li> and click <b>Load</b>
-<li>In the drop-down next to to Search, select “HTML”</li>
-<li>Click on 5-10 HTML files to browse the web archive</li>
+<li>Click <b>Choose File</b>; locate and select the WARC just downloaded and click <b>Load</b>.
+<li>In the drop-down next to to Search, select “HTML”</li>.
+<li>Click on 5-10 HTML files to browse the web archive</li>.
 
 </ul>
 
@@ -790,7 +791,7 @@ _Look at a web archive made with Archive-It._
 Compare the two Wayback Machine captures you just explored. Consider the **contextual information** available:  
 
 - Can you determine **why**, **how**, or **how often** these captures were made?
-- What clues (or lack thereof) help you understand the capture process?
+- What clues help you understand the capture process?
 - What additional information would you like to see to better understand the **context** of these web captures?
 
 ---
@@ -798,9 +799,9 @@ Compare the two Wayback Machine captures you just explored. Consider the **conte
 ## Tool
 # Webrecorder
 
-* Open source: originally developed by <a href="https://rhizome.org/" target="_blank">Rhizome</a> to capture digital art
-* User-driven capture within the comfort of a browser: Result is a WARC file
-* Also provides mechanism to "replay" a capture
+* Open source: originally developed by <a href="https://rhizome.org/" target="_blank">Rhizome</a> to capture digital art.
+* User-driven capture within the comfort of a browser.
+* Also provides mechanism to "replay" a capture.
 * Two main tools are <a href="https://ArchiveWeb.page/" target="_blank">https://archiveweb.page/</a> (to capture) and <a href="https://ReplayWeb.page/" target="_blank">https://replayweb.page/</a> (to replay)
 
 <!--presenter notes
