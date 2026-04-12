@@ -119,17 +119,12 @@ Identify potential obstacles and how you plan to address them, including:
 Include the following supporting documents:  
 
 ### End-User Experience Mockup  
-- Your mockup should serve as a visual guide to how users will search for, discover, and otherwise view/interact with your selected materials. Suggested structure:
-  - **Initial search:** Show how users will first initiate a search for your materials. Will this be through the finding aid portal itself, through some other discovery layer, or something else?
+Your Mockup should serve as a visual guide to how users will search for, discover, and otherwise view and interact with your selected materials. Suggested structure:
+  - **Initial search:** Show how users will first initiate a search for your materials.
   - **Filtering/sorting Results:** What do your search results look like? How will users narrow down results to find your collection materials? Show any dropdown menus, checkboxes, sidebars/facets, or filters.
-  - **Individual Page:** Provide an example of a page that displays the digitized material in detail. What features does the viewer give you, and how can the user interact with the materials.
-- Suggestion: Use screenshots, and then Google Slides or an image editing program to annotate.
+  - **Individual Page:** Provide an example of a page that displays the digitized material in detail. What features does the viewer give you, and how can the user interact with the materials?
 
 This Mockup will be central to your <a href="https://digital-archives.github.io/HISTGA1011/final_project/presentation" target="_blank">Presentation</a>, where you will discuss features and functionalities of your access portal
-
-### Workflow Diagram  
-- A diagram mapping out your workflow from digitization to access
-- Ensure it visually aligns with your workflow narrative
 
 ---
 
