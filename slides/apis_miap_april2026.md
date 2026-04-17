@@ -8,6 +8,7 @@ paginate: true
 ---
 
 # Application Programming Interfaces (API)
+Mary Kidd
 
 ---
 
@@ -24,14 +25,16 @@ paginate: true
 ## Example
 # Preservica-ArchivesSpace Integration
 
-ArchivesSpace and Preservica exchange information with one another and update each other.
+**ArchivesSpace** and **Preservica** exchange information with one another and update each other. This sort of relationship between systems is called an **integration**.
 
 ---
 
 ## System
 # ArchivesSpace
 
-**ArchivesSpace** is the system of record for descriptive metadata of archival content. At Yale, it is known by its branded name <a href="https://archives.yale.edu/" target="_blank">Archives at Yale</a>.
+**ArchivesSpace** (aka "ASpace") is the system of record for descriptive metadata of archival content.
+
+At Yale, it is known by its branded name <a href="https://archives.yale.edu/" target="_blank">Archives at Yale</a>.
 
 ---
 
@@ -42,59 +45,69 @@ ArchivesSpace and Preservica exchange information with one another and update ea
 
 ---
 
-# Each day, Yale staff **ingest** files into Preservica system. This might look like a digital video file, created as a result of analog to digital reformatting, as part of a greater archival collection.
+# **Preservica** side of the integration
 
+---
+
+# Each day, Yale staff **ingest** files into Preservica system.
+
+Example of an ingested file
 <a href="https://archives.yale.edu/repositories/11/archival_objects/673725" target="_blank">"James Merrill Estate" (1 of 4), 1995 March 13</a>
 
 ---
 
-# **Preservica** Side of the Integration
+# When a file is ingested, Preservica links them to ASpace, and **pulls in a copy of its descriptive metadata** to be stored along with the rest of digital preservation Preservica metadata for those files.
 
 ---
 
-# When Yale ingests file to Preservica, it links them to ASpace, and **pulls in a copy of descriptive metadata** from ASpace to be stored along with the rest of the Preservica metadata for those files.
+# This process is helpful for long-term preservation, such that if **something ever happened to ASpace**, we would still have a copy of the archival descriptive metadata for each file ingested.
 
 ---
 
-# This is helpful for long-term preservation, such that if **something ever happened to ASpace**, we would still have a copy of the archival descriptive metadata for each file ingested.
+# Within Preservica, the integration also **moves the files into a folder hierarchy** that matches the record's descriptive hierarchy in ASpace, which can be helpful for discovery when browsing for items within Preservica.
 
 ---
 
-# Within Preservica, the integration also **moves the files into a folder hierarchy that matches the record's descriptive hierarchy in ASpace**, which can be helpful for discovery when browsing for items within Preservica.
+# **ArchivesSpace** side of the integration
 
 ---
 
-# **ArchivesSpace** Side of the Integration
+# In ArchivesSpace, Preservica creates a new and unpublished **digital object (DO)** record in ASpace linked to a parent archival object (AO) record and includes **a link back to files in Preservica**.
 
 ---
 
-# In ArchivesSpace, Preservica creates a **new unpublished digital object** (DO) record in ASpace that is linked to the archival object (AO) record and includes a link back to files in Preservica.
+# Example Digital Object in ArchivesSpace
+TK
 
 ---
 
-# **Unpublished notes** are also added to AO at every level of the item's parent hierarchy in ASpace (up to the Resource record item) that link back to the corresponding folder in Preservica.
-
----
-
-# This allows those using the staff side of ASpace to see at a glance whether a particular item has been ingested to Preservica (and its URL).
+# This allows staff using ASpace to see at a glance whether a particular item has been ingested to Preservica.
 
 <a href="archivesspace.library.yale.edu/resources/1672#tree::archival_object_6763726" target="_blank">Staff-side view of a record containing a Preservica File Version</a>
 
 ---
 
-# All of this work is done using **APIs**.
+# All of this work is done automatically using **Application Programming Interfaces (APIs)**.
 
 ---
 
-# **APIs (Application Programming Interfaces)** allow systems and users of systems "talk" to one another and exchange/update data.
+# APIs allow **_systems_** and **_users of systems_** to "talk" to one another and exchange and update data.
 
 ---
 
-# ASpace uses **Encoded Archival Description (EAD)** for archival description and Preservica uses **Open Preservation Exchange (OPEX)** for ingest.
+# ASpace uses **Encoded Archival Description (EAD)** for archival description.
+
+Link to some EAD TK
 
 ---
 
-# APIs can be used to knit disparate systems together in a way that they can Create, Read, Update and even Delete data from each other.
+# Preservica uses **Open Preservation Exchange (OPEX)** for ingest.
+
+Link to some OPEX TK
+
+---
+
+# APIs provide a bridge between systems so that they, in turn, can **create, read, update and delete** data from each other.
 
 <img src="img/week_04_knit.gif">
 
@@ -103,7 +116,7 @@ ArchivesSpace and Preservica exchange information with one another and update ea
 ## Definition
 # CRUD
 
-**CRUD** is an acronym that stands for Create, Read, Update and Delete, and describe 99% of what you can do within a database.
+**CRUD** is an acronym that stands for **Create, Read, Update and Delete**, and describes 99% of what you can do within a database system.
 
 <!-- See this Reddit post: https://www.reddit.com/r/learnprogramming/comments/xo6oe5/how_does_crud_relate_to_a_rest_api/ -->
 
@@ -122,29 +135,257 @@ Application Programming Interfaces, or APIs, provide a way for different softwar
 
 ---
 
-## Definition - 1/2
+## Definition - 2/2
 # Application Programming Interface (API)
 
-APIs often use web protocols (sets of instructions specific to computers or servers within a network) to execute CRUD operations.
+**APIs** use web protocols to execute CRUD operations between computers connected through networks.
 
 ---
 
-# Q: Simply put, how does an API work?
-# **A: By sending requests via HTTP (similar to how your web browser works)**
-
+# You have (unbeknowst to you) initiated a CRUD operation. How? **Through your web browser!**
 
 ---
 
-# It is very common to access and use software using a web browser. For example, most people use **Gmail using a web browser**. You do not need to download or install it locally.
+## Mini Lesson
+# Web Foundations
 
 ---
 
 ## Definition
-# Software as a Service (SaaS)
+# Hypertext Document
 
-_Pronounced like "sassy" without the -y._
+A **hypertext document** is a type of electronic document that contains hyperlinks to other documents or resources. A type of hypertext document we are all familiar with is a website.
 
-**Software as a Service** (SaaS) is a cloud computing service model in which a provider delivers software to clients while managing the required physical and software resources.
+---
+
+<img src="img/week_13_hypertext.gif" alt="Gif image showing two documents, Document A and Document B. Document A contains text, you can find this in Section 5 of B, with an arrow pointing from B, to Document B, showing how hypertext documents are related.">
+
+<!--presenter notes
+
+Image Credit:
+University of Cape Town, Department of Computer Science. "The Client-Server Model."
+Source: MIT Web Programming Course Notes
+Direct Image URL: 01_001.gifs
+
+The world wide web aka “the web” is built on the idea of linking hypertext documents together to form a vast network of interconnected information. In this way, hypertext documents are a fundamental and essential concept that underpins the web’s structure and functionality.
+
+A hypertext document is a type of electronic document that contains links to other documents or resources. Hypertext allows the reader to navigate between different sections of a document or to jump to related content on other websites or documents.
+
+-->
+
+---
+
+## Definition
+# Hypertext Markup Language (HTML)
+
+**Hypertext Markup Language (HTML)** is used for creating websites and other types of documents that can be displayed in a web browser.
+
+<!--presenter notes
+
+Websites are constructed using Hypertext Markup Language or HTML. A markup language is a system of annotating a document in a way that is machine-readable and provides instructions on how to display the content.
+
+In the example of the screen, I have demonstrated how a link is coded using HTML. In particular we would use the anchor or <a> tag (anchor refers to any point where users can navigate to a different location). The anchor tag is qualified using the “href” attribute (href stands for for “hypertext reference”). This is followed by an equals sign, and then the URL where we want the user to go embedded in opening and closing quotation marks. This is followed by some text (A place to go), which is what the front-end user sees.
+
+-->
+
+---
+
+## Definition
+# Hyperlink
+
+A **hyperlink** or shortened to **link** is an _interactive component_ (i.e. text, graphic) of a website that, when clicked, brings the user to another part of the web.
+
+---
+
+What user sees:
+Here is <a href=”aplace.go”>a link</a>.
+
+What HTML looks like:
+Here is ```<a href="aplace.go">``` a link```</a>```.
+
+---
+
+<div class="browser-window">
+  <div class="browser-header">
+    <div class="browser-controls">
+      <div class="control red"></div>
+      <div class="control yellow"></div>
+      <div class="control green"></div>
+    </div>
+    <div class="address-bar">https://thecreativeindependent.com/</div>
+  </div>
+  <div class="browser-content">
+  </div>
+</div>
+
+<!--presenter notes
+
+I want to step us in a bit more depth what happens behind the scenes when HTTP requests and responses are mad browsers, using a familiar example you’ve used probably hundreds of times: entering in a URL into a browser address bar, and hitting enter, to look up a website. It’s helpful to know how HTTP works under the hood, because a lot of common tools used by web archivists use HTTP to work.
+
+-->
+
+---
+
+<div class="browser-window">
+  <div class="browser-header">
+    <div class="browser-controls">
+      <div class="control red"></div>
+      <div class="control yellow"></div>
+      <div class="control green"></div>
+    </div>
+    <div class="address-bar">https://thecreativeindependent.com/</div>
+  </div>
+  <div class="browser-content">
+    <p>Sending request: "Who is thecreativeindependent.com?"</p>
+    <button class="action-button">Send Request</button>
+  </div>
+</div>
+
+---
+
+<!-- DNS Server Table -->
+<table class="dns-table">
+  <tr>
+    <th>Domain Name</th>
+    <th>IP Address</th>
+  </tr>
+  <tr>
+    <td>thecreativeindependent.com</td>
+    <td>192.0.2.123</td>
+  </tr>
+  <tr>
+    <td>nyu.edu</td>
+    <td>216.165.47.10</td>
+  </tr>
+  <tr>
+    <td>wikipedia.org</td>
+    <td>91.198.174.192</td>
+  </tr>
+  <tr>
+    <td>archive.org</td>
+    <td>207.241.224.2</td>
+  </tr>
+  <tr>
+    <td>etc...</td>
+    <td>
+  </tr>
+</table>
+
+---
+
+<!-- DNS Server Table -->
+<table class="dns-table">
+  <tr>
+    <th>Domain Name</th>
+    <th>IP Address</th>
+  </tr>
+  <tr style="background: #27c93f; font-weight: bold; color: white;">
+    <td>thecreativeindependent.com</td>
+    <td>192.0.2.123</td>
+  </tr>
+  <tr>
+    <td>nyu.edu</td>
+    <td>216.165.47.10</td>
+  </tr>
+  <tr>
+    <td>wikipedia.org</td>
+    <td>91.198.174.192</td>
+  </tr>
+  <tr>
+    <td>archive.org</td>
+    <td>207.241.224.2</td>
+  </tr>
+  <tr>
+    <td>etc...</td>
+    <td>
+  </tr>
+</table>
+
+---
+
+<div class="browser-window">
+  <div class="browser-header">
+    <div class="browser-controls">
+      <div class="control red"></div>
+      <div class="control yellow"></div>
+      <div class="control green"></div>
+    </div>
+    <div class="address-bar">https://thecreativeindependent.com/</div>
+  </div>
+  <div class="browser-content">
+    <p>✅ Found the name! Now connecting to the IP...</p>
+  </div>
+</div>
+
+---
+
+## Definition
+# Internet Protocol (IP) Address
+
+An **internet protocol (IP) address** is a numerical label assigned to each device that participates in the web.
+
+<!--presenter notes
+
+An Internet Protocol Address or IP address is a unique string of characters that identifies each computer using the Internet Protocol to communicate over a network. Your computer, which is a device connected to the internet, has its own unique IP address. All websites are hosted off of their own computer, so all websites, too, are associated with a unique IP.
+
+The reason why your browser looks up IPs is because computers like to communicate with each other in numbers. So basically it’s transforming the human-readable URL into a sequence of numbers that it uses to look up where a website lives.
+
+-->
+
+---
+
+<!-- Browser Window -->
+<div class="browser-window">
+  <div class="browser-header">
+    <div class="browser-controls">
+      <div class="control red"></div>
+      <div class="control yellow"></div>
+      <div class="control green"></div>
+    </div>
+    <div class="address-bar">https://thecreativeindependent.com/</div>
+  </div>
+  <div class="browser-content">
+    <p>🔗 Using TCP/IP connection to connect and receive HTML</p>
+  </div>
+</div>
+
+---
+
+
+## Definition
+# Transmission Control Protocol (TCP)/Internet Protocol (IP) TCP/IP
+
+TCP/IP stands for **Transmission Control Protocol (TCP)/Internet Protocol (IP)**, and is a family of communication protocols used to connect computer systems in a network.
+
+<!--presenter notes
+
+Webpage data is transmitted via Transmission Control Protocol/Internet Protocol or TCP/IP, is a suite of communication protocols that define how data is transmitted over the Internet and other computer networks. It is the most widely used network protocol suite in the world and provides the foundation for the Internet.
+
+TCP/IP consists of two main protocols: TCP and IP.
+
+TCP (Transmission Control Protocol) is a reliable, connection-oriented protocol that provides a way to establish a virtual circuit between two devices over the Internet. TCP ensures that data is transmitted in order, without loss or duplication, and with error detection and correction. TCP also provides flow control and congestion control to prevent network congestion.
+
+IP (Internet Protocol) is a connectionless, best-effort protocol that provides the routing of data packets between devices on a network. IP is responsible for breaking data into packets and addressing them so that they can be routed to their destination.
+
+-->
+
+---
+
+<!-- Browser Window -->
+<div class="browser-window">
+  <div class="browser-header">
+    <div class="browser-controls">
+      <div class="control red"></div>
+      <div class="control yellow"></div>
+      <div class="control green"></div>
+    </div>
+    <div class="address-bar">https://thecreativeindependent.com/</div>
+  </div>
+  <div class="browser-content">
+    <h2 style="text-align: center; font-size: 2rem;">🌀 The Creative Independent 🌀</h2>
+    <p style="text-align: center;">A guide to being a working artist</p>
+  </div>
+</div>
 
 ---
 
@@ -154,7 +395,7 @@ _Pronounced like "sassy" without the -y._
   <span class="square"></span>
 </div>
 
-<div class="activity-title">SaaS in Action - 1/2</div>
+<div class="activity-title">CRUD in Action - 1/2</div>
 
 1. Open a web browser.
 2. Open a website of your choice.
@@ -170,92 +411,185 @@ _Pronounced like "sassy" without the -y._
   <span class="square"></span>
 </div>
 
-<div class="activity-title">Seeing SaaS - 2/2</div>
+<div class="activity-title">CRUD in action - 2/2</div>
 
 4. Select the **Network** tab.
 5. Refresh the page.
-6. Click on any item listed under **Name** and notice the "Request Method" is `GET`.
+6. Click on any item listed under **Name** and notice the "Request Method" listed (it should be: `GET`).
 
 ---
 
-# Your browser uses the **HyperText Transfer Protocol** (HTTP) protocol to send requests from your computer to other networked computers elsewhere.
+<img src="img/week_04_inspect_get.png" alt="Screenshot of my browser screen with the inspect feature open, with a large green arrow pointing to the Request Method value in the Network tab.">
 
 ---
 
-## Definition - 1/2
+# Your browser uses the **HyperText Transfer Protocol** (HTTP) protocol to send requests from your computer (aka "the client") to other servers elsewhere.
+
+---
+
+## Definition
 # HyperText Transfer Protocol (HTTP)
 
-**Hypertext Transfer Protocol (HTTP)** is a mechanism through which networked computers exchange data.
-
----
-
-## Definition - 2/2
-# HyperText Transfer Protocol (HTTP)
-
-HTTP sends requests to other computers structured into REpresentational State Transfer (REST) methods.
+**Hypertext Transfer Protocol (HTTP)** is a communication protocol through which networked computers exchange data.
 
 ---
 
 ## Definition
 # REpresentational State Transfer (REST) Architecture
 
-Representational State Transfer **(REST)** is a set of instructions that are transmitted between computers using HTTP.
+Representational State Transfer **(REST)** is a set of _request types_ that can be transmitted using HTTP.
 
-Common methods include `GET`, `POST`, `PUT`, and `DELETE`.
+Request types include `GET`, `POST`, `PUT`, and `DELETE`. Look familiar?
 
 ---
 
-# REST Method: GET
+# You can think of **REST** as the specific information you write or stick onto a mailed package, while **HTTP** is the system of trucks, planes and people that transmit packages to and from origin and destination.
+
+---
+
+# REST Request: `GET`
 
 Computer A: "Hello, can I `GET` some information from you?"
-Computer B: "Sure, here you go."
+Computer B: "Sure, here's the information you requested."
 
 ---
 
-# Some REST instructions require you provide credentials, known commonly as a **key** to perform certain operations, especially those that involve changing or modifying data.
+# REST Request: `POST` (1/2)
+
+Computer A: "Hello, can I `POST` a brand new record with these details?"
+
+Computer B: "Sure! Your brand new record has been added to the database."
 
 ---
 
-# REST Method: `POST` (1/2)
-
-Computer A: "Hello, can I `POST` a new record? My key is `123456abcdef"`
-Computer B: "Sure! The record has been added."
-
----
-
-# REST Method: `POST` (2/2)
-
-Computer C: "Hello, can I `POST` a new record? I don't have a key."
-Computer B: Denied!
-
----
-
-# REST Method: `PUT`
+# REST Request: `PUT`
 
 Computer A: "Hello, can I `PUT` some data into an existing record?"
+
 Computer B: "Sure, the existing record has been updated."
-Computer B (alt): "Nope, you don't have permission to do that."
-
 
 ---
 
-# REST Method: `DELETE`
+# REST Instrution (Scenario `A`): `DELETE`
 
-Computer A: "Hello, can I `DELETE` this record?"
+Computer A: "Hello, here is my **key**: can I have a token?"
 
-Computer B: "Sure, the record has been removed."
-Computer B (alt): "Nope, you don't have permission to do that."
+Computer B: "Your key is valid and your permissions are _read-only_. Here is your token."
 
----
+Computer A: "Please `DELETE` this record."
 
-# **Q:** How do you get a key?
-# **A:** Sometimes, keys are given out freely; other times, you have to ask a system administrator for special permission (and sometimes you might even have to pay for access.)
+Computer B: "Denied! Your account is not authorized to do that."
 
 ---
 
-# **API Request Structure**
-# API requests have a very **specific shape** you must follow in order to send a request that the recipient computer can understand.
+# REST Instrution (Scenario `B`): `DELETE`
 
+Computer A: "Hello, here is my **key**: can I have a token?"
+
+Computer B: "Your key is valid and your permissions are _read/write_. Here is your token."
+
+Computer A: "Please `DELETE` this record."
+
+Computer B: "Sure thing! Your requested record has been deleted."
+
+---
+
+# Some REST instructions require you provide credentials, known commonly as a **key** to perform certain operations, especially those that involve changing or modifying data. A key acts exactly like a password.
+
+---
+
+# **Q:** How do you obtain a **key**?
+# **A:** Depends! Sometimes you can just sign up for one (for free, or for a fee; usually read-only); other times you have to ask a system administrator to set your access up for you.
+
+---
+
+## Definition
+# Session Token
+
+An API **Session Token** is a unique ID transmitted back to the client that is valid for a specific period of time.
+
+---
+
+# A **token** is similar to a hotel swipe card that deactivates after check-out time, or a time-based subway card that allows you to ride for a day or a week.
+
+---
+
+# **Session duration** is determined by the host providing your access. Sometimes it is time-based; other times it is request count-based. If your session runs out, your token will expire and you will need to generate a new token.
+
+---
+
+# Client sends **key** to server.
+
+# Server returns a **token**.
+
+# Client uses token to send **REST** calls via **HTTP** for their session period.
+
+---
+
+# **General API Request Structure**
+`Request Type` /`endpoint`
+
+---
+
+Examples:
+`GET /api/products/12345`
+
+---
+
+## Definition
+# Endpoint
+
+An API **endpoint** is a _specific URL_ where an API receives requests and sends back responses, like `/api/products/`.
+
+<!--presenter notes
+
+Think of an endpoint as a doorway to an API.
+
+Each API has multiple endpoints, each designed for a specific task.
+
+ArchivesSpace provides a list of API endpoints. An API endpoint is a specific point of interaction between an API (Application Programming Interface) and the outside world, typically represented by a URL where the API can receive requests and send responses.
+
+ArchivesSpace offers online documentation for all available endpoints. Using our cooking analogy, an endpoint is like browsing the menu of a restaurant.
+
+In this case, I want to "order up" a list of repositories. To do this, I would search the ASpace REST API documentation for the keyword "repository" to see what it offers. Sure enough, there is an endpoint called "Get a List of Repositories," which seems to be exactly what I need.
+
+You can check out the documentation here: [Get a List of Repositories](https://archivesspace.github.io/archivesspace/api/#get-a-list-of-repositories)
+
+The documentation tells me that the specific endpoint is called `/repositories`. So, what does this mean for me?
+
+-->
+
+---
+
+# The endpoint will look different depending on the platform you are requesting information from, and to know that you need to look up its **API documentation**.
+
+---
+
+# **Example API Documentation**
+# https://archivesspace.github.io/archivesspace/api/
+
+---
+
+# After sending an instruction like `GET` or `POST`, the API will return information to you. This info is sometimes referred to as the **payload**, and is usually structured in as **JSON**-formatted data.
+
+---
+
+## Definition
+# JavaScript Object Notation (JSON)
+
+**JavaScript Object Notation (JSON)** (pronounced "jay-sohn") is a structured data format used for exchanging information between systems.
+
+<!--presenter notes
+
+- Designed to be easy to read/write for humans and machines.
+- Many APIs return data in JSON format because it is widely supported.
+
+When we make an API request, the response we get back, often referred to as the "Payload" needs to be structured in a way that both humans and computers can understand. One of the most common formats for this is JSON, or JavaScript Object Notation.
+
+JSON is a lightweight, easy-to-read format used for exchanging data between systems. It’s widely used in APIs because it’s simple for machines to process while still being human-readable.
+
+When we requested data from the Library of Congress API, the response came back in JSON format—structured as key-value pairs that represent information. On the next slide, we’ll take a look at how JSON is structured and why it’s useful for APIs.
+-->
 
 ---
 
@@ -265,7 +599,7 @@ Computer B (alt): "Nope, you don't have permission to do that."
   <span class="square"></span>
 </div>
 
-<div class="activity-title">Mini Activity - API Shape</div>
+<div class="activity-title">Mini Activity - LOC API</div>
 
 _See the Library of Congress API in action._
 
@@ -301,54 +635,6 @@ Q = "query"
 FO = "Format"
 
 -->
----
-
-## Definition
-# JavaScript Object Notation (JSON)
-
-**JavaScript Object Notation (JSON)** (pronounced "jay-sohn") is a lightweight, structured data format used for exchanging information between systems.
-
-<!--presenter notes
-
-- Designed to be easy to read/write for humans and machines.
-- Many APIs return data in JSON format because it is widely supported.
-
-When we make an API request, the response we get back needs to be structured in a way that both humans and computers can understand. One of the most common formats for this is JSON, or JavaScript Object Notation.
-
-JSON is a lightweight, easy-to-read format used for exchanging data between systems. It’s widely used in APIs because it’s simple for machines to process while still being human-readable.
-
-When we requested data from the Library of Congress API, the response came back in JSON format—structured as key-value pairs that represent information. On the next slide, we’ll take a look at how JSON is structured and why it’s useful for APIs.
--->
-
----
-
-## Definition
-# Endpoint
-
-An API **endpoint** is a _specific URL_ where an API receives requests and sends back responses.
-
-<!--presenter notes
-
-Think of an endpoint as a doorway to an API.
-
-Each API has multiple endpoints, each designed for a specific task, like searching for weather data or retrieving digitized images.
-
-ArchivesSpace provides a list of API endpoints. An API endpoint is a specific point of interaction between an API (Application Programming Interface) and the outside world, typically represented by a URL where the API can receive requests and send responses.
-
-ArchivesSpace offers online documentation for all available endpoints. Using our cooking analogy, an endpoint is like browsing the menu of a restaurant.
-
-In this case, I want to "order up" a list of repositories. To do this, I would search the ASpace REST API documentation for the keyword "repository" to see what it offers. Sure enough, there is an endpoint called "Get a List of Repositories," which seems to be exactly what I need.
-
-You can check out the documentation here: [Get a List of Repositories](https://archivesspace.github.io/archivesspace/api/#get-a-list-of-repositories)
-
-The documentation tells me that the specific endpoint is called `/repositories`. So, what does this mean for me?
-
--->
-
-
----
-
-<img src="img/week_04_inspect_get.png" alt="Screenshot of my browser screen with the inspect feature open, with a large green arrow pointing to the Request Method value in the Network tab.">
 
 ---
 
@@ -358,13 +644,15 @@ The documentation tells me that the specific endpoint is called `/repositories`.
   <span class="square"></span>
 </div>
 
-Example of a more complicated API URL: <a href="https://www.loc.gov/search/?q=photographs&fo=json&fa=partof:prints%20and%20photographs&dates=1900-1999
+# Guess what this API call is asking for
+
+<a href="https://www.loc.gov/search/?q=photographs&fo=json&fa=partof:prints%20and%20photographs&dates=1900-1999
 " target="_blank">https://www.loc.gov/search/?q=photographs&fo=json&fa=partof:prints%20and%20photographs&dates=1900-1999
 </a>
 
-Question: Looking at the URL, what are we asking the LOC API for?
-
 ---
+
+# **Recap - 1/2**
 
 **API**: A set of rules that networked computers can use to talk to and work with each other.
 
@@ -372,49 +660,13 @@ Question: Looking at the URL, what are we asking the LOC API for?
 
 **REST**: A set of API methods (`GET`, `PUT`, `POST`, `DELETE`)
 
+---
+
+# **Recap - 2/2**
+
 **Endpoint**: A specific URL representing different records an API can see and update.
 
 **JSON**: A data structure that APIs commonly use to represent data.
-
----
-
-<img src="img/week_04_bentley_flow_02.png">
-
-<!--presenter notes
-
-Back to the Bentley!
-
-In the Bentley integration system, we learned that Archivematica, a web-based system, can talk to ASpace, another web-based system, using an API. They do this using a combination of both the HTTP protocol, as well as another protocol known as REST.
-
--->
-
----
-
-# APIs enable...  
-**From within Archivematica (Appraisal tab):**
-- `GET` ASpace resource records/hierarchies
-- `PUT` updates/links back to ArchivesSpace
-
-**From within ASpace:**
-- `POST` Digital Object records linked to Archivematica outputs
-- `PUT` descriptive/rights metadata updates to existing records
-
----
-
-<center><img src="img/week_04_aspace_archivematica_api.png" style="width: 70%; height: auto;"></center>
-
-<!--presenter notes
-
-Here we are seeing Archivematica calling up the archival object tree for a single ArchivesSpace resource using the ASpace API, and presenting it to the user as a list of nested folders.
-
--->
-
----
-
-## Weekly Activity
-# Short Stack 🥞
-
-Start: <a href="https://digital-archives.github.io/HISTGA1011/activities/tech_stack.html" target="_blank">https://digital-archives.github.io/HISTGA1011/activities/tech_stack.html</a>
 
 ---
 
