@@ -770,6 +770,19 @@ curl -s -G \
 
 ---
 
+<img src="img/miap/postman.png" alt="Screenshot of the Postman software application.">
+
+
+---
+
+# Scripts (Python)
+
+Scripts can be used to establish a connection and perform CRUD operations.
+
+Example: <a href="https://github.com/digital-archives/HISTGA1011/blob/main/slides/shakey_weather/shakey_weather.py" target="_blank">shakey_weather</a>
+
+---
+
 ![](img/week_00_weekly_activity_sunset.gif)
 
 _Final questions or reflections?_
