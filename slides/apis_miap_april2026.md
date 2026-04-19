@@ -707,6 +707,69 @@ FO = "Format"
 
 ---
 
+# **Tools** to make API requests
+
+---
+
+# Command Line / Terminal - 1/2
+
+This program is inherent to all Windows and Mac operating systems and allows you to send text commands to your computer without having to install anything.
+
+---
+
+# Command Line / Terminal - 2/2
+
+**Windows**: Press Windows key and type "cmd" (stands for "command"); Hit `Enter`
+
+**Mac**: Press Command (⌘) + Space (opens Spotlight search) and type "terminal"; Hit `Enter`
+
+---
+
+<!-- _class: code-slide -->
+
+## Example command 1
+
+_This command generates my session token_
+
+```bash
+TOKEN=$(curl -s -X POST "$ASPACE_API_URL_TEST/users/$ASPACE_USERNAME/login" \
+  -d password="$ASPACE_PASSWORD" \
+  | jq -r '.session')
+```
+
+---
+
+<!-- _class: code-slide -->
+
+## Example command 2
+
+_This command connects to the API and returns JSON metadata about the archival objects associated with a box, by its barcode_
+
+```bash
+curl -s -G \
+  -H "X-ArchivesSpace-Session: $TOKEN" \
+  --data-urlencode 'q=top_container_uri_u_sstr:"/repositories/12/top_containers/417598"' \
+  -d 'type[]=archival_object' \
+  -d 'page=1' \
+  "$ASPACE_API_URL_TEST/search" | jq
+```
+
+---
+
+<img src="img/miap/wsl_ubuntu.png" alt="Screenshot of the result of running an API call using the curl command using WSL Ubuntu.">
+
+---
+
+<img src="img/miap/wsl_ubuntu_scrolldown.png" alt="Screenshot of the same result from previous slide, scrolled down a bit.">
+
+---
+
+# Postman
+
+<a href="https://www.postman.com/product/" target="_blank">Postman</a> is a software program that you download and install on your computer, that provides a **graphical user interface** (GUI) to make composing API requests easy and repeatable.
+
+---
+
 ![](img/week_00_weekly_activity_sunset.gif)
 
 _Final questions or reflections?_
