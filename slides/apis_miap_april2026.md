@@ -15,6 +15,7 @@ Mary Kidd
 # Today
 - What is an API?
 - What are they used for in libraries, archives and special collections?
+- What are some API tools?
 
 ---
 
@@ -38,6 +39,10 @@ At Yale, it is known by its branded name <a href="https://archives.yale.edu/" ta
 
 ---
 
+<img src="img/miap/screenshot_general_aspace.png" alt="Screenshot of the staff user interface of ArchivesSpace, at the Remembering Peter Davison June 25, 2005 archival object in the Peter Davison papers resource">
+
+---
+
 ## System
 # Preservica
 
@@ -45,30 +50,24 @@ At Yale, it is known by its branded name <a href="https://archives.yale.edu/" ta
 
 ---
 
-# **Preservica** side of the integration
+<img src="img/miap/screenshot_general_preservica.png" alt="Screenshot of the Preservica interface, Access tab, listing a variety of folders">
+
+---
+
+# Preservica <> ASpace Integration **Workflow**
 
 ---
 
 # Each day, Yale staff **ingest** files into Preservica system.
 
 Example of an ingested file
-<a href="https://archives.yale.edu/repositories/11/archival_objects/673725" target="_blank">"James Merrill Estate" (1 of 4), 1995 March 13</a>
+<a href="https://archives.yale.edu/repositories/12/archival_objects/1299468" target="_blank">Pitt-Rivers, George H. L. F., 1927, 1932 (from the Bronislaw Malinowski papers)</a>
+
+> <a href="https://archivesspace.library.yale.edu/resources/4100#tree::archival_object_1299468" target="_blank">Staff-facing record</a>
 
 ---
 
-# When a file is ingested, Preservica links them to ASpace, and **pulls in a copy of its descriptive metadata** to be stored along with the rest of digital preservation Preservica metadata for those files.
-
----
-
-# This process is helpful for long-term preservation, such that if **something ever happened to ASpace**, we would still have a copy of the archival descriptive metadata for each file ingested.
-
----
-
-# Within Preservica, the integration also **moves the files into a folder hierarchy** that matches the record's descriptive hierarchy in ASpace, which can be helpful for discovery when browsing for items within Preservica.
-
----
-
-# **ArchivesSpace** side of the integration
+<img src="img/miap/1299468_sui.png" alt="Screenshot of ASpace staff UI, with Pitt-Rivers, George H. L. F., 1927, 1932 shown in Edit mode">
 
 ---
 
@@ -76,14 +75,30 @@ Example of an ingested file
 
 ---
 
-# Example Digital Object in ArchivesSpace
-TK
-
----
 
 # This allows staff using ASpace to see at a glance whether a particular item has been ingested to Preservica.
 
 <a href="archivesspace.library.yale.edu/resources/1672#tree::archival_object_6763726" target="_blank">Staff-side view of a record containing a Preservica File Version</a>
+
+---
+
+<img src="img/miap/1299468_sui_instances.png" alt="Screenshot of ASpace staff UI, with Pitt-Rivers, George H. L. F., 1927, 1932 shown in Edit mode, scrolled down to the Instances section, showing the Preservica Digital Object instance">
+
+---
+
+<img src="img/miap/1299468_sui_preservica_do.png" alt="Screenshot of ASpace staff UI, with Pitt-Rivers, George H. L. F., 1927, 1932 Preservica Digital Object Instance record open">
+
+---
+
+# When a file is ingested, Preservica links them to ASpace, and **pulls in a copy of its descriptive metadata** to be stored along with the rest of digital preservation Preservica metadata for those files.
+
+---
+
+<img src="img/miap/1299468_preservica_record.png" alt="Screenshot of Preservica UI, showing Archives Space Metadata Properties screen">
+
+---
+
+# This process is helpful for long-term preservation, such that if **something ever happened to ASpace**, we would still have a copy of the archival descriptive metadata for each file ingested.
 
 ---
 
@@ -97,13 +112,21 @@ TK
 
 # ASpace uses **Encoded Archival Description (EAD)** for archival description.
 
-Link to some EAD TK
+---
+
+<img src="img/miap/ead_example.png" alt="Screenshot of Oxygen, showing a sample of some EAD XML">
 
 ---
 
-# Preservica uses **Open Preservation Exchange (OPEX)** for ingest.
+# Preservica uses the **XIP (XML Information Package)** metadata format for ingest.
 
-Link to some OPEX TK
+---
+
+<img src="img/miap/xip_example.png" alt="Screenshot of Preservica XIP XML example">
+
+---
+
+# The API enables XIP metadata to be transmitted to ASpace and visa versa.
 
 ---
 
@@ -122,7 +145,7 @@ Link to some OPEX TK
 
 ---
 
-## Definition - 1/2
+## Definition - 1/3
 # Application Programming Interface (API)
 
 **Application Programming Interfaces**, or APIs, provide a way for disparate systems to request and exchange data from each other without needing to understand the internal workings of the other.
@@ -135,10 +158,17 @@ Application Programming Interfaces, or APIs, provide a way for different softwar
 
 ---
 
-## Definition - 2/2
+## Definition - 2/3
 # Application Programming Interface (API)
 
 **APIs** use web protocols to execute CRUD operations between computers connected through networks.
+
+---
+
+## Definition - 3/3
+# Application Programming Interface (API)
+
+There are two main actors in an API request: the **client** (the person making the API request) and the **host** (the server taking the API request).
 
 ---
 
@@ -427,6 +457,13 @@ IP (Internet Protocol) is a connectionless, best-effort protocol that provides t
 
 ---
 
+## Question
+# In the activity you just did, can you identify who the **client** and **host** were?
+
+## Hint: One of them was your web browser.
+
+---
+
 ## Definition
 # HyperText Transfer Protocol (HTTP)
 
@@ -531,15 +568,15 @@ An API **Session Token** is a unique ID transmitted back to the client that is v
 
 ---
 
-Examples:
-`GET /api/products/12345`
-
----
-
 ## Definition
 # Endpoint
 
-An API **endpoint** is a _specific URL_ where an API receives requests and sends back responses, like `/api/products/`.
+An API **endpoint** is a _specific URL_ where an API receives requests and sends back responses, like `/api/resource/12345`.
+
+---
+
+Example:
+`GET /api/resource/12345`
 
 <!--presenter notes
 
@@ -565,12 +602,12 @@ The documentation tells me that the specific endpoint is called `/repositories`.
 
 ---
 
-# **Example API Documentation**
+## **Example API Documentation**
 # https://archivesspace.github.io/archivesspace/api/
 
 ---
 
-# After sending an instruction like `GET` or `POST`, the API will return information to you. This info is sometimes referred to as the **payload**, and is usually structured in as **JSON**-formatted data.
+# Along with you sending a request data to a host, the host, in turn, will send information back to you. This info is usually structured as **JSON**-formatted data.
 
 ---
 
